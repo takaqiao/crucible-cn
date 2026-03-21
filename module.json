@@ -41,9 +41,9 @@
     "esmodules": [
         "babele-register.js"
     ],
-    "url": "https://github.com/Taka/Crucible-CN",
-    "manifest": "https://github.com/Taka/Crucible-CN/releases/latest/download/module.json",
-    "download": "https://github.com/Taka/Crucible-CN/releases/download/0.8.9.1/crucible-cn.zip",
-    "bugs": "https://github.com/Taka/Crucible-CN/issues",
-    "changelog": "https://github.com/Taka/Crucible-CN/releases/tag/0.8.9.1"
+    "url": "https://github.com/takaqiao/crucible-cn",
+    "manifest": "https://github.com/takaqiao/crucible-cn/releases/latest/download/module.json",
+    "download": "https://github.com/takaqiao/crucible-cn/releases/download/0.8.9.1/crucible-cn.zip",
+    "bugs": "https://github.com/takaqiao/crucible-cn/issues",
+    "changelog": "https://github.com/takaqiao/crucible-cn/releases/tag/0.8.9.1"
 }
