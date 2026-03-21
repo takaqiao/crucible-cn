@@ -1,0 +1,1131 @@
+{
+  "label": "装备\nEquipment",
+  "mapping": {
+    "description": "system.description",
+    "actions": {
+      "path": "system.actions",
+      "converter": "actions_converter"
+    }
+  },
+  "folders": {
+    "Consumables": "消耗品\nConsumables",
+    "Bombs": "炸弹\nBombs",
+    "Flasks": "瓶子\nFlasks",
+    "Other": "其他\nOther",
+    "Scrolls": "卷轴\nScrolls",
+    "Toxins": "毒素\nToxins",
+    "Traps": "陷阱\nTraps",
+    "Accessories": "配件\nAccessories",
+    "Clothing": "服装\nClothing",
+    "Jewelry": "珠宝\nJewelry",
+    "Melee (1h)": "近战（1h）\nMelee (1h)",
+    "Implements": "法器\nImplements",
+    "Ranged": "远程\nRanged",
+    "Armor": "护甲\nArmor",
+    "Heavy": "重型\nHeavy",
+    "Light": "光\nLight",
+    "Medium": "中型\nMedium",
+    "Wilderness": "荒野\nWilderness",
+    "Ingredients": "材料\nIngredients",
+    "Weapons": "武器\nWeapons",
+    "Melee (2h)": "近战（双手）\nMelee (2h)",
+    "Shields": "盾牌\nShields",
+    "Talisman": "护符\nTalisman",
+    "Unarmed": "徒手\nUnarmed",
+    "Light Sources": "光源\nLight Sources",
+    "Tools": "工具\nTools",
+    "Crafting Kits": "制作工具包\nCrafting Kits",
+    "Adventuring Gear": "冒险装备\nAdventuring Gear"
+  },
+  "entries": {
+    "Alchemist's Fire": {
+      "name": "炼金火焰 Alchemist's Fire",
+      "description": {
+        "public": "<p>一种易燃的混合物，撞击时会点燃，并会在短时间内剧烈燃烧。</p>\n<p>A flammable concoction that ignites upon impact and burns intensely for a short time.</p>"
+      },
+      "actions": {
+        "alchemistsFire": {
+          "name": "炼金火焰 Alchemist's Fire",
+          "description": "<p>你掷出@ref[name]，造成<strong>虚弱</strong>的即时伤害，并使所有位于 4 尺半径<strong>爆发</strong>范围内且未能避开此次攻击的敌人陷入@Condition[burning]状态。</p><p>燃烧伤害的数值及其持续时间取决于@ref[name]的品质：</p><ul><li><p><strong>粗制</strong> - 2 伤害，持续 2 轮</p></li><li><p><strong>标准</strong> - 3 伤害，持续 3 轮</p></li><li><p><strong>精良</strong> - 4 伤害，持续 4 轮</p></li><li><p><strong>优异</strong> - 6 伤害，持续 5 轮</p></li><li><p><strong>大师级</strong> - 8 伤害，持续 6 轮</p></li></ul>\n<p>You hurl the @ref[name], dealing <strong>Weakened</strong> immediate damage but causing the @Condition[burning] condition to all enemies in a 4 foot radius <strong>Blast</strong> who fail to avoid the attack.</p><p>The amount of burning damage and its duration is dependent on the quality of the @ref[name]:</p><ul><li><p><strong>Shoddy</strong> - 2 damage for 2 rounds</p></li><li><p><strong>Standard</strong> - 3 damage for 3 rounds</p></li><li><p><strong>Fine</strong> - 4 damage for 4 rounds</p></li><li><p><strong>Superior</strong> - 6 damage for 5 rounds</p></li><li><p><strong>Masterwork</strong> - 8 damage for 6 rounds</p></li></ul>",
+          "effects": [
+            {
+              "name": "炼金火焰 Alchemist's Fire"
+            }
+          ]
+        }
+      }
+    },
+    "Alchemist's Portable Workbench": {
+      "name": "炼金术士的便携式工作台 Alchemist's Portable Workbench",
+      "description": {
+        "public": "<p>一种便携式铜制蒸馏设备，因其可折叠的特性而受到无法使用个人工坊的炼金术士青睐。其许多配件都可以拧下并收纳在蒸馏器主体内部，以便携带。虽然这件物品需要时间来安装和拆卸，但对于经常旅行的人来说，它可以替代更为永久性的实验室。</p>\n<p>A portable copper distilling device favoured by alchemists with no access to a personal workshop due to its collapsible nature. Many of its fittings can be unscrewed and stored inside the body of the still for travel. Though this item takes time to set up and take down, it can stand in for a more permanent laboratory for those who travel.</p>"
+      }
+    },
+    "Alchemist's Toolkit": {
+      "name": "炼金术士工具包 Alchemist's Toolkit",
+      "description": {
+        "public": "<p>一个包裹着皮革的木盒，内含石制研钵和研杵、用于固定数个带塞小瓶的凹槽、一把木勺，以及一个小型可折叠铁架和小型黄铜锅，用于在火上混合材料。</p>\n<p>A wooden box wrapped in leather containing a stone mortar and pestle, spaces for securing several stoppered vials, a wooden spoon, and a small collapsible iron frame and small brass pot for combining ingredients above a fire.</p>"
+      }
+    },
+    "Amulet of Nimbleness": {
+      "name": "灵巧护符 Amulet of Nimbleness",
+      "description": {
+        "public": "<blockquote><p>这条色彩鲜艳的项链上挂着一枚石质护符，护符上的符文发出微光，并伴随着轻微噼啪作响的电流共鸣。持有它时，你会产生一种超现实的感觉，仿佛周围的世界都稍稍放慢了下来。</p></blockquote><p>该护符提供等同于其<strong>品质</strong>与<strong>附魔</strong>加值两者较低者的<strong>反射</strong>防御加值。</p><ul><li><p><strong>精良</strong>品质和<strong>轻微</strong>附魔：<strong>+1 反射</strong></p></li><li><p><strong>卓越</strong>品质和<strong>强效</strong>附魔：<strong>+2 反射</strong></p></li><li><p><strong>大师工艺</strong>品质和<strong>传奇</strong>附魔：<strong>+3 反射</strong></p></li></ul>\n<blockquote><p>This brightly colored necklace holds a stone amulet that glows with a rune that crackles faintly with electrical resonance. While holding it you have the surreal sensation of the world around you slowing down ever so slightly.</p></blockquote><p>This amulet provides a bonus to <strong>Reflex</strong> defense equal to the minimum of its <strong>Quality</strong> and <strong>Enchantment</strong> bonuses.</p><ul><li><p><strong>Fine</strong> quality and <strong>Minor </strong>enchantment: <strong>+1 Reflex</strong></p></li><li><p><strong>Superior </strong>quality and <strong>Major </strong>enchantment: <strong>+2 Reflex</strong></p></li><li><p><strong>Masterwork </strong>quality and <strong>Legendary </strong>enchantment: <strong>+3 Reflex</strong></p></li></ul>",
+        "private": "<p>该物品以护身符的形式呈现，但它也可以是任何类型的饰品，例如戒指、斗篷、护腕，或其他类型的小饰物。</p>\n<p>This item is presented as an amulet, but it can be any type of accessory like a ring, cloak, bracers, or other type of trinket.</p>"
+      }
+    },
+    "Antitoxin": {
+      "name": "抗毒剂 Antitoxin",
+      "description": {
+        "public": "<p>一个细长的小瓶，内含略带金色的液体。它闻起来很难闻，但含有中和多种毒素所必需的炼金药剂。</p>\n<p>A slender phial that contains a slightly golden-colored liquid. It smells foul, but contains the alchemical agents necessary to neutralize a wide variety of toxins.</p>"
+      },
+      "actions": {
+        "antitoxin": {
+          "name": "抗毒剂 Antitoxin",
+          "description": "<p>服用此@ref[name]能够中和目标身上任何 @Condition[poisoned] 状态。更强的毒药需要更强的抗毒剂才能中和。</p><p>此@ref[name]可抵消的毒药类别取决于其品质：</p><ul><li><p><strong>粗制</strong> - 每轮造成 3 点伤害或以下的毒药</p></li><li><p><strong>标准</strong> - 每轮造成 5 点伤害或以下的毒药</p></li><li><p><strong>精制</strong> - 每轮造成 7 点伤害或以下的毒药</p></li><li><p><strong>优质</strong> - 每轮造成 9 点伤害或以下的毒药</p></li><li><p><strong>大师工艺</strong> - 每轮造成 11 点伤害或以下的毒药</p></li></ul>\n<p>Consuming this @ref[name] is able to neutralize any @Condition[poisoned] conditions affecting the target. Stronger poisons require a stronger antitoxin to neutralize.</p><p>The category of poison negated by this @ref[name] depends on its quality:</p><ul><li><p><strong>Shoddy</strong> - Poisons dealing 3 damage or less per round</p></li><li><p><strong>Standard</strong> - Poisons dealing 5 damage or less per round</p></li><li><p><strong>Fine</strong> - Poisons dealing 7 damage or less per round</p></li><li><p><strong>Superior</strong> - Poisons dealing 9 damage or less per round</p></li><li><p><strong>Masterwork</strong> - Poisons dealing 11 damage or less per round</p></li></ul>"
+        }
+      }
+    },
+    "Arcane Orb": {
+      "name": "奥术法球 Arcane Orb",
+      "description": {
+        "public": "<p>一个水晶或玻璃制成的球体——在一位有能力的施法者掌中——会成为其力量的传导媒介。它先在其法珠内汇聚伏打能量，然后以电击之力轰击目标。</p>\n<p>A sphere of crystal or glass that — in the palm of a capable spellcaster — becomes a conduit for their power. It gathers voltaic energy within its orb before blasting a target with electrifying force.</p>"
+      }
+    },
+    "Bag of Holding": {
+      "name": "收纳袋 Bag of Holding",
+      "description": {
+        "public": "<p>这个制作精良的挎包饰有精美繁复的装饰，让人一眼就能看出它并非普通背包。处于<strong>已装备</strong>且<strong>注入</strong>状态时，你的负重容量变为三倍。</p>\n<p>This spectacularly worked satchel features elaborate ornamentation that makes it clear it is no simple pack. While <strong>Equipped</strong> and <strong>Invested</strong>, your carrying capacity is tripled.</p>"
+      }
+    },
+    "Bastard Sword": {
+      "name": "手半剑 Bastard Sword",
+      "description": {
+        "public": "<p>手半剑，也称为一手半剑，是一种多用武器，拥有一把约40英寸长的笔直双刃剑身。这种武器被打造得既适合单手灵活挥舞，也能发挥双手持用的力量。</p>\n<p>A bastard sword, also known as a hand-and-a-half sword, is a versatile weapon with a straight, double-edged blade around 40 inches long. This weapon is forged for both single-handed agility and two-handed power.</p>"
+      }
+    },
+    "Battle Axe": {
+      "name": "战斧 Battle Axe",
+      "description": {
+        "public": "<p>一把重型的新月刃武器，打造出来就是为了劈开护甲与骨头。它的长柄上布满了无数次劈砍留下的痕迹。此武器既可单手持握，也可双手持握。</p>\n<p>A heavy, crescent-bladed weapon built for cleaving through armor and bone alike. Its haft is marked from countless blows. This weapon can be gripped either in one hand or two. </p>"
+      }
+    },
+    "Blanket": {
+      "name": "毯子 Blanket",
+      "description": {
+        "public": "<p>一种厚实的毡制羊毛或纤维布，有着无数用途。</p>\n<p>A thick felted wool or fibre cloth with a myriad of uses.</p>"
+      }
+    },
+    "Blast Flask": {
+      "name": "爆炸瓶 Blast Flask",
+      "description": {
+        "public": "<p>一个装满红色液体的烧瓶在破裂时会爆炸，产生一小团爆炸性的火焰，并迅速消散。</p>\n<p>A flask filled with a reddish liquid explodes when it breaks open, creating a small explosive fire that quickly dissipates.</p>",
+        "private": "<p></p><p>这些炼金瓶子主要用于击碎大块矿石，蕴含着高度集中的重拳般威力。若组合的数量足够多，它们还可用于引发锁链式反应，从而造成更大的爆炸。</p>\n<p></p><p>Primarily used to break apart large pieces of ore, these alchemical flasks pack a concentrated punch. If combined in a large enough quantity, they can also be used to create a chain reaction that results in larger explosions.</p>"
+      },
+      "actions": {
+        "blastFlask": {
+          "name": "爆炸瓶 Blast Flask",
+          "description": "<p>你点燃并掷出@ref[name]，对爆炸半径内的所有敌人造成<strong>火元素</strong>伤害。<strong>Blast</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>Shoddy</strong> - 3英尺</p></li><li><p><strong>Standard</strong> - 4英尺</p></li><li><p><strong>Fine</strong> - 6英尺</p></li><li><p><strong>Superior</strong> - 8英尺</p></li><li><p><strong>Masterwork</strong> - 10英尺</p></li></ul>\n<p>You light and throw the @ref[name], dealing <strong>Fire </strong>damage to all enemies in the radius of the explosion. The radius of the <strong>Blast</strong> depends on the quality of the bomb:</p><ul><li><p><strong>Shoddy</strong> - 3 feet</p></li><li><p><strong>Standard</strong> - 4 feet</p></li><li><p><strong>Fine</strong> - 6 feet</p></li><li><p><strong>Superior</strong> - 8 feet</p></li><li><p><strong>Masterwork</strong> - 10 feet</p></li></ul>"
+        }
+      }
+    },
+    "Book": {
+      "name": "书籍 Book",
+      "description": {
+        "public": "<p>一本木质封面、以布或皮革装订的书。</p>\n<p>A wood-covered book bound in cloth or leather.</p>"
+      }
+    },
+    "Brigandine": {
+      "name": "布面甲 Brigandine",
+      "description": {
+        "public": "<p>一种外层为布料或皮革、内衬隐藏着小块铆接钢板的外套或背心，布面甲因其兼具灵活性与坚实防护的出色特性，而深受雇佣兵和卫兵青睐。</p>\n<p>A coat or vest of cloth or leather lined with small, riveted steel plates hidden inside, brigandine is favored by mercenaries and guards for its impressive mix of flexibility and solid defense.</p>"
+      }
+    },
+    "Buckler": {
+      "name": "圆盾 Buckler",
+      "description": {
+        "public": "<p>圆盾是一种小型、圆形的金属盾牌，大致有餐盘大小，是决斗者用来格挡刀刃并控制空间的工具，可佩戴在前臂上，或像武器一样握持。</p>\n<p>A small, round metal shield roughly the size of a dinner plate, the buckler is a duelist’s tool for deflecting blades and controlling space, worn on the forearm or gripped like a weapon.</p>"
+      }
+    },
+    "Candle": {
+      "name": "蜡烛 Candle",
+      "description": {
+        "public": "<p>一根由蜡压制在中央烛芯周围的小柱体，点燃后会发出昏暗而温暖的光。每根蜡烛可燃烧约八小时。</p>\n<p>A small pillar of wax pressed around a central wick that emits a dim warm light when ignited. Each candle can burn for about eight hours.</p>"
+      }
+    },
+    "Caustic Phial": {
+      "name": "腐蚀瓶 Caustic Phial",
+      "description": {
+        "public": "<p>腐蚀性液体在这个刻意制成薄壁玻璃的小瓶内翻涌，设计上会在撞击时破碎，并将这种腐蚀性物质泼洒到目标身上。</p>\n<p>Corrosive liquid swirls within this vial of intentionally thin glass, designed to shatter on impact and spill the caustic substance upon a target.</p>"
+      },
+      "actions": {
+        "causticPhial": {
+          "name": "腐蚀瓶 Caustic Phial",
+          "description": "<p>你掷出@ref[name]，造成<strong>虚弱</strong>的即时伤害，并使所有未能避开此次攻击、位于 4 尺半径内<strong>爆发</strong>范围的敌人陷入@Condition[corroding]状态。</p><p>燃烧伤害的数值及其持续时间取决于@ref[name]的品质：</p><ul><li><p><strong>粗制</strong> - 2 伤害，持续 2 轮</p></li><li><p><strong>标准</strong> - 3 伤害，持续 3 轮</p></li><li><p><strong>精制</strong> - 4 伤害，持续 4 轮</p></li><li><p><strong>优制</strong> - 6 伤害，持续 5 轮</p></li><li><p><strong>大师工艺</strong> - 8 伤害，持续 6 轮</p></li></ul>\n<p>You fling the @ref[name], dealing <strong>Weakened</strong> immediate damage but causing the @Condition[corroding] condition to all enemies in a 4 foot radius <strong>Blast</strong> who fail to avoid the attack.</p><p>The amount of burning damage and its duration is dependent on the quality of the @ref[name]:</p><ul><li><p><strong>Shoddy</strong> - 2 damage for 2 rounds</p></li><li><p><strong>Standard</strong> - 3 damage for 3 rounds</p></li><li><p><strong>Fine</strong> - 4 damage for 4 rounds</p></li><li><p><strong>Superior</strong> - 6 damage for 5 rounds</p></li><li><p><strong>Masterwork</strong> - 8 damage for 6 rounds</p></li></ul>",
+          "effects": [
+            {
+              "name": "腐蚀瓶 Caustic Phial"
+            }
+          ]
+        }
+      }
+    },
+    "Ceremonial Dagger": {
+      "name": "仪式匕首 Ceremonial Dagger",
+      "description": {
+        "public": "<p>这把刀刃比起普通匕首，实用性较低而装饰性更强。它的铭文与工艺都是为将其作为施法工具而精心设计的。在战斗中，它会射出带有穿刺效果的奥术能量冲击。</p>\n<p>This blade is less functional and more ornamented than a regular dagger. Its inscriptions and craftsmanship are purposeful for use as a tool for spellcraft. In combat, it projects piercing blasts of arcane energy.</p>"
+      }
+    },
+    "Chain": {
+      "name": "锁链 Chain",
+      "description": {
+        "public": "<p>一段 30 英尺长的钢制锁链，可用于辅助攀爬，或与固定装备配合使用，将物体固定在原位。</p>\n<p>A 30' length of steel chain that can be used to assist climbing or combined with fastening equipment to secure objects in place.</p>"
+      }
+    },
+    "Chain Hook": {
+      "name": "链钩 Chain Hook",
+      "description": {
+        "public": "<p>一条结实而灵活的锁链，末端固定着一个带倒刺的钩子。在熟练的战士手中，这条锁链可以投向目标，撕裂其血肉或装备。</p>\n<p>A sturdy and flexible chain affixed with a barbed hook at its end. In the hands of a skilled combatant the chain can be thrown towards a target, tearing at their flesh or equipment.</p>"
+      }
+    },
+    "Chain Mail": {
+      "name": "锁子甲 Chain Mail",
+      "description": {
+        "public": "<p>穿在衬垫外的一层由相互连接的钢环编成的网状甲衣，锁子甲能对劈砍提供出色的保护，对刺击也有不错的防御，尽管它会将重量分散到全身。</p>\n<p>A mesh of interlinked steel rings worn over padding, chain mail provides excellent protection against cuts and decent defense against thrusts, though it distributes weight across the whole body.</p>"
+      }
+    },
+    "Charm of Tenacity": {
+      "name": "坚韧护符 Charm of Tenacity",
+      "description": {
+        "public": "<blockquote><p>这条挂满护符的项链看起来质朴无华，但仔细观察后，你会注意到其工艺中蕴含着精巧的匠心。握着它时，你会感觉呼吸变得更加深沉，肌肉中的轻微酸痛也随之消散。</p></blockquote><p>这枚护身符为<strong>坚韧</strong>防御提供一个加值，数值等于其<strong>品质</strong>加值与<strong>附魔</strong>加值中的较低者。</p><ul><li><p><strong>精良</strong>品质和<strong>次级</strong>附魔：<strong>+1 坚韧</strong></p></li><li><p><strong>卓越</strong>品质和<strong>强效</strong>附魔：<strong>+2 坚韧</strong></p></li><li><p><strong>精制</strong>品质和<strong>传奇</strong>附魔：<strong>+3 坚韧</strong></p></li></ul>\n<blockquote><p>This charm-covered necklace looks rustic, but upon close inspection you notice a delicate craft imbued within its workmanship. While holding it you feel your breaths deepen and the minor aches within your muscles dissipate.</p></blockquote><p>This amulet provides a bonus to <strong>Fortitude</strong> defense equal to the minimum of its <strong>Quality</strong> and <strong>Enchantment</strong> bonuses.</p><ul><li><p><strong>Fine</strong> quality and <strong>Minor </strong>enchantment: <strong>+1 Fortitude</strong></p></li><li><p><strong>Superior </strong>quality and <strong>Major </strong>enchantment: <strong>+2 Fortitude</strong></p></li><li><p><strong>Masterwork </strong>quality and <strong>Legendary </strong>enchantment: <strong>+3 Fortitude</strong></p></li></ul>"
+      }
+    },
+    "Chirurgeon's Toolkit": {
+      "name": "外科医生工具包 Chirurgeon's Toolkit",
+      "description": {
+        "public": "<p>一个皮革装订的木制工具包。内含剃刀、手锯、钳子、绷带、一瓶炼金烈酒、针线，以及一根用皮革包裹的四英寸木枝。里面有进行截肢或切除手术所需的一切。</p>\n<p>A leather-bound wooden kitbag. Contains a razor, handsaw, pliers, bandages, a bottle of alchemical spirits, needle and thread, and a four inch wooden branch wrapped in leather. Everything one might need to perform amputations or excisions.</p>"
+      }
+    },
+    "Choking Ampoule": {
+      "name": "窒息安瓿 Choking Ampoule",
+      "description": {
+        "public": "<p>这个密封的玻璃小瓶内装有一团旋转翻腾的浓密绿色气体，并被加压封存在其中。打碎这支安瓿瓶会释放出其中封存的烟雾，使暴露于其中的人受到令人丧胆且窒息的影响。</p>\n<p>This sealed glass phial contains a swirling cloud of dense green gas held at pressure within. Shattering the ampoule would release its contained fumes which cause a demoralizing and suffocating effect on those exposed to it.</p>"
+      },
+      "actions": {
+        "chokingAmpoule": {
+          "name": "窒息安瓿 Choking Ampoule",
+          "description": "<p>你投掷@ref[name]，其即时效果是<strong>无害</strong>的，但会使 8 尺半径<strong>爆发</strong>范围内所有未能以其<strong>坚韧</strong>抗拒此次攻击的敌人陷入@Condition[poisoned]状态。</p><p>该气体会对<strong>士气</strong>造成毒素伤害，数值取决于@ref[name]的品质。若获得重大成功，受影响的目标还会在持续时间内同时陷入@Condition[silenced]状态。</p><ul><li><p><strong>粗制</strong> - 3 轮内造成 2 点伤害</p></li><li><p><strong>标准</strong> - 3 轮内造成 6 点伤害</p></li><li><p><strong>精良</strong> - 3 轮内造成 12 点伤害</p></li><li><p><strong>优异</strong> - 3 轮内造成 20 点伤害</p></li><li><p><strong>大师级</strong> - 3 轮内造成 30 点伤害</p></li></ul>\n<p>You hurl the @ref[name], which is <strong>Harmless</strong> in its immediate effect but causes the @Condition[poisoned] condition to all enemies in an 8 foot radius <strong>Blast</strong> who fail to resist the attack with their <strong>Fortitude</strong>.</p><p>The gas deals poison damage to <strong>Morale</strong> in an amount dependent on the quality of the @ref[name]. Upon a critical success, the affected target also becomes @Condition[silenced] for the duration.</p><ul><li><p><strong>Shoddy</strong> - 2 damage for 3 rounds</p></li><li><p><strong>Standard</strong> - 6 damage for 3 rounds</p></li><li><p><strong>Fine</strong> - 12 damage for 3 rounds</p></li><li><p><strong>Superior</strong> - 20 damage for 3 rounds</p></li><li><p><strong>Masterwork</strong> - 30 damage for 3 rounds</p></li></ul>",
+          "effects": [
+            {
+              "name": "窒息安瓿 Choking Ampoule"
+            }
+          ]
+        }
+      }
+    },
+    "Claw Hammer": {
+      "name": "爪锤 Claw Hammer",
+      "description": {
+        "public": "<p>爪锤看似只是种朴素的工具，带有平坦的敲击面和弯曲的爪部，但到了意志坚定者手中，也能成为凶悍的武器。</p>\n<p>A seemingly humble tool with a flat striking face and curved claw, the claw hammer can become a savage weapon in determined hands.</p>"
+      }
+    },
+    "Claws": {
+      "name": "爪 Claws",
+      "description": {
+        "public": "<p>如同第二副利爪般戴在手上，爪类武器——无论是钢制延伸物还是骨铸的怪物——都能以凶狠而迅疾的挥击撕裂切割。</p>\n<p>Worn over the hands like a second set of talons, claw weapons—be they steel extensions or bone-forged monstrosities—rip and tear in savage, rapid slashes.</p>"
+      }
+    },
+    "Cloak of Kindly Visage": {
+      "name": "慈颜斗篷 Cloak of Kindly Visage",
+      "description": {
+        "public": "<p>一件不起眼的黑色斗篷，似乎几乎能与任何服装搭配。</p><p></p>\n<p>A nondescript black cloak that seems as if it would match with almost any outfit.</p><p></p>",
+        "private": "<p>当处于已装备并<strong>注入</strong>状态时，佩戴者获得<strong>和善面容</strong><strong>动作</strong>，并根据该物品的附魔阶级获得对所有交涉检定的加值。</p><ul><li><p><strong>次级</strong>附魔：<strong>+1 恩惠</strong></p></li><li><p><strong>高级 </strong>附魔：<strong>+2 恩惠</strong></p></li><li><p><strong>传奇</strong>附魔：<strong>+3 恩惠</strong></p></li></ul>\n<p>While equipped and <strong>Invested</strong>, its wearer gains the <strong>Kindly Visage</strong> action and a benefit to all Diplomacy checks depending on the enchantment tier of the item.</p><ul><li><p><strong>Minor</strong> enchantment: <strong>+1 Boon</strong></p></li><li><p><strong>Major </strong>enchantment: <strong>+2 Boons</strong></p></li><li><p><strong>Legendary</strong> enchantment: <strong>+3 Boons</strong></p></li></ul>"
+      },
+      "actions": {
+        "kindlyVisage": {
+          "name": "和善面容 Kindly Visage",
+          "description": "<p>每次休息一次，你可以呈现一个幻象外貌，改变你的容貌以及衣着。该幻象无法改变你的血统，但可以改变你身体构造的其他方面，包括你表面上的性别。斗篷本身的外观不会改变，并且始终可见。</p><p>该幻象会无限期持续，并且可以随意解除。一旦激活，在经过24小时之前，这件斗篷无法再以这种方式制造另一个幻象。</p>\n<p>You assume an illusory appearance once per rest which alters your appearance as well as your attire. The illusion cannot alter your ancestry, but can change other aspects of your anatomy including your apparent gender. The cloak itself does not change in appearance and remains visible.</p><p>The illusion persists indefinitely and can be dismissed at-will. Once activated, the cloak cannot produce another illusion in this way until 24 hours have passed.</p>",
+          "effects": [
+            {
+              "name": "和善面容 Kindly Visage"
+            }
+          ]
+        }
+      }
+    },
+    "Club": {
+      "name": "棍棒 Club",
+      "description": {
+        "public": "<p>棍棒是一种粗陋却有效的武器，是一段用于砸碎而非切割的钝木或骨制器具。即使在未受训的战士手中，它也能成为危险的武器。</p>\n<p>A crude yet effective weapon, the club is a blunt length of wood or bone designed to crush rather than cut. It can be a dangerous implement in the hands of even untrained fighters.</p>"
+      }
+    },
+    "Common Clothing": {
+      "name": "普通服装 Common Clothing",
+      "description": {
+        "public": "<p>一件衬衫、一条裤子、内衣、袜子，以及适合体力劳动或旅行的鞋子或靴子，不能与护甲同时穿戴。</p>\n<p>A shirt, pair of pants, undergarments, socks and shoes or boots suitable for menial labour or travel, cannot be worn with armor.</p>"
+      }
+    },
+    "Cook's Toolkit": {
+      "name": "厨师工具包 Cook's Toolkit",
+      "description": {
+        "public": "<p>一口带可固定锅盖的铁锅、一把宽刀，以及可在旅途中收纳于锅内的木制器具，内部还留有空间放置一个皮革材料小袋，用于安全存放谷物、一小瓶食用油、香料或盐，以及其他少量食物。</p>\n<p>An iron pot with a fastenable lid, a broad knife, and wooden utensils designed to be stowed inside during travel, leaving room for a leather ingredients pouch for storing grains, a vial of cooking oil, spices or salt, and other small foodstuffs securely.</p>"
+      }
+    },
+    "Cooking Oil": {
+      "name": "食用油 Cooking Oil",
+      "description": {
+        "public": "<p>一个用皮革包裹的玻璃或陶土瓶，内装适合用于烹饪的植物油。</p>\n<p>A leather-wrapped glass or clay flask containing vegetable oil suitable for use in cooking.</p>"
+      }
+    },
+    "Crowbar": {
+      "name": "撬棍 Crowbar",
+      "description": {
+        "public": "<p>一根略微弯曲的坚固金属棒，一端带有扁平头部的钩爪。用来施加杠杆力，将一个物体从另一个物体上撬开。</p>\n<p>A slightly curved bar of strong metal featuring a hook with a flattened head on one end. Used to apply leverage, prying one object loose of another.</p>"
+      }
+    },
+    "Dagger": {
+      "name": "匕首 Dagger",
+      "description": {
+        "public": "<p>匕首小巧、迅捷且致命，能轻易从肋骨间或护甲的缝隙中滑入；它那凶险的锋刃深受刺客、盗贼以及偏好无声杀戮之人的青睐。</p>\n<p>Small, swift, and deadly, the dagger slips between ribs or into gaps in armor with ease, its wicked edge favored by assassins, thieves, and those who prefer a silent kill.</p>"
+      }
+    },
+    "Dart Gun": {
+      "name": "飞镖枪 Dart Gun",
+      "description": {
+        "public": "<p>飞镖枪是一种紧凑的管状武器，设计用于无声地发射小型且常常带毒的投射物，深受刺客、驯兽师和行踪诡秘的炼金术士青睐。</p>\n<p>A compact, tubular weapon designed to silently launch small, often poisoned projectiles, the dart gun is favored by assassins, beast handlers, and shadowy alchemists.</p>"
+      }
+    },
+    "Disarming Toolkit": {
+      "name": "解除武装工具包 Disarming Toolkit",
+      "description": {
+        "public": "<p>一个小皮革小袋，里面装有一套钳子、剪钳、锥子，以及一组可拧接在一起的可折叠金属杆。其设计用途是用于解除或触发圈套、绊线、压力板以及其他常见陷阱。</p>\n<p>A small leather pouch containing a set of pliers, cutters, awls and a set of collapsible metal rods that can be screwed together. Designed for the purposes of disarming or triggering snares, tripwires, pressure plates, and other common traps.</p>"
+      }
+    },
+    "Dress Clothing": {
+      "name": "礼服服装 Dress Clothing",
+      "description": {
+        "public": "<p>一套庄严华贵的精美礼服，适合出席庆典和上流社会活动，包括一件外套或连衣裙、一条领巾或领带、一件精致衬衫或紧身胸衣、一件马甲或女式紧身上衣、长裤或衬裙、腰带或背带、长袜以及精美鞋履。</p>\n<p>A regal set of fine vestments fit for attending celebrations and high society functions, includes an overcoat or dress, kerchief or necktie, a fine shirt or corset, a vest or bodice, trousers or petticoat, belt or braces, stockings and fine shoes.</p>"
+      }
+    },
+    "Enchanter's Portable Workbench": {
+      "name": "附魔师便携式工作台 Enchanter's Portable Workbench",
+      "description": {
+        "public": "<p>一个可折叠的木盒，可以展开成一座小型装饰祭坛。内含一个石制供碗、一块用于覆盖工作台面的皮垫，以及用于存放附魔棒、仪式蜡烛、熏香包和雕刻工具的空间。</p>\n<p>A collapsible wooden box that can be unfolded into a small decorative altar. Contains a stone offering bowl, leather mat for covering the work surface, and space to store enchanting rods, ritual candles, incense packets and engraving tools.</p>"
+      }
+    },
+    "Enchanter's Toolkit": {
+      "name": "附魔师工具包 Enchanter's Toolkit",
+      "description": {
+        "public": "<p>一个皮革装订的木制工具包。内含仪式用蜡烛、一个小型供奉碗、熏香包和粉末状试剂，以及一块可用作工作台面的布垫。</p>\n<p>A leather-bound wooden kitbag. Contains ritual candles, a small offering bowl, incense packets and powdered reagents, and a cloth mat to use as a work surface.</p>"
+      }
+    },
+    "Expanded Toolbelt": {
+      "name": "扩展工具腰带 Expanded Toolbelt",
+      "description": {
+        "public": "<p>一种扩展工具腰带，其形式可以是公用腰带、斜挎弹带，或缝制在你的装备上的一组口袋。</p><p>该物品会根据其品质阶级提供若干额外的工具带槽位：</p><ul><li><p><strong>标准</strong>：+1 工具带槽位</p></li><li><p><strong>精良</strong>：+2 工具带槽位</p></li><li><p><strong>优异</strong>：+3 工具带槽位</p></li><li><p><strong>大师工艺</strong>：+4 工具带槽位</p></li></ul>\n<p>An expanded toolbelt in the form of a utility belt, a bandolier, or an array of pockets stitched into your equipment.</p><p>This item provides a number of additional Toolbelt slots according to its quality tier:</p><ul><li><p><strong>Standard</strong>: +1 Toolbelt slot</p></li><li><p><strong>Fine</strong>: +2 Toolbelt slots</p></li><li><p><strong>Superior</strong>: +3 Toolbelt slots</p></li><li><p><strong>Masterwork</strong>: +4 Toolbelt slots</p></li></ul>"
+      }
+    },
+    "Firestarter": {
+      "name": "点火器 Firestarter",
+      "description": {
+        "public": "<p>一个小巧的蜡制皮革小袋，内装干燥的植物纤维碎屑和木刨花，里面还有一个小扣件，用于固定一块燧石，以及一个钢制击火环，用于生火。</p>\n<p>A small waxed-leather pouch containing dry shredded plant fibre and wood shavings, with a little clasp inside for securing a piece of flint and a steel striking ring for the purposes of starting fires.</p>"
+      }
+    },
+    "Fishing Pole": {
+      "name": "钓竿 Fishing Pole",
+      "description": {
+        "public": "<p>一根可折叠的木杆，配有金属环和一个用于连接钓线的支架。可轻松放入背包内或系在背包旁。</p>\n<p>A collapsible wooden pole affixed with metal rings and a post to attach fishing line. Easily fits in or alongside a backpack.</p>"
+      }
+    },
+    "Flame Staff": {
+      "name": "火焰木杖 Flame Staff",
+      "description": {
+        "public": "<p>这根法师法杖是一件护符，可辅助施法，或向敌人投掷成股的奥术火焰。</p>\n<p>This mage staff is a talisman to assist with spellcraft or hurl gouts of arcane flame at enemies.</p>"
+      }
+    },
+    "Fletcher's Toolkit": {
+      "name": "制箭师工具包 Fletcher's Toolkit",
+      "description": {
+        "public": "<p>一个皮革装订、末端可密封的箭袋，内含一个可固定的夹具、辐刀、刷子和一个用于缠绕编织细绳的小型绕线器。若将其解开，它会展开成一张垫子，可用作平整的工作表面。</p>\n<p>A leather-bound quiver with sealable end, containing a mountable vice, spoke shave, brushes and a small spinner for winding braided string. If unlatched it unfolds into a mat that can serve as a flat work surface.</p>"
+      }
+    },
+    "Glaive": {
+      "name": "长柄刀 Glaive",
+      "description": {
+        "public": "<p>长柄刀是一种长柄武器，其末端装有弯曲如剑的刀刃，挥舞时能以宽阔的弧形打击横扫敌人。</p>\n<p>A polearm with a curved, sword-like blade affixed to the end of a long shaft, the glaive sweeps through foes in broad, arcing strikes.</p>"
+      }
+    },
+    "Glue": {
+      "name": "胶水 Glue",
+      "description": {
+        "public": "<p>一小瓶普通的动物胶水。</p>\n<p>A vial of common animal glue.</p>"
+      }
+    },
+    "Glyphweaver's Portable Workbench": {
+      "name": "符文织匠便携式工作台 Glyphweaver's Portable Workbench",
+      "description": {
+        "public": "<p>一个可折叠的木箱，可以展开成一张小型工作台，作为制作雕文的工作表面。内含雕刻凿和锥子、一把宝石匠锤、装饰性皮垫，以及用于存放雕文和其他仪式材料的空间。</p>\n<p>A collapsible wooden box that can be unfolded into a small workbench designed as a work surface for fabricating glyphs. Contains engraving chisels and awls, a lapidary hammer, decorative leather mat and space for storing glyphs and other ritual materials.</p>"
+      }
+    },
+    "Glyphweaver's Toolkit": {
+      "name": "符文织匠工具包 Glyphweaver's Toolkit",
+      "description": {
+        "public": "<p>一个用皮革装订的木制工具包。内含雕刻凿和锥子、一把宝石匠锤子、一张装饰性皮革垫，以及用于存放符文和其他仪式材料的空间。</p>\n<p>A leather-bound wooden kitbag. Contains engraving chisels and awls, a lapidary hammer, decorative leather mat and space for storing glyphs and other ritual materials.</p>"
+      }
+    },
+    "Grapnel": {
+      "name": "抓钩 Grapnel",
+      "description": {
+        "public": "<p>一种简单的钢制双爪或四爪钩，设计用于配合绳索或锁链使用，将绳索固定在木质结构上。</p>\n<p>A simple steel two-pronged or four-pronged hook designed to be used with rope or chain to secure a rope to wooden structures.</p>"
+      }
+    },
+    "Great Hammer": {
+      "name": "巨锤 Great Hammer",
+      "description": {
+        "public": "<p>这种双手持用的巨型武器有着巨大的铁制或石制锤头，每一次雷霆万钧的重击都能同样粉碎护甲、骨头与意志。</p>\n<p>This two-handed behemoth features a massive head of iron or stone, used to crush armor, bone, and will alike with every thunderous blow.</p>"
+      }
+    },
+    "Greataxe": {
+      "name": "巨斧 Greataxe",
+      "description": {
+        "public": "<p>巨斧是一种高大的武器，拥有宽阔、通常为双刃的斧头，专为施展毁灭性的顺劈而打造，能以可怕的力量劈砍人类与野兽。</p>\n<p>A towering weapon with a broad, often double-bladed head, the greataxe is made for delivering devastating cleaves, hewing men and beasts with terrible force.</p>"
+      }
+    },
+    "Greatclub": {
+      "name": "巨棒 Greatclub",
+      "description": {
+        "public": "<p>巨棒是一段粗糙扭曲的重型木材，有时还镶有铁钉；这是一种简陋却可怖的武器，即使在未受训者手中也同样危险。</p>\n<p>A gnarled length of heavy wood, sometimes studded with iron, the greatclub is a crude but fearsome weapon is dangerous even in untrained hands.</p>"
+      }
+    },
+    "Greatsword": {
+      "name": "巨剑 Greatsword",
+      "description": {
+        "public": "<p>巨剑比标准长剑更长也更重，是一种双手持用的刀刃武器，专为强力的横扫打击而设计；其长度既带来延伸，也令人心生敬畏。</p>\n<p>Longer and heavier than a standard longsword, the greatsword is a two-handed blade meant for powerful sweeping strikes, its length commanding both reach and awe.</p>"
+      }
+    },
+    "Grimoire": {
+      "name": "魔典 Grimoire",
+      "description": {
+        "public": "<p>这本重型巨著既可作为知识的储存载体，也可用作施法法器。在奥术施法者手中，它能够向目标投射出震荡性的力场冲击。</p>\n<p>This heavy tome is used as a repository of knowledge as well as an implement for spellcraft. In the hands of an arcane practitioner, it can project concussive blasts of force towards a target.</p>"
+      }
+    },
+    "Hacksaw": {
+      "name": "钢锯 Hacksaw",
+      "description": {
+        "public": "<p>一种用于切割金属的常见手工具。</p>\n<p>A common hand tool used to cut through metal.</p>"
+      }
+    },
+    "Halberd": {
+      "name": "戟 Halberd",
+      "description": {
+        "public": "<p>将斧刃、矛尖和钩结合在一根长杆上，戟是一种多用武器，能够刺击、劈砍，或钩住武器以发动反击。</p>\n<p>Combining an axe blade, a spear point, and a hook on a single pole, the halberd is a versatile weapon capable of stabbing, cleaving, or trapping weapons for counter-attacks.</p>"
+      }
+    },
+    "Hammer": {
+      "name": "锤子 Hammer",
+      "description": {
+        "public": "<p>一种常见的手工具，用于木工或金属加工。并非为战斗而设计。</p>\n<p>A common hand tool used in carpentry or metal working. Not designed for combat.</p>"
+      }
+    },
+    "Hand Axe": {
+      "name": "手斧 Hand Axe",
+      "description": {
+        "public": "<p>紧凑而致命，手斧是一种单手砍斫武器，斧柄短、刃口锋利，非常适合投掷或在近距离打击中使用，在这种情况下速度胜过延伸。</p>\n<p>Compact and deadly, the hand axe is a one-handed chopper with a short haft and sharp blade, ideal for throwing or close-quarters strikes where speed outmatches reach.</p>"
+      }
+    },
+    "Hand Crossbow": {
+      "name": "手弩 Hand Crossbow",
+      "description": {
+        "public": "<p>这把手掌大小的十字弓以牺牲威力换取隐蔽性，非常适合近距离的突然射击，或是走投无路的游荡者射出的最后一支弩箭。</p>\n<p>This palm-sized crossbow trades power for concealability, perfect for close-quarters surprise shots or the desperate last bolt of a cornered rogue.</p>"
+      }
+    },
+    "Handmirror": {
+      "name": "手镜 Handmirror",
+      "description": {
+        "public": "<p>一块简单的手持抛光玻璃，背面有反光金属层，可用来照见自己的倒影。</p>\n<p>A simple piece of handheld polished glass with a reflective metal backing that can be used to see one's reflection.</p>"
+      }
+    },
+    "Handsaw": {
+      "name": "手锯 Handsaw",
+      "description": {
+        "public": "<p>一种常见的手工工具，用于切割木材。</p>\n<p>A common hand tool used to cut through wood.</p>"
+      }
+    },
+    "Harness": {
+      "name": "挽具 Harness",
+      "description": {
+        "public": "<p>一种可调节的皮革与钢制挽具，设计用于贴合人型生物的躯干，可与绳索或锁链一同使用，以辅助攀爬或用于束缚。</p>\n<p>An adjustable leather-and-steel harness designed to fit a humanoid torso, can be used with rope or chain to assist with climbing or for the purposes of restraint.</p>"
+      }
+    },
+    "Healer's Toolkit": {
+      "name": "治疗者工具包 Healer's Toolkit",
+      "description": {
+        "public": "<p>一个皮革包边的木制医药包。内含绷带、一瓶炼金烈酒、针线，以及各种用于治疗常见疾病和伤势的常用草药与化合物。</p>\n<p>A leather-bound wooden kitbag. Contains bandages, a bottle of alchemical spirits, needle and thread, and a variety of minor herbs and compounds used in the treatment of common illnesses and injuries.</p>"
+      }
+    },
+    "Healing Elixir": {
+      "name": "治疗灵药 Healing Elixir",
+      "description": {
+        "public": "<p>这瓶药水含有一种特殊的炼金配方，能够迅速闭合创伤并改善身体健康。</p>\n<p>This potion contains a specialized alchemical formula to rapidly close wounds and improve bodily health.</p>"
+      },
+      "actions": {
+        "healingElixir": {
+          "name": "治疗灵药 Healing Elixir",
+          "description": "<p>立即恢复相当于该灵药<strong>品质</strong>对应数值的<strong>生命值</strong>。</p><ul><li><p><strong>粗劣</strong> - 立即恢复 6 点<strong>生命值</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>生命值</strong>。</p></li><li><p><strong>精良</strong> - 立即恢复 24 点<strong>生命值</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>生命值</strong>。</p></li><li><p><strong>大师级</strong> - 立即恢复 96 点<strong>生命值</strong>。</p></li></ul>\n<p>Immediately recover an amount of <strong>Health</strong> dependant on the quality of the elixir.</p><ul><li><p><strong>Shoddy</strong> - Immediately heals 6 <strong>Health</strong>.</p></li><li><p><strong>Standard</strong> - Immediately heals 12 <strong>Health</strong>.</p></li><li><p><strong>Fine</strong> - Immediately heals 24 <strong>Health</strong>.</p></li><li><p><strong>Superior</strong> - Immediately heals 48 <strong>Health</strong>.</p></li><li><p><strong>Masterwork</strong> - Immediately heals 96 <strong>Health</strong>.</p></li></ul>"
+        }
+      }
+    },
+    "Healing Tonic": {
+      "name": "治疗药剂 Healing Tonic",
+      "description": {
+        "public": "<p>这瓶药水含有一种特殊的炼金配方，能够逐渐愈合创伤并改善身体健康。</p>\n<p>This potion contains a specialized alchemical formula to gradually close wounds and improve bodily health.</p>"
+      },
+      "actions": {
+        "healingTonic": {
+          "name": "治疗药剂 Healing Tonic",
+          "description": "<p>立即，以及在接下来 5 <strong>轮</strong>中每一轮开始时，根据药剂的品质恢复一定数量的<strong>生命值</strong>。</p><ul><li><p><strong>粗制滥造</strong> - 每轮恢复 2 点<strong>生命值</strong></p></li><li><p><strong>标准</strong> - 每轮恢复 4 点<strong>生命值</strong></p></li><li><p><strong>精良</strong> - 每轮恢复 8 点<strong>生命值</strong></p></li><li><p><strong>卓越</strong> - 每轮恢复 16 点<strong>生命值</strong></p></li><li><p><strong>大师级</strong> - 每轮恢复 32 点<strong>生命值</strong></p></li></ul>\n<p>Immediately, and at the beginning of each of the next 5 <strong>Rounds</strong>, recover an amount of <strong>Health</strong> dependent on the quality of the tonic.</p><ul><li><p><strong>Shoddy</strong> - Heals 2 <strong>Health</strong> each Round</p></li><li><p><strong>Standard</strong> - Heals 4 <strong>Health </strong>each Round</p></li><li><p><strong>Fine </strong>- Heals 8 <strong>Health </strong>each Round</p></li><li><p><strong>Superior</strong> - Heals 16 <strong>Health </strong>each Round</p></li><li><p><strong>Masterwork</strong> - Heals 32 <strong>Health </strong>each Round</p></li></ul>",
+          "effects": [
+            {
+              "name": "治疗药剂 Healing Tonic"
+            }
+          ]
+        }
+      }
+    },
+    "Heater Shield": {
+      "name": "鸢形盾 Heater Shield",
+      "description": {
+        "public": "<p>鸢形盾因其铁质外形酷似熨斗底板而得名，在防护范围与机动性之间提供了良好的平衡。</p>\n<p>Named for its iron shape resembling the base of a clothes iron, the heater shield offers a balance of coverage and mobility.</p>"
+      }
+    },
+    "Heavy Crossbow": {
+      "name": "重弩 Heavy Crossbow",
+      "description": {
+        "public": "<p>这是一种强力的钢臂十字弩，需要用曲柄或杠杆来上弦，能够射出威力惊人的弩矢，足以击穿护甲或将敌人钉在墙上。</p>\n<p>A powerful, steel-limbed crossbow requiring a crank or lever to draw, it delivers devastating bolts capable of punching through armor or pinning enemies to walls.</p>"
+      }
+    },
+    "Heavy Hides": {
+      "name": "厚重毛皮 Heavy Hides",
+      "description": {
+        "public": "<p>这些粗犷的护甲由大型野兽或怪物的坚韧皮革制成，常被猎人和荒野居民穿戴，在野外提供耐用但粗糙的防御。</p>\n<p>Toughened skins from large beasts or monsters, these rugged armors are worn by hunters and wildfolk, offering durable—but crude—defense in the field.</p>"
+      }
+    },
+    "Holy Symbol": {
+      "name": "圣徽 Holy Symbol",
+      "description": {
+        "public": "<p>这件护符是其持用者信仰及其所赋予力量的可见宣示。在战斗中，它可用于向敌人射出一道灼热的辉光光束。</p>\n<p>This talisman is a visible proclamation of its wielder's faith and the power it bestows upon them. In combat it can be used to project a searing beam of radiant light towards an enemy.</p>",
+        "private": "<p>此护符造成的伤害类型可以调整，以契合其持用者所崇拜的神祇的领域。</p>\n<p>The type of damage dealt by this talisman can be tailored to the domain of whichever deity its weilder worships.</p>"
+      }
+    },
+    "Ice Staff": {
+      "name": "寒冰法杖 Ice Staff",
+      "description": {
+        "public": "<p>这根法师法杖是一件护符，可用于辅助施法，或向敌人投掷寒冰冲击。</p>\n<p>This mage staff is a talisman to assist with spellcraft or hurl blasts of frigid ice towards enemies.</p>"
+      }
+    },
+    "Incense": {
+      "name": "熏香 Incense",
+      "description": {
+        "public": "<p>由树脂、木粉和花香精油制成的棒状或锥状物，点燃后会散发出香甜气味的烟雾。每包内含 12 个独立单品。</p>\n<p>Sticks or cones of resin, powdered wood, and floral oils designed to emit a sweet smelling smoke when burned. Each packet contains 12 individual pieces.</p>"
+      }
+    },
+    "Ink": {
+      "name": "墨水 Ink",
+      "description": {
+        "public": "<p>一小瓶普通的书写墨水。</p>\n<p>A vial of common writing ink.</p>"
+      }
+    },
+    "Javelin": {
+      "name": "标枪 Javelin",
+      "description": {
+        "public": "<p>标枪顶部装有锋利的金属枪头，安装在长杆之上，既足够轻，便于投掷，又足够结实，在近距离作战中依然实用。</p>\n<p>With a sharp metal head mounted atop a long pole, the javelin is light enough to be thrown but sturdy enough to remain useful in close quarters.</p>"
+      }
+    },
+    "Jeweler's Portable Workbench": {
+      "name": "珠宝匠便携式工作台 Jeweler's Portable Workbench",
+      "description": {
+        "public": "<p>一个皮革装订的浅木盒，内含可折叠的砂轮、磨石和抛光石、一把宝石匠锤，以及一块小型钢制铁砧，并留有空间，可在旅行时安全存放当前的加工项目。</p>\n<p>A leather-bound shallow wooden box containing a collapsible grinding wheel, a grinding stone and polishing stone, a lapidary hammer, and a tiny steel anvil, leaving space for storing current projects safely for travel.</p>"
+      }
+    },
+    "Jeweler's Toolkit": {
+      "name": "珠宝匠工具包 Jeweler's Toolkit",
+      "description": {
+        "public": "<p>一个皮革装订的木制工具包。内含锉刀、卡尺、一块小磨刀石、抛光剂和抹布，以及各种廉价的镶托。箱子可以完全展开，提供一个平整的工作台面。</p>\n<p>A leather-bound wooden kitbag. Contains files, calipers, a small grindstone, polishing compounds and rags, and an assortment of inexpensive settings. The case can unfold completely to provide a smooth work surface.</p>"
+      }
+    },
+    "Katana": {
+      "name": "武士刀 Katana",
+      "description": {
+        "public": "<p>武士刀以一丝不苟的精度锻造而成，是一柄以折叠钢打造的单刃弧形刀，其致命的优雅映照出持有者的修为。</p>\n<p>Forged with painstaking precision, the katana is a single-edged, curved blade of folded steel, its deadly grace a reflection of its wielder's discipline.</p>"
+      }
+    },
+    "Katar": {
+      "name": "拳刃 Katar",
+      "description": {
+        "public": "<p>拳刃是一种带有直刃和横向握柄的拳匕，能以凶猛的力量向前突刺，专为以一次直接的刺击穿透护甲与身体而设计。</p>\n<p>A punch-dagger with a straight blade and horizontal grip, the katar drives forward with brutal force, designed to pierce armor and guts with a single, direct thrust.</p>"
+      }
+    },
+    "Kite Shield": {
+      "name": "鸢盾 Kite Shield",
+      "description": {
+        "public": "<p>为提供全身保护而设计得高大且渐收，鸢盾沿持用者身体弯曲，因其出色的覆盖范围与标志性的轮廓而同样受到骑兵与步兵的青睐。</p>\n<p>Tall and tapered for full-body protection, the kite shield curves around the wielder’s body and is favored by cavalry and infantry alike for its excellent coverage and iconic silhouette.</p>"
+      }
+    },
+    "Lantern": {
+      "name": "提灯 Lantern",
+      "description": {
+        "public": "<p>一盏燃油或以魔法照明的提灯，可在20英尺半径内提供明亮光照，并在40英尺半径内提供微光。</p>\n<p>An oil-burning or magically illuminated lantern that sheds bright light in a 20 foot radius and dim light in a 40 foot radius.</p>"
+      }
+    },
+    "Leather Armor": {
+      "name": "皮甲 Leather Armor",
+      "description": {
+        "public": "<p>皮甲由厚实的煮制皮革制成，硬化成甲片或胸甲，提供轻便的保护，非常适合侦察兵、游荡者和轻装的散兵。</p>\n<p>Crafted from thick, boiled leather hardened into panels or a cuirass, leather armor offers lightweight protection ideal for scouts, rogues, and lightly armed skirmishers.</p>"
+      }
+    },
+    "Lockpicks": {
+      "name": "开锁工具 Lockpicks",
+      "description": {
+        "public": "<p>一套细长的金属针，末端略带钩状，用于操控锁具的内部机构，另配有一根用于施加扭力的金属杆。在熟练的人手中，这些工具开锁的效果不亚于任何钥匙。</p>\n<p>A set of long thin metal pins with slightly hooked ends designed to manipulate the internal mechanisms of locks and a metal bar for applying torsion. In the right hands, these can be used to open locks just as well as any key.</p>"
+      }
+    },
+    "Longbow": {
+      "name": "长弓 Longbow",
+      "description": {
+        "public": "<p>长弓是一种高大的单体弓，往往比拉弓的弓箭手还高；它需要极大的力量和多年的练习才能精通，能将箭矢以致命的力量射过战场。</p>\n<p>A tall, self-bow often taller than the archer who draws it, the longbow requires great strength and years of practice to master, sending arrows with deadly force across the battlefield.</p>"
+      }
+    },
+    "Longsword": {
+      "name": "长剑 Longsword",
+      "description": {
+        "public": "<p>长剑是一种双刃剑，双手持握以保持平衡并增强力量，通常配有一个大型十字护手，用于招架攻击。</p>\n<p>The longsword is a double-edged blade wielded with two hands for balance and strength, usually featuring a large crossguard used for parrying blows.</p>"
+      }
+    },
+    "Luminary Band": {
+      "name": "辉耀指环 Luminary Band",
+      "description": {
+        "public": "<p>一枚雕刻精美的金戒指，环绕着一颗椭圆形、闪闪发亮的橙色宝石。</p><p>当已装备并<strong>注入</strong>后，这枚戒指会为任何包含<strong>屈折</strong>的组合<strong>法术</strong>施放提供恩惠。</p><ul><li><p><strong>次要</strong>附魔：<strong>+1 恩惠</strong></p></li><li><p><strong>主要 </strong>附魔：<strong>+2 恩惠</strong></p></li><li><p><strong>传奇</strong>附魔：<strong>+3 恩惠</strong></p></li></ul>\n<p>An intricately engraved golden ring that wraps around a elliptical glinting orange gemstone.</p><p>While equipped and <strong>Invested</strong>, this ring provides boons to the casting of any composed spell which incorporates an <strong>Inflection</strong>.</p><ul><li><p><strong>Minor</strong> enchantment: <strong>+1 Boon</strong></p></li><li><p><strong>Major </strong>enchantment: <strong>+2 Boons</strong></p></li><li><p><strong>Legendary</strong> enchantment: <strong>+3 Boons</strong></p></li></ul>",
+        "private": "<p>该物品以戒指的形式呈现，但它也可以是任何类型的饰品，例如护符、斗篷、护腕，或其他类型的小饰物。</p>\n<p>This item is presented as a ring, but it can be any type of accessory like an amulet, cloak, bracers, or other type of trinket.</p>"
+      }
+    },
+    "Lyre": {
+      "name": "里拉琴 Lyre",
+      "description": {
+        "public": "<p>一种带有弯曲框架的弦乐器。里拉琴是许多游移的吟游诗人或说书人偏爱的乐器，他们用乐曲来增强自己的魔法或演说。</p>\n<p>A stringed instrument within a curved frame. The lyre is a favored instrument of many roving bards or storytellers which use music to augment their magic or oration.</p>"
+      }
+    },
+    "Mace": {
+      "name": "硬头锤 Mace",
+      "description": {
+        "public": "<p>一种单手钝击武器，带有一个通常由金属锻造而成的重型头部，能将其持用者挥动时的动能转化为震碎骨骼的冲击力。</p>\n<p>A one-handed blunt weapon that features a heavy head, typically forged of metal, which converts the momentum of its wielder's swing into a bone-shattering impact.</p>"
+      }
+    },
+    "Mealkit": {
+      "name": "餐包 Mealkit",
+      "description": {
+        "public": "<p>一个皮革小袋，内含一个金属杯、盘子、叉子，以及一块用来把它们擦干净的布。</p>\n<p>A leather pouch containing a metal cup, plate, fork, and a piece of cloth for wiping them clean.</p>"
+      }
+    },
+    "Messenger Coin": {
+      "name": "信使硬币 Messenger Coin",
+      "description": {
+        "public": "<p>一枚小巧的黄铜硬币，上面是一张咧嘴大笑的宽脸，还有两只小小的红色石榴石眼睛。硬币上压印着一组特定的西吉尔，将它与另一枚配对硬币连接起来，使两位持有者能够跨越遥远距离进行交流。</p><p>如果你拿着这枚硬币并对它说话，硬币会立刻连接到与之配对的另一枚，并开始大声说话，转述你所说的话以及对方说回来的内容。该连接最多持续1分钟，之后便会中断。每枚硬币每次长休后可使用一次。</p><p>这枚硬币可使用5次，之后其魔法便会消退，变得几乎一文不值。</p>\n<p>A small brass coin with a broad, grinning face and little red garnet eyes. The coin is stamped with a specific sequence of sigils that link it with a sibling coin, allowing the two holders to communicate over vast distances.</p><p>If you hold the coin and speak to it, the coin immediately connects its sibling and begins speaking loudly, relaying what you're saying and what is said back. The connection lasts for up to 1 minute before the connection breaks. Each coin can be used once per long rest.</p><p>The coin may be used 5 times after which its magic fades, becoming nearly worthless.</p>"
+      }
+    },
+    "Padded Armor": {
+      "name": "衬垫护甲 Padded Armor",
+      "description": {
+        "public": "<p>由填塞碎布或羊毛的绗缝布层构成，衬垫护甲能缓冲身体所受的钝击，并作为较重装备之下的基础层。</p>\n<p>Consisting of quilted layers of cloth stuffed with rags or wool, padded armor cushions the body against blunt force and serves as the foundation beneath heavier gear.</p>"
+      }
+    },
+    "Paralytic Vial": {
+      "name": "麻痹小瓶 Paralytic Vial",
+      "description": {
+        "public": "<p>这个小瓶里装着一种油状液体，其黏稠度明显高于水。它散发出一股刺鼻的气味，引发一种不对劲的感觉。</p>\n<p>This small vial contains an oily liquid that is noticeably thicker than water. It emits a an acrid scent that evokes a sense of wrongness.</p>"
+      },
+      "actions": {
+        "paralyticIngest": {
+          "name": "摄入麻痹毒素 Ingest Paralytic",
+          "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它最初是<strong>无害</strong>的，但目标必须对其<strong>坚韧</strong>进行一次攻击的防御，否则会变为@Condition[paralyzed]。</p><p>持续时间取决于@ref[name]的品质：</p><ul><li><p><strong>粗劣</strong> - 1 轮</p></li><li><p><strong>标准</strong> - 2 轮</p></li><li><p><strong>优良</strong> - 4 轮</p></li><li><p><strong>卓越</strong> - 8 轮</p></li><li><p><strong>大师工艺</strong> - 无限期</p></li></ul><p><em>此动作应在毒药被摄入时使用，而不是在其首次被涂抹时使用。</em></p>\n<p>When this toxin is ingested or otherwise enters the bloodstream of a creature, it is initially <strong>Harmless</strong>, but the target must defend an attack against its <strong>Fortitude</strong> or become @Condition[paralyzed].</p><p>The duration is dependent on the quality of the @ref[name]:</p><ul><li><p><strong>Shoddy</strong> - 1 rounds</p></li><li><p><strong>Standard</strong> - 2 rounds</p></li><li><p><strong>Fine</strong> - 4 rounds</p></li><li><p><strong>Superior</strong> - 8 rounds</p></li><li><p><strong>Masterwork</strong> - Indefinite</p></li></ul><p><em>This action should be used when the poison is ingested rather than when it is first applied.</em></p>",
+          "effects": [
+            {
+              "name": "麻痹毒素 Paralytic Toxin"
+            }
+          ]
+        },
+        "paralyticApply": {
+          "name": "施加麻痹毒素 Apply Paralytic",
+          "description": "<p>这瓶药剂中的内容物可以加入食物或饮料中，涂抹在刃类武器上，或与某种其他的传递方式结合使用。</p><p><em>此动作会消耗该毒药的可用次数，应在首次施加时使用。</em></p>\n<p>The contents of this vial can be added to food, drink, smeared upon a bladed weapon, or combined with some alternative delivery mechanism.</p><p><em>This action, which consumes the available usage of the poison, should be used when it is first applied.</em></p>"
+        }
+      }
+    },
+    "Pen": {
+      "name": "笔 Pen",
+      "description": {
+        "public": "<p>一种抄写员常用的书写工具，可以更换各种笔尖以适应不同的笔画风格。</p>\n<p>A common writing implement used by scribes, allows for a variety of tips to be interchanged for different stroke styles.</p>"
+      }
+    },
+    "Perfume": {
+      "name": "香水 Perfume",
+      "description": {
+        "public": "<p>一种温和的精致香油，带有花香气息，旨在用更令人愉悦的嗅觉体验掩盖自然体味。每个小瓶包含20次使用量。</p>\n<p>A gentle finery in the form of floral scented oils designed to mask the natural scent with a more pleasing olfactory experience. Each small vial contains 20 applications.</p>"
+      }
+    },
+    "Periapt of Determination": {
+      "name": "决心护符 Periapt of Determination",
+      "description": {
+        "public": "<blockquote><p>一枚镶嵌着蓝色宝石的优雅银质护符，在你将其握在手中时，会让你充满坚定不移的感觉，准备好经受任何挑战。</p></blockquote><p>这枚护符为你的<strong>意志</strong><strong>防御</strong>提供加值，数值等于其<strong>品质</strong>与<strong>附魔</strong>加值两者中的较低者。</p><ul><li><p><strong>精良</strong><strong>品质</strong>且具有<strong>次级</strong><strong>附魔</strong>：<strong>+1 意志</strong></p></li><li><p><strong>卓越</strong><strong>品质</strong>且具有<strong>强效</strong><strong>附魔</strong>：<strong>+2 意志</strong></p></li><li><p><strong>大师级</strong><strong>品质</strong>且具有<strong>传奇</strong><strong>附魔</strong>：<strong>+3 意志</strong></p></li></ul>\n<blockquote><p>A graceful silver amulet embedded with blue jewels imbues you with a feeling of steadfastness while you clutch it, prepared to weather any challenge.</p></blockquote><p>This amulet provides a bonus to <strong>Willpower </strong>defense equal to the minimum of its <strong>Quality</strong> and <strong>Enchantment</strong> bonuses.</p><ul><li><p><strong>Fine</strong> quality and <strong>Minor </strong>enchantment: <strong>+1 Willpower</strong></p></li><li><p><strong>Superior </strong>quality and <strong>Major </strong>enchantment: <strong>+2 Willpower</strong></p></li><li><p><strong>Masterwork </strong>quality and <strong>Legendary </strong>enchantment: <strong>+3 Willpower</strong></p></li></ul>",
+        "private": "<p>该物品以护身符的形式呈现，但它也可以是任何类型的配饰，例如戒指、斗篷、护腕，或其他类型的小饰物。</p>\n<p>This item is presented as an amulet, but it can be any type of accessory like a ring, cloak, bracers, or other type of trinket.</p>"
+      }
+    },
+    "Pickaxe": {
+      "name": "鹤嘴锄 Pickaxe",
+      "description": {
+        "public": "<p>鹤嘴锄是在坚固长柄顶部装有弯月形尖镐的工具，通常用于采矿，但也可在战斗中挥舞，用来施以危险的穿刺打击。</p>\n<p>A crescent spike mounted atop a sturdy haft, the pickaxe is conventionally a mining implement, but can be wielded in combat to deliver dangerous piercing blows.</p>"
+      }
+    },
+    "Pistol": {
+      "name": "手枪 Pistol",
+      "description": {
+        "public": "<p>燧发手枪是一种早期的黑火药火器，只能发出一声雷鸣般的射击；它是赌徒偏爱的武器——瞬间便可致命，但在战斗的混乱中装填缓慢。</p>\n<p>An early black powder firearm with a single, thunderous shot, the flintlock pistol is a gambler’s weapon—deadly in a flash, but slow to reload in the chaos of battle.</p>"
+      }
+    },
+    "Plate Mail": {
+      "name": "板甲 Plate Mail",
+      "description": {
+        "public": "<p>个人防护的巅峰之作，板甲以精心贴合的钢板包裹全身，在为受过训练的穿戴者提供近乎完全的保护的同时，仍能保持令人惊叹的机动性。</p>\n<p>The pinnacle of personal protection, plate mail encases the body in carefully fitted steel plates, offering near-complete protection while allowing impressive mobility for a trained wearer.</p>"
+      }
+    },
+    "Poison Vial": {
+      "name": "毒药瓶 Poison Vial",
+      "description": {
+        "public": "<p>这个小瓶中装着浑浊的液体，明显比水更黏稠。它散发出一种令人不安的气味，引发一种不对劲的感觉。</p>\n<p>This small vial contains murky liquid that is noticeably thicker than water. It emits a disconcerting scent that evokes a sense of wrongness.</p>"
+      },
+      "actions": {
+        "poisonIngest": {
+          "name": "摄入毒药 Ingest Poison",
+          "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它起初是<strong>无害</strong>的，但目标必须以其<strong>坚韧</strong>进行一次防御攻击，否则会变为@Condition[poisoned]。</p><p>毒素伤害的数值及其持续时间取决于@ref[name]的品质：</p><ul><li><p><strong>粗劣</strong> - 2点伤害，持续4轮</p></li><li><p><strong>标准</strong> - 4点伤害，持续6轮</p></li><li><p><strong>精良</strong> - 6点伤害，持续8轮</p></li><li><p><strong>优异</strong> - 8点伤害，持续10轮</p></li><li><p><strong>大师工艺</strong> - 10点伤害，持续12轮</p></li></ul><p><em>应在毒药被摄入时使用此动作，而不是在其最初被施用时使用。</em></p>\n<p>When this toxin is ingested or otherwise enters the bloodstream of a creature, it is initially <strong>Harmless</strong>, but the target must defend an attack against its <strong>Fortitude</strong> or become @Condition[poisoned].</p><p>The amount of poison damage and its duration is dependent on the quality of the @ref[name]:</p><ul><li><p><strong>Shoddy</strong> - 2 damage for 4 rounds</p></li><li><p><strong>Standard</strong> - 4 damage for 6 rounds</p></li><li><p><strong>Fine</strong> - 6 damage for 8 rounds</p></li><li><p><strong>Superior</strong> - 8 damage for 10 rounds</p></li><li><p><strong>Masterwork</strong> - 10 damage for 12 rounds</p></li></ul><p><em>This action should be used when the poison is ingested rather than when it is first applied.</em></p>",
+          "effects": [
+            {
+              "name": "中毒 Poisoned"
+            }
+          ]
+        },
+        "poisonApply": {
+          "name": "施加中毒 Apply Poison",
+          "description": "<p>这瓶小瓶中的内容物可以加入食物、饮料中，涂抹在带刃武器上，或与某种替代性的传递机制结合使用。</p><p><em>此动作会消耗该毒药的可用次数，应在其首次施用时使用。</em></p>\n<p>The contents of this vial can be added to food, drink, smeared upon a bladed weapon, or combined with some alternative delivery mechanism.</p><p><em>This action, which consumes the available usage of the poison, should be used when it is first applied.</em></p>"
+        }
+      }
+    },
+    "Poisoner's Toolkit": {
+      "name": "毒师工具包 Poisoner's Toolkit",
+      "description": {
+        "public": "<p>一个包裹着皮革的木盒，上面饰有十字针脚，以清楚表明其中装有危险物品。内含一个石制研钵和研杵、若干用于固定塞好瓶塞的毒性材料小瓶的槽位、一把银勺，以及一个可折叠的小型铁架和一个小黄铜锅，用于在火上混合材料。</p>\n<p>A wooden box wrapped in leather etched with a decorative cross-stitch to make it clear it contains dangerous goods. Contains a stone mortar and pestle spaces for securing several stoppered vials of poisonous ingredients, a silver spoon, and a small collapsible iron frame and small brass pot for combining ingredients above a fire.</p>"
+      }
+    },
+    "Primordial Seed": {
+      "name": "原初之种 Primordial Seed",
+      "description": {
+        "public": "<p>这种护符深受与大地之力调谐的德鲁伊信徒青睐，能辅助施法，也可在战斗中用来朝敌人喷射一股有毒孢子。</p>\n<p>This talisman, favored by druidic adherants attuned to the power of the land, aids in the practice of spellcraft or can be used in combat to direct a gout of poisonous spores towards an enemy.</p>"
+      }
+    },
+    "Quarterstaff": {
+      "name": "长棍 Quarterstaff",
+      "description": {
+        "public": "<p>长约六到八英尺的简易木棍，长棍是一种平衡性好得出奇的武器，在受过训练的人手中会十分致命。</p>\n<p>A simple wooden staff around six to eight feet long, the quarterstaff is a deceptively balanced weapon that can be deadly in trained hands.</p>"
+      }
+    },
+    "Rallying Elixir": {
+      "name": "振奋灵药 Rallying Elixir",
+      "description": {
+        "public": "<p>这种药水含有一种特殊的炼金配方，能够迅速强化心智并提升士气。</p>\n<p>This potion contains a specialized alchemical formula to rapidly fortify the psyche and improve morale.</p>"
+      },
+      "actions": {
+        "rallyingElixir": {
+          "name": "振奋灵药 Rallying Elixir",
+          "description": "<p>立即恢复一定数量的<strong>士气</strong>，具体数值取决于该灵药的品质。</p><ul><li><p><strong>粗劣</strong> - 立即恢复 6 点<strong>士气</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>士气</strong>。</p></li><li><p><strong>优良</strong> - 立即恢复 24 点<strong>士气</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>士气</strong>。</p></li><li><p><strong>杰作</strong> - 立即恢复 96 点<strong>士气</strong>。</p></li></ul>\n<p>Immediately recover an amount of <strong>Morale </strong>dependant on the quality of the elixir.</p><ul><li><p><strong>Shoddy</strong> - Immediately heals 6 <strong>Morale</strong>.</p></li><li><p><strong>Standard</strong> - Immediately heals 12 <strong>Morale</strong>.</p></li><li><p><strong>Fine</strong> - Immediately heals 24 <strong>Morale</strong>.</p></li><li><p><strong>Superior</strong> - Immediately heals 48 <strong>Morale</strong>.</p></li><li><p><strong>Masterwork</strong> - Immediately heals 96 <strong>Morale</strong>.</p></li></ul>"
+        }
+      }
+    },
+    "Rallying Tonic": {
+      "name": "振奋补剂 Rallying Tonic",
+      "description": {
+        "public": "<p>这瓶药水含有一种专门的炼金配方，能逐步强化心智并提升士气。</p>\n<p>This potion contains a specialized alchemical formula to gradually fortify the psyche and improve morale.</p>"
+      },
+      "actions": {
+        "rallyingTonic": {
+          "name": "振奋补剂 Rallying Tonic",
+          "description": "<p>立即，并在接下来 5 <strong>轮</strong>中的每一轮开始时，根据药剂的品质恢复一定量的<strong>士气</strong>。</p><ul><li><p><strong>粗制滥造</strong> - 每轮恢复 2 <strong>士气</strong></p></li><li><p><strong>标准</strong> - 每轮恢复 4 <strong>士气</strong></p></li><li><p><strong>精良 </strong>- 每轮恢复 8 <strong>士气 </strong></p></li><li><p><strong>优异</strong> - 每轮恢复 16 <strong>士气</strong></p></li><li><p><strong>大师之作</strong> - 每轮恢复 32 <strong>士气</strong></p></li></ul>\n<p>Immediately, and at the beginning of each of the next 5 <strong>Rounds</strong>, recover an amount of <strong>Morale</strong> dependent on the quality of the tonic.</p><ul><li><p><strong>Shoddy</strong> - Heals 2 <strong>Morale</strong> each Round</p></li><li><p><strong>Standard</strong> - Heals 4 <strong>Morale</strong> each Round</p></li><li><p><strong>Fine </strong>- Heals 8 <strong>Morale </strong>each Round</p></li><li><p><strong>Superior</strong> - Heals 16 <strong>Morale</strong> each Round</p></li><li><p><strong>Masterwork</strong> - Heals 32 <strong>Morale</strong> each Round</p></li></ul>",
+          "effects": [
+            {
+              "name": "振奋补剂 Rallying Tonic"
+            }
+          ]
+        }
+      }
+    },
+    "Rapier": {
+      "name": "细剑 Rapier",
+      "description": {
+        "public": "<p>细长、纤细且平衡绝佳，细剑是击剑手的首选武器，其针尖般的剑锋非常适合闪电般迅捷的突刺与致命的决斗。</p>\n<p>Long, slender, and exquisitely balanced, the rapier is a fencer’s weapon of choice, its needle-point tip perfect for lightning-fast thrusts and deadly duels.</p>"
+      }
+    },
+    "Rations": {
+      "name": "口粮 Rations",
+      "description": {
+        "public": "<p>干面包、坚果、熏制奶酪和肉类，适合作为一顿简陋的餐食，足以维持单人一天的生命。</p>\n<p>Dried bread, nuts, smoked cheese and meat suitable to serve as a rudimentary meal capable of sustaining life for a single day.</p>"
+      }
+    },
+    "Razor": {
+      "name": "剃刀 Razor",
+      "description": {
+        "public": "<p>一种特别锋利的刀片，用于剃刮，或在某些情况下用于外科手术。</p>\n<p>A particularly sharp blade used for shaving or, in some cases, surgery.</p>"
+      }
+    },
+    "Repair Kit (smith)": {
+      "name": "修理工具包（铁匠） Repair Kit (smith)",
+      "description": {
+        "public": "<p>一个皮革装订的袋子，内含磨刀石和砂轮、一个小锤子、一个用于熔化金属的小坩埚，以及各种各样的废金属小碎片。可用于修理金属护甲、武器和配件。</p>\n<p>A leather-bound bag containing sharpening stones and a grinder, a small hammer, a small crucible for liquifying metal, and an assortment of small pieces of scrap metal. Can be used to repair metal armor, weapons, and accessories.</p>"
+      }
+    },
+    "Repair Kit (tailor)": {
+      "name": "修理工具包（裁缝） Repair Kit (tailor)",
+      "description": {
+        "public": "<p>一个皮革装订的袋子，内含剪刀、针、编织架，以及各种小块碎布、皮革、线和绳。可用于修理布制和皮制的护甲及配件。</p>\n<p>A leather-bound bag containing scissors, needles, a weaving frame, and an assortment of small pieces of scrap cloth, leather, thread and string. Can be used to repair cloth and leather armor and accessories.</p>"
+      }
+    },
+    "Ring Mail": {
+      "name": "环甲 Ring Mail",
+      "description": {
+        "public": "<p>环甲是在衬垫底层上缝有金属环的护甲，在防护性上不如更重型的锁甲，但作为交换提供了更高的机动性。</p>\n<p>Ring mail features metal rings sewn onto a padded base, offering a compromise of less protection than heavier mail options in exchange for greater mobility.</p>"
+      }
+    },
+    "Ring of Evasion": {
+      "name": "闪避戒指 Ring of Evasion",
+      "description": {
+        "public": "<blockquote><p>这枚装饰优雅的戒指摸起来略微湿滑，不易抓握。拿在手中时，它会以几乎难以察觉的幅度振动。</p></blockquote><p>这枚戒指提供<strong>闪避</strong><strong>防御</strong>加值，其数值等于其<strong>品质</strong>与<strong>附魔</strong>加值中的较低者。</p><ul><li><p><strong>精良</strong><strong>品质</strong>和<strong>次级</strong> <strong>附魔</strong>：<strong>+1 闪避</strong></p></li><li><p><strong>卓越</strong><strong>品质</strong>和<strong>强效</strong> <strong>附魔</strong>：<strong>+2 闪避</strong></p></li><li><p><strong>大师级</strong> <strong>品质</strong>和<strong>传奇</strong> <strong>附魔</strong>：<strong>+3 闪避</strong></p></li></ul>\n<blockquote><p>This elegant ornamented ring feels slightly slick and difficult to grasp. While held it vibrates almost imperceptibly.</p></blockquote><p>This ring provides a bonus to <strong>Dodge</strong> defense equal to the minimum of its <strong>Quality</strong> and <strong>Enchantment</strong> bonuses.</p><ul><li><p><strong>Fine</strong> quality and <strong>Minor </strong>enchantment: <strong>+1 Dodge</strong></p></li><li><p><strong>Superior </strong>quality and <strong>Major </strong>enchantment: <strong>+2 Dodge</strong></p></li><li><p><strong>Masterwork </strong>quality and <strong>Legendary </strong>enchantment: <strong>+3 Dodge</strong></p></li></ul>",
+        "private": "<p>此物品以戒指的形式呈现，但它也可以是任何类型的配饰，例如护符、斗篷、护腕，或其他类型的小饰物。</p>\n<p>This item is presented as a ring, but it can be any type of accessory like an amulet, cloak, bracers, or other type of trinket.</p>"
+      }
+    },
+    "Ring of Gliding": {
+      "name": "滑翔戒指 Ring of Gliding",
+      "description": {
+        "public": "<p>一枚优雅的淡蓝色钢制指环，其金属表面饰有螺旋纹样，营造出一种幻象，仿佛它在佩戴者的手指上始终缓缓旋转。</p><p>当处于自由落体时，佩戴者可以凭本能启动这枚戒指，从而进入一种优雅且可控的下降状态。</p>\n<p>A band of elegant pale blue steel that features a spiraling pattern to the metal that presents the illusion that it is perpetually spinning slowly upon its wearer's finger.</p><p>This ring can be instinctually activated by its bearer when in freefall to enter a graceful and controlled descent.</p>",
+        "private": "<p>该物品以戒指的形式呈现，但它也可以是任何类型的饰品，例如护符、披风、护腕，或其他类型的小饰物。</p>\n<p>This item is presented as a ring, but it can be any type of accessory like an amulet, cloak, bracers, or other type of trinket.</p>"
+      },
+      "actions": {
+        "gliding": {
+          "name": "滑翔戒指 Ring of Gliding",
+          "description": "<p>如果在<strong>坠落</strong>时使用，你在滑翔时可以从初始位置横向移动若干格。</p><ul><li><p><strong>次级 </strong>附魔：每下降<strong>20英尺</strong>，可移动<strong>1英尺</strong>。</p></li><li><p><strong>卓越</strong>附魔：每下降<strong>20英尺</strong>，可移动<strong>2英尺 </strong>。</p></li><li><p><strong>精制 </strong>附魔：每下降<strong>20英尺</strong>，可移动<strong>4英尺</strong>。</p></li></ul><p>你在落地时不会受到坠落伤害，也不会陷入@Condition[prone]状态。</p>\n<p>If used while <strong>Falling</strong>, you may laterally move a number of spaces from your initial location as you glide.</p><ul><li><p><strong>Minor </strong>enchantment: <strong>1 foot</strong> per 20 feet of descent.</p></li><li><p><strong>Superior</strong> enchantment: <strong>2 feet </strong>per <strong>20 feet</strong> of descent.</p></li><li><p><strong>Masterwork </strong>enchantment: <strong>4 feet</strong> per <strong>20 feet</strong> of descent.</p></li></ul><p>You take no falling damage upon landing, nor are you rendered @Condition[prone].</p>"
+        }
+      }
+    },
+    "Ring of Reinforcement": {
+      "name": "强化戒指 Ring of Reinforcement",
+      "description": {
+        "public": "<blockquote><p>这枚钢制戒指摸起来总是冰凉的，而且尽管戒环狭窄，却给人一种比预期更沉的感觉。</p></blockquote><p>这枚戒指提供等同于其<strong>品质</strong>与<strong>附魔</strong>加值中较低者的<strong>护甲</strong>防御加值。</p><ul><li><p><strong>精良</strong>品质和<strong>次级</strong>附魔：<strong>+1 护甲</strong></p></li><li><p><strong>优异</strong>品质和<strong>高级</strong>附魔：<strong>+2 护甲</strong></p></li><li><p><strong>杰作</strong>品质和<strong>传奇</strong>附魔：<strong>+3 护甲</strong></p></li></ul>\n<blockquote><p>This steel ring feels permanently cool to the touch and gives the sensation of weighing more than expected given its narrow band.</p></blockquote><p>This ring provides a bonus to <strong>Armor</strong> defense equal to the minimum of its <strong>Quality</strong> and <strong>Enchantment</strong> bonuses.</p><ul><li><p><strong>Fine</strong> quality and <strong>Minor </strong>enchantment: <strong>+1 Armor</strong></p></li><li><p><strong>Superior </strong>quality and <strong>Major </strong>enchantment: <strong>+2 Armor</strong></p></li><li><p><strong>Masterwork </strong>quality and <strong>Legendary </strong>enchantment: <strong>+3 Armor</strong></p></li></ul>",
+        "private": "<p>此物品以戒指的形式呈现，但它也可以是任何类型的饰品，例如护符、斗篷、护腕，或其他类型的小饰物。</p>\n<p>This item is presented as a ring, but it can be any type of accessory like an amulet, cloak, bracers, or other type of trinket.</p>"
+      }
+    },
+    "Rope": {
+      "name": "绳索 Rope",
+      "description": {
+        "public": "<p>一段 30 英尺长的植物纤维绳索，可用于辅助攀爬或许多其他用途。</p>\n<p>A 30' length of plant-fibre rope that can be used to assist climbing or for many other purposes.</p>"
+      }
+    },
+    "Rope Ladder": {
+      "name": "绳梯 Rope Ladder",
+      "description": {
+        "public": "<p>25英尺长的木条和打结的绳索绑在一起，并卷成一种便于攀爬的装置。固定在一端后，能显著降低攀爬者坠落的几率。</p>\n<p>25 feet of wooden slats and knotted rope tied together and rolled into a convenient climbing device. When secured at one end significantly reduces the chances that those climbing might fall.</p>"
+      }
+    },
+    "Round Shield": {
+      "name": "圆盾 Round Shield",
+      "description": {
+        "public": "<p>一种直径近两英尺的圆形金属盾牌，是缺乏盾牌战斗专门训练的步兵的基本防御装备。</p>\n<p>A round metal shield nearly two feet in diameter which is the basic defensive armament of foot soldiers lacking specialized training in shield combat.</p>"
+      }
+    },
+    "Sai": {
+      "name": "钗 Sai",
+      "description": {
+        "public": "<p>一把形似三叉戟、带有钝头叉齿与尖锐长柄的武器，钗是一种讲求精准与控制的工具，可用于格挡刀刃，并以一闪而过的克制怒意发起打击。</p>\n<p>A trident-shaped weapon with blunt prongs and a pointed shaft, the sai is a tool of precision and control, used to trap blades and strike with a flicker of disciplined fury.</p>"
+      }
+    },
+    "Scale Mail": {
+      "name": "鳞甲 Scale Mail",
+      "description": {
+        "public": "<p>缝缀或铆接在皮革或布料衬底上的重叠金属片，使鳞甲看起来如同巨龙的鳞皮，并能很好地防护劈砍与刺击——不过它很吵，而且不够灵活。</p>\n<p>Overlapping metal plates sewn or riveted onto a leather or cloth backing, scale mail resembles the hide of a dragon and protects well against cuts and stabs—though it's noisy and inflexible.</p>"
+      }
+    },
+    "Scimitar": {
+      "name": "弯刀 Scimitar",
+      "description": {
+        "public": "<p>凭借其宽阔的弯曲刀刃与致命的弧线，弯刀在战斗中飞舞，锋刃以大开大阖而优雅的打击划过敌人。</p>\n<p>With its wide, curved blade and deadly arc, the scimitar dances through battle, its edge carving through foes in sweeping, elegant strikes.</p>"
+      }
+    },
+    "Scrivener's Portable Workbench": {
+      "name": "文书吏便携式工作台 Scrivener's Portable Workbench",
+      "description": {
+        "public": "<p>一个裹着皮革的木盒，比一本普通书籍大不了多少。里面装有书法刷和笔尖、针线，并留有空间将墨水小瓶与折叠的纸张分开存放。打开搭扣后，盒子可以展开，作为平整的书写表面使用。</p>\n<p>A wooden box wrapped in leather not much larger than a common book. Contains calligraphic brushes and pen tips, needle and thread, and room to store ink vials separately from folded paper. When unlatched, the box can be unfolded to serve as a flat writing surface.</p>"
+      }
+    },
+    "Scrivener's Toolkit": {
+      "name": "文书吏工具包 Scrivener's Toolkit",
+      "description": {
+        "public": "<p>一个皮革包边的木制工具包。内有一个涂蜡的文件小袋，用于保持纸张干燥，一包封蜡、几支羽毛笔和墨水，以及一块平整的木板，可用作书写台面。</p>\n<p>A leather-bound wooden kitbag. Contains a waxed document pouch for keeping papers dry, a packet of sealing wax, several quills and inks, and a flat wooden board to use as a writing surface.</p>"
+      }
+    },
+    "Shortbow": {
+      "name": "短弓 Shortbow",
+      "description": {
+        "public": "<p>短弓结构紧凑，便于快速拔出，擅长快速的近距离射箭与小规模冲突，深受侦察兵、猎人和行动敏捷的袭击者青睐。</p>\n<p>Compact and quick to draw, the shortbow excels in rapid, close-quarters archery and skirmishes, favored by scouts, hunters, and swift-footed raiders.</p>"
+      }
+    },
+    "Shortsword": {
+      "name": "短剑 Shortsword",
+      "description": {
+        "public": "<p>短剑是一种直刃武器，挥舞灵活，能在近身战斗中迅速打击。它配有一个十字护手，非常适合招架来袭的攻击。</p>\n<p>The shortsword is a straight-bladed weapon which is nimble to wield and quick to strike in close combat. It features a crossguard ideal for parrying incoming blows.</p>"
+      }
+    },
+    "Shovel": {
+      "name": "铲子 Shovel",
+      "description": {
+        "public": "<p>一种常见的双手持用工具，用于挖掘土壤和石头。</p>\n<p>A common two-handed tool used for digging soil and stones.</p>"
+      }
+    },
+    "Skull Fetish": {
+      "name": "颅骨护符 Skull Fetish",
+      "description": {
+        "public": "<p>这枚骇人的护符会引动恐惧与死亡的能量，以辅助施法，或以腐化性的影响折磨敌人。</p>\n<p>This macabre talisman invokes the fear and energies of death to aid spellcaft or afflict enemies with corrupting influence.</p>"
+      }
+    },
+    "Sling": {
+      "name": "投石索 Sling",
+      "description": {
+        "public": "<p>一种看似简单的绳索或皮带，用于高速投掷石块；投石索是历史上最古老的武器之一——虽然需要技巧，但在训练有素的人手中却极其致命。</p>\n<p>A deceptively simple length of cord or leather used to hurl stones at high velocity, the sling is one of the oldest weapons in history—requiring skill, but deadly in trained hands.</p>"
+      }
+    },
+    "Smith's Portable Forge": {
+      "name": "铁匠便携式熔炉 Smith's Portable Forge",
+      "description": {
+        "public": "<p>一个厚实的、内衬黏土的密封铁罐，上有一个用于连接手动风箱的孔，以及一个用于放入待加热金属的小开口。配有一套风箱和一个小铁砧。这件重型装置让铁匠在旅途中也能从事他们的手艺，不过搬运它可能需要强健的背力。适合制作大多数常见的金属工具和武器，但不足以胜任高品质的工作。</p>\n<p>A thick, clay-lined, sealed iron pot with a hole for attaching a hand-bellows and a small opening for inserting metal to be heated. A set of bellows and a small anvil. This heavy device allows a smith to ply their trade while on the road, though it may take a strong back to transport it. Suitable for crafting most common metal tools and weapons, but insufficient for high quality work.</p>"
+      }
+    },
+    "Smith's Toolkit": {
+      "name": "铁匠工具包 Smith's Toolkit",
+      "description": {
+        "public": "<p>一个皮革装订的木制工具包。内有锥子、钳子、废金属和一块小铁砧，并留有空间用于存放零碎的废金属。</p>\n<p>A leather-bound wooden kitbag. Contains awls, pincers, scrap metal and a small anvil as well as space for storing bits of scrap metal.</p>"
+      }
+    },
+    "Soap": {
+      "name": "肥皂 Soap",
+      "description": {
+        "public": "<p>一块用于个人清洁卫生的普通清洁肥皂。每块约可使用20次。</p>\n<p>A bar of common cleaning soap used for personal hygiene. Each bar contains about 20 applications.</p>"
+      }
+    },
+    "Spear": {
+      "name": "矛 Spear",
+      "description": {
+        "public": "<p>矛是一种兼具延伸与节奏感的武器，配有长柄和钢制矛尖，无论是在盾墙后稳住战线，还是借助致命的力量掷出，都非常合适。</p>\n<p>A weapon of reach and rhythm, the spear features a long shaft tipped with steel, perfect for holding the line or launching with deadly force from behind a shield wall.</p>"
+      }
+    },
+    "Spell Scroll (Legendary)": {
+      "name": "法术卷轴（传奇） Spell Scroll (Legendary)",
+      "description": {
+        "public": "<p>法术卷轴是一种特殊的薄羊皮纸或羊皮纸制品，其上被精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予阅读者对这些构件的深刻熟悉感，仿佛他们已经了解了这些构件多年。</p><p>法术卷轴根据其附魔等级分为三个阶级。更强力的卷轴可以同时传达更多的施法构件。</p><ul><li><p><strong>次级</strong>：可包含一个施法构件</p></li><li><p><strong>高级</strong>：可包含两个施法构件</p></li><li><p><strong>传奇</strong>：可包含三个施法构件</p></li></ul>\n<p>A spell scroll is a specialized piece of vellum or parchment upon which are carefully inlaid the glyphs of one or more spellcraft components. Activating this spell scroll temporarily imbues its reader with a deep familiarity with those components as if they have known them for years.</p><p>Spell scrolls come in three tiers, according to their level of Enchantment. More powerful scrolls may simultaneously convey a larger number of spellcraft components.</p><ul><li><p><strong>Minor</strong>: May contain a single spellcraft component</p></li><li><p><strong>Major</strong>: May contain two spellcraft components</p></li><li><p><strong>Legendary</strong>: May contain three spellcraft components</p></li></ul>"
+      },
+      "actions": {
+        "readScroll": {
+          "name": "阅读卷轴 Read Scroll",
+          "description": "<p>阅读这张法术卷轴，暂时获得其施法成分的知识，持续10分钟。</p><p>你在同一时间只能有一个法术卷轴效果处于生效状态。阅读另一张卷轴会替代当前的任何效果。</p>\n<p>Read this spell scroll, temporarily gaining knowledge of its spellcraft components for 10 minutes.</p><p>You may only have one spell scroll effect active at a given time. Reading a different scroll replaces any current effect.</p>",
+          "effects": [
+            {
+              "name": "阅读卷轴 Read Scroll"
+            }
+          ]
+        }
+      }
+    },
+    "Spell Scroll (Major)": {
+      "name": "法术卷轴（高阶） Spell Scroll (Major)",
+      "description": {
+        "public": "<p>法术卷轴是一种特殊的犊皮纸或羊皮纸，其上被精心嵌入了一个或多个施法构成要素的符文。激活这张法术卷轴会暂时赋予其阅读者对这些构成要素的深刻熟悉感，仿佛他们已经了解它们多年。</p><p>法术卷轴依其附魔等级分为三个阶位。更强力的卷轴可以同时传达更多数量的施法构成要素。</p><ul><li><p><strong>次级</strong>：可包含一个施法构成要素</p></li><li><p><strong>高级</strong>：可包含两个施法构成要素</p></li><li><p><strong>传奇</strong>：可包含三个施法构成要素</p></li></ul>\n<p>A spell scroll is a specialized piece of vellum or parchment upon which are carefully inlaid the glyphs of one or more spellcraft components. Activating this spell scroll temporarily imbues its reader with a deep familiarity with those components as if they have known them for years.</p><p>Spell scrolls come in three tiers, according to their level of Enchantment. More powerful scrolls may simultaneously convey a larger number of spellcraft components.</p><ul><li><p><strong>Minor</strong>: May contain a single spellcraft component</p></li><li><p><strong>Major</strong>: May contain two spellcraft components</p></li><li><p><strong>Legendary</strong>: May contain three spellcraft components</p></li></ul>"
+      },
+      "actions": {
+        "readScroll": {
+          "name": "阅读卷轴 Read Scroll",
+          "description": "<p>阅读这张法术卷轴，暂时获得其施法构成要素的知识，持续10分钟。</p><p>你在任意时刻只能有一个法术卷轴效果处于生效状态。阅读不同的卷轴会替换当前的任何效果。</p>\n<p>Read this spell scroll, temporarily gaining knowledge of its spellcraft components for 10 minutes.</p><p>You may only have one spell scroll effect active at a given time. Reading a different scroll replaces any current effect.</p>",
+          "effects": [
+            {
+              "name": "阅读卷轴 Read Scroll"
+            }
+          ]
+        }
+      }
+    },
+    "Spell Scroll (Minor)": {
+      "name": "法术卷轴（次级） Spell Scroll (Minor)",
+      "description": {
+        "public": "<p>法术卷轴是一种特殊的薄羊皮纸或羊皮纸，其上细致嵌入了一个或多个施法构成要素的符文。激活这张法术卷轴会暂时赋予阅读者对这些构成要素的深刻熟悉感，仿佛他们已经了解这些要素多年。</p><p>法术卷轴分为三个阶级，具体取决于其附魔等级。更强力的卷轴可以同时传达更多数量的施法构成要素。</p><ul><li><p><strong>次级</strong>：可包含一个施法构成要素</p></li><li><p><strong>高级</strong>：可包含两个施法构成要素</p></li><li><p><strong>传奇</strong>：可包含三个施法构成要素</p></li></ul>\n<p>A spell scroll is a specialized piece of vellum or parchment upon which are carefully inlaid the glyphs of one or more spellcraft components. Activating this spell scroll temporarily imbues its reader with a deep familiarity with those components as if they have known them for years.</p><p>Spell scrolls come in three tiers, according to their level of Enchantment. More powerful scrolls may simultaneously convey a larger number of spellcraft components.</p><ul><li><p><strong>Minor</strong>: May contain a single spellcraft component</p></li><li><p><strong>Major</strong>: May contain two spellcraft components</p></li><li><p><strong>Legendary</strong>: May contain three spellcraft components</p></li></ul>"
+      },
+      "actions": {
+        "readScroll": {
+          "name": "阅读卷轴 Read Scroll",
+          "description": "<p>阅读这张法术卷轴，暂时获得其施法构成要素的知识，持续10分钟。</p><p>你在任一时刻只能有一种法术卷轴效果处于生效状态。阅读另一张卷轴会替代当前的任何效果。</p>\n<p>Read this spell scroll, temporarily gaining knowledge of its spellcraft components for 10 minutes.</p><p>You may only have one spell scroll effect active at a given time. Reading a different scroll replaces any current effect.</p>",
+          "effects": [
+            {
+              "name": "阅读卷轴 Read Scroll"
+            }
+          ]
+        }
+      }
+    },
+    "Spellband": {
+      "name": "法术带 Spellband",
+      "description": {
+        "public": "<p>这枚戒指由一种不透明的石材制成，经精心雕琢出优雅流畅的层叠纹理，唤起一种古老的美感。这枚戒指可作为<strong>注入</strong>佩戴者的强力<strong>施法</strong>专注。</p>\n<p>This ring made of an opaque stone that has been carefully carved with graceful, sweeping layers evoking an ancient aesthetic. The ring serves as a powerful spellcasting focus for the <strong>Invested</strong> wearer.</p>"
+      },
+      "actions": {
+        "spellband": {
+          "name": "法术带 Spellband",
+          "description": "<p>在受困时刻，你可以从这枚戒指中额外汲取<strong>专注</strong>储备。恢复的专注量取决于戒指的附魔加值。</p><ul><li><p><strong>次级</strong>附魔：<strong>4 点专注</strong></p></li><li><p><strong>高级</strong>附魔：<strong>6 点专注</strong></p></li><li><p><strong>传奇</strong>附魔：<strong>8 点专注</strong></p></li></ul>\n<p>In moments of duress you can withdraw an additional reserve of <strong>Focus</strong> from this band. The amount of Focus restored depends on the enchantment bonus of the ring.</p><ul><li><p><strong>Minor </strong>enchantment: <strong>4 Focus</strong></p></li><li><p><strong>Major </strong>enchantment: <strong>6 Focus</strong></p></li><li><p><strong>Legendary </strong>enchantment: <strong>8 Focus</strong></p></li></ul>"
+        }
+      }
+    },
+    "Spiked Greatclub": {
+      "name": "带钉巨棒 Spiked Greatclub",
+      "description": {
+        "public": "<p>这段粗糙扭曲的重型木材上嵌有凶恶的凸出尖刺，使其在攻击时更加骇人而凶暴，但代价是多余的体积。</p>\n<p>The gnarled length of heavy wood has been embedded with vicious protruding spikes, making it even more formidable and savage in the blows it delivers at the expense of its excess bulk.</p>"
+      }
+    },
+    "Spiked Knuckles": {
+      "name": "带刺指虎 Spiked Knuckles",
+      "description": {
+        "public": "<p>带刺指虎是拳部武器与穿刺工具的残暴结合，让每一次重拳都化为致残一击，极其适合那些想让双拳带来流血与恐惧的斗殴者。</p>\n<p>A brutal blend of fist weapon and piercing tool, spiked knuckles turn every punch into a maiming blow, ideal for brawlers who want their fists to draw blood and fear.</p>"
+      }
+    },
+    "Splint Mail": {
+      "name": "板条甲 Splint Mail",
+      "description": {
+        "public": "<p>一层垂直的金属条铆接在皮革或链甲衬底上，条甲护甲在牺牲一定灵活性的同时，为四肢提供了强大的保护。</p>\n<p>A layer of vertical metal strips riveted to a backing of leather or mail, splint armor offers strong limb protection while sacrificing some flexibility.</p>"
+      }
+    },
+    "Spyglass": {
+      "name": "望远镜 Spyglass",
+      "description": {
+        "public": "<p>一架由黄铜和木材制成的手持望远镜，配有高度抛光的玻璃镜片。用于放大远处的景象。</p>\n<p>A handheld telescope made of brass and wood with highly polished glass lenses. Used to magnify a distant view.</p>"
+      }
+    },
+    "Steel-Jaw Trap": {
+      "name": "钢颚陷阱 Steel-Jaw Trap",
+      "description": {
+        "public": "<p>一种特别残忍且锋利的机械陷阱，旨在使毫无防备者无法动弹并将其杀死。当生物踩到中央的压力板时，一个锯齿状的钢环会猛然闭合</p>\n<p>A particularly cruel and sharp mechanical trap designed to immobilize and kill the unwary. A saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center</p>"
+      },
+      "actions": {
+        "steelJawArm": {
+          "name": "设置钢颚陷阱 Arm Steel-Jaw Trap",
+          "description": "<p>设置这个陷阱会放置一个危险的隐患；若被触发，会造成大量伤害。它必须用重型锁链固定在一个不可移动的物体上，例如树木或钉入地面的尖桩。陷阱的区域是一个半径为 2 英尺的圆。</p>\n<p>Setting the trap places a dangerous hazard that deals significant damage if triggered. It must be affixed by heavy chain to an immobile object, such as a tree or spike driven into the ground. The area of the trap is a circle with a radius of 2 feet.</p>"
+        },
+        "steelJawTrigger": {
+          "name": "触发钢颚陷阱 Trigger Steel-Jaw Trap",
+          "description": "<p>当被触发时，设置陷阱的生物对触发陷阱的单一目标进行一次<strong>荒野</strong>技能攻击，对抗其<strong>反射</strong><strong>防御</strong>。若未被抵抗，则造成穿刺伤害并施加 @Condition[restrained] 状态。陷阱造成的基础伤害根据陷阱的品质而变化。</p><ul><li><p><strong>粗制</strong> - 1 伤害</p></li><li><p><strong>标准</strong> - 2 伤害</p></li><li><p><strong>精制</strong> - 4 伤害</p></li><li><p><strong>优质</strong> - 8 伤害</p></li><li><p><strong>大师级</strong> - 16 伤害</p></li></ul><p></p>\n<p>When triggered the creature that set the trap makes a <strong>Wilderness</strong> skill attack against the <strong>Reflex</strong> defense of a single target which triggered the trap. If not resisted, it deals piercing damage and applies the @Condition[restrained] condition. The base damage dealt by the trap varies according to the quality of the trap.</p><ul><li><p><strong>Shoddy</strong> - 1 damage</p></li><li><p><strong>Standard</strong> - 2 damage</p></li><li><p><strong>Fine</strong> - 4 damage</p></li><li><p><strong>Superior</strong> - 8 damage</p></li><li><p><strong>Masterwork</strong> - 16 damage</p></li></ul><p></p>",
+          "effects": [
+            {
+              "name": "钢颚陷阱 Steel-Jaw Trap"
+            }
+          ]
+        }
+      }
+    },
+    "Stiletto": {
+      "name": "细剑 Stiletto",
+      "description": {
+        "public": "<p>细长、尖削，并为穿刺而制，细剑是杀手的武器——专为从肋骨之间或护甲的缝隙中滑入而设计，几乎不留痕迹。</p>\n<p>Thin, tapered, and made for piercing, the stiletto is a killer’s weapon — designed to slide between ribs or gaps in armor and leave barely a trace.</p>"
+      }
+    },
+    "Studded Leather Armor": {
+      "name": "镶钉皮甲 Studded Leather Armor",
+      "description": {
+        "public": "<p>以皮革为基础，并用小型金属饰钉或铆接金属片加固，这种护甲在机动性与对劈砍伤害的适度保护之间取得了平衡。</p>\n<p>A base of leather reinforced with small metal studs or riveted plates, this armor strikes a balance between mobility and modest protection against slashes.</p>"
+      }
+    },
+    "Tailor's Portable Workbench": {
+      "name": "裁缝便携式工作台 Tailor's Portable Workbench",
+      "description": {
+        "public": "<p>一个皮革装订的浅木盒，内含线轴、合适的针和别针、一把剥皮刀、钩刀、冲子、锥子，以及适合在旅途中处理布料和皮革的烙印工具。打开后，可折叠成一个平坦的工作台面。</p>\n<p>A leather-bound shallow wooden box containing spools for thread, suitable needles and pins, a skinning knife, hook knife, punches, awls, and brands suitable for working with cloth and leather while travelling. When unfastened, can be collapsed into a flat work surface.</p>"
+      }
+    },
+    "Tailor's Toolkit": {
+      "name": "裁缝工具包 Tailor's Toolkit",
+      "description": {
+        "public": "<p>一个皮革装订的木制工具包，内含线轴、合适的针和别针、剥皮刀、锥子，适合加工布料和皮革。</p>\n<p>A leather-bound wooden kitbag containing spools for thread, suitable needles and pins, a skinning knife awls, suitable for working with cloth and leather.</p>"
+      }
+    },
+    "Tent (caravan)": {
+      "name": "帐篷（商队） Tent (caravan)",
+      "description": {
+        "public": "<p>一大块可折叠或可卷起的篷布，用于搭建临时庇护所，最多可容纳十二名 occupants。包含绳索、地钉和六根可折叠的十字支撑杆，必须先将其组装好，才能把篷布撑在上面。</p>\n<p>A massive foldable or rollable sheet for building a temporary shelter, suitable for up to twelve occupants. Includes ropes, pegs, and six collapsible cross-brace poles which must be assembled before the sheet can be stretched over it.</p>"
+      }
+    },
+    "Tent (large)": {
+      "name": "帐篷（大型） Tent (large)",
+      "description": {
+        "public": "<p>一大块可折叠或可卷起的布，用于搭建临时庇护所，最多可容纳六人。包括绳索、地钉和用于中央的可折叠支撑杆。</p>\n<p>A large foldable or rollable sheet for building a temporary shelter, suitable for up to six occupants. Includes ropes, pegs, and a collapsible cross-brace for its center.</p>"
+      }
+    },
+    "Tent (small)": {
+      "name": "帐篷（小型） Tent (small)",
+      "description": {
+        "public": "<p>一种可折叠或可卷起的布，用于搭建临时庇护所，适合一到两名使用者。包括绳索、地钉和一个用于其中央的可折叠横撑。</p>\n<p>A foldable or rollable sheet for building a temporary shelter, suitable for one-to-two occupants. Includes ropes, pegs, and a collapsible cross-brace for its center.</p>"
+      }
+    },
+    "Torch": {
+      "name": "火把 Torch",
+      "description": {
+        "public": "<p>将浸满油的层状材料固定在骨头或其他不可燃材料制成的杆子末端，构成一种廉价但效率不高的临时光源。每支火把可燃烧一小时，之后便无法再使用。</p>\n<p>Layered oil-soaked affixed around the end of a rod made of bone or another non-flammable material, an inexpensive, if inefficient, temporary lightsource. Each torch can burned for one hour before it can no longer be used.</p>"
+      }
+    },
+    "Tower Shield": {
+      "name": "塔盾 Tower Shield",
+      "description": {
+        "public": "<p>塔盾是一面巨大、长方形的木质与金属壁垒，使其持用者化身为行走的堡垒，非常适合把守狭窄通道——但代价是速度与视野都会受限。</p>\n<p>A massive, rectangular wall of wood and metal, the tower shield turns its bearer into a walking fortress, ideal for holding choke points—but at the cost of speed and vision.</p>"
+      }
+    },
+    "Travel Jug": {
+      "name": "旅行水壶 Travel Jug",
+      "description": {
+        "public": "<p>一个带塞子的陶制水壶，外面包裹着皮革，可固定在腰带上或挂在背包外侧，便于取用。可装 40 盎司液体。</p>\n<p>A clay jug with a stopper, wrapped in leather that can be affixed to a belt or outside of a pack for convenient use. Can contain 40oz of liquid.</p>"
+      }
+    },
+    "War Hammer": {
+      "name": "战锤 War Hammer",
+      "description": {
+        "public": "<p>战锤专为击碎板甲、砸裂盾牌而打造，配有沉重的钝头，安装在加固的长柄顶端，在那些崇尚力量胜于灵巧之人的手中带来毁灭。</p>\n<p>Built to crush plate and shatter shields, the war hammer features a heavy, blunt head mounted atop a reinforced haft, delivering ruin in the hands of those who favor power over finesse.</p>"
+      }
+    },
+    "War Lance": {
+      "name": "战枪 War Lance",
+      "description": {
+        "public": "<p>战枪专为骑乘战斗而设计，是一种细长、逐渐收尖的武器，借助冲锋坐骑的冲势击碎护甲，其枪杆经过加固，能够造成毁灭性的冲击。</p>\n<p>Designed for mounted combat, the war lance is a long, tapered weapon used to shatter armor with the momentum of a charging steed, its shaft reinforced for devastating impact.</p>"
+      }
+    },
+    "Weather Clothing": {
+      "name": "御寒服装 Weather Clothing",
+      "description": {
+        "public": "<p>一套用于保护穿戴者免受恶劣天气影响的服装，例如极端温度、风或湿气。</p>\n<p>A set of clothing designed for protecting the wearer against inclement weather such as extremes of temperature, wind, or humidity.</p>"
+      }
+    },
+    "Wetskin": {
+      "name": "水囊 Wetskin",
+      "description": {
+        "public": "<p>一个包裹皮革的囊袋，可固定在腰带上或背包外侧，便于取用。可容纳 26 盎司液体。</p>\n<p>A leather-wrapped bladder that can be affixed to a belt or outside of a pack for convenient use. Can contain 26oz of liquid.</p>"
+      }
+    },
+    "Whistle": {
+      "name": "口哨 Whistle",
+      "description": {
+        "public": "<p>一种由雕刻木材或骨头制成的器具，向其中吹气时会发出一种尖锐的单一声音，能够在很远的距离外被听见。常被猎人和渔夫用来在荒野中或海上彼此发出信号。</p>\n<p>An instrument made from carved wood or bone that, when blown into, produces a single shrill sound that can be heard over long distances. Often used by hunters and fishers to signal one another when in the wilderness or at sea.</p>"
+      }
+    }
+  }
+}

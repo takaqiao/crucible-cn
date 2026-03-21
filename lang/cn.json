@@ -1,0 +1,2129 @@
+{
+  "TYPES": {
+    "ActiveEffect": {
+      "flanked": "夹击激活效果"
+    },
+    "Actor": {
+      "adversary": "敌手",
+      "hero": "英雄",
+      "group": "小队"
+    },
+    "Item": {
+      "accessory": "配饰",
+      "ancestry": "血统",
+      "archetype": "原型",
+      "armor": "护甲",
+      "background": "背景",
+      "consumable": "消耗品",
+      "loot": "战利品",
+      "schematic": "制作图纸",
+      "spell": "标志性法术",
+      "taxonomy": "分类法",
+      "talent": "天赋",
+      "tool": "工具",
+      "weapon": "武器"
+    },
+    "JournalEntryPage": {
+      "skill": "坩埚技能"
+    }
+  },
+  "CRUCIBLE": {
+    "Base": "基地",
+    "Bonus": "加值",
+    "Rules": "Crucible 规则",
+    "Scaling": "成长",
+    "Scaled": "鳞化",
+    "SHEETS": {
+      "Adversary": "Crucible对手角色卡",
+      "Ancestry": "Crucible 血统卡##",
+      "Archetype": "Crucible 原型表单",
+      "Armor": "Crucible 护甲表",
+      "Background": "Crucible 背景表",
+      "Group": "Crucible 团队表",
+      "Hero": "Crucible 英雄角色卡",
+      "HeroCreation": "Crucible 英雄创建表",
+      "Journal": "Crucible日志页",
+      "Schematic": "Crucible原理图表",
+      "Skill": "Crucible技能表",
+      "Spell": "Crucible法术表",
+      "Talent": "Crucible天赋表",
+      "Taxonomy": "Crucible 分类法表格",
+      "Tool": "Crucible工具表",
+      "Weapon": "Crucible 武器表"
+    }
+  },
+  "ABILITIES.Strength": "力量",
+  "ABILITIES.StrengthAbbr": "力量",
+  "ABILITIES.Toughness": "韧性",
+  "ABILITIES.ToughnessAbbr": "图",
+  "ABILITIES.Dexterity": "敏捷",
+  "ABILITIES.DexterityAbbr": "敏捷",
+  "ABILITIES.Intellect": "智力",
+  "ABILITIES.IntellectAbbr": "智力",
+  "ABILITIES.Presence": "气场",
+  "ABILITIES.PresenceAbbr": "前奏",
+  "ABILITIES.Wisdom": "感知",
+  "ABILITIES.WisdomAbbr": "感知",
+  "ABILITIES.GROUPS": {
+    "Power": "力量",
+    "Resilience": "韧性",
+    "Speed": "速度"
+  },
+  "ADVERSARY": {
+    "THREAT_RANKS": {
+      "Minion": "喽啰",
+      "Normal": "普通",
+      "Elite": "精英",
+      "Boss": "首领"
+    }
+  },
+  "ACTION": {
+    "DEFAULT_ACTIONS": {
+      "Cast": {
+        "Name": "施放法术",
+        "Description": "编织奥术以创造一项施法成果。"
+      },
+      "Defend": {
+        "Name": "防御",
+        "Description": "你专注于避免受到伤害，从而提高你的物理防御。直到你的下个<strong>回合</strong>开始前，你获得<strong>戒备</strong>状态。"
+      },
+      "Delay": {
+        "Name": "延迟",
+        "Description": "你将把你的动作延迟到战斗轮中的稍后时点。选择一个介于 1 和你后方战斗者先攻值之间的先攻值。你将在这个新的先攻值行动。你每轮只能延迟你的回合一次。"
+      },
+      "Move": {
+        "Name": "移动",
+        "Description": "通过花费一定量的动作来移动一段距离，其花费取决于你的步幅以及所使用的移动动作。"
+      },
+      "ReactiveStrike": {
+        "Name": "反应打击",
+        "Description": "当敌人离开你的交战范围，且你未处于完全交战状态时，进行一次打击。"
+      },
+      "Recover": {
+        "Name": "恢复",
+        "Description": "在战斗外花费 10 分钟从疲劳中恢复，即可将生命值、士气、动作和专注全部恢复。"
+      },
+      "Reload": {
+        "Name": "装填武器",
+        "Description": "为具有装填时间的远程武器进行装填。"
+      },
+      "Rest": {
+        "Name": "休息",
+        "Description": "花费十小时进行充分休息，包括进食、睡眠、处理创伤和恢复资源的时间。"
+      },
+      "Strike": {
+        "Name": "打击",
+        "Description": "用你的一件已装备武器攻击单个生物或物体。"
+      },
+      "ThrowWeapon": {
+        "Name": "投掷武器",
+        "Description": "将你已装备的近战武器掷向附近的目标并进行打击。此次攻击承受 +2 <strong>祸骰</strong>，且该武器变为<strong>脱手</strong>。"
+      }
+    },
+    "EFFECT_RESULT_TYPES": {
+      "All": "全部",
+      "Any": "任何",
+      "Custom": "自定义",
+      "Success": "成功",
+      "CriticalSuccess": "大成功",
+      "Failure": "失败",
+      "CriticalFailure": "严重失败"
+    },
+    "FIELDS": {
+      "cost": {
+        "label": "动作成本",
+        "hint": "配置使用此动作所需的成本，可设为动作点、专注点或英雄气概。",
+        "action": {
+          "label": "动作",
+          "hint": "此动作的基础花费，以动作点数计。"
+        },
+        "focus": {
+          "label": "专注",
+          "hint": "此动作的基础消耗专注点数。"
+        },
+        "heroism": {
+          "label": "英雄气概",
+          "hint": "此动作的基础英雄气概点数消耗。"
+        },
+        "weapon": {
+          "label": "添加武器成本",
+          "hint": "已装备武器的动作点消耗会加到这个动作的消耗上吗？"
+        },
+        "hands": {
+          "label": "所需手数",
+          "hint": "执行此动作所需的手数。"
+        }
+      },
+      "id": {
+        "label": "标识符",
+        "hint": "为这个动作提供一个标准化的驼峰式字母数字标识符。该标识符应在系统中的所有动作中保持唯一。"
+      },
+      "condition": {
+        "label": "触发条件",
+        "hint": "用于说明某个动作可在何种前置条件与触发条件下使用的附加参考文本。"
+      },
+      "description": {
+        "label": "动作描述",
+        "hint": "关于该动作在机制上如何运作的文本描述。"
+      },
+      "effects": {
+        "element": {
+          "duration": {
+            "label": "持续时间",
+            "hint": "持续时间以回合计算的效果会在该角色回合结束时失效。持续时间以轮计算的效果会在该角色回合开始时失效。",
+            "rounds": {
+              "label": "轮"
+            },
+            "turns": {
+              "label": "回合"
+            }
+          },
+          "name": {
+            "label": "效果名称"
+          },
+          "result": {
+            "all": {
+              "label": "所有"
+            },
+            "label": "结果",
+            "type": {
+              "label": "类型"
+            }
+          },
+          "scope": {
+            "label": "效果范围"
+          },
+          "statuses": {
+            "label": "状态"
+          }
+        }
+      },
+      "summon": {
+        "label": "动作 召唤",
+        "actorUuid": {
+          "label": "召唤出的角色",
+          "hint": "这个动作应召唤哪个特定角色？"
+        },
+        "permanent": {
+          "label": "永久性",
+          "hint": "这个召唤物应该会一直存在，直到被杀死吗？"
+        }
+      },
+      "tags": {
+        "label": "动作标签",
+        "hint": "添加用于定义此动作的要求、行为和修正项的标签。如果后面的标签修改了该动作的相同属性，则标签的顺序很重要，因为较后的标签会优先于较早的标签。"
+      },
+      "target": {
+        "label": "动作目标",
+        "scope": {
+          "label": "受影响范围",
+          "hint": "哪些目标阵营会受到这个动作的影响？"
+        },
+        "type": {
+          "label": "目标类型",
+          "hint": "此动作会影响哪种类型的目标或区域？"
+        },
+        "number": {
+          "label": "目标数值",
+          "hint": "此动作会影响多少个所选的目标类型？"
+        },
+        "size": {
+          "label": "目标体型",
+          "hint": "某些目标类型还会进一步以英尺为单位的尺寸进行修正。"
+        },
+        "limit": {
+          "label": "最大目标数",
+          "hint": "将此动作的效果限制为最多影响一定数量的单个目标角色？默认情况下，所有目标都会受到影响。"
+        },
+        "multiple": {
+          "label": "多重应用",
+          "hint": "对此动作的效果是否要对每个目标应用多次？默认情况下，此动作会对每个目标应用一次。"
+        },
+        "self": {
+          "label": "目标：自身",
+          "hint": "如果适用于已配置的动作目标范围和类型，则自动以你自己为目标。"
+        }
+      },
+      "range": {
+        "label": "动作射程",
+        "hint": "定义此动作可执行的最小或最大距离（以英尺为单位）。",
+        "minimum": {
+          "label": "最低限度"
+        },
+        "maximum": {
+          "label": "极大值"
+        },
+        "weapon": {
+          "label": "使用武器射程",
+          "hint": "此动作的射程由所用武器的有效射程决定。"
+        }
+      },
+      "actionHooks": {
+        "label": "动作钩子",
+        "hint": "小心！动作钩子是用于自动化动作机制的高级功能。错误配置这些钩子可能会导致严重后果。除非你对自己的知识有充分把握，否则不要尝试进行更改。"
+      }
+    },
+    "SHEET": {
+      "Title": "动作"
+    },
+    "TABS": {
+      "Description": "描述",
+      "Usage": "用法",
+      "Target": "目标",
+      "Effects": "效果",
+      "Hooks": "钩子"
+    },
+    "TARGET_SCOPES": {
+      "None": "无",
+      "Self": "自我",
+      "Allies": "盟友",
+      "Enemies": "敌人",
+      "All": "全部"
+    },
+    "TARGET_TYPES": {
+      "Blast": "爆破",
+      "Cone": "锥形区域",
+      "Fan": "扇子",
+      "None": "无",
+      "Pulse": "脉冲",
+      "Ray": "射线",
+      "Self": "自身",
+      "Single": "单体",
+      "Summon": "召唤",
+      "Wall": "墙壁"
+    }
+  },
+  "ACCESSORY": {
+    "CATEGORIES": {
+      "Clothing": "服装",
+      "Jewelry": "珠宝",
+      "Trinket": "小饰物",
+      "Other": "其他"
+    }
+  },
+  "ACTOR": {
+    "ACTIONS": {
+      "AppliedDetailItem": "已将{name}{type}应用于{actor}。",
+      "ClearedDetailItem": "已从{actor}中移除{type}。",
+      "DecreaseAbility": "降低属性值",
+      "DecreaseAbilitySpecific": "降低{ability}",
+      "EditMovement": "编辑移动",
+      "EditSize": "编辑尺寸",
+      "EditEngagement": "编辑交战",
+      "IncreaseAbility": "提高属性值",
+      "IncreaseAbilitySpecific": "提高{ability}",
+      "LevelUp": "升级！",
+      "ResetTalents": "重置所有天赋",
+      "RollCheck": "掷检定",
+      "TalentTreeClose": "关闭天赋树",
+      "TalentTreeOpen": "开启天赋树",
+      "ToggleTree": "切换天赋树"
+    },
+    "CREATION": {
+      "AbandonContent": "放弃创造进度并退出创建器？",
+      "AbandonTitle": "放弃创造流程？",
+      "Complete": "完成",
+      "Completed": "已完成",
+      "CompleteHint": "完整创造",
+      "Equipment": "装备",
+      "EquipmentAvailable": "可用物品",
+      "EquipmentCategory": "类别",
+      "EquipmentFilterAll": "全部",
+      "EquipmentHint": "浏览左侧的物品，并将它们添加到你的初始物品栏中。",
+      "EquipmentInsufficient": "你不能再失去另一个{name}。",
+      "EquipmentRemaining": "剩余金币",
+      "EquipmentSearch": "搜索物品",
+      "EquipmentStarting": "起始装备",
+      "EquipmentType": "物品类型",
+      "Exit": "退出",
+      "ExitHint": "退出创造",
+      "Restart": "重启",
+      "RestartContent": "放弃创造进度并从头开始重新开始吗？",
+      "RestartHint": "重新开始创造",
+      "RestartTitle": "重置创造进度？",
+      "SpendAbilities": "将 9 点分配到 6 项属性值中，每项属性值最多可分配 3 点。"
+    },
+    "FIELDS": {
+      "abilities": {
+        "label": "属性值"
+      },
+      "currency": {
+        "label": "货币数量",
+        "hint": "该角色所持有的货币数量。"
+      },
+      "details": {
+        "biography": {
+          "appearance": {
+            "label": "外观",
+            "hint": "关于此角色外观的描述信息，任何至少拥有“有限”权限的人都可见。"
+          },
+          "public": {
+            "label": "公开传记",
+            "hint": "任何至少拥有有限权限的人都可见的关于该角色的传记信息。"
+          },
+          "private": {
+            "label": "私人传记",
+            "hint": "关于此角色的私密信息，仅对此角色的拥有者可见。"
+          },
+          "age.label": "年代",
+          "height.label": "身高",
+          "pronouns.label": "代词",
+          "weight.label": "重量"
+        },
+        "languages": {
+          "label": "已知语言"
+        }
+      },
+      "movement": {
+        "size": {
+          "base": "基础尺寸",
+          "label": "体型",
+          "tooltip": "该生物占据的方格面积的边长格数。"
+        },
+        "sizeBonus": {
+          "label": "体型加值",
+          "hint": "由血统或分类法定义的生物基础体型的附加调整值。"
+        },
+        "stride": {
+          "base": "基础步幅",
+          "label": "跨步",
+          "tooltip": "每消耗 1 点行动点的移动距离。"
+        },
+        "strideBonus": {
+          "label": "移动加值",
+          "hint": "由血统或分类法定义的，对该角色的移动速度的加值修正。"
+        },
+        "engagement": {
+          "base": "基础交战",
+          "label": "交战",
+          "labelShort": "交战",
+          "tooltip": "交战的敌人数量<br>(体型 - 2) + 交战加值"
+        },
+        "engagementBonus": {
+          "label": "交战加值",
+          "hint": "对基础交战的一个附加调整值。"
+        }
+      },
+      "resistances": {
+        "label": "抗性",
+        "bonus": {
+          "label": "抗性加值",
+          "hint": "由血统或分类法定义的该生物基础抗性的加值修正。"
+        },
+        "immune": {
+          "label": "免疫",
+          "hint": "指出此角色是否对该伤害类型免疫。"
+        }
+      }
+    },
+    "TABS": {
+      "Attributes": "属性",
+      "Actions": "动作",
+      "Effects": "效果",
+      "Skills": "技能",
+      "Talents": "天赋",
+      "Inventory": "物品栏",
+      "Spells": "法术",
+      "Biography": "生平"
+    },
+    "LABELS": {
+      "Currency": "货币",
+      "Capacity": "负重能力",
+      "CurrentCapacity": "当前容量",
+      "OverCapacity": "超载",
+      "CurrentEquipment": "当前装备",
+      "FavoriteActions": "偏好的动作",
+      "Knowledge": "知识领域",
+      "KnowledgeHint": "从你的背景中习得一些知识领域，或编辑你的英雄以获得一些。",
+      "Languages": "已知语言"
+    },
+    "SECTIONS": {
+      "ACCESSORY": {
+        "header": "配件",
+        "empty": "通过切换盾牌图标，从你的背包中装备最多 {slots} 个配件。"
+      },
+      "ACTIVE": {
+        "header": "主动能力"
+      },
+      "ARMOR": {
+        "header": "护甲",
+        "empty": "从你的背包中装备护甲，切换盾牌图标。"
+      },
+      "BACKPACK": {
+        "header": "背包",
+        "empty": "通过将物品从提供的 Crucible 系统 compendium 包中拖放来添加物品。"
+      },
+      "ICONIC": {
+        "header": "标志性法术",
+        "empty": "通过浏览提供的 Crucible 系统 compendium 包来添加标志性法术。",
+        "none": "没有已解锁的标志性法术栏位。"
+      },
+      "PASSIVE": {
+        "header": "被动天赋"
+      },
+      "SIGNATURE": {
+        "header": "招牌天赋"
+      },
+      "SPELL": {
+        "header": "施法天赋"
+      },
+      "TRAINING": {
+        "header": "训练天赋"
+      },
+      "TOOLBELT": {
+        "header": "工具带",
+        "empty": "通过切换盾牌图标，从你的背包中装备最多 {slots} 个工具或消耗品。"
+      },
+      "WEAPON": {
+        "header": "武器",
+        "empty": "从你的背包中装备武器，切换盾牌图标。"
+      }
+    },
+    "SHEET": {
+      "Abilities": "能力",
+      "AbilityPoints": "属性点",
+      "Defenses": "防御",
+      "HEADERS": {
+        "ActionsAttack": "攻击动作",
+        "ActionsGeneral": "常规动作",
+        "ActionsConsumable": "消耗品动作",
+        "ActionsMovement": "移动动作",
+        "ActionsReaction": "反应",
+        "ActionsSpell": "施法动作",
+        "ActionsSummon": "召唤动作",
+        "EffectsDisabled": "已禁用的效果",
+        "EffectsPersistent": "持续效果",
+        "EffectsSuppressed": "被压制的效果",
+        "EffectsTemporary": "临时效果"
+      },
+      "PointsAvailable": "可用",
+      "PointsSpent": "已消耗",
+      "Resources": "资源"
+    },
+    "WARNINGS": {
+      "NoAncestry": "选择一种血统",
+      "NoBackground": "选择一个背景",
+      "NoDragTalent": "天赋只能通过天赋树添加到英雄角色上。",
+      "OverspentAbility": "已花费的属性点过多",
+      "OverspentTalent": "已选取的天赋过多",
+      "UnderspentAbility": "花费能力点数",
+      "UnderspentTalent": "花费天赋点数"
+    }
+  },
+  "ACTOR.GROUP": {
+    "ACTIONS": {
+      "RemoveMember": "移除成员"
+    },
+    "FIELDS": {
+      "advancement": {
+        "label": "晋升",
+        "milestones": {
+          "label": "获得的里程碑",
+          "hint": "该团队已获得的里程碑记录。",
+          "element": {
+            "number.label": "奖励编号",
+            "reason.label": "奖励原因",
+            "reason.placeholder": "可选的奖励原因。"
+          }
+        }
+      },
+      "details": {
+        "biography": {
+          "public.label": "公开传记",
+          "private.label": "私人传记"
+        }
+      },
+      "members": {
+        "label": "团队成员",
+        "one": "成员",
+        "other": "成员",
+        "actor.label": "角色 ID",
+        "quantity.label": "角色数量"
+      },
+      "movement": {
+        "label": "移动速度",
+        "pace.label": "旅行速度",
+        "land.label": "陆地速度",
+        "water.label": "水中速度",
+        "air.label": "飞行速度"
+      }
+    },
+    "LABELS": {
+      "medianLevel": "中位等级",
+      "cyclePace": "循环速度",
+      "recover": "恢复",
+      "rest": "休息"
+    }
+  },
+  "ACTOR.KnowledgeSpecific": "知识：{knowledge}",
+  "ACTOR.LanguageSpecific": "语言：{language}",
+  "ACTOR.LevelSpecific": "等级 {level}",
+  "ACTOR.ResistanceSpecific": "抗性：{resistance}",
+  "ACTOR.SizeSpecific": "尺寸 {size}",
+  "ACTOR.StrideSpecific": "跨步 {stride}",
+  "ACTOR.VulnerabilitySpecific": "弱点：{vulnerability}",
+  "ACTOR.Details": "详情",
+  "ACTOR.ProgressionRequirements": "进阶要求",
+  "ANCESTRY": {
+    "FIELDS": {
+      "description": {
+        "label": "血统描述"
+      },
+      "identifier": {
+        "label": "标识符",
+        "hint": "一个用于在标签、动作或其他 UI 元素中唯一引用该血统的字符串标识符。此标识符必须为字母数字组成，且不包含空格或特殊字符。"
+      },
+      "movement": {
+        "label": "移动与体型",
+        "size": {
+          "label": "体型",
+          "hint": "该血统在网格空间中占据的体型。"
+        },
+        "stride": {
+          "label": "跨步",
+          "hint": "该血统以网格为空间单位的初始移动速度。"
+        }
+      },
+      "abilities": {
+        "label": "属性值",
+        "primary": {
+          "label": "主属性",
+          "hint": "选择一个起始为 3 的主属性。"
+        },
+        "secondary": {
+          "label": "次要能力",
+          "hint": "选择一项初始为 2 的次要属性值。"
+        }
+      },
+      "resistances": {
+        "label": "伤害抗性",
+        "hint": "如果你选择了其中之一，就必须同时选择一种抗性和一种易伤。",
+        "resistance": {
+          "label": "伤害抗性",
+          "hint": "对某种伤害类型具有生物材料抗性（+3）。"
+        },
+        "vulnerability": {
+          "label": "伤害易伤",
+          "hint": "对某种伤害类型具有生物材料易伤（-3）。"
+        }
+      },
+      "talents": {
+        "label": "天赋进阶",
+        "hint": "配置此血统自动获得的一项或多项天赋。"
+      },
+      "ui": {
+        "label": "用户界面",
+        "color": {
+          "label": "血统颜色",
+          "hint": "该血统在用户界面中被提及时所使用的代表颜色。"
+        },
+        "icon": {
+          "label": "血统图标",
+          "hint": "一个用于在用户界面中表示该血统的小图标。"
+        }
+      }
+    },
+    "SHEET": {
+      "Browse": "浏览祖裔",
+      "Choose": "选择血统",
+      "Clear": "清除血统",
+      "Identity": "身份"
+    },
+    "WARNINGS": {
+      "Abilities": "一个血统的主要和次要属性不能相同。",
+      "ResistancesBoth": "如果定义其中任意一项，则必须同时指定抗性和易伤。",
+      "ResistancesDifferent": "为某个血统所选择的抗性与弱点不得相同。"
+    }
+  },
+  "ACTION.Action": "动作",
+  "ACTION.AllResult": "{existing}（全部）",
+  "ACTION.AffectsScope": "影响{scope}",
+  "ACTION.Condition": "状态",
+  "ACTION.Confirmed": "已确认",
+  "ACTION.DelayTitle": "延迟回合",
+  "ACTION.DelayLabel": "延迟先攻",
+  "ACTION.DelayHint": "当你想行动时，选择一个介于 1 和 {maximum} 之间的先攻值。",
+  "ACTION.DurationRounds": "{轮}R",
+  "ACTION.DurationTurns": "{回合数}T",
+  "ACTION.DurationUntilEnded": "持续中",
+  "ACTION.EffectSpecific": "效果：{effect}",
+  "ACTION.NoTargets": "无目标",
+  "ACTION.Overview": "动作概览",
+  "ACTION.PlaceTemplate": "放置模板",
+  "ACTION.RemoveActor": "移除角色",
+  "ACTION.RequestActorsHint": "将单个角色或角色组拖到此处，以请求他们参与此次掷骰。",
+  "ACTION.RequestRollsSuffix": "{label}：请求掷骰",
+  "ACTION.RequestedActors": "请求的角色",
+  "ACTION.SkillCheck": "{skill} 技能检定",
+  "ACTION.StandardCheck": "标准检定",
+  "ACTION.Targets": "目标",
+  "ACTION.TemplateTargets": "模板目标",
+  "ACTION.Unconfirmed": "未确认",
+  "ACTION.UseAction": "使用动作",
+  "ACTION.WarningCannotUse": "{name}不满足使用{action}的前置条件：{reason}",
+  "ACTION.WarningCannotAffordCost": "{name}的{resource}不足，无法使用{action}！",
+  "ACTION.WarningCannotAffordHands.one": "使用{action}必须空出{hands}只手！",
+  "ACTION.WarningCannotAffordHands.other": "使用{action}时，{name}必须有{hands}只空闲的手！",
+  "ACTION.WarningCannotAffordMove": "{name}的动作不足，无法移动这么远的距离；这需要 {cost}A！",
+  "ACTION.WarningCannotSpendAction": "{name}无法花费动作，因为其处于失能状态！",
+  "ACTION.WarningCannotSpendFocus": "{name} 目前处于{status}状态，因此无法消耗专注！",
+  "ACTION.WarningInvalidTarget": "你必须至少为 {action} 指定一个{type}目标！",
+  "ACTION.WarningCannotTargetSelf": "你不能将这个动作以自己为目标！",
+  "ACTION.WarningIncorrectTargets": "你最多只能为{action}指定{number}个{type}目标！",
+  "ACTION.WarningRequireTemplate": "你必须放置一个测量模板来指示{action}的效果区域。",
+  "ACTION.WarningMinimumRange": "所选目标距离小于最小射程 {min} 英尺。",
+  "ACTION.WarningMaximumRange": "所选目标超出了 {max} 英尺的最大射程。",
+  "ACTION.WarningMisconfiguredSummon": "该动作 {action} 没有正确配置的召唤目标。",
+  "ACTION.WarningNoAbility": "{actor}没有{ability}属性值，因此无法使用{action}。",
+  "ACTION.WarningSilenced": "当你处于沉默状态时，不能使用此动作。",
+  "ACTION.WarningUnimplementedTarget": "尚不支持动作{name}的目标类型{type}自动化，你必须手动选定受影响的标记。",
+  "ACTION.EFFECTS": {
+    "Add": "添加效果",
+    "Delete": "移除效果"
+  },
+  "ACTION.TAG_CATEGORIES": {
+    "Attack": "攻击",
+    "Requirements": "要求",
+    "Context": "上下文",
+    "Modifiers": "调整值",
+    "Defenses": "防御",
+    "Damage": "伤害",
+    "Scaling": "成长",
+    "Resources": "资源",
+    "Skills": "技能",
+    "Spellcraft": "施法",
+    "Special": "特殊"
+  },
+  "ACTION.TagAfterStrike": "打击后",
+  "ACTION.TagAfterStrikeTooltip": "该动作只能在一次未严重失误的基础打击攻击后立即执行。",
+  "ACTION.TagVocal": "发声",
+  "ACTION.TagVocalTooltip": "此动作要求其使用者说话，或以其他方式发出声音。",
+  "ACTION.TagAuditory": "听觉的",
+  "ACTION.TagAuditoryTooltip": "此动作要求其目标必须能够听见，才会受到影响。",
+  "ACTION.TagConsume": "吞食",
+  "ACTION.TagConsumeTooltip": "此动作涉及并需要消耗一个特定的消耗品物品。",
+  "ACTION.TagDeadly": "致命",
+  "ACTION.TagDeadlyTooltip": "这个动作有可能造成极其巨大的伤害，使所造成的任何伤害的伤害倍率提高 x1。",
+  "ACTION.TagDifficult": "困难",
+  "ACTION.TagDifficultTooltip": "这个动作执行起来很复杂或很有挑战性。你在尝试该动作时会额外承受 2 个祸骰。",
+  "ACTION.TagDisarm": "解除武装",
+  "ACTION.TagDisarmTooltip": "此动作若成功，会使目标的武器脱手。",
+  "ACTION.TagDualWield": "双持",
+  "ACTION.TagDualWieldTooltip": "执行此动作需要持用两把不同的武器，或完全处于徒手状态。",
+  "ACTION.TagEmpowered": "强化",
+  "ACTION.TagEmpoweredTooltip": "这个动作很强力，并造成额外伤害；若成功，则获得 +2 伤害加值。",
+  "ACTION.TagAccurate": "精确",
+  "ACTION.TagAccurateTooltip": "这个动作特别精准。执行该动作时，你额外获得2个恩惠。",
+  "ACTION.TagFinesse": "灵巧",
+  "ACTION.TagFinesseTooltip": "执行这个动作需要一定程度的灵巧。你必须正持用一把以敏捷作为成长属性的武器。",
+  "ACTION.TagFlanking": "夹击",
+  "ACTION.TagFlankingTooltip": "此动作只能对处于夹击或未察觉状态的目标执行。",
+  "ACTION.TagBrute": "蛮汉",
+  "ACTION.TagBruteTooltip": "这个动作涉及使用蛮力，并且需要一把按力量成长的武器。",
+  "ACTION.TagGeneric": "通用",
+  "ACTION.TagGenericTooltip": "执行一次通用攻击，且不使用特定法术或武器的动作。",
+  "ACTION.TagHarmless": "无害",
+  "ACTION.TagHarmlessTooltip": "此动作不会施加直接有害的效果，其伤害倍率为零。",
+  "ACTION.TagHealing": "治疗",
+  "ACTION.TagHealingTooltip": "这个动作通过检定一名盟友的创伤阈值来提供恢复。",
+  "ACTION.TagWeakened": "虚弱",
+  "ACTION.TagWeakenedTooltip": "这个动作比普通攻击更弱，并且具有 -2 伤害加值。",
+  "ACTION.TagMechanical": "机械的",
+  "ACTION.TagMechanicalTooltip": "这个动作需要使用一把机械武器。",
+  "ACTION.TagMelee": "近战",
+  "ACTION.TagMeleeTooltip": "执行此动作需要持用近战武器或处于徒手状态。",
+  "ACTION.TagMainHand": "主手",
+  "ACTION.TagMainHandTooltip": "这个动作使用你的主手武器进行一次攻击。",
+  "ACTION.TagMaintained": "维持的",
+  "ACTION.TagMaintainedTooltip": "这个动作可以维持，在你的回合开始时承受其专注消耗。",
+  "ACTION.TagMovement": "移动",
+  "ACTION.TagMovementTooltip": "此动作允许你在其启动过程中进行移动，包括每轮一次自由移动动作的动作点消耗降低。",
+  "ACTION.TagNatural": "天生攻击",
+  "ACTION.TagNaturalTooltip": "这个动作涉及进行一次天生武器攻击。",
+  "ACTION.TagNonCombat": "非战斗",
+  "ACTION.TagNonCombatTooltip": "只能在战斗遭遇之外执行的动作。",
+  "ACTION.TagOneHand": "单手",
+  "ACTION.TagOneHandTooltip": "此动作要求持用一把单手武器。",
+  "ACTION.TagProjectile": "投射",
+  "ACTION.TagProjectileTooltip": "这个动作需要使用投射武器。",
+  "ACTION.TagRallying": "集结",
+  "ACTION.TagRallyingTooltip": "这个动作通过检定一名盟友的疯狂阈值来提供恢复。",
+  "ACTION.TagRanged": "远程",
+  "ACTION.TagRangedTooltip": "此动作需要持用一把远程武器才能执行。",
+  "ACTION.TagReaction": "反应",
+  "ACTION.TagReactionTooltip": "只有在其他生物的回合中，且其触发条件得到满足时，才能执行此动作。",
+  "ACTION.TagReload": "装填",
+  "ACTION.TagReloadTooltip": "这个动作会为一把需要装填的远程武器进行装填。",
+  "ACTION.TagSevere": "重度",
+  "ACTION.TagSevereTooltip": "如果此动作的目标拥有创伤和疯狂资源，则此动作会直接伤害这些资源，而不受其生命值或士气影响。",
+  "ACTION.TagShield": "盾牌",
+  "ACTION.TagShieldTooltip": "此动作需要持用盾牌才能执行。",
+  "ACTION.TagSpell": "法术",
+  "ACTION.TagSpellTooltip": "这个动作涉及施法。",
+  "ACTION.TagComposed": "组合施法",
+  "ACTION.TagComposedTooltip": "这个动作是一个组合而成的法术。",
+  "ACTION.TagSkill": "技能",
+  "ACTION.TagSkillTooltip": "这个动作需要进行一次有目标的或对抗性的技能检定。",
+  "ACTION.TagSummon": "召唤",
+  "ACTION.TagSummonTooltip": "此动作会召唤、呼唤，或以其他方式创造一个战斗单位，使其加入此次遭遇。",
+  "ACTION.TagThrown": "投掷",
+  "ACTION.TagThrownTooltip": "这个动作涉及进行一次投掷武器攻击。",
+  "ACTION.TagTwoHanded": "双手持用",
+  "ACTION.TagTwoHandedTooltip": "此动作需要持用一把双手持用武器才能执行。",
+  "ACTION.TagOffHand": "副手",
+  "ACTION.TagOffHandTooltip": "这个动作使用你的副手武器进行一次攻击。",
+  "ACTION.TagUnarmed": "徒手",
+  "ACTION.TagUnarmedTooltip": "执行此动作要求你必须完全处于徒手状态。",
+  "ACTION.TagUnarmored": "无甲",
+  "ACTION.TagUnarmoredTooltip": "执行此动作需要你处于无甲状态。",
+  "ACTION.TagIconicSpell": "标志性法术",
+  "ACTION.TagIconicSpellTooltip": "这个动作是通过精通其构成部分而习得的一个标志性法术。",
+  "ACTION.TagTargetTooltip": "适用于此动作的目标类型、距离和数量。",
+  "ACTION.TagCostTooltip": "使用此动作所需的动作点或专注点消耗。",
+  "ACTION.TagCostAction": "{action}A",
+  "ACTION.TagCostFocus": "{focus}F",
+  "ACTION.TagCostHand.one": "{hands} 手掌",
+  "ACTION.TagCostHand.other": "{hands} 手部",
+  "ACTION.TagCostHeroism": "{heroism}H",
+  "ACTION.TagCostHealth": "{health}生命值",
+  "ACTION.TagCostWeapon": "W",
+  "ACTION.TagCostWeaponAction": "W{action}A",
+  "ACTION.TAGS": {
+    "Activation": "激活标签",
+    "Action": "动作标签",
+    "Context": "上下文标签",
+    "TargetLimit": "上限 {limit}"
+  },
+  "ACTION.ACTIONS": {
+    "AddFavorite": "添加至收藏夹",
+    "Delete": "删除动作：{name}",
+    "DeleteConfirm": "你确定要从<strong>{parent}</strong>{type}中删除<strong>{name}</strong>动作吗？",
+    "RemoveFavorite": "移除收藏夹"
+  },
+  "ADVANCEMENT.Level": "等级",
+  "ADVANCEMENT.Progress": "里程碑进度",
+  "ADVANCEMENT.MilestoneAward": "授予里程碑",
+  "ADVANCEMENT.MilestoneTooltip": "距离下一级还需 {required} 个里程碑，目前为 {progress} 个",
+  "ADVANCEMENT.ExpectedLevel": "预期等级",
+  "AWARD": {
+    "LABELS": {
+      "Award": "奖励",
+      "Revoke": "撤销"
+    },
+    "TOOLTIPS": {
+      "Currency": "奖励货币",
+      "Milestone": "授予里程碑\"}"
+    },
+    "Each": "每个",
+    "MILESTONE": {
+      "one": "里程碑",
+      "other": "里程碑",
+      "Identifier": "标识符",
+      "IdentifierHint": "里程碑奖励的唯一标识符，必须是 slug（不得包含空格或特殊字符）。",
+      "Award": "授予里程碑",
+      "Revoke": "撤销里程碑",
+      "GroupAward": "已将 {number} 个 {label} 授予群组 {name} 及以下成员：",
+      "GroupRevoke": "已从组{name}及以下成员中撤销了 {number} 个{label}：",
+      "Recipients": "里程碑获得者",
+      "RecipientsHint": "指定一名或多名英雄获得该里程碑。"
+    },
+    "SUMMARIES": {
+      "Cost": "{award} 费用支付者：",
+      "CostSplit": "{award} 成本由以下各方分摊：",
+      "Reward": "{award} 授予给：",
+      "RewardSplit": "{award} 分配给：",
+      "TABLE": {
+        "Label": "货币",
+        "Formula": "公式",
+        "Total": "总计"
+      }
+    },
+    "TitleCost": "选择贡献者",
+    "TitleReward": "选择接收者",
+    "WARNINGS": {
+      "CannotAfford": "以下角色无法承担此增强器的费用：{actors}",
+      "InvalidTerms": "无法将{terms}解析为有效的奖励条目。",
+      "RequiresGM": "你必须是游戏主持人，才能使用奖励富文本增强器。"
+    }
+  },
+  "ARCHETYPE": {
+    "FIELDS": {
+      "abilities": {
+        "label": "能力成长",
+        "hint": "定义此原型生物的属性值会如何随着等级提升而成长。在所有属性值之间分配 12 点。每项属性值都必须在 0 到 6 之间。对手每级会使其属性提高 1 点。数值较高的属性会更频繁地成长。数值为 0 的属性将永远不会高于其基础值。"
+      },
+      "identifier": {
+        "label": "标识符",
+        "hint": "用于在标签、动作或其他 UI 元素中唯一引用此原型的字符串标识符。该标识符必须为字母数字组合，不含空格或特殊字符。"
+      },
+      "talents": {
+        "label": "授予的天赋",
+        "hint": "配置该原型自动获得的一个或多个天赋。"
+      },
+      "equipment": {
+        "label": "授予的装备",
+        "hint": "配置该原型会自动获得的装备。"
+      },
+      "skills": {
+        "label": "偏好技能",
+        "hint": "配置一组选定的技能，使其训练等级会为该原型自动提升。"
+      },
+      "spells": {
+        "label": "授予法术",
+        "hint": "配置该原型自动获得的标志性法术。"
+      }
+    },
+    "SHEET": {
+      "Choose": "选择原型",
+      "Clear": "清除原型",
+      "RequiredComponents": "<p><strong>{spell}</strong> 需要此原型当前没有的法术成分。你想要自动添加它们吗？</p>",
+      "Skills": "技能进阶"
+    },
+    "WARNINGS": {
+      "NotEquipment": "脱手的文件必须是装备。",
+      "NotSpell": "被拖入的文档必须是一个标志性法术。"
+    }
+  },
+  "ARMOR": {
+    "FIELDS": {
+      "armor": {
+        "label": "护甲",
+        "base": {
+          "label": "基础护甲"
+        }
+      },
+      "properties": {
+        "label": "护甲属性"
+      }
+    },
+    "CATEGORIES": {
+      "Unarmored": "无甲",
+      "Light": "轻型护甲",
+      "Medium": "中型护甲",
+      "Heavy": "重型护甲",
+      "Natural": "自然"
+    },
+    "SHEET": {
+      "Defenses": "护甲防御",
+      "ArmorBonus": "护甲加值",
+      "Dodge": "闪避",
+      "DodgeBase": "基础闪避",
+      "DodgeScaling": "成长阈值"
+    },
+    "SPECIFIC": {
+      "Unarmored": "无甲"
+    },
+    "PROPERTIES": {
+      "Bulky": "笨重的",
+      "Natural": "自然",
+      "Noisy": "嘈杂的"
+    }
+  },
+  "ATTACK.RESULT_TYPES.Miss": "未击中",
+  "ATTACK.RESULT_TYPES.Dodge": "闪避",
+  "ATTACK.RESULT_TYPES.Parry": "招架",
+  "ATTACK.RESULT_TYPES.Block": "格挡",
+  "ATTACK.RESULT_TYPES.Armor": "护甲",
+  "ATTACK.RESULT_TYPES.Resist": "抗性",
+  "ATTACK.RESULT_TYPES.Glance": "一瞥",
+  "ATTACK.RESULT_TYPES.Hit": "命中",
+  "ATTRIBUTES.Abilities": "属性值",
+  "ATTRIBUTES.Pools": "资源池",
+  "ATTRIBUTES.Resistances": "伤害抗性",
+  "BACKGROUND": {
+    "FIELDS": {
+      "description": {
+        "label": "背景描述"
+      },
+      "identifier": {
+        "label": "标识符",
+        "hint": "一个字符串标识符，用于在标签、动作或其他 UI 元素中唯一引用此背景。该标识符必须为字母数字组成，不得包含空格或特殊字符。"
+      },
+      "knowledge": {
+        "label": "知识领域",
+        "hint": "配置此背景会自动提供的知识领域。通常，一个背景包含两个知识领域。"
+      },
+      "languages": {
+        "label": "已知语言",
+        "hint": "配置该背景自动提供的语言。"
+      },
+      "skills": {
+        "label": "授予的技能",
+        "hint": "配置此背景自动提供为新手训练的技能。通常，一个背景会在两项技能上提供训练。"
+      },
+      "talents": {
+        "label": "习得天赋",
+        "hint": "配置此背景将自动获得的一项或多项天赋。通常，一个背景会获得两项授予的天赋。"
+      },
+      "ui": {
+        "label": "用户界面",
+        "color": {
+          "label": "背景颜色",
+          "hint": "此背景在用户界面中被引用时所使用的代表颜色。"
+        },
+        "icon": {
+          "label": "背景图标",
+          "hint": "一个用于在用户界面中表示此背景的小图标。"
+        }
+      }
+    },
+    "SHEET": {
+      "Browse": "浏览背景",
+      "Clear": "清除背景",
+      "Choose": "选择背景",
+      "Identity": "身份",
+      "Skills": "技能",
+      "TalentAdd": "添加天赋",
+      "TalentRemove": "移除天赋",
+      "TalentDrop": "将一个天赋从“天赋”合集包中拖放到此背景上。"
+    },
+    "ERRORS": {
+      "Apply": "你只能将背景应用于一个没有已花费技能点的0级角色。",
+      "TalentTier": "背景只能提供第0阶起始天赋。"
+    }
+  },
+  "COMBAT.WarningCannotChangeRound": "只有游戏主持人用户才能更改战斗轮次。",
+  "CONSUMABLE": {
+    "CATEGORIES": {
+      "Ammunition": "弹药",
+      "Bomb": "炸弹",
+      "Flask": "烧瓶",
+      "Kit": "工具包",
+      "Other": "其他",
+      "Scroll": "法术卷轴",
+      "Trap": "陷阱"
+    },
+    "FIELDS": {
+      "uses": {
+        "label": "用途",
+        "hint": "在该消耗品耗尽之前，配置其有限的使用次数。",
+        "value.label": "价值",
+        "max.label": "最大值"
+      },
+      "scroll": {
+        "label": "法术卷轴",
+        "hint": "配置此法术卷轴所提供的临时知识对应的施法成分。",
+        "runes.label": "符文",
+        "gestures.label": "手势",
+        "inflections.label": "屈折"
+      }
+    },
+    "SCROLL": {
+      "ComponentBudget": "这张卷轴最多可提供 {budget} 个施法材料。选择这张卷轴提供哪些材料。",
+      "ComponentBudgetError": "这张卷轴总共只能包含 {budget} 个施法材料，但提供了 {total} 个。",
+      "ConfigureTitle": "配置法术卷轴：{name}",
+      "NoComponents": "这张法术卷轴是空白的，无法阅读。",
+      "ScrollName": "{scroll}卷轴"
+    }
+  },
+  "CONSUMABLE.USES": {
+    "Of": "的",
+    "TagMax": {
+      "one": "{value} 使用",
+      "other": "{value} 使用次数"
+    },
+    "TagPartial": {
+      "one": "{value}/{max} 使用",
+      "other": "{value}/{max} 使用次数"
+    }
+  },
+  "CONTROLS": {
+    "VisualizeFlanking": "可视化夹击"
+  },
+  "CURRENCY_DENOMINATIONS": {
+    "CP": {
+      "abbreviation": "CP",
+      "label": "铜币"
+    },
+    "SP": {
+      "abbreviation": "SP",
+      "label": "银币"
+    },
+    "GP": {
+      "abbreviation": "GP",
+      "label": "金币"
+    },
+    "PP": {
+      "abbreviation": "PP",
+      "label": "白金币"
+    }
+  },
+  "DAMAGE.Damage": "伤害",
+  "DAMAGE.Restoration": "复原",
+  "DAMAGE.Acid": "强酸",
+  "DAMAGE.Bludgeoning": "钝击伤害",
+  "DAMAGE.Cold": "寒冷",
+  "DAMAGE.Corruption": "腐化",
+  "DAMAGE.Electricity": "电流",
+  "DAMAGE.Elemental": "元素",
+  "DAMAGE.Fire": "火元素",
+  "DAMAGE.Physical": "物理的",
+  "DAMAGE.Piercing": "穿刺",
+  "DAMAGE.Poison": "毒素",
+  "DAMAGE.Psychic": "灵能者",
+  "DAMAGE.Radiant": "光辉",
+  "DAMAGE.Slashing": "挥砍伤害",
+  "DAMAGE.Spiritual": "灵性",
+  "DAMAGE.Void": "虚空",
+  "DEFENSES.Armor": "护甲",
+  "DEFENSES.Block": "格挡",
+  "DEFENSES.Dodge": "闪避",
+  "DEFENSES.Parry": "招架",
+  "DEFENSES.Fortitude": "坚韧",
+  "DEFENSES.Reflex": "反射",
+  "DEFENSES.Willpower": "意志",
+  "DEFENSES.Physical": "物理的",
+  "DEFENSES.Wounds": "创伤",
+  "DEFENSES.Madness": "疯狂",
+  "DEFENSES.TOOLTIPS": {
+    "Fortitude": "{base} + ((力量 + 感知) / 4)",
+    "Willpower": "{base} + ((坚韧 + 风采) / 4)",
+    "Reflex": "{base} + ((敏捷 + 智力) / 4)",
+    "Wounds": "{base} + (创伤 / 10)",
+    "Madness": "{base} + (疯狂 / 10)"
+  },
+  "DICE.DIFFICULTIES": {
+    "Challenging": "艰难的",
+    "Custom": "自定义难度",
+    "Difficult": "困难",
+    "Easy": "简单",
+    "Formidable": "可怖的",
+    "Impossible": "不可能的",
+    "Moderate": "中等",
+    "Trivial": "琐碎的"
+  },
+  "DICE.DiceTotal": "骰子总和",
+  "DICE.Ability": "能力",
+  "DICE.AbilityBonus": "属性加值",
+  "DICE.Skill": "技能",
+  "DICE.SkillBonus": "技能加值",
+  "DICE.Enchantment": "附魔",
+  "DICE.EnchantmentBonus": "附魔加值",
+  "DICE.CircumstanceBonus": "情境加值",
+  "DICE.Banes.one": "祸骰",
+  "DICE.Banes.other": "祸骰",
+  "DICE.Boons.one": "恩惠",
+  "DICE.Boons.other": "恩惠",
+  "DICE.Damage": "伤害",
+  "DICE.DamageOverflow": "溢出量",
+  "DICE.DamageBase": "基础 {type}",
+  "DICE.DamageBonus": "动作加值",
+  "DICE.DamageResistance": "伤害抗性",
+  "DICE.DamageVulnerability": "伤害易伤",
+  "DICE.DamageTotal": "总伤害",
+  "DICE.DC": "DC",
+  "DICE.DCSpecific": "DC {dc}",
+  "DICE.Healing": "治疗",
+  "DICE.Confirm": "确认",
+  "DICE.Reverse": "反转",
+  "DICE.Roll": "掷骰",
+  "DICE.RollTotal": "总掷值",
+  "DICE.SetDifficulty": "设置难度",
+  "DICE.REQUESTS": {
+    "AddParty": "添加队伍",
+    "AnyActor": "任何角色",
+    "AnyActorHint": "选择任意世界角色。",
+    "ChooseTarget": "选择目标",
+    "ClearRequest": "清除请求",
+    "SpecificActors": "特定角色",
+    "SpecificActorsHint": "选择具体的相关角色。",
+    "Request": "请求",
+    "RequestRolls": "请求检定"
+  },
+  "ACTIVE_EFFECT": {
+    "ACTIONS": {
+      "New": "新效果",
+      "Create": "创建效果",
+      "Delete": "删除效果",
+      "Disable": "禁用效果",
+      "Edit": "编辑效果",
+      "Enable": "启用效果"
+    },
+    "STATUSES": {
+      "Asleep": "睡眠",
+      "Blind": "目盲",
+      "Broken": "破碎",
+      "Burrowing": "掘穴",
+      "Dead": "死亡",
+      "Deaf": "失聪",
+      "Diseased": "染病",
+      "Disoriented": "迷失方向",
+      "Dominated": "支配状態",
+      "Enraged": "激怒",
+      "Exhausted": "精疲力竭",
+      "Exposed": "暴露",
+      "Fear": "恐慌",
+      "Flanked": "夹击",
+      "Guarded": "戒备",
+      "Hastened": "加速",
+      "Incapacitated": "失能",
+      "Insane": "疯狂",
+      "Invisible": "隐形",
+      "Invulnerable": "无敌",
+      "Stunned": "震慑",
+      "Mute": "沉默",
+      "Paralyzed": "麻痹",
+      "Prone": "倒地",
+      "Resolute": "坚定",
+      "Restrained": "受拘束",
+      "Slowed": "迟缓",
+      "Staggered": "踉跄",
+      "Unaware": "未察觉",
+      "Weakened": "虚弱",
+      "FlankedDescription": "你被多个敌人夹击，他们的攻击会获得额外恩惠！",
+      "Bleeding": "流血",
+      "Burning": "燃烧",
+      "Freezing": "冰冻",
+      "Confused": "混乱",
+      "Corroding": "腐蚀",
+      "Decaying": "腐坏",
+      "Entropy": "熵蚀",
+      "Irradiated": "辐照",
+      "Mending": "修补",
+      "Inspired": "鼓舞",
+      "Poisoned": "中毒",
+      "Shocked": "电击"
+    }
+  },
+  "BASE_EFFECT": {
+    "FIELDS": {
+      "dot": {
+        "element": {
+          "amount": {
+            "hint": "每回合应造成的伤害（或恢复量）。",
+            "label": "数量"
+          },
+          "damageType": {
+            "label": "伤害类型"
+          },
+          "resource": {
+            "hint": "该伤害/恢复所针对的资源",
+            "label": "资源"
+          },
+          "restoration": {
+            "label": "复原"
+          }
+        },
+        "label": "持续伤害"
+      },
+      "maintenance": {
+        "cost": {
+          "label": "维护费用"
+        },
+        "label": "维护"
+      },
+      "regions": {
+        "hint": "受此效果影响的区域。",
+        "label": "区域"
+      },
+      "summons": {
+        "hint": "被该效果所依赖的召唤指示物。",
+        "label": "召唤物"
+      }
+    }
+  },
+  "FLANKED_EFFECT": {
+    "FIELDS": {
+      "allies": {
+        "label": "盟友交战"
+      },
+      "enemies": {
+        "label": "敌人接战"
+      },
+      "flanked": {
+        "label": "夹击舞台"
+      }
+    }
+  },
+  "ITEM": {
+    "ACTIONS": {
+      "Create": "创建物品",
+      "Delete": "删除物品",
+      "Drop": "丢下武器",
+      "Edit": "编辑物品",
+      "Equip": "装备 {typeLabel}",
+      "EquipDetail": "装备该{item}",
+      "Recover": "恢复 {typeLabel}",
+      "RecoverAllTitle": "拾回脱手物品",
+      "RecoverAllContent": "要拾起{actor}脱手的所有物品吗？",
+      "RecoverDetail": "恢复脱手的{item}",
+      "UnEquip": "卸下{typeLabel}"
+    },
+    "FIELDS": {
+      "identifier": {
+        "label": "标识符",
+        "hint": "用于引用此物品的唯一字符串标识符。此同一物品的多个副本都共享相同的标识符。"
+      },
+      "category": {
+        "label": "类别"
+      },
+      "quantity": {
+        "label": "数量"
+      },
+      "weight": {
+        "label": "重量"
+      },
+      "price": {
+        "label": "基础价格"
+      },
+      "quality": {
+        "label": "品质"
+      },
+      "broken": {
+        "label": "破碎"
+      },
+      "enchantment": {
+        "label": "附魔阶级"
+      },
+      "equipped": {
+        "label": "已装备"
+      },
+      "invested": {
+        "label": "注入"
+      },
+      "properties": {
+        "label": "物品属性"
+      },
+      "description": {
+        "public": {
+          "label": "公开描述",
+          "hint": "此物品的描述，任何至少拥有“观察者”权限的用户都可见。"
+        },
+        "private": {
+          "label": "秘密描述",
+          "hint": "此物品的描述，仅对游戏主持人用户可见。"
+        }
+      },
+      "actions": {
+        "label": "物品动作"
+      }
+    },
+    "TABS": {
+      "Configuration": "配置",
+      "Actions": "动作",
+      "Description": "描述",
+      "Hooks": "钩子",
+      "Secrets": "秘密",
+      "Talents": "天赋",
+      "Equipment": "装备",
+      "Spells": "法术"
+    },
+    "SHEET": {
+      "Details": "物品详情",
+      "TalentAdd": "添加天赋",
+      "TalentConfiguration": "天赋配置",
+      "TalentRemove": "移除天赋",
+      "TalentDrop": "将一个“天赋”物品拖放到此区域即可添加天赋。",
+      "Equipment": "装备详情",
+      "EquipmentRemove": "移除装备",
+      "EquipmentDrop": "将起始装备拖放到此区域中即可添加。",
+      "SpellRemove": "移除法术",
+      "SpellDrop": "将一个法术物品拖放到此区域，以添加一个标志性法术。",
+      "Spellcraft": "施法",
+      "Type": "装备类型",
+      "ScaledPrice": "按比例定价"
+    },
+    "PROPERTIES": {
+      "Armor": "{armor} 护甲",
+      "Block": "区 {block}",
+      "Damage": "{damage} 伤害",
+      "Defense": "{defense} 防御",
+      "Depleted": "枯竭",
+      "Dodge": "{dodge} 闪避",
+      "DodgeBase": "{闪避}+ 闪避",
+      "Investment": "投入",
+      "NotInvested": "未注入",
+      "NotKnown": "不明",
+      "Parry": "招架 {parry}",
+      "Range": "射程 {range}",
+      "Stackable": "可堆叠",
+      "Unequipped": "未装备"
+    },
+    "WARNINGS": {
+      "NotTalent": "脱手的文件必须是一个天赋。"
+    }
+  },
+  "ITEM.EnchantmentMundane": "平凡的",
+  "ITEM.EnchantmentMinor": "次要的",
+  "ITEM.EnchantmentMajor": "少校",
+  "ITEM.EnchantmentLegendary": "传奇",
+  "ITEM.QualityShoddy": "粗制滥造的",
+  "ITEM.QualityStandard": "标准",
+  "ITEM.QualityFine": "好吧",
+  "ITEM.QualitySuperior": "卓越的",
+  "ITEM.QualityMasterwork": "精制品",
+  "KEYBINDINGS.ConfirmAction": "确认动作",
+  "KEYBINDINGS.ConfirmActionHint": "确认过去 60 秒内记录的动作，并按其执行顺序排列。",
+  "KNOWLEDGE": {
+    "Alchemy": "炼金术",
+    "Ancients": "远古者",
+    "Artifacts": "神器",
+    "Arts": "艺术",
+    "Beasts": "野兽",
+    "Celestials": "天界生物",
+    "Cosmology": "宇宙学",
+    "Crafts": "工艺品",
+    "Crime": "罪行",
+    "Dragons": "巨龙",
+    "Elementals": "元素生物",
+    "Fey": "妖精",
+    "Fiends": "邪魔",
+    "Forensics": "法医学",
+    "Gods": "诸神",
+    "Intrigue": "阴谋",
+    "Legends": "传奇",
+    "Machines": "机械装置",
+    "Monsters": "怪物",
+    "Outsiders": "外来者",
+    "Plants": "植物",
+    "Politics": "政治",
+    "Rituals": "仪式",
+    "Seafaring": "航海的",
+    "Souls": "灵魂",
+    "Subterranea": "地下世界",
+    "Tracking": "追踪",
+    "Trade": "贸易",
+    "Undeath": "亡灵化",
+    "Warfare": "战争",
+    "Weather": "天气"
+  },
+  "LANGUAGE_CATEGORIES": {
+    "Nonspoken": "非口语语言",
+    "Spoken": "口语语言"
+  },
+  "LANGUAGES": {
+    "Common": "通用语",
+    "Sign": "标记"
+  },
+  "LOOT": {
+    "CATEGORIES": {
+      "Treasure": "宝藏",
+      "Ingredient": "原料",
+      "Other": "杂项"
+    }
+  },
+  "RESOURCES": {
+    "Health": "生命值",
+    "Wounds": "创伤",
+    "Morale": "士气",
+    "Madness": "疯狂",
+    "Action": "动作",
+    "Focus": "专注",
+    "Heroism": "英雄气概",
+    "TOOLTIPS": {
+      "Health": "(6 &times; 级别) + (4 &times; Toughness) + (2 &times; Strength)",
+      "Wounds": "生命值 &times; 1.5",
+      "Morale": "(6 &times; 等级) + (4 &times; Presence) + (2 &times; Wisdom)",
+      "Madness": "士气 &times; 1.5",
+      "Action": "6 + 动作加值",
+      "Focus": "（智慧 + 风度 + 智力） / 2",
+      "Heroism": "最多 3 个"
+    }
+  },
+  "RULER.CannotAffordMove": "你无法承担移动 {distance} 格所需的 {action} 动作点数。",
+  "SCHEMATIC": {
+    "CATEGORIES": {
+      "Alchemy": "炼金配方",
+      "Cooking": "烹饪食谱",
+      "Enchanting": "附魔雕符",
+      "Fletching": "制箭草稿",
+      "Jewelcraft": "珠宝匠石墨棒",
+      "Glyphweaving": "符文织法秘典",
+      "Smithing": "锻造蓝图",
+      "Tailoring": "裁缝样板"
+    },
+    "FIELDS": {
+      "dc": {
+        "label": "难度挑战",
+        "hint": "设定一个数值；在制作此设计图时，必须在一次制作技能检定中超过该数值才算成功。"
+      },
+      "hours": {
+        "label": "小时",
+        "hint": "尝试进行制作所需的时间，以小时计。"
+      },
+      "inputs": {
+        "label": "图式输入",
+        "element": {
+          "ingredients": {
+            "label": "材料",
+            "element": {
+              "item.label": "材料物品 UUID",
+              "consumed": {
+                "label": "吞噬者",
+                "hint": "这些材料会在尝试制作的过程中被消耗吗？"
+              },
+              "quality": {
+                "label": "所需品质",
+                "hint": "此材料所需的最低品质。"
+              },
+              "quantity": {
+                "label": "所需数量"
+              }
+            }
+          },
+          "currency": {
+            "label": "货币",
+            "hint": "制作这张设计图可能需要一定数量的货币，用以表示所需的补给或未被明确建模为物品的次要材料。"
+          },
+          "mode.label": "组合模式"
+        }
+      },
+      "mode.label": "组合模式",
+      "outputs": {
+        "label": "原理图输出",
+        "element": {
+          "items.element.label": "已创建物品 UUID",
+          "mode": "模式"
+        }
+      }
+    },
+    "MODES": {
+      "Any": "任何",
+      "All": "全部",
+      "Template": "模板"
+    },
+    "PROPERTIES": {
+      "Common": "众所周知"
+    },
+    "SHEET": {
+      "Components": "成分",
+      "InputAdd": "添加输入组",
+      "InputDrop": "放下输入物品",
+      "InputRemove": "移除输入组",
+      "Inputs": "输入",
+      "OutputAdd": "添加输出组",
+      "OutputDrop": "丢弃输出物品",
+      "OutputRemove": "移除输出组",
+      "Outputs": "输出"
+    }
+  },
+  "SETTINGS": {
+    "AutoConfirmName": "动作自动确认",
+    "AutoConfirmHint": "在战斗中启用对不会造成伤害或引发主动效果的动作的自动确认。这可以加快流程，但不建议在试玩测试期间使用。",
+    "AutoConfirmNone": "无自动确认",
+    "AutoConfirmSelf": "仅限以自身为目标的动作",
+    "AutoConfirmAll": "自动确认所有动作",
+    "CruciblePartyLabel": "主要冒险队伍",
+    "CruciblePartyHint": "配置哪个 Group Actor 为主角的主要群体。",
+    "COMPENDIUM_SOURCES": {
+      "name": "资料库来源",
+      "label": "配置资料库来源",
+      "hint": "配置在角色创建期间哪些 compendium 包可用作来源。",
+      "ancestry": {
+        "label": "血统来源",
+        "hint": "在角色创建期间，哪些资源包将作为祖裔的来源使用。"
+      },
+      "background": {
+        "label": "背景来源",
+        "hint": "在角色创建期间，哪些包将被用作背景的来源。"
+      },
+      "equipment": {
+        "label": "装备来源",
+        "hint": "在角色创建期间，哪些包将被用作起始装备的来源。"
+      },
+      "spell": {
+        "label": "法术来源",
+        "hint": "哪些资料包将被用作标志性法术的来源。"
+      },
+      "talent": {
+        "label": "天赋来源",
+        "hint": "哪些包将被用作天赋树的天赋来源。"
+      }
+    }
+  },
+  "SKILL": {
+    "CATEGORY": {
+      "EXPLORATION": {
+        "label": "探索",
+        "hint": "探索技能关乎你穿行于世界并应对其挑战的能力。"
+      },
+      "KNOWLEDGE": {
+        "label": "知识",
+        "hint": "知识类技能涉及你角色在一系列主题上的学习与理解。"
+      },
+      "SOCIAL": {
+        "label": "社交",
+        "hint": "社交技能涉及你的角色与其他人或群体互动的能力。"
+      },
+      "CRAFTING": {
+        "label": "手艺",
+        "hint": "反映你角色制作物品或装备能力的工艺技能。"
+      }
+    },
+    "LABELS": {
+      "athletics": "运动",
+      "awareness": "察觉",
+      "stealth": "潜行",
+      "wilderness": "荒野",
+      "arcana": "奥术",
+      "medicine": "医疗",
+      "science": "科学",
+      "society": "社会",
+      "deception": "欺瞒",
+      "diplomacy": "外交",
+      "intimidation": "威吓",
+      "performance": "表演",
+      "smithing": "锻造",
+      "tailoring": "裁缝",
+      "fletching": "制箭",
+      "jewelcraft": "珠宝制作",
+      "glyphweaving": "符文编织",
+      "alchemy": "炼金术",
+      "cooking": "烹饪",
+      "enchanting": "附魔"
+    },
+    "RANKS": {
+      "UNTRAINED": {
+        "label": "未受训",
+        "hint": "你在这一领域没有受过正规训练。你在运用这项技能时取得的任何成功，都归因于常识或运气。"
+      },
+      "UNSPECIALIZED": {
+        "label": "未专精",
+        "hint": "你尚未为这项技能获得专精路线。"
+      },
+      "NOVICE": {
+        "label": "新手",
+        "hint": "你在这项技能的基础应用方面受过一些正式训练，或具有实践经验。"
+      },
+      "APPRENTICE": {
+        "label": "学徒",
+        "hint": "你已将这项技能的技巧加以打磨与磨炼，使其达到扎实而实用的熟练水平。"
+      },
+      "SPECIALIST": {
+        "label": "专家",
+        "hint": "你在这项技能上的熟练程度因你在一条高级专精路径上的专长而得到提升。"
+      },
+      "ADEPT": {
+        "label": "行家",
+        "hint": "你是该主题领域的专家，并且精通这项技能的所有基础能力与应用。"
+      },
+      "MASTER": {
+        "label": "大师",
+        "hint": "你对这项技艺以及你所精修的高级专精道路的掌握已臻化境。"
+      }
+    },
+    "AcquiredRanks": "获得的等级",
+    "PageSheet": "Crucible技能",
+    "SheetTitle": "[{actor}] {skill} 技能",
+    "ChoosePath": "在进一步提升此技能之前，你必须先选择一条专精路线。",
+    "CantAfford": "你无法负担提升此技能。下一个等级需要花费 {cost} 点，而你当前可用的技能点为 {points} 点。",
+    "CategoryHeader": "{category} 技能",
+    "Id": "技能 ID",
+    "Overview": "技能概览",
+    "PassiveSpecific": "被动效果：{passive}",
+    "PathId": "路径ID",
+    "PathName": "路径名称",
+    "PathOverview": "路径概览",
+    "Ranks": "技能等级",
+    "RollFlavor": "{name}进行一次{skill}技能检定",
+    "RollTitle": "[{name}] {skill} 技能检定",
+    "SpecializationPaths": "专精径",
+    "SpecializationPathSelect": "选择专精",
+    "SpecializationPathSpecific": "专精路线：{path}",
+    "Summary": "技能概述",
+    "TooltipCheck": "[({a1} + {a2}) / 4] + 技能加值 + 附魔加值",
+    "TooltipPassive": "12 + 评分",
+    "UnacquiredRanks": "未习得等级"
+  },
+  "SPELL": {
+    "FIELDS": {
+      "description": {
+        "label": "法术描述"
+      },
+      "actions": {
+        "label": "授予的动作",
+        "hint": "将可供知晓此标志性法术的角色使用的动作关联起来。"
+      },
+      "runes": {
+        "label": "符文",
+        "hint": "为了学会这个标志性法术，必须先掌握的一组符文。"
+      },
+      "gestures": {
+        "label": "手势",
+        "hint": "学习这个标志性法术所必须已知的一组手势。"
+      },
+      "inflections": {
+        "label": "屈折",
+        "hint": "学习此标志性法术所必须掌握的一组屈折。"
+      }
+    },
+    "SHEET": {
+      "Knowledge": "所需知识"
+    },
+    "Iconic": "标志性法术",
+    "IconicPl": "标志性法术",
+    "DamageType": "伤害类型",
+    "NameFormatNoun": "{手势} 的 {符文}",
+    "NameFormatAdj": "{符文} {手势}",
+    "COMPONENTS": {
+      "Rune": "奥术符文",
+      "RunePl": "奥术符文",
+      "RuneNone": "未习得任何奥术符文。",
+      "RuneSpecific": "符文：{rune}",
+      "Gesture": "躯体手势",
+      "GesturePl": "躯体手势",
+      "GestureNone": "未习得任何姿势手势。",
+      "GestureSpecific": "手势：{gesture}",
+      "Inflection": "超魔法屈折",
+      "InflectionPl": "超魔法屈折",
+      "InflectionNone": "未习得任何超魔屈折。",
+      "InflectionSpecific": "屈折：{inflection}",
+      "MissingRune": "没有符文",
+      "MissingGesture": "没有手势",
+      "MissingInflection": "没有屈折"
+    },
+    "COUNTERSPELL": {
+      "Detailed": "反制法术（{details}）",
+      "Name": "反制法术",
+      "OpposingRune": "反制法术：对立符文",
+      "SameGesture": "反制法术：相同手势",
+      "Tags": "反制法术标签",
+      "TargetGesture": "目标手势：{gesture}",
+      "TargetRune": "目标符文：{rune}",
+      "UseForActor": "对 {actor} 使用反制法术",
+      "WARNINGS": {
+        "BadTarget": "你只能对上一个动作的施法者施放反制法术，而且那个动作必须是法术。",
+        "InvalidTerms": "无法将 {terms} 解析为有效的反制法术术语。",
+        "MissingComponents": "一个反制法术增幅必须至少具有 1 个符文和 1 个手势。",
+        "NoTalent": "{actor}没有“反制法术”天赋。",
+        "NoUser": "没有非GM用户在线，无法为角色 {actor} 处理反制施法。"
+      }
+    },
+    "RUNES": {
+      "Soul": "灵魂",
+      "SoulAdj": "灵魂般的",
+      "Death": "死亡",
+      "DeathAdj": "致命的",
+      "Earth": "大地",
+      "EarthAdj": "大地的",
+      "Flame": "火焰",
+      "FlameAdj": "燃烧的",
+      "Frost": "霜冻",
+      "FrostAdj": "冰冷的",
+      "Illumination": "照明",
+      "IlluminationAdj": "光照充足的",
+      "Illusion": "幻象",
+      "IllusionAdj": "幻象的",
+      "Kinesis": "念动力",
+      "KinesisAdj": "动能的",
+      "Life": "生命",
+      "LifeAdj": "至关重要的",
+      "Lightning": "闪电",
+      "LightningAdj": "伏电",
+      "Oblivion": "湮灭",
+      "OblivionAdj": "湮灭的",
+      "Control": "控制",
+      "ControlAdj": "控制的"
+    },
+    "GESTURES": {
+      "Arrow": "箭矢",
+      "Aspect": "相位",
+      "Aura": "灵气",
+      "Blast": "爆炸咒",
+      "Cone": "锥形区域",
+      "Conjure": "咒法系",
+      "Create": "创造",
+      "Fan": "扇子",
+      "Influence": "影响",
+      "Pulse": "脉冲",
+      "Ray": "光线",
+      "Sense": "感知",
+      "Step": "踏步",
+      "Strike": "打击",
+      "Surge": "激涌",
+      "Touch": "触碰",
+      "Ward": "防护罩"
+    },
+    "INFLECTIONS": {
+      "Compose": "撰写",
+      "ComposeAdj": "作曲的",
+      "Determine": "确定",
+      "DetermineAdj": "坚定不移",
+      "Extend": "延伸",
+      "ExtendAdj": "延展",
+      "Elude": "闪避",
+      "EludeAdj": "闪避",
+      "Negate": "抵消",
+      "NegateAdj": "否定丨免疫负向伤害，生命值恢复为负数时受伤，且会被[[/r 1d20 #Flat check to remove persistent bleed damage]]持续流血伤害以外的持续伤害击中时恢复等量生命值。",
+      "Pull": "拉起",
+      "PullAdj": "迷人的",
+      "Push": "推开",
+      "PushAdj": "驱避剂",
+      "Quicken": "加速施法",
+      "QuickenAdj": "加速",
+      "React": "反应",
+      "ReactAdj": "反应式",
+      "Reshape": "重塑",
+      "ReshapeAdj": "塑形"
+    },
+    "NAMES": {
+      "CurseParanoia": "偏执诅咒",
+      "CurseMortality": "凡命诅咒",
+      "CursePorosity": "孔隙诅咒",
+      "CurseFlammability": "易燃诅咒",
+      "CurseFrostbite": "冻伤诅咒",
+      "CurseRadiance": "辉耀诅咒",
+      "CurseFigments": "幻影诅咒",
+      "CurseShattering": "破碎诅咒",
+      "CursePerforation": "穿孔诅咒",
+      "CurseLaceration": "撕裂诅咒",
+      "CurseToxicity": "剧毒诅咒",
+      "CurseConductivity": "导电诅咒",
+      "CurseNullification": "消解诅咒",
+      "CurseCowardice": "怯懦诅咒"
+    },
+    "WARNINGS": {
+      "CannotAffordHands.one": "施放该{action}法术需要腾出{hands}只手。",
+      "CannotAffordHands.other": "该{法术}需要腾出{hands}只手才能施放。",
+      "CannotUseSilenced": "处于沉默状态时无法使用屈折。",
+      "CannotUseNotComposed": "你无法施放尚未完全编织完成的法术。",
+      "NotConfigured": "这个标志性法术尚未完全配置。它需要先定义全部三个施法构成要素。"
+    }
+  },
+  "TALENT": {
+    "FIELDS": {
+      "nodes": {
+        "label": "天赋节点",
+        "hint": "将此天赋设定为可从天赋树中的一个或多个特定节点购买。"
+      },
+      "description": {
+        "label": "天赋描述"
+      },
+      "actions": {
+        "label": "授予的动作",
+        "hint": "将可供拥有此天赋的角色使用的动作关联起来。"
+      },
+      "rune": {
+        "label": "符文",
+        "hint": "获得此天赋会赋予你一个特定施法符文的知识。"
+      },
+      "gesture": {
+        "label": "手势",
+        "hint": "获得此天赋会让你掌握一种特定的施法手势。"
+      },
+      "inflection": {
+        "label": "屈折",
+        "hint": "获得此天赋会使你知晓一种特定的施法屈折。"
+      },
+      "iconicSpells": {
+        "label": "标志性法术",
+        "hint": "由此天赋授予的标志性法术位数量。"
+      },
+      "actorHooks": {
+        "label": "钩挂功能",
+        "hint": "此配置标签页涉及用于自动化天赋效果的高级功能。在此标签页上错误配置数据可能会导致严重后果。除非你对自己的知识有信心，否则不要尝试在这里进行更改。"
+      },
+      "training": {
+        "label": "提供的训练",
+        "hint": "这个天赋是否会在某个特定领域提供一定等级的训练？",
+        "type.label": "训练类型",
+        "rank.label": "训练等级"
+      }
+    },
+    "ACTIONS": {
+      "ActionAdd": "添加动作",
+      "ActionDelete": "删除动作",
+      "ActionEdit": "编辑动作",
+      "Delete": "删除天赋",
+      "Edit": "编辑天赋",
+      "HookAdd": "添加钩子",
+      "HookDelete": "删除钩子",
+      "Purchase": "<p>花费 1 点天赋点数来购买<strong>{name}</strong>吗？</p>",
+      "PurchaseNode": "花费天赋点购买空节点“{node}”？",
+      "PurchaseNodeReverse": "移除花费在空节点“{node}”上的点数？",
+      "PurchaseNodeTitle": "购买天赋节点？",
+      "PurchaseTitle": "购买天赋：{name}"
+    },
+    "WARNINGS": {
+      "AlreadyOwned": "你已经拥有{name}，无法再次添加它。",
+      "Banned": "你无法在此节点或此阶级购买额外的招牌天赋。",
+      "CannotAfford": "你没有足够的天赋点数来购买{name}，它需要花费{cost}点。",
+      "CannotUse": "你无法使用这个天赋。",
+      "Inaccessible": "你无法获得“{name}”，因为你尚未解锁此天赋树节点。",
+      "Locked": "你不满足获取“{name}”的要求；它需要 {requires} {requirement}。",
+      "RequiresRuneGesture": "你必须知晓一个施法符文，才能运用一个手势。",
+      "RequiresRuneInflection": "你必须知晓一个施法符文，才能利用一种屈折。"
+    },
+    "HOOKS": {
+      "Register": "注册钩子函数",
+      "GroupPreparation": "角色数据准备",
+      "GroupAction": "动作使用",
+      "GroupCombat": "战斗回合",
+      "GroupEquipment": "装备准备",
+      "GroupSpellcraft": "施法准备"
+    },
+    "NODES": {
+      "Attack": "攻击",
+      "Melee": "近战",
+      "Ranged": "远程",
+      "Magic": "魔法",
+      "Defense": "防御",
+      "Heal": "治疗",
+      "Move": "移动",
+      "Origin": "起源",
+      "Signature": "签名",
+      "Spell": "施法",
+      "Skill": "技能",
+      "Training": "训练",
+      "Utility": "效用"
+    },
+    "NodeSpecific": "{nodeType} 节点",
+    "TRAINING": {
+      "Skill": "技能训练",
+      "Weapon": "武器训练",
+      "Craft": "手艺训练",
+      "Spell": "施法训练"
+    },
+    "RANKS": {
+      "Untrained": "未受训",
+      "Trained": "受训#endregion",
+      "Proficient": "熟练",
+      "Expert": "专家",
+      "Master": "大师"
+    },
+    "PointsAvailable": "可用点数",
+    "Prerequisites": "前置条件",
+    "LABELS": {
+      "Points": {
+        "one": "点",
+        "other": "点数"
+      },
+      "Talents": {
+        "one": "天赋",
+        "other": "天赋"
+      }
+    }
+  },
+  "TALENT.GrantsSpells": "<strong>标志性法术：</strong>: {name} 提供 {spells} 个标志性法术法术位。",
+  "TAXONOMY": {
+    "FIELDS": {
+      "abilities": {
+        "label": "基础能力",
+        "hint": "为具有此分类法的生物定义初始属性值。将 12 点分配到所有属性值中。每个属性值必须介于 0 到 6 之间。被分配为 0 的属性值，对于此分类法的对手而言，之后都不能变为非 0。"
+      },
+      "category": {
+        "label": "类别",
+        "hint": "该分类法所属的生物类别。"
+      },
+      "identifier": {
+        "label": "标识符",
+        "hint": "一个字符串标识符，用于在标签、动作或其他 UI 元素中唯一引用此分类法。该标识符必须是字母数字组成，且不包含空格或特殊字符。"
+      },
+      "resistances": {
+        "label": "抗性成长",
+        "hint": "定义此分类法下的生物在等级提升时，其抗性与易伤如何变化。为每种抗性赋予一个介于 -3（最易伤）到 +3（抗性最高）之间的数值。设为零的伤害类型既不具抗性，也不易伤。赋予某种伤害类型免疫将等同于 “+4” 抗性。所有抗性与免疫的总和必须为零。",
+        "value": {
+          "label": "抗性成长值",
+          "hint": "对此伤害类型的数值抗性，取值范围为 -3（最脆弱）到 3（抗性最强）。会随着此分类法的生物等级提升而变化。"
+        },
+        "immune": {
+          "label": "伤害免疫",
+          "hint": "指明属于此分类法的生物是否免疫于该伤害类型。"
+        }
+      },
+      "movement": {
+        "label": "移动",
+        "size": {
+          "label": "体型",
+          "hint": "该敌对者在网格中占据的尺寸。"
+        },
+        "stride": {
+          "label": "跨步",
+          "tooltip": "每消耗一点动作点的移动距离。"
+        }
+      },
+      "characteristics": {
+        "label": "分类法特征",
+        "equipment.label": "可以使用装备",
+        "spells.label": "可以施放法术"
+      }
+    },
+    "CATEGORIES": {
+      "Beast": "野兽",
+      "Celestial": "天界的",
+      "Construct": "构装体",
+      "Dragon": "巨龙",
+      "Elemental": "元素",
+      "ElementalEarth": "土元素",
+      "ElementalFire": "火元素",
+      "ElementalFrost": "冰霜元素",
+      "ElementalStorm": "风暴元素",
+      "Fey": "妖精",
+      "Fiend": "邪魔",
+      "Giant": "巨人",
+      "Humanoid": "人型生物",
+      "Monstrosity": "畸怪",
+      "Ooze": "软泥怪",
+      "Outsider": "异界生物",
+      "Undead": "不死生物"
+    },
+    "SHEET": {
+      "Choose": "选择分类法",
+      "Clear": "清除分类法",
+      "Physiology": "生理学",
+      "Stature": "分类法 身材"
+    }
+  },
+  "TOOL": {
+    "CATEGORIES": {
+      "Crafting": "制作工具包",
+      "Implement": "实现"
+    },
+    "FIELDS": {
+      "skills": {
+        "label": "关联技能",
+        "hint": "鉴定一下哪些技能或手艺会用到这个特定工具。"
+      }
+    }
+  },
+  "TRAVEL_PACES": {
+    "Hidden": "隐藏",
+    "Slow": "谨慎",
+    "Normal": "普通",
+    "Fast": "匆忙",
+    "Reckless": "莽撞"
+  },
+  "WEAPON": {
+    "CATEGORIES": {
+      "CategoryHands": "{类别} ({hands}h)",
+      "Light": "光",
+      "Simple": "简单",
+      "Balanced": "平衡的",
+      "Heavy": "重型",
+      "Projectile": "投射",
+      "Mechanical": "机械的",
+      "Unarmed": "徒手",
+      "Shield": "盾牌",
+      "ShieldLight": "轻型盾牌",
+      "ShieldHeavy": "重型盾牌",
+      "Talisman": "护符"
+    },
+    "FIELDS": {
+      "damageType": {
+        "label": "伤害类型",
+        "hint": "配置这把武器所造成的伤害类型。"
+      },
+      "dropped": {
+        "label": "脱手",
+        "hint": "这把武器是否被投掷、缴械，或以其他方式脱手？"
+      },
+      "loaded": {
+        "label": "已装填",
+        "hint": "如果该武器需要装填，记录其当前是否已装填。"
+      },
+      "slot": {
+        "label": "已装备栏位",
+        "hint": "指定该武器已装备在哪个装备槽中。"
+      }
+    },
+    "TAGS": {
+      "Ambush": "伏击",
+      "AmbushTooltip": "这把武器非常适合在对手还来不及反应之前先发制人。攻击先攻顺序中位于你之后的目标时，你获得 +1 恩惠。",
+      "Blocking": "格挡",
+      "BlockingTooltip": "这把武器为你的格挡防御提供加值。",
+      "Engaging": "啮合",
+      "EngagingTooltip": "此类别中的武器让你在对抗多个敌人时更得心应手，使你的交战值增加 +1。",
+      "Intuitive": "直觉的",
+      "IntuitiveTooltip": "这种武器足够直观，即使未受训也能使用。未受训使用这种武器时的技能惩罚仅为 -1，而不是 -4。",
+      "Keen": "敏锐",
+      "KeenTooltip": "当这把武器造成重击时，会格外致命。重要说明——敏锐属性尚未在试玩测试中实装。",
+      "Natural": "自然",
+      "NaturalTooltip": "天生武器受益于“天生武器训练”，而非其实际类别对应的训练。天生武器不能脱手。",
+      "Oversized": "超大尺寸",
+      "OversizedTooltip": "这件物品尺寸过大，或因其他原因而难以挥舞，令你无法迅速行动。当这件物品已装备时，你的先攻获得 +2 祸骰。",
+      "Parrying": "招架",
+      "ParryingTooltip": "这把武器为你的招架防御提供加值。",
+      "Reach": "延伸",
+      "ReachTooltip": "该武器提供比普通更大的有效射程。你能够在你普通射程的两倍距离内进行基础打击攻击。",
+      "Reload": "装填",
+      "ReloadTooltip": "这件武器需要重新装填后才能打击。未装填时，任何使用该武器的动作都要多花费 +1 动作点。",
+      "Reliable": "可靠的",
+      "ReliableTooltip": "这把武器值得信赖，几乎绝不会造成特别糟糕的结果。该武器的严重失败阈值降低 2，因此不成功的打击更不容易变成严重失误。",
+      "Returning": "返回",
+      "ReturningTooltip": "这把武器经过魔法或机械构造，能在被投掷后返回到你手中。使用这把武器进行“投掷武器”动作不会使其变为脱手。",
+      "Thrown": "投掷",
+      "ThrownTooltip": "这种武器专为投掷而设计，不会承受通常适用于投掷武器动作的祸骰惩罚。",
+      "Versatile": "多用",
+      "VersatileTooltip": "这把武器可以单手或双手持用，并且可以在这两种模式之间切换而无需任何动作点成本。以双手持用时，该武器获得额外的 +2 基础伤害，但进行打击时会额外增加 1 点动作成本。",
+      "DamageTooltip": "该武器攻击能力的简写表示，格式为：攻击加值 / 伤害加值 / 伤害倍率。"
+    },
+    "SHEET": {
+      "Equipment": "武器详情",
+      "Type": "武器类型"
+    },
+    "SLOTS": {
+      "Either": "双手皆可",
+      "Mainhand": "主手",
+      "Offhand": "副手",
+      "Twohand": "双手持用"
+    },
+    "SPECIFIC": {
+      "Unarmed": "徒手",
+      "VampireBite": "吸血鬼啃咬"
+    }
+  },
+  "TOKEN": {
+    "LABELS": {
+      "Enemies": "{enemies} 敌人",
+      "Engagement": "交战 {engagement}",
+      "Flanked": "夹击 {flanked}"
+    },
+    "MOVEMENT": {
+      "ACTIONS": {
+        "walk": {
+          "label": "行走",
+          "description": "每个动作可移动一段距离，最长为你的步幅属性。"
+        },
+        "step": {
+          "label": "踏步",
+          "description": "每个动作中，你可以谨慎地移动，距离最多为你的步幅属性的一半。此移动不会引发脱离接战。"
+        },
+        "crawl": {
+          "label": "匍匐前进",
+          "description": "倒地时，每个动作可移动的距离至多为你步幅属性的一半。"
+        },
+        "jump": {
+          "label": "跳跃",
+          "description": "每个动作可跃过的距离最多为你的移动属性的一半。"
+        },
+        "climb": {
+          "label": "攀爬",
+          "description": "沿着一个表面攀爬或下降，每个动作可移动的距离或高度最多为你步幅属性的一半。具有明确攀爬速度的生物则改为使用该速度，而不是其步幅的一半。"
+        },
+        "swim": {
+          "label": "游泳",
+          "description": "在齐腰深或更深的水中移动时，每个动作可移动的距离最多为你步幅属性的一半。具有明确游泳速度的生物则改为使用该速度，而不是其步幅的一半。"
+        },
+        "fly": {
+          "label": "飞行",
+          "description": "在气元素中移动，每次动作最多可移动相当于你飞行属性的距离。只有具有飞行速度的生物才能使用此移动方式。"
+        },
+        "slow.label": "谨慎",
+        "normal.label": "普通",
+        "fast.label": "匆忙"
+      }
+    }
+  },
+  "WARNING.AbilityCannotIncrease": "你无法进一步提升此能力。",
+  "WARNING.AbilityCannotDecrease": "你无法进一步降低该能力。",
+  "WARNING.AbilityRequireAncestry": "你必须先选择一个血统，才能购买能力值提升。",
+  "WARNING.CannotEquipTaxonomy": "角色 {actor} 无法装备 {item}，因为“{taxonomy}”分类法无法使用装备。",
+  "WARNING.CannotEquipSlotInUse": "角色 {actor} 无法装备 {item}，因为 {type} 物品栏位已被占用。",
+  "WARNING.CannotEquipInCombat": "角色 {actor} 无法在战斗遭遇期间装备或卸下 {item}。",
+  "WARNING.CannotEquipActionCost": "你无法装备武器，因为你没有可用的动作点。",
+  "WARNING.CannotEquipInvalidCategory": "角色 {actor} 无法在 {type} 装备槽中使用 {item}。",
+  "WARNING.NoParty": "你必须先为此配置一个主要队伍。",
+  "WARNING.SkillRequireAncestryBackground": "你必须先选择血统和背景，才能购买技能等级。",
+  "WALKTHROUGH.AddAncestry": "从宝典或物品侧边栏中选择一个血统，并通过拖放将其添加。",
+  "WALKTHROUGH.AddBackground": "从 Compendium 或物品侧边栏中选择一个背景，并通过拖放将其添加。",
+  "WALKTHROUGH.ConfigureArchetype": "为该对手配置一个原型。",
+  "WALKTHROUGH.ConfigureTaxonomy": "为该敌对生物配置一个分类法。",
+  "WALKTHROUGH.AbilityPoints": "花费可用的属性点来提高你的属性值。",
+  "WALKTHROUGH.SkillPoints": "通过提升你的技能等级来花费可用的技能点。",
+  "WALKTHROUGH.TalentPoints": "通过打开天赋树来花费可用的天赋点数。",
+  "WALKTHROUGH.NextLevel": "晋升进度，朝向下一级",
+  "WALKTHROUGH.LevelZero": "在将你的角色提升至1级之前，请先完成所有角色创建步骤。",
+  "WALKTHROUGH.LevelOne": "将你的角色设为1级并开始你的冒险！",
+  "WALKTHROUGH.LevelUp": "你已经取得了足够的进展，可以提升到新的等级。准备好后，将你的等级提高1级！",
+  "WALKTHROUGH.LevelZeroIncomplete": "在你完成所有角色创建步骤之前，你不能升到1级！"
+}
