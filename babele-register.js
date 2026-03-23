@@ -3,9 +3,9 @@ Hooks.once('init', async function () {
 
         // 1. Enregistrement du module
         game.babele.register({
-            module: 'crucible-fr',
-            lang: 'fr',
-            dir: 'compendium/fr'
+            module: 'crucible-cn',
+            lang: 'cn',
+            dir: 'compendium/cn'
         });
 
         // 2. Converters - UNIQUEMENT pour les structures complexes
