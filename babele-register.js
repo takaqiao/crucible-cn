@@ -119,11 +119,11 @@ Hooks.once('init', async function () {
             }
         });
 
-        console.log('Crucible FR | Module de traduction chargé');
+        console.log('Crucible cn | 模组已加载');
     }
 });
 
 Hooks.once('i18nInit', () => {
-  game.i18n.translations.Sort = "Sort";
-  game.i18n.translations.sort = "tri"; // garde la minuscule pour le core
+    game.i18n.translations.Sort = "Sort";
+    game.i18n.translations.sort = "tri"; // garde la minuscule pour le core
 });
