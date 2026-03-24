@@ -80,43 +80,43 @@
   "ACTION": {
     "DEFAULT_ACTIONS": {
       "Cast": {
-        "Name": "施放法术",
+        "Name": "施放法术 Cast Spell",
         "Description": "编织奥术以创造一项施法成果。"
       },
       "Defend": {
-        "Name": "防御",
+        "Name": "防御 Defend",
         "Description": "你专注于避免受到伤害，从而提高你的物理防御。直到你的下个<strong>回合</strong>开始前，你获得<strong>戒备</strong>状态。"
       },
       "Delay": {
-        "Name": "延迟",
+        "Name": "延迟 Delay",
         "Description": "你将把你的动作延迟到战斗轮中的稍后时点。选择一个介于 1 和你后方战斗者先攻值之间的先攻值。你将在这个新的先攻值行动。你每轮只能延迟你的回合一次。"
       },
       "Move": {
-        "Name": "移动",
+        "Name": "移动 Move",
         "Description": "通过花费一定量的动作来移动一段距离，其花费取决于你的步幅以及所使用的移动动作。"
       },
       "ReactiveStrike": {
-        "Name": "反应打击",
+        "Name": "反应打击 Reactive Strike",
         "Description": "当敌人离开你的交战范围，且你未处于完全交战状态时，进行一次打击。"
       },
       "Recover": {
-        "Name": "恢复",
+        "Name": "恢复 Recover",
         "Description": "在战斗外花费 10 分钟从疲劳中恢复，即可将生命值、士气、动作和专注全部恢复。"
       },
       "Reload": {
-        "Name": "装填武器",
+        "Name": "装填武器 Reload Weapon",
         "Description": "为具有装填时间的远程武器进行装填。"
       },
       "Rest": {
-        "Name": "休息",
+        "Name": "休息 Rest",
         "Description": "花费十小时进行充分休息，包括进食、睡眠、处理创伤和恢复资源的时间。"
       },
       "Strike": {
-        "Name": "打击",
+        "Name": "打击 Strike",
         "Description": "用你的一件已装备武器攻击单个生物或物体。"
       },
       "ThrowWeapon": {
-        "Name": "投掷武器",
+        "Name": "投掷武器 Throw Weapon",
         "Description": "将你已装备的近战武器掷向附近的目标并进行打击。此次攻击承受 +2 <strong>祸骰</strong>，且该武器变为<strong>脱手</strong>。"
       }
     },
@@ -780,14 +780,9 @@
   "ACTION.TagIconicSpellTooltip": "这个动作是通过精通其构成部分而习得的一个标志性法术。",
   "ACTION.TagTargetTooltip": "适用于此动作的目标类型、距离和数量。",
   "ACTION.TagCostTooltip": "使用此动作所需的动作点或专注点消耗。",
-  "ACTION.TagCostAction": "{action}A",
-  "ACTION.TagCostFocus": "{focus}F",
   "ACTION.TagCostHand.one": "{hands} 手掌",
   "ACTION.TagCostHand.other": "{hands} 手部",
-  "ACTION.TagCostHeroism": "{heroism}H",
   "ACTION.TagCostHealth": "{health}生命值",
-  "ACTION.TagCostWeapon": "W",
-  "ACTION.TagCostWeaponAction": "W{action}A",
   "ACTION.TAGS": {
     "Activation": "激活标签",
     "Action": "动作标签",
@@ -1032,19 +1027,15 @@
   },
   "CURRENCY_DENOMINATIONS": {
     "CP": {
-      "abbreviation": "CP",
       "label": "铜币"
     },
     "SP": {
-      "abbreviation": "SP",
       "label": "银币"
     },
     "GP": {
-      "abbreviation": "GP",
       "label": "金币"
     },
     "PP": {
-      "abbreviation": "PP",
       "label": "白金币"
     }
   },
@@ -1111,8 +1102,6 @@
   "DICE.DamageResistance": "伤害抗性",
   "DICE.DamageVulnerability": "伤害易伤",
   "DICE.DamageTotal": "总伤害",
-  "DICE.DC": "DC",
-  "DICE.DCSpecific": "DC {dc}",
   "DICE.Healing": "治疗",
   "DICE.Confirm": "确认",
   "DICE.Reverse": "反转",
@@ -1506,7 +1495,7 @@
     "CruciblePartyLabel": "主要冒险队伍",
     "CruciblePartyHint": "配置哪个 Group Actor 为主角的主要群体。",
     "COMPENDIUM_SOURCES": {
-      "name": "资料库来源",
+      "name": "资料库来源 Compendium Sources",
       "label": "配置资料库来源",
       "hint": "配置在角色创建期间哪些 compendium 包可用作来源。",
       "ancestry": {
@@ -1654,7 +1643,6 @@
     "IconicPl": "标志性法术",
     "DamageType": "伤害类型",
     "NameFormatNoun": "{gesture} 的 {rune}",
-    "NameFormatAdj": "{rune} {gesture}",
     "COMPONENTS": {
       "Rune": "奥术符文",
       "RunePl": "奥术符文",
@@ -1674,7 +1662,7 @@
     },
     "COUNTERSPELL": {
       "Detailed": "反制法术（{details}）",
-      "Name": "反制法术",
+      "Name": "反制法术 Counterspell",
       "OpposingRune": "反制法术：对立符文",
       "SameGesture": "反制法术：相同手势",
       "Tags": "反制法术标签",
