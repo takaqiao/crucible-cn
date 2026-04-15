@@ -36,7 +36,7 @@
   },
   "entries": {
     "Moldy Skeleton": {
-      "name": "霉变骷髅 Skeleton",
+      "name": "霉变骷髅 Moldy Skeleton",
       "tokenName": "死亡的创造",
       "archetype": {
         "name": "元素精灵 Sprite",
@@ -68,7 +68,7 @@
       }
     },
     "Flame Visitor": {
-      "name": "火焰访客 Visitor",
+      "name": "火焰访客 Flame Visitor",
       "tokenName": "火焰咒术召唤",
       "archetype": {
         "name": "元素访客 Visitor",
@@ -104,7 +104,7 @@
       }
     },
     "Storm Sprite": {
-      "name": "风暴精灵 Sprite",
+      "name": "风暴精灵 Storm Sprite",
       "tokenName": "风暴的创造",
       "archetype": {
         "name": "元素精灵 Sprite",
@@ -144,7 +144,7 @@
       }
     },
     "Flame Sprite": {
-      "name": "火焰精灵 Sprite",
+      "name": "火焰精灵 Flame Sprite",
       "tokenName": "火焰的创造",
       "archetype": {
         "name": "元素精灵 Sprite",
@@ -180,7 +180,7 @@
       }
     },
     "Storm Visitor": {
-      "name": "风暴访客 Visitor",
+      "name": "风暴访客 Storm Visitor",
       "tokenName": "风暴精灵",
       "archetype": {
         "name": "元素访客 Visitor",
@@ -216,7 +216,7 @@
       }
     },
     "Frost Visitor": {
-      "name": "霜访者 Visitor",
+      "name": "霜访者 Frost Visitor",
       "tokenName": "寒霜精灵",
       "archetype": {
         "name": "元素访客 Visitor",
@@ -266,7 +266,7 @@
       }
     },
     "Frost Sprite": {
-      "name": "寒霜精灵 Sprite",
+      "name": "寒霜精灵 Frost Sprite",
       "tokenName": "霜冻的创造 创造 of 霜冻",
       "archetype": {
         "name": "元素精灵 Sprite",
@@ -320,7 +320,7 @@
       }
     },
     "Earth Visitor": {
-      "name": "大地访客 Visitor",
+      "name": "大地访客 Earth Visitor",
       "tokenName": "土精灵",
       "archetype": {
         "name": "元素访客 Visitor",
@@ -356,7 +356,7 @@
       }
     },
     "Earth Sprite": {
-      "name": "土精灵 Sprite",
+      "name": "土精灵 Earth Sprite",
       "tokenName": "大地的创造",
       "archetype": {
         "name": "元素精灵 Sprite",

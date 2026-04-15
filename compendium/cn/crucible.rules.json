@@ -12,7 +12,7 @@
   },
   "entries": {
     "Welcome To Crucible": {
-      "name": "欢迎来到Crucible",
+      "name": "欢迎来到Crucible Welcome To Crucible",
       "pages": {
         "What is Crucible": {
           "name": "什么是《Crucible》",
@@ -41,7 +41,7 @@
       }
     },
     "Dice Mechanics": {
-      "name": "骰子机制 Mechanics",
+      "name": "骰子机制 Dice Mechanics",
       "pages": {
         "Dice Mechanics": {
           "name": "骰子机制 Mechanics",
@@ -69,11 +69,11 @@
           "text": "<p><strong>移动</strong>是角色在 Crucible 中于战斗里会执行的最重要动作之一。</p><p>Crucible 中的移动与站位使用精细的 1 英尺网格，这带来了许多优秀特性，例如在战术上具有重要意义的移动与站位、生物体型与武器射程之间有意义的差异，以及直观的效果区域。</p><section class=\"foundryvtt\"><p>Crucible 系统中的距离以英尺定义。Foundry Virtual Tabletop 中的场景网格大小将被自动调整，以拥有一个距离单位为<strong>1 英尺</strong>的子网格。场景必须使用<strong>5 英尺</strong>的网格大小，子网格才能正确显示。</p><p>测量距离使用<strong>精确 √2</strong> 对角测量模式计算。</p></section><p>角色可执行的许多战斗动作都带有<strong>移动</strong>标签。此类动作允许你移动一定数量的英尺，最多不超过你角色的<strong>步幅</strong>属性。一次<strong>移动</strong>动作所允许的距离不能被拆分或中断。如果你移动的距离少于你的步幅，不会有剩余移动保留到后续动作中。</p><p>Crucible 中没有朝向机制，这意味着你的棋子在地图上朝向哪个方向并不重要；除非受到某种特殊效果或状态限制，否则你的角色能够在完整的 360 度范围内感知并行动。</p><h2 class=\"divider\">移动成本计算</h2><p>一次给定移动的<strong>动作</strong>成本按如下方式计算：</p><ol><li><p><strong>距离</strong>按中心点到中心点计算，其中对角移动的距离使用<strong>精确 √2</strong> 对角测量模式计算。</p></li><li><p><strong>有效距离</strong>通过按顺序应用以下修正来计算：</p><ol style=\"list-style-type:lower-alpha\"><li><p>首先应用<strong>状态</strong>，如下所述。</p></li><li><p>其次应用<strong>地形</strong>的效果。</p></li><li><p>再应用由<strong>移动类型</strong>产生的修正。</p></li></ol></li><li><p>该次移动的<strong>动作</strong>成本计算如下：</p></li></ol><section class=\"formula\"><p class=\"value\">动作成本</p><p class=\"equals\">=</p><p class=\"equation\">向上取整(有效距离 / 步幅)</p></section><ol start=\"4\"><li><p>如果可用<strong>免费移动</strong>，则该次移动的最终动作成本减少 1。</p></li></ol><h3 class=\"divider\">移动状态</h3><p>以下<strong>状态</strong>会影响移动的测量与成本。</p><h4>迟缓</h4><p>任何移动所经过的<strong>有效距离</strong>翻倍。</p><h4>加速</h4><p>任何移动所经过的<strong>有效距离</strong>减半。</p><h4>受缚</h4><p>无法移动。</p><h3 class=\"divider\">移动类型</h3><p>支持以下<strong>移动类型</strong>：</p><h4>行走</h4><p>有效距离不变。</p><h4>踏步</h4><p>你谨慎地移动，但你所经过的<strong>有效距离</strong>翻倍。</p><h4>匍匐前进</h4><p>你在<strong>倒地</strong>时移动，且你所经过的<strong>有效距离</strong>翻倍。</p><h4>跳跃</h4><p>你所经过的<strong>有效距离</strong>翻倍，但某些动作或越过某些障碍时需要使用此移动类型。</p><h4>攀爬</h4><p>用于沿垂直表面移动时，你所经过的<strong>有效距离</strong>翻倍。</p><h4>游泳</h4><p>用于在齐腰深或更深的水中移动时，你所经过的<strong>有效距离</strong>翻倍。</p><h4>飞行</h4><p>供能够飞行或悬停的生物使用。飞行时的移动比行走更快。</p><h4>闪现术</h4><p>魔法传送，完全无视地形与移动成本。</p><h2 class=\"divider\">免费移动</h2><p>每个生物在每轮战斗中都有机会执行一次免费的<strong>移动</strong>动作。这意味着每轮中第一次执行且带有移动标签的动作，其成本会获得 -1 动作成本的减免。这通常会使该动作可以免费执行，但在某些情况下也可能只是降低其总成本。</p><p>@Condition[Weakened]、@Condition[Prone] 或 @Condition[Slowed] 的生物无法使用免费移动。穿着<strong>重型</strong>护甲的生物同样会失去免费移动，除非其拥有 @UUID[Compendium.crucible.talent.Item.armoredefficienc]{装甲效率} 天赋。</p><h2 class=\"divider\">地形</h2><p>困难地形会增加穿越其中时的移动成本。困难地形可以通过 Foundry VTT 的场景区域并使用<strong>修改移动成本</strong>行为来定义，这与 Crucible 的移动成本计算完全集成。</p><h2 class=\"divider\">掩护</h2><p>某些地形或障碍物可被视为掩护——为来袭的法术或武器攻击提供额外保护。当一次直接的单体攻击穿过此类障碍物时，该攻击的目标处于掩护中。掩护按以下类型分类：</p><table><thead><tr><th><p>掩护类型</p></th><th><p>攻击获得的祸骰</p></th></tr></thead><tbody><tr><td><p>完全掩护</p></td><td><p>无法进行直接攻击</p></td></tr><tr><td><p>坚固掩护</p></td><td><p>+4 祸骰</p></td></tr><tr><td><p>部分坚固掩护</p></td><td><p>+2 祸骰</p></td></tr><tr><td><p>软掩护</p></td><td><p>+1 祸骰</p></td></tr></tbody></table><p>来自目标类型如锥形、爆破或脉冲的能力的范围效果攻击会无视掩护的效果。</p><section class=\"construction\"><p>掩护探测及其产生的祸骰自动化计划在未来更新中实现。当前，因掩护而增加的祸骰应在进行攻击检定时手动应用。</p></section>"
         },
         "Engagement and Flanking": {
-          "name": "交战与夹击 交战 夹击",
+          "name": "交战与夹击",
           "text": "<p><strong>交战</strong>描述的是你在不会变得更易伤的情况下，能够同时与之作战的敌对战斗者总数。<strong>英雄</strong>角色的基础<strong>交战</strong>为<strong>1</strong>，而<strong>对手</strong>角色的基础<strong>交战</strong>等于其<strong>体型 - 2</strong>，最低为<strong>1</strong>。</p><p>当一个角色与多个敌人相邻，且处于交战中的敌人数量等于或超过其<strong>交战</strong>值时，该角色被称为处于<strong>完全交战</strong>状态。某些状态或行动前置条件只有在一个生物处于完全交战时才会生效。</p><section class=\"foundryvtt\"><p>为了帮助直观显示<strong>交战</strong>和<strong>夹击</strong>机制的运作方式，屏幕左侧 <strong>场景控制 </strong>界面的<strong> 指示物图层</strong>中提供了一个特殊的切换选项。启用后，生物的交战矩形和被夹击状态将被可视化显示，以帮助理解其当前状态。</p></section><h2 class=\"divider\">夹击</h2><p>夹击发生在你与盟友协同对抗一名对手时。当一个生物处于交战中的生物数量大于其<strong>交战</strong>值时，它便具有<strong>夹击</strong>状态。夹击状态有多个阶段，且夹击的每个阶段都会使针对该生物进行的攻击检定获得+1惠骰。</p><section class=\"formula\"><p class=\"value\">夹击阶段</p><p class=\"equals\">=</p><p class=\"equation\">处于交战中的敌人数<br />- 交战值<br />- 来自相邻盟友的交战加值</p></section><section class=\"gameplay\"><p>Krag，一名身披重甲的战士，拥有<strong>3</strong>点<strong>交战</strong>值，这得益于他的<strong>真正的坚毅</strong>天赋以及带有<strong>交战</strong>属性的鸢形盾所提供的加成。Krag可以同时与三名敌方战斗者交战，而不会让他们获得任何对他进行夹击的加值。不过，如果Krag被五只哥布林包围，他将处于<strong>夹击 2</strong>状态，且每只哥布林的攻击都将获得<strong>+2惠骰（5个交战中的敌人 - 3点交战）</strong>。</p></section><p>虽然更多处于交战中的敌人会提高你的夹击状态，但有相邻盟友支援你时可以抵消夹击。如果你与盟友共同和相同的敌人处于交战中，那么盟友会将其自身的<strong>交战</strong>作为加值提供给你。</p><section class=\"gameplay\"><p>在我们前面的例子中，Krag仍被5只哥布林包围，并处于<strong>夹击 2</strong>状态。他的盟友Jinora加入了战斗。Jinora拥有<strong>2</strong>点<strong>交战</strong>值。当Jinora移动到Krag身旁，并进入一个能够让Jinora至少与其中2只哥布林交战的位置时，Krag的夹击状态被移除，因为Jinora的2点交战会加到Krag自身的交战值上，使Krag能够与最多5个敌人交战。</p></section><section class=\"foundryvtt\"><p>当一个角色移动进入或脱离与其他对手的<strong>交战</strong>时，生物处于<strong>夹击</strong>时的状态效果会被自动计算并添加。夹击效果会自动为针对该被夹击生物的攻击检定施加正确数量的惠骰。</p></section><h2 class=\"divider\">脱离交战</h2><p>当一名对手试图在近战中脱离与你的交战时，它会暂时变得易伤，从而让你能够进行一次<strong>反应打击</strong>，即以一个反应进行一次武器攻击。如果你处于@Condition[Unaware]或被其他仍在场的对手@Condition[Flanked]，则你不能进行反应打击。</p><section class=\"gameplay\"><p>在我们前面的例子中，那些哥布林已经认定Krag过于难缠，因此建议脱离交战，去寻找更易伤的猎物。其中四只哥布林中的两只可以在不受回击的情况下远离Krag，因为Krag此时处于<strong>完全交战</strong>状态，因此无法反击。然而，当第三只哥布林撤离时，Krag发动了一次<strong>反应打击</strong>，将他的战斧劈进了那个撤退恶徒的后背！</p></section>"
         },
         "Attack Rolls": {
-          "name": "攻击检定 攻击 Rolls",
+          "name": "攻击检定 Rolls",
           "text": "<p><strong>目标攻击检定</strong>是通过进行一次针对目标生物特定<strong>防御</strong>的<strong>标准检定</strong>来完成的。当需要在与对手的对立中判定某项能力的效果时，就会进行攻击检定。攻击检定适用于武器攻击、施放法术、治疗能力，甚至一些在战斗中进行的技能检定。</p><p>进行攻击的角色其玩家始终负责掷骰，而防御方角色或生物的效果则取决于其目标防数。攻击检定使用与标准检定相同的修正骰池，表示为：</p><section class=\"formula\"><p class=\"value\">攻击检定</p><p class=\"equals\">=</p><p class=\"equation\">3d8[+惠骰, -祸骰] + 能力调整值 + 技能加值 + 附魔加值</p></section><p><strong>惠骰</strong>和<strong>祸骰</strong>会修正3d8骰池。攻击检定的能力调整值由所使用武器类型的成长公式决定。攻击检定的技能加值由角色在该特定武器类型上的训练决定。此次掷骰的附魔加值由所使用武器的魔法属性（如果有）决定。</p><h2 class=\"divider\">判定攻击结果</h2><p>如果攻击检定结果高于目标的防御分数，则攻击命中。如果攻击检定结果低于防御分数，则攻击无效。对于以物理防御为目标的攻击，其未命中的具体性质（擦击、屏蔽、闪避或招架）还要根据目标生物的物理防御各组成分数进一步判定。</p><h2 class=\"divider\">溢出与伤害</h2><p>攻击检定超出防御分数的数值称为<strong>溢出</strong>。该溢出值会乘以一个<strong>伤害倍率</strong>，通常为1，但有时会更高或更低。然后再加上任何额外的<strong>伤害加值</strong>，最后从结果中减去目标生物拥有的任何<strong>抗性</strong>。</p><section class=\"formula\"><p class=\"value\">溢出</p><p class=\"equals\">=</p><p class=\"equation\">攻击检定 - 防御分数</p></section><section class=\"formula\"><p class=\"value\">伤害</p><p class=\"equals\">=</p><p class=\"equation\">(溢出 × 伤害倍率) + 伤害加值 - 目标抗性</p></section><p>尽管伤害抗性是生物减少所受伤害的一种强力方式，但这类伤害无法被完全减免。造成直接（立即）伤害且超过目标防御分数的能力，总会至少对目标的资源造成1点伤害。</p><p>然而，造成间接持续伤害的能力，其间接伤害的效果可以被抗性降低至0。</p><h2 class=\"divider\">暴击与重失</h2><p>如果攻击检定超出防御分数的数值大于攻击者的<strong>暴击</strong>阈值（多数情况下为6），则该攻击成为<strong>暴击</strong>。类似地，如果攻击检定低于防御分数的数值大于攻击者的重失误阈值（多数情况下为6），则该攻击成为<strong>重失误</strong>。</p><p>暴击不会直接提高攻击的伤害——不过，由于溢出会计入总伤害，暴击总是会比普通命中造成更多伤害。</p><p>暴击和重失误会为其他情况的发生带来机会。许多天赋允许你的角色在造成暴击时触发特殊效果，或在受到的来袭攻击为重失误时作出反应。</p><section class=\"gameplay\"><h4>暴击效果</h4><p>武僧Zenith同时拥有<strong>震荡重击</strong>和<strong>战斗专注</strong>天赋。Zenith对一只可怕的沼泽巨魔进行一次打击攻击时掷出了<strong>29</strong>，而这只沼泽巨魔具有<strong>19 物理防御</strong>。这次攻击造成了<strong>暴击</strong>，因此沼泽巨魔因震荡重击天赋而陷入<strong>踉跄</strong>，并且Zenith因战斗专注天赋而恢复<strong>+1 专注</strong>。</p></section>"
         },
         "Skill Attacks": {
@@ -103,7 +103,7 @@
       }
     },
     "Character Mechanics": {
-      "name": "角色机制 Mechanics",
+      "name": "角色机制 Character Mechanics",
       "pages": {
         "Ancestry": {
           "name": "血统 Ancestry",
@@ -181,7 +181,7 @@
           "text": "<p>完全潜入地下的生物处于<strong>掘穴</strong>状态。处于掘穴状态时，生物无法看见，也不能被基于光的察觉方式看见。</p>"
         },
         "Conditions Overview": {
-          "name": "状态概览 状态 概览 Overview",
+          "name": "状态概览 Overview",
           "text": "<p><strong>状态</strong>是施加于角色的临时状态效果。这些状态会改变角色可以执行哪些动作、其资源池，或某些规则应用于该角色的方式。本页将状态分为两类：描述角色当前状态的状态，以及持续伤害——即在战斗中角色<strong>回合</strong>开始时生效的不利或改善性效果。</p><h2 class=\"divider\">持续伤害</h2><p>某些类型的伤害会造成额外的延迟伤害。这些状态会导致在角色回合开始时发生的伤害（或治疗）。</p>"
         },
         "Dead": {
@@ -433,7 +433,7 @@
       }
     },
     "Character Creation": {
-      "name": "角色创建 Creation",
+      "name": "角色创建 Character Creation",
       "pages": {
         "Overview": {
           "name": "概览 Overview",

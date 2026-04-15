@@ -4,10 +4,10 @@
   "folders": {},
   "entries": {
     "Configure Group Check": {
-      "name": "配置群组检定 Check"
+      "name": "配置群组检定 Configure Group Check"
     },
     "Randomize Item": {
-      "name": "随机化物品 物品"
+      "name": "随机化物品 Randomize Item"
     },
     "Recover": {
       "name": "恢复 Recover"

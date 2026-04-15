@@ -30,11 +30,11 @@
   },
   "entries": {
     "Acid Absorption": {
-      "name": "酸液吸收",
+      "name": "酸液吸收 Acid Absorption",
       "description": "<p>该@ref[actor.name]{生物}拥有在酸液环境中茁壮生存的非凡能力。其<strong>酸液</strong>抗性加倍；若该抗性会将伤害量降至零以下，则负数部分改为作为<strong>治疗</strong>获得。</p>"
     },
     "Acid Spit": {
-      "name": "酸液喷吐",
+      "name": "酸液喷吐 Acid Spit",
       "description": "<p>该生物有会分泌腐蚀性强酸的唾液腺。</p>",
       "actions": {
         "acidSpit": {
@@ -49,7 +49,7 @@
       }
     },
     "Acid Spray": {
-      "name": "酸液喷射",
+      "name": "酸液喷射 Acid Spray",
       "description": "<p>该生物有能分泌腐蚀性酸液喷射的唾液腺。</p>",
       "actions": {
         "acidSpray": {
@@ -64,19 +64,19 @@
       }
     },
     "Amorphous": {
-      "name": "无定形",
+      "name": "无定形 Amorphous",
       "description": "<p>该@ref[actor.name]{生物}可以穿过直径仅为1英寸的狭窄空间，且其<strong>跨步</strong>不会受到任何惩罚。它获得等同于其<strong>坚韧</strong>属性值一半的<strong>闪避</strong>加值，并免疫@Condition[restrained]状态。</p>"
     },
     "Aquatic Breathing": {
-      "name": "水生呼吸",
+      "name": "水生呼吸 Aquatic Breathing",
       "description": "<p>@ref[actor.name]{该生物}只能在水下呼吸。</p>"
     },
     "Aqueous Camouflage": {
-      "name": "水相伪装",
+      "name": "水相伪装 Aqueous Camouflage",
       "description": "<p>当完全浸没在水元素或液体中时，@ref[actor.name]{该生物}进行<strong>潜行</strong>检定时获得 @Advantage[2]。</p>"
     },
     "Aqueous Transmission": {
-      "name": "水相传导",
+      "name": "水相传导 Aqueous Transmission",
       "description": "<p>该@ref[name]能够通过水瞬间移动。</p>",
       "actions": {
         "aqueousTransmission": {
@@ -86,19 +86,19 @@
       }
     },
     "Bestial Senses": {
-      "name": "野兽感知",
+      "name": "野兽感知 Bestial Senses",
       "description": "<p>该@ref[actor.name]{生物}拥有高度磨炼的感知，对其所处环境尤为敏锐，所有<strong>察觉</strong>检定获得<strong>+2恩惠</strong>。</p>"
     },
     "Blood Sense": {
-      "name": "血之感知",
+      "name": "血之感知 Blood Sense",
       "description": "<p>该@ref[actor.name]{生物}能够精确感知20尺内任何未处于满生命值状态的有血生物。对负伤生物进行的任何武器或技能攻击，不会承受若该生物处于@Condition[blinded]时通常会适用的<strong>祸骰</strong>。</p>"
     },
     "Bonded Mind": {
-      "name": "心灵联结",
+      "name": "心灵联结 Bonded Mind",
       "description": "<p>拥有此天赋的@ref[actor.name]{生物}的心灵与其群体中的其他成员密不可分地联结在一起。它能够与60英尺内任何其他@ref[actor.taxonomy.name]{同分类法生物}进行即时的心灵沟通。</p>"
     },
     "Burrower": {
-      "name": "掘穴者",
+      "name": "掘穴者 Burrower",
       "description": "<p>该@ref[actor.name]{生物}拥有一种超自然能力，能够快速掘穿并非完全不可渗透的坚固地表。</p><p>此外，它还能压缩自己的身体，从可容纳其<strong>体型</strong>¼的孔隙中通过。</p>",
       "actions": {
         "explosiveEmergence": {
@@ -109,7 +109,7 @@
       }
     },
     "Clinging Grip": {
-      "name": "黏附之握",
+      "name": "黏附之握 Clinging Grip",
       "description": "<p>该@ref[actor.name]{生物}能够凭借非凡的抓握力或附着力攀附在垂直或头顶的表面上。只要该生物邻接任何能够合理支撑其身体的坚固表面，它就可以避免坠落。</p>",
       "actions": {
         "droppingStrike": {
@@ -122,31 +122,31 @@
       }
     },
     "Cold Absorption": {
-      "name": "寒冷吸收 Absorption",
+      "name": "寒冷吸收 Cold Absorption",
       "description": "<p>该@ref[actor.name]{生物}具备在严寒环境中茁壮生存的非凡能力。其<strong>寒冷</strong>抗性加倍，且如果该抗性会将伤害量降至零以下，则该负值改为作为<strong>治疗</strong>获得。</p>"
     },
     "Corruption Absorption": {
-      "name": "腐化吸收 Absorption",
+      "name": "腐化吸收 Corruption Absorption",
       "description": "<p>该@ref[actor.name]{生物}拥有一种卓越的能力，能够摆脱死亡魔法的效果。其<strong>腐化</strong>抗性加倍；如果该抗性会将伤害量降至零以下，则该负数值改为作为<strong>治疗</strong>获得。</p>"
     },
     "Electricity Absorption": {
-      "name": "电能吸收 Absorption",
+      "name": "电能吸收 Electricity Absorption",
       "description": "<p>该@ref[actor.name]{生物}具有出众的能力，能够从容承受闪电冲击。其<strong>电击</strong>抗性翻倍；如果该抗性会使伤害量降到零以下，则超出的负数部分改为作为<strong>治疗</strong>承受。</p>"
     },
     "Elusive Flight": {
-      "name": "飘忽飞行 Flight",
+      "name": "飘忽飞行 Elusive Flight",
       "description": "<p>这个@ref[actor.name]{生物}在飞行时尤其难以捉摸，能够猛扑进出战斗而不会引发任何<strong>脱离接战</strong>。如果它降落到地面上，就可以被接战；若它试图重新飞行，则可能会适用脱离接战。</p>"
     },
     "Extended Breath": {
-      "name": "延长呼吸 Breath",
+      "name": "延长呼吸 Extended Breath",
       "description": "<p>该@ref[actor.name]{生物}可以屏住呼吸<strong>15分钟</strong>。</p>"
     },
     "False Appearance": {
-      "name": "伪装外表 Appearance",
+      "name": "伪装外表 False Appearance",
       "description": "<p>当其保持静止不动时，@ref[actor.name]{生物}与某个其他物体或材料无法区分。</p>"
     },
     "Fire Absorption": {
-      "name": "火焰吸收 Absorption",
+      "name": "火焰吸收 Fire Absorption",
       "description": "<p>该@ref[actor.name]{生物}拥有在灼热环境中茁壮生存的卓越能力。其<strong>火焰</strong>抗性加倍，且如果该抗性会使伤害值降低至零以下，则该负值改为作为<strong>治疗</strong>受到。</p>"
     },
     "Glider": {
@@ -154,15 +154,15 @@
       "description": "<p>该@ref[actor.name]{生物}在下落时可以控制其移动，并且每下落20英尺，最多可以执行一次距离不超过其<strong>步幅</strong>的<strong>移动</strong>动作。</p><p>如果它以这种方式花费动作来移动，则在落地时不会受到坠落伤害。</p>"
     },
     "Gloom Sight": {
-      "name": "幽暗视觉 Sight",
+      "name": "幽暗视觉 Gloom Sight",
       "description": "<p>该@ref[actor.name]{生物}可以凝视完全黑暗中的幽暗，并正常视物。魔法黑暗不会妨碍该生物的视觉。</p><p><strong>系统开发</strong>：此特性需要自动化，以配置不受魔法黑暗影响的视觉与侦测模式。</p>"
     },
     "Glowing Body": {
-      "name": "发光的身体 Body",
+      "name": "发光的身体 Glowing Body",
       "description": "<p>该@ref[actor.name]{生物}在15英尺半径内发出非魔法的明亮光照，并在30英尺半径内发出微光。</p>"
     },
     "Grave Mark": {
-      "name": "墓之印记 Mark",
+      "name": "墓之印记 Grave Mark",
       "description": "<p>当@ref[actor.name]{生物}用一次近战攻击造成暴击时，它会在目标身上留下一个不祥的墓之印记。</p>",
       "actions": {
         "graveMark": {
@@ -176,7 +176,7 @@
       }
     },
     "Horrific Critical": {
-      "name": "骇人重创 Critical",
+      "name": "骇人重创 Horrific Critical",
       "description": "<p>该@ref[actor.name]{生物}施以野蛮而 grotesque 的打击，引发任何目睹者内心的恐惧。</p>",
       "actions": {
         "horrificCritical": {
@@ -190,11 +190,11 @@
       }
     },
     "Immutable Form": {
-      "name": "不变形态 Form",
+      "name": "不变形态 Immutable Form",
       "description": "<p>@ref[actor.name]免疫任何会改变其物理形态的法术或效果。</p>"
     },
     "Lightning Spit": {
-      "name": "闪电喷吐 Spit",
+      "name": "闪电喷吐 Lightning Spit",
       "description": "<p>该@ref[actor.name]{生物}能够产生并释放轻微的电流放电。</p>",
       "actions": {
         "lightningSpit": {
@@ -207,7 +207,7 @@
       }
     },
     "Lightning Spray": {
-      "name": "闪电喷射 Spray",
+      "name": "闪电喷射 Lightning Spray",
       "description": "<p>该@ref[actor.name]{生物}能够产生并释放强力的电流放电。</p>",
       "actions": {
         "lightningSpray": {
@@ -220,7 +220,7 @@
       }
     },
     "Natural Invisibility": {
-      "name": "天然隐形 Invisibility",
+      "name": "天然隐形 Natural Invisibility",
       "description": "<p>通过其生理结构中的某种有机材料或奥术化相，@ref[actor.name]{this creature]拥有完全隐形的能力。</p>",
       "actions": {
         "invisibility": {
@@ -233,7 +233,7 @@
       }
     },
     "Necrotic Bite": {
-      "name": "死灵之咬 Bite",
+      "name": "死灵之咬 Necrotic Bite",
       "description": "<p>@ref[actor.name]{生物}用被死灵与腐化侵蚀的巨口撕裂血肉。</p>",
       "actions": {
         "necroticBite": {
@@ -246,7 +246,7 @@
       }
     },
     "Noxious Spit": {
-      "name": "剧毒唾液 Spit",
+      "name": "剧毒唾液 Noxious Spit",
       "description": "<p>@ref[actor.name]{生物}会分泌一种唾液毒素，并能将其以喷射出的液滴形式吐出。</p>",
       "actions": {
         "noxiousSpit": {
@@ -259,7 +259,7 @@
       }
     },
     "Noxious Spray": {
-      "name": "剧毒喷雾 Spray",
+      "name": "剧毒喷雾 Noxious Spray",
       "description": "<p>该@ref[actor.name]{生物}能够产生并喷出有毒排泄物，形成一道喷射射线。</p>",
       "actions": {
         "noxiousSpray": {
@@ -272,7 +272,7 @@
       }
     },
     "Corrode Weapon": {
-      "name": "腐蚀武器 Weapon",
+      "name": "腐蚀武器 Corrode Weapon",
       "description": "<p>@ref[actor.name]{软泥怪}体内具有腐蚀性的代谢会威胁到打击它的金属武器，使其溶解。</p>",
       "actions": {
         "oozeCorrodeWeapon": {
@@ -303,11 +303,11 @@
       }
     },
     "Pack Hunter": {
-      "name": "群猎者 Hunter",
+      "name": "群猎者 Pack Hunter",
       "description": "<p>这种生物是群猎者，会依靠其盟友夹击并骚扰目标，使其暴露于进一步的伤害之下。</p><p>该生物在攻击<strong>被夹击</strong>的敌人时，获得的恩惠数量翻倍。</p>"
     },
     "Pouncing Strike": {
-      "name": "猛扑打击 Strike",
+      "name": "猛扑打击 Pouncing Strike",
       "description": "<p>这个生物向前突进，将其整个重量都倾注于一次跃起的打击之中。</p>",
       "actions": {
         "pouncingStrike": {
@@ -322,15 +322,15 @@
       }
     },
     "Psychic Absorption": {
-      "name": "灵能吸收 Absorption",
+      "name": "灵能吸收 Psychic Absorption",
       "description": "<p>该@ref[actor.name]{生物}对于针对其心灵的攻击有着异常顽强的抵抗力。其<strong>灵能</strong>抗性加倍，且如果该抗性会将伤害量降至零以下，则负数值改为作为<strong>治疗</strong>承受。</p>"
     },
     "Radiant Absorption": {
-      "name": "辉光吸收 Absorption",
+      "name": "辉光吸收 Radiant Absorption",
       "description": "<p>该@ref[actor.name]{生物}对混沌的光之力量并不陌生。它的<strong>辉光</strong>抗性加倍，且如果该抗性会将伤害量降低至零以下，则该负数值改为作为<strong>治疗</strong>承受。</p>"
     },
     "Radiant Death Burst": {
-      "name": "耀辉死亡爆发 Burst",
+      "name": "耀辉死亡爆发 Radiant Death Burst",
       "description": "<p>当该@ref[actor.name]{生物}死亡时，它会在一次不稳定的爆发中炸裂，释放出耀眼的能量。</p>",
       "actions": {
         "radiantDeathBurst": {
@@ -341,7 +341,7 @@
       }
     },
     "Raking Talons": {
-      "name": "耙掠利爪 Talons",
+      "name": "耙掠利爪 Raking Talons",
       "description": "<p>该@ref[actor.name]{生物}用其利爪迅速攻击，对单一目标造成多次抓击。</p>",
       "actions": {
         "rakingTalons": {
@@ -356,7 +356,7 @@
       }
     },
     "Repugnant Pustules": {
-      "name": "令人作呕的脓疱 Pustules",
+      "name": "令人作呕的脓疱 Repugnant Pustules",
       "description": "<p>一团恶臭的云雾如同裹尸布般笼罩着这个生物，那股刺鼻的有毒气味只可能来自正在发生的腐败。攻击这个生物很可能会释放出令人作呕且会造成腐化的精华。</p>",
       "actions": {
         "repugnantPustules": {
@@ -371,11 +371,11 @@
       }
     },
     "Restless Dead": {
-      "name": "躁动亡者 Dead",
+      "name": "躁动亡者 Restless Dead",
       "description": "<p>@ref[actor.name]{该生物}的生命由死灵魔法或异界力量维系。当其本应被视为@Condition[dead]时，改为视为@Condition[incapacitated]。</p><p>在战斗结束后，@ref[actor.name]{该生物}可以开始执行“恢复”动作，并在恢复完成后重新获得意识。以这种方式进行的恢复可通过以下任一方式被阻止：</p><ul><li><p>该生物因其处于<strong>易伤</strong>的某种伤害类型而失能。</p></li><li><p>使其作为不死生物复起的魔法力量被干扰、反制，或以其他方式驱散。</p></li><li><p>该生物的身体被摧毁到无法再维持其物理形态的程度。</p></li></ul>"
     },
     "Restraining Chomp": {
-      "name": "束缚啃咬 Chomp",
+      "name": "束缚啃咬 Restraining Chomp",
       "description": "<p>该@ref[actor.name]{生物}用它强有力的下颚啃咬并咬住目标，来一次强力的啃咬。</p>",
       "actions": {
         "restrainingChomp": {
@@ -390,7 +390,7 @@
       }
     },
     "Sacrifice Self": {
-      "name": "牺牲自我 Self",
+      "name": "牺牲自我 Sacrifice Self",
       "description": "<p>@ref[actor.name]{该生物}可以进行干预，代替相邻的盟友承受一次攻击。</p>",
       "actions": {
         "sacrificeSelf": {
@@ -424,7 +424,7 @@
       }
     },
     "Shadow Gait": {
-      "name": "暗影步法 Gait",
+      "name": "暗影步法 Shadow Gait",
       "description": "<p>该@ref[actor.name]{生物}能够踏入并脱离阴影本身，以噩梦般且难以预测的方式移动。</p>",
       "actions": {
         "shadowGait": {
@@ -434,7 +434,7 @@
       }
     },
     "Slippery Form": {
-      "name": "滑溜形态 Form",
+      "name": "滑溜形态 Slippery Form",
       "description": "<p>该生物始终滑不留手，使其能够逃脱物理束缚的擒拿。</p>",
       "actions": {
         "slipperyEscape": {
@@ -444,7 +444,7 @@
       }
     },
     "Sunlight Weakness": {
-      "name": "阳光弱点 Weakness",
+      "name": "阳光弱点 Sunlight Weakness",
       "description": "<p>当处于阳光下时，@ref[actor.name]{生物} 的所有动作承受<strong>2 个祸骰</strong>。</p><p>此机制通过一个可在适用时轻松切换的<strong>主动 效果</strong>来处理。</p>"
     },
     "Swallow": {
@@ -461,7 +461,7 @@
       }
     },
     "Swooping Strike": {
-      "name": "俯冲打击 Strike",
+      "name": "俯冲打击 Swooping Strike",
       "description": "<p>这个@ref[actor.name]{生物}从高空猛扑而下，发动俯冲攻击。</p>",
       "actions": {
         "swoopingStrike": {
@@ -476,7 +476,7 @@
       }
     },
     "Tail Sweep": {
-      "name": "扫尾 Sweep",
+      "name": "扫尾 Tail Sweep",
       "description": "<p>该@ref[actor.name]{生物}可以用其沉重的尾巴横扫战场，力道骇人。</p>",
       "actions": {
         "tailSweep": {
@@ -489,7 +489,7 @@
       }
     },
     "Thermal Vision": {
-      "name": "热视觉 Vision",
+      "name": "热视觉 Thermal Vision",
       "description": "<p>该@ref[actor.name]{生物}通过温度差异精确感知世界，使其能够定位60英尺内的温血生物或其他会散发热量的生物，只要它们未处于完全掩蔽之后，且你未目盲或失能。使用此热视觉探测到的生物，在需要你看见目标的动作中，视为可见。</p>"
     },
     "Thrash": {
@@ -504,7 +504,7 @@
       }
     },
     "Trampling Charge": {
-      "name": "践踏冲锋 Charge",
+      "name": "践踏冲锋 Trampling Charge",
       "description": "<p>该@ref[actor.name]{生物}利用其庞大的体型向前冲锋，践踏挡路的较小生物。</p>",
       "actions": {
         "tramplingCharge": {
@@ -517,7 +517,7 @@
       }
     },
     "Tusk Charge": {
-      "name": "獠牙冲锋 Charge",
+      "name": "獠牙冲锋 Tusk Charge",
       "description": "野猪低下头，以狂乱的速度冲来，流着涎水的喉部下方突出了獠牙。",
       "actions": {
         "tuskCharge": {
@@ -532,11 +532,11 @@
       }
     },
     "Magical Sight": {
-      "name": "魔法视觉 Sight",
+      "name": "魔法视觉 Magical Sight",
       "description": "<p>该@ref[actor.name]{生物}拥有异界视觉，使其对危险或机遇格外察觉。它在任何<strong>察觉</strong>检定上获得+2<strong>惠骰</strong>，并且能够看见@Condition[invisible]的生物。</p>"
     },
     "Venomous Bite": {
-      "name": "剧毒噬咬 Bite",
+      "name": "剧毒噬咬 Venomous Bite",
       "description": "<p>该@ref[actor.name]{生物}通过其啃咬注入毒素。</p>",
       "actions": {
         "venomousBite": {
@@ -551,11 +551,11 @@
       }
     },
     "Void Absorption": {
-      "name": "虚空吸收 Absorption",
+      "name": "虚空吸收 Void Absorption",
       "description": "<p>该@ref[actor.name]{生物}对有序的黑暗力量并不陌生。其<strong>虚空</strong>抗性加倍，且如果该抗性会将伤害数值降至零以下，则该负数值改为作为<strong>治疗</strong>受到。</p>"
     },
     "Web Spinner": {
-      "name": "织网者 Spinner",
+      "name": "织网者 Web Spinner",
       "description": "<p>@ref[actor.name]{生物}能够制造出黏性极强的蛛网。它无视任何由蛛网造成的移动限制或束缚。</p><p>当与一张蛛网接触时，@ref[actor.name]{生物}会知晓任何其他与同一张蛛网接触的生物的精确位置。</p>",
       "actions": {
         "webSpinner": {

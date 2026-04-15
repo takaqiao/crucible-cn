@@ -17,6 +17,22 @@
 Hooks.once('init', async function () {
     if (typeof Babele !== 'undefined') {
 
+        // 0. Patch Babele to support Crucible's ActiveEffect pack (affixes).
+        //    Upstream Babele lacks ActiveEffect in SUPPORTED_PACKS / DEFAULT_MAPPINGS,
+        //    so without this the affixes compendium is never translated.
+        const BabelClass = game.babele.constructor;
+        const patchedSupported = ['Adventure', 'Actor', 'Cards', 'Folder', 'Item', 'JournalEntry', 'Macro', 'Playlist', 'RollTable', 'Scene', 'ActiveEffect'];
+        Object.defineProperty(BabelClass, 'SUPPORTED_PACKS', {
+            configurable: true,
+            get: () => patchedSupported
+        });
+        if (BabelClass.DEFAULT_MAPPINGS && !BabelClass.DEFAULT_MAPPINGS.ActiveEffect) {
+            BabelClass.DEFAULT_MAPPINGS.ActiveEffect = {
+                name: 'name',
+                description: 'description'
+            };
+        }
+
         // 1. Register the translation module
         game.babele.register({
             module: 'crucible-cn',

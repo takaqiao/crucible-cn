@@ -41,15 +41,15 @@
       "description": "<p>蛇形生物，是巨龙较低等的近亲。龙兽通常成群生活和狩猎，不像更为独居的完整巨龙。龙兽的种类从更年轻、更小、常被称为“幼龙兽”的品种，到有时被称为“究极龙兽”的巨大个体不等。</p><p>已观察到的体型差异包括：</p><ul><li><p><strong>幼龙兽</strong>：体型 3，步幅 10</p></li><li><p><strong>龙兽</strong>：体型 6，步幅 16</p></li><li><p><strong>究极龙兽</strong>：体型 9，步幅 12</p></li></ul><p>不同类型的龙兽会根据其亚种而具有不同范围的伤害抗性和弱点。</p>"
     },
     "Earth Elemental": {
-      "name": "土元素 Elemental",
+      "name": "土元素 Earth Elemental",
       "description": "<p>与大地元素相对应的元素生物。</p>"
     },
     "Fire Elemental": {
-      "name": "火元素 Elemental",
+      "name": "火元素 Fire Elemental",
       "description": "<p>与火焰相对应的元素生物。</p>"
     },
     "Frost Elemental": {
-      "name": "冰霜元素 Elemental",
+      "name": "冰霜元素 Frost Elemental",
       "description": "<p>与霜冻元素相对应的元素生物。</p>"
     },
     "Ghoul": {
@@ -57,7 +57,7 @@
       "description": "<p>恶毒而狡猾的不死生物，保留了其凡人生前足够的认知能力，能够制定并执行各种计划与阴谋，以折磨或毁灭活着的生物。</p>"
     },
     "Grave Hound": {
-      "name": "墓猎犬 Hound",
+      "name": "墓猎犬 Grave Hound",
       "description": "<p>可怕的亡灵犬类因堕入腐化而成为不死力量的仆从。墓猎犬常见于守卫亵渎之地，陪伴不死力量，或成群被派出追猎并恐吓生者。</p>"
     },
     "Harbinger": {
@@ -81,11 +81,11 @@
       "description": "<p>由死灵术赋予生命的恶意不死生物，由早已死亡的人型生物的骸骨遗骸制成。受超出其控制的邪恶力量驱使，@ref[name] 很少因自身意志而存在，常作为邪恶施法者和更强大不死生物的爪牙而出现。</p>"
     },
     "Storm Elemental": {
-      "name": "风暴元素 Elemental",
+      "name": "风暴元素 Storm Elemental",
       "description": "<p>与闪电元素相对应的元素生物。</p>"
     },
     "Crystal Spider": {
-      "name": "水晶蜘蛛 Spider",
+      "name": "水晶蜘蛛 Crystal Spider",
       "description": "<p>由折射光线的晶体板与结晶构造组成或覆盖其上的蛛形类。</p>"
     },
     "Slime": {
@@ -93,7 +93,7 @@
       "description": "<p>主要由胶状物质构成的生物。它们通常行动缓慢、体型较小，并且既无法施法，也无法说话。已有文献记载了一些史莱姆的变种，它们可能体型较大、速度较快，或具备沟通能力。</p>"
     },
     "War Machine": {
-      "name": "战争机器 Machine",
+      "name": "战争机器 War Machine",
       "description": "<p>为作为战争工具或强大守卫而打造的构装体。</p>"
     },
     "Werewolf": {
@@ -101,7 +101,7 @@
       "description": "<p>行走如人，却会化作狼形的狼人变形者。</p>"
     },
     "Winged Terror": {
-      "name": "有翼恐魔 Terror",
+      "name": "有翼恐魔 Winged Terror",
       "description": "<p>统治天空并捕食下方生物的有翼恐魔。</p>"
     },
     "Wraith": {
