@@ -32,9 +32,9 @@
       "name": "Boar",
       "description": "<p>Mammals with thick hide, dangerous tusks, and a powerful low-seated center of mass.</p>"
     },
-    "Crystal Spider": {
-      "name": "Crystal Spider",
-      "description": "<p>Arachnid comprised of or encrusted in refractive crystalline plates and formations.</p>"
+    "Hyena": {
+      "name": "Hyena",
+      "description": "Mammals from the hyena family. Hyenas are carnivorous pack hunters with powerful necks and jaws."
     },
     "Drake": {
       "name": "Drake",
@@ -68,10 +68,6 @@
       "name": "Hobgoblin",
       "description": "Hobgoblins are humanoids which typically congregate in martial societies which are orderly and disciplined. Hobgoblins are both cunning and uncompromising, making dangerous foes or powerful allies."
     },
-    "Hyena": {
-      "name": "Hyena",
-      "description": "Mammals from the hyena family. Hyenas are carnivorous pack hunters with powerful necks and jaws."
-    },
     "Ogre": {
       "name": "Ogre",
       "description": "<p>Hulking giantkin which are reknowned for their brute strength and direct problem-solving approach.</p>"
@@ -84,13 +80,17 @@
       "name": "Skeleton",
       "description": "<p>Malevolent undying creatures brought to life by necromancy, created from the skeletal remains of long-dead humanoids. Driven by unholy forces beyond their control, @ref[name] rarely exist of their own accord, and are often encountered as the minions of evil spellcasters and greater undead.</p>"
     },
-    "Slime": {
-      "name": "Slime",
-      "description": "<p>Creatures made primarily of gelatinous material. They are generally slow, small in size, and incapable of spellcasting or speech. Some exceptions have been documented with variations of slimes which are large, fast, or capable of communication.</p>"
-    },
     "Storm Elemental": {
       "name": "Storm Elemental",
       "description": "<p>Elemental creatures corresponding to the element of Lightning.</p>"
+    },
+    "Crystal Spider": {
+      "name": "Crystal Spider",
+      "description": "<p>Arachnid comprised of or encrusted in refractive crystalline plates and formations.</p>"
+    },
+    "Slime": {
+      "name": "Slime",
+      "description": "<p>Creatures made primarily of gelatinous material. They are generally slow, small in size, and incapable of spellcasting or speech. Some exceptions have been documented with variations of slimes which are large, fast, or capable of communication.</p>"
     },
     "War Machine": {
       "name": "War Machine",

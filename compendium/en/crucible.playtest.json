@@ -47,20 +47,6 @@
           "name": "Arena of Valor"
         }
       },
-      "macros": {
-        "Recover": {
-          "name": "Recover",
-          "command": "game.system.api.documents.CrucibleActor.macroAction(actor, \"recover\");"
-        },
-        "Toggle Talent Tree": {
-          "name": "Toggle Talent Tree",
-          "command": "if ( actor?.type !== \"hero\" ) return;\nawait actor.toggleTalentTree();\nconst pack = game.packs.get(\"crucible.talent\");\npack.apps[0].render({force: true}, {left: window.innerWidth - 360, top: 10});"
-        },
-        "Full Rest": {
-          "name": "Full Rest",
-          "command": "if ( !actor ) return;\nawait actor.deleteEmbeddedDocuments(\"ActiveEffect\", [], {deleteAll: true});\nawait actor.rest({}, {allowDead: true});"
-        }
-      },
       "folders": {
         "Crucible Playtest": "Crucible Playtest",
         "The Ring of Valor": "The Ring of Valor",
@@ -221,7 +207,7 @@
             },
             "Strong Grip": {
               "name": "Strong Grip",
-              "description": "Your grasp of your weaponry is firm and unyielding. You can perform Actions which require a free hand while wielding a two-handed weapon. Attempts to Disarm you are made with +2 Banes."
+              "description": "Your grasp of your weaponry is firm and unyielding. You can perform Actions which require a free hand while wielding a two-handed melee weapon. Attempts to Disarm you are made with +2 Banes."
             },
             "Hammer Toss": {
               "name": "Hammer Toss",
@@ -553,7 +539,7 @@
               "actions": {
                 "lunge": {
                   "name": "Lunge",
-                  "description": "<p>You dart forward nimbly, making a strike with sudden and unexpected swiftness to perform a <strong>Strike </strong>with a <strong>Finesse</strong> weapon against a single target with an increased range of <strong>+2 feet</strong>.</p><p>The attack is <strong>Difficult</strong>, but you do not move from your current position nor does this attack provoke Disengagement.</p>"
+                  "description": "<p>You dart forward nimbly, making a strike with sudden and unexpected swiftness to perform a <strong>Strike </strong>with a weapon which scales using <strong>Dexterity</strong> against a single target, with an increased range of <strong>+2 feet</strong>.</p><p>The attack is <strong>Difficult</strong>, but you do not move from your current position nor does this attack provoke Disengagement.</p>"
                 }
               }
             }
@@ -641,9 +627,7 @@
                   "description": "You become Enraged. While Enraged you deal 4 additional damage on all melee attacks. You may attempt to end the effect on your own turn by succeeding on a Willpower test against a DC of 20. The effect ends automatically when Combat is concluded.",
                   "condition": "You have suffered damage to your Health pool since your last turn in Combat.",
                   "effects": [
-                    {
-                      "name": "Berserker Rage"
-                    }
+                    {}
                   ]
                 }
               }
@@ -911,7 +895,7 @@
               "actions": {
                 "lunge": {
                   "name": "Lunge",
-                  "description": "<p>You dart forward nimbly, making a strike with sudden and unexpected swiftness to perform a <strong>Strike </strong>with a <strong>Finesse</strong> weapon against a single target with an increased range of <strong>+2 feet</strong>.</p><p>The attack is <strong>Difficult</strong>, but you do not move from your current position nor does this attack provoke Disengagement.</p>"
+                  "description": "<p>You dart forward nimbly, making a strike with sudden and unexpected swiftness to perform a <strong>Strike </strong>with a weapon which scales using <strong>Dexterity</strong> against a single target, with an increased range of <strong>+2 feet</strong>.</p><p>The attack is <strong>Difficult</strong>, but you do not move from your current position nor does this attack provoke Disengagement.</p>"
                 }
               }
             },
@@ -927,7 +911,7 @@
             },
             "Rune: Flame": {
               "name": "Rune: Flame",
-              "description": "<p>The chaotic force of elemental, thermal energy. The Flame rune governs fire and heat.</p><p>The Flame rune scales using Intellect, targets <strong>Reflex</strong>, and deals <strong>Fire</strong> damage to <strong>Health</strong>. It is opposed by the orderly rune of <strong>Frost</strong>.</p>",
+              "description": "<p>The chaotic force of elemental, thermal energy. The Flame rune governs fire and heat.</p><p>The Flame rune scales using <strong>Intellect</strong>, targets <strong>Reflex</strong>, and deals <strong>Fire</strong> damage to <strong>Health</strong>. It is opposed by the orderly rune of <strong>Frost</strong>.</p>",
               "actions": {
                 "enkindle": {
                   "name": "Enkindle",
@@ -938,79 +922,6 @@
             "Gesture: Arrow": {
               "name": "Gesture: Arrow",
               "description": "<p>You hurl a projectile imbued with the magical power of a Rune at a distant target.</p><p>The Arrow gesture scales using <strong>Intellect</strong> and targets a single creature up to a distance of 60 feet, dealing <strong>8 Base Damage</strong> to targets which fail to Resist the spell. This gesture requires <strong>1 Hand</strong> to cast and has a base cost of <strong>3 Action</strong> and <strong>1 Focus</strong>.</p>"
-            },
-            "War Mage": {
-              "name": "War Mage",
-              "description": "<p>Your spellcraft is honed as a weapon of war to thwart the incantations of other magi. You may ask the Gamemaster if you know a Rune capable of countering an enemy spell, even if you do not recognize the spell being cast. You gain +2 Boons to any Counterspell attempt.</p>"
-            },
-            "Impetus": {
-              "name": "Impetus",
-              "description": "<p>You are gifted at exploiting the slowness with which others think. If you are first in Initiative order during a round of Combat, you gain +1 current and maximum Action.</p>"
-            },
-            "Opportunistic Spellcraft": {
-              "name": "Opportunistic Spellcraft",
-              "description": "<p>Your quick thinking can weave magic to exploit brief windows of opportunity. You may make a <strong>Disengagement Attack</strong> using the <strong>Touch</strong> Gesture instead of a melee weapon attack.</p>"
-            },
-            "Pyromancer": {
-              "name": "Pyromancer",
-              "description": "<p>You are highly skilled in weaving the Rune of Flame. Spells which use this Rune cause @Condition[burning] on Critical Hits.</p><p>The Burning effect lasts for <strong>1 Round</strong> and deals your <strong>Intellect</strong> score as <strong>Fire</strong> damage to both <strong>Health</strong> and <strong>Morale</strong>.</p>"
-            },
-            "Gesture: Pulse": {
-              "name": "Gesture: Pulse",
-              "description": "<p>Expel the arcane power of a Rune in a radius that travels outward with you at its center.</p><p>The Pulse gesture scales using <strong>Presence</strong> and produces an emanation with 10 foot radius, dealing <strong>8 Base Damage</strong> to targets which fail to Resist the spell. The gesture requires <strong>2 Hands</strong> to cast and has a base cost of <strong>5 Action</strong> and <strong>2 Focus</strong>.</p><h3 class=\"divider\">Playtest Notes</h3><p>This talent is currently placed at a <strong>Tier 4</strong> node. It will eventually only be attainable at a higher level (probably Level 6 required). It is currently available \"early\" for testing.</p>"
-            },
-            "Arcana Novice": {
-              "name": "Arcana Novice",
-              "description": "<p>Your education covered the fundamentals of metaphysics and magical theory, the relationship between the runes, the opposing nature of order and chaos, and a cursory introduction to spiritual beings including the most commonly known deified and demonized figures of worship. You gain the <strong>Novice</strong> rank in the <strong>Arcana </strong>skill and are no longer considered <strong>Untrained</strong> in that skill.</p><p>Your rudimentary understanding of the principle grammar of magic is sufficient to identify which lesser rune a spell or ritual may be using, as well as the gesture used (if not the inflection). You can identify whether a figure is influenced more by chaos or by order, and can spot the signs of common spirits (both lesser and greater). You know enough about religious customs to communicate with those who worship a particular spirit or deity without embarrassing yourself.</p>"
-            },
-            "Strategic Repositioning": {
-              "name": "Strategic Repositioning",
-              "description": "<p>You are always thinking ahead about where to position yourself should danger loom. Before <strong>Turn 1</strong> of a Combat encounter, provided that you are not Unaware, you may immediately move 4 feet in any permitted direction.</p><p>If multiple combatants have this feature, repositioning occurs in reverse order of Initiative.</p>"
-            },
-            "Lightbringer": {
-              "name": "Lightbringer",
-              "description": "<p>You are highly skilled in weaving the Rune of Illumination. Spells which use this Rune cause the @Condition[irradiated] condition on Critical Hits.</p><p>The Irradiated effect lasts for <strong>1 Round</strong> and deals your <strong>Presence</strong> score as <strong>Radiant</strong> damage to both <strong>Health</strong> and <strong>Morale</strong>.</p>"
-            },
-            "Awareness Novice": {
-              "name": "Awareness Novice",
-              "description": "<p>You have been trained in the basics of situational awareness, and are able to notice important details about your environment. You gain the <strong>Novice</strong> rank in the <strong>Awareness </strong>skill and are no longer considered <strong>Untrained</strong> in that skill.</p><p>You know to check for exits when you enter a room, and how to look for concealed weapons, hidden traps, and other threats. You know how to spot when you are being followed, and how to search for common hiding places.</p>"
-            },
-            "Versatile Translator": {
-              "name": "Versatile Translator",
-              "description": "<p>You have a scholarly background in linguistics or an intuitive knack for languages. Your capabilities enable you to decipher the basic meaning of text written in a variety of languages.</p><p>You can translate text of a language you do not know that is written using a common set of glyphs or characters to a language that you do know. Creating such a translation requires spending one minute per word to transcribe the text into a language which you understand.</p><p>Your translations are rudimentary and often lack nuance, but they do contain all essential points of the text.</p>"
-            },
-            "Iramancer": {
-              "name": "Iramancer",
-              "description": "Your feats of arcana are fueled by anger. While Enraged you may still spend Focus and you deal 2 additional damage to all spell attacks."
-            },
-            "Counterspell": {
-              "name": "Counterspell",
-              "description": "<p>You immediately react to a spell being cast and compose a rune and gesture designed to unravel and negate the spellcraft of an enemy mage.</p><h2 class=\"divider\">Playtest Notes</h2><p>This action can now be used in playtesting, but it is not yet <em>fully automated</em>. The Counterspell can be performed, but it is up to the Gamemaster to manually reverse a previously applied spell and to manually deduct its <strong>Action</strong> and <strong>Focus</strong> cost. These steps of the overall Counterspell workflow <em>will be automated</em> in a subsequent update such that a confirmed Counterspell will also confirm the spell that was countered, but with its effects removed.</p>",
-              "actions": {
-                "counterspell": {
-                  "name": "Counterspell",
-                  "description": "<p>You form arcane energy into a countervailing spellcraft, targeting a spellcaster you can see within 30 feet.</p><p>Designate a <strong>Rune</strong> and <strong>Gesture</strong> which you know to attempt to counter the spell. Choosing a Rune which is opposed to one used in the spell grants <strong>+2 Boons</strong> to your attempt. Selecting the identical Gesture as the one being cast also adds <strong>+2 Boons</strong> to your attempt.</p><p>Perform a harmless Spell Attack against your target's <strong>Willpower</strong> defense. If your roll exceeds their defense, the spell is countered and its magic is nullified, producing no effects.</p>",
-                  "condition": "Another creature which you can see is casting a spell."
-                }
-              }
-            },
-            "Flame Proficiency": {
-              "name": "Flame Proficiency",
-              "description": "<p>You have fluency in weaving spellcraft using the Rune of Flame. You gain a <strong>+1 Skill Bonus</strong> for spells cast using this Rune.</p><h3 class=\"divider\">Playtest Notes</h3><p>This talent will eventually also provide an upgrade to the <strong>Enkindle</strong> action, expanding its effectiveness or including new options for how to use it.</p>"
-            },
-            "Rune: Kinesis": {
-              "name": "Rune: Kinesis",
-              "description": "<p>The chaotic force of space and physical movement. The Kinesis rune governs all things related to the act of movement and physicality.</p><p>The Kinesis rune scales using <strong>Presence</strong>, targets <strong>Physical</strong> defense, and deals <strong>Bludgeoning</strong>, <strong>Piercing</strong>, or <strong>Slashing</strong> damage to <strong>Health</strong>. It is opposed by the orderly rune of <strong>Control</strong>.</p>",
-              "actions": {
-                "propel": {
-                  "name": "Propel",
-                  "description": "<p>Your command of the Rune of Kinesis allows you to exert local control over gravitational forces to perform basic telekinetic manipulations, producing one of the following effects:</p><ul><li><p>Pull an unsecured object within 15 feet and with weight no greater than 1 towards you and catch it. An object that is equipped or possessed by a creature is never treated as unsecured unless that creature is willing to release it.</p></li><li><p>Flick an object that you hold with weight no greater than 1 towards a target up to 30 feet away. The object flies unerringly in a straight line towards that target at a moderate speed. Any creature along the object's path can react to catch it as long as they have a free hand with which to do so.</p></li><li><p>Suspend in midair an object or willing creature that you touch with weight less than or equal to 10 times your <strong>Presence</strong>, altering its position up to 20 feet in any direction from its original location. You can maintain this suspension indefinitely as long as you take no further Action and are not @Condition[incapacitated].</p></li></ul><p>Propel may only affect a creature or object you can physically touch unless otherwise specified. You may attempt other uses similar those above, the effectiveness of which is decided by the Gamemaster.</p>"
-                }
-              }
-            },
-            "Gesture: Blast": {
-              "name": "Gesture: Blast",
-              "description": "<p>You hurl the arcane power of a Rune into an intense explosion of energy at a nearby point you can see.</p><p>The Blast gesture scales with <strong>Intellect</strong> and produces a blast with 6 feet radius centered on a point within 60 feet of the spellcaster. The blast deals <strong>8 Base Damage</strong> to targets which fail to Resist the spell. This gesture requires <strong>2 Hands</strong> to cast and has a base cost of <strong>5 Action</strong> and <strong>2 Focus</strong>.</p><h3 class=\"divider\">Playtest Notes</h3><p>This talent is currently placed at a <strong>Tier 4</strong> node. It will eventually only be attainable at a higher level (probably Level 6 required). It is currently available \"early\" for testing.</p>"
             }
           }
         },
@@ -1049,7 +960,7 @@
             },
             "Strong Grip": {
               "name": "Strong Grip",
-              "description": "Your grasp of your weaponry is firm and unyielding. You can perform Actions which require a free hand while wielding a two-handed weapon. Attempts to Disarm you are made with +2 Banes."
+              "description": "Your grasp of your weaponry is firm and unyielding. You can perform Actions which require a free hand while wielding a two-handed melee weapon. Attempts to Disarm you are made with +2 Banes."
             },
             "Gesture: Strike": {
               "name": "Gesture: Strike",
@@ -1160,18 +1071,12 @@
             },
             "Rune: Flame": {
               "name": "Rune: Flame",
-              "description": "<p>The chaotic force of elemental, thermal energy. The Flame rune governs fire and heat.</p><p>The Flame rune scales using Intellect, targets <strong>Reflex</strong>, and deals <strong>Fire</strong> damage to <strong>Health</strong>. It is opposed by the orderly rune of <strong>Frost</strong>.</p>",
+              "description": "<p>The chaotic force of elemental, thermal energy. The Flame rune governs fire and heat.</p><p>The Flame rune scales using <strong>Intellect</strong>, targets <strong>Reflex</strong>, and deals <strong>Fire</strong> damage to <strong>Health</strong>. It is opposed by the orderly rune of <strong>Frost</strong>.</p>",
               "actions": {
                 "enkindle": {
                   "name": "Enkindle",
                   "description": "<p>Your command of the Rune of Flame allows you to manipulate fire and thermal energy in creative ways, producing one of the following effects:</p><ul><li><p>Manifest a burst of elemental flame in one inch sphere which can ignite a candle, torch, or other flammable materials.</p></li><li><p>Imbue your body with momentary thermal shielding which provides you with immunity to fire damage on an immediately subsequent action that costs <strong>1 Action</strong> or less.</p></li><li><p>Control the movement of flames within a small area, causing them to flicker, dance, or shift in an animated performance of light and shadow.</p></li></ul><p>Enkindle may only affect a creature or object you can physically touch. You may attempt other uses similar those above, the effectiveness of which is decided by the Gamemaster.</p>"
                 }
-              }
-            },
-            "Greatsword": {
-              "name": "Greatsword",
-              "description": {
-                "public": "<p>Longer and heavier than a standard longsword, the greatsword is a two-handed blade meant for powerful sweeping strikes, its length commanding both reach and awe.</p>"
               }
             }
           }
@@ -1210,16 +1115,6 @@
                 "distract": {
                   "name": "Distract",
                   "description": "<p>You make a <strong>Deception</strong> based <strong>Skill Attack</strong> against the <strong>Willpower </strong>defense of a target within 30 feet which can see or hear you. On a success, the target loses <strong>1 Focus</strong>.</p>"
-                }
-              }
-            },
-            "Dual Wield": {
-              "name": "Dual Wield",
-              "description": "<p>You are adept at fighting with two weapons simultaneously. You can weave attacks together to strike more rapidly than possible with a single weapon.</p>",
-              "actions": {
-                "offhandStrike": {
-                  "name": "Offhand Strike",
-                  "description": "<p>Immediately after you perform a basic Strike with your mainhand weapon, you make a reduced-cost fullow-up <strong>Strike</strong> with your <strong>offhand</strong> weapon.</p>"
                 }
               }
             },
@@ -1271,17 +1166,6 @@
               "name": "Skirmisher",
               "description": "<p>You are adept at entering and exiting the fray. When moving out of the <strong>Engagement</strong> radius of an enemy, that enemy has 2 Banes to any <strong>Disengagement Strike</strong> against you.</p>"
             },
-            "Backstab": {
-              "name": "Backstab",
-              "description": "<p>You focus your cunning instincts on exploiting the weak points of a flanked target. You identify an opportunity and strike with deadly efficiency.</p>",
-              "actions": {
-                "backstab": {
-                  "name": "Backstab",
-                  "description": "<p>You <strong>Strike</strong> with your mainhand weapon against a <strong>Flanked</strong> target, dealing <strong>Deadly</strong> damage.</p>",
-                  "condition": "You are attacking a target with the Flanked condition."
-                }
-              }
-            },
             "Impetus": {
               "name": "Impetus",
               "description": "<p>You are gifted at exploiting the slowness with which others think. If you are first in Initiative order during a round of Combat, you gain +1 current and maximum Action.</p>"
@@ -1292,7 +1176,7 @@
               "actions": {
                 "lunge": {
                   "name": "Lunge",
-                  "description": "<p>You dart forward nimbly, making a strike with sudden and unexpected swiftness to perform a <strong>Strike </strong>with a <strong>Finesse</strong> weapon against a single target with an increased range of <strong>+2 feet</strong>.</p><p>The attack is <strong>Difficult</strong>, but you do not move from your current position nor does this attack provoke Disengagement.</p>"
+                  "description": "<p>You dart forward nimbly, making a strike with sudden and unexpected swiftness to perform a <strong>Strike </strong>with a weapon which scales using <strong>Dexterity</strong> against a single target, with an increased range of <strong>+2 feet</strong>.</p><p>The attack is <strong>Difficult</strong>, but you do not move from your current position nor does this attack provoke Disengagement.</p>"
                 }
               }
             },
@@ -1425,6 +1309,27 @@
             "Awareness Novice": {
               "name": "Awareness Novice",
               "description": "<p>You have been trained in the basics of situational awareness, and are able to notice important details about your environment. You gain the <strong>Novice</strong> rank in the <strong>Awareness </strong>skill and are no longer considered <strong>Untrained</strong> in that skill.</p><p>You know to check for exits when you enter a room, and how to look for concealed weapons, hidden traps, and other threats. You know how to spot when you are being followed, and how to search for common hiding places.</p>"
+            },
+            "Dual Wield": {
+              "name": "Dual Wield",
+              "description": "<p>You are adept at fighting with two weapons simultaneously. You can weave attacks together to strike more rapidly than possible with a single weapon.</p>",
+              "actions": {
+                "offhandStrike": {
+                  "name": "Offhand Strike",
+                  "description": "<p>Immediately after you perform a basic Strike with your mainhand weapon, you make a reduced-cost fullow-up <strong>Strike</strong> with your <strong>offhand</strong> weapon.</p>"
+                }
+              }
+            },
+            "Backstab": {
+              "name": "Backstab",
+              "description": "<p>You focus your cunning instincts on exploiting the weak points of a flanked target. You identify an opportunity and strike with deadly efficiency.</p>",
+              "actions": {
+                "backstab": {
+                  "name": "Backstab",
+                  "description": "<p>You <strong>Strike</strong> with your mainhand weapon against a <strong>Flanked</strong> target, dealing <strong>Deadly</strong> damage.</p>",
+                  "condition": "You are attacking a target with the Flanked condition."
+                }
+              }
             }
           }
         },
@@ -1472,6 +1377,17 @@
             "Gesture: Ward": {
               "name": "Gesture: Ward",
               "description": "<p>You shape the arcane power of a Rune into a protective barrier used to shield yourself from harm.</p><p>The Ward gesture scales using <strong>Toughness</strong> and provides <strong>+6 Resistance</strong> against the damage type of the Rune used in the spell. This resistance lasts for <strong>1 Round</strong> and you may only have a single Ward at a time. Casting another spell using the Ward gesture replaces your prior Ward. This gesture requires <strong>1 Hand</strong> to cast and has a base cost of <strong>2 Action</strong> and <strong>1 Focus</strong>.</p>"
+            },
+            "Body Block": {
+              "name": "Body Block",
+              "description": "You lean into an attack which was otherwise defended with your Armor, converting its result into a Block instead.",
+              "actions": {
+                "bodyBlock": {
+                  "name": "Body Block",
+                  "description": "<p>An attack which otherwise is defended by your Armor or produced a Glancing blow is converted to a Block and deals no damage.</p>",
+                  "condition": "You defend against a melee attack with your Armor or as a Glance."
+                }
+              }
             },
             "Counter Strike": {
               "name": "Counter Strike",
@@ -1654,29 +1570,10 @@
                 "public": "<p>Built to crush plate and shatter shields, the war hammer features a heavy, blunt head mounted atop a reinforced haft, delivering ruin in the hands of those who favor power over finesse.</p>"
               }
             },
-            "Shield Charge": {
-              "name": "Shield Charge",
-              "description": "<p>A defensive technique in which you drive forward, slamming and pushing foes out of your path. You charge up to 20 feet in a straight line and perform an offhand shield <strong>Strike</strong> against each successive foe along your path.</p>",
-              "actions": {
-                "shieldCharge": {
-                  "name": "Shield Charge",
-                  "description": "<p>You charge forward in a straight line, passing through the space of any creatures you encounter and making a <strong>Strike </strong>against each successive foe. Any creature <strong>Critically Hit</strong> by the attack may be pushed into an adjacent space of your choosing. You may not end your charge in the same space as another creature.</p>"
-                }
-              }
-            },
-            "Shield Bash": {
-              "name": "Shield Bash",
-              "description": "<p>You are practiced at fighting with shield, using it to slam into and imbalance your foes.</p>",
-              "actions": {
-                "shieldBash": {
-                  "name": "Shield Bash",
-                  "description": "<p>Following a basic Strike with your mainhand weapon, you <strong>Strike</strong> with your shield, causing the <strong>Staggered</strong> condition for one Round.</p>",
-                  "effects": [
-                    {
-                      "name": "Shield Bash"
-                    }
-                  ]
-                }
+            "Heavy Crossbow": {
+              "name": "Heavy Crossbow",
+              "description": {
+                "public": "<p>A powerful, steel-limbed crossbow requiring a crank or lever to draw, it delivers devastating bolts capable of punching through armor or pinning enemies to walls.</p>"
               }
             }
           }
@@ -1735,7 +1632,7 @@
             },
             "Weak Points": {
               "name": "Weak Points",
-              "description": "You identify moments of opportunity to strike at an enemy's weak points. When attacking a target that is <strong>Unaware</strong>, <strong>Flanked</strong>, or <strong>Exposed</strong> using Finesse weaponry, you gain +2 damage to any Strike."
+              "description": "<p>You identify moments of opportunity to strike at an enemy's weak points. When attacking a target that is @Condition[unaware], @Condition[flanked], or @Condition[exposed] using a weapon which scales with <strong>Dexterity</strong>, you gain +2 damage to any Strike.</p>"
             },
             "Mark Prey": {
               "name": "Mark Prey",
@@ -1874,10 +1771,6 @@
                   "description": "<p>You can loose a shot under pressure, although with decreased accuracy. You perform a <strong>Strike</strong> that is <strong>Difficult</strong>, but has a reduced Action cost.</p>"
                 }
               }
-            },
-            "Perspicacity": {
-              "name": "Perspicacity",
-              "description": "<p>You have heightened insight into aspects of your surroundings. You gain +2 Boons to any <strong>Awareness</strong> skill test which does not rely upon eyesight.</p>"
             }
           }
         },
@@ -2060,6 +1953,12 @@
             "Gesture: Conjure": {
               "name": "Gesture: Conjure",
               "description": "<p>You coalesce arcane power into a superior form, manifesting a <strong>Visitor</strong> which appears within 30 feet and joins Combat at <strong>Initiative</strong> 1. Your Visitor is a Minion equal to your own Level.</p><p>The Conjure gesture scales with <strong>Wisdom</strong> and the Visitor survives for <strong>12 Rounds</strong>. You may only have one active Visitor. Casting another spell using the Conjure gesture replaces your previous Visitor. This gesture requires <strong>2 Hands</strong> to cast and has a base cost of <strong>5 Action</strong> and <strong>2 Focus</strong>.</p><h3 class=\"divider\">Playtest Notes</h3><p>This talent is currently placed at a <strong>Tier 4</strong> node. It will eventually only be attainable at a higher level (probably Level 6 required). It is currently available \"early\" for testing.</p><p>Not all Runes have a Visitor actor defined yet. Runes that do not yet have a defined Conjuration will — for now — manifest a <strong>Flame Visitor</strong>.</p>"
+            },
+            "Stiletto": {
+              "name": "Stiletto",
+              "description": {
+                "public": "<p>Thin, tapered, and made for piercing, the stiletto is a killer’s weapon — designed to slide between ribs or gaps in armor and leave barely a trace.</p>"
+              }
             }
           }
         },
@@ -2300,16 +2199,14 @@
                   "description": "You become Enraged. While Enraged you deal 4 additional damage on all melee attacks. You may attempt to end the effect on your own turn by succeeding on a Willpower test against a DC of 20. The effect ends automatically when Combat is concluded.",
                   "condition": "You have suffered damage to your Health pool since your last turn in Combat.",
                   "effects": [
-                    {
-                      "name": "Berserker Rage"
-                    }
+                    {}
                   ]
                 }
               }
             },
             "Strong Grip": {
               "name": "Strong Grip",
-              "description": "Your grasp of your weaponry is firm and unyielding. You can perform Actions which require a free hand while wielding a two-handed weapon. Attempts to Disarm you are made with +2 Banes."
+              "description": "Your grasp of your weaponry is firm and unyielding. You can perform Actions which require a free hand while wielding a two-handed melee weapon. Attempts to Disarm you are made with +2 Banes."
             },
             "Blood Frenzy": {
               "name": "Blood Frenzy",
@@ -2454,6 +2351,10 @@
               }
             }
           }
+        },
+        "Party": {
+          "name": "Party",
+          "tokenName": "Party"
         }
       }
     }

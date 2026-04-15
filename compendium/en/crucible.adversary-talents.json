@@ -8,25 +8,25 @@
     }
   },
   "folders": {
+    "Ooze": "Ooze",
     "Charge": "Charge",
+    "Passive": "Passive",
     "Bites": "Bites",
     "Claws": "Claws",
-    "Bursts": "Bursts",
-    "Flight": "Flight",
-    "Tail": "Tail",
+    "Construct": "Construct",
     "Communication": "Communication",
+    "Undead": "Undead",
     "Beast": "Beast",
     "Critical Hits": "Critical Hits",
-    "Death": "Death",
-    "Ooze": "Ooze",
-    "Passive": "Passive",
-    "Construct": "Construct",
     "Strikes": "Strikes",
-    "Resistances": "Resistances",
-    "Undead": "Undead",
-    "Senses": "Senses",
     "Movement": "Movement",
-    "Breath": "Breath"
+    "Resistances": "Resistances",
+    "Bursts": "Bursts",
+    "Flight": "Flight",
+    "Death": "Death",
+    "Breath": "Breath",
+    "Senses": "Senses",
+    "Tail": "Tail"
   },
   "entries": {
     "Acid Absorption": {
@@ -66,6 +66,14 @@
     "Amorphous": {
       "name": "Amorphous",
       "description": "<p>The @ref[actor.name]{creature} may move through a space as narrow as 1 inch in diameter without any penalty to its <strong>Stride</strong>. It gains a bonus to <strong>Dodge</strong> equal to half its <strong>Toughness </strong>score and is immune to the @Condition[restrained] condition.</p>"
+    },
+    "Aquatic Breathing": {
+      "name": "Aquatic Breathing",
+      "description": "<p>@ref[actor.name]{This creature} can only breathe underwater.</p>"
+    },
+    "Aqueous Camouflage": {
+      "name": "Aqueous Camouflage",
+      "description": "<p>While fully submerged in water or liquids, @ref[actor.name]{this creature} has @Advantage[2] on <strong>Stealth</strong> checks.</p>"
     },
     "Aqueous Transmission": {
       "name": "Aqueous Transmission",
@@ -108,9 +116,7 @@
           "name": "Dropping Strike",
           "description": "<p>The @ref[actor.name]{creature} can drop from overhead to <strong>Strike</strong> a creature below it. The target creature suffers an <strong>Empowered</strong> attack which, if successful, knocks them @Condition[prone] in addition to dealing damage.</p><p>The @ref[actor.name]{creature} can suffer falling damage from this attack only if it misses its target.</p>",
           "effects": [
-            {
-              "name": "Dropping Strike"
-            }
+            {}
           ]
         }
       }
@@ -118,17 +124,6 @@
     "Cold Absorption": {
       "name": "Cold Absorption",
       "description": "<p>The @ref[actor.name]{creature} has an exceptional ability to thrive within frigid environments. Its <strong>Cold</strong> resistance is doubled and if that resistance would reduce an amount of damage below zero, the negative amount is received as <strong>Healing</strong> instead.</p>"
-    },
-    "Corrode Weapon": {
-      "name": "Corrode Weapon",
-      "description": "<p>The internal corrosive metabolism of the @ref[actor.name]{ooze} threatens to dissolve metal weapons that strike it.</p>",
-      "actions": {
-        "oozeCorrodeWeapon": {
-          "name": "Corrode Weapon",
-          "description": "<p>When struck by a melee weapon made of metal, the ooze attempts to consume the weapon itself, potentially breaking it.</p><p>This attack is <strong>Harmless</strong>, but if successful the <strong>Quality</strong> of the weapon used in the attack is downgraded by one tier. On a Critical Success or if the weapon is already <strong>Shoddy</strong>, the weapon becomes entirely <strong>Broken</strong>. Enchanted weapons are protected against this effect.</p>",
-          "condition": "Struck in melee by a weapon made of metal."
-        }
-      }
     },
     "Corruption Absorption": {
       "name": "Corruption Absorption",
@@ -175,9 +170,7 @@
           "description": "<p>After achieving a <strong>Critical Hit</strong> with a melee attack, the @ref[actor.name]{creature} attacks the target's <strong>Willpower</strong> defense, leaving a Grave Mark upon a success that inflicts the @Condition[exhausted] condition that persists until the target completes a <strong>Rest</strong>.</p><p>If a humanoid creature bearing a Grave Mark dies while under the effects of the mark, it rises from death on its subsequent Turn as a @UUID[Compendium.crucible.taxonomy.Item.ghoul00000000000]{Ghoul}.</p>",
           "condition": "When achieving a Critical Hit with a melee attack.",
           "effects": [
-            {
-              "name": "Grave Mark"
-            }
+            {}
           ]
         }
       }
@@ -191,9 +184,7 @@
           "description": "<p>When the @ref[actor.name]{creature} achieves a <strong>Critical Hit</strong> using a melee attack it may exaggerate the blow in a way that evokes fear within those who behold the strike.</p><p>All the enemies within 30 feet who can see the creature face a <strong>Harmless</strong> attack against their <strong>Willpower</strong> or become @Condition[frightened] for <strong>3 Turns</strong>.</p>",
           "condition": "Immediately after the creature achieves a Critical Hit with a melee attack.",
           "effects": [
-            {
-              "name": "Horrific Critical"
-            }
+            {}
           ]
         }
       }
@@ -210,9 +201,7 @@
           "name": "Lightning Spit",
           "description": "<p>The @ref[actor.name]{creature} spits a small bolt of lightning at a target creature within 20 feet, attacking its <strong>Reflex</strong> and dealing <strong>Electricity</strong> damage.</p><p>On a <strong>Critical Hit</strong> the attack causes the @Condition[shocked] condition for <strong>3 Turns</strong>.</p>",
           "effects": [
-            {
-              "name": "Lightning Spit"
-            }
+            {}
           ]
         }
       }
@@ -225,24 +214,21 @@
           "name": "Lightning Spray",
           "description": "<p>The @ref[actor.name]{creature} expels a bolt of lighting in a 30 foot ray that is 4 feet wide, attacking the <strong>Reflex</strong> of each target along that path and dealing <strong>Electricity</strong> damage.</p><p>On a <strong>Critical Hit</strong> the attack causes the @Condition[shocked] condition for <strong>3 Turns</strong>.</p>",
           "effects": [
-            {
-              "name": "Lightning Spray"
-            }
+            {}
           ]
         }
       }
     },
-    "Magical Sight": {
-      "name": "Magical Sight",
-      "description": "<p>The @ref[actor.name]{creature} has otherworldly sight that makes it especially aware of dangers or opportunities. It gains +2 <strong>Boons</strong> to any <strong>Awareness</strong> check and can see @Condition[invisible] creatures.</p>"
-    },
-    "Multiply": {
-      "name": "Multiply",
-      "description": "<p>The @ref[actor.name]{ooze} grows rapidly, increasing in health and size.</p>",
+    "Natural Invisibility": {
+      "name": "Natural Invisibility",
+      "description": "<p>By some organic or arcane aspect of its physiology, @ref[actor.name]{this creature] possesses the ability to become completely invisible.</p>",
       "actions": {
-        "oozeMultiply": {
-          "name": "Multiply",
-          "description": "<p>The ooze's cells rapidly multiply as the creature grows. Its <strong>Size</strong> increases by 1 and its <strong>Health</strong> increases by its <strong>Toughness</strong> value.</p>"
+        "invisibility": {
+          "name": "Natural Invisibility",
+          "description": "<p>You become @Condition[invisible] and cannot be detected using sight-based perception. You cannot be directly targeted by any action. This effect remains active for 10 minutes or until any non-<strong>Movement</strong> action is taken.</p>",
+          "effects": [
+            {}
+          ]
         }
       }
     },
@@ -254,9 +240,7 @@
           "name": "Necrotic Bite",
           "description": "<p>The @ref[actor.name]{creature} attacks with a pestilent bite that is <strong>Empowered</strong> and deals <strong>Corruption</strong> damage.</p><p>On a <strong>Critical Success</strong> the attack causes the @Condition[decaying] condition for <strong>3 Turns</strong>.</p>",
           "effects": [
-            {
-              "name": "Necrotic Bite"
-            }
+            {}
           ]
         }
       }
@@ -269,9 +253,7 @@
           "name": "Noxious Spit",
           "description": "<p>The @ref[actor.name]{creature} spits globule of toxin at a target creature within 20 feet, attacking its <strong>Reflex</strong> and dealing <strong>Poison </strong>damage.</p><p>On a <strong>Critical Hit</strong> the attack causes the @Condition[poisoned] condition for <strong>3 Turns</strong>.</p>",
           "effects": [
-            {
-              "name": "Noxious Spit"
-            }
+            {}
           ]
         }
       }
@@ -284,10 +266,39 @@
           "name": "Noxious Spray",
           "description": "<p>The @ref[actor.name]{creature} expels toxic discharge in a 30 foot ray that is 4 feet wide, attacking the <strong>Reflex</strong> of each target along that path and dealing <strong>Poison</strong> damage.</p><p>On a <strong>Critical Hit</strong> the attack causes the @Condition[poisoned] condition for <strong>3 Turns</strong>.</p>",
           "effects": [
-            {
-              "name": "Noxious Spray"
-            }
+            {}
           ]
+        }
+      }
+    },
+    "Corrode Weapon": {
+      "name": "Corrode Weapon",
+      "description": "<p>The internal corrosive metabolism of the @ref[actor.name]{ooze} threatens to dissolve metal weapons that strike it.</p>",
+      "actions": {
+        "oozeCorrodeWeapon": {
+          "name": "Corrode Weapon",
+          "description": "<p>When struck by a melee weapon made of metal, the ooze attempts to consume the weapon itself, potentially breaking it.</p><p>This attack is <strong>Harmless</strong>, but if successful the <strong>Quality</strong> of the weapon used in the attack is downgraded by one tier. On a Critical Success or if the weapon is already <strong>Shoddy</strong>, the weapon becomes entirely <strong>Broken</strong>. Enchanted weapons are protected against this effect.</p>",
+          "condition": "Struck in melee by a weapon made of metal."
+        }
+      }
+    },
+    "Multiply": {
+      "name": "Multiply",
+      "description": "<p>The @ref[actor.name]{ooze} grows rapidly, increasing in health and size.</p>",
+      "actions": {
+        "oozeMultiply": {
+          "name": "Multiply",
+          "description": "<p>The ooze's cells rapidly multiply as the creature grows. Its <strong>Size</strong> increases by 1 and its <strong>Health</strong> increases by its <strong>Toughness</strong> value.</p>"
+        }
+      }
+    },
+    "Subdivide": {
+      "name": "Subdivide",
+      "description": "<p>The @ref[actor.name]{ooze} can divide itself into multiple parts, each an independent copy of the original.</p>",
+      "actions": {
+        "oozeSubdivide": {
+          "name": "Subdivide",
+          "description": "<p>The ooze's cells rapidly divide and the creature splits in two! The original creature and its clone equally divide its remaining <strong>Health</strong>. The <strong>Size</strong> of each resulting creature is decreased by 1.</p><p>If in combat, the new creature acts as a <strong>Summon</strong> and joins at <strong>Initiative</strong> 1. This Action may only be used if the creature has Size larger than 2. The created ooze never has rank superior to <strong>Normal</strong>.</p>"
         }
       }
     },
@@ -387,9 +398,7 @@
           "description": "<p>The @ref[actor.name]{creature} reacts, performing a <strong>Movement</strong> up to their <strong>Stride </strong>to interpose itself between a nearby ally and some source of harm which it can perceive.</p><p>The @ref[actor.name]{creature} becomes @Condition[dead], destroyed in their sacrifice, but the triggering action causes no effects to its original target.</p>",
           "condition": "A nearby ally is targeted by a hostile action.",
           "effects": [
-            {
-              "name": "Sacrifice Self"
-            }
+            {}
           ]
         }
       }
@@ -434,19 +443,22 @@
         }
       }
     },
-    "Subdivide": {
-      "name": "Subdivide",
-      "description": "<p>The @ref[actor.name]{ooze} can divide itself into multiple parts, each an independent copy of the original.</p>",
-      "actions": {
-        "oozeSubdivide": {
-          "name": "Subdivide",
-          "description": "<p>The ooze's cells rapidly divide and the creature splits in two! The original creature and its clone equally divide its remaining <strong>Health</strong>. The <strong>Size</strong> of each resulting creature is decreased by 1.</p><p>If in combat, the new creature acts as a <strong>Summon</strong> and joins at <strong>Initiative</strong> 1. This Action may only be used if the creature has Size larger than 2. The created ooze never has rank superior to <strong>Normal</strong>.</p>"
-        }
-      }
-    },
     "Sunlight Weakness": {
       "name": "Sunlight Weakness",
       "description": "<p>While in sunlight, the @ref[actor.name]{creature} suffers <strong>2 Banes</strong> to all actions. </p><p>This mechanic is handled through an <strong>Active Effect</strong> that is easily toggled when applicable.</p>"
+    },
+    "Swallow": {
+      "name": "Swallow",
+      "description": "<p>@Ref[actor.name]{This creature} has the capability of swallowing creatures smaller than them whole, though only one creature may be affected by this action at a time.</p>",
+      "actions": {
+        "swallow": {
+          "name": "Swallow",
+          "description": "<p>You swallow a target enemy, effectively removing that foe from combat. The swallowed target is @Condition[blinded] and @Condition[restrained] until released.</p><p>If you take <strong>Severe</strong> damage, are <strong>Wounded</strong>, or are rendered @Condition[incapacitated] you regurgitate the swallowed creature.</p>",
+          "effects": [
+            {}
+          ]
+        }
+      }
     },
     "Swooping Strike": {
       "name": "Swooping Strike",
@@ -471,9 +483,7 @@
           "name": "Tail Sweep",
           "description": "<p>The @ref[actor.name]{creature} sweeps its heavy tail in a circular arc, striking all creatures within range. On a <strong>Critical Hit</strong>, affected targets become @Condition[staggered] for until the end of their next turn.</p>",
           "effects": [
-            {
-              "name": "Tail Sweep"
-            }
+            {}
           ]
         }
       }
@@ -501,9 +511,7 @@
           "name": "Trampling Charge",
           "description": "<p>The @ref[actor.name]{creature} moves forward up to twice its <strong>Stride</strong>, attacking the <strong>Reflex</strong> defense of all creatures in its path. Targets who are half the creature's size or smaller are @Condition[stunned] until the end of their next turn as they are slammed aside.</p>",
           "effects": [
-            {
-              "name": "Trampling Charge"
-            }
+            {}
           ]
         }
       }
@@ -522,6 +530,10 @@
           ]
         }
       }
+    },
+    "Magical Sight": {
+      "name": "Magical Sight",
+      "description": "<p>The @ref[actor.name]{creature} has otherworldly sight that makes it especially aware of dangers or opportunities. It gains +2 <strong>Boons</strong> to any <strong>Awareness</strong> check and can see @Condition[invisible] creatures.</p>"
     },
     "Venomous Bite": {
       "name": "Venomous Bite",

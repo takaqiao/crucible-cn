@@ -1,14 +1,30 @@
+/*
+ * Supported Crucible compendium packs (as of system 0.9.1):
+ *   Item         : adversary-talents, ancestry, archetype, background,
+ *                  crafting, equipment, spell, talent, taxonomy
+ *   Actor        : pregens, summons
+ *   JournalEntry : rules                 (categories_converter)
+ *   Adventure    : playtest
+ *   ActiveEffect : affixes               (default string mapping)
+ *   Macro        : macros                (name only, default)
+ *
+ * ActiveEffect and Macro packs do NOT need custom converters — Babele's
+ * default string replacement honors the per-pack `mapping` block inside
+ * each compendium/cn/*.json. The converters below are only for the
+ * non-trivial structures (actions arrays, embedded items, nested objects,
+ * journal categories).
+ */
 Hooks.once('init', async function () {
     if (typeof Babele !== 'undefined') {
 
-        // 1. Enregistrement du module
+        // 1. Register the translation module
         game.babele.register({
             module: 'crucible-cn',
             lang: 'cn',
             dir: 'compendium/cn'
         });
 
-        // 2. Converters - UNIQUEMENT pour les structures complexes
+        // 2. Custom converters for complex structures
         game.babele.registerConverters({
 
             /**
