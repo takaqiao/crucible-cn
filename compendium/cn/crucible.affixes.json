@@ -85,7 +85,7 @@
     },
     "Cold Conversion": {
       "name": "冷能转换 Cold Conversion",
-      "description": "<p>使用此武器进行打击所造成的部分伤害会转化为<strong>冰寒</strong>伤害。转化的比例取决于此前缀的<strong>阶级</strong>。</p><ul><li><p><strong>第1阶：</strong> 33% 的伤害被转化</p></li><li><p><strong>第2阶：</strong> 66% 的伤害被转化</p></li><li><p><strong>Tier 3:</strong> 100% 的伤害被转化</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多个不同类型伤害组成部分的基础架构尚不存在。在此功能实现之前，此词缀的所有阶级都会将该武器 100% 的伤害转化为<strong>冰寒</strong>。一旦支持多类型伤害，较低阶级将只转化总伤害的一部分，其余部分则保留为该武器的原始类型。</p>"
+      "description": "<p>使用此武器进行打击所造成的部分伤害会转化为<strong>冰寒</strong>伤害。转化的比例取决于此前缀的<strong>阶级</strong>。</p><ul><li><p><strong>第1阶：</strong> 33% 的伤害被转化</p></li><li><p><strong>第2阶：</strong> 66% 的伤害被转化</p></li><li><p><strong>等级 3:</strong> 100% 的伤害被转化</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多个不同类型伤害组成部分的基础架构尚不存在。在此功能实现之前，此词缀的所有阶级都会将该武器 100% 的伤害转化为<strong>冰寒</strong>。一旦支持多类型伤害，较低阶级将只转化总伤害的一部分，其余部分则保留为该武器的原始类型。</p>"
     },
     "Cold Damage": {
       "name": "寒冷伤害 Cold Damage",
@@ -117,7 +117,7 @@
     },
     "Corruption Conversion": {
       "name": "腐化转换 Corruption Conversion",
-      "description": "<p>使用此武器进行打击所造成的部分伤害会被转换为<strong>腐化</strong>伤害。转换的比例取决于此前缀的<strong>阶级</strong>。</p><ul><li><p><strong>第1阶：</strong>转换 33% 的伤害</p></li><li><p><strong>第2阶：</strong>转换 66% 的伤害</p></li><li><p><strong>Tier 3:</strong>转换 100% 的伤害</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次单独攻击拆分为多种类型伤害组成部分的基础架构目前尚不存在。在实现之前，此词缀的所有阶级都会将该武器 100% 的伤害转换为<strong>腐化</strong>。一旦支持多类型伤害，较低阶级将只转换总伤害的一部分，其余部分则保留为该武器的原始类型。</p>"
+      "description": "<p>使用此武器进行打击所造成的部分伤害会被转换为<strong>腐化</strong>伤害。转换的比例取决于此前缀的<strong>阶级</strong>。</p><ul><li><p><strong>第1阶：</strong>转换 33% 的伤害</p></li><li><p><strong>第2阶：</strong>转换 66% 的伤害</p></li><li><p><strong>等级 3:</strong>转换 100% 的伤害</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次单独攻击拆分为多种类型伤害组成部分的基础架构目前尚不存在。在实现之前，此词缀的所有阶级都会将该武器 100% 的伤害转换为<strong>腐化</strong>。一旦支持多类型伤害，较低阶级将只转换总伤害的一部分，其余部分则保留为该武器的原始类型。</p>"
     },
     "Corruption Damage": {
       "name": "腐化伤害 Corruption Damage",
@@ -173,7 +173,7 @@
     },
     "Electricity Conversion": {
       "name": "电能转换 Electricity Conversion",
-      "description": "<p>使用此武器进行打击所造成的伤害中，有一部分会转化为<strong>电击</strong>伤害。转化的比例取决于此前缀的<strong>阶级</strong>。</p><ul><li><p><strong>第1阶：</strong>33%的伤害被转化</p></li><li><p><strong>第2阶：</strong>66%的伤害被转化</p></li><li><p><strong>Tier 3:</strong> 100%的伤害被转化</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多种类型伤害组成部分的机制目前尚不存在。在该机制实装前，此词缀的所有阶级都会将武器的100%伤害转化为<strong>电击</strong>。一旦支持多类型伤害，较低阶级将只转化总伤害的一部分，其余部分则保留为该武器的原始类型。</p>"
+      "description": "<p>使用此武器进行打击所造成的伤害中，有一部分会转化为<strong>电击</strong>伤害。转化的比例取决于此前缀的<strong>阶级</strong>。</p><ul><li><p><strong>第1阶：</strong>33%的伤害被转化</p></li><li><p><strong>第2阶：</strong>66%的伤害被转化</p></li><li><p><strong>等级 3:</strong> 100%的伤害被转化</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多种类型伤害组成部分的机制目前尚不存在。在该机制实装前，此词缀的所有阶级都会将武器的100%伤害转化为<strong>电击</strong>。一旦支持多类型伤害，较低阶级将只转化总伤害的一部分，其余部分则保留为该武器的原始类型。</p>"
     },
     "Electricity Damage": {
       "name": "电击伤害 Electricity Damage",
@@ -397,7 +397,7 @@
     },
     "Radiant Conversion": {
       "name": "光耀转化 Radiant Conversion",
-      "description": "<p>用该武器进行打击所造成的部分伤害会转化为<strong>光辉</strong>伤害。转化比例取决于该前缀的<strong>阶级</strong>。</p><ul><li><p><strong>第1阶：</strong>33%的伤害被转化</p></li><li><p><strong>第2阶：</strong>66%的伤害被转化</p></li><li><p><strong>Tier 3：</strong>100%的伤害被转化</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多种类型伤害组成部分的机制目前尚不存在。在实现之前，该词缀的所有阶级都会将武器造成的100%伤害转化为<strong>光辉</strong>。一旦支持多类型伤害，较低阶级将只转化总伤害的一部分，其余部分则保留为武器的原始类型。</p>"
+      "description": "<p>用该武器进行打击所造成的部分伤害会转化为<strong>光辉</strong>伤害。转化比例取决于该前缀的<strong>阶级</strong>。</p><ul><li><p><strong>第1阶：</strong>33%的伤害被转化</p></li><li><p><strong>第2阶：</strong>66%的伤害被转化</p></li><li><p><strong>等级 3：</strong>100%的伤害被转化</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多种类型伤害组成部分的机制目前尚不存在。在实现之前，该词缀的所有阶级都会将武器造成的100%伤害转化为<strong>光辉</strong>。一旦支持多类型伤害，较低阶级将只转化总伤害的一部分，其余部分则保留为武器的原始类型。</p>"
     },
     "Radiant Damage": {
       "name": "光耀伤害 Radiant Damage",
@@ -493,7 +493,7 @@
     },
     "Void Conversion": {
       "name": "虚空转换 Void Conversion",
-      "description": "<p>用这件武器进行打击所造成的部分伤害会转换为<strong>虚空</strong>伤害。转换的比例取决于此前缀的<strong>阶级</strong>。</p><ul><li><p><strong>第1阶：</strong>转换 33% 的伤害</p></li><li><p><strong>第2阶：</strong>转换 66% 的伤害</p></li><li><p><strong>Tier 3:</strong>转换 100% 的伤害</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多个不同类型伤害组成部分的基础机制目前尚不存在。在该机制实装之前，此词缀的所有阶级都会将该武器 100% 的伤害转换为<strong>虚空</strong>。一旦支持多类型伤害，较低阶级将只转换总伤害的一部分，其余部分则保留为该武器的原始类型。</p>"
+      "description": "<p>用这件武器进行打击所造成的部分伤害会转换为<strong>虚空</strong>伤害。转换的比例取决于此前缀的<strong>阶级</strong>。</p><ul><li><p><strong>第1阶：</strong>转换 33% 的伤害</p></li><li><p><strong>第2阶：</strong>转换 66% 的伤害</p></li><li><p><strong>等级 3:</strong>转换 100% 的伤害</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多个不同类型伤害组成部分的基础机制目前尚不存在。在该机制实装之前，此词缀的所有阶级都会将该武器 100% 的伤害转换为<strong>虚空</strong>。一旦支持多类型伤害，较低阶级将只转换总伤害的一部分，其余部分则保留为该武器的原始类型。</p>"
     },
     "Void Damage": {
       "name": "虚空伤害 Void Damage",

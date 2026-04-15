@@ -44,7 +44,7 @@
     "Weaponry": "武器装备",
     "Parry": "招架",
     "Heroism": "英雄气概",
-    "Inflections": "词缀",
+    "Inflections": "屈折",
     "Tradecraft": "手艺",
     "Armor": "护甲",
     "Action": "动作",
@@ -66,11 +66,11 @@
       "description": "<p>你可以调动非凡的体力储备，以应对施加于你身体之上的挑战。</p>",
       "actions": {
         "adrenalineSurge": {
-          "name": "肾上腺素涌动 Surge",
+          "name": "肾上腺素涌动 Adrenaline Surge",
           "description": "<p>你消耗<strong>英雄气概</strong>，并在 3 轮内对任何基于力量进行成长的动作获得<strong>+2 恩惠</strong>。你可以在战斗中于自己的回合之外、进行<strong>反应</strong>之前执行此动作。</p>",
           "effects": [
             {
-              "name": "肾上腺素涌动 Surge"
+              "name": "肾上腺素涌动 Adrenaline Surge"
             }
           ]
         }
@@ -81,7 +81,7 @@
       "description": "你迅速施用炼金蒸汽，使你的盟友在面对恐怖时获得额外的勇气。",
       "actions": {
         "alchemicalResolve": {
-          "name": "炼金决意 Resolve",
+          "name": "炼金决意 Alchemical Resolve",
           "description": "<p>你通过施加蒸汽，迅速振奋4英尺内一名盟友的<strong>士气</strong>。进行一次<strong>医疗</strong>检定，对抗目标的<strong>疯狂阈值</strong>。成功的检定会恢复<strong>士气</strong>。</p>"
         }
       }
@@ -99,7 +99,7 @@
       "description": "你敏锐的反应与感知使你能够预判迫在眉睫的危险，并作出反应以避开它。",
       "actions": {
         "anticipateHarm": {
-          "name": "预判伤害 Harm",
+          "name": "预判伤害 Anticipate Harm",
           "description": "<p>在宣告该攻击的效果区域后，你可以立即移动 4 尺。如果这次移动使你脱离该攻击的区域，则你不受影响。</p>",
           "condition": "你成为一次范围效果攻击的目标，且你能看见其来源。"
         }
@@ -130,7 +130,7 @@
       "description": "<p>你已精通以如此强大的力量打击身披护甲的对手的技艺，以至于护甲本身都会成为对抗他们的武器。</p>",
       "actions": {
         "armorCrusher": {
-          "name": "护甲粉碎者 Crusher",
+          "name": "护甲粉碎者 Armor Crusher",
           "description": "<p>你对附近的一名敌人进行一次徒手<strong>打击</strong>。如果此次攻击结果为<strong>擦击</strong>，若可以，你消耗<strong>1点专注</strong>，造成等同于你的<strong>坚韧</strong>值的额外伤害。</p>"
         }
       }
@@ -152,7 +152,7 @@
       "description": "<p>你预判到将要闪避一次攻击，并将其截下，故意招架这次打击。</p>",
       "actions": {
         "artfulParry": {
-          "name": "巧妙招架 Parry",
+          "name": "巧妙招架 Artful Parry",
           "description": "<p>当你使用<strong>闪避</strong>防御来对抗一次近战攻击时，你可以进行反应并消耗<strong>专注</strong>，改为<strong>招架</strong>此次攻击。</p>",
           "condition": "你闪避一次来袭的近战打击。"
         }
@@ -163,7 +163,7 @@
       "description": "<p>你专精于为毫无防备者带来死亡。对<strong>未察觉</strong>目标进行的任何<strong>打击</strong>或<strong>法术</strong>攻击都会变为<strong>致命</strong>。</p><p>被你攻击命中的未察觉生物，在战斗中直到其自身的回合前，都无法提醒其盟友。</p>",
       "actions": {
         "markForDeath": {
-          "name": "标记死亡 Death",
+          "name": "标记死亡 Mark For Death",
           "description": "<p>你花费1分钟研究一个生物。进行一次关于你目标的知识检定。若成功，你会得知目标对哪些伤害类型处于易伤状态。在战斗的第一轮中，你的最低先攻值变为比你已标记目标的先攻值高1。</p>",
           "condition": "你未被观察到。"
         }
@@ -174,7 +174,7 @@
       "description": "<p>你花一点时间观察一个你能看见的生物，并对其擅长的领域形成直觉。</p>\n<p>使用由游戏主持人选择的一项技能进行一次<strong>知识检定</strong>。成功时，你会得知该生物的哪一种防御类型最高：物理、坚韧、意志或反射。若大成功，你会得知其最高的两种防御类型。</p>",
       "actions": {
         "assessStrength": {
-          "name": "评估力量 力量",
+          "name": "评估力量 Assess Strength",
           "description": "<p>你观察一个你能看见的生物，以评估其显著的强项。</p>"
         }
       }
@@ -227,12 +227,12 @@
       "description": "<p>你钻研以口述与音乐传承英雄叙事的传统，以此激励盟友的勇气、打击敌人的士气，并迅速以非常规方式解决问题。</p><p>如果你尚未习得<strong>符文：灵魂 </strong>，则你习得它。使用灵之符文恢复盟友士气时，你的掷骰获得<strong>+2 恩惠</strong>。</p>",
       "actions": {
         "laughingMatter": {
-          "name": "笑柄 Matter",
+          "name": "笑柄 Laughing Matter",
           "description": "<p>当一名敌人使用一次未能影响你或任何盟友的攻击时，你会即兴编出一段尖刻的嘲讽或滑稽的模仿，将他们无力的尝试变成笑柄。</p><p>你对目标的<strong>坚韧</strong>进行一次<strong>表演</strong>技能攻击，成功时对其<strong>士气</strong>造成<strong>灵能</strong><strong>伤害</strong>。此外，若成功，目标在其下个<strong>回合</strong>开始前的所有掷骰都承受 1 <strong>祸骰</strong>。</p><p>目标必须能够看见并理解你，才会受到此能力影响。</p>",
           "condition": "敌人的一次攻击未能影响你或任何盟友。",
           "effects": [
             {
-              "name": "笑柄 Matter"
+              "name": "笑柄 Laughing Matter"
             }
           ]
         }
@@ -255,7 +255,7 @@
       "description": "<p>你将自己对战斗的渴望灌注于一次肾上腺素激发的打击之中，而这次打击会随着你伤势加重而变得更加强力。</p>",
       "actions": {
         "berserkStrike": {
-          "name": "狂暴打击 Strike",
+          "name": "狂暴打击 Berserk Strike",
           "description": "<p>你将动能与强烈气势灌注于你的打击之中，使你的打击的<strong>伤害加值</strong>根据你已损失的<strong>生命值</strong>提高。</p><ul><li><p>如果你的生命值低于 75%，你的打击造成<strong>+1 伤害</strong></p></li><li><p>如果你的生命值低于 50%，你的打击造成<strong>+2 伤害</strong></p></li><li><p>如果你的生命值低于 25%，你的打击造成<strong>+3 伤害</strong></p></li></ul><p>如果你使用的是<strong>双手持用</strong>武器，则此伤害加值翻倍。</p>"
         }
       }
@@ -265,7 +265,7 @@
       "description": "<p>你陶醉于战斗的刺激之中，不顾一切地投身于混战。</p>",
       "actions": {
         "berserkerRage": {
-          "name": "狂战士狂怒 Rage",
+          "name": "狂战士狂怒 Berserker Rage",
           "description": "你陷入激怒状态。处于激怒状态期间，你所有近战攻击都会额外造成 4 点伤害。你可以在自己的回合中尝试以意志检定对抗 DC 20，若成功则结束该效果。战斗结束时，该效果也会自动结束。",
           "condition": "自你在战斗中的上个回合以来，你的生命值池已受到伤害。",
           "effects": [
@@ -291,7 +291,7 @@
       "description": "你顺势迎向一次原本由你的护甲防住的攻击，转而将其结果改为格挡。",
       "actions": {
         "bodyBlock": {
-          "name": "躯体格挡 Block",
+          "name": "躯体格挡 Body Block",
           "description": "<p>一次原本由你的护甲防御或造成了擦击的攻击会转化为一次格挡，并且不会造成伤害。</p>",
           "condition": "你以护甲或擦击来防御一次近战攻击。"
         }
@@ -302,11 +302,11 @@
       "description": "<p>你可以运用你的体能优势推开挡住你去路的对手。</p>",
       "actions": {
         "bullrush": {
-          "name": "猛撞 Rush",
+          "name": "猛撞 Bull Rush",
           "description": "<p>对一个相邻敌人进行一次<strong>运动</strong>技能攻击，由目标的<strong>坚韧</strong>防御进行对抗。若成功，你可以<strong>移动</strong>最多至你的<strong>跨步</strong>，并直接穿过敌人的空间。你的敌人会被击至<strong>倒地</strong>，且不能对你进行任何借机攻击。若失败，你的移动会被阻挡，并且你仍停留在当前位置。</p>",
           "effects": [
             {
-              "name": "猛撞 Rush"
+              "name": "猛撞 Bull Rush"
             }
           ]
         }
@@ -329,7 +329,7 @@
       "description": "<p>你在战场医疗方面的即兴应变专长可以拯救许多生命。你在战斗期间进行的所有<strong>医疗</strong>检定都获得<strong>+1 恩惠</strong>。</p>",
       "actions": {
         "medicinalCompound": {
-          "name": "药用化合物 Compound",
+          "name": "药用化合物 Medicinal Compound",
           "description": "<p>你迅速翻找自己的医疗用品，匆忙将手头可用的东西调配起来，以治疗目标的创伤或安抚目标的心神。进行一次<strong>医疗检定</strong>。</p><p>此次尝试与目标的<strong>治疗阈值</strong>或<strong>鼓舞阈值</strong>中较高者对抗。若成功，目标立即恢复生命值和士气，并在随后3个回合开始时各再恢复该数值的一半。</p>",
           "effects": [
             {}
@@ -342,11 +342,11 @@
       "description": "你运用自己的情境察觉和说服力，迅速向一名盟友传达一项行动计划。",
       "actions": {
         "clarifyIntent": {
-          "name": "澄清意图 Intent",
+          "name": "澄清意图 Clarify Intent",
           "description": "<p>你向 12 尺内的一名盟友说明你的意图。对该盟友的疯狂阈值进行一次<strong>外交</strong>技能攻击。若成功，他们在下一轮内进行的动作获得 +1<strong>专注</strong>和 +1<strong>恩惠</strong>。</p>",
           "effects": [
             {
-              "name": "澄清意图 Intent"
+              "name": "澄清意图 Clarify Intent"
             }
           ]
         }
@@ -367,7 +367,7 @@
       "description": "你在医疗方面的知识和技能涵盖对创伤的快速分诊、诊断和治疗。",
       "actions": {
         "combatMedicine": {
-          "name": "战斗医疗 Medicine",
+          "name": "战斗医疗 Combat Medicine",
           "description": "<p>你迅速治疗4英尺内一名盟友的创伤。进行一次<strong>医疗</strong>检定，对抗目标的创伤阈值。你的盟友的生命值提高，数值等于此次掷骰结果超出该阈值的部分。</p>"
         }
       }
@@ -401,7 +401,7 @@
       "description": "<p>你精于运用回避型战斗风格，能利用敌人攻击落空的瞬间创造反击的破绽。</p>",
       "actions": {
         "counterEvade": {
-          "name": "反制闪避 Evade",
+          "name": "反制闪避 Counter Evade",
           "description": "<p>当你以<strong>闪避</strong>来防御一次近战攻击时，你可以消耗<strong>专注</strong>，用你的主手武器以降低代价进行一次<strong>打击</strong>作为反击。</p>",
           "condition": "你闪避一次来袭的近战打击。"
         }
@@ -412,7 +412,7 @@
       "description": "<p>你是将一次被格挡的攻击转化为对暴露敌人的迅捷反击的专家。</p>",
       "actions": {
         "counterRiposte": {
-          "name": "反制还击 Riposte",
+          "name": "反制还击 Counter Riposte",
           "description": "<p>当你以<strong>招架</strong>对抗一次近战攻击进行<strong>防御</strong>时，你可以作出反应并消耗<strong>专注</strong>，以较低代价进行一次<strong>打击</strong>反击，并从<strong>暴露</strong>状态中获益。</p>",
           "condition": "你招架一次来袭的近战打击。"
         }
@@ -434,7 +434,7 @@
       "description": "<p>你受过训练，能够在用盾牌防御与迅捷反击之间自如切换。</p>",
       "actions": {
         "counterStrike": {
-          "name": "反击 Strike",
+          "name": "反击 Counter Strike",
           "description": "<p>当你以<strong>格挡</strong>来<strong>防御</strong>一次近战攻击时，你可以消耗<strong>专注</strong>，使用你的<strong>主手</strong>武器进行一次减耗的<strong>打击</strong>作为反击。</p>",
           "condition": "你格挡一次袭来的近战打击。"
         }
@@ -465,7 +465,7 @@
       "description": "<p>你经磨砺的头脑能在战斗的混乱中迅速思考，识别并抓住他人可能错过的机会。</p>",
       "actions": {
         "decisiveAction": {
-          "name": "果断行动 Action",
+          "name": "果断行动 Decisive Action",
           "description": "<p>你消耗<strong>英雄气概</strong>，立即以<strong>动作</strong>恢复一半的<strong>智力</strong>。你可以在战斗中于自己回合之外，在进行<strong>反应</strong>之前执行此动作。</p>"
         }
       }
@@ -475,7 +475,7 @@
       "description": "<p>你是一名敏捷的散兵，总是在移动中以在战斗中始终比敌人领先一步。</p>",
       "actions": {
         "defensiveRoll": {
-          "name": "防御翻滚 Roll",
+          "name": "防御翻滚 Defensive Roll",
           "description": "<p>当你<strong>闪避</strong>一次近战攻击时，你可以消耗<strong>专注</strong>，以一个防御翻滚向任意方向移动，最多可达你的<strong>体型</strong>。</p>",
           "condition": "你闪避了一次来袭的近战打击。"
         }
@@ -524,11 +524,11 @@
       "description": "你携带着一袋袋沙土和尘埃，可用来暂时分散敌人的注意力或使其失明。",
       "actions": {
         "dirtyTricks": {
-          "name": "阴招 Tricks",
+          "name": "阴招 Dirty Tricks",
           "description": "<p>你将碎屑扬向敌人的眼睛。若此次打击成功，则其陷入目盲，直到其下个回合结束。</p>",
           "effects": [
             {
-              "name": "阴招 Tricks"
+              "name": "阴招 Dirty Tricks"
             }
           ]
         }
@@ -539,7 +539,7 @@
       "description": "<p>一种旨在解除对手武装的武技，迫使其掉落一只手中持有的物品。</p>",
       "actions": {
         "disarmingStrike": {
-          "name": "缴械打击 Strike",
+          "name": "缴械打击 Disarming Strike",
           "description": "<p>你对单个目标的<strong>反射</strong><strong>防御</strong>进行一次<strong>打击</strong>。此技巧施展起来<strong>困难</strong>，且造成的<strong>伤害</strong>降低。若成功，目标的<strong>主手</strong>武器将<strong>脱手</strong>。</p>"
         }
       }
@@ -563,11 +563,11 @@
       "description": "<p>你在战场上散发出可怖的威势，考验着附近目睹你的敌人的士气，并击溃那些意志薄弱者的决心。</p>",
       "actions": {
         "formidablePresence": {
-          "name": "威严魅力 魅力",
+          "name": "威严魅力 Formidable Presence",
           "description": "<p>你对12英尺内的敌人的意志防御进行一次威吓技能攻击，对其士气造成虚空伤害；若你超过其防御，则使其陷入恐慌状态，持续1轮。</p>",
           "effects": [
             {
-              "name": "威严魅力 魅力"
+              "name": "威严魅力 Formidable Presence"
             }
           ]
         }
@@ -578,7 +578,7 @@
       "description": "<p>你擅长同时使用两把武器进行战斗。你可以将攻击交织在一起，以比使用单一武器更快的速度打击。</p>",
       "actions": {
         "offhandStrike": {
-          "name": "副手攻击 Strike",
+          "name": "副手攻击 Offhand Strike",
           "description": "<p>在你用主手武器进行一次基础打击后，立即用副手武器进行一次减耗的后续<strong>打击</strong>。</p>"
         }
       }
@@ -612,12 +612,12 @@
       "description": "<p>你对一名负伤的敌人使出一次果断的打击。</p>",
       "actions": {
         "executionersStrike": {
-          "name": "刽子手的打击 Strike",
+          "name": "刽子手的打击 Executioner's Strike",
           "description": "<p>你用一把双手持用的重型武器施展一次致命打击。若你的攻击成功，你的对手还会陷入流血状态，持续3轮；在每一轮中，其都会额外受到等同于你力量值的伤害。</p>",
           "condition": "你的目标已负伤。",
           "effects": [
             {
-              "name": "刽子手的打击 Strike"
+              "name": "刽子手的打击 Executioner's Strike"
             }
           ]
         }
@@ -628,7 +628,7 @@
       "description": "你通过颂扬一位同伴的英雄事迹，激发盟友心中的勇气。当你能看见的一名盟友使一名敌方生物<strong>失去行动能力</strong>，或对其造成<strong>暴击</strong>时，你可以通过即兴赋诗、妙语调侃，或高呼战吼来作出反应。对这些英雄事迹的庆贺会恢复你6格内盟友的士气。",
       "actions": {
         "extollDeeds": {
-          "name": "颂扬功绩 Deeds",
+          "name": "颂扬功绩 Extoll Deeds",
           "description": "<p>你吟诵一段诗句、说出一句俏皮话，或高喊一声战吼，来颂扬你一位盟友的英勇事迹。你附近的所有盟友恢复等同于你<strong>存在感</strong>数值一半的<strong>士气</strong>。</p>",
           "condition": "一名你看得见的盟友杀死一名敌人，或对其造成一次暴击。"
         }
@@ -636,14 +636,14 @@
     },
     "Eye of the Storm": {
       "name": "风暴之眼 Eye of the Storm",
-      "description": "<p>在你延迟自己的回合后，若你对本轮中因你让其先于你行动的敌人进行任何打击或法术攻击，则获得+2惠骰。</p><p>TODO: 需要自动化。目前请手动施加惠骰。</p>"
+      "description": "<p>在你延迟自己的回合后，若你对本轮中因你让其先于你行动的敌人进行任何打击或法术攻击，则获得+2惠骰。</p><p>待办: 需要自动化。目前请手动施加惠骰。</p>"
     },
     "Fan of Arrows": {
       "name": "箭雨扇射 Fan of Arrows",
       "description": "这项困难的远程武器装备技巧让你能够用你的武器在一片横扫的锥形区域内发射多次箭矢，每次都以效果区域内的不同敌人为目标。",
       "actions": {
         "fanOfArrows": {
-          "name": "箭雨扇射 Arrows",
+          "name": "箭雨扇射 Fan of Arrows",
           "description": "<p>你以弧形从你的远程武器中射出多枚箭矢，打击40尺锥形范围内的所有敌方目标。</p>"
         }
       }
@@ -653,7 +653,7 @@
       "description": "<p>一种双武器技巧，用主手武器佯攻，使目标暴露于副手攻击之下。</p>",
       "actions": {
         "feintingStrike": {
-          "name": "佯攻打击 Strike",
+          "name": "佯攻打击 Feinting Strike",
           "description": "<p>你用<strong>主手</strong>武器佯攻，对目标的<strong>反射</strong><strong>防御</strong>进行一次<strong>欺瞒</strong>攻击。你立即用<strong>副手</strong>武器进行一次<strong>打击</strong>。</p><p>如果你的<strong>欺瞒</strong>成功，你的<strong>打击</strong>获得<strong>+2 恩惠</strong>，并额外造成<strong>+6 伤害</strong>。</p>"
         }
       }
@@ -663,7 +663,7 @@
       "description": "<p>你猛然跃入战斗，用你的主手武器对附近的敌人施以沉重一击。</p>",
       "actions": {
         "ferociousLeap": {
-          "name": "凶猛飞跃 Leap",
+          "name": "凶猛飞跃 Ferocious Leap",
           "description": "<p>你向上跃击至多10英尺，并对你落地点近战范围内的一名敌人进行一次打击。你的移动无视困难地形，且不会被敌方生物屏蔽。</p>"
         }
       }
@@ -677,7 +677,7 @@
       "description": "<p>你花时间点燃并射出一支覆有易燃沥青的箭矢。这一击耗时更久，但无论对生物还是建筑都能造成极大伤害。</p>",
       "actions": {
         "flamingArrow": {
-          "name": "火焰箭 Arrow",
+          "name": "火焰箭 Flaming Arrow",
           "description": "<p>你使用一把<strong>投射</strong>武器进行一次<strong>强化</strong><strong>远程</strong><strong>打击</strong>，并在命中时造成<strong>火焰</strong><strong>伤害</strong>。</p>"
         }
       }
@@ -687,11 +687,11 @@
       "description": "<p>你是使用投掷武器使目标失衡或暴露破绽，以便后续打击的专家。</p>",
       "actions": {
         "flashOfSteel": {
-          "name": "钢光一闪 Steel",
+          "name": "钢光一闪 Flash of Steel",
           "description": "<p>你使用<strong>投掷</strong>武器发动一次攻击，瞄准敌人防御中的弱点。若攻击命中，目标将陷入<strong>暴露</strong>，直到其下个回合开始。</p>",
           "effects": [
             {
-              "name": "钢光一闪 Steel"
+              "name": "钢光一闪 Flash of Steel"
             }
           ]
         }
@@ -720,7 +720,7 @@
       "description": "一种徒手技法：你在冲向敌人时纵身跃起，施以飞踢，并强化以造成额外伤害。",
       "actions": {
         "flyingKick": {
-          "name": "飞踢 Kick",
+          "name": "飞踢 Flying Kick",
           "description": "<p><strong>移动</strong>向前 3 至 6 英尺，沿直线前进，并以一次<strong>强化</strong><strong>打击</strong>踢向一名敌人。</p>"
         }
       }
@@ -738,7 +738,7 @@
       "description": "<p>平衡、站位与借力是你在战斗中最强大的盟友。你知道如何利用敌人的冲势反制他们，也明白力量上的一点点偏转就能扭转战局。</p>",
       "actions": {
         "conserveMomentum": {
-          "name": "保留动量 Momentum",
+          "name": "保留动量 Conserve Momentum",
           "description": "你将一次未击中你的近战攻击的力道转移开，使其转而命中另一个邻近的敌人。你的攻击者必须重新掷攻击骰，改为以其盟友为目标。",
           "condition": "你格挡、招架或闪避一次来袭的近战打击。"
         }
@@ -746,7 +746,7 @@
     },
     "Gesture: Aura": {
       "name": "手势：灵气 Gesture: Aura",
-      "description": "<p>你将符文的奥术力量集中起来，创造出一个需要维持的能量场，冲刷你附近的盟友与敌人。</p><p><strong>灵气</strong>手势会随<strong>存在</strong>而增强，产生一个以施法者为中心、半径20英尺的扩散区域。该<strong>灵气</strong>的中心会随着施法者移动。</p><p>根据所使用的符文不同，该<strong>灵气</strong>会对任何在其内开始自己回合的生物造成伤害或提供治疗。此手势需要<strong>2只手</strong>施放，基础消耗为<strong>5动作</strong>和<strong>1专注</strong>，并且必须<strong>维持</strong>，此后每个后续轮次都要额外消耗<strong>1专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前位于一个<strong>第4阶</strong>节点。它最终将只能在更高等级时习得（可能需要<strong>6级</strong>）。目前为了测试而“提前”开放。</p><p>与Token关联并会在Token移动时一同移动的扩散区域模板，是 Foundry VTT 第14版即将推出的功能。一旦 Crucible 依赖 Foundry VTT 第14版，就会实现<strong>灵气</strong>手势的自动化。</p>"
+      "description": "<p>你将符文的奥术力量集中起来，创造出一个需要维持的能量场，冲刷你附近的盟友与敌人。</p><p><strong>灵气</strong>手势会随<strong>存在</strong>而增强，产生一个以施法者为中心、半径20英尺的扩散区域。该<strong>灵气</strong>的中心会随着施法者移动。</p><p>根据所使用的符文不同，该<strong>灵气</strong>会对任何在其内开始自己回合的生物造成伤害或提供治疗。此手势需要<strong>2只手</strong>施放，基础消耗为<strong>5动作</strong>和<strong>1专注</strong>，并且必须<strong>维持</strong>，此后每个后续轮次都要额外消耗<strong>1专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前位于一个<strong>第4阶</strong>节点。它最终将只能在更高等级时习得（可能需要<strong>6级</strong>）。目前为了测试而“提前”开放。</p><p>与令牌关联并会在令牌移动时一同移动的扩散区域模板，是 Foundry VTT 第14版即将推出的功能。一旦 Crucible 依赖 Foundry VTT 第14版，就会实现<strong>灵气</strong>手势的自动化。</p>"
     },
     "Gesture: Blast": {
       "name": "手势：爆破 Gesture: Blast",
@@ -853,11 +853,11 @@
       "description": "<p>你在操纵生命奥术以治疗伤势方面无与伦比。若你尚未习得<strong>符文：生命</strong>，则你学会它。使用生命符文为盟友进行治疗时，你的此次掷骰获得<strong>+2恩惠</strong>。</p>",
       "actions": {
         "fontOfLife": {
-          "name": "生命之泉 Life",
-          "description": "<p>你释放出一道赋予生命的魔法灵气。激活时立即生效，并且在接下来<strong>3轮</strong>中每逢你的回合开始时，20英尺内的每名盟友都恢复等同于你<strong>感知</strong>属性值的生命值。</p><p><strong>WIP：该动作目前被视为一个效果区域，为初始范围内的目标提供持续治疗效果。当 Foundry VTT 第14版中的灵气实现系统自动化后，该动作的机制实现将与描述一致。</strong></p>",
+          "name": "生命之泉 Font of Life",
+          "description": "<p>你释放出一道赋予生命的魔法灵气。激活时立即生效，并且在接下来<strong>3轮</strong>中每逢你的回合开始时，20英尺内的每名盟友都恢复等同于你<strong>感知</strong>属性值的生命值。</p><p><strong>待完成：该动作目前被视为一个效果区域，为初始范围内的目标提供持续治疗效果。当 Foundry VTT 第14版中的灵气实现系统自动化后，该动作的机制实现将与描述一致。</strong></p>",
           "effects": [
             {
-              "name": "生命之泉 Life"
+              "name": "生命之泉 Font of Life"
             }
           ]
         }
@@ -872,7 +872,7 @@
       "description": "<p>你知道如何运用重型武器打出沉重而严酷的攻击，在每一次挥击中都倾注全部力量。你对<strong>重型</strong>和<strong>平衡</strong>类别中的所有武器均为<strong>受训</strong>。</p>",
       "actions": {
         "heavyStrike": {
-          "name": "强力打击 Strike",
+          "name": "强力打击 Heavy Strike",
           "description": "<p>你用主手武器发动一次强力<strong>打击</strong>。这次攻击施展起来更慢，但经过<strong>强化</strong>，会造成额外伤害。</p>"
         }
       }
@@ -934,8 +934,8 @@
       "description": "<p>强化一个法术，使受影响的生物被吸引向施法者。受带有词缀：拉拽的法术影响的生物会向施法者移动1格，如果目标格未被占据。</p>"
     },
     "Inflection: Push": {
-      "name": "词缀：推开 Inflection: Push",
-      "description": "<p>强化一个法术，使其将受影响的生物从施法者身边击退。受带有词缀：推开的法术影响的生物会向远离施法者的方向移动4英尺，前提是该目的地未被占据。</p>"
+      "name": "屈折：推开 Inflection: Push",
+      "description": "<p>强化一个法术，使其将受影响的生物从施法者身边击退。受带有屈折：推开的法术影响的生物会向远离施法者的方向移动4英尺，前提是该目的地未被占据。</p>"
     },
     "Inflection: Quicken": {
       "name": "词缀：迅捷化 Inflection: Quicken",
@@ -946,7 +946,7 @@
       "description": "<p>你是对抗魔法使用者战斗方面的专家。你知道如何保存体力，并在精确的时机打击，以阻挠他们的咒语。</p>",
       "actions": {
         "inquisitorsStrike": {
-          "name": "审判官的打击 Strike",
+          "name": "审判官的打击 Inquisitor's Strike",
           "description": "当你可见且位于你交战半径内的一名敌人施放法术时，你可以反应，对该目标进行打击。若你造成重击，则该目标的法术被打断，魔法也随之消散。",
           "condition": "你的目标正在施放一个法术。"
         }
@@ -961,11 +961,11 @@
       "description": "你英勇无畏的存在激励着附近的盟友，使他们能够满怀信心地发动攻击。",
       "actions": {
         "inspireHeroism": {
-          "name": "激励英勇 Heroism",
-          "description": "<p>每位盟友（不包括你自己）在<strong>10 Feet</strong>内，在其下个回合结束前进行的动作获得<strong>+1 恩惠</strong>。</p>",
+          "name": "激励英勇 Inspire Heroism",
+          "description": "<p>每位盟友（不包括你自己）在<strong>10 英尺</strong>内，在其下个回合结束前进行的动作获得<strong>+1 恩惠</strong>。</p>",
           "effects": [
             {
-              "name": "激励英勇 Heroism"
+              "name": "激励英勇 Inspire Heroism"
             }
           ]
         }
@@ -1001,7 +1001,7 @@
       "description": "<p>你保持警觉，并准备使用你已装备的武器来打断敌人的施法。</p>",
       "actions": {
         "interruptingThrow": {
-          "name": "打断投掷 Throw",
+          "name": "打断投掷 Interrupting Throw",
           "description": "<p>当一个你看得见的敌人施放一个需要 <strong>3 动作</strong>或更多的<strong>法术</strong>时，你可以进行一个<strong>反应</strong>，对施法者进行一次<strong>投掷</strong>武器攻击。若你的攻击造成<strong>重击</strong>，该法术会被打断，其魔法也会消散。</p>",
           "condition": "一个你能看见的敌人施放一个消耗 3 个或更多动作的法术。"
         }
@@ -1038,7 +1038,7 @@
       "description": "<p>你使自己的心神平静下来，并研究敌人的生理构造，寻找其防御中的弱点。</p><p>进行一次<strong>知识检定</strong>，使用由游戏主持人选择的适当技能。若成功，你会得知该生物最脆弱的伤害类型（如果有的话）。若获得重大成功，你会得知其最脆弱的两种伤害类型。</p>",
       "actions": {
         "intuitWeakness": {
-          "name": "洞悉弱点 Weakness",
+          "name": "洞悉弱点 Intuit Weakness",
           "description": "<p>你平静心神，研究敌人的生理构造，试图找出其防御中的弱点。</p>"
         }
       }
@@ -1065,7 +1065,7 @@
     },
     "Justiciar": {
       "name": "审判官 Justiciar",
-      "description": "<p>你是正义的化身。Critical 打击 攻击还会将伤害中的溢出部分也施加给敌方士气。</p>"
+      "description": "<p>你是正义的化身。致命 打击 攻击还会将伤害中的溢出部分也施加给敌方士气。</p>"
     },
     "Kinesis Proficiency": {
       "name": "念力熟练度 Kinesis Proficiency",
@@ -1080,11 +1080,11 @@
       "description": "<p>你能鼓起坚韧与勇气继续战斗，在几乎不可能的逆境中依然坚守阵地。</p>",
       "actions": {
         "lastStand": {
-          "name": "背水一战 Stand",
+          "name": "背水一战 Last Stand",
           "description": "<p>你消耗<strong>英雄气概</strong>，立即恢复相当于你<strong>坚韧</strong>两倍的<strong>生命值</strong>。在接下来的 3 轮中，你的<strong>治疗阈值</strong>降低 2。</p>",
           "effects": [
             {
-              "name": "背水一战 Stand"
+              "name": "背水一战 Last Stand"
             }
           ]
         }
@@ -1099,11 +1099,11 @@
       "description": "<p>你使用一把以<strong>力量</strong>成长的武器横扫敌人，使其失去平衡，低挥以将他们扫倒在地。</p>",
       "actions": {
         "legSweep": {
-          "name": "扫腿 Sweep",
+          "name": "扫腿 Leg Sweep",
           "description": "<p>你用你的主手武器进行一次<strong>打击</strong>攻击。此技巧执行起来<strong>困难</strong>，且造成的伤害减少，但如果成功，会使你的目标<strong>倒地</strong>。</p>",
           "effects": [
             {
-              "name": "扫腿 Sweep"
+              "name": "扫腿 Leg Sweep"
             }
           ]
         }
@@ -1115,7 +1115,7 @@
     },
     "Life Proficiency": {
       "name": "生命熟练度 Life Proficiency",
-      "description": "<p>你熟练于运用生命符文编织施法。使用此符文施放的法术获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为<strong>Blossom </strong>动作提供升级，扩展其效果或加入新的使用选项。</p>"
+      "description": "<p>你熟练于运用生命符文编织施法。使用此符文施放的法术获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为<strong>绽放 </strong>动作提供升级，扩展其效果或加入新的使用选项。</p>"
     },
     "Light Weapon Proficiency": {
       "name": "轻型武器熟练度 Light Weapon Proficiency",
@@ -1127,7 +1127,7 @@
       "actions": {
         "lunge": {
           "name": "突刺 Lunge",
-          "description": "<p>你敏捷地向前猛冲，以突然而出其不意的迅捷发动一次打击，使用一把以<strong>敏捷</strong>进行成长的<strong>武器</strong>对单个<strong>目标</strong>进行一次<strong>打击</strong>，且<strong>射程</strong>增加<strong>+2 feet</strong>。</p><p>此次<strong>攻击</strong>为<strong>困难</strong>，但你不会从当前位置<strong>移动</strong>，且此次攻击不会引发脱离接战。</p>"
+          "description": "<p>你敏捷地向前猛冲，以突然而出其不意的迅捷发动一次打击，使用一把以<strong>敏捷</strong>进行成长的<strong>武器</strong>对单个<strong>目标</strong>进行一次<strong>打击</strong>，且<strong>射程</strong>增加<strong>+2 英尺</strong>。</p><p>此次<strong>攻击</strong>为<strong>困难</strong>，但你不会从当前位置<strong>移动</strong>，且此次攻击不会引发脱离接战。</p>"
         }
       }
     },
@@ -1144,7 +1144,7 @@
       "description": "<p>你发射一枚特殊的射击，不造成伤害，但会爆裂成发光粉末，清晰地标记你的目标。</p>",
       "actions": {
         "markPrey": {
-          "name": "标记猎物 Prey",
+          "name": "标记猎物 Mark Prey",
           "description": "<p>你使用特殊射击进行打击。如果你的攻击成功，目标在接下来的 3 回合内处于<strong>暴露</strong>状态。</p>",
           "effects": [
             {
@@ -1167,7 +1167,7 @@
       "description": "<p>你熟悉弩、火器及其他类似武器的设计与使用。你对<strong>机械</strong><strong>类别</strong>中的武器拥有<strong>受训</strong>熟练等级。</p>",
       "actions": {
         "rapidReload": {
-          "name": "快速装填 Reload",
+          "name": "快速装填 Rapid Reload",
           "description": "<p>你深深集中精神，平复心神，以惊人的速度迅速<strong>装填</strong>你的机械武器。</p>"
         }
       }
@@ -1205,7 +1205,7 @@
       "description": "<p>你敏锐的头脑中充满了秘密，以及记住它们的技巧。每个白天一次，你可以专注于自己的思绪，并尝试回忆起一个能唤起你记忆的词语。</p>\n<p>游戏主持人必须为你提供一个适合你探询方向的单词线索。至于他们提供的线索要有多直接或多含糊，则由游戏主持人自行裁定。</p>",
       "actions": {
         "mnemonicRealization": {
-          "name": "记忆实现 Realization",
+          "name": "记忆实现 Mnemonic Realization",
           "description": "<p>你审视自己的记忆，试图回想起一个与当前处境有关的线索。</p>"
         }
       }
@@ -1215,7 +1215,7 @@
       "description": "<p>你将僧侣式的修行纪律与武术专长融为一体，在和谐中平衡进攻与防御。</p><p>当你处于无甲状态时，你的反射和意志防御获得+2加值。</p><p>当你处于徒手状态时，你可以使用双拳连击动作。</p>",
       "actions": {
         "doublePunch": {
-          "name": "双拳连击 Punch",
+          "name": "双拳连击 Double Punch",
           "description": "<p>你在眨眼之间打出两次攻击，用双臂出拳。</p>"
         }
       }
@@ -1229,7 +1229,7 @@
       "description": "<p>你已经熟练掌握将自己身体的部位作为天生武器来使用，包括爪、颚、尾巴或其他自我防御机制。你对<strong>天生</strong>类别中的武器为<strong>受训</strong>。</p>",
       "actions": {
         "wildStrike": {
-          "name": "狂野打击 Strike",
+          "name": "狂野打击 Wild Strike",
           "description": "<p>在你进行一次基础攻击后，你立即使用你可用的一种不同的<strong>天生</strong>武器，对同一目标进行一次减耗的后续<strong>打击</strong>。</p>"
         }
       }
@@ -1247,7 +1247,7 @@
       "description": "<p>你受到了一种罕见的血液突变影响，使你的创伤能够通过嗜血迅速愈合。</p><p>你可以通过噬咬一个活着的目标来恢复你的生命值。此次攻击使用一种高等的天生武器，以力量成长并造成穿刺伤害。</p><p>你对光耀伤害的易伤增加 10。</p>",
       "actions": {
         "vampiricBite": {
-          "name": "吸血咬噬 Bite",
+          "name": "吸血咬噬 Vampiric Bite",
           "description": "<p>你抓住一个敌人，并用锋利的门牙噬咬它，迅速吸取它的血液来治疗你自己的创伤。进行这次攻击时，你需要有一只空闲的手来抓住目标，以便你进食。</p>",
           "condition": "你的目标是一个活着的生物。"
         }
@@ -1274,7 +1274,7 @@
       "description": "<p>你是与施法者战斗的专家。你知道如何保存体力，并在精确的时机打击，以挫败他们的咒语。</p>",
       "actions": {
         "disruptingShot": {
-          "name": "扰乱射击 Shot",
+          "name": "扰乱射击 Disrupting Shot",
           "description": "当一名你能看见的敌人施放法术时，你可以用反应对该目标进行打击。这个技巧施展起来很困难，但如果造成暴击，该目标的法术会被打断，魔法也会消散。",
           "condition": "你的目标正在施放法术。"
         }
@@ -1289,7 +1289,7 @@
       "description": "<p>你可以以如此猛烈的气势掷出你的武器，使其击中一条直线上的所有目标。</p>",
       "actions": {
         "penetratingThrow": {
-          "name": "穿透投掷 Throw",
+          "name": "穿透投掷 Penetrating Throw",
           "description": "<p>你进行一次<strong>投掷</strong>武器打击，穿透并命中直线上的所有敌人。</p>"
         }
       }
@@ -1299,7 +1299,7 @@
       "description": "你装填了一种特殊弹药，造成的伤害较低，但会直接贯穿一整列目标。",
       "actions": {
         "penetratingShot": {
-          "name": "穿透射击 Shot",
+          "name": "穿透射击 Penetrating Shot",
           "description": "<p>你射出一发子弹，沿直线贯穿多个目标。</p>"
         }
       }
@@ -1329,11 +1329,11 @@
       "description": "你射出一记战术性布置的射击，将目标钉在附近的地表上。",
       "actions": {
         "pinningShot": {
-          "name": "钉射 Shot",
+          "name": "钉射 Pinning Shot",
           "description": "<p>你从远处<strong>打击</strong>。此次攻击为<strong>困难</strong>，但如果你的目标是它，它会陷入<strong>受缚</strong>，直到其下个<strong>回合</strong>结束。</p>",
           "effects": [
             {
-              "name": "钉射 Shot"
+              "name": "钉射 Pinning Shot"
             }
           ]
         }
@@ -1358,11 +1358,11 @@
       "description": "<p>你可以对造成挥砍或穿刺伤害的武器施加中毒。每当你造成毒素伤害时，你会额外造成 +2 伤害；你的打击在造成生命值伤害的暴击时会施加<strong>中毒</strong>状态。</p>",
       "actions": {
         "poisonBlades": {
-          "name": "毒刃 Blades",
+          "name": "毒刃 Poison Blades",
           "description": "<p>你灵巧地将有毒的炼金油涂抹在你的刀刃上，使其在造成重击时施加中毒状态。</p>",
           "effects": [
             {
-              "name": "毒刃 Blades"
+              "name": "毒刃 Poison Blades"
             }
           ]
         }
@@ -1381,7 +1381,7 @@
       "description": "你花时间稳住瞄准，将目标锁定在敌人最脆弱的部位。你或许只有一次出手机会，但你会让这一击发挥作用。",
       "actions": {
         "precisionShot": {
-          "name": "精准射击 Shot",
+          "name": "精准射击 Precision Shot",
           "description": "<p>你稳住瞄准，射出精准的一击。</p>"
         }
       }
@@ -1403,7 +1403,7 @@
       "description": "<p>你接受过弓术及其他投射武器装备方面的基础教育。对于<strong>投射</strong>类别中的武器，你不再被视为<strong>未受训</strong>。</p>",
       "actions": {
         "quickDraw": {
-          "name": "快速拔取 Draw",
+          "name": "快速拔取 Quick Draw",
           "description": "<p>你可以在压力下勉强射出一击，不过准确度会降低。你进行一次<strong>困难</strong>的<strong>打击</strong>，但其动作成本会降低。</p>"
         }
       }
@@ -1413,7 +1413,7 @@
       "description": "你擅长以尖刻机智的言辞揭露对手的缺点。在战斗中，你可以抛出妙语，激怒你的敌人。",
       "actions": {
         "scathingMockery": {
-          "name": "尖刻嘲弄 Mockery",
+          "name": "尖刻嘲弄 Scathing Mockery",
           "description": "你用一句尖刻的妙语夸大对手的缺点，对目标的意志进行一次外交技能攻击。若成功，目标的士气受到少量灵能伤害，并陷入激怒状态，持续1轮。",
           "condition": "你的目标能听见并理解你。",
           "effects": [
@@ -1431,11 +1431,11 @@
       "description": "<p>你作为战场领袖的存在，能够鼓舞并恢复盟友的士气。</p>",
       "actions": {
         "rallyingCry": {
-          "name": "振奋战吼 Cry",
+          "name": "振奋战吼 Rallying Cry",
           "description": "<p>你发出一声勇敢的怒吼，激励12英尺内的盟友在险境面前保持坚定。范围内的所有盟友立即恢复等同于你的<strong>魅力</strong>数值的<strong>士气</strong>，并成为 @Condition[resolute]，持续3轮。</p>",
           "effects": [
             {
-              "name": "振奋战吼 Cry"
+              "name": "振奋战吼 Rallying Cry"
             }
           ]
         }
@@ -1450,7 +1450,7 @@
       "description": "<p>当你用盾牌进行格挡时，你可以将爆炸性的力量注入一次反击猛撞，从而缴械你的对手。</p>",
       "actions": {
         "repercussiveBlock": {
-          "name": "反震格挡 Block",
+          "name": "反震格挡 Repercussive Block",
           "description": "<p>当你<strong>格挡</strong><strong>近战</strong>攻击时，你可以进行反应，使用你已装备的盾牌进行反击。此技巧是<strong>无害</strong>的，但如果成功，将会解除对手的武装，迫使其武器<strong>脱手</strong>。</p>",
           "condition": "你用已装备的盾牌格挡一次近战攻击。"
         }
@@ -1593,7 +1593,7 @@
       "description": "<p>你享受自己在战斗中所能造成的杀戮，并在每个敌人倒下时继续向混战中推进。</p>",
       "actions": {
         "ruthlessMomentum": {
-          "name": "无情动量 Momentum",
+          "name": "无情动量 Ruthless Momentum",
           "description": "<p>击败一名敌人后，你可以<strong>移动</strong>至多等同于你的<strong>步幅</strong>，并攻击另一名处于近战范围内的敌人。</p>",
           "condition": "你用一次近战攻击使一名敌人失能。"
         }
@@ -1601,7 +1601,7 @@
     },
     "Saboteur": {
       "name": "破坏者 Saboteur",
-      "description": "<p>你精通投掷弹药的使用。使用<strong>Bomb</strong>类型的消耗品时，无论使用哪种技能，你都至少视为具有<strong>受训</strong>熟练度，并且你在任何相关检定中获得<strong>+1 惠骰</strong>。</p>"
+      "description": "<p>你精通投掷弹药的使用。使用<strong>炸弹</strong>类型的消耗品时，无论使用哪种技能，你都至少视为具有<strong>受训</strong>熟练度，并且你在任何相关检定中获得<strong>+1 惠骰</strong>。</p>"
     },
     "Safecracker": {
       "name": "保险箱窃贼 Safecracker",
@@ -1632,7 +1632,7 @@
       "description": "你的身体坚韧使你能够将自己逼迫到超越常规极限的程度。",
       "actions": {
         "secondWind": {
-          "name": "二次振作 Wind",
+          "name": "二次振作 Second Wind",
           "description": "<p>你集中精力，恢复等同于你坚韧值的生命值。</p>"
         }
       }
@@ -1642,16 +1642,16 @@
       "description": "<p>你拥有一种超自然能力，能够将自己的身体变形成野兽的形态。</p><p>你会经历一次变形，化为一种你所熟悉且等级为你一半或以下的野兽形态。处于变形状态时，你拥有所选野兽完全相同的属性与能力。</p><p>你的装备会以魔法方式并入你所采取的形态之中，不过在变形期间，你无法从这些装备中获得任何益处。</p><p>如果你的野兽形态陷入失能状态，你会恢复为普通形态，任何超出的伤害都会转化为创伤。如果你在野兽形态下士气破碎，你的变形会结束，且任何超出的伤害都会转化为疯狂。</p>",
       "actions": {
         "beastShape": {
-          "name": "野兽形态 Shape",
+          "name": "野兽形态 Beast Shape",
           "description": "<p>你变成一个你熟悉的、等级为你等级一半或以下的野兽形态。</p>",
           "effects": [
             {
-              "name": "野兽形态 Shape"
+              "name": "野兽形态 Beast Shape"
             }
           ]
         },
         "beastShapeRevert": {
-          "name": "还原形态 Shape",
+          "name": "还原形态 Revert Shape",
           "description": "<p>你结束了自己的兽化变形，恢复为普通形态。</p>"
         }
       }
@@ -1665,11 +1665,11 @@
       "description": "<p>你擅长持盾作战，能用它猛击并打乱敌人的平衡。你对<strong>盾牌</strong><strong>类别</strong>中的<strong>武器</strong>达到<strong>受训</strong>熟练。</p>",
       "actions": {
         "shieldBash": {
-          "name": "盾牌猛击 Bash",
+          "name": "盾牌猛击 Shield Bash",
           "description": "<p>在用你的主手武器进行一次基础打击后，你以你的盾牌<strong>打击</strong>，并使目标陷入 @Condition[staggered] 状态，持续一轮。</p>",
           "effects": [
             {
-              "name": "盾牌猛击 Bash"
+              "name": "盾牌猛击 Shield Bash"
             }
           ]
         }
@@ -1680,7 +1680,7 @@
       "description": "<p>一种防御技巧，你向前猛冲，以撞击与推挤将敌人从你的路径上逼开。你以直线<strong>冲锋</strong>最多20英尺，并对路径上每个接连遭遇的敌人各进行一次副手盾牌<strong>打击</strong>。</p>",
       "actions": {
         "shieldCharge": {
-          "name": "盾牌冲锋 Charge",
+          "name": "盾牌冲锋 Shield Charge",
           "description": "<p>你沿直线向前冲锋，穿过你遇到的任何生物所占据的空间，并对沿途每个接连遭遇的敌人进行一次<strong>打击 </strong>。任何被此次攻击<strong>重击命中</strong>的生物都可能被推入由你选择的相邻空间。你的冲锋不能结束在与另一生物相同的空间内。</p>"
         }
       }
@@ -1763,11 +1763,11 @@
       "description": "你沉着而耐心的决心使你能够以坚定不移的意志承受心理上令人痛苦的严酷磨难。",
       "actions": {
         "steadfastResolve": {
-          "name": "坚定不移的决心 Resolve",
+          "name": "坚定不移的决心 Steadfast Resolve",
           "description": "<p>你使自己不易受到恫吓。你的士气提高等同于你的感知值，并且你暂时获得坚定状态。</p>",
           "effects": [
             {
-              "name": "坚定不移的决心 Resolve"
+              "name": "坚定不移的决心 Steadfast Resolve"
             }
           ]
         }
@@ -1810,11 +1810,11 @@
       "description": "一种极具挑战性的徒手技法，专门攻击对手身体上的要害穴位。你施展一次使人虚弱的打击，若成功，则会令你的敌人陷入震慑。",
       "actions": {
         "stunningStrike": {
-          "name": "震慑打击 Strike",
+          "name": "震慑打击 Stunning Strike",
           "description": "<p>你<strong>打击</strong>敌人的一个关键压点，若成功，则使其陷入<strong>眩晕</strong>状态，持续 1 轮。</p>",
           "effects": [
             {
-              "name": "震慑打击 Strike"
+              "name": "震慑打击 Stunning Strike"
             }
           ]
         }
@@ -1829,11 +1829,11 @@
       "description": "<p>你知道一种武技，能利用敌人防御中最薄弱的点，使其暴露于进一步的伤害之下。</p>",
       "actions": {
         "sunderingStrike": {
-          "name": "粉碎打击 Strike",
+          "name": "粉碎打击 Sundering Strike",
           "description": "<p>你用主手武器进行一次<strong>打击</strong>；若成功，则对目标施加<strong>暴露</strong>状态，持续3轮。此次攻击<strong>困难</strong>，且造成的伤害降低。</p>",
           "effects": [
             {
-              "name": "破损的护甲 Armor"
+              "name": "破损的护甲 Sundered Armor"
             }
           ]
         }
@@ -1862,7 +1862,7 @@
       "description": "<p>你是一名狡猾的战场战术家，能够组织并指挥你的盟友，以更高的效率行动。</p>",
       "actions": {
         "tacticalPlan": {
-          "name": "战术计划 Plan",
+          "name": "战术计划 Tactical Plan",
           "description": "用不超过10个字向一名在先攻顺序中后于你行动的盟友描述一个行动方案。若该盟友在同一轮中稍后执行了你描述的计划，则其与该计划相关的任何掷骰获得+2恩惠。游戏主持人可以裁定该计划是否被遵循。"
         }
       }
@@ -1899,14 +1899,14 @@
     },
     "Thoughtbinder": {
       "name": "缚念者 Thoughtbinder",
-      "description": "<p>你极其擅长编织控制符文。使用此符文的法术在暴击时会施加 @Condition[dominated] 状态。</p><p>Dominated 效果持续 <strong>1 轮</strong>，并将你的<strong>感知</strong>属性值作为额外的<strong>灵能</strong>伤害施加到<strong>士气</strong>上。</p>"
+      "description": "<p>你极其擅长编织控制符文。使用此符文的法术在暴击时会施加 @Condition[dominated] 状态。</p><p>支配 效果持续 <strong>1 轮</strong>，并将你的<strong>感知</strong>属性值作为额外的<strong>灵能</strong>伤害施加到<strong>士气</strong>上。</p>"
     },
     "Thread the Needle": {
       "name": "穿针引线 Thread the Needle",
       "description": "你集中精神，朝那片近战的混战中射出一击。此次攻击如同近战攻击一般，享有 <strong>夹击</strong>的加值。",
       "actions": {
         "threadTheNeedle": {
-          "name": "穿针引线 Needle",
+          "name": "穿针引线 Thread the Needle",
           "description": "<p>你向近战战斗中射出精确的一击，目标是一个正与你的一名盟友交战的敌人。</p>"
         }
       }
@@ -1930,7 +1930,7 @@
       "description": "<p>你准备好两发射击，同时向单一目标开火。</p>",
       "actions": {
         "twinnedShot": {
-          "name": "双生射击 Shot",
+          "name": "双生射击 Twinned Shot",
           "description": "<p>使用这项<strong>困难</strong>技巧时，你会同时发射两枚投射，并对同一目标进行两次<strong>打击</strong>攻击。</p>"
         }
       }
@@ -1966,7 +1966,7 @@
       "description": "<p>你在压力情境下展现出非凡的沉着；当周围的人失去镇定时，你依然能保持冷静。</p>",
       "actions": {
         "unshakeablePoise": {
-          "name": "不动如山的沉着 Poise",
+          "name": "不动如山的沉着 Unshakeable Poise",
           "description": "<p>你消耗<strong>英雄气概</strong>，立即在<strong>专注</strong>中恢复你的<strong>智力</strong>。你可以在战斗中于自己的回合之外、进行<strong>反应</strong>之前执行此动作。</p>"
         }
       }
@@ -1998,11 +1998,11 @@
       "description": "你发誓立下誓约，要毁灭一个特定角色或生物。对你誓约的对象进行打击或法术攻击时，你获得 +2 恩惠。你一次只能对一个敌人立下此类誓约。立下新的誓约会放弃你先前的誓约。",
       "actions": {
         "vowOfAnimus": {
-          "name": "敌意誓约 Animus",
+          "name": "敌意誓约 Vow of Animus",
           "description": "<p>你发誓要消灭一个特定的敌人，使其成为你仇恨的对象。</p>",
           "effects": [
             {
-              "name": "敌意誓约 Animus"
+              "name": "敌意誓约 Vow of Animus"
             }
           ]
         }
@@ -2047,7 +2047,7 @@
       "description": "<p>你可以将正义之力灌注入你使用重型武器发动的打击中。</p>",
       "actions": {
         "zealousSmite": {
-          "name": "热忱惩击 Smite",
+          "name": "热忱惩击 Zealous Smite",
           "description": "<p>你使用一把基于力量的武器进行<strong>打击</strong>。此次攻击变为<strong>致命</strong>，且造成的任何伤害均为<strong>光耀</strong>。</p>",
           "condition": "你正用一把重型武器对一名处于暴露状态的敌人进行攻击。"
         }
