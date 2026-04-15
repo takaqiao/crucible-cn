@@ -47,8 +47,8 @@
       },
       "actions": {
         "blastFlask": {
-          "name": "爆炸瓶 Flask",
-          "description": "<p>你点燃并掷出@ref[name]，对爆破半径内的所有敌人造成<strong>火焰</strong>伤害。<strong>爆破</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>Shoddy</strong> - 3英尺</p></li><li><p><strong>Standard</strong> - 4英尺</p></li><li><p><strong>Fine</strong> - 6英尺</p></li><li><p><strong>Superior</strong> - 8英尺</p></li><li><p><strong>Masterwork</strong> - 10英尺</p></li></ul>"
+          "name": "爆炸瓶 Blast Flask",
+          "description": "<p>你点燃并掷出@ref[name]，对爆破半径内的所有敌人造成<strong>火焰</strong>伤害。<strong>爆破</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>劣质</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>精良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
         }
       }
     },
@@ -59,11 +59,11 @@
       },
       "actions": {
         "alchemistsFire": {
-          "name": "炼金火焰 Fire",
+          "name": "炼金火焰 Alchemist's Fire",
           "description": "<p>你掷出@ref[name]，造成<strong>虚弱</strong>的即时伤害，并使所有位于 4 尺半径<strong>爆发</strong>范围内且未能避开此次攻击的敌人陷入@Condition[burning]状态。</p><p>燃烧伤害的数值及其持续时间取决于@ref[name]的品质：</p><ul><li><p><strong>粗制</strong> - 2 伤害，持续 2 轮</p></li><li><p><strong>标准</strong> - 3 伤害，持续 3 轮</p></li><li><p><strong>精良</strong> - 4 伤害，持续 4 轮</p></li><li><p><strong>优异</strong> - 6 伤害，持续 5 轮</p></li><li><p><strong>大师级</strong> - 8 伤害，持续 6 轮</p></li></ul>",
           "effects": [
             {
-              "name": "炼金火焰 Fire"
+              "name": "炼金火焰 Alchemist's Fire"
             }
           ]
         }
@@ -182,11 +182,11 @@
       },
       "actions": {
         "causticPhial": {
-          "name": "腐蚀瓶 Phial",
+          "name": "腐蚀瓶 Caustic Phial",
           "description": "<p>你掷出@ref[name]，造成<strong>虚弱</strong>的即时伤害，并使所有未能避开此次攻击、位于 4 尺半径内<strong>爆破</strong>范围的敌人陷入@Condition[corroding]状态。</p><p>腐蚀伤害的数值及其持续时间取决于@ref[name]的品质：</p><ul><li><p><strong>粗制</strong> - 2 伤害，持续 2 轮</p></li><li><p><strong>标准</strong> - 3 伤害，持续 3 轮</p></li><li><p><strong>精制</strong> - 4 伤害，持续 4 轮</p></li><li><p><strong>优制</strong> - 6 伤害，持续 5 轮</p></li><li><p><strong>大师工艺</strong> - 8 伤害，持续 6 轮</p></li></ul>",
           "effects": [
             {
-              "name": "腐蚀瓶 Phial"
+              "name": "腐蚀瓶 Caustic Phial"
             }
           ]
         }
@@ -236,7 +236,7 @@
       },
       "actions": {
         "chokingAmpoule": {
-          "name": "窒息安瓿 Ampoule",
+          "name": "窒息安瓿 Choking Ampoule",
           "description": "<p>你投掷@ref[name]，其即时效果是<strong>无害</strong>的，但会使 8 尺半径<strong>爆发</strong>范围内所有未能以其<strong>坚韧</strong>抗拒此次攻击的敌人陷入@Condition[poisoned]状态。</p><p>该气体会对<strong>士气</strong>造成毒素伤害，数值取决于@ref[name]的品质。若获得重大成功，受影响的目标还会在持续时间内同时陷入@Condition[silenced]状态。</p><ul><li><p><strong>粗制</strong> - 3 轮内造成 2 点伤害</p></li><li><p><strong>标准</strong> - 3 轮内造成 6 点伤害</p></li><li><p><strong>精良</strong> - 3 轮内造成 12 点伤害</p></li><li><p><strong>优异</strong> - 3 轮内造成 20 点伤害</p></li><li><p><strong>大师级</strong> - 3 轮内造成 30 点伤害</p></li></ul>",
           "effects": [
             {}
@@ -487,7 +487,7 @@
       },
       "actions": {
         "healingElixir": {
-          "name": "治疗灵药 Elixir",
+          "name": "治疗灵药 Healing Elixir",
           "description": "<p>立即恢复相当于该灵药<strong>品质</strong>对应数值的<strong>生命值</strong>。</p><ul><li><p><strong>粗劣</strong> - 立即恢复 6 点<strong>生命值</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>生命值</strong>。</p></li><li><p><strong>精良</strong> - 立即恢复 24 点<strong>生命值</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>生命值</strong>。</p></li><li><p><strong>大师级</strong> - 立即恢复 96 点<strong>生命值</strong>。</p></li></ul>"
         }
       }
@@ -499,11 +499,11 @@
       },
       "actions": {
         "healingTonic": {
-          "name": "治疗药剂 Tonic",
+          "name": "治疗药剂 Healing Tonic",
           "description": "<p>立即，以及在接下来 5 <strong>轮</strong>中每一轮开始时，根据药剂的品质恢复一定数量的<strong>生命值</strong>。</p><ul><li><p><strong>粗制滥造</strong> - 每轮恢复 2 点<strong>生命值</strong></p></li><li><p><strong>标准</strong> - 每轮恢复 4 点<strong>生命值</strong></p></li><li><p><strong>精良</strong> - 每轮恢复 8 点<strong>生命值</strong></p></li><li><p><strong>卓越</strong> - 每轮恢复 16 点<strong>生命值</strong></p></li><li><p><strong>大师级</strong> - 每轮恢复 32 点<strong>生命值</strong></p></li></ul>",
           "effects": [
             {
-              "name": "治疗药剂 Tonic"
+              "name": "治疗药剂 Healing Tonic"
             }
           ]
         }
@@ -663,7 +663,7 @@
       },
       "actions": {
         "net": {
-          "name": "抛网 Net",
+          "name": "抛网 Throw Net",
           "description": "<p>被投掷出去的网捕获的目标处于@Condition[restrained]状态，直到其能够脱身。</p>",
           "effects": [
             {
@@ -686,16 +686,16 @@
       },
       "actions": {
         "paralyticIngest": {
-          "name": "摄入麻痹毒素 Paralytic",
+          "name": "摄入麻痹毒素 Ingest Paralytic",
           "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它最初是<strong>无害</strong>的，但目标必须对其<strong>坚韧</strong>进行一次攻击的防御，否则会变为@Condition[paralyzed]。</p><p>持续时间取决于@ref[name]的品质：</p><ul><li><p><strong>粗劣</strong> - 1 轮</p></li><li><p><strong>标准</strong> - 2 轮</p></li><li><p><strong>优良</strong> - 4 轮</p></li><li><p><strong>卓越</strong> - 8 轮</p></li><li><p><strong>大师工艺</strong> - 无限期</p></li></ul><p><em>此动作应在毒药被摄入时使用，而不是在其首次被涂抹时使用。</em></p>",
           "effects": [
             {
-              "name": "麻痹毒素 Toxin"
+              "name": "麻痹毒素 Paralytic Toxin"
             }
           ]
         },
         "paralyticApply": {
-          "name": "施加麻痹毒素 Paralytic",
+          "name": "施加麻痹毒素 Apply Paralytic",
           "description": "<p>这瓶药剂中的内容物可以加入食物或饮料中，涂抹在刃类武器上，或与某种其他的传递方式结合使用。</p><p><em>此动作会消耗该毒药的可用次数，应在首次施加时使用。</em></p>"
         }
       }
@@ -744,7 +744,7 @@
       },
       "actions": {
         "poisonIngest": {
-          "name": "摄入毒药 Poison",
+          "name": "摄入毒药 Ingest Poison",
           "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它起初是<strong>无害</strong>的，但目标必须以其<strong>坚韧</strong>进行一次防御攻击，否则会变为@Condition[poisoned]。</p><p>毒素伤害的数值及其持续时间取决于@ref[name]的品质：</p><ul><li><p><strong>粗劣</strong> - 2点伤害，持续4轮</p></li><li><p><strong>标准</strong> - 4点伤害，持续6轮</p></li><li><p><strong>精良</strong> - 6点伤害，持续8轮</p></li><li><p><strong>优异</strong> - 8点伤害，持续10轮</p></li><li><p><strong>大师工艺</strong> - 10点伤害，持续12轮</p></li></ul><p><em>应在毒药被摄入时使用此动作，而不是在其最初被施用时使用。</em></p>",
           "effects": [
             {
@@ -753,7 +753,7 @@
           ]
         },
         "poisonApply": {
-          "name": "施加中毒 Poison",
+          "name": "施加中毒 Apply Poison",
           "description": "<p>这瓶小瓶中的内容物可以加入食物、饮料中，涂抹在带刃武器上，或与某种替代性的传递机制结合使用。</p><p><em>此动作会消耗该毒药的可用次数，应在其首次施用时使用。</em></p>"
         }
       }
@@ -783,7 +783,7 @@
       },
       "actions": {
         "rallyingElixir": {
-          "name": "振奋灵药 Elixir",
+          "name": "振奋灵药 Rallying Elixir",
           "description": "<p>立即恢复一定数量的<strong>士气</strong>，具体数值取决于该灵药的品质。</p><ul><li><p><strong>粗劣</strong> - 立即恢复 6 点<strong>士气</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>士气</strong>。</p></li><li><p><strong>优良</strong> - 立即恢复 24 点<strong>士气</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>士气</strong>。</p></li><li><p><strong>杰作</strong> - 立即恢复 96 点<strong>士气</strong>。</p></li></ul>"
         }
       }
@@ -795,11 +795,11 @@
       },
       "actions": {
         "rallyingTonic": {
-          "name": "振奋补剂 Tonic",
+          "name": "振奋补剂 Rallying Tonic",
           "description": "<p>立即，并在接下来 5 <strong>轮</strong>中的每一轮开始时，根据药剂的品质恢复一定量的<strong>士气</strong>。</p><ul><li><p><strong>粗制滥造</strong> - 每轮恢复 2 <strong>士气</strong></p></li><li><p><strong>标准</strong> - 每轮恢复 4 <strong>士气</strong></p></li><li><p><strong>精良 </strong>- 每轮恢复 8 <strong>士气 </strong></p></li><li><p><strong>优异</strong> - 每轮恢复 16 <strong>士气</strong></p></li><li><p><strong>大师之作</strong> - 每轮恢复 32 <strong>士气</strong></p></li></ul>",
           "effects": [
             {
-              "name": "振奋补剂 Tonic"
+              "name": "振奋补剂 Rallying Tonic"
             }
           ]
         }
@@ -978,7 +978,7 @@
       },
       "actions": {
         "readScroll": {
-          "name": "阅读卷轴 Scroll",
+          "name": "阅读卷轴 Read Scroll",
           "description": "<p>阅读此法术卷轴，暂时获得其施法构成的知识，持续10分钟。</p><p>你在任意时刻只能有一个法术卷轴效果处于主动状态。阅读另一张卷轴会替换当前的任何效果。</p>",
           "effects": [
             {}
@@ -986,29 +986,14 @@
         }
       }
     },
-    "Spell Scroll (Masterwork)": {
-      "name": "法术卷轴（大师级） Spell Scroll (Masterwork)",
-      "description": {
-        "public": "<p>法术卷轴是一种特制的犊皮纸或羊皮纸，其上精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予其阅读者对这些构件的深刻熟悉感，仿佛他们已经了解它们多年。</p><p>一张卷轴能够容纳多少个施法构件，取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>优异</strong>：可包含两个施法构件</p></li><li><p><strong>大师级</strong>：可包含三个施法构件</p></li></ul>"
-      },
-      "actions": {
-        "readScroll": {
-          "name": "阅读卷轴 Scroll",
-          "description": "<p>阅读此法术卷轴，暂时获得其施法成分的知识，持续10分钟。</p><p>你在任意时刻只能有一个法术卷轴效果处于主动状态。阅读不同的卷轴会替换当前的任何效果。</p>",
-          "effects": [
-            {}
-          ]
-        }
-      }
-    },
     "Spell Scroll (Superior)": {
-      "name": "法术卷轴（上级） Spell Scroll (Superior)",
+      "name": "法术卷轴（卓越） Spell Scroll (Superior)",
       "description": {
         "public": "<p>法术卷轴是一种专门制作的犊皮纸或羊皮纸，其上被精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予阅读者对这些构件的深刻熟悉感，仿佛他们已经了解多年。</p><p>一张卷轴能够容纳多少个施法构件，取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>卓越</strong>：可包含两个施法构件</p></li><li><p><strong>精制</strong>：可包含三个施法构件</p></li></ul>"
       },
       "actions": {
         "readScroll": {
-          "name": "阅读卷轴 Scroll",
+          "name": "阅读卷轴 Read Scroll",
           "description": "<p>阅读这张法术卷轴，暂时获得其施法构成的知识，持续10分钟。</p><p>你在同一时间只能有一个法术卷轴效果处于主动状态。阅读另一张卷轴会替换当前的任何效果。</p>",
           "effects": [
             {}
@@ -1054,15 +1039,15 @@
       },
       "actions": {
         "steelJawArm": {
-          "name": "设置钢颚陷阱 Trap",
+          "name": "设置钢颚陷阱 Arm Steel-Jaw Trap",
           "description": "<p>设置这个陷阱会放置一个危险的隐患；若被触发，会造成大量伤害。它必须用重型锁链固定在一个不可移动的物体上，例如树木或钉入地面的尖桩。陷阱的区域是一个半径为 2 英尺的圆。</p>"
         },
         "steelJawTrigger": {
-          "name": "触发钢颚陷阱 Trap",
+          "name": "触发钢颚陷阱 Trigger Steel-Jaw Trap",
           "description": "<p>当被触发时，设置陷阱的生物对触发陷阱的单一目标进行一次<strong>荒野</strong>技能攻击，对抗其<strong>反射</strong><strong>防御</strong>。若未被抵抗，则造成穿刺伤害并施加 @Condition[restrained] 状态。陷阱造成的基础伤害根据陷阱的品质而变化。</p><ul><li><p><strong>粗制</strong> - 1 伤害</p></li><li><p><strong>标准</strong> - 2 伤害</p></li><li><p><strong>精制</strong> - 4 伤害</p></li><li><p><strong>优质</strong> - 8 伤害</p></li><li><p><strong>大师级</strong> - 16 伤害</p></li></ul>",
           "effects": [
             {
-              "name": "钢颚陷阱 Trap"
+              "name": "钢颚陷阱 Steel-Jaw Trap"
             }
           ]
         }
@@ -1095,7 +1080,7 @@
     "Tent (caravan)": {
       "name": "帐篷（商队） Tent (caravan)",
       "description": {
-        "public": "<p>一大块可折叠或可卷起的篷布，用于搭建临时庇护所，最多可容纳十二名 occupants。包含绳索、地钉和六根可折叠的十字支撑杆，必须先将其组装好，才能把篷布撑在上面。</p>"
+        "public": "<p>一大块可折叠或可卷起的篷布，用于搭建临时庇护所，最多可容纳十二名 名居住者。包含绳索、地钉和六根可折叠的十字支撑杆，必须先将其组装好，才能把篷布撑在上面。</p>"
       }
     },
     "Tent (large)": {
@@ -1156,6 +1141,21 @@
       "name": "口哨 Whistle",
       "description": {
         "public": "<p>一种由雕刻木材或骨头制成的器具，向其中吹气时会发出一种尖锐的单一声音，能够在很远的距离外被听见。常被猎人和渔夫用来在荒野中或海上彼此发出信号。</p>"
+      }
+    },
+    "Spell Scroll (Masterwork)": {
+      "name": "法术卷轴（大师级） Spell Scroll (Masterwork)",
+      "description": {
+        "public": "<p>法术卷轴是一种特制的犊皮纸或羊皮纸，其上精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予其阅读者对这些构件的深刻熟悉感，仿佛他们已经了解它们多年。</p><p>一张卷轴能够容纳多少个施法构件，取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>优异</strong>：可包含两个施法构件</p></li><li><p><strong>大师级</strong>：可包含三个施法构件</p></li></ul>"
+      },
+      "actions": {
+        "readScroll": {
+          "name": "阅读卷轴 Read Scroll",
+          "description": "<p>阅读此法术卷轴，暂时获得其施法成分的知识，持续10分钟。</p><p>你在任意时刻只能有一个法术卷轴效果处于主动状态。阅读不同的卷轴会替换当前的任何效果。</p>",
+          "effects": [
+            {}
+          ]
+        }
       }
     }
   }

@@ -22,11 +22,11 @@
       "description": "<p>你将当前主手已装备的武器绑定为你的束缚武装。</p><p>在绑定期间，你可以不消耗任何资源，将该武器召唤到一只空闲的手中。无论距离多远，你都可以召唤这把武器，即使它已被<strong>缴械</strong>。</p>",
       "actions": {
         "bindArmament": {
-          "name": "绑定武装 Armament",
+          "name": "绑定武装 Bind Armament",
           "description": "<p>你将当前主手已装备的武器绑定为你的束缚武装。</p>"
         },
         "conjureArmament": {
-          "name": "召唤武装 Armament",
+          "name": "召唤武装 Conjure Armament",
           "description": "<p>你将自己的束缚武装召回手中。只要你有足够的空闲手来持握它，这把武器就会瞬间回到你手中，并且不再处于<strong>缴械</strong>状态。</p>"
         }
       }
@@ -36,11 +36,11 @@
       "description": "<p>你削弱目标的体力，使其肌肉萎缩并虚弱下来，而且这种衰弱无法通过普通的休息或恢复来消除。</p>",
       "actions": {
         "curseAtrophy": {
-          "name": "萎缩诅咒 Atrophy",
+          "name": "萎缩诅咒 Curse of Atrophy",
           "description": "<p>触碰目标，使其受到一种衰败诅咒，令其<strong>力量</strong>永久降低 2 点。</p>",
           "effects": [
             {
-              "name": "萎缩诅咒 Atrophy"
+              "name": "萎缩诅咒 Curse of Atrophy"
             }
           ]
         }
@@ -51,11 +51,11 @@
       "description": "<p>你使目标的头脑变得混沌，永久损害其察觉与判断力，而且这种损害无法通过普通治疗恢复。</p>",
       "actions": {
         "curseDelusion": {
-          "name": "妄想诅咒 Delusion",
+          "name": "妄想诅咒 Curse of Delusion",
           "description": "<p>触碰目标，用诅咒蒙蔽其感知，使其<strong>感知</strong>永久降低 2 点。</p>",
           "effects": [
             {
-              "name": "妄想诅咒 Delusion"
+              "name": "妄想诅咒 Curse of Delusion"
             }
           ]
         }
@@ -66,11 +66,11 @@
       "description": "<p>你令目标体内的智慧火花黯淡下来，永久损害其迅速思考与推理的能力，而这种损伤并非仅靠休息就能修复。</p>",
       "actions": {
         "curseDullness": {
-          "name": "迟钝诅咒 Dullness",
+          "name": "迟钝诅咒 Curse of Dullness",
           "description": "<p>触碰目标，以一道诅咒钝化其心智，使其<strong>智力</strong>永久降低 2 点。</p>",
           "effects": [
             {
-              "name": "迟钝诅咒 Dullness"
+              "name": "迟钝诅咒 Curse of Dullness"
             }
           ]
         }
@@ -81,11 +81,11 @@
       "description": "<p>你汲取目标的生命韧性，使其在体质上变得虚弱，而且这种状态会持续，无法通过任何普通的恢复手段消除。</p>",
       "actions": {
         "curseExhaustion": {
-          "name": "疲惫诅咒 Exhaustion",
+          "name": "疲惫诅咒 Curse of Exhaustion",
           "description": "<p>触碰目标，以一道诅咒汲取其生命力，使其<strong>坚韧</strong>永久降低 2 点。</p>",
           "effects": [
             {
-              "name": "疲惫诅咒 Exhaustion"
+              "name": "疲惫诅咒 Curse of Exhaustion"
             }
           ]
         }
@@ -96,11 +96,11 @@
       "description": "<p>你扼灭了目标体内迅捷的火花，使其反应变得迟钝，并让其身体的应对速度减缓，而且这种影响会永久持续。</p>",
       "actions": {
         "curseLethargy": {
-          "name": "倦怠诅咒 Lethargy",
+          "name": "倦怠诅咒 Curse of Lethargy",
           "description": "<p>触碰目标，使其陷入迟缓状态，并使其<strong>敏捷</strong>永久降低 2 点。</p>",
           "effects": [
             {
-              "name": "倦怠诅咒 Lethargy"
+              "name": "倦怠诅咒 Curse of Lethargy"
             }
           ]
         }
@@ -111,11 +111,11 @@
       "description": "<p>你削弱目标人格的力量，使其不再那么有感染力，也更难让他人听从，而且这种影响被证明是永久性的。</p>",
       "actions": {
         "curseScorn": {
-          "name": "轻蔑诅咒 Scorn",
+          "name": "轻蔑诅咒 Curse of Scorn",
           "description": "<p>触碰目标，以一道诅咒枯萎其意志之力，使其<strong>魅力</strong>永久降低 2 点。</p>",
           "effects": [
             {
-              "name": "轻蔑诅咒 Scorn"
+              "name": "轻蔑诅咒 Curse of Scorn"
             }
           ]
         }
@@ -126,11 +126,11 @@
       "description": "<p>你唤出黎明的刺目光芒，穿透你周围的黑暗，照亮该区域，并驱散魔法黑暗的源头。</p>",
       "actions": {
         "dawnBeacon": {
-          "name": "曙光信标 Beacon",
-          "description": "<p>你以当前位置为中心创造一根魔法光柱，形成一个光照圆柱，提供30英尺的明亮光照，以及额外30英尺的微光。该光柱会在原地持续6轮，直到被驱散为止。</p><p>这道魔法光照会对抗魔法黑暗，并摧毁任何起源位于其区域内的魔法黑暗源头。</p><p>光照首次生成时，区域内的敌人必须抵抗一次针对其<strong>坚韧</strong>的攻击，否则会陷入@Condition[blinded]状态，持续一轮。</p><p><strong>WIP：该法术目前尚不会自动创建光源，暂时必须手动完成。最终这将通过 Foundry VTT 第14版中用于模板放置的新框架实现自动化。</strong></p>",
+          "name": "曙光信标 Dawn Beacon",
+          "description": "<p>你以当前位置为中心创造一根魔法光柱，形成一个光照圆柱，提供30英尺的明亮光照，以及额外30英尺的微光。该光柱会在原地持续6轮，直到被驱散为止。</p><p>这道魔法光照会对抗魔法黑暗，并摧毁任何起源位于其区域内的魔法黑暗源头。</p><p>光照首次生成时，区域内的敌人必须抵抗一次针对其<strong>坚韧</strong>的攻击，否则会陷入@Condition[blinded]状态，持续一轮。</p><p><strong>待完成：该法术目前尚不会自动创建光源，暂时必须手动完成。最终这将通过 Foundry VTT 第14版中用于模板放置的新框架实现自动化。</strong></p>",
           "effects": [
             {
-              "name": "曙光信标 Beacon"
+              "name": "曙光信标 Dawn Beacon"
             }
           ]
         }
@@ -141,8 +141,8 @@
       "description": "<p>你召唤出一个充满压迫感的魔法黑暗球体，笼罩视野，并在其区域内扼杀光亮。</p>",
       "actions": {
         "engulfingDarkness": {
-          "name": "吞噬黑暗 Darkness",
-          "description": "<p>你在当前位置周围创造一个半径20英尺的魔法黑暗球体，它会保持在原地持续6轮，直到被驱散为止。</p><p>在这片黑暗区域内，所有非魔法光源都会熄灭，且生物视为处于@Condition[blinded]状态。</p><p>该球体的区域会受到实体墙壁的限制。该区域外的生物无法看入其中，而该区域外的光源其有效照明范围会止于其边界。</p><p><strong>WIP：此法术目前尚不会自动创建一个黑暗源，暂时必须手动完成。未来将使用 Foundry VTT 第14版中用于模板放置的新框架实现自动化。</strong></p>"
+          "name": "吞噬黑暗 Engulfing Darkness",
+          "description": "<p>你在当前位置周围创造一个半径20英尺的魔法黑暗球体，它会保持在原地持续6轮，直到被驱散为止。</p><p>在这片黑暗区域内，所有非魔法光源都会熄灭，且生物视为处于@Condition[blinded]状态。</p><p>该球体的区域会受到实体墙壁的限制。该区域外的生物无法看入其中，而该区域外的光源其有效照明范围会止于其边界。</p><p><strong>待完成：此法术目前尚不会自动创建一个黑暗源，暂时必须手动完成。未来将使用 Foundry VTT 第14版中用于模板放置的新框架实现自动化。</strong></p>"
         }
       }
     },
@@ -181,7 +181,7 @@
       "description": "<p>你让自身<strong>显现</strong>于由不断变幻的<strong>照明</strong>与<strong>阴影</strong>构成的海市蜃楼中，借此掩盖你当前的位置，并使你能够<strong>闪避</strong>来袭的攻击。</p>",
       "actions": {
         "protectiveMirage": {
-          "name": "护佑幻影 Mirage",
+          "name": "护佑幻影 Protective Mirage",
           "description": "<p>你会被三个幻象分身环绕，最多持续 10 轮。任何针对你的传入<strong>打击</strong>，都要承受数量等于你剩余分身数量两倍的<strong>祸骰</strong>。每当一次打击未命中你时，你的一个分身就会消失。</p>",
           "effects": [
             {

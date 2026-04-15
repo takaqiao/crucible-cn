@@ -418,7 +418,7 @@
       "MinimumRange": "所选目标距离小于最小射程 {min} 英尺。",
       "MinimumSize": "你必须至少达到{size}体型才能使用{action}",
       "MisconfiguredSummon": "该{action}没有配置正确的召唤目标。",
-      "MissingSummonEffect": "必须定义 ActiveEffect 数据，以追踪由“{action}”创建的非永久性召唤物",
+      "MissingSummonEffect": "必须定义 主动效果 数据，以追踪由“{action}”创建的非永久性召唤物",
       "MovementTooFar": "计划中的移动路径超出了此动作允许的最大射程。",
       "MovementTooShort": "计划中的移动路径未达到此行动所需的最小射程。",
       "MustFollowStrike": "你只能在进行一次基础打击动作后执行{action}动作",
@@ -738,11 +738,11 @@
         "header": "护甲"
       },
       "BACKPACK": {
-        "empty": "通过将物品从提供的 Crucible 系统 compendium 包中拖放来添加物品。",
+        "empty": "通过将物品从提供的 Crucible 系统 合集包 包中拖放来添加物品。",
         "header": "背包"
       },
       "ICONIC": {
-        "empty": "通过浏览提供的 Crucible 系统 compendium 包来添加标志性法术。",
+        "empty": "通过浏览提供的 Crucible 系统 合集包 包来添加标志性法术。",
         "header": "标志性法术",
         "none": "没有已解锁的标志性法术栏位。"
       },
@@ -1043,7 +1043,7 @@
       "GroupAward": "已将 {number} 个 {label} 授予群组 {name} 及以下成员：",
       "GroupRevoke": "已从组{name}及以下成员中撤销了 {number} 个{label}：",
       "Identifier": "标识符",
-      "IdentifierHint": "里程碑奖励的唯一标识符，必须是 slug（不得包含空格或特殊字符）。",
+      "IdentifierHint": "里程碑奖励的唯一标识符，必须是 标识符（不得包含空格或特殊字符）。",
       "one": "里程碑",
       "other": "里程碑",
       "Recipients": "里程碑获得者",
@@ -1490,7 +1490,7 @@
       "Details": "物品详情",
       "NoAffixCapacity": "此物品的品质过低，无法支持词缀。请将其升级为精良或更高品质。",
       "NoAffixCapacityTitle": "无法附魔",
-      "NoAffixes": "将一个词缀从词缀 compendium 中拖拽出来以应用它。",
+      "NoAffixes": "将一个词缀从词缀 合集包 中拖拽出来以应用它。",
       "UniqueItemTitle": "独特物品",
       "UniqueItemNoAffixes": "此物品是独特的，无法附加词缀进行附魔。它的魔法属性由模块钩子定义。",
       "EnchantmentDerivedHint": "附魔阶级由已施加词缀的总阶级决定。",
@@ -1716,7 +1716,7 @@
         "hint": "在角色创建期间，哪些包将被用作起始装备的来源。",
         "label": "装备来源"
       },
-      "hint": "配置在角色创建期间哪些 compendium 包可用作来源。",
+      "hint": "配置在角色创建期间哪些 合集包 包可用作来源。",
       "label": "配置资料库来源",
       "name": "资料库来源",
       "spell": {
@@ -1733,7 +1733,7 @@
     "AutoConfirmName": "动作自动确认",
     "AutoConfirmNone": "无自动确认",
     "AutoConfirmSelf": "仅限以自身为目标的动作",
-    "CruciblePartyHint": "配置哪个 Group Actor 为主角的主要群体。",
+    "CruciblePartyHint": "配置哪个 群组 Actor 为主角的主要群体。",
     "CruciblePartyLabel": "主要冒险队伍",
     "EnableVFXHint": "当动作被确认时，在画布上播放视觉效果动画。",
     "EnableVFXName": "启用动作视觉效果"
@@ -2279,7 +2279,7 @@
   "WALKTHROUGH": {
     "AbilityPoints": "通过提高你的属性值来花费可用的能力点数。",
     "AddAncestry": "从纲要或物品侧边栏中选择一个血统，并通过拖放将其添加。",
-    "AddBackground": "从Compendium或Items侧边栏中选择一个背景，并通过拖放将其添加。",
+    "AddBackground": "从合集包或Items侧边栏中选择一个背景，并通过拖放将其添加。",
     "ConfigureArchetype": "为该对手配置一个原型。",
     "ConfigureTaxonomy": "为这个对手配置一个分类法。",
     "LevelOne": "将你的角色设为1级，然后开始你的冒险吧！",
