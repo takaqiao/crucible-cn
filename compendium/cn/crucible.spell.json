@@ -18,7 +18,7 @@
   },
   "entries": {
     "Bind Armament": {
-      "name": "绑定武装 Armament",
+      "name": "绑定武装 Bind Armament",
       "description": "<p>你将当前主手已装备的武器绑定为你的束缚武装。</p><p>在绑定期间，你可以不消耗任何资源，将该武器召唤到一只空闲的手中。无论距离多远，你都可以召唤这把武器，即使它已被<strong>缴械</strong>。</p>",
       "actions": {
         "bindArmament": {
@@ -32,7 +32,7 @@
       }
     },
     "Curse of Atrophy": {
-      "name": "萎缩诅咒 Atrophy",
+      "name": "萎缩诅咒 Curse of Atrophy",
       "description": "<p>你削弱目标的体力，使其肌肉萎缩并虚弱下来，而且这种衰弱无法通过普通的休息或恢复来消除。</p>",
       "actions": {
         "curseAtrophy": {
@@ -47,7 +47,7 @@
       }
     },
     "Curse of Delusion": {
-      "name": "妄想诅咒 Delusion",
+      "name": "妄想诅咒 Curse of Delusion",
       "description": "<p>你使目标的头脑变得混沌，永久损害其察觉与判断力，而且这种损害无法通过普通治疗恢复。</p>",
       "actions": {
         "curseDelusion": {
@@ -62,7 +62,7 @@
       }
     },
     "Curse of Dullness": {
-      "name": "迟钝诅咒 Dullness",
+      "name": "迟钝诅咒 Curse of Dullness",
       "description": "<p>你令目标体内的智慧火花黯淡下来，永久损害其迅速思考与推理的能力，而这种损伤并非仅靠休息就能修复。</p>",
       "actions": {
         "curseDullness": {
@@ -77,7 +77,7 @@
       }
     },
     "Curse of Exhaustion": {
-      "name": "疲惫诅咒 Exhaustion",
+      "name": "疲惫诅咒 Curse of Exhaustion",
       "description": "<p>你汲取目标的生命韧性，使其在体质上变得虚弱，而且这种状态会持续，无法通过任何普通的恢复手段消除。</p>",
       "actions": {
         "curseExhaustion": {
@@ -92,7 +92,7 @@
       }
     },
     "Curse of Lethargy": {
-      "name": "倦怠诅咒 Lethargy",
+      "name": "倦怠诅咒 Curse of Lethargy",
       "description": "<p>你扼灭了目标体内迅捷的火花，使其反应变得迟钝，并让其身体的应对速度减缓，而且这种影响会永久持续。</p>",
       "actions": {
         "curseLethargy": {
@@ -107,7 +107,7 @@
       }
     },
     "Curse of Scorn": {
-      "name": "轻蔑诅咒 Scorn",
+      "name": "轻蔑诅咒 Curse of Scorn",
       "description": "<p>你削弱目标人格的力量，使其不再那么有感染力，也更难让他人听从，而且这种影响被证明是永久性的。</p>",
       "actions": {
         "curseScorn": {
@@ -122,7 +122,7 @@
       }
     },
     "Dawn Beacon": {
-      "name": "曙光信标 Beacon",
+      "name": "曙光信标 Dawn Beacon",
       "description": "<p>你唤出黎明的刺目光芒，穿透你周围的黑暗，照亮该区域，并驱散魔法黑暗的源头。</p>",
       "actions": {
         "dawnBeacon": {
@@ -137,7 +137,7 @@
       }
     },
     "Engulfing Darkness": {
-      "name": "吞噬黑暗 Darkness",
+      "name": "吞噬黑暗 Engulfing Darkness",
       "description": "<p>你召唤出一个充满压迫感的魔法黑暗球体，笼罩视野，并在其区域内扼杀光亮。</p>",
       "actions": {
         "engulfingDarkness": {
@@ -177,7 +177,7 @@
       }
     },
     "Protective Mirage": {
-      "name": "护佑幻影 Mirage",
+      "name": "护佑幻影 Protective Mirage",
       "description": "<p>你让自身<strong>显现</strong>于由不断变幻的<strong>照明</strong>与<strong>阴影</strong>构成的海市蜃楼中，借此掩盖你当前的位置，并使你能够<strong>闪避</strong>来袭的攻击。</p>",
       "actions": {
         "protectiveMirage": {

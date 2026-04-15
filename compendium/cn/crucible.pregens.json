@@ -374,7 +374,7 @@
           "description": "<p>你向远处的目标掷出一枚灌注了符文魔力的投射物。</p><p>箭头手势基于<strong>智力</strong>进行成长，并以60英尺内的单个生物为目标；未能抵抗该法术的目标会受到<strong>8基础伤害</strong>。施放此手势需要<strong>1只手</strong>，基础消耗为<strong>3动作</strong>和<strong>1专注</strong>。</p>"
         },
         "Gesture: Step": {
-          "name": "手势：踏步 手势: 踏步 Step",
+          "name": "手势：踏步 Step",
           "description": "<p>你将符文之力注入一个移动之中，穿越物理与空间的边界。</p><p><strong>踏步</strong>手势会随<strong>敏捷</strong>成长，并允许你沿一直线移动最多 20 英尺，其宽度等于你的<strong>体型</strong>。对该直线上的未能抵抗此法术的目标造成<strong>2 基础伤害</strong>。施放此手势不需要任何空闲的手，且其基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋的移动部分尚未自动化，必须作为此法术的结果手动执行。</p>"
         },
         "Mark Prey": {
@@ -532,7 +532,7 @@
           }
         },
         "Gesture: Blast": {
-          "name": "手势：爆破 手势: Blast",
+          "name": "手势：爆破 Blast",
           "description": "<p>你将一个符文的奥术力量投掷到附近你能看见的一点，引发一场剧烈的能量爆炸。</p><p><strong>爆裂</strong>手势会随<strong>智力</strong>成长，并在施法者60英尺内的一点为中心产生一个半径6英尺的爆炸范围。该爆炸会对未能抵抗此法术的目标造成<strong>8基础伤害</strong>。施放此手势需要<strong>2只手</strong>，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前位于一个<strong>第4阶</strong>节点。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为了测试而提前开放。</p>"
         },
         "Gesture: Arrow": {
@@ -540,7 +540,7 @@
           "description": "<p>你将一枚灌注了符文魔法力量的投射物掷向远处的目标。</p><p>手势：箭头基于<strong>智力</strong>进行加成，并以60英尺内的单个生物为目标，对未能抵抗该法术的目标造成<strong>8基础伤害</strong>。施放该手势需要<strong>1只手</strong>，基础消耗为<strong>3动作</strong>和<strong>1专注</strong>。</p>"
         },
         "Gesture: Strike": {
-          "name": "手势：打击 手势: 打击 Strike",
+          "name": "手势：打击 Strike",
           "description": "<p>你以符文的奥术精华强化一次近距离直接攻击，使用你已装备的武器进行一次打击。</p><p>该打击手势按<strong>力量</strong>进行成长，并基于你所用武器造成伤害，但其伤害类型变为所融入符文的类型。此手势不需要任何空闲手，且除你的武器打击消耗外，基础消耗还需额外<strong>1 专注</strong>。</p>"
         },
         "Glaive": {
@@ -1205,7 +1205,7 @@
           }
         },
         "Gesture: Ward": {
-          "name": "手势：防护 手势: Ward",
+          "name": "手势：防护 Ward",
           "description": "<p>你将符文中的奥术力量塑造成一道保护屏障，用以护卫自己免受伤害。</p><p>Ward手势按<strong>坚韧</strong>进行缩放，并使你针对该法术所用符文的<strong>伤害类型</strong>获得<strong>+6 抗性</strong>。该抗性持续<strong>1 轮</strong>，且你同一时间只能拥有一个Ward。施放另一个使用Ward手势的法术会替换你先前的Ward。此手势需要<strong>1 只手</strong>来施放，基础消耗为<strong>2 动作</strong>和<strong>1 专注</strong>。</p>"
         },
         "Heavy Weapon Training": {

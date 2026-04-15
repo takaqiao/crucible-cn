@@ -39,7 +39,7 @@
   "folders": {},
   "entries": {
     "Playtest 1 - The Ring of Valor": {
-      "name": "试玩测试 1 - 英勇之戒 Valor",
+      "name": "试玩测试 Playtest 1 - The Ring of Valor",
       "caption": "在“英勇之戒”中检验你的勇气吧，这是一款 Crucible 游戏系统目前首个开放的试玩测试。",
       "description": "<p><em>英勇之戒</em>是对《Crucible》中角色成长与战斗机制的引导式引言，让玩家扮演一支英雄队伍，面对一连串不断升级的挑战。</p>",
       "scenes": {
@@ -80,15 +80,15 @@
               "text": "<p>在第三场挑战中，4名3级英雄将与死灵法师奥里维奇及其骷髅大军展开对决！</p><ul><li><p>@UUID[Actor.JuobjWohGACVeoyn]{奥里维奇}（3级 Boss）</p><ul><li><p>召唤了 @UUID[Compendium.crucible.summons.Actor.56puGK932Qc0cowe]{死亡造物}（1级 仆从）</p></li></ul></li><li><p>6x @UUID[Actor.aQkmEcwfImmdUINF]{骷髅枪兵}（1级 仆从）</p></li><li><p>6x @UUID[Actor.7jL3UmgXbqxXKClM]{骷髅弓箭手}（1级 仆从）</p></li></ul><p><strong>主角威胁</strong>：3 × 4 = 12</p><p><strong>对手威胁</strong>：6 + (½ × 6) + (½ × 6) = 12</p><p><strong>遭遇难度</strong>：致命</p><h2 class=\"divider\">引言</h2><p>在这场挑战中，队伍被要求背靠竞技场北侧的悬崖列队。</p><blockquote><p>“欢迎各位再次来到英勇之戒，迎接我们这场扣人心弦的试炼在第3天的赛事！今天，我们将重现历史上的一场著名战役。这几位勇敢的斗士，背临湮灭深渊的边缘，迎战可怖的死灵法师奥里维奇和他的骷髅军团！”</p><p>人群发出兴奋的吼声，热切期待着奥里维奇和他的骷髅爪牙从南侧台阶现身，进入竞技场。</p></blockquote><p>奥里维奇和骷髅们从南侧入口出现，并在遭遇开始前摆出战斗阵型！</p><h2 class=\"divider\">战术</h2><p>奥里维奇会采取防御性的打法，依靠他的骷髅军团制服敌人。作为 Boss 敌人，奥里维奇每轮拥有<strong>10 动作</strong>，并且会在大多数法术上使用<strong>组合</strong>词缀以节省<strong>专注</strong>，并将剩余的动作用于<strong>恢复专注</strong>。</p><p>奥里维奇的战术核心是使用<strong>创造</strong>手势来召唤更多的 @UUID[Compendium.crucible.summons.Actor.56puGK932Qc0cowe]{死亡造物} 爪牙。由于拥有<strong>召唤师</strong>天赋，奥里维奇最多可同时维持3个这样的爪牙。若直接受到威胁，他会使用<strong>Push </strong>词缀强行将敌人向后推开。</p><p>骷髅弓箭手会用<strong>打击</strong>集中火力攻击奥里维奇指定的目标，并使用<strong>闪避射击</strong>来调整位置。骷髅枪兵则会冲上前去牵制敌方战士并阻挡他们的去路，试图用<strong>扫腿</strong>将其绊倒。</p><h2 class=\"divider\">晋升</h2><p>当奥里维奇被击败时，战斗结束。死灵法师倒下时，他的骷髅爪牙也会随他一同化为尘土。观众对队伍的表现十分满意，解说员宣布队伍将在明天返回参加另一场比赛。</p><p>队伍将获得一次休息的机会，使用恢复动作，并提升1级晋升至4级。所有英雄还可以将其已装备武器的品质提升至<strong>Fine</strong>。休息后，试炼将继续进行，进入 @UUID[.hEpGF7rbNFVUMm86]{第4天 - Koy Rent}。</p>"
             },
             "Day Four - Koy Rent": {
-              "name": "第4天 - 科伊·伦特 Rent",
+              "name": "第4天 - Rent",
               "text": "<p>在这第四项挑战中，4名4级英雄将与狼人威胁科伊·伦特正面对决。</p><ul><li><p>@UUID[Actor.3sGYsiKtgYLLkadw]{科伊·伦特}（7级Boss）</p></li></ul><p><strong>主角威胁</strong>：4 × 4 = 16</p><p><strong>对手威胁</strong>：14</p><p><strong>遭遇难度</strong>：困难</p><h2 class=\"divider\">引言</h2><p>在这项挑战中，队伍在竞技场东侧集结。</p><blockquote><p>“今天的比赛很特别——一位退役冠军将回归，参加一日限定的表演赛！各位，你们认识他，你们喜爱他，他在这里，他在那里，他无处不在！——科伊·伦特！伦特在一次重伤后离开了擂台，在观众理解的欢呼声中告别了胜利的赛场。如今他重返赛场，我们不禁要问：他会再次攀上冠军之位，还是会败给这些新的挑战者？”</p></blockquote><p>科伊·伦特从西侧入口进入竞技场，并立刻发动攻击！</p><h2 class=\"divider\">战术</h2><p>科伊·伦特是一名强大的战士。作为一名7级Boss，他拥有可观的生命值和士气池，队伍几乎不可能在正面近战中扛住他的猛攻。</p><p>伦特会使用<strong>凶暴嚎叫</strong>施加<strong>恐慌</strong>状态，并迅速移动，拉近距离进入近战范围，尽可能贴近更多敌人。面对单个目标时，伦特会使用<strong>连击</strong>，以无情的爪击猛攻迅速将其压制，并通过<strong>放血者</strong>天赋造成额外的流血伤害。</p><p>队伍不可能在近战中承受这轮猛攻，因此必须仔细思考该如何拖慢科伊·伦特。</p><h2 class=\"divider\">晋升</h2><p>当科伊·伦特被击败时，战斗结束。观众对队伍的表演很满意，解说员宣布队伍将在明天回归，参加另一场比赛。</p><p>队伍将获得一次休息机会，使用<strong>恢复</strong>动作，并提升1级；晋升至5级。所有英雄还可以将其已装备护甲的品质提升至<strong>精良</strong>。队伍将在次日返回，面对@UUID[.sISxZXCLNvpjkY02]{第5天 - 虚空先驱者}。</p>"
             },
             "Day Five - Void Harbingers": {
-              "name": "第5天 - 虚空先驱者 Harbingers",
+              "name": "第5天 - Harbingers",
               "text": "<p>在这项挑战中，4名5级英雄将对阵三名虚空先驱者：</p><ul><li><p>@UUID[Actor.YVvIKp7fUIduZchE]{恐惧先驱}（L4 精英）</p></li><li><p>@UUID[Actor.TZT7ybsmI8yV5hWg]{疫病先驱}（L4 精英）</p></li><li><p>@UUID[Actor.CTpEm0WlmFAAosBD]{疯狂先驱}（L4 精英）</p></li></ul><p><strong>主角威胁</strong>：4 × 5 = 20</p><p><strong>对手威胁</strong>：3 × 6 = 18</p><p><strong>遭遇难度</strong>：致命</p><h2 class=\"divider\">引言</h2><blockquote><p>“今晚我们将迎来真正令人热血沸腾的场面，因为召唤师们从暗影帷幕彼端的领域中 conjured 出了一项全新的挑战！女士们、先生们，从现实边缘之外最黑暗的幽深角落与阈限空间而来，欢迎来到英勇之戒：虚空先驱者！”</p></blockquote><h2 class=\"divider\">战术</h2><p><strong>恐惧先驱</strong>是一名以恐惧思绪为食的机动型掠食者。它会使用<strong>以太扭曲</strong>在战场上自由穿梭，并以<strong>Eldritch Emanataion</strong>对成群敌人施加恐惧。一旦它孤立出一名处于恐慌中的敌人，便会用它的灵能巨口进行<strong>打击</strong>。</p><p><strong>疫病先驱</strong>是瘟疫的传播者，会利用它的<strong>疫病鞭笞</strong>能力施加<strong>染病</strong>状态。这名先驱者也具有施法能力，会借此进一步吸取生命与士气，对成群敌人使用<strong>脉冲</strong>手势，或以<strong>影响</strong>针对单个目标。</p><p><strong>疯狂先驱</strong>是一名精神层面的掠食者，它会先逼近到近战距离，再对成群敌人使用<strong>精神鞭笞</strong>能力，或对单个敌人施展<strong>Devour Thoughts</strong>。</p><h2 class=\"divider\">晋升</h2><p>当三名先驱者全部被击败时，战斗结束。观众对队伍的表演感到满意，解说员宣布队伍将于明天返回参加另一场比赛。</p><p>队伍获得一次休息、使用<strong>恢复</strong>动作并提升等级的机会；晋升至6级。所有英雄还可以将其已装备<strong>护甲</strong>的品质提升至<strong>精良</strong>。队伍将在次日返回，面对 @UUID[.UxIXSvvJCdqx2Tar]{第六天 - 镜像对决}。</p>"
             },
             "Day Six - Mirror Match": {
-              "name": "第6天 - 镜像对决 Match",
+              "name": "第6天 - Match",
               "text": "<p>在这场最终挑战中，4名6级英雄将与一支由4名6级英雄组成的敌对冒险队伍正面对决。</p><ul><li><p>@UUID[Actor.iLUfMcYjAbZFY4CJ]{Duurath}（6级）</p></li><li><p>@UUID[Actor.0crVYYsPvV9KDEJ2]{Belladonna}（6级）</p></li><li><p>@UUID[Actor.2lvTCCOj4dnBI774]{艾利奥文}（6级）</p></li><li><p>@UUID[Actor.Il4NDaNBdHNcjJ9d]{Kagura}（6级）</p></li></ul><p><strong>主角威胁</strong>：4 × 6 = 24</p><p><strong>对手威胁</strong>：4 × 6 = 24</p><p><strong>遭遇难度</strong>：致命</p><h2 class=\"divider\">引言</h2><blockquote><p>“好，好……你们的勇士已经证明了自己，击败了这座竞技场所能提供的所有强大对手，所以现在，是时候让他们与往届赛事中那些声名显赫的老将与冠军一较高下了。准备迎接一场冠军之战吧！”</p></blockquote><p>这是一项尤其困难的挑战，因为对方的四名英雄都经过了单独优化，并且作为团队配合得极好。</p><h2 class=\"divider\">战术</h2><p>本挑战中的每个对手都作为一名英雄式主角运作，拥有各自的一系列天赋、动作和装备。</p><h4>Duurath</h4><p><strong>Duurath </strong>是一名危险的近战战斗者，拥有很高的<strong>交战</strong>、强大的物理防御，以及能够打击敌人士气并令其恐惧的<strong>恐惧领主</strong>签名天赋。Duurath会使用<strong>盾牌冲锋</strong>逼近敌方战斗者，并利用<strong>节奏</strong>打出高额伤害，或在格挡来袭攻击时使用<strong>反击</strong>进行报复。防御方面，Duurath可以使用<strong>Kinetic Ward</strong>来保护自己，免受所选类型的物理伤害。</p><h4>Belladonna</h4><p><strong>Belladonna</strong>是一名狡猾而难以捉摸的近战战斗者，拥有<strong>下毒者</strong>天赋。战斗开始时，她会启动<strong>毒刃</strong>。她会对敌方法术施放者使用<strong>分散注意力</strong>来消耗其<strong>专注</strong>，并使用<strong>战斗医疗</strong>恢复盟友的生命值。Belladonna会寻找更脆弱的敌方战斗者，必要时使用<strong>翻滚</strong>接近至近战范围，并以<strong>连击</strong>迅速施加伤害和中毒状态。</p><h4>艾利奥文</h4><p><strong>艾利奥文</strong>是一名致命的弓箭手，凭借她的<strong>奥术弓手</strong>天赋，将闪电法术灌注到她的长弓射击之中。艾利奥文会识别出一个危险的敌人，并以<strong>标记猎物</strong>锁定对方，降低其对她自己及其盟友的防御。她会使用<strong>精准射击</strong>配合降低消耗的<strong>Voltaic 箭头</strong>，从远距离稳定地持续输出伤害。</p><h4>Kagura</h4><p><strong>Kagura</strong>是一名多用的支援角色，能够治疗盟友的身心。她会使用<strong>生命</strong>符文，并通过<strong>影响</strong>、<strong>脉冲</strong>或<strong>射线</strong>手势之一来触发其<strong>修补匠</strong>天赋带来的额外治疗。Kagura还可以通过谨慎运用<strong>组合</strong>词缀以及<strong>节省精力</strong>，几乎无限期地维持治疗。Kagura会避免直接对抗，而是脱离战斗并寻求盟友的保护。</p><h2 class=\"divider\">晋升</h2><p>当四名对手全部被击败时，这场战斗即告结束。观众会为队伍的表演激动不已，并将他们欢庆为英勇之戒的永恒冠军。目前英勇之戒暂无更多预定活动，但如果你希望继续测试，为队伍即兴设计新的挑战，请参见 @UUID[.aNlzMnfUkwpLrSox]{Further Challenges}。</p>"
             },
             "Further Challenges": {
@@ -210,11 +210,11 @@
               "description": "你对自己武器装备的掌控稳固而坚定。你在持用双手近战武器时，仍可执行需要空出一只手的动作。试图缴械你时，攻击者的检定获得+2祸骰。"
             },
             "Hammer Toss": {
-              "name": "锤子投掷 锤 Toss",
+              "name": "锤子投掷 Toss",
               "description": "铁砧抓住锤，把锤子掷进混战之中。",
               "actions": {
                 "hammerToss": {
-                  "name": "锤子投掷 锤 Toss",
+                  "name": "锤子投掷 Toss",
                   "description": "<p>锤子抓住铁砧，并将他猛掷至多10格，在兽人军阀落地处的效果区域内造成伤害。</p>",
                   "condition": "锤子与铁砧相邻。"
                 }
@@ -791,10 +791,10 @@
           }
         },
         "Harbinger of Madness": {
-          "name": "疯狂先驱者 先驱者 Madness",
+          "name": "疯狂先驱者 Madness",
           "tokenName": "疯狂先驱者 先驱者 of 疯狂",
           "archetype": {
-            "name": "心灵扭曲者 先驱者 Mindwarper",
+            "name": "心灵扭曲者 Mindwarper",
             "description": "一种庞大的生物，会摧毁目睹它的人类理智。"
           },
           "taxonomy": {
@@ -963,7 +963,7 @@
               "description": "你对自己武器的掌握稳固而不容动摇。你可以在持用双手近战武器时，执行需要空手的动作。试图缴械你时，攻击方承受+2祸骰。"
             },
             "Gesture: Strike": {
-              "name": "手势：打击 手势: 打击 Strike",
+              "name": "手势：打击 Strike",
               "description": "<p>你以符文的奥术精华强化一次直接的近距离攻击，使用你已装备的武器进行一次打击。</p><p>该打击手势基于<strong>力量</strong>进行成长，造成的伤害取决于你所用的武器，但其伤害类型为所融入符文的伤害类型。此手势不需要任何空闲手，且除你的武器打击消耗外，基础消耗还需<strong>1专注</strong>。</p>"
             },
             "Powerful Physique": {
@@ -1056,7 +1056,7 @@
               "description": "<p>你极其擅长编织火焰符文。使用该符文的法术在暴击时会造成 @Condition[burning]。</p><p>燃烧效果持续 <strong>1 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>造成等同于你的<strong>智力</strong>数值的<strong>火焰</strong>伤害。</p>"
             },
             "Gesture: Blast": {
-              "name": "手势：爆破 手势: Blast",
+              "name": "手势：爆破 Blast",
               "description": "<p>你将一个符文的奥术力量猛掷到附近一个你能看见的点上，引发一场强烈的能量爆破。</p><p><strong>爆破</strong>手势随<strong>智力</strong>而成长，并在施法者60英尺内的一个点上制造一次半径6英尺的爆破。若目标未能抵抗该法术，爆破会造成<strong>8基础伤害</strong>。此手势需要<strong>2只手</strong>施放，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋当前位于一个<strong>第4阶</strong>节点上。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为测试而“提前”开放。</p>"
             },
             "Rune: Lightning": {
@@ -1375,7 +1375,7 @@
               }
             },
             "Gesture: Ward": {
-              "name": "手势：防护 手势: Ward",
+              "name": "手势：防护 Ward",
               "description": "<p>你将符文中的奥术力量塑造成一道保护屏障，用以保护自己免受伤害。</p><p>Ward手势以<strong>坚韧</strong>进行倍率计算，并针对该法术中所用符文的伤害类型提供<strong>+6 抗性</strong>。该抗性持续<strong>1 轮</strong>，且你同一时间只能拥有一个Ward。使用Ward手势施放另一道法术会替代你先前的Ward。该手势需要<strong>1 只手</strong>来施放，基础消耗为<strong>2 动作</strong>和<strong>1 专注</strong>。</p>"
             },
             "Body Block": {
@@ -1696,7 +1696,7 @@
               "description": "<p>你在使用投射武器方面受过熟练的训练。你获得<strong>熟练工</strong>训练等级，并在<strong>投射</strong><strong>类别</strong>的武器上获得<strong>+1技能加值</strong>。</p>"
             },
             "Gesture: Step": {
-              "name": "手势：踏步 手势: 踏步 Step",
+              "name": "手势：踏步 Step",
               "description": "<p>你将符文之力灌注进一次移动中，跨越物理与空间的边界。</p><p>踏步手势随<strong>敏捷</strong>成长，并允许你沿直线移动最多20英尺，宽度等于你的<strong>体型</strong>。它会对该直线上的目标造成<strong>2基础伤害</strong>，前提是这些目标未能抵抗该法术。施放此手势不需要任何空闲的手，其基础消耗为<strong>3动作</strong>和<strong>1专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>此天赋的移动部分尚未自动化，必须作为该法术的结果手动执行。</p>"
             },
             "Skirmisher": {
