@@ -4,10 +4,10 @@
     "description": "system.description"
   },
   "folders": {
+    "Humanoids": "Humanoids",
     "Dragons": "Dragons",
     "Constructs": "Constructs",
     "Elementals": "Elementals",
-    "Humanoids": "Humanoids",
     "Beasts": "Beasts"
   },
   "entries": {
@@ -19,6 +19,22 @@
       "name": "Archer",
       "description": "Ranged combatants with training is the use of bows."
     },
+    "Brigand": {
+      "name": "Brigand",
+      "description": "<p>Villainous lawbreakers whether they be bandits, pirates, ruffians, or other knaves.</p>"
+    },
+    "Commonfolk": {
+      "name": "Commonfolk",
+      "description": "<p>Ordinary citizens of the world who have no exceptional adventuring skills or abilities.</p>"
+    },
+    "Scout": {
+      "name": "Scout",
+      "description": "<p>Individuals trained in reconnaissance and advance exploration of unknown areas.</p>"
+    },
+    "Spellblade": {
+      "name": "Spellblade",
+      "description": "<p>Spellblades are magically empowered warriors who weave spellcraft into their weapon attacks to create devastating strikes.</p>"
+    },
     "Bard": {
       "name": "Bard",
       "description": "<p>You practice the oral and musical traditions of heroic storytelling to inspire courage in your allies, demoralize your foes, and be quick with unconventional solutions to problems.</p>"
@@ -27,10 +43,6 @@
       "name": "Berserker",
       "description": "A rage-fueled warrior which prefers two-handed attacks using Heavy weapons."
     },
-    "Brigand": {
-      "name": "Brigand",
-      "description": "<p>Villainous lawbreakers whether they be bandits, pirates, ruffians, or other knaves.</p>"
-    },
     "Burrower": {
       "name": "Burrower",
       "description": "<p>Beasts or beast-like creatures which are expert at burrowing through solid material.</p>"
@@ -38,10 +50,6 @@
     "Chomper": {
       "name": "Chomper",
       "description": "<p>Beasts that rely on vicious bites from their oversized mouths.</p>"
-    },
-    "Commonfolk": {
-      "name": "Commonfolk",
-      "description": "<p>Ordinary citizens of the world who have no exceptional adventuring skills or abilities.</p>"
     },
     "Drakeling": {
       "name": "Drakeling",
@@ -67,6 +75,10 @@
       "name": "Fighter",
       "description": "Hardened melee combatants expert at weilding one-handed weaponry, shield, and heavy armor."
     },
+    "Geomancer": {
+      "name": "Geomancer",
+      "description": "<p>Mages that specialize in the runes of Earth and Flame.</p>"
+    },
     "Grappler": {
       "name": "Grappler",
       "description": "Fighters who specialize in physically restraining their adversaries and rendering them susceptible to further attacks."
@@ -74,6 +86,10 @@
     "Guardian Beast": {
       "name": "Guardian Beast",
       "description": "<p>Beasts that serve as guardians, standing watch over places or people to whom they are unwaveringly loyal.</p>"
+    },
+    "Herd Beast": {
+      "name": "Herd Beast",
+      "description": "<p>Cattle, beasts of burden, and other prey animals that congregate in herds.</p>"
     },
     "Justiciar": {
       "name": "Justiciar",
@@ -111,10 +127,6 @@
       "name": "Protector",
       "description": "<p>Stalwart warriors who interpose themselves between their allies and peril, seeking foremost to protect themselves and others from harm.</p>"
     },
-    "Scout": {
-      "name": "Scout",
-      "description": "<p>Individuals trained in reconnaissance and advance exploration of unknown areas.</p>"
-    },
     "Servitor": {
       "name": "Servitor",
       "description": "<p>Creatures which are specialized in espionage or performing tasks in remote service of a controlling master.</p>"
@@ -126,10 +138,6 @@
     "Skirmisher": {
       "name": "Skirmisher",
       "description": "A relentless and determined melee combatant that uses a mix of agility and power to subdue foes."
-    },
-    "Spellblade": {
-      "name": "Spellblade",
-      "description": "<p>Spellblades are magically empowered warriors who weave spellcraft into their weapon attacks to create devastating strikes.</p>"
     },
     "Swashbuckler": {
       "name": "Swashbuckler",
