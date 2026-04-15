@@ -112,7 +112,7 @@
       "actions": {
         "curseScorn": {
           "name": "轻蔑诅咒 Scorn",
-          "description": "<p>触碰目标，以一道诅咒枯萎其意志之力，使其<strong>气场</strong>永久降低 2 点。</p>",
+          "description": "<p>触碰目标，以一道诅咒枯萎其意志之力，使其<strong>魅力</strong>永久降低 2 点。</p>",
           "effects": [
             {
               "name": "轻蔑诅咒 Scorn"

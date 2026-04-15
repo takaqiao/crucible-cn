@@ -170,11 +170,11 @@
       }
     },
     "Assess Strength": {
-      "name": "评估力量 Strength",
+      "name": "评估力量 力量",
       "description": "<p>你花一点时间观察一个你能看见的生物，并对其擅长的领域形成直觉。</p>\n<p>使用由游戏主持人选择的一项技能进行一次<strong>知识检定</strong>。成功时，你会得知该生物的哪一种防御类型最高：物理、坚韧、意志或反射。若大成功，你会得知其最高的两种防御类型。</p>",
       "actions": {
         "assessStrength": {
-          "name": "评估力量 Strength",
+          "name": "评估力量 力量",
           "description": "<p>你观察一个你能看见的生物，以评估其显著的强项。</p>"
         }
       }
@@ -243,7 +243,7 @@
       "description": "<p>你的<strong>身体</strong>已经承受了太多伤害，因此学会了如何以惊人的效率自行愈合。当你执行<strong>休息</strong><strong>动作</strong>时，你额外<strong>恢复</strong>等于你<strong>坚韧</strong>属性值一半（向下取整）的<strong>创伤</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>此<strong>天赋</strong>尚未实现自动化。休息时请手动应用额外的创伤恢复。</p>"
     },
     "Battle Focus": {
-      "name": "战斗专注 Focus",
+      "name": "战斗专注 专注",
       "description": "你在战斗的刺激中找到专注与平静。每当你造成对生命值或士气造成伤害的<strong>暴击</strong>时，你获得 +1 专注。此收益每轮至多触发一次。"
     },
     "Beastmaster": {
@@ -483,7 +483,7 @@
     },
     "Defiant Will": {
       "name": "不屈意志 Will",
-      "description": "<p>随着你的身体变得虚弱，你的心灵愈发坚韧。你获得等同于你的<strong>Toughness</strong>数值、并按你已失去的<strong>生命值</strong>比例缩放的额外<strong>意志</strong>防御。</p>"
+      "description": "<p>随着你的身体变得虚弱，你的心灵愈发坚韧。你获得等同于你的<strong>坚韧</strong>数值、并按你已失去的<strong>生命值</strong>比例缩放的额外<strong>意志</strong>防御。</p>"
     },
     "Deft Grip": {
       "name": "灵巧握持 Grip",
@@ -563,11 +563,11 @@
       "description": "<p>你在战场上散发出可怖的威势，考验着附近目睹你的敌人的士气，并击溃那些意志薄弱者的决心。</p>",
       "actions": {
         "formidablePresence": {
-          "name": "威严气场 Presence",
+          "name": "威严魅力 魅力",
           "description": "<p>你对12英尺内的敌人的意志防御进行一次威吓技能攻击，对其士气造成虚空伤害；若你超过其防御，则使其陷入恐慌状态，持续1轮。</p>",
           "effects": [
             {
-              "name": "威严气场 Presence"
+              "name": "威严魅力 魅力"
             }
           ]
         }
@@ -636,7 +636,7 @@
     },
     "Eye of the Storm": {
       "name": "风暴之眼 Storm",
-      "description": "<p>在你延迟自己的回合后，若你对本轮中因你让其先于你行动的敌人进行任何打击或法术攻击，则获得+2恩惠骰。</p><p>TODO: 需要自动化。目前请手动施加恩惠骰。</p>"
+      "description": "<p>在你延迟自己的回合后，若你对本轮中因你让其先于你行动的敌人进行任何打击或法术攻击，则获得+2惠骰。</p><p>TODO: 需要自动化。目前请手动施加惠骰。</p>"
     },
     "Fan of Arrows": {
       "name": "箭雨扇射 Arrows",
@@ -786,11 +786,11 @@
     },
     "Gesture: Influence": {
       "name": "手势：影响 Influence",
-      "description": "<p>你将符文的奥术力量强化为一种集中的直接接触，这通常是基础触碰手势的更强力进阶形态。</p><p>影响手势使用<strong>Presence</strong>进行成长，并以一个邻近的单一生物为目标。它对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。此手势需要<strong>1 只手</strong>来施放，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
+      "description": "<p>你将符文的奥术力量强化为一种集中的直接接触，这通常是基础触碰手势的更强力进阶形态。</p><p>影响手势使用<strong>魅力</strong>进行成长，并以一个邻近的单一生物为目标。它对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。此手势需要<strong>1 只手</strong>来施放，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
     },
     "Gesture: Pulse": {
       "name": "手势：脉冲 Pulse",
-      "description": "<p>将符文中的奥术力量释放出来，以你为中心向外扩散成一片区域。</p><p>脉冲手势按<strong>Presence</strong>进行缩放，产生一个半径10英尺的散发区域，对未能抗拒该法术的目标造成<strong>8基础伤害</strong>。该手势施放需要<strong>双手</strong>，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前放置在一个<strong>第4阶</strong>节点上。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为了测试而“提前”开放。</p>"
+      "description": "<p>将符文中的奥术力量释放出来，以你为中心向外扩散成一片区域。</p><p>脉冲手势按<strong>魅力</strong>进行缩放，产生一个半径10英尺的散发区域，对未能抗拒该法术的目标造成<strong>8基础伤害</strong>。该手势施放需要<strong>双手</strong>，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前放置在一个<strong>第4阶</strong>节点上。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为了测试而“提前”开放。</p>"
     },
     "Gesture: Ray": {
       "name": "手势：射线 Ray",
@@ -841,7 +841,7 @@
       "actions": {
         "headbutt": {
           "name": "头槌攻击 Headbutt",
-          "description": "<p>对相邻敌人的<strong>坚韧</strong><strong>防御</strong>进行一次徒手<strong>打击</strong>。如果你的<strong>先攻</strong>高于你的<strong>目标</strong>，则此次攻击获得<strong>+1 恩惠骰</strong>。</p><p>此次攻击是<strong>困难</strong>的，且只造成<strong>虚弱</strong>伤害，但如果成功，则会使其陷入 @Condition[staggered]，持续一轮。</p><p>此行动始终使用徒手武器，即使你的武器槽位已被其他武器占用也是如此。</p>",
+          "description": "<p>对相邻敌人的<strong>坚韧</strong><strong>防御</strong>进行一次徒手<strong>打击</strong>。如果你的<strong>先攻</strong>高于你的<strong>目标</strong>，则此次攻击获得<strong>+1 惠骰</strong>。</p><p>此次攻击是<strong>困难</strong>的，且只造成<strong>虚弱</strong>伤害，但如果成功，则会使其陷入 @Condition[staggered]，持续一轮。</p><p>此行动始终使用徒手武器，即使你的武器槽位已被其他武器占用也是如此。</p>",
           "effects": [
             {}
           ]
@@ -954,7 +954,7 @@
     },
     "Inspirator": {
       "name": "鼓舞者 Inspirator",
-      "description": "<p>你极其擅长编织灵魂符文。使用该符文的法术在暴击时会造成 @Condition[inspired] 状态。</p><p>鼓舞效果持续<strong>1 轮</strong>，并额外对<strong>士气</strong>施加等同于你<strong>Presence</strong>数值的<strong>恢复</strong>。</p>"
+      "description": "<p>你极其擅长编织灵魂符文。使用该符文的法术在暴击时会造成 @Condition[inspired] 状态。</p><p>鼓舞效果持续<strong>1 轮</strong>，并额外对<strong>士气</strong>施加等同于你<strong>魅力</strong>数值的<strong>恢复</strong>。</p>"
     },
     "Inspire Heroism": {
       "name": "激励英勇 Heroism",
@@ -1073,7 +1073,7 @@
     },
     "Kineturge": {
       "name": "念动力术师 Kineturge",
-      "description": "<p>你对编织念动力符文极为娴熟。使用该符文的法术在造成暴击时会施加@Condition[bleeding]状态。</p><p>流血效果会持续<strong>1 轮</strong>，并将你的<strong>Presence</strong>属性值作为额外的<strong>Piercing</strong>伤害施加到<strong>生命值</strong>上。</p>"
+      "description": "<p>你对编织念动力符文极为娴熟。使用该符文的法术在造成暴击时会施加@Condition[bleeding]状态。</p><p>流血效果会持续<strong>1 轮</strong>，并将你的<strong>魅力</strong>属性值作为额外的<strong>Piercing</strong>伤害施加到<strong>生命值</strong>上。</p>"
     },
     "Last Stand": {
       "name": "背水一战 Stand",
@@ -1133,7 +1133,7 @@
     },
     "Lightbringer": {
       "name": "光明使者 Lightbringer",
-      "description": "<p>你极其擅长编织照明符文。使用此符文的法术在造成暴击时会施加 @Condition[irradiated] 状态。</p><p>辐照效果会持续<strong>1 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>造成等同于你的<strong>Presence</strong>数值的<strong>Radiant</strong>伤害。</p>"
+      "description": "<p>你极其擅长编织照明符文。使用此符文的法术在造成暴击时会施加 @Condition[irradiated] 状态。</p><p>辐照效果会持续<strong>1 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>造成等同于你的<strong>魅力</strong>数值的<strong>光耀</strong>伤害。</p>"
     },
     "Lightning Proficiency": {
       "name": "闪电熟练度 Proficiency",
@@ -1392,7 +1392,7 @@
     },
     "Preternatural Instinct": {
       "name": "超自然直觉 Instinct",
-      "description": "你的思维与身体同样敏捷，令人印象深刻。你在所有先攻检定上获得 +2 恩惠骰。"
+      "description": "你的思维与身体同样敏捷，令人印象深刻。你在所有先攻检定上获得 +2 惠骰。"
     },
     "Projectile Weapon Proficiency": {
       "name": "投射武器熟练度 Proficiency",
@@ -1432,7 +1432,7 @@
       "actions": {
         "rallyingCry": {
           "name": "振奋战吼 Cry",
-          "description": "<p>你发出一声勇敢的怒吼，激励12英尺内的盟友在险境面前保持坚定。范围内的所有盟友立即恢复等同于你的<strong>Presence</strong>数值的<strong>士气</strong>，并成为 @Condition[resolute]，持续3轮。</p>",
+          "description": "<p>你发出一声勇敢的怒吼，激励12英尺内的盟友在险境面前保持坚定。范围内的所有盟友立即恢复等同于你的<strong>魅力</strong>数值的<strong>士气</strong>，并成为 @Condition[resolute]，持续3轮。</p>",
           "effects": [
             {
               "name": "振奋战吼 Cry"
@@ -1476,7 +1476,7 @@
     },
     "Rune: Death": {
       "name": "符文：死亡 Death",
-      "description": "<p>负责腐化所有生物材料的、有序的毁灭之力。死亡符文掌管腐朽与毁灭。</p><p>死亡符文基于 <strong>Presence</strong> 进行成长，目标为 <strong>坚韧</strong>，对 <strong>生命值</strong> 造成 <strong>腐化</strong> 伤害。它与混沌的 <strong>生命</strong> 符文相对立。</p>",
+      "description": "<p>负责腐化所有生物材料的、有序的毁灭之力。死亡符文掌管腐朽与毁灭。</p><p>死亡符文基于 <strong>魅力</strong> 进行成长，目标为 <strong>坚韧</strong>，对 <strong>生命值</strong> 造成 <strong>腐化</strong> 伤害。它与混沌的 <strong>生命</strong> 符文相对立。</p>",
       "actions": {
         "ennervate": {
           "name": "失神术 Ennervate",
@@ -1506,7 +1506,7 @@
     },
     "Rune: Frost": {
       "name": "符文：霜冻 Frost",
-      "description": "<p>水与寒冷的秩序之力。霜冻符文掌管水或其他流体的创造，以及它们在液态与冻结态之间的转变。</p><p>霜冻符文以 <strong>感知</strong> 进行成长，目标为 <strong>坚韧</strong>，并对 <strong>生命值</strong> 造成 <strong>Cold</strong> 伤害。它与混沌的 <strong>火焰</strong> 符文相对立。</p>",
+      "description": "<p>水与寒冷的秩序之力。霜冻符文掌管水或其他流体的创造，以及它们在液态与冻结态之间的转变。</p><p>霜冻符文以 <strong>感知</strong> 进行成长，目标为 <strong>坚韧</strong>，并对 <strong>生命值</strong> 造成 <strong>冰寒</strong> 伤害。它与混沌的 <strong>火焰</strong> 符文相对立。</p>",
       "actions": {
         "condense": {
           "name": "凝结 Condense",
@@ -1516,7 +1516,7 @@
     },
     "Rune: Illumination": {
       "name": "符文：照明 Illumination",
-      "description": "<p>光与能量的有序之力。符文：照明掌管光与辉耀。</p><p>符文：照明以 <strong>气场</strong> 进行成长，目标为 <strong>反射</strong>，并对 <strong>生命值</strong> 造成 <strong>Radiant</strong> 伤害。它与代表混沌的 <strong>符文：幻象</strong> 相对立。</p>",
+      "description": "<p>光与能量的有序之力。符文：照明掌管光与辉耀。</p><p>符文：照明以 <strong>魅力</strong> 进行成长，目标为 <strong>反射</strong>，并对 <strong>生命值</strong> 造成 <strong>光耀</strong> 伤害。它与代表混沌的 <strong>符文：幻象</strong> 相对立。</p>",
       "actions": {
         "reveal": {
           "name": "揭示 Reveal",
@@ -1536,11 +1536,11 @@
     },
     "Rune: Kinesis": {
       "name": "符文：念动力 Kinesis",
-      "description": "<p>空间与物理移动的混沌力量。念动力符文支配一切与移动行为及物质实体相关的事物。</p><p>念动力符文基于<strong>Presence</strong>进行成长，以<strong>Physical</strong>防御为目标，并对<strong>Health</strong>造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害。它与秩序的<strong>控制</strong>符文相对立。</p>",
+      "description": "<p>空间与物理移动的混沌力量。念动力符文支配一切与移动行为及物质实体相关的事物。</p><p>念动力符文基于<strong>魅力</strong>进行成长，以<strong>Physical</strong>防御为目标，并对<strong>生命值</strong>造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害。它与秩序的<strong>控制</strong>符文相对立。</p>",
       "actions": {
         "propel": {
           "name": "推进 Propel",
-          "description": "<p>你对念动力符文的掌控使你能够对局部重力施加控制，以执行基础的心灵遥控操纵，产生以下效果之一：</p><ul><li><p>将15英尺内一个未固定且重量不大于1的物体拉向你，并接住它。由生物已装备或持有的物体，除非该生物愿意放手，否则绝不视为未固定。</p></li><li><p>将一个你手持且重量不大于1的物体弹向一个最远30英尺外的目标。该物体会以适中的速度沿直线准确无误地飞向该目标。物体路径上的任何生物都可以作出反应接住它，只要他们有一只空着的手来这么做。</p></li><li><p>使一个你接触到的物体或自愿生物悬浮在半空中，其重量小于或等于你<strong>Presence</strong>的10倍，并将其位置从原本所在处朝任意方向改变最多20英尺。只要你不再执行进一步的动作，且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮状态。</p></li></ul><p>除非另有说明，推进只能影响你能够以身体接触到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+          "description": "<p>你对念动力符文的掌控使你能够对局部重力施加控制，以执行基础的心灵遥控操纵，产生以下效果之一：</p><ul><li><p>将15英尺内一个未固定且重量不大于1的物体拉向你，并接住它。由生物已装备或持有的物体，除非该生物愿意放手，否则绝不视为未固定。</p></li><li><p>将一个你手持且重量不大于1的物体弹向一个最远30英尺外的目标。该物体会以适中的速度沿直线准确无误地飞向该目标。物体路径上的任何生物都可以作出反应接住它，只要他们有一只空着的手来这么做。</p></li><li><p>使一个你接触到的物体或自愿生物悬浮在半空中，其重量小于或等于你<strong>魅力</strong>的10倍，并将其位置从原本所在处朝任意方向改变最多20英尺。只要你不再执行进一步的动作，且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮状态。</p></li></ul><p>除非另有说明，推进只能影响你能够以身体接触到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
         }
       }
     },
@@ -1576,7 +1576,7 @@
     },
     "Rune: Soul": {
       "name": "符文：灵魂 Soul",
-      "description": "<p>一种由创造与精神本质构成的有序力量。灵魂符文支配灵魂在生命与死亡之间的基本流转，并与知性、人格及心理健康等事务相关。</p><p>灵魂符文以 <strong>Presence</strong> 进行成长，能够提供 <strong>恢复</strong> 以恢复 <strong>士气</strong>，或造成由 <strong>Willpower</strong> 对抗的 <strong>灵能</strong> 伤害。它与混沌的 <strong>湮灭</strong> 符文相对立。</p>",
+      "description": "<p>一种由创造与精神本质构成的有序力量。灵魂符文支配灵魂在生命与死亡之间的基本流转，并与知性、人格及心理健康等事务相关。</p><p>灵魂符文以 <strong>魅力</strong> 进行成长，能够提供 <strong>恢复</strong> 以恢复 <strong>士气</strong>，或造成由 <strong>Willpower</strong> 对抗的 <strong>灵能</strong> 伤害。它与混沌的 <strong>湮灭</strong> 符文相对立。</p>",
       "actions": {
         "evoke": {
           "name": "引发 Evoke",
@@ -1601,11 +1601,11 @@
     },
     "Saboteur": {
       "name": "破坏者 Saboteur",
-      "description": "<p>你精通投掷弹药的使用。使用<strong>Bomb</strong>类型的消耗品时，无论使用哪种技能，你都至少视为具有<strong>受训</strong>熟练度，并且你在任何相关检定中获得<strong>+1 恩惠骰</strong>。</p>"
+      "description": "<p>你精通投掷弹药的使用。使用<strong>Bomb</strong>类型的消耗品时，无论使用哪种技能，你都至少视为具有<strong>受训</strong>熟练度，并且你在任何相关检定中获得<strong>+1 惠骰</strong>。</p>"
     },
     "Safecracker": {
       "name": "保险箱窃贼 Safecracker",
-      "description": "<p>你擅长解除陷阱和撬锁的技艺。你在以<strong>潜行</strong>检定来停用装置或打开锁时，获得+1恩惠骰。</p>"
+      "description": "<p>你擅长解除陷阱和撬锁的技艺。你在以<strong>潜行</strong>检定来停用装置或打开锁时，获得+1惠骰。</p>"
     },
     "Science Adept": {
       "name": "科学专家 Adept",
@@ -2010,10 +2010,10 @@
     },
     "War Mage": {
       "name": "战斗法师 Mage",
-      "description": "<p>你的施法被磨炼成战场上的武器，用以挫败其他法师的咒语。你可以询问游戏主持人，自己是否知晓一种能够反制敌方法术的符文，即使你并不认识正在施放的法术。你在任何反制法术尝试中获得 +2 恩惠骰。</p>"
+      "description": "<p>你的施法被磨炼成战场上的武器，用以挫败其他法师的咒语。你可以询问游戏主持人，自己是否知晓一种能够反制敌方法术的符文，即使你并不认识正在施放的法术。你在任何反制法术尝试中获得 +2 惠骰。</p>"
     },
     "Weak Points": {
-      "name": "弱点 Points",
+      "name": "弱点 点数",
       "description": "<p>你能识别出攻击敌人弱点的时机。使用随<strong>敏捷</strong>成长的武器攻击处于@Condition[unaware]、@Condition[flanked]或@Condition[exposed]状态的目标时，你的任何打击都获得 +2 伤害。</p>"
     },
     "Wilderness Adept": {

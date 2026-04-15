@@ -628,7 +628,7 @@
     "Luminary Band": {
       "name": "辉耀指环 Band",
       "description": {
-        "public": "<blockquote><p>一枚雕刻精美的金色戒指，环绕着一颗椭圆形、闪耀的橙色宝石。</p></blockquote><p>这枚附魔戒环会为包含<strong>屈折</strong>的<strong>防御</strong><strong>动作</strong>提供恩惠骰。</p>",
+        "public": "<blockquote><p>一枚雕刻精美的金色戒指，环绕着一颗椭圆形、闪耀的橙色宝石。</p></blockquote><p>这枚附魔戒环会为包含<strong>屈折</strong>的<strong>防御</strong><strong>动作</strong>提供惠骰。</p>",
         "private": "<p>此物品作为带有 @UUID[Compendium.crucible.affixes.ActiveEffect.luminary00000000]{辉耀} 前缀的优质戒指示例呈现。</p><p>此词缀可应用于任何饰品，而这枚戒指还可以进一步附魔一个第1阶后缀。</p>"
       }
     },
@@ -972,7 +972,7 @@
       }
     },
     "Spell Scroll (Fine)": {
-      "name": "法术卷轴（精制） 法术卷轴 (Fine) Spell Scroll (Fine)",
+      "name": "法术卷轴（精制） 法术卷轴 (Fine) Spell Scroll",
       "description": {
         "public": "<p>法术卷轴是一种经过特殊处理的犊皮纸或羊皮纸，其上被精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予其阅读者对这些构件的深刻熟悉感，仿佛他们已经了解了这些构件多年。</p><p>一张卷轴能够容纳的施法构件数量取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>卓越</strong>：可包含两个施法构件</p></li><li><p><strong>杰作</strong>：可包含三个施法构件</p></li></ul>"
       },
@@ -987,7 +987,7 @@
       }
     },
     "Spell Scroll (Masterwork)": {
-      "name": "法术卷轴（大师级） 法术卷轴 (Masterwork) Spell Scroll (Masterwork)",
+      "name": "法术卷轴（大师级） 法术卷轴 (Masterwork) Spell Scroll",
       "description": {
         "public": "<p>法术卷轴是一种特制的犊皮纸或羊皮纸，其上精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予其阅读者对这些构件的深刻熟悉感，仿佛他们已经了解它们多年。</p><p>一张卷轴能够容纳多少个施法构件，取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>优异</strong>：可包含两个施法构件</p></li><li><p><strong>大师级</strong>：可包含三个施法构件</p></li></ul>"
       },
@@ -1002,7 +1002,7 @@
       }
     },
     "Spell Scroll (Superior)": {
-      "name": "法术卷轴（上级） 法术卷轴 (Superior) Spell Scroll (Superior)",
+      "name": "法术卷轴（上级） 法术卷轴 (Superior) Spell Scroll",
       "description": {
         "public": "<p>法术卷轴是一种专门制作的犊皮纸或羊皮纸，其上被精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予阅读者对这些构件的深刻熟悉感，仿佛他们已经了解多年。</p><p>一张卷轴能够容纳多少个施法构件，取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>卓越</strong>：可包含两个施法构件</p></li><li><p><strong>精制</strong>：可包含三个施法构件</p></li></ul>"
       },

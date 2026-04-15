@@ -64,7 +64,7 @@
     },
     "Beast Bane": {
       "name": "野兽祸骰 野兽 祸骰 Bane",
-      "description": "<p>这把武器对<strong>野兽</strong>类型的生物特别有效。以该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>恩惠骰</strong>。</p>"
+      "description": "<p>这把武器对<strong>野兽</strong>类型的生物特别有效。以该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Blast Spellcraft": {
       "name": "爆破施法 Spellcraft",
@@ -80,11 +80,11 @@
     },
     "Celestial Bane": {
       "name": "天界生物祸骰 Bane",
-      "description": "<p>这种武器对<strong>天界生物</strong>尤其有效。对该生物类型的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>恩惠骰</strong>。</p>"
+      "description": "<p>这种武器对<strong>天界生物</strong>尤其有效。对该生物类型的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Cold Conversion": {
       "name": "冷能转换 Conversion",
-      "description": "<p>使用此武器进行打击所造成的部分伤害会转化为<strong>Cold</strong>伤害。转化的比例取决于此前缀的<strong>阶级</strong>。</p><ul><li><p><strong>第1阶：</strong> 33% 的伤害被转化</p></li><li><p><strong>第2阶：</strong> 66% 的伤害被转化</p></li><li><p><strong>Tier 3:</strong> 100% 的伤害被转化</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多个不同类型伤害组成部分的基础架构尚不存在。在此功能实现之前，此词缀的所有阶级都会将该武器 100% 的伤害转化为<strong>Cold</strong>。一旦支持多类型伤害，较低阶级将只转化总伤害的一部分，其余部分则保留为该武器的原始类型。</p>"
+      "description": "<p>使用此武器进行打击所造成的部分伤害会转化为<strong>冰寒</strong>伤害。转化的比例取决于此前缀的<strong>阶级</strong>。</p><ul><li><p><strong>第1阶：</strong> 33% 的伤害被转化</p></li><li><p><strong>第2阶：</strong> 66% 的伤害被转化</p></li><li><p><strong>Tier 3:</strong> 100% 的伤害被转化</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多个不同类型伤害组成部分的基础架构尚不存在。在此功能实现之前，此词缀的所有阶级都会将该武器 100% 的伤害转化为<strong>冰寒</strong>。一旦支持多类型伤害，较低阶级将只转化总伤害的一部分，其余部分则保留为该武器的原始类型。</p>"
     },
     "Cold Damage": {
       "name": "寒冷伤害 Damage",
@@ -104,7 +104,7 @@
     },
     "Construct Bane": {
       "name": "构装体祸骰 Bane",
-      "description": "<p>这把武器对<strong>构装体</strong>生物尤为有效。对该生物类型的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>恩惠骰</strong>。</p>"
+      "description": "<p>这把武器对<strong>构装体</strong>生物尤为有效。对该生物类型的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Control Potency": {
       "name": "控制强度 Potency",
@@ -160,7 +160,7 @@
     },
     "Dragon Bane": {
       "name": "巨龙祸骰 Bane",
-      "description": "<p>这种武器对<strong>巨龙</strong><strong>生物</strong>尤其有效。对该生物类型的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>恩惠骰</strong>。</p>"
+      "description": "<p>这种武器对<strong>巨龙</strong><strong>生物</strong>尤其有效。对该生物类型的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Earth Potency": {
       "name": "大地效能 Potency",
@@ -184,19 +184,19 @@
     },
     "Earth Elemental Bane": {
       "name": "土元素祸骰 Bane",
-      "description": "<p>这种武器对<strong>土元素</strong><strong>生物</strong>尤其有效。当对该生物类型的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>恩惠骰</strong>。</p>"
+      "description": "<p>这种武器对<strong>土元素</strong><strong>生物</strong>尤其有效。当对该生物类型的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Fire Elemental Bane": {
       "name": "火元素祸骰 火元素 祸骰 Bane",
-      "description": "<p>这种武器对<strong>火元素</strong>生物尤其有效。当对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>恩惠骰</strong>。</p>"
+      "description": "<p>这种武器对<strong>火元素</strong>生物尤其有效。当对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Frost Elemental Bane": {
       "name": "冰霜元素祸骰 冰霜元素 祸骰 Bane",
-      "description": "<p>这把武器对<strong>冰霜元素</strong><strong>生物</strong>尤其有效。当对该生物<strong>类型</strong>的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于该前缀<strong>阶级</strong>的额外<strong>恩惠骰</strong>。</p>"
+      "description": "<p>这把武器对<strong>冰霜元素</strong><strong>生物</strong>尤其有效。当对该生物<strong>类型</strong>的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于该前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Storm Elemental Bane": {
       "name": "风暴元素祸骰 风暴元素 祸骰 Bane",
-      "description": "<p>该武器对<strong>风暴元素</strong><strong>生物</strong>特别有效。当对该生物<strong>类型</strong>的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>恩惠骰</strong>。</p>"
+      "description": "<p>该武器对<strong>风暴元素</strong><strong>生物</strong>特别有效。当对该生物<strong>类型</strong>的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Evasion": {
       "name": "闪避 Evasion",
@@ -208,7 +208,7 @@
     },
     "Fey Bane": {
       "name": "妖精祸骰 妖精 祸骰 Bane",
-      "description": "<p>该武器对<strong>妖精</strong>生物尤为有效。对该生物<strong>类型</strong>的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>恩惠骰</strong>。</p>"
+      "description": "<p>该武器对<strong>妖精</strong>生物尤为有效。对该生物<strong>类型</strong>的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Fire Conversion": {
       "name": "火焰转换 Conversion",
@@ -244,7 +244,7 @@
     },
     "Giant Bane": {
       "name": "巨人祸骰 巨人 祸骰 Bane",
-      "description": "<p>该武器对<strong>巨人</strong>生物尤为有效。对该<strong>类型</strong>的生物<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于该前缀<strong>阶级</strong>的额外<strong>恩惠骰</strong>。</p>"
+      "description": "<p>该武器对<strong>巨人</strong>生物尤为有效。对该<strong>类型</strong>的生物<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于该前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Gliding": {
       "name": "滑翔 Gliding",
@@ -308,7 +308,7 @@
     },
     "Luminary": {
       "name": "辉耀者 Luminary",
-      "description": "<p>包含<strong>屈折</strong>的<strong>沉着</strong><strong>动作</strong>获得恩惠骰。获得的恩惠骰数量等于此前缀的<strong>阶级</strong>。只有一个词缀可以提供此增益。</p>"
+      "description": "<p>包含<strong>屈折</strong>的<strong>沉着</strong><strong>动作</strong>获得惠骰。获得的惠骰数量等于此前缀的<strong>阶级</strong>。只有一个词缀可以提供此增益。</p>"
     },
     "Medicine": {
       "name": "医疗 Medicine",
@@ -320,7 +320,7 @@
     },
     "Monstrosity Bane": {
       "name": "畸怪祸骰 畸怪 祸骰 Bane",
-      "description": "<p>这种武器对<strong>畸怪</strong><strong>生物</strong>特别有效。对该生物<strong>类型</strong>的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于该前缀<strong>阶级</strong>的额外<strong>恩惠骰</strong>。</p>"
+      "description": "<p>这种武器对<strong>畸怪</strong><strong>生物</strong>特别有效。对该生物<strong>类型</strong>的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于该前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Nimbleness": {
       "name": "敏捷 Nimbleness",
@@ -344,11 +344,11 @@
     },
     "Ooze Bane": {
       "name": "软泥怪祸骰 软泥怪 祸骰 Bane",
-      "description": "<p>该武器对<strong>软泥怪</strong>类型的生物尤其有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>恩惠骰</strong>。</p>"
+      "description": "<p>该武器对<strong>软泥怪</strong>类型的生物尤其有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Outsider Bane": {
       "name": "异界生物祸骰 Bane",
-      "description": "<p>该武器对<strong>异界生物</strong>尤其有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>恩惠骰</strong>。</p>"
+      "description": "<p>该武器对<strong>异界生物</strong>尤其有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Performance": {
       "name": "表演 Performance",
@@ -364,7 +364,7 @@
     },
     "Plant Bane": {
       "name": "植物祸骰 Bane",
-      "description": "<p>这种武器对<strong>植物</strong>生物特别有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于该前缀<strong>阶级</strong>的额外<strong>恩惠骰</strong>。</p>"
+      "description": "<p>这种武器对<strong>植物</strong>生物特别有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于该前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Poison Conversion": {
       "name": "毒药转化 毒药 Conversion",
@@ -407,7 +407,7 @@
       "description": "<p>此前缀的每个<strong>阶级</strong>使<strong>光耀抗性</strong>提高3。</p>"
     },
     "Rallying": {
-      "name": "集结 Rallying",
+      "name": "集结 激励",
       "description": "<p>此词缀每有<strong>1个阶位</strong>，就使<strong>疯狂</strong><strong>防御</strong>阈值降低1，从而使佩戴者更容易从疯狂中被治愈。</p>"
     },
     "Ray Spellcraft": {
@@ -484,7 +484,7 @@
     },
     "Undead Bane": {
       "name": "不死生物祸骰 Bane",
-      "description": "<p>这把武器对<strong>不死生物</strong>尤其有效。当对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>恩惠骰</strong>。</p>"
+      "description": "<p>这把武器对<strong>不死生物</strong>尤其有效。当对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Unshakeable": {
       "name": "不可动摇 Unshakeable",

@@ -99,7 +99,7 @@
         },
         "Rune: Flame": {
           "name": "符文：火焰 Flame",
-          "description": "<p>元素与热能的混沌力量。火焰符文支配火与热。与之对立的是有序的霜冻符文。</p>\n<p>火焰符文以 <strong>智力</strong> 进行成长，目标为 <strong>反射</strong>，并造成 <strong>Fire</strong> 伤害至 <strong>Health</strong>。</p>"
+          "description": "<p>元素与热能的混沌力量。火焰符文支配火与热。与之对立的是有序的霜冻符文。</p>\n<p>火焰符文以 <strong>智力</strong> 进行成长，目标为 <strong>反射</strong>，并造成 <strong>Fire</strong> 伤害至 <strong>生命值</strong>。</p>"
         }
       }
     },
@@ -246,7 +246,7 @@
         },
         "Cold Absorption": {
           "name": "寒冷吸收 Absorption",
-          "description": "<p>该@ref[actor.name]{生物}拥有在寒冷环境中茁壮生存的卓越能力。其<strong>Cold</strong>抗性加倍，且如果该抗性会将伤害量降至零以下，则该负数值改为作为<strong>治疗</strong>获得。</p>"
+          "description": "<p>该@ref[actor.name]{生物}拥有在寒冷环境中茁壮生存的卓越能力。其<strong>冰寒</strong>抗性加倍，且如果该抗性会将伤害量降至零以下，则该负数值改为作为<strong>治疗</strong>获得。</p>"
         },
         "Gesture: Aspect": {
           "name": "手势：化相 Aspect",
