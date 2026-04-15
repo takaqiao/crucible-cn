@@ -77,7 +77,7 @@
             },
             "Day Three - The Skeletal Army": {
               "name": "第3天——骷髅军团 Army",
-              "text": "<p>在第三场挑战中，4名3级英雄将与死灵法师奥里维奇及其骷髅大军展开对决！</p><ul><li><p>@UUID[Actor.JuobjWohGACVeoyn]{奥里维奇}（3级 Boss）</p><ul><li><p>召唤了 @UUID[Compendium.crucible.summons.Actor.56puGK932Qc0cowe]{死亡造物}（1级 仆从）</p></li></ul></li><li><p>6x @UUID[Actor.aQkmEcwfImmdUINF]{骷髅枪兵}（1级 仆从）</p></li><li><p>6x @UUID[Actor.7jL3UmgXbqxXKClM]{骷髅弓箭手}（1级 仆从）</p></li></ul><p><strong>主角威胁</strong>：3 × 4 = 12</p><p><strong>对手威胁</strong>：6 + (½ × 6) + (½ × 6) = 12</p><p><strong>遭遇难度</strong>：致命</p><h2 class=\"divider\">引言</h2><p>在这场挑战中，队伍被要求背靠竞技场北侧的悬崖列队。</p><blockquote><p>“欢迎各位再次来到英勇之戒，迎接我们这场扣人心弦的试炼在第3天的赛事！今天，我们将重现历史上的一场著名战役。这几位勇敢的斗士，背临湮灭深渊的边缘，迎战可怖的死灵法师奥里维奇和他的骷髅军团！”</p><p>人群发出兴奋的吼声，热切期待着奥里维奇和他的骷髅爪牙从南侧台阶现身，进入竞技场。</p></blockquote><p>奥里维奇和骷髅们从南侧入口出现，并在遭遇开始前摆出战斗阵型！</p><h2 class=\"divider\">战术</h2><p>奥里维奇会采取防御性的打法，依靠他的骷髅军团制服敌人。作为 Boss 敌人，奥里维奇每轮拥有<strong>10 动作</strong>，并且会在大多数法术上使用<strong>Compose</strong>屈折以节省<strong>专注</strong>，并将剩余的动作用于<strong>恢复专注</strong>。</p><p>奥里维奇的战术核心是使用<strong>创造</strong>手势来召唤更多的 @UUID[Compendium.crucible.summons.Actor.56puGK932Qc0cowe]{死亡造物} 爪牙。由于拥有<strong>召唤师</strong>天赋，奥里维奇最多可同时维持3个这样的爪牙。若直接受到威胁，他会使用<strong>Push </strong>屈折强行将敌人向后推开。</p><p>骷髅弓箭手会用<strong>打击</strong>集中火力攻击奥里维奇指定的目标，并使用<strong>闪避射击</strong>来调整位置。骷髅枪兵则会冲上前去牵制敌方战士并阻挡他们的去路，试图用<strong>扫腿</strong>将其绊倒。</p><h2 class=\"divider\">晋升</h2><p>当奥里维奇被击败时，战斗结束。死灵法师倒下时，他的骷髅爪牙也会随他一同化为尘土。观众对队伍的表现十分满意，解说员宣布队伍将在明天返回参加另一场比赛。</p><p>队伍将获得一次休息的机会，使用恢复动作，并提升1级晋升至4级。所有英雄还可以将其已装备武器的品质提升至<strong>Fine</strong>。休息后，试炼将继续进行，进入 @UUID[.hEpGF7rbNFVUMm86]{第4天 - Koy Rent}。</p>"
+              "text": "<p>在第三场挑战中，4名3级英雄将与死灵法师奥里维奇及其骷髅大军展开对决！</p><ul><li><p>@UUID[Actor.JuobjWohGACVeoyn]{奥里维奇}（3级 Boss）</p><ul><li><p>召唤了 @UUID[Compendium.crucible.summons.Actor.56puGK932Qc0cowe]{死亡造物}（1级 仆从）</p></li></ul></li><li><p>6x @UUID[Actor.aQkmEcwfImmdUINF]{骷髅枪兵}（1级 仆从）</p></li><li><p>6x @UUID[Actor.7jL3UmgXbqxXKClM]{骷髅弓箭手}（1级 仆从）</p></li></ul><p><strong>主角威胁</strong>：3 × 4 = 12</p><p><strong>对手威胁</strong>：6 + (½ × 6) + (½ × 6) = 12</p><p><strong>遭遇难度</strong>：致命</p><h2 class=\"divider\">引言</h2><p>在这场挑战中，队伍被要求背靠竞技场北侧的悬崖列队。</p><blockquote><p>“欢迎各位再次来到英勇之戒，迎接我们这场扣人心弦的试炼在第3天的赛事！今天，我们将重现历史上的一场著名战役。这几位勇敢的斗士，背临湮灭深渊的边缘，迎战可怖的死灵法师奥里维奇和他的骷髅军团！”</p><p>人群发出兴奋的吼声，热切期待着奥里维奇和他的骷髅爪牙从南侧台阶现身，进入竞技场。</p></blockquote><p>奥里维奇和骷髅们从南侧入口出现，并在遭遇开始前摆出战斗阵型！</p><h2 class=\"divider\">战术</h2><p>奥里维奇会采取防御性的打法，依靠他的骷髅军团制服敌人。作为 Boss 敌人，奥里维奇每轮拥有<strong>10 动作</strong>，并且会在大多数法术上使用<strong>组合</strong>词缀以节省<strong>专注</strong>，并将剩余的动作用于<strong>恢复专注</strong>。</p><p>奥里维奇的战术核心是使用<strong>创造</strong>手势来召唤更多的 @UUID[Compendium.crucible.summons.Actor.56puGK932Qc0cowe]{死亡造物} 爪牙。由于拥有<strong>召唤师</strong>天赋，奥里维奇最多可同时维持3个这样的爪牙。若直接受到威胁，他会使用<strong>Push </strong>词缀强行将敌人向后推开。</p><p>骷髅弓箭手会用<strong>打击</strong>集中火力攻击奥里维奇指定的目标，并使用<strong>闪避射击</strong>来调整位置。骷髅枪兵则会冲上前去牵制敌方战士并阻挡他们的去路，试图用<strong>扫腿</strong>将其绊倒。</p><h2 class=\"divider\">晋升</h2><p>当奥里维奇被击败时，战斗结束。死灵法师倒下时，他的骷髅爪牙也会随他一同化为尘土。观众对队伍的表现十分满意，解说员宣布队伍将在明天返回参加另一场比赛。</p><p>队伍将获得一次休息的机会，使用恢复动作，并提升1级晋升至4级。所有英雄还可以将其已装备武器的品质提升至<strong>Fine</strong>。休息后，试炼将继续进行，进入 @UUID[.hEpGF7rbNFVUMm86]{第4天 - Koy Rent}。</p>"
             },
             "Day Four - Koy Rent": {
               "name": "第4天 - 科伊·伦特 Rent",
@@ -89,7 +89,7 @@
             },
             "Day Six - Mirror Match": {
               "name": "第6天 - 镜像对决 Match",
-              "text": "<p>在这场最终挑战中，4名6级英雄将与一支由4名6级英雄组成的敌对冒险队伍正面对决。</p><ul><li><p>@UUID[Actor.iLUfMcYjAbZFY4CJ]{Duurath}（6级）</p></li><li><p>@UUID[Actor.0crVYYsPvV9KDEJ2]{Belladonna}（6级）</p></li><li><p>@UUID[Actor.2lvTCCOj4dnBI774]{艾利奥文}（6级）</p></li><li><p>@UUID[Actor.Il4NDaNBdHNcjJ9d]{Kagura}（6级）</p></li></ul><p><strong>主角威胁</strong>：4 × 6 = 24</p><p><strong>对手威胁</strong>：4 × 6 = 24</p><p><strong>遭遇难度</strong>：致命</p><h2 class=\"divider\">引言</h2><blockquote><p>“好，好……你们的勇士已经证明了自己，击败了这座竞技场所能提供的所有强大对手，所以现在，是时候让他们与往届赛事中那些声名显赫的老将与冠军一较高下了。准备迎接一场冠军之战吧！”</p></blockquote><p>这是一项尤其困难的挑战，因为对方的四名英雄都经过了单独优化，并且作为团队配合得极好。</p><h2 class=\"divider\">战术</h2><p>本挑战中的每个对手都作为一名英雄式主角运作，拥有各自的一系列天赋、动作和装备。</p><h4>Duurath</h4><p><strong>Duurath </strong>是一名危险的近战战斗者，拥有很高的<strong>交战</strong>、强大的物理防御，以及能够打击敌人士气并令其恐惧的<strong>恐惧领主</strong>签名天赋。Duurath会使用<strong>盾牌冲锋</strong>逼近敌方战斗者，并利用<strong>节奏</strong>打出高额伤害，或在格挡来袭攻击时使用<strong>反击</strong>进行报复。防御方面，Duurath可以使用<strong>Kinetic Ward</strong>来保护自己，免受所选类型的物理伤害。</p><h4>Belladonna</h4><p><strong>Belladonna</strong>是一名狡猾而难以捉摸的近战战斗者，拥有<strong>下毒者</strong>天赋。战斗开始时，她会启动<strong>毒刃</strong>。她会对敌方法术施放者使用<strong>分散注意力</strong>来消耗其<strong>专注</strong>，并使用<strong>战斗医疗</strong>恢复盟友的生命值。Belladonna会寻找更脆弱的敌方战斗者，必要时使用<strong>翻滚</strong>接近至近战范围，并以<strong>连击</strong>迅速施加伤害和中毒状态。</p><h4>艾利奥文</h4><p><strong>艾利奥文</strong>是一名致命的弓箭手，凭借她的<strong>奥术弓手</strong>天赋，将闪电法术灌注到她的长弓射击之中。艾利奥文会识别出一个危险的敌人，并以<strong>标记猎物</strong>锁定对方，降低其对她自己及其盟友的防御。她会使用<strong>精准射击</strong>配合降低消耗的<strong>Voltaic 箭头</strong>，从远距离稳定地持续输出伤害。</p><h4>Kagura</h4><p><strong>Kagura</strong>是一名多用的支援角色，能够治疗盟友的身心。她会使用<strong>生命</strong>符文，并通过<strong>影响</strong>、<strong>脉冲</strong>或<strong>射线</strong>手势之一来触发其<strong>修补匠</strong>天赋带来的额外治疗。Kagura还可以通过谨慎运用<strong>Compose</strong>屈折以及<strong>节省精力</strong>，几乎无限期地维持治疗。Kagura会避免直接对抗，而是脱离战斗并寻求盟友的保护。</p><h2 class=\"divider\">晋升</h2><p>当四名对手全部被击败时，这场战斗即告结束。观众会为队伍的表演激动不已，并将他们欢庆为英勇之戒的永恒冠军。目前英勇之戒暂无更多预定活动，但如果你希望继续测试，为队伍即兴设计新的挑战，请参见 @UUID[.aNlzMnfUkwpLrSox]{Further Challenges}。</p>"
+              "text": "<p>在这场最终挑战中，4名6级英雄将与一支由4名6级英雄组成的敌对冒险队伍正面对决。</p><ul><li><p>@UUID[Actor.iLUfMcYjAbZFY4CJ]{Duurath}（6级）</p></li><li><p>@UUID[Actor.0crVYYsPvV9KDEJ2]{Belladonna}（6级）</p></li><li><p>@UUID[Actor.2lvTCCOj4dnBI774]{艾利奥文}（6级）</p></li><li><p>@UUID[Actor.Il4NDaNBdHNcjJ9d]{Kagura}（6级）</p></li></ul><p><strong>主角威胁</strong>：4 × 6 = 24</p><p><strong>对手威胁</strong>：4 × 6 = 24</p><p><strong>遭遇难度</strong>：致命</p><h2 class=\"divider\">引言</h2><blockquote><p>“好，好……你们的勇士已经证明了自己，击败了这座竞技场所能提供的所有强大对手，所以现在，是时候让他们与往届赛事中那些声名显赫的老将与冠军一较高下了。准备迎接一场冠军之战吧！”</p></blockquote><p>这是一项尤其困难的挑战，因为对方的四名英雄都经过了单独优化，并且作为团队配合得极好。</p><h2 class=\"divider\">战术</h2><p>本挑战中的每个对手都作为一名英雄式主角运作，拥有各自的一系列天赋、动作和装备。</p><h4>Duurath</h4><p><strong>Duurath </strong>是一名危险的近战战斗者，拥有很高的<strong>交战</strong>、强大的物理防御，以及能够打击敌人士气并令其恐惧的<strong>恐惧领主</strong>签名天赋。Duurath会使用<strong>盾牌冲锋</strong>逼近敌方战斗者，并利用<strong>节奏</strong>打出高额伤害，或在格挡来袭攻击时使用<strong>反击</strong>进行报复。防御方面，Duurath可以使用<strong>Kinetic Ward</strong>来保护自己，免受所选类型的物理伤害。</p><h4>Belladonna</h4><p><strong>Belladonna</strong>是一名狡猾而难以捉摸的近战战斗者，拥有<strong>下毒者</strong>天赋。战斗开始时，她会启动<strong>毒刃</strong>。她会对敌方法术施放者使用<strong>分散注意力</strong>来消耗其<strong>专注</strong>，并使用<strong>战斗医疗</strong>恢复盟友的生命值。Belladonna会寻找更脆弱的敌方战斗者，必要时使用<strong>翻滚</strong>接近至近战范围，并以<strong>连击</strong>迅速施加伤害和中毒状态。</p><h4>艾利奥文</h4><p><strong>艾利奥文</strong>是一名致命的弓箭手，凭借她的<strong>奥术弓手</strong>天赋，将闪电法术灌注到她的长弓射击之中。艾利奥文会识别出一个危险的敌人，并以<strong>标记猎物</strong>锁定对方，降低其对她自己及其盟友的防御。她会使用<strong>精准射击</strong>配合降低消耗的<strong>Voltaic 箭头</strong>，从远距离稳定地持续输出伤害。</p><h4>Kagura</h4><p><strong>Kagura</strong>是一名多用的支援角色，能够治疗盟友的身心。她会使用<strong>生命</strong>符文，并通过<strong>影响</strong>、<strong>脉冲</strong>或<strong>射线</strong>手势之一来触发其<strong>修补匠</strong>天赋带来的额外治疗。Kagura还可以通过谨慎运用<strong>组合</strong>词缀以及<strong>节省精力</strong>，几乎无限期地维持治疗。Kagura会避免直接对抗，而是脱离战斗并寻求盟友的保护。</p><h2 class=\"divider\">晋升</h2><p>当四名对手全部被击败时，这场战斗即告结束。观众会为队伍的表演激动不已，并将他们欢庆为英勇之戒的永恒冠军。目前英勇之戒暂无更多预定活动，但如果你希望继续测试，为队伍即兴设计新的挑战，请参见 @UUID[.aNlzMnfUkwpLrSox]{Further Challenges}。</p>"
             },
             "Further Challenges": {
               "name": "进一步的挑战 Challenges",
@@ -236,7 +236,7 @@
               "actions": {
                 "grapple": {
                   "name": "擒抱 Grapple",
-                  "description": "<p>你试图以身体方式限制或制服一个对手。对一个相邻目标进行一次<strong>运动</strong>技能攻击。若成功，你和你的目标都陷入 @Condition[受缚] 状态，持续 1 轮。</p>",
+                  "description": "<p>你试图以身体方式限制或制服一个对手。对一个相邻目标进行一次<strong>运动</strong>技能攻击。若成功，你和你的目标都陷入 @Condition[restrained] 状态，持续 1 轮。</p>",
                   "effects": [
                     {
                       "name": "被擒抱 Grappled"
@@ -360,8 +360,8 @@
               "description": "<p>你将一个符文中的奥术力量强化为一种集中的直接接触，这通常是基础触碰手势的更强力进阶形式。</p><p>影响手势以<strong>魅力</strong>进行成长，并以一个相邻的单个生物为目标。它对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。施放该手势需要<strong>1 只手</strong>，其基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
             },
             "Inflection: Compose": {
-              "name": "屈折：作曲 Compose",
-              "description": "<p>通过在塑造法术时投入额外时间来强化法术，并以此换取降低其他资源消耗。Compose 屈折会使法术的<strong>专注</strong>消耗降低 1，作为交换，其<strong>动作</strong>消耗提高 1。</p>"
+              "name": "词缀：作曲 组合",
+              "description": "<p>通过在塑造法术时投入额外时间来强化法术，并以此换取降低其他资源消耗。组合 词缀会使法术的<strong>专注</strong>消耗降低 1，作为交换，其<strong>动作</strong>消耗提高 1。</p>"
             },
             "Gesture: Create": {
               "name": "手势：创造 Create",
@@ -376,8 +376,8 @@
               "description": "<p>你是召唤学派和创造手势的大师，能够将奥术能量显化为实体形态。你可以同时维持至多 3 个这样的造物，而不再仅限于一个。</p>"
             },
             "Inflection: Push": {
-              "name": "屈折：推开 Push",
-              "description": "<p>强化一个法术，使其将受影响的生物从施法者身边击退。受到具有 Push 屈折的法术影响的生物会向远离施法者的方向移动 4 英尺，前提是该目的地未被占据。</p>"
+              "name": "词缀：推开 Push",
+              "description": "<p>强化一个法术，使其将受影响的生物从施法者身边击退。受到具有 Push 词缀的法术影响的生物会向远离施法者的方向移动 4 英尺，前提是该目的地未被占据。</p>"
             },
             "Talisman Weapon Training": {
               "name": "护符武器训练 Training",
@@ -717,8 +717,8 @@
               "description": "<p>将符文中的奥术力量以你为中心向外扩散，形成一个随你一同移动的半径区域。</p><p>脉冲手势按<strong>魅力</strong>进行成长，并产生一个10英尺半径的散发区域，对未能抵抗该法术的目标造成<strong>8基础伤害</strong>。该手势施放需要<strong>2只手</strong>，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前位于一个<strong>第4阶</strong>节点。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为了测试而“提前”开放。</p>"
             },
             "Inflection: Pull": {
-              "name": "屈折：拉拽 Pull",
-              "description": "<p>为一个法术赋予将受影响生物吸引向施法者的能力。受带有 Pull 屈折的法术影响的生物会向施法者方向移动 1 格，前提是该目标格未被占据。</p>"
+              "name": "词缀：拉拽 牵引",
+              "description": "<p>为一个法术赋予将受影响生物吸引向施法者的能力。受带有 牵引 词缀的法术影响的生物会向施法者方向移动 1 格，前提是该目标格未被占据。</p>"
             },
             "Rune: Oblivion": {
               "name": "符文：湮灭 Oblivion",
@@ -911,7 +911,7 @@
             },
             "Rune: Flame": {
               "name": "符文：火焰 Flame",
-              "description": "<p>元素热能的混沌之力。火焰符文掌管火焰与热量。</p><p>火焰符文基于<strong>智力</strong>进行成长，以<strong>反射</strong>为目标，并对<strong>生命值</strong>造成<strong>火元素</strong>伤害。与之对立的是秩序的<strong>霜冻</strong>符文。</p>",
+              "description": "<p>元素热能的混沌之力。火焰符文掌管火焰与热量。</p><p>火焰符文基于<strong>智力</strong>进行成长，以<strong>反射</strong>为目标，并对<strong>生命值</strong>造成<strong>火焰</strong>伤害。与之对立的是秩序的<strong>霜冻</strong>符文。</p>",
               "actions": {
                 "enkindle": {
                   "name": "引燃 Enkindle",
@@ -1053,7 +1053,7 @@
             },
             "Pyromancer": {
               "name": "炎术师 Pyromancer",
-              "description": "<p>你极其擅长编织火焰符文。使用该符文的法术在暴击时会造成 @Condition[burning]。</p><p>燃烧效果持续 <strong>1 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>造成等同于你的<strong>智力</strong>数值的<strong>火元素</strong>伤害。</p>"
+              "description": "<p>你极其擅长编织火焰符文。使用该符文的法术在暴击时会造成 @Condition[burning]。</p><p>燃烧效果持续 <strong>1 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>造成等同于你的<strong>智力</strong>数值的<strong>火焰</strong>伤害。</p>"
             },
             "Gesture: Blast": {
               "name": "手势：爆破 手势: Blast",
@@ -1225,7 +1225,7 @@
               "actions": {
                 "antitoxin": {
                   "name": "抗毒剂 Antitoxin",
-                  "description": "<p>服用此@ref[name]能够中和影响目标的任何@Condition[中毒]状态。更强的毒药需要更强的抗毒剂才能中和。</p><p>此@ref[name]可抵消的毒药类别取决于其品质：</p><ul><li><p><strong>粗制滥造</strong> - 每轮造成 3 点伤害或更少的毒药</p></li><li><p><strong>标准</strong> - 每轮造成 5 点伤害或更少的毒药</p></li><li><p><strong>精制</strong> - 每轮造成 7 点伤害或更少的毒药</p></li><li><p><strong>优异</strong> - 每轮造成 9 点伤害或更少的毒药</p></li><li><p><strong>大师工艺</strong> - 每轮造成 11 点伤害或更少的毒药</p></li></ul>"
+                  "description": "<p>服用此@ref[name]能够中和影响目标的任何@Condition[poisoned]状态。更强的毒药需要更强的抗毒剂才能中和。</p><p>此@ref[name]可抵消的毒药类别取决于其品质：</p><ul><li><p><strong>粗制滥造</strong> - 每轮造成 3 点伤害或更少的毒药</p></li><li><p><strong>标准</strong> - 每轮造成 5 点伤害或更少的毒药</p></li><li><p><strong>精制</strong> - 每轮造成 7 点伤害或更少的毒药</p></li><li><p><strong>优异</strong> - 每轮造成 9 点伤害或更少的毒药</p></li><li><p><strong>大师工艺</strong> - 每轮造成 11 点伤害或更少的毒药</p></li></ul>"
                 }
               }
             },
@@ -1456,7 +1456,7 @@
               "actions": {
                 "grapple": {
                   "name": "擒抱 Grapple",
-                  "description": "<p>你试图以肢体动作束缚或制服一名对手。对一个邻近目标进行一次<strong>运动</strong>技能攻击。若成功，你和目标双方都将陷入 @Condition[受缚] 状态，持续 1 轮。</p>",
+                  "description": "<p>你试图以肢体动作束缚或制服一名对手。对一个邻近目标进行一次<strong>运动</strong>技能攻击。若成功，你和目标双方都将陷入 @Condition[restrained] 状态，持续 1 轮。</p>",
                   "effects": [
                     {
                       "name": "被擒抱 Grappled"
@@ -1545,12 +1545,12 @@
               }
             },
             "Rune: Kinesis": {
-              "name": "符文：念动力 Kinesis",
-              "description": "<p>空间与物理移动的混沌力量。念动力符文掌管一切与移动行为和物理性相关的事物。</p><p>念动力符文的成长基于<strong>魅力</strong>，以<strong>Physical</strong>防御为目标，并造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害至<strong>生命值</strong>。它与秩序的<strong>控制</strong>符文相对立。</p>",
+              "name": "符文：念力 Kinesis",
+              "description": "<p>空间与物理移动的混沌力量。念力符文掌管一切与移动行为和物理性相关的事物。</p><p>念力符文的成长基于<strong>魅力</strong>，以<strong>Physical</strong>防御为目标，并造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害至<strong>生命值</strong>。它与秩序的<strong>控制</strong>符文相对立。</p>",
               "actions": {
                 "propel": {
                   "name": "推进 Propel",
-                  "description": "<p>你对念动力符文的掌控使你能够对重力施加局部控制，以执行基础的念动操作，产生以下效果之一：</p><ul><li><p>将15英尺内一个未固定且重量不大于1的物体拉向你并接住它。由生物已装备或持有的物体，除非该生物自愿松手，否则绝不会被视为未固定。</p></li><li><p>将一个你手持且重量不大于1的物体弹向一个最远30英尺外的目标。该物体会以中等速度笔直且准确无误地飞向该目标。物体飞行路径上的任何生物都可以作出反应来接住它，只要他们有一只空着的手即可。</p></li><li><p>使一个你接触到、重量小于或等于你<strong>魅力</strong>10倍的物体或自愿生物悬浮在半空中，并将其位置从原本所在处向任意方向改变最多20英尺。只要你不再进行进一步的动作且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>除非另有说明，推进只能影响你能够以身体实际接触到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+                  "description": "<p>你对念力符文的掌控使你能够对重力施加局部控制，以执行基础的念动操作，产生以下效果之一：</p><ul><li><p>将15英尺内一个未固定且重量不大于1的物体拉向你并接住它。由生物已装备或持有的物体，除非该生物自愿松手，否则绝不会被视为未固定。</p></li><li><p>将一个你手持且重量不大于1的物体弹向一个最远30英尺外的目标。该物体会以中等速度笔直且准确无误地飞向该目标。物体飞行路径上的任何生物都可以作出反应来接住它，只要他们有一只空着的手即可。</p></li><li><p>使一个你接触到、重量小于或等于你<strong>魅力</strong>10倍的物体或自愿生物悬浮在半空中，并将其位置从原本所在处向任意方向改变最多20英尺。只要你不再进行进一步的动作且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>除非另有说明，推进只能影响你能够以身体实际接触到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
                 }
               }
             },
@@ -1632,7 +1632,7 @@
             },
             "Weak Points": {
               "name": "弱点 点数",
-              "description": "<p>你能识别出攻击敌人弱点的时机。当你使用一件以<strong>敏捷</strong>为成长属性的武器攻击处于@Condition[未察觉]、@Condition[夹击]或@Condition[暴露]状态的目标时，你的任何打击都会获得 +2 伤害。</p>"
+              "description": "<p>你能识别出攻击敌人弱点的时机。当你使用一件以<strong>敏捷</strong>为成长属性的武器攻击处于@Condition[unaware]、@Condition[flanked]或@Condition[exposed]状态的目标时，你的任何打击都会获得 +2 伤害。</p>"
             },
             "Mark Prey": {
               "name": "标记猎物 Prey",
@@ -1748,7 +1748,7 @@
               "actions": {
                 "blastFlask": {
                   "name": "爆炸瓶 Flask",
-                  "description": "<p>你点燃并投掷@ref[name]，对爆炸半径内的所有敌人造成<strong>火元素</strong>伤害。<strong>爆裂</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>粗制滥造</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>优良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
+                  "description": "<p>你点燃并投掷@ref[name]，对爆炸半径内的所有敌人造成<strong>火焰</strong>伤害。<strong>爆裂</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>粗制滥造</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>优良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
                 }
               }
             },
@@ -1826,8 +1826,8 @@
               "description": "<p>你将奥术之力凝聚为有形之物，显现出一个<strong>精灵</strong>，其出现在10尺内，并以先攻 1 加入战斗。你的精灵是一个<strong>仆从</strong>，等级为你自身等级的一半。</p><p>创造手势基于<strong>感知</strong>进行成长，且该精灵会存续<strong>6轮</strong>。你同时只能拥有一个生效中的精灵；若你施放另一个使用创造手势的法术，则会替换你先前的精灵。此手势需要<strong>2只手</strong>施放，基础消耗为<strong>4动作</strong>和<strong>1专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>并非所有符文都已定义精灵角色。尚未定义创造效果的符文目前会显现为一个<strong>火焰精灵</strong>。</p>"
             },
             "Inflection: Compose": {
-              "name": "屈折：作曲 Compose",
-              "description": "<p>通过在法术构建时花费额外时间来强化法术，作为交换减少其他资源消耗。屈折：作曲使法术的<strong>专注</strong>消耗降低 1，但作为交换，其<strong>动作</strong>消耗提高 1。</p>"
+              "name": "词缀：作曲 组合",
+              "description": "<p>通过在法术构建时花费额外时间来强化法术，作为交换减少其他资源消耗。词缀：作曲使法术的<strong>专注</strong>消耗降低 1，但作为交换，其<strong>动作</strong>消耗提高 1。</p>"
             },
             "Conjurer": {
               "name": "召唤师 Conjurer",
@@ -1901,12 +1901,12 @@
               }
             },
             "Rune: Kinesis": {
-              "name": "符文：念动力 Kinesis",
-              "description": "<p>空间与物理移动的混沌之力。念动力符文统御一切与移动行为及物理性相关的事物。</p><p>念动力符文基于<strong>魅力</strong>进行成长，以<strong>Physical</strong>防御为目标，并对<strong>生命值</strong>造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害。它与秩序的<strong>控制</strong>符文相对。</p>",
+              "name": "符文：念力 Kinesis",
+              "description": "<p>空间与物理移动的混沌之力。念力符文统御一切与移动行为及物理性相关的事物。</p><p>念力符文基于<strong>魅力</strong>进行成长，以<strong>Physical</strong>防御为目标，并对<strong>生命值</strong>造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害。它与秩序的<strong>控制</strong>符文相对。</p>",
               "actions": {
                 "propel": {
                   "name": "推进 Propel",
-                  "description": "<p>你对念动力符文的掌控使你能够对重力施加局部控制，以执行基础的念动操纵，产生以下效果之一：</p><ul><li><p>将15尺内一个未固定且重量不大于1的物体拉向你并接住它。由生物已装备或持有的物体，除非该生物自愿放手，否则绝不视为未固定。</p></li><li><p>将你手中一个重量不大于1的物体弹向一个最远30尺外的目标。该物体会以适中的速度沿直线准确无误地飞向该目标。物体路径上的任何生物都可以作出反应来接住它，只要他们有一只空闲的手即可。</p></li><li><p>使你所触碰的一个物体或自愿生物悬浮于半空中，其重量小于或等于你<strong>魅力</strong>的10倍，并将其位置从原本所在处向任意方向改变最多20尺。只要你不再执行进一步的动作且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>除非另有说明，推进只能影响你能够以身体实际接触到的生物或物体。你也可以尝试与上述类似的其他用途，其效果由游戏主持人裁定。</p>"
+                  "description": "<p>你对念力符文的掌控使你能够对重力施加局部控制，以执行基础的念动操纵，产生以下效果之一：</p><ul><li><p>将15尺内一个未固定且重量不大于1的物体拉向你并接住它。由生物已装备或持有的物体，除非该生物自愿放手，否则绝不视为未固定。</p></li><li><p>将你手中一个重量不大于1的物体弹向一个最远30尺外的目标。该物体会以适中的速度沿直线准确无误地飞向该目标。物体路径上的任何生物都可以作出反应来接住它，只要他们有一只空闲的手即可。</p></li><li><p>使你所触碰的一个物体或自愿生物悬浮于半空中，其重量小于或等于你<strong>魅力</strong>的10倍，并将其位置从原本所在处向任意方向改变最多20尺。只要你不再执行进一步的动作且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>除非另有说明，推进只能影响你能够以身体实际接触到的生物或物体。你也可以尝试与上述类似的其他用途，其效果由游戏主持人裁定。</p>"
                 }
               }
             },
@@ -2021,8 +2021,8 @@
               "description": "<p>你坚定的意志让你极难被影响。你的<strong>意志</strong>防御获得 +1，且对<strong>心灵</strong>伤害获得 +5 抗性。</p>"
             },
             "Inflection: Compose": {
-              "name": "屈折：作曲 Compose",
-              "description": "<p>通过在法术形成过程中投入额外时间来强化法术，以此换取降低其他资源消耗。屈折：作曲使法术的<strong>专注</strong>消耗减少1，作为交换，其<strong>动作</strong>消耗增加1。</p>"
+              "name": "词缀：作曲 组合",
+              "description": "<p>通过在法术形成过程中投入额外时间来强化法术，以此换取降低其他资源消耗。词缀：作曲使法术的<strong>专注</strong>消耗减少1，作为交换，其<strong>动作</strong>消耗增加1。</p>"
             },
             "Dustbinder": {
               "name": "缚尘者 Dustbinder",
@@ -2087,7 +2087,7 @@
             },
             "Arcana Novice": {
               "name": "奥术新手 Novice",
-              "description": "<p>你的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体的粗浅介绍，其中包括最广为人知的被神化与被妖魔化的崇拜对象。你获得<strong>奥术</strong>技能的<strong>新手</strong>等级，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以让你鉴别一个法术或仪式可能使用的是哪一种低阶符文，以及所使用的手势（即便无法判断其屈折）。你能够辨认一个个体更受混沌还是秩序的影响，也能看出常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗了解得足够多，因此在与崇拜某位灵体或神祇的人交流时，不至于让自己出丑。</p>"
+              "description": "<p>你的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体的粗浅介绍，其中包括最广为人知的被神化与被妖魔化的崇拜对象。你获得<strong>奥术</strong>技能的<strong>新手</strong>等级，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以让你鉴别一个法术或仪式可能使用的是哪一种低阶符文，以及所使用的手势（即便无法判断其词缀）。你能够辨认一个个体更受混沌还是秩序的影响，也能看出常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗了解得足够多，因此在与崇拜某位灵体或神祇的人交流时，不至于让自己出丑。</p>"
             },
             "Rune: Soul": {
               "name": "符文：灵魂 Soul",
@@ -2270,7 +2270,7 @@
               "actions": {
                 "grapple": {
                   "name": "擒抱 Grapple",
-                  "description": "<p>你试图以身体力量限制或制服对手。对一个相邻目标进行一次<strong>运动</strong>技能攻击。若成功，你和你的目标都将陷入 @Condition[受缚] 状态，持续 1 轮。</p>",
+                  "description": "<p>你试图以身体力量限制或制服对手。对一个相邻目标进行一次<strong>运动</strong>技能攻击。若成功，你和你的目标都将陷入 @Condition[restrained] 状态，持续 1 轮。</p>",
                   "effects": [
                     {
                       "name": "被擒抱 Grappled"

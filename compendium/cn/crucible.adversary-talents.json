@@ -65,7 +65,7 @@
     },
     "Amorphous": {
       "name": "无定形",
-      "description": "<p>该@ref[actor.name]{生物}可以穿过直径仅为1英寸的狭窄空间，且其<strong>跨步</strong>不会受到任何惩罚。它获得等同于其<strong>坚韧</strong>属性值一半的<strong>闪避</strong>加值，并免疫@Condition[受缚]状态。</p>"
+      "description": "<p>该@ref[actor.name]{生物}可以穿过直径仅为1英寸的狭窄空间，且其<strong>跨步</strong>不会受到任何惩罚。它获得等同于其<strong>坚韧</strong>属性值一半的<strong>闪避</strong>加值，并免疫@Condition[restrained]状态。</p>"
     },
     "Aquatic Breathing": {
       "name": "水生呼吸",
@@ -147,7 +147,7 @@
     },
     "Fire Absorption": {
       "name": "火焰吸收 Absorption",
-      "description": "<p>该@ref[actor.name]{生物}拥有在灼热环境中茁壮生存的卓越能力。其<strong>火元素</strong>抗性加倍，且如果该抗性会使伤害值降低至零以下，则该负值改为作为<strong>治疗</strong>受到。</p>"
+      "description": "<p>该@ref[actor.name]{生物}拥有在灼热环境中茁壮生存的卓越能力。其<strong>火焰</strong>抗性加倍，且如果该抗性会使伤害值降低至零以下，则该负值改为作为<strong>治疗</strong>受到。</p>"
     },
     "Glider": {
       "name": "滑翔者 Glider",
@@ -225,7 +225,7 @@
       "actions": {
         "invisibility": {
           "name": "天然隐形 Invisibility",
-          "description": "<p>你变为@Condition[隐形]，且无法通过基于视觉的察觉被发现。你不能成为任何行动的直接目标。该效果持续10分钟，或直到你采取任何非<strong>移动</strong>行动为止。</p>",
+          "description": "<p>你变为@Condition[invisible]，且无法通过基于视觉的察觉被发现。你不能成为任何行动的直接目标。该效果持续10分钟，或直到你采取任何非<strong>移动</strong>行动为止。</p>",
           "effects": [
             {}
           ]
@@ -453,7 +453,7 @@
       "actions": {
         "swallow": {
           "name": "吞下 Swallow",
-          "description": "<p>你吞下一个敌方目标，实际上将该敌人移出战斗。被吞下的目标处于 @Condition[blinded] 和 @Condition[受缚] 状态，直到被释放。</p><p>如果你受到<strong>致命</strong>伤害、处于<strong>负伤</strong>状态，或陷入 @Condition[incapacitated]，你会将吞下的生物反刍出来。</p>",
+          "description": "<p>你吞下一个敌方目标，实际上将该敌人移出战斗。被吞下的目标处于 @Condition[blinded] 和 @Condition[restrained] 状态，直到被释放。</p><p>如果你受到<strong>致命</strong>伤害、处于<strong>负伤</strong>状态，或陷入 @Condition[incapacitated]，你会将吞下的生物反刍出来。</p>",
           "effects": [
             {}
           ]
@@ -509,7 +509,7 @@
       "actions": {
         "tramplingCharge": {
           "name": "践踏冲锋 Charge",
-          "description": "<p>该@ref[actor.name]{生物}向前移动，距离最多为其<strong>跨步</strong>的两倍，并攻击其路径上所有生物的<strong>反射</strong>防御。体型为该生物一半或更小的目标会被猛然撞开，并陷入@Condition[震慑]，直到其下个回合结束。</p>",
+          "description": "<p>该@ref[actor.name]{生物}向前移动，距离最多为其<strong>跨步</strong>的两倍，并攻击其路径上所有生物的<strong>反射</strong>防御。体型为该生物一半或更小的目标会被猛然撞开，并陷入@Condition[stunned]，直到其下个回合结束。</p>",
           "effects": [
             {}
           ]

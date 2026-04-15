@@ -317,7 +317,7 @@
           "actions": {
             "blastFlask": {
               "name": "爆炸瓶 Flask",
-              "description": "<p>你点燃并投掷@ref[name]，对爆炸半径内的所有敌人造成<strong>火元素</strong>伤害。<strong>爆炸</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>粗劣</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>优良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
+              "description": "<p>你点燃并投掷@ref[name]，对爆炸半径内的所有敌人造成<strong>火焰</strong>伤害。<strong>爆炸</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>粗劣</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>优良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
             }
           }
         },
@@ -581,11 +581,11 @@
         },
         "Pyromancer": {
           "name": "炎术师 Pyromancer",
-          "description": "<p>你极其擅长编织火焰符文。使用该符文的法术在造成暴击时会施加 @Condition[burning]。</p><p><strong>燃烧</strong>效果持续<strong>1 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>同时造成等同于你的<strong>智力</strong>值的<strong>火元素</strong>伤害。</p>"
+          "description": "<p>你极其擅长编织火焰符文。使用该符文的法术在造成暴击时会施加 @Condition[burning]。</p><p><strong>燃烧</strong>效果持续<strong>1 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>同时造成等同于你的<strong>智力</strong>值的<strong>火焰</strong>伤害。</p>"
         },
         "Rune: Flame": {
           "name": "符文：火焰 Flame",
-          "description": "<p>元素与热能的混沌之力。火焰符文支配火与热。</p><p>火焰符文以<strong>智力</strong>进行成长，目标为<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>火元素</strong>伤害。它与秩序的<strong>霜冻</strong>符文相对立。</p>",
+          "description": "<p>元素与热能的混沌之力。火焰符文支配火与热。</p><p>火焰符文以<strong>智力</strong>进行成长，目标为<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>火焰</strong>伤害。它与秩序的<strong>霜冻</strong>符文相对立。</p>",
           "actions": {
             "enkindle": {
               "name": "引燃 Enkindle",
@@ -669,7 +669,7 @@
         },
         "Arcana Novice": {
           "name": "奥术新手 Novice",
-          "description": "<p>你的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知的被神化与被妖魔化的崇拜对象。你在<strong>奥术</strong>技能中获得<strong>新手</strong>等级，并且不再被视为该技能<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪一种低阶符文，以及所用的手势（但无法辨别屈折）。你能够判断一个存在更受混沌还是秩序影响，也能识别常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有足够了解，能够在与崇拜某位灵体或神祇的人交流时不至于让自己出丑。</p>"
+          "description": "<p>你的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知的被神化与被妖魔化的崇拜对象。你在<strong>奥术</strong>技能中获得<strong>新手</strong>等级，并且不再被视为该技能<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪一种低阶符文，以及所用的手势（但无法辨别词缀）。你能够判断一个存在更受混沌还是秩序影响，也能识别常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有足够了解，能够在与崇拜某位灵体或神祇的人交流时不至于让自己出丑。</p>"
         },
         "Conserve Effort": {
           "name": "节省精力 Effort",
@@ -711,8 +711,8 @@
           }
         },
         "Inflection: Compose": {
-          "name": "屈折：作曲 Compose",
-          "description": "<p>通过在法术成形过程中花费额外时间来强化法术，以此换取降低其他资源消耗。Compose屈折会使法术的<strong>专注</strong>消耗减少 1，作为交换，其<strong>动作</strong>消耗增加 1。</p>"
+          "name": "词缀：作曲 组合",
+          "description": "<p>通过在法术成形过程中花费额外时间来强化法术，以此换取降低其他资源消耗。组合词缀会使法术的<strong>专注</strong>消耗减少 1，作为交换，其<strong>动作</strong>消耗增加 1。</p>"
         },
         "Inspirator": {
           "name": "鼓舞者 Inspirator",
@@ -1001,7 +1001,7 @@
           "actions": {
             "grapple": {
               "name": "擒抱 Grapple",
-              "description": "<p>你尝试以身体压制或制服一名对手。对一个邻近目标进行一次<strong>运动</strong>技能攻击。若成功，你和你的目标均陷入 @Condition[受缚] 状态，持续 1 轮。</p>",
+              "description": "<p>你尝试以身体压制或制服一名对手。对一个邻近目标进行一次<strong>运动</strong>技能攻击。若成功，你和你的目标均陷入 @Condition[restrained] 状态，持续 1 轮。</p>",
               "effects": [
                 {
                   "name": "被擒抱 Grappled"
@@ -1079,12 +1079,12 @@
           }
         },
         "Rune: Kinesis": {
-          "name": "符文：念动力 Kinesis",
-          "description": "<p>空间与物理运动的混沌之力。念动力符文支配着一切与移动行为和物质性相关的事物。</p><p>念动力符文依靠<strong>魅力</strong>进行成长，目标是<strong>Physical</strong>防御，并对<strong>生命值</strong>造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害。它与秩序的<strong>控制</strong>符文相对立。</p>",
+          "name": "符文：念力 Kinesis",
+          "description": "<p>空间与物理运动的混沌之力。念力符文支配着一切与移动行为和物质性相关的事物。</p><p>念力符文依靠<strong>魅力</strong>进行成长，目标是<strong>Physical</strong>防御，并对<strong>生命值</strong>造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害。它与秩序的<strong>控制</strong>符文相对立。</p>",
           "actions": {
             "propel": {
               "name": "推进 Propel",
-              "description": "<p>你对念动力符文的掌控使你能够对重力施加局部控制，以进行基础的念动力操控，产生以下效果之一：</p><ul><li><p>将15英尺内一个未固定且重量不大于1的物体拉向你并接住。由生物已装备或持有的物体，除非该生物自愿放手，否则绝不会被视为未固定。</p></li><li><p>将你手持的一个重量不大于1的物体弹向一个最远30英尺外的目标。该物体会以中等速度沿直线准确无误地飞向该目标。物体飞行路径上的任何生物都可以作出反应将其接住，只要他们有一只空闲的手来这么做。</p></li><li><p>使你所接触的一个物体或自愿生物悬浮在半空中，其重量小于或等于你<strong>魅力</strong>的10倍，并将其位置从原本所在处向任意方向改变最多20英尺。只要你不再采取进一步的动作，且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>除非另有说明，推进只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+              "description": "<p>你对念力符文的掌控使你能够对重力施加局部控制，以进行基础的念力操控，产生以下效果之一：</p><ul><li><p>将15英尺内一个未固定且重量不大于1的物体拉向你并接住。由生物已装备或持有的物体，除非该生物自愿放手，否则绝不会被视为未固定。</p></li><li><p>将你手持的一个重量不大于1的物体弹向一个最远30英尺外的目标。该物体会以中等速度沿直线准确无误地飞向该目标。物体飞行路径上的任何生物都可以作出反应将其接住，只要他们有一只空闲的手来这么做。</p></li><li><p>使你所接触的一个物体或自愿生物悬浮在半空中，其重量小于或等于你<strong>魅力</strong>的10倍，并将其位置从原本所在处向任意方向改变最多20英尺。只要你不再采取进一步的动作，且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>除非另有说明，推进只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
             }
           }
         },
@@ -1281,12 +1281,12 @@
           }
         },
         "Rune: Kinesis": {
-          "name": "符文：念动力 Kinesis",
-          "description": "<p>空间与物理移动的混沌之力。念动力符文掌管一切与移动行为及物理性相关的事物。</p><p>念动力符文基于<strong>魅力</strong>进行成长，以<strong>Physical</strong>防御为目标，并造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害到<strong>生命值</strong>。它与秩序的<strong>控制</strong>符文相对立。</p>",
+          "name": "符文：念力 Kinesis",
+          "description": "<p>空间与物理移动的混沌之力。念力符文掌管一切与移动行为及物理性相关的事物。</p><p>念力符文基于<strong>魅力</strong>进行成长，以<strong>Physical</strong>防御为目标，并造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害到<strong>生命值</strong>。它与秩序的<strong>控制</strong>符文相对立。</p>",
           "actions": {
             "propel": {
               "name": "推进 Propel",
-              "description": "<p>你对念动力符文的掌控让你能够对重力施加局部控制，以执行基础的念动力操纵，产生以下效果之一：</p><ul><li><p>将15尺内一个未固定且重量不大于1的物体拉向你，并接住它。由生物已装备或持有的物体绝不会被视为未固定，除非该生物愿意放手。</p></li><li><p>将一个你手持且重量不大于1的物体弹向一个最远30尺外的目标。该物体会以中等速度笔直且无误地飞向该目标。物体路径上的任何生物都可以作出反应接住它，只要其有一只空闲的手可以这样做。</p></li><li><p>使一个你所接触、重量小于或等于你<strong>魅力</strong>的10倍的物体或自愿生物悬浮在半空中，将其位置从原本所在处向任意方向改变最多20尺。只要你不再进行进一步的动作，且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>推进只能影响你能够以身体接触到的生物或物体，除非另有说明。你也可以尝试其他与上述类似的用途，其效果由游戏主持人决定。</p>"
+              "description": "<p>你对念力符文的掌控让你能够对重力施加局部控制，以执行基础的念力操纵，产生以下效果之一：</p><ul><li><p>将15尺内一个未固定且重量不大于1的物体拉向你，并接住它。由生物已装备或持有的物体绝不会被视为未固定，除非该生物愿意放手。</p></li><li><p>将一个你手持且重量不大于1的物体弹向一个最远30尺外的目标。该物体会以中等速度笔直且无误地飞向该目标。物体路径上的任何生物都可以作出反应接住它，只要其有一只空闲的手可以这样做。</p></li><li><p>使一个你所接触、重量小于或等于你<strong>魅力</strong>的10倍的物体或自愿生物悬浮在半空中，将其位置从原本所在处向任意方向改变最多20尺。只要你不再进行进一步的动作，且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>推进只能影响你能够以身体接触到的生物或物体，除非另有说明。你也可以尝试其他与上述类似的用途，其效果由游戏主持人决定。</p>"
             }
           }
         },
@@ -1337,7 +1337,7 @@
           "actions": {
             "grapple": {
               "name": "擒抱 Grapple",
-              "description": "<p>你试图以身体方式限制或制服一名对手。对一个相邻目标进行一次<strong>运动</strong>技能攻击。若成功，你和你的目标都将陷入 @Condition[受缚]，持续 1 轮。</p>",
+              "description": "<p>你试图以身体方式限制或制服一名对手。对一个相邻目标进行一次<strong>运动</strong>技能攻击。若成功，你和你的目标都将陷入 @Condition[restrained]，持续 1 轮。</p>",
               "effects": [
                 {
                   "name": "被擒抱 Grappled"
@@ -1362,7 +1362,7 @@
       "tokenName": "扎拉贾",
       "ancestry": {
         "name": "魔裔 Devilkin",
-        "description": "<p>你生来便对自己的创造物拥有出人意料的魔法影响力。你的外表显露出种种明显特征，迷信之人会将这些特征与位面生物联系起来——绯红色的皮肤、无用的翅膀或犄角、爬行动物般的眼睛。你对光的厌恶以及对火元素的超自然抗性，也几乎无助于打消人们认为你是真正恶魔的念头。</p>"
+        "description": "<p>你生来便对自己的创造物拥有出人意料的魔法影响力。你的外表显露出种种明显特征，迷信之人会将这些特征与位面生物联系起来——绯红色的皮肤、无用的翅膀或犄角、爬行动物般的眼睛。你对光的厌恶以及对火焰的超自然抗性，也几乎无助于打消人们认为你是真正恶魔的念头。</p>"
       },
       "background": {
         "name": "表演者 Performer",
@@ -1419,7 +1419,7 @@
         },
         "Rune: Flame": {
           "name": "符文：火焰 Flame",
-          "description": "<p>元素性热能的混沌力量。火焰符文支配火焰与高温。</p><p>火焰符文以<strong>智力</strong>进行成长，目标为<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>火元素</strong><strong>伤害</strong>。它与秩序的<strong>霜冻</strong>符文相对立。</p>",
+          "description": "<p>元素性热能的混沌力量。火焰符文支配火焰与高温。</p><p>火焰符文以<strong>智力</strong>进行成长，目标为<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>火焰</strong><strong>伤害</strong>。它与秩序的<strong>霜冻</strong>符文相对立。</p>",
           "actions": {
             "enkindle": {
               "name": "引燃 Enkindle",

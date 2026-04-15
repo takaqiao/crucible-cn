@@ -1,5 +1,5 @@
 {
-  "label": "屈折\nAffixes",
+  "label": "词缀\nAffixes",
   "mapping": {
     "description": "description"
   },
@@ -187,8 +187,8 @@
       "description": "<p>这种武器对<strong>土元素</strong><strong>生物</strong>尤其有效。当对该生物类型的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Fire Elemental Bane": {
-      "name": "火元素祸骰 火元素 祸骰 Bane",
-      "description": "<p>这种武器对<strong>火元素</strong>生物尤其有效。当对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
+      "name": "火焰祸骰 火焰 祸骰 Bane",
+      "description": "<p>这种武器对<strong>火焰</strong>生物尤其有效。当对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶级</strong>的额外<strong>惠骰</strong>。</p>"
     },
     "Frost Elemental Bane": {
       "name": "冰霜元素祸骰 冰霜元素 祸骰 Bane",
@@ -216,7 +216,7 @@
     },
     "Fire Damage": {
       "name": "火焰伤害 Damage",
-      "description": "<p>为使用此武器进行的打击附加<strong>火元素</strong>伤害。额外伤害等于该后缀每<strong>阶</strong>2点。</p><h3 class=\"divider\">试玩测试备注</h3><p>该加值当前作为此武器现有伤害类型的固定额外伤害生效。在未来更新中，这将作为<strong>火元素</strong>造成伤害，并单独对照目标的<strong>火元素</strong>抗性进行检定。</p>"
+      "description": "<p>为使用此武器进行的打击附加<strong>火焰</strong>伤害。额外伤害等于该后缀每<strong>阶</strong>2点。</p><h3 class=\"divider\">试玩测试备注</h3><p>该加值当前作为此武器现有伤害类型的固定额外伤害生效。在未来更新中，这将作为<strong>火焰</strong>造成伤害，并单独对照目标的<strong>火焰</strong>抗性进行检定。</p>"
     },
     "Fire Resistance": {
       "name": "火焰抗性 Resistance",
@@ -283,12 +283,12 @@
       "description": "<p>降低在成功的打击中造成<strong>暴击</strong>所需的<strong>暴击阈值</strong>。该阈值会随此词缀的每个<strong>阶</strong>降低 1。</p>"
     },
     "Kinesis Potency": {
-      "name": "念动力强度 念动力 Potency",
-      "description": "<p>使使用<strong>念动力</strong>符文的法术的<strong>附魔加值</strong>，按此后缀的每个<strong>阶级</strong>提高 1。</p>"
+      "name": "念力强度 念力 Potency",
+      "description": "<p>使使用<strong>念力</strong>符文的法术的<strong>附魔加值</strong>，按此后缀的每个<strong>阶级</strong>提高 1。</p>"
     },
     "Kinesis Spellcraft": {
-      "name": "念动力施法 念动力 施法 Spellcraft",
-      "description": "<p>此物品被注入了<strong>念动力</strong>施法的精髓。佩戴后，持有者会本能地获得<strong>念动力</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构成法术。</p>"
+      "name": "念力施法 念力 施法 Spellcraft",
+      "description": "<p>此物品被注入了<strong>念力</strong>施法的精髓。佩戴后，持有者会本能地获得<strong>念力</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构成法术。</p>"
     },
     "Life Potency": {
       "name": "生命强效 生命 Potency",
@@ -308,7 +308,7 @@
     },
     "Luminary": {
       "name": "辉耀者 Luminary",
-      "description": "<p>包含<strong>屈折</strong>的<strong>沉着</strong><strong>动作</strong>获得惠骰。获得的惠骰数量等于此前缀的<strong>阶级</strong>。只有一个词缀可以提供此增益。</p>"
+      "description": "<p>包含<strong>词缀</strong>的<strong>沉着</strong><strong>动作</strong>获得惠骰。获得的惠骰数量等于此前缀的<strong>阶级</strong>。只有一个词缀可以提供此增益。</p>"
     },
     "Medicine": {
       "name": "医疗 Medicine",
