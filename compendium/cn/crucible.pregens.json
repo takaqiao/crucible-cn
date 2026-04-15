@@ -478,7 +478,7 @@
           }
         },
         "Weak Points": {
-          "name": "弱点 Points",
+          "name": "弱点 点数",
           "description": "<p>你能识别出攻击敌人弱点的时机。当你使用依赖<strong>敏捷</strong>成长的武器攻击处于 @Condition[unaware]、@Condition[flanked] 或 @Condition[exposed] 状态的目标时，你的任何打击获得 +2 伤害。</p>"
         }
       }
@@ -685,11 +685,11 @@
         },
         "Gesture: Influence": {
           "name": "手势：影响 Influence",
-          "description": "<p>你将符文的奥术力量强化为一种集中的直接接触，这通常是基础触碰手势的更强力进阶形式。</p><p>影响手势使用<strong>Presence</strong>进行缩放，并以单个相邻生物为目标。它对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。此手势需要<strong>1 只手</strong>来施放，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
+          "description": "<p>你将符文的奥术力量强化为一种集中的直接接触，这通常是基础触碰手势的更强力进阶形式。</p><p>影响手势使用<strong>魅力</strong>进行缩放，并以单个相邻生物为目标。它对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。此手势需要<strong>1 只手</strong>来施放，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
         },
         "Gesture: Pulse": {
           "name": "手势：脉冲 Pulse",
-          "description": "<p>将符文的奥术力量驱散为一个以你为中心、随你向外扩展的半径范围。</p><p>脉冲手势按<strong>Presence</strong>进行缩放，产生一个10英尺半径的散发区域，对未能抵抗该法术的目标造成<strong>8基础伤害</strong>。该手势施放需要<strong>2只手</strong>，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前放置在一个<strong>第4阶</strong>节点上。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为测试目的而“提前”开放。</p>"
+          "description": "<p>将符文的奥术力量驱散为一个以你为中心、随你向外扩展的半径范围。</p><p>脉冲手势按<strong>魅力</strong>进行缩放，产生一个10英尺半径的散发区域，对未能抵抗该法术的目标造成<strong>8基础伤害</strong>。该手势施放需要<strong>2只手</strong>，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前放置在一个<strong>第4阶</strong>节点上。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为测试目的而“提前”开放。</p>"
         },
         "Gesture: Ray": {
           "name": "手势：射线 Ray",
@@ -716,7 +716,7 @@
         },
         "Inspirator": {
           "name": "鼓舞者 Inspirator",
-          "description": "<p>你极其擅长编织灵魂符文。使用此符文的法术在造成暴击时会施加 @Condition[inspired] 状态。</p><p>鼓舞效果持续<strong>1 轮</strong>，并额外对<strong>士气</strong>造成等同于你的<strong>气场</strong>数值的<strong>恢复</strong>。</p>"
+          "description": "<p>你极其擅长编织灵魂符文。使用此符文的法术在造成暴击时会施加 @Condition[inspired] 状态。</p><p>鼓舞效果持续<strong>1 轮</strong>，并额外对<strong>士气</strong>造成等同于你的<strong>魅力</strong>数值的<strong>恢复</strong>。</p>"
         },
         "Irrepressible Spirit": {
           "name": "不屈灵魂 Spirit",
@@ -752,7 +752,7 @@
         },
         "Rune: Soul": {
           "name": "符文：灵魂 Soul",
-          "description": "<p>一种有序的创造与精神本质之力。灵魂符文支配着灵魂在生命与死亡间的基本流转，并与知性、人格及心理健康等事务相关。</p><p>灵魂符文以 <strong>Presence</strong> 进行成长，能够提供 <strong>恢复</strong> 以恢复<strong>士气</strong>，或造成由 <strong>意志</strong> 抵抗的 <strong>灵能</strong> <strong>伤害</strong>。它与混沌的 <strong>湮灭</strong> 符文相对立。</p>",
+          "description": "<p>一种有序的创造与精神本质之力。灵魂符文支配着灵魂在生命与死亡间的基本流转，并与知性、人格及心理健康等事务相关。</p><p>灵魂符文以 <strong>魅力</strong> 进行成长，能够提供 <strong>恢复</strong> 以恢复<strong>士气</strong>，或造成由 <strong>意志</strong> 抵抗的 <strong>灵能</strong> <strong>伤害</strong>。它与混沌的 <strong>湮灭</strong> 符文相对立。</p>",
           "actions": {
             "evoke": {
               "name": "引发 Evoke",
@@ -780,7 +780,7 @@
           "actions": {
             "refocus": {
               "name": "重新聚焦 Refocus",
-              "description": "<p>你使用已装备的护符，尝试重新获得一些<strong>专注</strong>。你对自己的<strong>Rallying</strong>阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>若成功，使用单手护符时你<strong>恢复 +1 专注</strong>，使用双手持用护符时你<strong>恢复 +2 专注</strong>。若大成功，恢复的专注量额外增加 +1。</p>"
+              "description": "<p>你使用已装备的护符，尝试重新获得一些<strong>专注</strong>。你对自己的<strong>激励</strong>阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>若成功，使用单手护符时你<strong>恢复 +1 专注</strong>，使用双手持用护符时你<strong>恢复 +2 专注</strong>。若大成功，恢复的专注量额外增加 +1。</p>"
             }
           }
         },
@@ -815,7 +815,7 @@
       },
       "background": {
         "name": "警员 Constable",
-        "description": "<p>你曾是某个执法组织的一员。你学会了如何对周围环境保持警觉，在复杂的社交结构中行事，并展现出令人畏惧的气场。</p>"
+        "description": "<p>你曾是某个执法组织的一员。你学会了如何对周围环境保持警觉，在复杂的社交结构中行事，并展现出令人畏惧的魅力。</p>"
       },
       "biography": {
         "public": "<p>乌尔芬是一名凶猛的战士，使用双手持用巨斧作战，偏好能造成大量伤害或打击多个目标的重型劈砍。乌尔芬渴望获得<strong>狂战士</strong>的签名天赋。</p>"
@@ -839,7 +839,7 @@
           "actions": {
             "adrenalineSurge": {
               "name": "肾上腺素涌动 Surge",
-              "description": "<p>你消耗<strong>英雄气概</strong>，并在 3 轮内对任何以力量进行成长的动作获得<strong>+2 恩惠骰</strong>。你可以在战斗中于自己的回合之外、进行<strong>反应</strong>前执行此动作。</p>",
+              "description": "<p>你消耗<strong>英雄气概</strong>，并在 3 轮内对任何以力量进行成长的动作获得<strong>+2 惠骰</strong>。你可以在战斗中于自己的回合之外、进行<strong>反应</strong>前执行此动作。</p>",
               "effects": [
                 {
                   "name": "肾上腺素涌动 Surge"
@@ -1080,11 +1080,11 @@
         },
         "Rune: Kinesis": {
           "name": "符文：念动力 Kinesis",
-          "description": "<p>空间与物理运动的混沌之力。念动力符文支配着一切与移动行为和物质性相关的事物。</p><p>念动力符文依靠<strong>Presence</strong>进行成长，目标是<strong>Physical</strong>防御，并对<strong>Health</strong>造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害。它与秩序的<strong>控制</strong>符文相对立。</p>",
+          "description": "<p>空间与物理运动的混沌之力。念动力符文支配着一切与移动行为和物质性相关的事物。</p><p>念动力符文依靠<strong>魅力</strong>进行成长，目标是<strong>Physical</strong>防御，并对<strong>生命值</strong>造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害。它与秩序的<strong>控制</strong>符文相对立。</p>",
           "actions": {
             "propel": {
               "name": "推进 Propel",
-              "description": "<p>你对念动力符文的掌控使你能够对重力施加局部控制，以进行基础的念动力操控，产生以下效果之一：</p><ul><li><p>将15英尺内一个未固定且重量不大于1的物体拉向你并接住。由生物已装备或持有的物体，除非该生物自愿放手，否则绝不会被视为未固定。</p></li><li><p>将你手持的一个重量不大于1的物体弹向一个最远30英尺外的目标。该物体会以中等速度沿直线准确无误地飞向该目标。物体飞行路径上的任何生物都可以作出反应将其接住，只要他们有一只空闲的手来这么做。</p></li><li><p>使你所接触的一个物体或自愿生物悬浮在半空中，其重量小于或等于你<strong>Presence</strong>的10倍，并将其位置从原本所在处向任意方向改变最多20英尺。只要你不再采取进一步的动作，且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>除非另有说明，推进只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+              "description": "<p>你对念动力符文的掌控使你能够对重力施加局部控制，以进行基础的念动力操控，产生以下效果之一：</p><ul><li><p>将15英尺内一个未固定且重量不大于1的物体拉向你并接住。由生物已装备或持有的物体，除非该生物自愿放手，否则绝不会被视为未固定。</p></li><li><p>将你手持的一个重量不大于1的物体弹向一个最远30英尺外的目标。该物体会以中等速度沿直线准确无误地飞向该目标。物体飞行路径上的任何生物都可以作出反应将其接住，只要他们有一只空闲的手来这么做。</p></li><li><p>使你所接触的一个物体或自愿生物悬浮在半空中，其重量小于或等于你<strong>魅力</strong>的10倍，并将其位置从原本所在处向任意方向改变最多20英尺。只要你不再采取进一步的动作，且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>除非另有说明，推进只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
             }
           }
         },
@@ -1121,7 +1121,7 @@
       },
       "background": {
         "name": "警员 Constable",
-        "description": "<p>你曾是执法机构的一员。你学会了如何对周围环境保持警觉，在复杂的社交结构中开展工作，并展现出令人敬畏的气场。</p>"
+        "description": "<p>你曾是执法机构的一员。你学会了如何对周围环境保持警觉，在复杂的社交结构中开展工作，并展现出令人敬畏的魅力。</p>"
       },
       "biography": {
         "public": "<p>Duurath 是一名强壮的矮人防御者，使用锤和盾牌来保护盟友，并通过削弱敌人的士气来惩戒他们。Duurath 渴望获得 <strong>符文守卫</strong>签名天赋。</p>"
@@ -1188,11 +1188,11 @@
           "description": "<p>你在战场上散发出可怖的威势，考验着附近目睹你的敌人的士气，并击溃那些意志薄弱者的决心。</p>",
           "actions": {
             "formidablePresence": {
-              "name": "威严气场 Presence",
+              "name": "威严魅力 魅力",
               "description": "<p>你对 12 尺内的敌人发动一次针对意志防御的威吓技能攻击，对其士气造成虚空伤害，并使防御被你压制的目标陷入恐慌状态，持续 1 轮。</p>",
               "effects": [
                 {
-                  "name": "威严气场 Presence"
+                  "name": "威严魅力 魅力"
                 }
               ]
             }
@@ -1267,7 +1267,7 @@
         },
         "Rallying Cry": {
           "name": "振奋战吼 Cry",
-          "description": "你是一名战场领袖，运用你的气场与声音来坚定盟友的决心。",
+          "description": "你是一名战场领袖，运用你的魅力与声音来坚定盟友的决心。",
           "actions": {
             "rallyingCry": {
               "name": "振奋战吼 Cry",
@@ -1282,11 +1282,11 @@
         },
         "Rune: Kinesis": {
           "name": "符文：念动力 Kinesis",
-          "description": "<p>空间与物理移动的混沌之力。念动力符文掌管一切与移动行为及物理性相关的事物。</p><p>念动力符文基于<strong>Presence</strong>进行成长，以<strong>Physical</strong>防御为目标，并造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害到<strong>生命值</strong>。它与秩序的<strong>控制</strong>符文相对立。</p>",
+          "description": "<p>空间与物理移动的混沌之力。念动力符文掌管一切与移动行为及物理性相关的事物。</p><p>念动力符文基于<strong>魅力</strong>进行成长，以<strong>Physical</strong>防御为目标，并造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害到<strong>生命值</strong>。它与秩序的<strong>控制</strong>符文相对立。</p>",
           "actions": {
             "propel": {
               "name": "推进 Propel",
-              "description": "<p>你对念动力符文的掌控让你能够对重力施加局部控制，以执行基础的念动力操纵，产生以下效果之一：</p><ul><li><p>将15尺内一个未固定且重量不大于1的物体拉向你，并接住它。由生物已装备或持有的物体绝不会被视为未固定，除非该生物愿意放手。</p></li><li><p>将一个你手持且重量不大于1的物体弹向一个最远30尺外的目标。该物体会以中等速度笔直且无误地飞向该目标。物体路径上的任何生物都可以作出反应接住它，只要其有一只空闲的手可以这样做。</p></li><li><p>使一个你所接触、重量小于或等于你<strong>Presence</strong>的10倍的物体或自愿生物悬浮在半空中，将其位置从原本所在处向任意方向改变最多20尺。只要你不再进行进一步的动作，且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>推进只能影响你能够以身体接触到的生物或物体，除非另有说明。你也可以尝试其他与上述类似的用途，其效果由游戏主持人决定。</p>"
+              "description": "<p>你对念动力符文的掌控让你能够对重力施加局部控制，以执行基础的念动力操纵，产生以下效果之一：</p><ul><li><p>将15尺内一个未固定且重量不大于1的物体拉向你，并接住它。由生物已装备或持有的物体绝不会被视为未固定，除非该生物愿意放手。</p></li><li><p>将一个你手持且重量不大于1的物体弹向一个最远30尺外的目标。该物体会以中等速度笔直且无误地飞向该目标。物体路径上的任何生物都可以作出反应接住它，只要其有一只空闲的手可以这样做。</p></li><li><p>使一个你所接触、重量小于或等于你<strong>魅力</strong>的10倍的物体或自愿生物悬浮在半空中，将其位置从原本所在处向任意方向改变最多20尺。只要你不再进行进一步的动作，且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>推进只能影响你能够以身体接触到的生物或物体，除非另有说明。你也可以尝试其他与上述类似的用途，其效果由游戏主持人决定。</p>"
             }
           }
         },
@@ -1390,7 +1390,7 @@
         },
         "Gesture: Influence": {
           "name": "手势：影响 Influence",
-          "description": "<p>你将符文中的奥术力量强化为一种集中的直接接触，这通常是基础触碰手势的更强力进阶形式。</p><p>影响手势使用<strong>Presence</strong>进行加成，并以一个相邻的单一生物为目标。它会对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。该手势需要<strong>1 只手</strong>来施放，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
+          "description": "<p>你将符文中的奥术力量强化为一种集中的直接接触，这通常是基础触碰手势的更强力进阶形式。</p><p>影响手势使用<strong>魅力</strong>进行加成，并以一个相邻的单一生物为目标。它会对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。该手势需要<strong>1 只手</strong>来施放，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
         },
         "Inspire Heroism": {
           "name": "激励英勇 Heroism",
@@ -1398,7 +1398,7 @@
           "actions": {
             "inspireHeroism": {
               "name": "激励英勇 Heroism",
-              "description": "<p>每个盟友（不包括你自己）在<strong>10 英尺</strong>内，进行的<strong>动作</strong>直到其下个<strong>回合</strong>结束前获得<strong>+1 恩惠骰</strong>。</p>",
+              "description": "<p>每个盟友（不包括你自己）在<strong>10 英尺</strong>内，进行的<strong>动作</strong>直到其下个<strong>回合</strong>结束前获得<strong>+1 惠骰</strong>。</p>",
               "effects": [
                 {
                   "name": "激励英勇 Heroism"

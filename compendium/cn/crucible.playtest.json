@@ -65,7 +65,7 @@
           "pages": {
             "Introduction": {
               "name": "引言 Introduction",
-              "text": "<p><strong>试玩测试一：英勇之戒</strong>是对 Crucible 中角色晋升与战斗机制的引导式介绍，让玩家扮演一支角斗士队伍，在英勇之戒中面对一连串挑战。</p><p>玩家既可以按照 @UUID[Compendium.crucible.rules.JournalEntry.gszlBVQ5fGh3y0I6]{角色创造} 流程从零开始创建自己的角色（推荐），也可以使用 <strong>预生成英雄</strong> compendium 包中提供的 1级预制角色。</p><p>这一挑战是为一支由四名玩家角色组成的队伍设计并平衡的，不过我们也鼓励你用人数更少或更多的队伍进行测试。挑战的难度可以通过调整 @UUID[Compendium.crucible.rules.JournalEntry.v1dqTT3NI35lFNxM]{对手} 的威胁等级来改变。</p><p>英勇之戒由六场战斗组成，每天一场。在此期间，队伍将面对越来越危险的对手，最终迎来与现任冠军的决战——也就是上一支征服这座竞技场的英雄团队。每次遭遇结束后，队伍都会提升等级，然后再面对下一场考验。每场战斗都旨在引入新的游戏机制，并让玩家有机会测试通过升级获得的新能力。</p><h2 class=\"divider\">提供反馈</h2><p>如果你试玩测试了 Crucible 并体验了英勇之戒，请花一点时间在我们的社区 Discord 服务器中的 <strong>#crucible</strong> 频道 @UUID[Compendium.crucible.rules.JournalEntry.5SgXrAKS2EnqVggJ.JournalEntryPage.4Ggutuh9uzhcEXSK]{提供反馈}，帮助我们改进。</p><h2 class=\"divider\">关于失败</h2><p>通常在 Crucible 中——无论是因<strong>疯狂</strong>还是<strong>死亡</strong>而失败——都意味着角色旅程的终结。不过，在这次初始试玩测试中，我们建议你作为游戏主持人采取一种更灵活的处理方式。</p><p>为了测试系统并收集有用的反馈，我们建议允许遭遇失败的队伍反复尝试同一挑战直到成功；或者如果某一天的挑战过于困难、无法克服，也可以允许他们照常进入下一项挑战。</p>"
+              "text": "<p><strong>试玩测试一：英勇之戒</strong>是对 Crucible 中角色晋升与战斗机制的引导式介绍，让玩家扮演一支角斗士队伍，在英勇之戒中面对一连串挑战。</p><p>玩家既可以按照 @UUID[Compendium.crucible.rules.JournalEntry.gszlBVQ5fGh3y0I6]{角色创造} 流程从零开始创建自己的角色（推荐），也可以使用 <strong>预生成英雄</strong> 合集包 包中提供的 1级预制角色。</p><p>这一挑战是为一支由四名玩家角色组成的队伍设计并平衡的，不过我们也鼓励你用人数更少或更多的队伍进行测试。挑战的难度可以通过调整 @UUID[Compendium.crucible.rules.JournalEntry.v1dqTT3NI35lFNxM]{对手} 的威胁等级来改变。</p><p>英勇之戒由六场战斗组成，每天一场。在此期间，队伍将面对越来越危险的对手，最终迎来与现任冠军的决战——也就是上一支征服这座竞技场的英雄团队。每次遭遇结束后，队伍都会提升等级，然后再面对下一场考验。每场战斗都旨在引入新的游戏机制，并让玩家有机会测试通过升级获得的新能力。</p><h2 class=\"divider\">提供反馈</h2><p>如果你试玩测试了 Crucible 并体验了英勇之戒，请花一点时间在我们的社区 Discord 服务器中的 <strong>#crucible</strong> 频道 @UUID[Compendium.crucible.rules.JournalEntry.5SgXrAKS2EnqVggJ.JournalEntryPage.4Ggutuh9uzhcEXSK]{提供反馈}，帮助我们改进。</p><h2 class=\"divider\">关于失败</h2><p>通常在 Crucible 中——无论是因<strong>疯狂</strong>还是<strong>死亡</strong>而失败——都意味着角色旅程的终结。不过，在这次初始试玩测试中，我们建议你作为游戏主持人采取一种更灵活的处理方式。</p><p>为了测试系统并收集有用的反馈，我们建议允许遭遇失败的队伍反复尝试同一挑战直到成功；或者如果某一天的挑战过于困难、无法克服，也可以允许他们照常进入下一项挑战。</p>"
             },
             "Day One - The Feral Scramble": {
               "name": "第1天——野性争夺战 Scramble",
@@ -357,7 +357,7 @@
             },
             "Gesture: Influence": {
               "name": "手势：影响 Influence",
-              "description": "<p>你将一个符文中的奥术力量强化为一种集中的直接接触，这通常是基础触碰手势的更强力进阶形式。</p><p>影响手势以<strong>Presence</strong>进行成长，并以一个相邻的单个生物为目标。它对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。施放该手势需要<strong>1 只手</strong>，其基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
+              "description": "<p>你将一个符文中的奥术力量强化为一种集中的直接接触，这通常是基础触碰手势的更强力进阶形式。</p><p>影响手势以<strong>魅力</strong>进行成长，并以一个相邻的单个生物为目标。它对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。施放该手势需要<strong>1 只手</strong>，其基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
             },
             "Inflection: Compose": {
               "name": "屈折：作曲 Compose",
@@ -385,7 +385,7 @@
               "actions": {
                 "refocus": {
                   "name": "重新聚焦 Refocus",
-                  "description": "<p>你使用自己已装备的护符，尝试重新获得一些<strong>专注</strong>。你对自己的<strong>Rallying</strong>阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>成功时，若使用单手护符，则<strong>恢复 +1 专注</strong>；若使用双手持用护符，则<strong>恢复 +2 专注</strong>。若大成功，恢复的专注量额外增加 +1。</p>"
+                  "description": "<p>你使用自己已装备的护符，尝试重新获得一些<strong>专注</strong>。你对自己的<strong>激励</strong>阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>成功时，若使用单手护符，则<strong>恢复 +1 专注</strong>；若使用双手持用护符，则<strong>恢复 +2 专注</strong>。若大成功，恢复的专注量额外增加 +1。</p>"
                 }
               }
             },
@@ -416,7 +416,7 @@
             },
             "Rune: Soul": {
               "name": "符文：灵魂 Soul",
-              "description": "<p>一种有序的创造与灵魂本质之力。灵魂符文掌管灵魂在生命与死亡中的基本流转，并与感知力、人格和心理健康相关。</p><p>灵魂符文使用 <strong>Presence</strong> 进行成长，能够提供 <strong>恢复</strong> 以恢复 <strong>士气</strong>，或造成由 <strong>意志</strong> 抵抗的 <strong>灵能</strong> 伤害。它与混沌的 <strong>湮灭</strong> 符文相对立。</p>",
+              "description": "<p>一种有序的创造与灵魂本质之力。灵魂符文掌管灵魂在生命与死亡中的基本流转，并与感知力、人格和心理健康相关。</p><p>灵魂符文使用 <strong>魅力</strong> 进行成长，能够提供 <strong>恢复</strong> 以恢复 <strong>士气</strong>，或造成由 <strong>意志</strong> 抵抗的 <strong>灵能</strong> 伤害。它与混沌的 <strong>湮灭</strong> 符文相对立。</p>",
               "actions": {
                 "evoke": {
                   "name": "引发 Evoke",
@@ -426,7 +426,7 @@
             },
             "Rune: Death": {
               "name": "符文：死亡 Death",
-              "description": "<p>毁灭的有序力量，负责腐化所有生物材料。死亡符文掌管衰败与毁灭。</p><p>死亡符文以 <strong>Presence</strong> 进行成长，目标为 <strong>坚韧</strong>，对 <strong>生命值</strong> 造成 <strong>腐化</strong> 伤害。它的对立面是混乱的 <strong>生命</strong> 符文。</p>",
+              "description": "<p>毁灭的有序力量，负责腐化所有生物材料。死亡符文掌管衰败与毁灭。</p><p>死亡符文以 <strong>魅力</strong> 进行成长，目标为 <strong>坚韧</strong>，对 <strong>生命值</strong> 造成 <strong>腐化</strong> 伤害。它的对立面是混乱的 <strong>生命</strong> 符文。</p>",
               "actions": {
                 "ennervate": {
                   "name": "失神术 Ennervate",
@@ -648,7 +648,7 @@
               "actions": {
                 "pouncingStrike": {
                   "name": "猛扑打击 Strike",
-                  "description": "<p>此次攻击可在一次<strong>移动</strong>后使用，前提是该次移动使 @ref[actor.name]{生物} 至少接近其目标 10 英尺。若该生物原本位于目标上方，则此次攻击每因该次移动下降 10 英尺<strong>高度</strong>，便获得 <strong>+1 恩惠骰</strong>。</p><p>如果此次攻击为<strong>暴击</strong>，则攻击目标会立即击至 @Condition[prone]。</p>",
+                  "description": "<p>此次攻击可在一次<strong>移动</strong>后使用，前提是该次移动使 @ref[actor.name]{生物} 至少接近其目标 10 英尺。若该生物原本位于目标上方，则此次攻击每因该次移动下降 10 英尺<strong>高度</strong>，便获得 <strong>+1 惠骰</strong>。</p><p>如果此次攻击为<strong>暴击</strong>，则攻击目标会立即击至 @Condition[prone]。</p>",
                   "effects": [
                     {
                       "name": "猛扑打击 Strike"
@@ -710,11 +710,11 @@
             },
             "Gesture: Influence": {
               "name": "手势：影响 Influence",
-              "description": "<p>你将符文的奥术力量强化为一种集中的直接接触，这通常是基础触碰手势的更强力进阶形式。</p><p>影响手势使用<strong>Presence</strong>进行成长，并以单个邻近生物为目标。它对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。此手势需要<strong>1 Hand</strong>来施放，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
+              "description": "<p>你将符文的奥术力量强化为一种集中的直接接触，这通常是基础触碰手势的更强力进阶形式。</p><p>影响手势使用<strong>魅力</strong>进行成长，并以单个邻近生物为目标。它对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。此手势需要<strong>1 Hand</strong>来施放，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
             },
             "Gesture: Pulse": {
               "name": "手势：脉冲 Pulse",
-              "description": "<p>将符文中的奥术力量以你为中心向外扩散，形成一个随你一同移动的半径区域。</p><p>脉冲手势按<strong>Presence</strong>进行成长，并产生一个10英尺半径的散发区域，对未能抵抗该法术的目标造成<strong>8基础伤害</strong>。该手势施放需要<strong>2只手</strong>，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前位于一个<strong>第4阶</strong>节点。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为了测试而“提前”开放。</p>"
+              "description": "<p>将符文中的奥术力量以你为中心向外扩散，形成一个随你一同移动的半径区域。</p><p>脉冲手势按<strong>魅力</strong>进行成长，并产生一个10英尺半径的散发区域，对未能抵抗该法术的目标造成<strong>8基础伤害</strong>。该手势施放需要<strong>2只手</strong>，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前位于一个<strong>第4阶</strong>节点。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为了测试而“提前”开放。</p>"
             },
             "Inflection: Pull": {
               "name": "屈折：拉拽 Pull",
@@ -732,7 +732,7 @@
             },
             "Rune: Death": {
               "name": "符文：死亡 Death",
-              "description": "<p>有序的毁灭之力，负责腐化所有生物材料。死亡符文掌管腐朽与毁灭。</p><p>死亡符文基于 <strong>Presence</strong> 进行成长，以 <strong>坚韧</strong> 为目标，并对 <strong>生命值</strong> 造成 <strong>腐化</strong> 伤害。它与混沌的 <strong>生命</strong> 符文相对。</p>",
+              "description": "<p>有序的毁灭之力，负责腐化所有生物材料。死亡符文掌管腐朽与毁灭。</p><p>死亡符文基于 <strong>魅力</strong> 进行成长，以 <strong>坚韧</strong> 为目标，并对 <strong>生命值</strong> 造成 <strong>腐化</strong> 伤害。它与混沌的 <strong>生命</strong> 符文相对。</p>",
               "actions": {
                 "ennervate": {
                   "name": "失神术 Ennervate",
@@ -876,7 +876,7 @@
               "actions": {
                 "inspireHeroism": {
                   "name": "激励英勇 Heroism",
-                  "description": "<p>每位盟友（不包括你自己）在<strong>10 格</strong>内，在其下个<strong>回合</strong>结束前进行的<strong>动作</strong>获得<strong>+1 恩惠骰</strong>。</p>",
+                  "description": "<p>每位盟友（不包括你自己）在<strong>10 格</strong>内，在其下个<strong>回合</strong>结束前进行的<strong>动作</strong>获得<strong>+1 惠骰</strong>。</p>",
                   "effects": [
                     {
                       "name": "激励英勇 Heroism"
@@ -887,7 +887,7 @@
             },
             "Gesture: Influence": {
               "name": "手势：影响 Influence",
-              "description": "<p>你将一个符文的奥术力量强化为一种集中的直接接触，这通常是基础触碰的更强力进阶形式。</p><p>手势：影响手势以<strong>气场</strong>进行成长，并以一个相邻的单个生物为目标。它对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。该手势施放时需要<strong>1 只手</strong>，其基础消耗为<strong>3 动作</strong>和<stro<strong>1 专注</strong>。</p>"
+              "description": "<p>你将一个符文的奥术力量强化为一种集中的直接接触，这通常是基础触碰的更强力进阶形式。</p><p>手势：影响手势以<strong>魅力</strong>进行成长，并以一个相邻的单个生物为目标。它对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。该手势施放时需要<strong>1 只手</strong>，其基础消耗为<strong>3 动作</strong>和<stro<strong>1 专注</strong>。</p>"
             },
             "Light Weapon Training": {
               "name": "轻型武器训练 Training",
@@ -948,7 +948,7 @@
             },
             "Cadence": {
               "name": "节奏 Cadence",
-              "description": "<p>你经过训练，能够以富有节奏的精准度连续发动近战攻击。当你使用单手近战武器连续多次进行<strong>打击</strong>时，每一次后续攻击都会使你获得可叠加的<strong>+1 恩惠骰</strong>。</p>"
+              "description": "<p>你经过训练，能够以富有节奏的精准度连续发动近战攻击。当你使用单手近战武器连续多次进行<strong>打击</strong>时，每一次后续攻击都会使你获得可叠加的<strong>+1 惠骰</strong>。</p>"
             },
             "Gesture: Arrow": {
               "name": "手势：箭头 Arrow",
@@ -1149,7 +1149,7 @@
             },
             "Preternatural Instinct": {
               "name": "超自然直觉 Instinct",
-              "description": "你的思维与身体同样敏捷，令人印象深刻。你在所有先攻检定上获得 +2 恩惠骰。"
+              "description": "你的思维与身体同样敏捷，令人印象深刻。你在所有先攻检定上获得 +2 惠骰。"
             },
             "Defensive Roll": {
               "name": "防御翻滚 Roll",
@@ -1342,7 +1342,7 @@
           },
           "background": {
             "name": "警员 Constable",
-            "description": "<p>你曾是一个执法组织的一员。你学会了如何对周围环境保持警觉，在复杂的社交结构中开展工作，并展现出令人望而生畏的气场。</p>"
+            "description": "<p>你曾是一个执法组织的一员。你学会了如何对周围环境保持警觉，在复杂的社交结构中开展工作，并展现出令人望而生畏的魅力。</p>"
           },
           "biography": {
             "public": "<p>杜拉特是一名强壮的矮人防御者，使用锤和盾牌来保护他的盟友，并通过打击敌人士气来惩罚敌人。杜拉特立志获得<strong>符文守卫</strong>签名天赋。</p>"
@@ -1356,7 +1356,7 @@
             },
             "Intimidator": {
               "name": "威吓者 Intimidator",
-              "description": "你专精于施展自己那令人畏惧的气场，以击垮敌人的士气。",
+              "description": "你专精于施展自己那令人畏惧的魅力，以击垮敌人的士气。",
               "actions": {
                 "intimidate": {
                   "name": "威吓 Intimidate",
@@ -1405,11 +1405,11 @@
               "description": "<p>你在战场上散发出可怖的威势，考验着目睹你的附近敌人的士气，并击溃那些意志薄弱者的决心。</p>",
               "actions": {
                 "formidablePresence": {
-                  "name": "威严气场 Presence",
+                  "name": "威严魅力 魅力",
                   "description": "<p>你对12英尺内的敌人进行一次针对意志防御的威吓技能攻击，对其士气造成虚空伤害，并使其中防御被你压制的目标陷入恐慌状态，持续1轮。</p>",
                   "effects": [
                     {
-                      "name": "威严气场 Presence"
+                      "name": "威严魅力 魅力"
                     }
                   ]
                 }
@@ -1417,7 +1417,7 @@
             },
             "Rallying Cry": {
               "name": "振奋战吼 Cry",
-              "description": "你是一名战场领袖，运用你的气场与声音来坚定盟友的决心。",
+              "description": "你是一名战场领袖，运用你的魅力与声音来坚定盟友的决心。",
               "actions": {
                 "rallyingCry": {
                   "name": "振奋战吼 Cry",
@@ -1546,11 +1546,11 @@
             },
             "Rune: Kinesis": {
               "name": "符文：念动力 Kinesis",
-              "description": "<p>空间与物理移动的混沌力量。念动力符文掌管一切与移动行为和物理性相关的事物。</p><p>念动力符文的成长基于<strong>Presence</strong>，以<strong>Physical</strong>防御为目标，并造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害至<strong>生命值</strong>。它与秩序的<strong>控制</strong>符文相对立。</p>",
+              "description": "<p>空间与物理移动的混沌力量。念动力符文掌管一切与移动行为和物理性相关的事物。</p><p>念动力符文的成长基于<strong>魅力</strong>，以<strong>Physical</strong>防御为目标，并造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害至<strong>生命值</strong>。它与秩序的<strong>控制</strong>符文相对立。</p>",
               "actions": {
                 "propel": {
                   "name": "推进 Propel",
-                  "description": "<p>你对念动力符文的掌控使你能够对重力施加局部控制，以执行基础的念动操作，产生以下效果之一：</p><ul><li><p>将15英尺内一个未固定且重量不大于1的物体拉向你并接住它。由生物已装备或持有的物体，除非该生物自愿松手，否则绝不会被视为未固定。</p></li><li><p>将一个你手持且重量不大于1的物体弹向一个最远30英尺外的目标。该物体会以中等速度笔直且准确无误地飞向该目标。物体飞行路径上的任何生物都可以作出反应来接住它，只要他们有一只空着的手即可。</p></li><li><p>使一个你接触到、重量小于或等于你<strong>Presence</strong>10倍的物体或自愿生物悬浮在半空中，并将其位置从原本所在处向任意方向改变最多20英尺。只要你不再进行进一步的动作且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>除非另有说明，推进只能影响你能够以身体实际接触到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+                  "description": "<p>你对念动力符文的掌控使你能够对重力施加局部控制，以执行基础的念动操作，产生以下效果之一：</p><ul><li><p>将15英尺内一个未固定且重量不大于1的物体拉向你并接住它。由生物已装备或持有的物体，除非该生物自愿松手，否则绝不会被视为未固定。</p></li><li><p>将一个你手持且重量不大于1的物体弹向一个最远30英尺外的目标。该物体会以中等速度笔直且准确无误地飞向该目标。物体飞行路径上的任何生物都可以作出反应来接住它，只要他们有一只空着的手即可。</p></li><li><p>使一个你接触到、重量小于或等于你<strong>魅力</strong>10倍的物体或自愿生物悬浮在半空中，并将其位置从原本所在处向任意方向改变最多20英尺。只要你不再进行进一步的动作且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>除非另有说明，推进只能影响你能够以身体实际接触到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
                 }
               }
             },
@@ -1631,7 +1631,7 @@
               "description": "<p>你在箭术上的技巧能够塑造你的施法，部分替代传统施法中的姿势手势。</p><p>当你将<strong>投射</strong>武器作为主手武器使用时，你无视施放带有<strong>箭头</strong>手势的法术所需的空手要求，且这些法术的射程变为你的武器射程。</p><p>在以投射武器进行一次<strong>打击</strong>后，你可以立即施放一个法术，其<strong>动作</strong>消耗减少 1。</p>"
             },
             "Weak Points": {
-              "name": "弱点 Points",
+              "name": "弱点 点数",
               "description": "<p>你能识别出攻击敌人弱点的时机。当你使用一件以<strong>敏捷</strong>为成长属性的武器攻击处于@Condition[未察觉]、@Condition[夹击]或@Condition[暴露]状态的目标时，你的任何打击都会获得 +2 伤害。</p>"
             },
             "Mark Prey": {
@@ -1733,7 +1733,7 @@
             },
             "Subtle Extrication": {
               "name": "巧妙脱身 Extrication",
-              "description": "<p>你知道如何在远离对手时，不让自己暴露于对方最凶狠的反击之下。任何针对你的<strong>脱离交战打击</strong>在进行时，都不会获得原本通常会适用于此类攻击的2个恩惠骰。</p>"
+              "description": "<p>你知道如何在远离对手时，不让自己暴露于对方最凶狠的反击之下。任何针对你的<strong>脱离交战打击</strong>在进行时，都不会获得原本通常会适用于此类攻击的2个惠骰。</p>"
             },
             "Focused Anticipation": {
               "name": "专注预判 Anticipation",
@@ -1902,11 +1902,11 @@
             },
             "Rune: Kinesis": {
               "name": "符文：念动力 Kinesis",
-              "description": "<p>空间与物理移动的混沌之力。念动力符文统御一切与移动行为及物理性相关的事物。</p><p>念动力符文基于<strong>Presence</strong>进行成长，以<strong>Physical</strong>防御为目标，并对<strong>Health</strong>造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害。它与秩序的<strong>控制</strong>符文相对。</p>",
+              "description": "<p>空间与物理移动的混沌之力。念动力符文统御一切与移动行为及物理性相关的事物。</p><p>念动力符文基于<strong>魅力</strong>进行成长，以<strong>Physical</strong>防御为目标，并对<strong>生命值</strong>造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害。它与秩序的<strong>控制</strong>符文相对。</p>",
               "actions": {
                 "propel": {
                   "name": "推进 Propel",
-                  "description": "<p>你对念动力符文的掌控使你能够对重力施加局部控制，以执行基础的念动操纵，产生以下效果之一：</p><ul><li><p>将15尺内一个未固定且重量不大于1的物体拉向你并接住它。由生物已装备或持有的物体，除非该生物自愿放手，否则绝不视为未固定。</p></li><li><p>将你手中一个重量不大于1的物体弹向一个最远30尺外的目标。该物体会以适中的速度沿直线准确无误地飞向该目标。物体路径上的任何生物都可以作出反应来接住它，只要他们有一只空闲的手即可。</p></li><li><p>使你所触碰的一个物体或自愿生物悬浮于半空中，其重量小于或等于你<strong>Presence</strong>的10倍，并将其位置从原本所在处向任意方向改变最多20尺。只要你不再执行进一步的动作且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>除非另有说明，推进只能影响你能够以身体实际接触到的生物或物体。你也可以尝试与上述类似的其他用途，其效果由游戏主持人裁定。</p>"
+                  "description": "<p>你对念动力符文的掌控使你能够对重力施加局部控制，以执行基础的念动操纵，产生以下效果之一：</p><ul><li><p>将15尺内一个未固定且重量不大于1的物体拉向你并接住它。由生物已装备或持有的物体，除非该生物自愿放手，否则绝不视为未固定。</p></li><li><p>将你手中一个重量不大于1的物体弹向一个最远30尺外的目标。该物体会以适中的速度沿直线准确无误地飞向该目标。物体路径上的任何生物都可以作出反应来接住它，只要他们有一只空闲的手即可。</p></li><li><p>使你所触碰的一个物体或自愿生物悬浮于半空中，其重量小于或等于你<strong>魅力</strong>的10倍，并将其位置从原本所在处向任意方向改变最多20尺。只要你不再执行进一步的动作且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>除非另有说明，推进只能影响你能够以身体实际接触到的生物或物体。你也可以尝试与上述类似的其他用途，其效果由游戏主持人裁定。</p>"
                 }
               }
             },
@@ -1991,7 +1991,7 @@
             },
             "Gesture: Influence": {
               "name": "手势：影响 Influence",
-              "description": "<p>你将符文的奥术力量强化为一种集中的直接接触，这通常是基础触碰手势的更强力进阶形式。</p><p>影响手势以<strong>Presence</strong>进行成长，并以一个相邻的单一生物为目标。它会对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。该手势需要<strong>1 只手</strong>来施放，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
+              "description": "<p>你将符文的奥术力量强化为一种集中的直接接触，这通常是基础触碰手势的更强力进阶形式。</p><p>影响手势以<strong>魅力</strong>进行成长，并以一个相邻的单一生物为目标。它会对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。该手势需要<strong>1 只手</strong>来施放，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
             },
             "Gesture: Ray": {
               "name": "手势：射线 Ray",
@@ -2003,7 +2003,7 @@
             },
             "Healer": {
               "name": "治疗者 Healer",
-              "description": "<p>你在操控生命奥术以治疗伤势方面无与伦比。若你尚未习得<strong>符文：生命</strong>，则你学会它。使用生命符文治疗盟友时，你的掷骰获得<strong>+2恩惠骰</strong>。</p>",
+              "description": "<p>你在操控生命奥术以治疗伤势方面无与伦比。若你尚未习得<strong>符文：生命</strong>，则你学会它。使用生命符文治疗盟友时，你的掷骰获得<strong>+2惠骰</strong>。</p>",
               "actions": {
                 "fontOfLife": {
                   "name": "生命之泉 Life",
@@ -2079,7 +2079,7 @@
             },
             "Inspirator": {
               "name": "鼓舞者 Inspirator",
-              "description": "<p>你极其擅长编织灵魂符文。使用该符文的法术在造成暴击时会施加 @Condition[inspired] 状态。</p><p>鼓舞效果持续<strong>1 轮</strong>，并额外对<strong>士气</strong>造成等同于你<strong>Presence</strong>数值的<strong>恢复</strong>。</p>"
+              "description": "<p>你极其擅长编织灵魂符文。使用该符文的法术在造成暴击时会施加 @Condition[inspired] 状态。</p><p>鼓舞效果持续<strong>1 轮</strong>，并额外对<strong>士气</strong>造成等同于你<strong>魅力</strong>数值的<strong>恢复</strong>。</p>"
             },
             "Mender": {
               "name": "修补匠 Mender",
@@ -2091,7 +2091,7 @@
             },
             "Rune: Soul": {
               "name": "符文：灵魂 Soul",
-              "description": "<p>一种有序的创造与精神本质之力。灵魂符文支配着灵魂在生命与死亡之间的根本流转，并与智能、人格和心理健康等事务相关。</p><p>灵魂符文以 <strong>Presence</strong> 进行成长，能够提供<strong>士气</strong>的<strong>恢复</strong>，或造成由<strong>意志</strong>对抗的<strong>灵能</strong><strong>伤害</strong>。它与混沌的<strong>湮灭</strong>符文相对。</p>",
+              "description": "<p>一种有序的创造与精神本质之力。灵魂符文支配着灵魂在生命与死亡之间的根本流转，并与智能、人格和心理健康等事务相关。</p><p>灵魂符文以 <strong>魅力</strong> 进行成长，能够提供<strong>士气</strong>的<strong>恢复</strong>，或造成由<strong>意志</strong>对抗的<strong>灵能</strong><strong>伤害</strong>。它与混沌的<strong>湮灭</strong>符文相对。</p>",
               "actions": {
                 "evoke": {
                   "name": "引发 Evoke",
@@ -2138,7 +2138,7 @@
           },
           "background": {
             "name": "警员 Constable",
-            "description": "<p>你曾是某个执法组织的一员。你学会了如何对周遭环境保持警惕，在复杂的社交结构中开展工作，并展现出令人望而生畏的气场。</p>"
+            "description": "<p>你曾是某个执法组织的一员。你学会了如何对周遭环境保持警惕，在复杂的社交结构中开展工作，并展现出令人望而生畏的魅力。</p>"
           },
           "biography": {
             "public": "<p>乌尔芬是一名凶猛的战士，使用一把双手持用巨斧作战，偏好施展重型打击，造成可观的伤害或命中多个目标。乌尔芬渴望获得<strong>狂战士</strong>签名天赋。</p>"
@@ -2341,7 +2341,7 @@
               "actions": {
                 "adrenalineSurge": {
                   "name": "肾上腺素涌动 Surge",
-                  "description": "<p>你消耗<strong>英雄气概</strong>，并在 3 轮内，任何使用力量进行缩放的动作获得<strong>+2 恩惠骰</strong>。在战斗中，于进行一次<strong>反应</strong>之前，你可以在自己的回合外执行此动作。</p>",
+                  "description": "<p>你消耗<strong>英雄气概</strong>，并在 3 轮内，任何使用力量进行缩放的动作获得<strong>+2 惠骰</strong>。在战斗中，于进行一次<strong>反应</strong>之前，你可以在自己的回合外执行此动作。</p>",
                   "effects": [
                     {
                       "name": "肾上腺素涌动 Surge"

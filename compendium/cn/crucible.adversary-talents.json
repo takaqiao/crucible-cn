@@ -312,7 +312,7 @@
       "actions": {
         "pouncingStrike": {
           "name": "猛扑打击 Strike",
-          "description": "<p>此次攻击可在一次<strong>移动</strong>后使用，前提是该<strong>生物</strong>因这次移动而至少接近其目标10英尺。若该生物原本位于目标上方，则此次攻击在该次移动中每下降10英尺<strong>高度</strong>，便获得<strong>+1 恩惠骰</strong>。</p><p>若此次攻击为<strong>暴击</strong>，则该攻击的目标会立即陷入@Condition[prone]。</p>",
+          "description": "<p>此次攻击可在一次<strong>移动</strong>后使用，前提是该<strong>生物</strong>因这次移动而至少接近其目标10英尺。若该生物原本位于目标上方，则此次攻击在该次移动中每下降10英尺<strong>高度</strong>，便获得<strong>+1 惠骰</strong>。</p><p>若此次攻击为<strong>暴击</strong>，则该攻击的目标会立即陷入@Condition[prone]。</p>",
           "effects": [
             {
               "name": "猛扑打击 Strike"
@@ -533,7 +533,7 @@
     },
     "Magical Sight": {
       "name": "魔法视觉 Sight",
-      "description": "<p>该@ref[actor.name]{生物}拥有异界视觉，使其对危险或机遇格外察觉。它在任何<strong>察觉</strong>检定上获得+2<strong>恩惠骰</strong>，并且能够看见@Condition[invisible]的生物。</p>"
+      "description": "<p>该@ref[actor.name]{生物}拥有异界视觉，使其对危险或机遇格外察觉。它在任何<strong>察觉</strong>检定上获得+2<strong>惠骰</strong>，并且能够看见@Condition[invisible]的生物。</p>"
     },
     "Venomous Bite": {
       "name": "剧毒噬咬 Bite",
