@@ -983,10 +983,10 @@
   },
   "ARMOR": {
     "CATEGORIES": {
-      "Heavy": "重型护甲",
-      "Light": "轻型护甲",
-      "Medium": "中型护甲",
-      "Natural": "自然",
+      "Heavy": "重甲",
+      "Light": "轻甲",
+      "Medium": "中甲",
+      "Natural": "天然",
       "Unarmored": "无甲"
     },
     "FIELDS": {
@@ -1542,11 +1542,11 @@
     "EnchantmentMajor": "少校",
     "EnchantmentMinor": "次要的",
     "EnchantmentMundane": "平凡的",
-    "QualityFine": "好吧",
-    "QualityMasterwork": "精制工艺",
-    "QualityShoddy": "粗制滥造的",
+    "QualityFine": "精良",
+    "QualityMasterwork": "大师级",
+    "QualityShoddy": "粗糙",
     "QualityStandard": "标准",
-    "QualitySuperior": "优越性"
+    "QualitySuperior": "卓越"
   },
   "KEYBINDINGS": {
     "ConfirmAction": "确认动作",
@@ -2304,18 +2304,19 @@
   },
   "WEAPON": {
     "CATEGORIES": {
-      "Balanced": "平衡的",
-      "CategoryHands": "{类别} ({hands}h)",
+      "Balanced": "平衡",
+      "CategoryHands": "{category} ({hands}h)",
       "Heavy": "重型",
-      "Light": "光",
-      "Mechanical": "机械的",
+      "Light": "轻型",
+      "Mechanical": "机械",
       "Projectile": "投射",
       "Shield": "盾牌",
       "ShieldHeavy": "重型盾牌",
       "ShieldLight": "轻型盾牌",
       "Simple": "简单",
       "Talisman": "护符",
-      "Unarmed": "徒手"
+      "Unarmed": "徒手",
+      "Natural": "天然"
     },
     "FIELDS": {
       "damageType": {

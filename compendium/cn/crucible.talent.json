@@ -44,7 +44,7 @@
     "Weaponry": "武器装备",
     "Parry": "招架",
     "Heroism": "英雄气概",
-    "Inflections": "屈折",
+    "Inflections": "词缀",
     "Tradecraft": "手艺",
     "Armor": "护甲",
     "Action": "动作",
@@ -119,7 +119,7 @@
     },
     "Arcana Novice": {
       "name": "奥术新手 Novice",
-      "description": "<p>你所受的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知、被神化与被妖魔化的崇拜对象。你获得<strong>奥术</strong>技能的<strong>新手</strong>等级，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪种低阶符文，以及所用的手势（但未必能分辨屈折）。你能够判断某个存在是更受混沌还是秩序影响，也能辨认常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有所了解，因此能够与崇拜特定灵体或神祇的人交流，而不至于让自己出丑。</p>"
+      "description": "<p>你所受的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知、被神化与被妖魔化的崇拜对象。你获得<strong>奥术</strong>技能的<strong>新手</strong>等级，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪种低阶符文，以及所用的手势（但未必能分辨词缀）。你能够判断某个存在是更受混沌还是秩序影响，也能辨认常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有所了解，因此能够与崇拜特定灵体或神祇的人交流，而不至于让自己出丑。</p>"
     },
     "Arcane Archer": {
       "name": "奥术弓手 Archer",
@@ -762,7 +762,7 @@
     },
     "Gesture: Sense": {
       "name": "手势：感知 手势: 感知 Sense",
-      "description": "<p>你将心神与一种符文的奥术力量调谐，以感知附近的能量源。</p><p><strong>感知</strong>手势会随<strong>灵识</strong>成长，产生一个半径 30 尺、位置始终以施法者为中心的扩散区域。此手势施放时需要<strong>1 只手</strong>，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。你也可以选择<strong>维持</strong>它，但此后每个后续轮次都需额外消耗<strong>1 专注</strong>。</p><p>此法术允许施法者侦测与本法术所融入的同一符文相关的施法存在。该感知也会短暂侦测到生物的存在，具体取决于其类型。</p><ul><li><p><strong>控制</strong>：邪魔</p></li><li><p><strong>死亡</strong>：不死生物</p></li><li><p><strong>大地</strong>：软泥怪和土元素</p></li><li><p><strong>火焰</strong>：巨龙和火元素</p></li><li><p><strong>霜冻</strong>：巨人和冰霜元素</p></li><li><p><strong>照明</strong>：天界生物</p></li><li><p><strong>幻象</strong>：妖精</p></li><li><p><strong>念动力</strong>：怪物</p></li><li><p><strong>生命</strong>：植物和野兽</p></li><li><p><strong>闪电</strong>：构装体和风暴元素</p></li><li><p><strong>湮灭</strong>：外来者</p></li><li><p><strong>灵魂</strong>：人型生物</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>目前尚无针对该法术临时赋予的感知的自动化支持，但未来可通过一种侦测模式提供此类自动化：当法术被维持时，它会暂时向施法者揭示相应类型的生物。</p>"
+      "description": "<p>你将心神与一种符文的奥术力量调谐，以感知附近的能量源。</p><p><strong>感知</strong>手势会随<strong>灵识</strong>成长，产生一个半径 30 尺、位置始终以施法者为中心的扩散区域。此手势施放时需要<strong>1 只手</strong>，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。你也可以选择<strong>维持</strong>它，但此后每个后续轮次都需额外消耗<strong>1 专注</strong>。</p><p>此法术允许施法者侦测与本法术所融入的同一符文相关的施法存在。该感知也会短暂侦测到生物的存在，具体取决于其类型。</p><ul><li><p><strong>控制</strong>：邪魔</p></li><li><p><strong>死亡</strong>：不死生物</p></li><li><p><strong>大地</strong>：软泥怪和土元素</p></li><li><p><strong>火焰</strong>：巨龙和火焰</p></li><li><p><strong>霜冻</strong>：巨人和冰霜元素</p></li><li><p><strong>照明</strong>：天界生物</p></li><li><p><strong>幻象</strong>：妖精</p></li><li><p><strong>念力</strong>：怪物</p></li><li><p><strong>生命</strong>：植物和野兽</p></li><li><p><strong>闪电</strong>：构装体和风暴元素</p></li><li><p><strong>湮灭</strong>：外来者</p></li><li><p><strong>灵魂</strong>：人型生物</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>目前尚无针对该法术临时赋予的感知的自动化支持，但未来可通过一种侦测模式提供此类自动化：当法术被维持时，它会暂时向施法者揭示相应类型的生物。</p>"
     },
     "Gesture: Surge": {
       "name": "手势：涌动 手势: 涌动 Surge",
@@ -902,44 +902,44 @@
       "description": "<p>你认识到火焰能够以不可避免且无法阻挡的态势蔓延。你对<strong>火焰符文</strong>的使用改为随<strong>感知</strong>而非<strong>智力</strong>提升。</p>"
     },
     "Inflection: React": {
-      "name": "屈折：反应 屈折: React",
-      "description": "<p>本能地将一个法术构筑为一个<strong>反应</strong>，以回应你所观察到的其他动作。屈折：反应会使法术的<strong>专注</strong>消耗增加2。</p>"
+      "name": "词缀：反应 词缀: React",
+      "description": "<p>本能地将一个法术构筑为一个<strong>反应</strong>，以回应你所观察到的其他动作。词缀：反应会使法术的<strong>专注</strong>消耗增加2。</p>"
     },
     "Inflection: Reshape": {
-      "name": "屈折：重塑 屈折: Reshape",
+      "name": "词缀：重塑 词缀: 重塑",
       "description": "<p>以<strong>2 点专注</strong>为代价，通过谨慎地重塑并控制其效果区域来强化一个法术。</p><p>使用模板目标的攻击性法术只会以区域内的敌人为目标。使用模板目标的治疗法术只会以区域内的盟友为目标。</p><p>单体目标法术不会因介于其间的生物而承受任何祸骰。</p>"
     },
     "Inflection: Compose": {
-      "name": "屈折：作曲 Compose",
-      "description": "<p>通过在法术成形时投入额外时间来强化法术，以减少其他资源消耗作为交换。Compose 屈折使法术的<strong>专注</strong>消耗减少 1，作为交换，其<strong>动作</strong>消耗增加 1。</p>"
+      "name": "词缀：作曲 组合",
+      "description": "<p>通过在法术成形时投入额外时间来强化法术，以减少其他资源消耗作为交换。组合 词缀使法术的<strong>专注</strong>消耗减少 1，作为交换，其<strong>动作</strong>消耗增加 1。</p>"
     },
     "Inflection: Determine": {
-      "name": "屈折：判定 屈折: Determine",
+      "name": "词缀：判定 词缀: Determine",
       "description": "<p>强化一个法术，使其更难被反制。任何试图反制此法术的尝试都以 +2 祸骰进行。</p>"
     },
     "Inflection: Elude": {
-      "name": "屈折：闪避 屈折: Elude",
+      "name": "词缀：闪避 词缀: Elude",
       "description": "<p>强化一个法术，使敌人更难以对其施放进行反击。无论该法术的结果如何，此法术都不会提供任何进行涉及打击攻击的反应机会。</p>"
     },
     "Inflection: Extend": {
-      "name": "屈折：延展 屈折: 延展 Extend",
-      "description": "<p>增强一个法术的持续时间，延长其效果的持续时间。对于瞬时生效的法术，它们所造成的任何相应状态的持续时间都会增加。</p><section class=\"construction\"><p>由 延展 屈折带来的效果持续时间增加在试玩测试 1 中尚未自动化。此屈折被纳入作为施法系统预期方向的一个示例。</p></section>"
+      "name": "词缀：延展 词缀: 延展 Extend",
+      "description": "<p>增强一个法术的持续时间，延长其效果的持续时间。对于瞬时生效的法术，它们所造成的任何相应状态的持续时间都会增加。</p><section class=\"construction\"><p>由 延展 词缀带来的效果持续时间增加在试玩测试 1 中尚未自动化。此词缀被纳入作为施法系统预期方向的一个示例。</p></section>"
     },
     "Inflection: Negate": {
-      "name": "屈折：否定 屈折: Negate",
-      "description": "<p>反转一个法术的效果。一个通常会治疗目标的反转生命之触法术，改为造成毒素伤害。一个反转死亡防护法术会对邻近的一名敌人施加对腐化伤害的易伤。</p><section class=\"construction\"><p>Negate 屈折的效果在试玩测试 1 中尚未自动化。此屈折作为施法系统预期方向的示例而被收录。</p></section>"
+      "name": "词缀：否定 词缀: 否定",
+      "description": "<p>反转一个法术的效果。一个通常会治疗目标的反转生命之触法术，改为造成毒素伤害。一个反转死亡防护法术会对邻近的一名敌人施加对腐化伤害的易伤。</p><section class=\"construction\"><p>否定 词缀的效果在试玩测试 1 中尚未自动化。此词缀作为施法系统预期方向的示例而被收录。</p></section>"
     },
     "Inflection: Pull": {
-      "name": "屈折：拉拽 Pull",
-      "description": "<p>强化一个法术，使受影响的生物被吸引向施法者。受带有屈折：拉拽的法术影响的生物会向施法者移动1格，如果目标格未被占据。</p>"
+      "name": "词缀：拉拽 牵引",
+      "description": "<p>强化一个法术，使受影响的生物被吸引向施法者。受带有词缀：拉拽的法术影响的生物会向施法者移动1格，如果目标格未被占据。</p>"
     },
     "Inflection: Push": {
-      "name": "屈折：推开 Push",
-      "description": "<p>强化一个法术，使其将受影响的生物从施法者身边击退。受带有屈折：推开的法术影响的生物会向远离施法者的方向移动4英尺，前提是该目的地未被占据。</p>"
+      "name": "词缀：推开 Push",
+      "description": "<p>强化一个法术，使其将受影响的生物从施法者身边击退。受带有词缀：推开的法术影响的生物会向远离施法者的方向移动4英尺，前提是该目的地未被占据。</p>"
     },
     "Inflection: Quicken": {
-      "name": "屈折：迅捷化 屈折: Quicken",
-      "description": "<p>通过加快法术施放的速度来强化一个法术，但代价是需要消耗更多的专注。屈折：迅捷化使一个法术的<strong>动作</strong>消耗减少1，而作为交换，其<strong>专注</strong>消耗增加1。</p>"
+      "name": "词缀：迅捷化 词缀: 加速",
+      "description": "<p>通过加快法术施放的速度来强化一个法术，但代价是需要消耗更多的专注。词缀：迅捷化使一个法术的<strong>动作</strong>消耗减少1，而作为交换，其<strong>专注</strong>消耗增加1。</p>"
     },
     "Inquisitor": {
       "name": "审判官 Inquisitor",
@@ -1068,12 +1068,12 @@
       "description": "<p>你是正义的化身。Critical 打击 攻击还会将伤害中的溢出部分也施加给敌方士气。</p>"
     },
     "Kinesis Proficiency": {
-      "name": "念动力熟练度 Proficiency",
-      "description": "<p>你熟练于使用念动力符文编织施法。你在使用该符文施放的法术上获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还会为<strong>推进</strong>动作提供升级，扩大其效果，或加入新的使用选项。</p>"
+      "name": "念力熟练度 Proficiency",
+      "description": "<p>你熟练于使用念力符文编织施法。你在使用该符文施放的法术上获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还会为<strong>推进</strong>动作提供升级，扩大其效果，或加入新的使用选项。</p>"
     },
     "Kineturge": {
-      "name": "念动力术师 Kineturge",
-      "description": "<p>你对编织念动力符文极为娴熟。使用该符文的法术在造成暴击时会施加@Condition[bleeding]状态。</p><p>流血效果会持续<strong>1 轮</strong>，并将你的<strong>魅力</strong>属性值作为额外的<strong>Piercing</strong>伤害施加到<strong>生命值</strong>上。</p>"
+      "name": "念力术师 Kineturge",
+      "description": "<p>你对编织念力符文极为娴熟。使用该符文的法术在造成暴击时会施加@Condition[bleeding]状态。</p><p>流血效果会持续<strong>1 轮</strong>，并将你的<strong>魅力</strong>属性值作为额外的<strong>Piercing</strong>伤害施加到<strong>生命值</strong>上。</p>"
     },
     "Last Stand": {
       "name": "背水一战 Stand",
@@ -1092,7 +1092,7 @@
     },
     "Legerdemain": {
       "name": "戏法技巧 Legerdemain",
-      "description": "你可以无声地改变你的施法方式。你可以仅用双手施加次级屈折，而无需进行言语吟诵。"
+      "description": "你可以无声地改变你的施法方式。你可以仅用双手施加次级词缀，而无需进行言语吟诵。"
     },
     "Leg Sweep": {
       "name": "扫腿 Sweep",
@@ -1424,7 +1424,7 @@
     },
     "Pyromancer": {
       "name": "炎术师 Pyromancer",
-      "description": "<p>你极其擅长编织火焰符文。使用该符文的法术在造成暴击时会施加 @Condition[burning]。</p><p><strong>燃烧</strong>效果持续<strong>1 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>各造成等同于你的<strong>智力</strong>属性值的<strong>火元素</strong><strong>伤害</strong>。</p>"
+      "description": "<p>你极其擅长编织火焰符文。使用该符文的法术在造成暴击时会施加 @Condition[burning]。</p><p><strong>燃烧</strong>效果持续<strong>1 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>各造成等同于你的<strong>智力</strong>属性值的<strong>火焰</strong><strong>伤害</strong>。</p>"
     },
     "Rallying Cry": {
       "name": "振奋战吼 Cry",
@@ -1466,7 +1466,7 @@
     },
     "Rune: Control": {
       "name": "符文：控制 Control",
-      "description": "<p>纪律与恒久的有序力量。控制符文支配思维、理性与坚持。</p><p>控制符文以<strong>感知</strong>进行成长，<strong>目标</strong>为<strong>意志力</strong>，并对<strong>士气</strong>造成<strong>灵能</strong><strong>伤害</strong>。它所对立的是混沌的<strong>念动力</strong>符文。</p>",
+      "description": "<p>纪律与恒久的有序力量。控制符文支配思维、理性与坚持。</p><p>控制符文以<strong>感知</strong>进行成长，<strong>目标</strong>为<strong>意志力</strong>，并对<strong>士气</strong>造成<strong>灵能</strong><strong>伤害</strong>。它所对立的是混沌的<strong>念力</strong>符文。</p>",
       "actions": {
         "motivate": {
           "name": "激励 Motivate",
@@ -1496,7 +1496,7 @@
     },
     "Rune: Flame": {
       "name": "符文：火焰 Flame",
-      "description": "<p>元素热能的混沌之力。火焰符文支配火焰与热量。</p><p>火焰符文以<strong>智力</strong>进行成长，目标为<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>火元素</strong>伤害。它与秩序的<strong>霜冻</strong>符文相对立。</p>",
+      "description": "<p>元素热能的混沌之力。火焰符文支配火焰与热量。</p><p>火焰符文以<strong>智力</strong>进行成长，目标为<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>火焰</strong>伤害。它与秩序的<strong>霜冻</strong>符文相对立。</p>",
       "actions": {
         "enkindle": {
           "name": "引燃 Enkindle",
@@ -1535,12 +1535,12 @@
       }
     },
     "Rune: Kinesis": {
-      "name": "符文：念动力 Kinesis",
-      "description": "<p>空间与物理移动的混沌力量。念动力符文支配一切与移动行为及物质实体相关的事物。</p><p>念动力符文基于<strong>魅力</strong>进行成长，以<strong>Physical</strong>防御为目标，并对<strong>生命值</strong>造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害。它与秩序的<strong>控制</strong>符文相对立。</p>",
+      "name": "符文：念力 Kinesis",
+      "description": "<p>空间与物理移动的混沌力量。念力符文支配一切与移动行为及物质实体相关的事物。</p><p>念力符文基于<strong>魅力</strong>进行成长，以<strong>Physical</strong>防御为目标，并对<strong>生命值</strong>造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害。它与秩序的<strong>控制</strong>符文相对立。</p>",
       "actions": {
         "propel": {
           "name": "推进 Propel",
-          "description": "<p>你对念动力符文的掌控使你能够对局部重力施加控制，以执行基础的心灵遥控操纵，产生以下效果之一：</p><ul><li><p>将15英尺内一个未固定且重量不大于1的物体拉向你，并接住它。由生物已装备或持有的物体，除非该生物愿意放手，否则绝不视为未固定。</p></li><li><p>将一个你手持且重量不大于1的物体弹向一个最远30英尺外的目标。该物体会以适中的速度沿直线准确无误地飞向该目标。物体路径上的任何生物都可以作出反应接住它，只要他们有一只空着的手来这么做。</p></li><li><p>使一个你接触到的物体或自愿生物悬浮在半空中，其重量小于或等于你<strong>魅力</strong>的10倍，并将其位置从原本所在处朝任意方向改变最多20英尺。只要你不再执行进一步的动作，且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮状态。</p></li></ul><p>除非另有说明，推进只能影响你能够以身体接触到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+          "description": "<p>你对念力符文的掌控使你能够对局部重力施加控制，以执行基础的心灵遥控操纵，产生以下效果之一：</p><ul><li><p>将15英尺内一个未固定且重量不大于1的物体拉向你，并接住它。由生物已装备或持有的物体，除非该生物愿意放手，否则绝不视为未固定。</p></li><li><p>将一个你手持且重量不大于1的物体弹向一个最远30英尺外的目标。该物体会以适中的速度沿直线准确无误地飞向该目标。物体路径上的任何生物都可以作出反应接住它，只要他们有一只空着的手来这么做。</p></li><li><p>使一个你接触到的物体或自愿生物悬浮在半空中，其重量小于或等于你<strong>魅力</strong>的10倍，并将其位置从原本所在处朝任意方向改变最多20英尺。只要你不再执行进一步的动作，且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮状态。</p></li></ul><p>除非另有说明，推进只能影响你能够以身体接触到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
         }
       }
     },
@@ -1744,7 +1744,7 @@
     },
     "Sorcerer": {
       "name": "术士 Sorcerer",
-      "description": "<p>你的魔法深深植根于本能，而你的施法实践有悖于传统学院派的理解。</p><p>你无法施放<strong>标志性法术</strong>，但当你使用<strong>屈折</strong>施放法术时，你每拥有一个标志性法术法术位，该法术便额外造成<strong>+1伤害</strong>。</p>"
+      "description": "<p>你的魔法深深植根于本能，而你的施法实践有悖于传统学院派的理解。</p><p>你无法施放<strong>标志性法术</strong>，但当你使用<strong>词缀</strong>施放法术时，你每拥有一个标志性法术法术位，该法术便额外造成<strong>+1伤害</strong>。</p>"
     },
     "Soul Proficiency": {
       "name": "灵魂熟练度 Proficiency",
@@ -1945,7 +1945,7 @@
       "actions": {
         "grapple": {
           "name": "擒抱 Grapple",
-          "description": "<p>你尝试以肢体动作限制或压制一名对手。对一个邻近目标进行一次<strong>运动</strong>技能攻击。若成功，你和你的目标都陷入 @Condition[受缚] ，持续 1 轮。</p>",
+          "description": "<p>你尝试以肢体动作限制或压制一名对手。对一个邻近目标进行一次<strong>运动</strong>技能攻击。若成功，你和你的目标都陷入 @Condition[restrained] ，持续 1 轮。</p>",
           "effects": [
             {
               "name": "被擒抱 Grappled"

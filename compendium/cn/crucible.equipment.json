@@ -628,7 +628,7 @@
     "Luminary Band": {
       "name": "辉耀指环 Band",
       "description": {
-        "public": "<blockquote><p>一枚雕刻精美的金色戒指，环绕着一颗椭圆形、闪耀的橙色宝石。</p></blockquote><p>这枚附魔戒环会为包含<strong>屈折</strong>的<strong>防御</strong><strong>动作</strong>提供惠骰。</p>",
+        "public": "<blockquote><p>一枚雕刻精美的金色戒指，环绕着一颗椭圆形、闪耀的橙色宝石。</p></blockquote><p>这枚附魔戒环会为包含<strong>词缀</strong>的<strong>防御</strong><strong>动作</strong>提供惠骰。</p>",
         "private": "<p>此物品作为带有 @UUID[Compendium.crucible.affixes.ActiveEffect.luminary00000000]{辉耀} 前缀的优质戒指示例呈现。</p><p>此词缀可应用于任何饰品，而这枚戒指还可以进一步附魔一个第1阶后缀。</p>"
       }
     },
@@ -664,7 +664,7 @@
       "actions": {
         "net": {
           "name": "抛网 Net",
-          "description": "<p>被投掷出去的网捕获的目标处于@Condition[受缚]状态，直到其能够脱身。</p>",
+          "description": "<p>被投掷出去的网捕获的目标处于@Condition[restrained]状态，直到其能够脱身。</p>",
           "effects": [
             {
               "name": "网缚 Netted"
@@ -1059,7 +1059,7 @@
         },
         "steelJawTrigger": {
           "name": "触发钢颚陷阱 Trap",
-          "description": "<p>当被触发时，设置陷阱的生物对触发陷阱的单一目标进行一次<strong>荒野</strong>技能攻击，对抗其<strong>反射</strong><strong>防御</strong>。若未被抵抗，则造成穿刺伤害并施加 @Condition[受缚] 状态。陷阱造成的基础伤害根据陷阱的品质而变化。</p><ul><li><p><strong>粗制</strong> - 1 伤害</p></li><li><p><strong>标准</strong> - 2 伤害</p></li><li><p><strong>精制</strong> - 4 伤害</p></li><li><p><strong>优质</strong> - 8 伤害</p></li><li><p><strong>大师级</strong> - 16 伤害</p></li></ul>",
+          "description": "<p>当被触发时，设置陷阱的生物对触发陷阱的单一目标进行一次<strong>荒野</strong>技能攻击，对抗其<strong>反射</strong><strong>防御</strong>。若未被抵抗，则造成穿刺伤害并施加 @Condition[restrained] 状态。陷阱造成的基础伤害根据陷阱的品质而变化。</p><ul><li><p><strong>粗制</strong> - 1 伤害</p></li><li><p><strong>标准</strong> - 2 伤害</p></li><li><p><strong>精制</strong> - 4 伤害</p></li><li><p><strong>优质</strong> - 8 伤害</p></li><li><p><strong>大师级</strong> - 16 伤害</p></li></ul>",
           "effects": [
             {
               "name": "钢颚陷阱 Trap"
