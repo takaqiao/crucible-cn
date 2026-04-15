@@ -1,0 +1,10 @@
+{
+  "compendium/cn/crucible.rules.json": [
+    {
+      "path": "entries.Welcome To Crucible.name",
+      "reason": "unexpected_latin_tail",
+      "cn": "欢迎来到 Crucible Welcome To Crucible",
+      "en": "Welcome To Crucible"
+    }
+  ]
+}
