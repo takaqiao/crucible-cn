@@ -601,7 +601,7 @@
     },
     "Evasive Armor": {
       "name": "闪避护甲 Evasive Armor",
-      "description": "<p>你足够敏捷，能够顺势迎向打击，让它们落在你护甲最坚固的部位。你的<strong>反射</strong>防御中任何超过<strong>Physical</strong>防御的部分，都会作为额外<strong>护甲</strong>加入。</p>"
+      "description": "<p>你足够敏捷，能够顺势迎向打击，让它们落在你护甲最坚固的部位。你的<strong>反射</strong>防御中任何超过<strong>物理</strong>防御的部分，都会作为额外<strong>护甲</strong>加入。</p>"
     },
     "Evasive Shot": {
       "name": "闪避射击 Evasive Shot",
@@ -1073,7 +1073,7 @@
     },
     "Kineturge": {
       "name": "念力术师 Kineturge",
-      "description": "<p>你对编织念力符文极为娴熟。使用该符文的法术在造成暴击时会施加@Condition[bleeding]状态。</p><p>流血效果会持续<strong>1 轮</strong>，并将你的<strong>魅力</strong>属性值作为额外的<strong>Piercing</strong>伤害施加到<strong>生命值</strong>上。</p>"
+      "description": "<p>你对编织念力符文极为娴熟。使用该符文的法术在造成暴击时会施加@Condition[bleeding]状态。</p><p>流血效果会持续<strong>1 轮</strong>，并将你的<strong>魅力</strong>属性值作为额外的<strong>穿刺</strong>伤害施加到<strong>生命值</strong>上。</p>"
     },
     "Last Stand": {
       "name": "背水一战 Last Stand",
@@ -1526,7 +1526,7 @@
     },
     "Rune: Illusion": {
       "name": "符文：幻象 Rune: Illusion",
-      "description": "<p>诡计与奇想的混沌之力。幻象符文掌管虚假或误导的魔法显现。</p><p>幻象符文以 <strong>智力</strong> 进行成长，目标为 <strong>Willpower</strong> 防御，并对 <strong>士气</strong> 造成 <strong>灵能</strong> 伤害。它与秩序的 <strong>照明</strong> 符文相对立。</p>",
+      "description": "<p>诡计与奇想的混沌之力。幻象符文掌管虚假或误导的魔法显现。</p><p>幻象符文以 <strong>智力</strong> 进行成长，目标为 <strong>意志</strong> 防御，并对 <strong>士气</strong> 造成 <strong>灵能</strong> 伤害。它与秩序的 <strong>照明</strong> 符文相对立。</p>",
       "actions": {
         "seeming": {
           "name": "表象 Seeming",
@@ -1536,7 +1536,7 @@
     },
     "Rune: Kinesis": {
       "name": "符文：念力 Rune: Kinesis",
-      "description": "<p>空间与物理移动的混沌力量。念力符文支配一切与移动行为及物质实体相关的事物。</p><p>念力符文基于<strong>魅力</strong>进行成长，以<strong>Physical</strong>防御为目标，并对<strong>生命值</strong>造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害。它与秩序的<strong>控制</strong>符文相对立。</p>",
+      "description": "<p>空间与物理移动的混沌力量。念力符文支配一切与移动行为及物质实体相关的事物。</p><p>念力符文基于<strong>魅力</strong>进行成长，以<strong>物理</strong>防御为目标，并对<strong>生命值</strong>造成<strong>钝击</strong>、<strong>穿刺</strong>或<strong>挥砍</strong>伤害。它与秩序的<strong>控制</strong>符文相对立。</p>",
       "actions": {
         "propel": {
           "name": "推进 Propel",
@@ -1566,7 +1566,7 @@
     },
     "Rune: Oblivion": {
       "name": "符文：湮灭 Rune: Oblivion",
-      "description": "<p>一种混乱的毁灭之力，能够将存在彻底湮灭。湮灭符文掌管对物质的消解，或对精神的瓦解。</p><p>湮灭符文以<strong>智力</strong>进行成长，目标为<strong>Willpower</strong>，并对<strong>士气</strong>造成<strong>虚空</strong>伤害。它与秩序的<strong>灵魂</strong>符文相对立。</p>",
+      "description": "<p>一种混乱的毁灭之力，能够将存在彻底湮灭。湮灭符文掌管对物质的消解，或对精神的瓦解。</p><p>湮灭符文以<strong>智力</strong>进行成长，目标为<strong>意志</strong>，并对<strong>士气</strong>造成<strong>虚空</strong>伤害。它与秩序的<strong>灵魂</strong>符文相对立。</p>",
       "actions": {
         "erase": {
           "name": "擦除 Erase",
@@ -1576,7 +1576,7 @@
     },
     "Rune: Soul": {
       "name": "符文：灵魂 Rune: Soul",
-      "description": "<p>一种由创造与精神本质构成的有序力量。灵魂符文支配灵魂在生命与死亡之间的基本流转，并与知性、人格及心理健康等事务相关。</p><p>灵魂符文以 <strong>魅力</strong> 进行成长，能够提供 <strong>恢复</strong> 以恢复 <strong>士气</strong>，或造成由 <strong>Willpower</strong> 对抗的 <strong>灵能</strong> 伤害。它与混沌的 <strong>湮灭</strong> 符文相对立。</p>",
+      "description": "<p>一种由创造与精神本质构成的有序力量。灵魂符文支配灵魂在生命与死亡之间的基本流转，并与知性、人格及心理健康等事务相关。</p><p>灵魂符文以 <strong>魅力</strong> 进行成长，能够提供 <strong>恢复</strong> 以恢复 <strong>士气</strong>，或造成由 <strong>意志</strong> 对抗的 <strong>灵能</strong> 伤害。它与混沌的 <strong>湮灭</strong> 符文相对立。</p>",
       "actions": {
         "evoke": {
           "name": "引发 Evoke",

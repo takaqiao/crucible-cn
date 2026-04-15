@@ -406,7 +406,7 @@
             },
             "Rune: Oblivion": {
               "name": "符文：湮灭 Oblivion",
-              "description": "<p>一种混乱的力量，象征着毁灭与存在的湮灭。湮灭符文支配着物质的消解或精神的涣散。</p><p>湮灭符文以 <strong>智力</strong> 进行成长，目标为 <strong>Willpower</strong>，并对 <strong>士气</strong> 造成 <strong>虚空</strong> 伤害。它与有序的 <strong>灵魂</strong> 符文相对。</p>",
+              "description": "<p>一种混乱的力量，象征着毁灭与存在的湮灭。湮灭符文支配着物质的消解或精神的涣散。</p><p>湮灭符文以 <strong>智力</strong> 进行成长，目标为 <strong>意志</strong>，并对 <strong>士气</strong> 造成 <strong>虚空</strong> 伤害。它与有序的 <strong>灵魂</strong> 符文相对。</p>",
               "actions": {
                 "erase": {
                   "name": "擦除 Erase",
@@ -1546,7 +1546,7 @@
             },
             "Rune: Kinesis": {
               "name": "符文：念力 Kinesis",
-              "description": "<p>空间与物理移动的混沌力量。念力符文掌管一切与移动行为和物理性相关的事物。</p><p>念力符文的成长基于<strong>魅力</strong>，以<strong>Physical</strong>防御为目标，并造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害至<strong>生命值</strong>。它与秩序的<strong>控制</strong>符文相对立。</p>",
+              "description": "<p>空间与物理移动的混沌力量。念力符文掌管一切与移动行为和物理性相关的事物。</p><p>念力符文的成长基于<strong>魅力</strong>，以<strong>物理</strong>防御为目标，并造成<strong>钝击</strong>、<strong>穿刺</strong>或<strong>挥砍</strong>伤害至<strong>生命值</strong>。它与秩序的<strong>控制</strong>符文相对立。</p>",
               "actions": {
                 "propel": {
                   "name": "推进 Propel",
@@ -1902,7 +1902,7 @@
             },
             "Rune: Kinesis": {
               "name": "符文：念力 Kinesis",
-              "description": "<p>空间与物理移动的混沌之力。念力符文统御一切与移动行为及物理性相关的事物。</p><p>念力符文基于<strong>魅力</strong>进行成长，以<strong>Physical</strong>防御为目标，并对<strong>生命值</strong>造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害。它与秩序的<strong>控制</strong>符文相对。</p>",
+              "description": "<p>空间与物理移动的混沌之力。念力符文统御一切与移动行为及物理性相关的事物。</p><p>念力符文基于<strong>魅力</strong>进行成长，以<strong>物理</strong>防御为目标，并对<strong>生命值</strong>造成<strong>钝击</strong>、<strong>穿刺</strong>或<strong>挥砍</strong>伤害。它与秩序的<strong>控制</strong>符文相对。</p>",
               "actions": {
                 "propel": {
                   "name": "推进 Propel",

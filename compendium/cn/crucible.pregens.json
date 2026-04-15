@@ -1080,7 +1080,7 @@
         },
         "Rune: Kinesis": {
           "name": "符文：念力 Kinesis",
-          "description": "<p>空间与物理运动的混沌之力。念力符文支配着一切与移动行为和物质性相关的事物。</p><p>念力符文依靠<strong>魅力</strong>进行成长，目标是<strong>Physical</strong>防御，并对<strong>生命值</strong>造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害。它与秩序的<strong>控制</strong>符文相对立。</p>",
+          "description": "<p>空间与物理运动的混沌之力。念力符文支配着一切与移动行为和物质性相关的事物。</p><p>念力符文依靠<strong>魅力</strong>进行成长，目标是<strong>物理</strong>防御，并对<strong>生命值</strong>造成<strong>钝击</strong>、<strong>穿刺</strong>或<strong>挥砍</strong>伤害。它与秩序的<strong>控制</strong>符文相对立。</p>",
           "actions": {
             "propel": {
               "name": "推进 Propel",
@@ -1282,7 +1282,7 @@
         },
         "Rune: Kinesis": {
           "name": "符文：念力 Kinesis",
-          "description": "<p>空间与物理移动的混沌之力。念力符文掌管一切与移动行为及物理性相关的事物。</p><p>念力符文基于<strong>魅力</strong>进行成长，以<strong>Physical</strong>防御为目标，并造成<strong>Bludgeoning</strong>、<strong>Piercing</strong>或<strong>Slashing</strong>伤害到<strong>生命值</strong>。它与秩序的<strong>控制</strong>符文相对立。</p>",
+          "description": "<p>空间与物理移动的混沌之力。念力符文掌管一切与移动行为及物理性相关的事物。</p><p>念力符文基于<strong>魅力</strong>进行成长，以<strong>物理</strong>防御为目标，并造成<strong>钝击</strong>、<strong>穿刺</strong>或<strong>挥砍</strong>伤害到<strong>生命值</strong>。它与秩序的<strong>控制</strong>符文相对立。</p>",
           "actions": {
             "propel": {
               "name": "推进 Propel",
