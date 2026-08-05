@@ -59,7 +59,7 @@
         },
         "Gesture: Aspect": {
           "name": "手势：化相 Gesture: Aspect",
-          "description": "<p>将一个符文的精髓注入自身，强化你自己的肉体形态或心灵。</p>\n\n<p>当你承载某种面相时，你会与法术中所用符文的伤害类型更加协调。你获得对此伤害类型的<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p>\n\n<p>你的面相持续<strong>6 轮</strong>。你只能拥有一个生效中的面相；施放另一个使用面相手势的法术会替代先前的效果。</p>"
+          "description": "<p>将一个符文的精华注入自身，强化你自己的肉体形态或心灵。</p>\n\n<p>当你承载某种面相时，你会与法术中所用符文的伤害类型更加协调。你获得对此伤害类型的<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p>\n\n<p>你的面相持续<strong>6 轮</strong>。你只能拥有一个生效中的面相；施放另一个使用面相手势的法术会替代先前的效果。</p>"
         },
         "Gesture: Fan": {
           "name": "手势：扇形 Gesture: Fan",
@@ -83,15 +83,15 @@
       },
       "taxonomy": {
         "name": "风暴元素 Storm Elemental",
-        "description": "<p>与闪电元素对应的元素生物。</p>"
+        "description": "<p>与风暴元素对应的元素生物。</p>"
       },
       "items": {
         "Voltaic Claw": {
           "name": "电爪 Voltaic Claw"
         },
         "Electricity Absorption": {
-          "name": "电能吸收 Electricity Absorption",
-          "description": "<p>该@ref[actor.name]{生物}拥有非凡的能力，能从容承受闪电冲击。其<strong>闪电</strong>抗性翻倍，且如果该抗性会将伤害量降低至零以下，则该负值改为作为<strong>治疗</strong>获得。</p>"
+          "name": "电击吸收 Electricity Absorption",
+          "description": "<p>该@ref[actor.name]{生物}拥有非凡的能力，能从容承受闪电冲击。其<strong>电击</strong>抗性翻倍，且如果该抗性会将伤害量降低至零以下，则该负值改为作为<strong>治疗</strong>获得。</p>"
         },
         "False Appearance": {
           "name": "伪装外表 False Appearance",
@@ -163,14 +163,14 @@
       },
       "taxonomy": {
         "name": "风暴元素 Storm Elemental",
-        "description": "<p>与闪电元素对应的元素生物。</p>"
+        "description": "<p>与风暴元素对应的元素生物。</p>"
       },
       "items": {
         "Elemental Armor": {
           "name": "元素护甲 Elemental Armor"
         },
         "Electricity Absorption": {
-          "name": "电能吸收 Electricity Absorption",
+          "name": "电击吸收 Electricity Absorption",
           "description": "<p>该@ref[actor.name]{生物}具备非凡的能力，能够从容承受闪电冲击。其<strong>电击</strong>抗性加倍，且如果该抗性会将伤害量降低到零以下，则该负数值改为作为<strong>治疗</strong>承受。</p>"
         },
         "Voltaic Claw": {
@@ -178,7 +178,7 @@
         },
         "Gesture: Aspect": {
           "name": "手势：化相 Gesture: Aspect",
-          "description": "<p>将一个符文的精髓注入自身，强化你自己的肉体形态或精神心智。</p>\n\n<p>当你呈现某种形态时，你会与法术中所用符文的伤害类型更加协调。你获得对该伤害类型的<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p>\n\n<p>你的形态持续<strong>6 轮</strong>。你同时只能有一个生效中的形态，使用形态手势施放另一个法术会替代之前的效果。</p>"
+          "description": "<p>将一个符文的精华注入自身，强化你自己的肉体形态或精神心智。</p>\n\n<p>当你呈现某种形态时，你会与法术中所用符文的伤害类型更加协调。你获得对该伤害类型的<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p>\n\n<p>你的形态持续<strong>6 轮</strong>。你同时只能有一个生效中的形态，使用形态手势施放另一个法术会替代之前的效果。</p>"
         },
         "Gesture: Fan": {
           "name": "手势：扇形 Gesture: Fan",
@@ -190,7 +190,7 @@
         },
         "Rune: Storm": {
           "name": "符文：风暴 Rune: Storm",
-          "description": "<p>原始电能所具的混沌之力。风暴符文掌管电能之源与放电现象，与秩序井然的大地符文相互对立。</p>\n<p>风暴符文以<strong>智力</strong>作为增益属性，以<strong>反射</strong>为目标，并对<strong>生命值</strong>造成<strong>电力</strong>伤害。</p>"
+          "description": "<p>原始电能所具的混沌之力。风暴符文掌管电能之源与放电现象，与秩序井然的大地符文相互对立。</p>\n<p>风暴符文以<strong>智力</strong>作为增益属性，以<strong>反射</strong>为目标，并对<strong>生命值</strong>造成<strong>电击</strong>伤害。</p>"
         }
       }
     },
@@ -229,7 +229,7 @@
         },
         "Gesture: Aspect": {
           "name": "手势：化相 Gesture: Aspect",
-          "description": "<p>将符文的精髓注入自身，强化你自身的肉体形态或精神。</p>\n\n<p>当你承载某种相貌时，你会与法术中所用符文的伤害类型更加协调。你获得对此伤害类型的<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p>\n\n<p>你的相貌持续<strong>6 轮</strong>。你同时只能拥有一种生效中的相貌；施放另一个使用相貌手势的法术会替代先前的效果。</p>"
+          "description": "<p>将符文的精华注入自身，强化你自身的肉体形态或精神。</p>\n\n<p>当你承载某种相貌时，你会与法术中所用符文的伤害类型更加协调。你获得对此伤害类型的<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p>\n\n<p>你的相貌持续<strong>6 轮</strong>。你同时只能拥有一种生效中的相貌；施放另一个使用相貌手势的法术会替代先前的效果。</p>"
         },
         "Gesture: Fan": {
           "name": "手势：扇形 Gesture: Fan",
@@ -322,7 +322,7 @@
         },
         "Gesture: Aspect": {
           "name": "手势：化相 Gesture: Aspect",
-          "description": "<p>将符文的精髓注入自身，强化你自己的肉体形态或心灵。</p>\n\n<p>当你承受某种面相时，你会与法术中所用符文的伤害类型更加协调。你获得对此伤害类型的<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p>\n\n<p>你的面相持续<strong>6 轮</strong>。你同时只能拥有一种生效中的面相；施放另一个使用面相手势的法术时，会替代先前的效果。</p>"
+          "description": "<p>将符文的精华注入自身，强化你自己的肉体形态或心灵。</p>\n\n<p>当你承受某种面相时，你会与法术中所用符文的伤害类型更加协调。你获得对此伤害类型的<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p>\n\n<p>你的面相持续<strong>6 轮</strong>。你同时只能拥有一种生效中的面相；施放另一个使用面相手势的法术时，会替代先前的效果。</p>"
         },
         "Gesture: Fan": {
           "name": "手势：扇形 Gesture: Fan",
@@ -330,7 +330,7 @@
         },
         "Rune: Earth": {
           "name": "符文：大地 Rune: Earth",
-          "description": "<p>元素大地的有序之力，负责构成物质实体。大地符文掌管生命值以及与生物材料生长有关的事务。它与混乱的闪电符文相对立。</p>\n<p>大地符文以<strong>感知</strong>作为成长属性，目标是<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>强酸</strong>伤害。</p>"
+          "description": "<p>元素大地的有序之力，负责构成物质实体。大地符文掌管生命值以及与生物材料生长有关的事务。它与混乱的风暴符文相对立。</p>\n<p>大地符文以<strong>感知</strong>作为成长属性，目标是<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>强酸</strong>伤害。</p>"
         }
       }
     },

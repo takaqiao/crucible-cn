@@ -134,7 +134,7 @@
     },
     "Armored Shell": {
       "name": "装甲壳体 Armored Shell",
-      "description": "<p>你擅长将护甲与盾牌配合使用，形成防御性的外壳。</p><p>当你处于<strong>戒备</strong>状态，且已装备<strong>重型盾牌</strong>时，你的基础<strong>护甲</strong>防御减半，但你的<strong>格挡</strong>防御会相应增加同等数值。</p>"
+      "description": "<p>你擅长将护甲与盾牌配合使用，形成防御性的外壳。</p><p>当你处于<strong>@Condition[guarded]</strong>状态，且已装备<strong>重型盾牌</strong>时，你的基础<strong>护甲</strong>防御减半，但你的<strong>格挡</strong>防御会相应增加同等数值。</p>"
     },
     "Armored Efficiency": {
       "name": "装甲效率 Armored Efficiency",
@@ -153,7 +153,7 @@
     },
     "Assassin": {
       "name": "刺客 Assassin",
-      "description": "<p>你专精于为毫无防备者带来死亡。对<strong>未察觉</strong>目标进行的任何<strong>打击</strong>或<strong>法术</strong>攻击都会变为<strong>致命</strong>。</p><p>被你攻击命中的未察觉生物，在战斗中直到其自身的回合前，都无法提醒其盟友。</p>",
+      "description": "<p>你专精于为毫无防备者带来死亡。对@Condition[unaware]目标进行的任何<strong>打击</strong>或<strong>法术</strong>攻击都会变为<strong>致命</strong>。</p><p>被你攻击命中的未察觉生物，在战斗中直到其自身的回合前，都无法提醒其盟友。</p>",
       "actions": {
         "markForDeath": {
           "name": "标记死亡 Mark For Death",
@@ -210,7 +210,7 @@
       "actions": {
         "backstab": {
           "name": "背刺 Backstab",
-          "description": "<p>你用主手武器对一个处于夹击状态的目标进行<strong>打击</strong>，造成<strong>致命</strong><strong>伤害</strong>。</p>",
+          "description": "<p>你用主手武器对一个处于@Condition[flanked]状态的目标进行<strong>打击</strong>，造成<strong>致命</strong><strong>伤害</strong>。</p>",
           "condition": "你正在攻击一个处于夹击状态的目标。"
         }
       }
@@ -259,7 +259,7 @@
       "actions": {
         "berserkerRage": {
           "name": "狂战士狂怒 Berserker Rage",
-          "description": "你陷入激怒状态。处于激怒状态期间，你所有近战攻击都会额外造成 4 点伤害。你可以在自己的回合中尝试以意志检定对抗 DC 20，若成功则结束该效果。战斗结束时，该效果也会自动结束。",
+          "description": "你陷入激怒状态。@Condition[enraged]状态期间，你所有近战攻击都会额外造成 4 点伤害。你可以在自己的回合中尝试以意志检定对抗 DC 20，若成功则结束该效果。战斗结束时，该效果也会自动结束。",
           "condition": "自你在战斗中的上个回合以来，你的生命值池已受到伤害。",
           "effects": [
             {}
@@ -273,7 +273,7 @@
     },
     "Bloodletter": {
       "name": "放血者 Bloodletter",
-      "description": "<p>你对造成挥砍或穿刺伤害的武器运用精准，在对生命值造成伤害的暴击时可施加流血状态。</p><p>流血效果持续 1 轮，并额外对生命值造成等同于你敏捷属性值的伤害。</p>"
+      "description": "<p>你对造成挥砍或穿刺伤害的武器运用精准，在对生命值造成伤害的暴击时可施加@Condition[bleeding]状态。</p><p>@Condition[bleeding]效果持续 1 轮，并额外对生命值造成等同于你敏捷属性值的伤害。</p>"
     },
     "Blood Magic": {
       "name": "血魔法 Blood Magic",
@@ -296,7 +296,7 @@
       "actions": {
         "bullrush": {
           "name": "猛撞 Bull Rush",
-          "description": "<p>对一个相邻敌人进行一次<strong>运动</strong>技能攻击，由目标的<strong>坚韧</strong>防御进行对抗。若成功，你可以<strong>移动</strong>最多至你的<strong>跨步</strong>，并直接穿过敌人的空间。你的敌人会被击至<strong>倒地</strong>，且不能对你进行任何借机攻击。若失败，你的移动会被阻挡，并且你仍停留在当前位置。</p>",
+          "description": "<p>对一个相邻敌人进行一次<strong>运动</strong>技能攻击，由目标的<strong>坚韧</strong>防御进行对抗。若成功，你可以<strong>移动</strong>最多至你的<strong>跨步</strong>，并直接穿过敌人的空间。你的敌人会被击至<strong>@Condition[prone]</strong>，且不能对你进行任何借机攻击。若失败，你的移动会被阻挡，并且你仍停留在当前位置。</p>",
           "effects": [
             {
               "name": "猛撞 Bull Rush"
@@ -307,7 +307,7 @@
     },
     "Bulwark": {
       "name": "壁垒 Bulwark",
-      "description": "<p>你精通使用<strong>盾牌</strong>来保护自己和他人。</p><p>每回合一次，当你已装备盾牌时，你可以以降低后的1动作点消耗使用<strong>防御</strong>动作。</p>"
+      "description": "<p>你精通使用<strong>盾牌</strong>来保护自己和他人。</p><p>每回合一次，当你已装备盾牌时，你可以以降低后的1动作点消耗使用<strong>@Action[default defend]</strong>动作。</p>"
     },
     "Cadence": {
       "name": "节奏 Cadence",
@@ -367,7 +367,7 @@
     },
     "Concussive Blows": {
       "name": "震荡重击 Concussive Blows",
-      "description": "<p>你使用造成钝击伤害的近战武器时所展现的肉体力量，能使那些对生命值造成伤害的暴击附加<strong>踉跄</strong>状态。</p><p>踉跄状态持续 1 轮，并使你目标的最大动作数减少 1。</p>"
+      "description": "<p>你使用造成钝击伤害的近战武器时所展现的肉体力量，能使那些对生命值造成伤害的暴击附加<strong>@Condition[staggered]</strong>状态。</p><p>@Condition[staggered]状态持续 1 轮，并使你目标的最大动作数减少 1。</p>"
     },
     "Conjurer": {
       "name": "召唤师 Conjurer",
@@ -379,7 +379,7 @@
     },
     "Control Proficiency": {
       "name": "控制熟练度 Control Proficiency",
-      "description": "<p>你熟练运用控制符文来编织施法。你在使用该符文施放的法术上获得<strong>+1 技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为<strong>激励</strong>动作提供升级，扩大其效果或加入新的使用选项。</p>"
+      "description": "<p>你熟练运用控制符文来编织施法。你在使用该符文施放的法术上获得<strong>+1 技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为@Action[Compendium.crucible.talent.Item.runeControl00000 motivate]动作提供升级，扩大其效果或加入新的使用选项。</p>"
     },
     "Cooking Journeyman": {
       "name": "烹饪熟练工 Cooking Journeyman",
@@ -435,7 +435,7 @@
     },
     "Death Proficiency": {
       "name": "死亡熟练度 Death Proficiency",
-      "description": "<p>你精通运用死亡符文进行施法。你在使用此符文施放法术时获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为<strong>失神术</strong>动作提供一次升级，扩展其效果或加入新的使用选项。</p>"
+      "description": "<p>你精通运用死亡符文进行施法。你在使用此符文施放法术时获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为@Action[Compendium.crucible.talent.Item.runeDeath0000000 ennervate]动作提供一次升级，扩展其效果或加入新的使用选项。</p>"
     },
     "Deception Adept": {
       "name": "欺瞒专家 Deception Adept",
@@ -480,7 +480,7 @@
     },
     "Deft Grip": {
       "name": "灵巧握持 Deft Grip",
-      "description": "你对自己武器装备的掌握流畅而精确。你可以在持用双手持用远程武器时，执行需要一只空闲手的动作。"
+      "description": "<p>你对武器的掌握流畅而精确。在持用一把以敏捷成长的双手武器时，你仍可施放需要双手的法术；试图对你进行缴械的尝试会承受 +2 祸骰。</p><p>你可以用免费移动来装备或卸下这样一把武器，无需任何动作消耗。</p>"
     },
     "Demolitionist": {
       "name": "爆破手 Demolitionist",
@@ -518,7 +518,7 @@
       "actions": {
         "dirtyTricks": {
           "name": "阴招 Dirty Tricks",
-          "description": "<p>你将碎屑扬向敌人的眼睛。若此次打击成功，则其陷入目盲，直到其下个回合结束。</p>",
+          "description": "<p>你将碎屑扬向敌人的眼睛。若此次打击成功，则其陷入@Condition[blinded]，直到其下个回合结束。</p>",
           "effects": [
             {
               "name": "阴招 Dirty Tricks"
@@ -556,11 +556,11 @@
       "description": "<p>你在战场上散发出可怖的威势，考验着附近目睹你的敌人的士气，并击溃那些意志薄弱者的决心。</p>",
       "actions": {
         "formidablePresence": {
-          "name": "威严魅力 Formidable Presence",
+          "name": "威严气场 Formidable Presence",
           "description": "<p>你对12英尺内的敌人的意志防御进行一次威吓技能攻击，对其士气造成虚空伤害；若你超过其防御，则使其陷入恐慌状态，持续1轮。</p>",
           "effects": [
             {
-              "name": "威严魅力 Formidable Presence"
+              "name": "威严气场 Formidable Presence"
             }
           ]
         }
@@ -582,7 +582,7 @@
     },
     "Earth Proficiency": {
       "name": "大地熟练度 Earth Proficiency",
-      "description": "<p>你熟练掌握运用大地符文进行施法。使用该符文施放的法术获得<strong>+1 技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还会为<strong>塑形</strong>动作提供一次升级，扩大其效果，或加入新的使用选项。</p>"
+      "description": "<p>你熟练掌握运用大地符文进行施法。使用该符文施放的法术获得<strong>+1 技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还会为@Action[Compendium.crucible.talent.Item.runeEarth0000000 mould]动作提供一次升级，扩大其效果，或加入新的使用选项。</p>"
     },
     "Enchanting Journeyman": {
       "name": "附魔熟练工 Enchanting Journeyman",
@@ -612,7 +612,7 @@
       "actions": {
         "executionersStrike": {
           "name": "刽子手的打击 Executioner's Strike",
-          "description": "<p>你用一把双手持用的重型武器施展一次致命打击。若你的攻击成功，你的对手还会陷入流血状态，持续3轮；在每一轮中，其都会额外受到等同于你力量值的伤害。</p>",
+          "description": "<p>你用一把双手持用的重型武器施展一次致命打击。若你的攻击成功，你的对手还会陷入@Condition[bleeding]状态，持续3轮；在每一轮中，其都会额外受到等同于你力量值的伤害。</p>",
           "condition": "你的目标已负伤。",
           "effects": [
             {
@@ -669,7 +669,7 @@
     },
     "Flame Proficiency": {
       "name": "火焰熟练度 Flame Proficiency",
-      "description": "<p>你熟练掌握了运用火焰符文进行施法的技巧。使用该符文施放法术时，你获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为<strong>引燃</strong>动作提供升级，扩展其效果，或加入新的使用选项。</p>"
+      "description": "<p>你熟练掌握了运用火焰符文进行施法的技巧。使用该符文施放法术时，你获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为@Action[Compendium.crucible.talent.Item.runeFlame0000000 enkindle]动作提供升级，扩展其效果，或加入新的使用选项。</p>"
     },
     "Flaming Arrow": {
       "name": "火焰箭 Flaming Arrow",
@@ -687,7 +687,7 @@
       "actions": {
         "flashOfSteel": {
           "name": "钢光一闪 Flash of Steel",
-          "description": "<p>你使用<strong>投掷</strong>武器发动一次攻击，瞄准敌人防御中的弱点。若攻击命中，目标将陷入<strong>暴露</strong>，直到其下个回合开始。</p>",
+          "description": "<p>你使用<strong>投掷</strong>武器发动一次攻击，瞄准敌人防御中的弱点。若攻击命中，目标将陷入<strong>@Condition[exposed]</strong>，直到其下个回合开始。</p>",
           "effects": [
             {
               "name": "钢光一闪 Flash of Steel"
@@ -730,7 +730,7 @@
     },
     "Frost Proficiency": {
       "name": "霜冻熟练度 Frost Proficiency",
-      "description": "<p>你熟练掌握运用霜冻符文来施法。使用该符文施放的法术可获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还会为<strong>凝结</strong>动作提供升级，扩大其效果，或加入新的使用选项。</p>"
+      "description": "<p>你熟练掌握运用霜冻符文来施法。使用该符文施放的法术可获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还会为@Action[Compendium.crucible.talent.Item.runeFrost0000000 condense]动作提供升级，扩大其效果，或加入新的使用选项。</p>"
     },
     "Fulcrum": {
       "name": "支点 Fulcrum",
@@ -757,11 +757,11 @@
     },
     "Gesture: Conjure": {
       "name": "手势：召唤 Gesture: Conjure",
-      "description": "<p>你将奥术力量凝聚为一种更高等的形态，显现出一个<strong>访客</strong>；它会出现在30英尺内，并以<strong>先攻</strong> 1加入<strong>战斗</strong>。你的访客是一个与你自身等级相同的仆从。</p><p>召唤手势按<strong>感知</strong>进行成长，且该访客可存续<strong>12轮</strong>。你同时只能拥有一个处于激活状态的访客。使用召唤手势再次施放其他法术时，会替换你先前的访客。该手势需要<strong>2只手</strong>施放，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前位于一个<strong>第4阶</strong>节点。它最终将只能在更高等级时获得（可能需要6级）。目前为了测试，暂时“提前”开放。</p><p>并非所有符文都已定义访客角色。对于尚未定义召唤物的符文，当前将会显现一个<strong>火焰访客</strong>。</p>"
+      "description": "<p>你将奥术力量凝聚为一种更高等的形态，显现出一个<strong>访客</strong>；它会出现在30英尺内，并以<strong>先攻</strong> 1加入<strong>战斗</strong>。你的访客是一个与你自身等级相同的仆从。</p><p>召唤手势按<strong>感知</strong>进行成长，且该访客可存续<strong>12轮</strong>。你同时只能拥有一个处于激活状态的访客。使用召唤手势再次施放其他法术时，会替换你先前的访客。该手势需要<strong>2只手</strong>施放，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前位于一个<strong>第4阶</strong>节点。它最终将只能在更高等级时获得（可能需要6级）。目前为了测试，暂时“提前”开放。</p><p>并非所有符文都已定义访客角色。对于尚未定义召唤物的符文，当前将会显现一个@UUID[Compendium.crucible.summons.Actor.AlwoqQKoL1BnnZjd]。</p>"
     },
     "Gesture: Sense": {
       "name": "手势：感知 Gesture: Sense",
-      "description": "<p>你将心神与一种符文的奥术力量调谐，以感知附近的能量源。</p><p><strong>感知</strong>手势会随<strong>灵识</strong>成长，产生一个半径 30 尺、位置始终以施法者为中心的扩散区域。此手势施放时需要<strong>1 只手</strong>，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。你也可以选择<strong>维持</strong>它，但此后每个后续轮次都需额外消耗<strong>1 专注</strong>。</p><p>此法术允许施法者侦测与本法术所融入的同一符文相关的施法存在。该感知也会短暂侦测到生物的存在，具体取决于其类型。</p><ul><li><p><strong>控制</strong>：邪魔</p></li><li><p><strong>死亡</strong>：不死生物</p></li><li><p><strong>大地</strong>：软泥怪和土元素</p></li><li><p><strong>火焰</strong>：巨龙和火焰</p></li><li><p><strong>霜冻</strong>：巨人和冰霜元素</p></li><li><p><strong>照明</strong>：天界生物</p></li><li><p><strong>幻象</strong>：妖精</p></li><li><p><strong>念力</strong>：怪物</p></li><li><p><strong>生命</strong>：植物和野兽</p></li><li><p><strong>闪电</strong>：构装体和风暴元素</p></li><li><p><strong>湮灭</strong>：外来者</p></li><li><p><strong>灵魂</strong>：人型生物</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>目前尚无针对该法术临时赋予的感知的自动化支持，但未来可通过一种侦测模式提供此类自动化：当法术被维持时，它会暂时向施法者揭示相应类型的生物。</p>"
+      "description": "<p>你将心神与一种符文的奥术力量调谐，以感知附近的能量源。</p><p>感知手势会随<strong>存在</strong>成长，产生一个半径 30 尺、位置始终以施法者为中心的扩散区域。此手势施放时需要<strong>1 只手</strong>，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。你也可以选择<strong>维持</strong>它，但此后每个后续轮次都需额外消耗<strong>1 专注</strong>。</p><p>此法术允许施法者侦测与本法术所融入的同一符文相关的施法存在。该感知也会短暂侦测到生物的存在，具体取决于其类型。</p><ul><li><p><strong>控制</strong>：邪魔</p></li><li><p><strong>死亡</strong>：不死生物</p></li><li><p><strong>大地</strong>：软泥怪和土元素</p></li><li><p><strong>火焰</strong>：巨龙和火焰</p></li><li><p><strong>霜冻</strong>：巨人和冰霜元素</p></li><li><p><strong>照明</strong>：天界生物</p></li><li><p><strong>幻象</strong>：妖精</p></li><li><p><strong>念力</strong>：怪物</p></li><li><p><strong>生命</strong>：植物和野兽</p></li><li><p><strong>风暴</strong>：构装体和风暴元素</p></li><li><p><strong>湮灭</strong>：外来者</p></li><li><p><strong>灵魂</strong>：人型生物</p></li></ul>"
     },
     "Gesture: Surge": {
       "name": "手势：涌动 Gesture: Surge",
@@ -777,7 +777,7 @@
     },
     "Gesture: Create": {
       "name": "手势：创造 Gesture: Create",
-      "description": "<p>你将奥术力量凝聚为有形之物，显现出一个<strong>精灵</strong>，它会出现在10英尺内，并以先攻 1 加入战斗。你的精灵是一个等阶为你自身一半的<strong>仆从</strong>。</p><p>创造手势随<strong>感知</strong>而变化，且该精灵会存续<strong>6轮</strong>。你同时只能拥有一个生效中的精灵；若施放另一个使用创造手势的法术，则会替代你先前的精灵。此手势需要<strong>2只手</strong>施放，基础消耗为<strong>4动作</strong>和<strong>1专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>并非所有符文都已定义精灵演员。尚未定义创造内容的符文——目前——将显现一个<strong>火焰精灵</strong>。</p>"
+      "description": "<p>你将奥术力量凝聚为有形之物，显现出一个<strong>精灵</strong>，它会出现在10英尺内，并以先攻 1 加入战斗。你的精灵是一个等阶为你自身一半的<strong>仆从</strong>。</p><p>创造手势随<strong>感知</strong>而变化，且该精灵会存续<strong>6轮</strong>。你同时只能拥有一个生效中的精灵；若施放另一个使用创造手势的法术，则会替代你先前的精灵。此手势需要<strong>2只手</strong>施放，基础消耗为<strong>4动作</strong>和<strong>1专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>并非所有符文都已定义精灵演员。尚未定义创造内容的符文——目前——将显现一个@UUID[Compendium.crucible.summons.Actor.RuNh1bFGiHKdHeKI]。</p>"
     },
     "Gesture: Fan": {
       "name": "手势：扇形 Gesture: Fan",
@@ -785,11 +785,11 @@
     },
     "Gesture: Influence": {
       "name": "手势：影响 Gesture: Influence",
-      "description": "<p>你将符文的奥术力量强化为一种集中的直接接触，这通常是基础触碰手势的更强力进阶形态。</p><p>影响手势使用<strong>魅力</strong>进行成长，并以一个邻近的单一生物为目标。它对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。此手势需要<strong>1 只手</strong>来施放，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
+      "description": "<p>你将符文的奥术力量强化为一种集中的直接接触，这通常是基础触碰手势的更强力进阶形态。</p><p>影响手势使用<strong>存在</strong>进行成长，并以一个邻近的单一生物为目标。它对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。此手势需要<strong>1 只手</strong>来施放，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
     },
     "Gesture: Pulse": {
       "name": "手势：脉冲 Gesture: Pulse",
-      "description": "<p>将符文中的奥术力量释放出来，以你为中心向外扩散成一片区域。</p><p>脉冲手势按<strong>魅力</strong>进行缩放，产生一个半径10英尺的散发区域，对未能抗拒该法术的目标造成<strong>8基础伤害</strong>。该手势施放需要<strong>双手</strong>，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前放置在一个<strong>第4阶</strong>节点上。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为了测试而“提前”开放。</p>"
+      "description": "<p>将符文中的奥术力量释放出来，以你为中心向外扩散成一片区域。</p><p>脉冲手势按<strong>存在</strong>进行缩放，产生一个半径10英尺的散发区域，对未能抗拒该法术的目标造成<strong>8基础伤害</strong>。该手势施放需要<strong>双手</strong>，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前放置在一个<strong>第4阶</strong>节点上。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为了测试而“提前”开放。</p>"
     },
     "Gesture: Ray": {
       "name": "手势：射线 Gesture: Ray",
@@ -825,7 +825,7 @@
       "actions": {
         "hamstring": {
           "name": "断筋打击 Hamstring",
-          "description": "<p>你进行一次<strong>打击</strong>攻击，此攻击为<strong>困难</strong>，但若成功，则会施加<strong>迟缓</strong>状态，持续<strong>3 轮</strong>。</p>",
+          "description": "<p>你进行一次<strong>打击</strong>攻击，此攻击为<strong>困难</strong>，但若成功，则会施加<strong>@Condition[slowed]</strong>状态，持续<strong>3 轮</strong>。</p>",
           "effects": [
             {
               "name": "断筋打击 Hamstring"
@@ -840,7 +840,7 @@
       "actions": {
         "headbutt": {
           "name": "头槌攻击 Headbutt",
-          "description": "<p>对相邻敌人的<strong>坚韧</strong><strong>防御</strong>进行一次徒手<strong>打击</strong>。如果你的<strong>先攻</strong>高于你的<strong>目标</strong>，则此次攻击获得<strong>+1 惠骰</strong>。</p><p>此次攻击是<strong>困难</strong>的，且只造成<strong>虚弱</strong>伤害，但如果成功，则会使其陷入 @Condition[staggered]，持续一轮。</p><p>此行动始终使用徒手武器，即使你的武器槽位已被其他武器占用也是如此。</p>",
+          "description": "<p>对相邻敌人的<strong>坚韧</strong><strong>防御</strong>进行一次徒手<strong>打击</strong>。如果你的<strong>先攻</strong>高于你的<strong>目标</strong>，则此次攻击获得<strong>+1 惠骰</strong>。</p><p>此次攻击是<strong>困难</strong>的，且只造成@Rule[action.weakened]伤害，但如果成功，则会使其陷入 @Condition[staggered]，持续一轮。</p><p>此行动始终使用徒手武器，即使你的武器槽位已被其他武器占用也是如此。</p>",
           "effects": [
             {}
           ]
@@ -882,11 +882,11 @@
     },
     "Illumination Proficiency": {
       "name": "照明熟练度 Illumination Proficiency",
-      "description": "<p>你精通运用照明符文进行施法。使用该符文施放的法术获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为<strong>揭示</strong>动作提供一次升级，扩展其效果或加入新的使用选项。</p>"
+      "description": "<p>你精通运用照明符文进行施法。使用该符文施放的法术获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为@Action[Compendium.crucible.talent.Item.runeIllumination reveal]动作提供一次升级，扩展其效果或加入新的使用选项。</p>"
     },
     "Illusion Proficiency": {
       "name": "幻术熟练度 Illusion Proficiency",
-      "description": "<p>你在使用幻象符文编织施法时十分娴熟。你使用该符文施放的法术获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为<strong>表象</strong>动作提供升级，扩大其效果或加入新的使用选项。</p>"
+      "description": "<p>你在使用幻象符文编织施法时十分娴熟。你使用该符文施放的法术获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为@Action[Compendium.crucible.talent.Item.runeIllusion0000 seeming]动作提供升级，扩大其效果或加入新的使用选项。</p>"
     },
     "Impenetrable Guard": {
       "name": "坚不可摧的守卫 Impenetrable Guard",
@@ -901,48 +901,48 @@
       "description": "<p>你认识到火焰能够以不可避免且无法阻挡的态势蔓延。你对<strong>火焰符文</strong>的使用改为随<strong>感知</strong>而非<strong>智力</strong>提升。</p>"
     },
     "Inflection: React": {
-      "name": "词缀：反应 Inflection: React",
+      "name": "屈折：反应 Inflection: React",
       "description": "<p>本能地将一个法术构筑为一个<strong>反应</strong>，以回应你所观察到的其他动作。词缀：反应会使法术的<strong>专注</strong>消耗增加2。</p>"
     },
     "Inflection: Reshape": {
-      "name": "词缀：重塑 Inflection: Reshape",
+      "name": "屈折：重塑 Inflection: Reshape",
       "description": "<p>以<strong>2 点专注</strong>为代价，通过谨慎地重塑并控制其效果区域来强化一个法术。</p><p>使用模板目标的攻击性法术只会以区域内的敌人为目标。使用模板目标的治疗法术只会以区域内的盟友为目标。</p><p>单体目标法术不会因介于其间的生物而承受任何祸骰。</p>"
     },
     "Inflection: Compose": {
-      "name": "词缀：作曲 Inflection: Compose",
+      "name": "屈折：编构 Inflection: Compose",
       "description": "<p>通过在法术成形时投入额外时间来强化法术，以减少其他资源消耗作为交换。组合 词缀使法术的<strong>专注</strong>消耗减少 1，作为交换，其<strong>动作</strong>消耗增加 1。</p>"
     },
     "Inflection: Determine": {
-      "name": "词缀：判定 Inflection: Determine",
+      "name": "屈折：限定 Inflection: Determine",
       "description": "<p>强化一个法术，使其更难被反制。任何试图反制此法术的尝试都以 +2 祸骰进行。</p>"
     },
     "Inflection: Elude": {
-      "name": "词缀：闪避 Inflection: Elude",
+      "name": "屈折：遁避 Inflection: Elude",
       "description": "<p>强化一个法术，使敌人更难以对其施放进行反击。无论该法术的结果如何，此法术都不会提供任何进行涉及打击攻击的反应机会。</p>"
     },
     "Inflection: Extend": {
-      "name": "词缀：延展 Inflection: Extend",
+      "name": "屈折：延展 Inflection: Extend",
       "description": "<p>增强一个法术的持续时间，延长其效果的持续时间。对于瞬时生效的法术，它们所造成的任何相应状态的持续时间都会增加。</p><section class=\"construction\"><p>由 延展 词缀带来的效果持续时间增加在试玩测试 1 中尚未自动化。此词缀被纳入作为施法系统预期方向的一个示例。</p></section>"
     },
     "Inflection: Negate": {
-      "name": "词缀：否定 Inflection: Negate",
+      "name": "屈折：否定 Inflection: Negate",
       "description": "<p>反转一个法术的效果。一个通常会治疗目标的反转生命之触法术，改为造成毒素伤害。一个反转死亡防护法术会对邻近的一名敌人施加对腐化伤害的易伤。</p><section class=\"construction\"><p>否定 词缀的效果在试玩测试 1 中尚未自动化。此词缀作为施法系统预期方向的示例而被收录。</p></section>"
     },
     "Inflection: Pull": {
-      "name": "词缀：拉拽 Inflection: Pull",
-      "description": "<p>强化一个法术，使受影响的生物被吸引向施法者。受带有词缀：拉拽的法术影响的生物会向施法者移动1格，如果目标格未被占据。</p>"
+      "name": "屈折：拉拽 Inflection: Pull",
+      "description": "<p>强化一个法术，使受影响的生物被吸引向施法者。受带有<strong>拉拽</strong>屈折的法术影响的生物，会被朝施法者方向强制移动一段距离，距离等于该法术所适用的能力加值，途中可能撞上墙壁或其他阻挡移动的障碍。</p>"
     },
     "Inflection: Push": {
-      "name": "屈折：推开 Inflection: Push",
+      "name": "屈折：推挤 Inflection: Push",
       "description": "<p>强化一个法术，使其将受影响的生物从施法者身边击退。受带有屈折：推开的法术影响的生物会向远离施法者的方向移动4英尺，前提是该目的地未被占据。</p>"
     },
     "Inflection: Quicken": {
-      "name": "词缀：迅捷化 Inflection: Quicken",
+      "name": "屈折：迅捷 Inflection: Quicken",
       "description": "<p>通过加快法术施放的速度来强化一个法术，但代价是需要消耗更多的专注。词缀：迅捷化使一个法术的<strong>动作</strong>消耗减少1，而作为交换，其<strong>专注</strong>消耗增加1。</p>"
     },
     "Inquisitor": {
       "name": "审判官 Inquisitor",
-      "description": "<p>你是对抗魔法使用者战斗方面的专家。你知道如何保存体力，并在精确的时机打击，以阻挠他们的咒语。</p>",
+      "description": "<p>你是对抗魔法使用者战斗方面的专家，受训于保存体力、并在精确的时机出手以阻挠咒语。</p><p>你的@Action[default reactiveStrike]消耗额外减少 1 点<strong>动作</strong>，但始终消耗 1 点<strong>专注</strong>。当你为回应敌人施法而对其进行打击时，命中会从该敌人身上抽走<strong>1 点专注</strong>并返还给你；若造成<strong>暴击</strong>，其法术会被打断，魔法就此消散。</p>",
       "actions": {
         "inquisitorsStrike": {
           "name": "审判官的打击 Inquisitor's Strike",
@@ -984,7 +984,7 @@
       "actions": {
         "intercept": {
           "name": "拦截 Intercept",
-          "description": "<p>你拦截进入你<strong>交战</strong>半径内的敌人路径，立即进行至多等同于你<strong>步幅</strong>的移动，以插入其间并阻挡他们的去路。</p><p>如果敌人在其回合中移出你的交战半径，或攻击任何其他生物，你可以对其进行一次<strong>脱离打击</strong>。</p>",
+          "description": "<p>你拦截进入你<strong>交战</strong>半径内的敌人路径，立即进行至多等同于你<strong>步幅</strong>的移动，以插入其间并阻挡他们的去路。</p><p>如果敌人在其回合中移出你的交战半径，或攻击任何其他生物，你可以对其进行一次@Action[default reactiveStrike]。</p>",
           "condition": "一名敌人移动到你的交战半径内，或穿过你的交战半径。"
         }
       }
@@ -1048,7 +1048,7 @@
     },
     "Iramancer": {
       "name": "艾拉曼瑟 Iramancer",
-      "description": "你的奥术技艺由愤怒驱动。处于激怒状态时，你仍可以消耗专注，且你的所有法术攻击额外造成 2 点伤害。"
+      "description": "你的奥术技艺由愤怒驱动。处于@Condition[enraged]状态时，你仍可以消耗专注，且你的所有法术攻击额外造成 2 点伤害。"
     },
     "Iron Resolve": {
       "name": "钢铁意志 Iron Resolve",
@@ -1056,7 +1056,7 @@
     },
     "Irrepressible Spirit": {
       "name": "不屈灵魂 Irrepressible Spirit",
-      "description": "你的坚韧赋予你不屈灵魂，使你能够抵御绝望的侵袭。在你的回合开始时，若你未处于破碎状态，则获得1点士气。"
+      "description": "你的坚韧赋予你不屈灵魂，使你能够抵御绝望的侵袭。在你的回合开始时，若你未处于@Condition[broken]状态，则获得1点士气。"
     },
     "Jewelcraft Journeyman": {
       "name": "珠宝制作熟练工 Jewelcraft Journeyman",
@@ -1072,7 +1072,7 @@
     },
     "Kinesis Proficiency": {
       "name": "念力熟练度 Kinesis Proficiency",
-      "description": "<p>你熟练于使用念力符文编织施法。你在使用该符文施放的法术上获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还会为<strong>推进</strong>动作提供升级，扩大其效果，或加入新的使用选项。</p>"
+      "description": "<p>你熟练于使用念力符文编织施法。你在使用该符文施放的法术上获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还会为@Action[Compendium.crucible.talent.Item.runeKinesis00000 propel]动作提供升级，扩大其效果，或加入新的使用选项。</p>"
     },
     "Kineturge": {
       "name": "念力术师 Kineturge",
@@ -1103,7 +1103,7 @@
       "actions": {
         "legSweep": {
           "name": "扫腿 Leg Sweep",
-          "description": "<p>你用你的主手武器进行一次<strong>打击</strong>攻击。此技巧执行起来<strong>困难</strong>，且造成的伤害减少，但如果成功，会使你的目标<strong>倒地</strong>。</p>",
+          "description": "<p>你用你的主手武器进行一次<strong>打击</strong>攻击。此技巧执行起来<strong>困难</strong>，且造成的伤害减少，但如果成功，会使你的目标<strong>@Condition[prone]</strong>。</p>",
           "effects": [
             {
               "name": "扫腿 Leg Sweep"
@@ -1114,11 +1114,11 @@
     },
     "Lesser Regeneration": {
       "name": "次级再生 Lesser Regeneration",
-      "description": "<p>你惊人的坚韧赋予了你一种超自然的能力，使你能够从创伤中迅速恢复。在你的回合开始时，若你未处于<strong>虚弱</strong>状态，则获得<strong>+1 生命值</strong>。</p>"
+      "description": "<p>你惊人的坚韧赋予了你一种超自然的能力，使你能够从创伤中迅速恢复。在你的回合开始时，若你未处于<strong>@Condition[weakened]</strong>状态，则获得<strong>+1 生命值</strong>。</p>"
     },
     "Life Proficiency": {
       "name": "生命熟练度 Life Proficiency",
-      "description": "<p>你熟练于运用生命符文编织施法。使用此符文施放的法术获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为<strong>绽放 </strong>动作提供升级，扩展其效果或加入新的使用选项。</p>"
+      "description": "<p>你熟练于运用生命符文编织施法。使用此符文施放的法术获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为@Action[Compendium.crucible.talent.Item.runeLife00000000 bloom]动作提供升级，扩展其效果或加入新的使用选项。</p>"
     },
     "Light Weapon Proficiency": {
       "name": "轻型武器熟练度 Light Weapon Proficiency",
@@ -1148,7 +1148,7 @@
       "actions": {
         "markPrey": {
           "name": "标记猎物 Mark Prey",
-          "description": "<p>你使用特殊射击进行打击。如果你的攻击成功，目标在接下来的 3 回合内处于<strong>暴露</strong>状态。</p>",
+          "description": "<p>你使用特殊射击进行打击。如果你的攻击成功，目标在接下来的 3 回合内处于<strong>@Condition[exposed]</strong>状态。</p>",
           "effects": [
             {
               "name": "已标记 Marked"
@@ -1197,7 +1197,7 @@
     },
     "Mental Fortress": {
       "name": "心灵堡垒 Mental Fortress",
-      "description": "<p>你坚强的意志使你极难被影响。你的<strong>意志</strong>防御获得+1，并获得对<strong>心灵</strong>伤害的5点抗性。</p>"
+      "description": "<p>你坚强的意志使你极难被影响。你的<strong>意志</strong>防御获得+1，并获得对<strong>灵能</strong>伤害的5点抗性。</p>"
     },
     "Mesmer": {
       "name": "迷魅师 Mesmer",
@@ -1243,7 +1243,7 @@
     },
     "Never Yield": {
       "name": "永不屈服 Never Yield",
-      "description": "<p>你的决心不肯让你身体的极限拖慢你。处于<strong>虚弱</strong>状态时，你的行动点惩罚从 -2 降低为 -1。</p>"
+      "description": "<p>你的决心不肯让你身体的极限拖慢你。处于<strong>@Condition[weakened]</strong>状态时，你的行动点惩罚从 -2 降低为 -1。</p>"
     },
     "Nosferatu": {
       "name": "诺斯费拉图 Nosferatu",
@@ -1258,11 +1258,11 @@
     },
     "Oblivion Proficiency": {
       "name": "湮灭熟练度 Oblivion Proficiency",
-      "description": "<p>你熟练运用湮灭符文进行施法。你在使用该符文施放法术时获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为<strong>擦除 </strong>动作提供一次强化，扩大其效果或加入新的使用选项。</p>"
+      "description": "<p>你熟练运用湮灭符文进行施法。你在使用该符文施放法术时获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为@Action[Compendium.crucible.talent.Item.runeOblivion0000 erase]动作提供一次强化，扩大其效果或加入新的使用选项。</p>"
     },
     "Operator": {
       "name": "操作者 Operator",
-      "description": "<p>你临危不乱，面对压力也能保持冷静。你的身体韧性与精神敏锐让你能在局势最危险、赌注最高时，将处境中的危险化为取得最佳结果的助力。</p><p>当你处于战斗中且未失能时，若你剩余生命值低于最大生命值的 50%，你在所有检定上获得 +1 恩惠。若你剩余生命值低于最大生命值的 25%，你在所有检定上获得 +2 恩惠。</p>",
+      "description": "<p>你临危不乱，面对压力也能保持冷静。你的身体韧性与精神敏锐让你能在局势最危险、赌注最高时，将处境中的危险化为取得最佳结果的助力。</p><p>当你处于战斗中且未@Condition[incapacitated]时，若你剩余生命值低于最大生命值的 50%，你在所有检定上获得 +1 恩惠。若你剩余生命值低于最大生命值的 25%，你在所有检定上获得 +2 恩惠。</p>",
       "actions": {
         "coldFocus": {
           "name": "冷静专注 Cold Focus",
@@ -1272,7 +1272,7 @@
     },
     "Opportunist": {
       "name": "机会主义者 Opportunist",
-      "description": "<p>你会抓住任何机会，对背对你的敌人趁机下手。即使你处于<strong>完全接战</strong>状态，你仍可进行一次<strong>脱离攻击</strong>，但你进行此次攻击时，不获得通常适用于此类攻击的2个<strong>恩惠</strong>。</p>"
+      "description": "<p>你会抓住任何机会，对背对你的敌人趁机下手。即使你处于<strong>完全接战</strong>状态，你仍可进行一次@Action[default reactiveStrike]，但你进行此次攻击时，不获得通常适用于此类攻击的2个<strong>恩惠</strong>。</p>"
     },
     "Opportunistic Spellcraft": {
       "name": "借机施法 Opportunistic Spellcraft",
@@ -1280,7 +1280,7 @@
     },
     "Overwatch": {
       "name": "瞭望警戒 Overwatch",
-      "description": "<p>你是与施法者战斗的专家。你知道如何保存体力，并在精确的时机打击，以挫败他们的咒语。</p>",
+      "description": "<p>你将整个战场纳入瞄准线，随时准备惩罚任何在你射界内行动的敌人。在你面前编织魔法的施法者，冒的不只是挨你一击的风险，还有咒语被就此瓦解的风险。</p>",
       "actions": {
         "disruptingShot": {
           "name": "扰乱射击 Disrupting Shot",
@@ -1304,7 +1304,7 @@
       "actions": {
         "penetratingThrow": {
           "name": "穿透投掷 Penetrating Throw",
-          "description": "<p>你进行一次<strong>投掷</strong>武器打击，穿透并命中直线上的所有敌人。</p>"
+          "description": "<p>你进行一次@Rule[action.thrown]武器打击，穿透并命中直线上的所有敌人。</p>"
         }
       }
     },
@@ -1344,7 +1344,7 @@
       "actions": {
         "pinningShot": {
           "name": "钉射 Pinning Shot",
-          "description": "<p>你从远处<strong>打击</strong>。此次攻击为<strong>困难</strong>，但如果你的目标是它，它会陷入<strong>受缚</strong>，直到其下个<strong>回合</strong>结束。</p>",
+          "description": "<p>你从远处<strong>打击</strong>。此次攻击为@Rule[action.difficult]，但如果你的目标是它，它会陷入@Condition[restrained]，直到其下个<strong>回合</strong>结束。</p>",
           "effects": [
             {
               "name": "钉射 Pinning Shot"
@@ -1369,11 +1369,11 @@
     },
     "Poisoner": {
       "name": "下毒者 Poisoner",
-      "description": "<p>你可以对造成挥砍或穿刺伤害的武器施加中毒。每当你造成毒素伤害时，你会额外造成 +2 伤害；你的打击在造成生命值伤害的暴击时会施加<strong>中毒</strong>状态。</p>",
+      "description": "<p>你可以对造成挥砍或穿刺伤害的武器施加中毒。每当你造成毒素伤害时，你会额外造成 +2 伤害；你的打击在造成生命值伤害的暴击时会施加@Condition[poisoned]状态。</p>",
       "actions": {
         "poisonBlades": {
           "name": "毒刃 Poison Blades",
-          "description": "<p>你灵巧地将有毒的炼金油涂抹在你的刀刃上，使其在造成重击时施加中毒状态。</p>",
+          "description": "<p>你灵巧地将有毒的炼金油涂抹在你的刀刃上，使其在造成重击时施加@Condition[poisoned]状态。</p>",
           "effects": [
             {
               "name": "毒刃 Poison Blades"
@@ -1384,7 +1384,7 @@
     },
     "Powerful Throw": {
       "name": "强力投掷 Powerful Throw",
-      "description": "<p>带有<strong>投掷</strong>标签的动作，或来自<strong>炸弹</strong>消耗品的动作，其最大射程翻倍</p>"
+      "description": "<p>带有@Rule[action.thrown]标签的动作，或来自<strong>炸弹</strong>消耗品的动作，其最大射程翻倍</p>"
     },
     "Powerful Physique": {
       "name": "强健体魄 Powerful Physique",
@@ -1428,7 +1428,7 @@
       "actions": {
         "scathingMockery": {
           "name": "尖刻嘲弄 Scathing Mockery",
-          "description": "你用一句尖刻的妙语夸大对手的缺点，对目标的意志进行一次外交技能攻击。若成功，目标的士气受到少量灵能伤害，并陷入激怒状态，持续1轮。",
+          "description": "你用一句尖刻的妙语夸大对手的缺点，对目标的意志进行一次外交技能攻击。若成功，目标的士气受到少量灵能伤害，并陷入@Condition[enraged]状态，持续1轮。",
           "condition": "你的目标能听见并理解你。",
           "effects": [
             {}
@@ -1446,7 +1446,7 @@
       "actions": {
         "rallyingCry": {
           "name": "振奋战吼 Rallying Cry",
-          "description": "<p>你发出一声勇敢的怒吼，激励12英尺内的盟友在险境面前保持坚定。范围内的所有盟友立即恢复等同于你的<strong>魅力</strong>数值的<strong>士气</strong>，并成为 @Condition[resolute]，持续3轮。</p>",
+          "description": "<p>你发出一声勇敢的怒吼，激励12英尺内的盟友在险境面前保持坚定。范围内的所有盟友立即恢复等同于你的<strong>存在</strong>数值的<strong>士气</strong>，并成为 @Condition[resolute]，持续3轮。</p>",
           "effects": [
             {
               "name": "振奋战吼 Rallying Cry"
@@ -1490,7 +1490,7 @@
     },
     "Rune: Death": {
       "name": "符文：死亡 Rune: Death",
-      "description": "<p>负责腐化所有生物材料的、有序的毁灭之力。死亡符文掌管腐朽与毁灭。</p><p>死亡符文基于 <strong>魅力</strong> 进行成长，目标为 <strong>坚韧</strong>，对 <strong>生命值</strong> 造成 <strong>腐化</strong> 伤害。它与混沌的 <strong>生命</strong> 符文相对立。</p>",
+      "description": "<p>负责腐化所有生物材料的、有序的毁灭之力。死亡符文掌管腐朽与毁灭。</p><p>死亡符文基于 <strong>存在</strong> 进行成长，目标为 <strong>坚韧</strong>，对 <strong>生命值</strong> 造成 <strong>腐化</strong> 伤害。它与混沌的 <strong>生命</strong> 符文相对立。</p>",
       "actions": {
         "ennervate": {
           "name": "失神术 Ennervate",
@@ -1500,7 +1500,7 @@
     },
     "Rune: Earth": {
       "name": "符文：大地 Rune: Earth",
-      "description": "<p>元素大地的有序力量，负责物质实体。大地符文掌管矿物、金属、土壤及其他物理化合物。</p><p>大地符文使用<strong>感知</strong>进行成长，目标为<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>强酸</strong>伤害。它与混乱的<strong>闪电</strong>符文相对。</p>",
+      "description": "<p>元素大地的有序力量，负责物质实体。大地符文掌管矿物、金属、土壤及其他物理化合物。</p><p>大地符文使用<strong>感知</strong>进行成长，目标为<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>强酸</strong>伤害。它与混乱的<strong>风暴</strong>符文相对。</p>",
       "actions": {
         "mould": {
           "name": "塑形 Mould",
@@ -1530,7 +1530,7 @@
     },
     "Rune: Illumination": {
       "name": "符文：照明 Rune: Illumination",
-      "description": "<p>光与能量的有序之力。符文：照明掌管光与辉耀。</p><p>符文：照明以 <strong>魅力</strong> 进行成长，目标为 <strong>反射</strong>，并对 <strong>生命值</strong> 造成 <strong>光耀</strong> 伤害。它与代表混沌的 <strong>符文：幻象</strong> 相对立。</p>",
+      "description": "<p>光与能量的有序之力。符文：照明掌管光与辉耀。</p><p>符文：照明以 <strong>存在</strong> 进行成长，目标为 <strong>反射</strong>，并对 <strong>生命值</strong> 造成 <strong>光耀</strong> 伤害。它与代表混沌的 <strong>符文：幻象</strong> 相对立。</p>",
       "actions": {
         "reveal": {
           "name": "揭示 Reveal",
@@ -1550,17 +1550,17 @@
     },
     "Rune: Kinesis": {
       "name": "符文：念力 Rune: Kinesis",
-      "description": "<p>空间与物理移动的混沌力量。念力符文支配一切与移动行为及物质实体相关的事物。</p><p>念力符文基于<strong>魅力</strong>进行成长，以<strong>物理</strong>防御为目标，并对<strong>生命值</strong>造成<strong>钝击</strong>、<strong>穿刺</strong>或<strong>挥砍</strong>伤害。它与秩序的<strong>控制</strong>符文相对立。</p>",
+      "description": "<p>空间与物理移动的混沌力量。念力符文支配一切与移动行为及物质实体相关的事物。</p><p>念力符文基于<strong>存在</strong>进行成长，以<strong>物理</strong>防御为目标，并对<strong>生命值</strong>造成<strong>钝击</strong>、<strong>穿刺</strong>或<strong>挥砍</strong>伤害。它与秩序的<strong>控制</strong>符文相对立。</p>",
       "actions": {
         "propel": {
           "name": "推进 Propel",
-          "description": "<p>你对念力符文的掌控使你能够对局部重力施加控制，以执行基础的心灵遥控操纵，产生以下效果之一：</p><ul><li><p>将15英尺内一个未固定且重量不大于1的物体拉向你，并接住它。由生物已装备或持有的物体，除非该生物愿意放手，否则绝不视为未固定。</p></li><li><p>将一个你手持且重量不大于1的物体弹向一个最远30英尺外的目标。该物体会以适中的速度沿直线准确无误地飞向该目标。物体路径上的任何生物都可以作出反应接住它，只要他们有一只空着的手来这么做。</p></li><li><p>使一个你接触到的物体或自愿生物悬浮在半空中，其重量小于或等于你<strong>魅力</strong>的10倍，并将其位置从原本所在处朝任意方向改变最多20英尺。只要你不再执行进一步的动作，且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮状态。</p></li></ul><p>除非另有说明，推进只能影响你能够以身体接触到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+          "description": "<p>你对念力符文的掌控使你能够对局部重力施加控制，以执行基础的心灵遥控操纵，产生以下效果之一：</p><ul><li><p>将15英尺内一个未固定且重量不大于1的物体拉向你，并接住它。由生物已装备或持有的物体，除非该生物愿意放手，否则绝不视为未固定。</p></li><li><p>将一个你手持且重量不大于1的物体弹向一个最远30英尺外的目标。该物体会以适中的速度沿直线准确无误地飞向该目标。物体路径上的任何生物都可以作出反应接住它，只要他们有一只空着的手来这么做。</p></li><li><p>使一个你接触到的物体或自愿生物悬浮在半空中，其重量小于或等于你<strong>存在</strong>的10倍，并将其位置从原本所在处朝任意方向改变最多20英尺。只要你不再执行进一步的动作，且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮状态。</p></li></ul><p>除非另有说明，推进只能影响你能够以身体接触到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
         }
       }
     },
     "Rune: Life": {
       "name": "符文：生命 Rune: Life",
-      "description": "<p>一种混乱的创造之力，负责生物材料。生命符文掌管生命值以及与生物生长相关的事物。</p><p>生命符文以<strong>感知</strong>进行成长，并提供<strong>恢复</strong><strong>生命值</strong>，或造成由<strong>坚韧</strong>对抗的<strong>毒药</strong>伤害。它与秩序的<strong>死亡</strong>符文相对。</p>",
+      "description": "<p>一种混乱的创造之力，负责生物材料。生命符文掌管生命值以及与生物生长相关的事物。</p><p>生命符文以<strong>感知</strong>进行成长，并提供<strong>恢复</strong><strong>生命值</strong>，或造成由<strong>坚韧</strong>对抗的<strong>毒素</strong>伤害。它与秩序的<strong>死亡</strong>符文相对。</p>",
       "actions": {
         "bloom": {
           "name": "绽放 Bloom",
@@ -1590,7 +1590,7 @@
     },
     "Rune: Soul": {
       "name": "符文：灵魂 Rune: Soul",
-      "description": "<p>一种由创造与精神本质构成的有序力量。灵魂符文支配灵魂在生命与死亡之间的基本流转，并与知性、人格及心理健康等事务相关。</p><p>灵魂符文以 <strong>魅力</strong> 进行成长，能够提供 <strong>恢复</strong> 以恢复 <strong>士气</strong>，或造成由 <strong>意志</strong> 对抗的 <strong>灵能</strong> 伤害。它与混沌的 <strong>湮灭</strong> 符文相对立。</p>",
+      "description": "<p>一种由创造与精神本质构成的有序力量。灵魂符文支配灵魂在生命与死亡之间的基本流转，并与知性、人格及心理健康等事务相关。</p><p>灵魂符文以 <strong>存在</strong> 进行成长，能够提供 <strong>恢复</strong> 以恢复 <strong>士气</strong>，或造成由 <strong>意志</strong> 对抗的 <strong>灵能</strong> 伤害。它与混沌的 <strong>湮灭</strong> 符文相对立。</p>",
       "actions": {
         "evoke": {
           "name": "引发 Evoke",
@@ -1653,7 +1653,7 @@
     },
     "Shapeshifter": {
       "name": "变形者 Shapeshifter",
-      "description": "<p>你拥有一种超自然能力，能够将自己的身体变形成野兽的形态。</p><p>你会经历一次变形，化为一种你所熟悉且等级为你一半或以下的野兽形态。处于变形状态时，你拥有所选野兽完全相同的属性与能力。</p><p>你的装备会以魔法方式并入你所采取的形态之中，不过在变形期间，你无法从这些装备中获得任何益处。</p><p>如果你的野兽形态陷入失能状态，你会恢复为普通形态，任何超出的伤害都会转化为创伤。如果你在野兽形态下士气破碎，你的变形会结束，且任何超出的伤害都会转化为疯狂。</p>",
+      "description": "<p>你拥有一种超自然能力，能够将自己的身体变形成野兽的形态。</p><p>你会经历一次变形，化为一种你所熟悉且等级为你一半或以下的野兽形态。处于变形状态时，你拥有所选野兽完全相同的属性与能力。</p><p>你的装备会以魔法方式并入你所采取的形态之中，不过在变形期间，你无法从这些装备中获得任何益处。</p><p>如果你的野兽形态陷入@Condition[incapacitated]状态，你会恢复为普通形态，任何超出的伤害都会转化为创伤。如果你在野兽形态下士气@Condition[broken]，你的变形会结束，且任何超出的伤害都会转化为疯狂。</p>",
       "actions": {
         "beastShape": {
           "name": "野兽形态 Beast Shape",
@@ -1705,7 +1705,7 @@
     },
     "Skirmisher": {
       "name": "散兵 Skirmisher",
-      "description": "<p>你很擅长进出混战。当你移出敌人的<strong>交战</strong>半径时，该敌人对你进行的任何<strong>脱离打击</strong>都会带有 2 个祸骰。</p>"
+      "description": "<p>你很擅长进出混战。当你移出敌人的<strong>交战</strong>半径时，该敌人对你进行的任何@Action[default reactiveStrike]都会带有 2 个祸骰。</p>"
     },
     "Slipstep": {
       "name": "滑步 Slipstep",
@@ -1762,7 +1762,7 @@
     },
     "Soul Proficiency": {
       "name": "灵魂熟练度 Soul Proficiency",
-      "description": "<p>你精通运用灵魂符文进行施法。使用此符文施放的法术可获得<strong>+1 技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>此天赋最终还将为<strong>引发 </strong>动作提供升级，扩大其效果或加入新的使用选项。</p>"
+      "description": "<p>你精通运用灵魂符文进行施法。使用此符文施放的法术可获得<strong>+1 技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>此天赋最终还将为@Action[Compendium.crucible.talent.Item.runeSoul00000000 evoke]动作提供升级，扩大其效果或加入新的使用选项。</p>"
     },
     "Spellblade": {
       "name": "咒刃 Spellblade",
@@ -1778,7 +1778,7 @@
       "actions": {
         "steadfastResolve": {
           "name": "坚定不移的决心 Steadfast Resolve",
-          "description": "<p>你使自己不易受到恫吓。你的士气提高等同于你的感知值，并且你暂时获得坚定状态。</p>",
+          "description": "<p>你使自己不易受到恫吓。你的士气提高等同于你的感知值，并且你暂时获得@Condition[resolute]状态。</p>",
           "effects": [
             {
               "name": "坚定不移的决心 Steadfast Resolve"
@@ -1809,7 +1809,7 @@
     },
     "Strategic Repositioning": {
       "name": "战略性重新部署 Strategic Repositioning",
-      "description": "<p>你总是会提前思考，一旦危险逼近自己该站在什么位置。在战斗遭遇的<strong>第 1 回合</strong>开始前，只要你并非未察觉，你便可以立刻朝任意允许的方向移动 4 尺。</p><p>如果有多个战斗者拥有此特性，则重新定位按先攻的逆序进行。</p>"
+      "description": "<p>你总是会提前思考，一旦危险逼近自己该站在什么位置。在战斗遭遇的<strong>第 1 回合</strong>开始前，只要你并非@Condition[unaware]，你便可以立刻朝任意允许的方向移动 4 尺。</p><p>如果有多个战斗者拥有此特性，则重新定位按先攻的逆序进行。</p>"
     },
     "Strike First": {
       "name": "先发制人 Strike First",
@@ -1821,11 +1821,11 @@
     },
     "Stunning Strike": {
       "name": "震慑打击 Stunning Strike",
-      "description": "一种极具挑战性的徒手技法，专门攻击对手身体上的要害穴位。你施展一次使人虚弱的打击，若成功，则会令你的敌人陷入震慑。",
+      "description": "一种极具挑战性的徒手技法，专门攻击对手身体上的要害穴位。你施展一次使人虚弱的打击，若成功，则会令你的敌人陷入@Condition[stunned]。",
       "actions": {
         "stunningStrike": {
           "name": "震慑打击 Stunning Strike",
-          "description": "<p>你<strong>打击</strong>敌人的一个关键压点，若成功，则使其陷入<strong>眩晕</strong>状态，持续 1 轮。</p>",
+          "description": "<p>你<strong>打击</strong>敌人的一个关键压点，若成功，则使其陷入@Rule[condition.stunned]状态，持续 1 轮。</p>",
           "effects": [
             {
               "name": "震慑打击 Stunning Strike"
@@ -1836,7 +1836,7 @@
     },
     "Subtle Extrication": {
       "name": "巧妙脱身 Subtle Extrication",
-      "description": "<p>你知道如何在远离对手时不让自己暴露于对方最猛烈的反击之下。任何针对你的<strong>脱离攻击</strong>，在进行时都不获得通常会适用于此类攻击的 2 个恩惠。</p>"
+      "description": "<p>你知道如何在远离对手时不让自己暴露于对方最猛烈的反击之下。任何针对你的@Action[default reactiveStrike]，在进行时都不获得通常会适用于此类攻击的 2 个恩惠。</p>"
     },
     "Sundering Strike": {
       "name": "粉碎打击 Sundering Strike",
@@ -1844,7 +1844,7 @@
       "actions": {
         "sunderingStrike": {
           "name": "粉碎打击 Sundering Strike",
-          "description": "<p>你用主手武器进行一次<strong>打击</strong>；若成功，则对目标施加<strong>暴露</strong>状态，持续3轮。此次攻击<strong>困难</strong>，且造成的伤害降低。</p>",
+          "description": "<p>你用主手武器进行一次<strong>打击</strong>；若成功，则对目标施加<strong>@Condition[exposed]</strong>状态，持续3轮。此次攻击<strong>困难</strong>，且造成的伤害降低。</p>",
           "effects": [
             {
               "name": "破损的护甲 Sundered Armor"
@@ -1855,7 +1855,7 @@
     },
     "Surgeweaver": {
       "name": "激涌编织者 Surgeweaver",
-      "description": "<p>你极其擅长编织闪电符文。使用该符文的法术在造成暴击时会施加 @Condition[shocked] 状态。</p><p>电击效果会持续 <strong>1 轮</strong>，对<strong>士气</strong>造成相当于你<strong>智力</strong>数值一半的<strong>闪电</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
+      "description": "<p>你极其擅长编织风暴符文。使用该符文的法术在造成暴击时会施加 @Condition[shocked] 状态。</p><p>感电效果会持续 <strong>3 轮</strong>，对<strong>士气</strong>造成相当于你<strong>智力</strong>数值一半的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
     },
     "Swashbuckler": {
       "name": "侠客 Swashbuckler",
@@ -1905,7 +1905,7 @@
     },
     "Testudo": {
       "name": "泰斯图多 Testudo",
-      "description": "你极其擅长运用盾牌采取防御姿态。持用盾牌时，你对<strong>武器攻击</strong>所受的<strong>戒备</strong>状态效果加倍。"
+      "description": "你极其擅长运用盾牌采取防御姿态。持用盾牌时，你对<strong>武器攻击</strong>所受的<strong>@Condition[guarded]</strong>状态效果加倍。"
     },
     "Thick Skin": {
       "name": "厚皮肤 Thick Skin",
@@ -1987,7 +1987,7 @@
     },
     "Unshakeable Stance": {
       "name": "不动如山姿态 Unshakeable Stance",
-      "description": "除非是由敌人掷出的重击成功，或是由你自己掷出的重击失败，否则你不能被任何动作非自愿地移动，也不会被击倒地。"
+      "description": "除非是由敌人掷出的重击成功，或是由你自己掷出的重击失败，否则你不能被任何动作非自愿地移动，也不会被击@Condition[prone]。"
     },
     "Uppercut": {
       "name": "上勾拳 Uppercut",
@@ -2024,7 +2024,7 @@
     },
     "War Mage": {
       "name": "战斗法师 War Mage",
-      "description": "<p>你的施法被磨炼成战场上的武器，用以挫败其他法师的咒语。你可以询问游戏主持人，自己是否知晓一种能够反制敌方法术的符文，即使你并不认识正在施放的法术。你在任何反制法术尝试中获得 +2 惠骰。</p>"
+      "description": "<p>你的施法被磨炼成战场上的武器，用以挫败其他法师的咒语。你可以询问游戏主持人，自己是否知晓一种能够反制敌方法术的符文，即使你并不认识正在施放的法术。你在任何@Action[Compendium.crucible.talent.Item.counterspell0000 counterspell]中获得 +2 惠骰。</p>"
     },
     "Weak Points": {
       "name": "弱点 Weak Points",
@@ -2068,16 +2068,16 @@
       }
     },
     "Storm Proficiency": {
-      "name": "闪电熟练度 Lightning Proficiency",
-      "description": "<p>你熟练于运用闪电符文来编织施法。使用此符文施放的法术可获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>此天赋最终还将为<strong>充能 </strong>动作提供一次强化，扩大其效果或加入新的使用选项。</p>"
+      "name": "风暴熟练度 Storm Proficiency",
+      "description": "<p>你熟练于运用风暴符文来编织施法。使用此符文施放的法术可获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>此天赋最终还将为 @Action[Compendium.crucible.talent.Item.runeStorm0000000 energize] 动作提供一次强化，扩大其效果或加入新的使用选项。</p>"
     },
     "Rune: Storm": {
-      "name": "符文：闪电 Rune: Lightning",
-      "description": "<p>原始能量的混沌之力。闪电符文支配电荷的积聚与释放之源。</p><p>闪电符文使用 <strong>智力</strong> 进行成长，目标为 <strong>反射</strong>，并对 <strong>生命值</strong> 造成 <strong>闪电</strong> 伤害。它与秩序井然的 <strong>大地</strong> 符文相对立。</p>",
+      "name": "符文：风暴 Rune: Storm",
+      "description": "<p>原始能量的混沌之力。风暴符文支配电荷的积聚与释放之源。</p><p>风暴符文使用 <strong>智力</strong> 进行成长，目标为 <strong>反射</strong>，并对 <strong>生命值</strong> 造成 <strong>电击</strong> 伤害。它与秩序井然的 <strong>大地</strong> 符文相对立。</p>",
       "actions": {
         "energize": {
           "name": "充能 Energize",
-          "description": "<p>你对闪电符文的掌控使你能够引导气元素与电流的流动，通过操纵电荷与空气动力学来产生以下效果之一：</p><ul><li><p>为你所触碰的一个不大于一立方英尺的金属物体注入电磁电荷，使其强力吸附于其他金属。任意时刻只能有一个物体以这种方式被充能；将此法术施加于不同物体时，先前物体会失去其磁性效果。</p></li><li><p>在你当前位置以六英尺半径聚集一阵狂风，使其要么作为一股朝单一受控方向吹袭的阵风，要么作为向各个方向施加向心力的气旋。附近区域中的悬空效果会被驱散，且重量小于1的未固定物体会被抛向阵风吹拂的方向。</p></li><li><p>在你当前所在位置15英尺内、你能看见的一个地点制造出如雷霆炸响般的震荡声音。</p></li></ul><p>充能只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+          "description": "<p>你对风暴符文的掌控使你能够引导气元素与电流的流动，通过操纵电荷与空气动力学来产生以下效果之一：</p><ul><li><p>为你所触碰的一个不大于一立方英尺的金属物体注入电磁电荷，使其强力吸附于其他金属。任意时刻只能有一个物体以这种方式被充能；将此法术施加于不同物体时，先前物体会失去其磁性效果。</p></li><li><p>在你当前位置以 6 英尺为半径聚集一阵狂风，使其要么作为一股朝单一受控方向吹袭的阵风，要么作为向各个方向施加向心力的气旋。附近区域中的悬空效果会被驱散，且重量小于1的未固定物体会被抛向阵风吹拂的方向。</p></li><li><p>在你当前所在位置15英尺内、你能看见的一个地点制造出如雷霆炸响般的震荡声音。</p></li></ul><p>充能只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
         }
       }
     },

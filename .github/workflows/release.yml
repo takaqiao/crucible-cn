@@ -50,6 +50,8 @@ jobs:
             -x ".github/*" \
             -x ".gitignore" \
             -x "release/*" \
+            -x "compendium/en/*" \
+            -x "lang/lang_keep_english.json" \
             -x "scripts/__pycache__/*" \
             -x "untranslated-*-report.json" \
             -x "*.zip" \

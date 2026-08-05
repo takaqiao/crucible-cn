@@ -43,7 +43,7 @@
       "actions": {
         "blastFlask": {
           "name": "爆炸瓶 Blast Flask",
-          "description": "<p>你点燃并掷出@ref[name]，对爆破半径内的所有敌人造成<strong>火焰</strong>伤害。<strong>爆破</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>劣质</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>精良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
+          "description": "<p>你点燃并掷出@ref[item.name]，对爆破半径内的所有敌人造成<strong>火焰</strong>伤害。<strong>爆破</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>劣质</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>精良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
         }
       }
     },
@@ -55,7 +55,7 @@
       "actions": {
         "alchemistsFire": {
           "name": "炼金火焰 Alchemist's Fire",
-          "description": "<p>你掷出@ref[name]，造成<strong>虚弱</strong>的即时伤害，并使所有位于 4 尺半径<strong>爆发</strong>范围内且未能避开此次攻击的敌人陷入@Condition[burning]状态。</p><p>燃烧伤害的数值及其持续时间取决于@ref[name]的品质：</p><ul><li><p><strong>粗制</strong> - 2 伤害，持续 2 轮</p></li><li><p><strong>标准</strong> - 3 伤害，持续 3 轮</p></li><li><p><strong>精良</strong> - 4 伤害，持续 4 轮</p></li><li><p><strong>优异</strong> - 6 伤害，持续 5 轮</p></li><li><p><strong>大师级</strong> - 8 伤害，持续 6 轮</p></li></ul>",
+          "description": "<p>你掷出@ref[item.name]，造成@Rule[action.weakened]的即时伤害，并使所有位于 4 尺半径<strong>爆发</strong>范围内且未能避开此次攻击的敌人陷入@Condition[burning]状态。</p><p>燃烧伤害的数值及其持续时间取决于@ref[item.name]的品质：</p><ul><li><p><strong>粗制</strong> - 2 伤害，持续 2 轮</p></li><li><p><strong>标准</strong> - 3 伤害，持续 3 轮</p></li><li><p><strong>精良</strong> - 4 伤害，持续 4 轮</p></li><li><p><strong>优异</strong> - 6 伤害，持续 5 轮</p></li><li><p><strong>大师级</strong> - 8 伤害，持续 6 轮</p></li></ul>",
           "effects": [
             {
               "name": "炼金火焰 Alchemist's Fire"
@@ -92,7 +92,7 @@
       "effects": {
         "Nimbleness": {
           "name": "敏捷 Nimbleness",
-          "description": "<p>此后缀每有<strong>1个阶</strong>，便使<strong>反射</strong>防御提高 1。</p>",
+          "description": "<p>此后缀每有<strong>1 阶</strong>，便使<strong>反射</strong>防御提高 1。</p>",
           "adjective": "敏捷"
         }
       }
@@ -105,7 +105,7 @@
       "actions": {
         "antitoxin": {
           "name": "抗毒剂 Antitoxin",
-          "description": "<p>服用此@ref[name]能够中和目标身上任何 @Condition[poisoned] 状态。更强的毒药需要更强的抗毒剂才能中和。</p><p>此@ref[name]可抵消的毒药类别取决于其品质：</p><ul><li><p><strong>粗制</strong> - 每轮造成 3 点伤害或以下的毒药</p></li><li><p><strong>标准</strong> - 每轮造成 5 点伤害或以下的毒药</p></li><li><p><strong>精制</strong> - 每轮造成 7 点伤害或以下的毒药</p></li><li><p><strong>优质</strong> - 每轮造成 9 点伤害或以下的毒药</p></li><li><p><strong>大师工艺</strong> - 每轮造成 11 点伤害或以下的毒药</p></li></ul>"
+          "description": "<p>服用此@ref[item.name]能够中和目标身上任何 @Condition[poisoned] 状态。更强的毒药需要更强的抗毒剂才能中和。</p><p>此@ref[item.name]可抵消的毒药类别取决于其品质：</p><ul><li><p><strong>粗制</strong> - 每轮造成 3 点伤害或以下的毒药</p></li><li><p><strong>标准</strong> - 每轮造成 5 点伤害或以下的毒药</p></li><li><p><strong>精制</strong> - 每轮造成 7 点伤害或以下的毒药</p></li><li><p><strong>优质</strong> - 每轮造成 9 点伤害或以下的毒药</p></li><li><p><strong>大师工艺</strong> - 每轮造成 11 点伤害或以下的毒药</p></li></ul>"
         }
       }
     },
@@ -185,7 +185,7 @@
       "actions": {
         "causticPhial": {
           "name": "腐蚀瓶 Caustic Phial",
-          "description": "<p>你掷出@ref[name]，造成<strong>虚弱</strong>的即时伤害，并使所有未能避开此次攻击、位于 4 尺半径内<strong>爆破</strong>范围的敌人陷入@Condition[corroding]状态。</p><p>腐蚀伤害的数值及其持续时间取决于@ref[name]的品质：</p><ul><li><p><strong>粗制</strong> - 2 伤害，持续 2 轮</p></li><li><p><strong>标准</strong> - 3 伤害，持续 3 轮</p></li><li><p><strong>精制</strong> - 4 伤害，持续 4 轮</p></li><li><p><strong>优制</strong> - 6 伤害，持续 5 轮</p></li><li><p><strong>大师工艺</strong> - 8 伤害，持续 6 轮</p></li></ul>",
+          "description": "<p>你掷出@ref[item.name]，造成@Rule[action.weakened]的即时伤害，并使所有未能避开此次攻击、位于 4 尺半径内<strong>爆破</strong>范围的敌人陷入@Condition[corroding]状态。</p><p>腐蚀伤害的数值及其持续时间取决于@ref[item.name]的品质：</p><ul><li><p><strong>粗制</strong> - 2 伤害，持续 2 轮</p></li><li><p><strong>标准</strong> - 3 伤害，持续 3 轮</p></li><li><p><strong>精制</strong> - 4 伤害，持续 4 轮</p></li><li><p><strong>优制</strong> - 6 伤害，持续 5 轮</p></li><li><p><strong>大师工艺</strong> - 8 伤害，持续 6 轮</p></li></ul>",
           "effects": [
             {
               "name": "腐蚀瓶 Caustic Phial"
@@ -227,7 +227,7 @@
       "effects": {
         "Tenacity": {
           "name": "坚韧 Tenacity",
-          "description": "<p>此后缀每有<strong>1个阶</strong>，便使<strong>坚韧</strong>防御提高 1。</p>",
+          "description": "<p>此后缀每有<strong>1 阶</strong>，便使<strong>坚韧</strong>防御提高 1。</p>",
           "adjective": "坚韧"
         }
       }
@@ -246,7 +246,7 @@
       "actions": {
         "chokingAmpoule": {
           "name": "窒息安瓿 Choking Ampoule",
-          "description": "<p>你投掷@ref[name]，其即时效果是<strong>无害</strong>的，但会使 8 尺半径<strong>爆发</strong>范围内所有未能以其<strong>坚韧</strong>抗拒此次攻击的敌人陷入@Condition[poisoned]状态。</p><p>该气体会对<strong>士气</strong>造成毒素伤害，数值取决于@ref[name]的品质。若获得重大成功，受影响的目标还会在持续时间内同时陷入@Condition[silenced]状态。</p><ul><li><p><strong>粗制</strong> - 3 轮内造成 2 点伤害</p></li><li><p><strong>标准</strong> - 3 轮内造成 6 点伤害</p></li><li><p><strong>精良</strong> - 3 轮内造成 12 点伤害</p></li><li><p><strong>优异</strong> - 3 轮内造成 20 点伤害</p></li><li><p><strong>大师级</strong> - 3 轮内造成 30 点伤害</p></li></ul>",
+          "description": "<p>你投掷@ref[item.name]，其即时效果是<strong>无害</strong>的，但会使 8 尺半径<strong>爆发</strong>范围内所有未能以其<strong>坚韧</strong>抗拒此次攻击的敌人陷入@Condition[poisoned]状态。</p><p>该气体会对<strong>士气</strong>造成毒素伤害，数值取决于@ref[item.name]的品质。若获得重大成功，受影响的目标还会在持续时间内同时陷入@Condition[silenced]状态。</p><ul><li><p><strong>粗制</strong> - 3 轮内造成 2 点伤害</p></li><li><p><strong>标准</strong> - 3 轮内造成 6 点伤害</p></li><li><p><strong>精良</strong> - 3 轮内造成 12 点伤害</p></li><li><p><strong>优异</strong> - 3 轮内造成 20 点伤害</p></li><li><p><strong>大师级</strong> - 3 轮内造成 30 点伤害</p></li></ul>",
           "effects": [
             {}
           ]
@@ -281,7 +281,7 @@
       "effects": {
         "Diplomacy": {
           "name": "外交 Diplomacy",
-          "description": "<p>此前缀每有<strong>1个阶</strong>，便使<strong>外交</strong>技能检定的<strong>附魔加值</strong>提高 1。</p>",
+          "description": "<p>此前缀每有<strong>1 阶</strong>，便使<strong>外交</strong>技能检定的<strong>附魔加值</strong>提高 1。</p>",
           "adjective": "折冲"
         },
         "Disguise": {
@@ -732,7 +732,7 @@
       "actions": {
         "paralyticIngest": {
           "name": "摄入麻痹毒素 Ingest Paralytic",
-          "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它最初是<strong>无害</strong>的，但目标必须对其<strong>坚韧</strong>进行一次攻击的防御，否则会变为@Condition[paralyzed]。</p><p>持续时间取决于@ref[name]的品质：</p><ul><li><p><strong>粗劣</strong> - 1 轮</p></li><li><p><strong>标准</strong> - 2 轮</p></li><li><p><strong>优良</strong> - 4 轮</p></li><li><p><strong>卓越</strong> - 8 轮</p></li><li><p><strong>大师工艺</strong> - 无限期</p></li></ul><p><em>此动作应在毒药被摄入时使用，而不是在其首次被涂抹时使用。</em></p>",
+          "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它最初是<strong>无害</strong>的，但目标必须对其<strong>坚韧</strong>进行一次攻击的防御，否则会变为@Condition[paralyzed]。</p><p>持续时间取决于@ref[item.name]的品质：</p><ul><li><p><strong>粗劣</strong> - 1 轮</p></li><li><p><strong>标准</strong> - 2 轮</p></li><li><p><strong>优良</strong> - 4 轮</p></li><li><p><strong>卓越</strong> - 8 轮</p></li><li><p><strong>大师工艺</strong> - 无限期</p></li></ul><p><em>此动作应在毒药被摄入时使用，而不是在其首次被涂抹时使用。</em></p>",
           "effects": [
             {
               "name": "麻痹毒素 Paralytic Toxin"
@@ -766,7 +766,7 @@
       "effects": {
         "Determination": {
           "name": "决心 Determination",
-          "description": "<p>此后缀每有<strong>1个阶</strong>，便使<strong>意志力</strong>防御提高 1。</p>",
+          "description": "<p>此后缀每有<strong>1 阶</strong>，便使<strong>意志力</strong>防御提高 1。</p>",
           "adjective": "决心"
         }
       }
@@ -797,7 +797,7 @@
       "actions": {
         "poisonIngest": {
           "name": "摄入毒药 Ingest Poison",
-          "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它起初是<strong>无害</strong>的，但目标必须以其<strong>坚韧</strong>进行一次防御攻击，否则会变为@Condition[poisoned]。</p><p>毒素伤害的数值及其持续时间取决于@ref[name]的品质：</p><ul><li><p><strong>粗劣</strong> - 2点伤害，持续4轮</p></li><li><p><strong>标准</strong> - 4点伤害，持续6轮</p></li><li><p><strong>精良</strong> - 6点伤害，持续8轮</p></li><li><p><strong>优异</strong> - 8点伤害，持续10轮</p></li><li><p><strong>大师工艺</strong> - 10点伤害，持续12轮</p></li></ul><p><em>应在毒药被摄入时使用此动作，而不是在其最初被施用时使用。</em></p>",
+          "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它起初是<strong>无害</strong>的，但目标必须以其<strong>坚韧</strong>进行一次防御攻击，否则会变为@Condition[poisoned]。</p><p>毒素伤害的数值及其持续时间取决于@ref[item.name]的品质：</p><ul><li><p><strong>粗劣</strong> - 2点伤害，持续4轮</p></li><li><p><strong>标准</strong> - 4点伤害，持续6轮</p></li><li><p><strong>精良</strong> - 6点伤害，持续8轮</p></li><li><p><strong>优异</strong> - 8点伤害，持续10轮</p></li><li><p><strong>大师工艺</strong> - 10点伤害，持续12轮</p></li></ul><p><em>应在毒药被摄入时使用此动作，而不是在其最初被施用时使用。</em></p>",
           "effects": [
             {
               "name": "中毒 Poisoned"
@@ -909,7 +909,7 @@
       "effects": {
         "Evasion": {
           "name": "闪避 Evasion",
-          "description": "<p>此后缀每有<strong>1个阶</strong>，便使<strong>闪避</strong>防御提高 1。</p>",
+          "description": "<p>此后缀每有<strong>1 阶</strong>，便使<strong>闪避</strong>防御提高 1。</p>",
           "adjective": "闪避"
         }
       }
@@ -943,7 +943,7 @@
       "effects": {
         "Reinforcement": {
           "name": "增援 Reinforcement",
-          "description": "<p>此后缀每有<strong>1个阶</strong>，便使<strong>护甲</strong>防御提高 1。</p>",
+          "description": "<p>此后缀每有<strong>1 阶</strong>，便使<strong>护甲</strong>防御提高 1。</p>",
           "adjective": "增援"
         }
       }
@@ -1282,7 +1282,7 @@
       "actions": {
         "electrochargeAmpoule": {
           "name": "电荷安瓿 Electrocharge Ampoule",
-          "description": "<p>你掷出@ref[item.name]，对放电半径内所有未能躲开攻击的敌人造成减弱的<strong>电力</strong>伤害，并使其短暂@Condition[staggered]。<strong>放电</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>劣质</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>精良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
+          "description": "<p>你掷出@ref[item.name]，对放电半径内所有未能躲开攻击的敌人造成减弱的<strong>电击</strong>伤害，并使其短暂@Condition[staggered]。<strong>放电</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>劣质</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>精良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
         }
       }
     },
