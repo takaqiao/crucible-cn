@@ -71,11 +71,11 @@
     },
     "Aqueous Transmission": {
       "name": "水相传导 Aqueous Transmission",
-      "description": "<p>该@ref[name]能够通过水瞬间移动。</p>",
+      "description": "<p>该@ref[actor.name]{生物}能够通过水瞬间移动。</p>",
       "actions": {
         "aqueousTransmission": {
           "name": "水相传导",
-          "description": "<p>当该@ref[name]位于水中时，它可以瞬间将自己传送到同一片水体内120英尺内的任何未被占据的空间。它无需能够看见目的地即可进行这次<strong>移动</strong>。</p>"
+          "description": "<p>当该@ref[actor.name]{生物}位于水中时，它可以瞬间将自己传送到同一片水体内120英尺内的任何未被占据的空间。它无需能够看见目的地即可进行这次<strong>移动</strong>。</p>"
         }
       }
     },
@@ -128,7 +128,7 @@
       "description": "<p>该@ref[actor.name]{生物}拥有一种卓越的能力，能够摆脱死亡魔法的效果。其<strong>腐化</strong>抗性加倍；如果该抗性会将伤害量降至零以下，则该负数值改为作为<strong>治疗</strong>获得。</p>"
     },
     "Electricity Absorption": {
-      "name": "电能吸收 Electricity Absorption",
+      "name": "电击吸收 Electricity Absorption",
       "description": "<p>该@ref[actor.name]{生物}具有出众的能力，能够从容承受闪电冲击。其<strong>电击</strong>抗性翻倍；如果该抗性会使伤害量降到零以下，则超出的负数部分改为作为<strong>治疗</strong>承受。</p>"
     },
     "Elusive Flight": {
@@ -149,7 +149,7 @@
     },
     "Glider": {
       "name": "滑翔者 Glider",
-      "description": "<p>该@ref[actor.name]{生物}在下落时可以控制其移动，并且每下落20英尺，最多可以执行一次距离不超过其<strong>步幅</strong>的<strong>移动</strong>动作。</p><p>如果它以这种方式花费动作来移动，则在落地时不会受到坠落伤害。</p>",
+      "description": "<p>该@ref[actor.name]{生物}在下落时能够控制自己的下降。除非它处于失能或受缚状态，否则一次坠落会变成一次<strong>滑翔</strong>：以向下的飞行移动取代坠地冲击，不受坠落伤害。</p> <p>滑翔时该生物的<strong>步幅</strong>翻倍，并获得一次免费移动，因此它总能至少滑翔一小段距离。滑翔必须持续下降，移动在哪里结束它就停在哪里；若滑翔结束时它仍悬在空中，则获得@Condition[flying]状态。</p>",
       "actions": {
         "fallGlide": {
           "name": "滑翔 Glide",
@@ -216,7 +216,7 @@
       "actions": {
         "lightningSpray": {
           "name": "闪电喷射 Lightning Spray",
-          "description": "<p>该@ref[actor.name]{生物}喷吐出一道30英尺长、4英尺宽的闪电射线，攻击沿途每个目标的<strong>反射</strong>，并造成<strong>闪电</strong>伤害。</p><p>若<strong>暴击</strong>，此次攻击会施加@Condition[shocked]状态，持续<strong>3回合</strong>。</p>",
+          "description": "<p>该@ref[actor.name]{生物}喷吐出一道30英尺长、4英尺宽的闪电射线，攻击沿途每个目标的<strong>反射</strong>，并造成<strong>电击</strong>伤害。</p><p>若<strong>暴击</strong>，此次攻击会施加@Condition[shocked]状态，持续<strong>3回合</strong>。</p>",
           "effects": [
             {}
           ]
@@ -255,7 +255,7 @@
       "actions": {
         "noxiousSpit": {
           "name": "剧毒唾液 Noxious Spit",
-          "description": "<p>该@ref[actor.name]{生物}向20英尺内的一个目标生物吐出一团毒素，攻击其<strong>反射</strong>并造成<strong>毒药</strong>伤害。</p><p>在<strong>暴击</strong>时，此攻击会施加@Condition[poisoned]状态，持续<strong>3回合</strong>。</p>",
+          "description": "<p>该@ref[actor.name]{生物}向20英尺内的一个目标生物吐出一团毒素，攻击其<strong>反射</strong>并造成<strong>毒素</strong>伤害。</p><p>在<strong>暴击</strong>时，此攻击会施加@Condition[poisoned]状态，持续<strong>3回合</strong>。</p>",
           "effects": [
             {}
           ]
@@ -268,7 +268,7 @@
       "actions": {
         "noxiousSpray": {
           "name": "剧毒喷雾 Noxious Spray",
-          "description": "<p>@ref[actor.name]{生物}喷射出一股有毒排放物，形成一道30英尺长、4英尺宽的射线，攻击该路径上每个目标的<strong>反射</strong>，并造成<strong>毒药</strong>伤害。</p><p>在<strong>暴击</strong>时，此次攻击会造成@Condition[poisoned]状态，持续<strong>3回合</strong>。</p>",
+          "description": "<p>@ref[actor.name]{生物}喷射出一股有毒排放物，形成一道30英尺长、4英尺宽的射线，攻击该路径上每个目标的<strong>反射</strong>，并造成<strong>毒素</strong>伤害。</p><p>在<strong>暴击</strong>时，此次攻击会造成@Condition[poisoned]状态，持续<strong>3回合</strong>。</p>",
           "effects": [
             {}
           ]
@@ -308,7 +308,7 @@
     },
     "Pack Hunter": {
       "name": "群猎者 Pack Hunter",
-      "description": "<p>这种生物是群猎者，会依靠其盟友夹击并骚扰目标，使其暴露于进一步的伤害之下。</p><p>该生物在攻击<strong>被夹击</strong>的敌人时，获得的恩惠数量翻倍。</p>"
+      "description": "<p>这种生物是群猎者，会依靠其盟友夹击并骚扰目标，使其暴露于进一步的伤害之下。</p><p>该生物在攻击@Condition[flanked]的敌人时，获得的恩惠数量翻倍。</p>"
     },
     "Pouncing Strike": {
       "name": "猛扑打击 Pouncing Strike",
@@ -316,7 +316,7 @@
       "actions": {
         "pouncingStrike": {
           "name": "猛扑打击 Pouncing Strike",
-          "description": "<p>此次攻击可在一次<strong>移动</strong>后使用，前提是该<strong>生物</strong>因这次移动而至少接近其目标10英尺。若该生物原本位于目标上方，则此次攻击在该次移动中每下降10英尺<strong>高度</strong>，便获得<strong>+1 惠骰</strong>。</p><p>若此次攻击为<strong>暴击</strong>，则该攻击的目标会立即陷入@Condition[prone]。</p>",
+          "description": "<p>此次攻击可在一次<strong>移动</strong>后使用，前提是@ref[actor.name]因这次移动而至少接近其目标10英尺。若该生物原本位于目标上方，则此次攻击在该次移动中每下降10英尺<strong>高度</strong>，便获得<strong>+1 惠骰</strong>。</p><p>若此次攻击为<strong>暴击</strong>，则该攻击的目标会立即陷入@Condition[prone]。</p>",
           "effects": [
             {
               "name": "猛扑打击 Pouncing Strike"
@@ -330,8 +330,8 @@
       "description": "<p>该@ref[actor.name]{生物}对于针对其心灵的攻击有着异常顽强的抵抗力。其<strong>灵能</strong>抗性加倍，且如果该抗性会将伤害量降至零以下，则负数值改为作为<strong>治疗</strong>承受。</p>"
     },
     "Radiant Absorption": {
-      "name": "辉光吸收 Radiant Absorption",
-      "description": "<p>该@ref[actor.name]{生物}对混沌的光之力量并不陌生。它的<strong>辉光</strong>抗性加倍，且如果该抗性会将伤害量降低至零以下，则该负数值改为作为<strong>治疗</strong>承受。</p>"
+      "name": "光耀吸收 Radiant Absorption",
+      "description": "<p>该@ref[actor.name]{生物}对混沌的光之力量并不陌生。它的<strong>光耀</strong>抗性加倍，且如果该抗性会将伤害量降低至零以下，则该负数值改为作为<strong>治疗</strong>承受。</p>"
     },
     "Radiant Death Burst": {
       "name": "耀辉死亡爆发 Radiant Death Burst",
@@ -339,7 +339,7 @@
       "actions": {
         "radiantDeathBurst": {
           "name": "耀辉死亡爆发 Radiant Death Burst",
-          "description": "<p>当 @ref[actor.name]{生物}陷入@Condition[dead]时，它会爆炸，释放出一阵<strong>光</strong>能量，对所有未能抵抗该效果的附近生物的<strong>坚韧</strong>防御发动攻击。</p>",
+          "description": "<p>当 @ref[actor.name]{生物}陷入@Condition[dead]时，它会爆炸，释放出一阵<strong>光耀</strong>能量，对附近所有生物的<strong>坚韧</strong>防御发动攻击；未能抵抗该效果的生物会在重大成功时陷入@Condition[irradiated]状态，持续<strong>3 轮</strong>。</p>",
           "condition": "该生物变为死亡。"
         }
       }
@@ -384,7 +384,7 @@
       "actions": {
         "restrainingChomp": {
           "name": "束缚啃咬 Restraining Chomp",
-          "description": "<p>该生物一口咬住其目标。若此次攻击成功，且目标的<strong>体型</strong>等于或小于该生物，则目标还会陷入<strong>受缚</strong>状态，直到该生物选择将其释放，或该束缚以其他方式被打破。在任意时刻，此动作只能束缚一个目标。</p>",
+          "description": "<p>该生物一口咬住其目标。若此次攻击成功，且目标的<strong>体型</strong>等于或小于该生物，则目标还会陷入<strong>@Condition[restrained]</strong>状态，直到该生物选择将其释放，或该束缚以其他方式被打破。在任意时刻，此动作只能束缚一个目标。</p>",
           "effects": [
             {
               "name": "束缚啃咬 Restraining Chomp"
@@ -443,7 +443,7 @@
       "actions": {
         "slipperyEscape": {
           "name": "滑溜脱逃 Slippery Escape",
-          "description": "<p>该生物利用其滑溜形态挣脱束缚，立即结束<strong>受缚</strong>状态。</p>"
+          "description": "<p>该生物利用其滑溜形态挣脱束缚，立即结束<strong>@Condition[restrained]</strong>状态。</p>"
         }
       }
     },
@@ -459,11 +459,11 @@
     },
     "Swallow": {
       "name": "吞下 Swallow",
-      "description": "<p>@Ref[actor.name]{该生物}能够将比自己更小的生物整个吞下，但同一时间只有一个生物会受到此行动的影响。</p>",
+      "description": "<p>@ref[actor.name]{该生物}能够将比自己更小的生物整个吞下，但同一时间只有一个生物会受到此行动的影响。</p>",
       "actions": {
         "swallow": {
           "name": "吞下 Swallow",
-          "description": "<p>你吞下一个敌方目标，实际上将该敌人移出战斗。被吞下的目标处于 @Condition[blinded] 和 @Condition[restrained] 状态，直到被释放。</p><p>如果你受到<strong>致命</strong>伤害、处于<strong>负伤</strong>状态，或陷入 @Condition[incapacitated]，你会将吞下的生物反刍出来。</p>",
+          "description": "<p>你吞下一个敌方目标，实际上将该敌人移出战斗。被吞下的目标处于 @Condition[blinded] 和 @Condition[restrained] 状态，直到被释放。</p><p>如果你陷入 @Condition[stunned]、@Condition[incapacitated] 或 @Condition[weakened] 状态，你会将吞下的所有生物反刍出来。</p>",
           "effects": [
             {},
             {
@@ -507,7 +507,7 @@
     },
     "Thermal Vision": {
       "name": "热视觉 Thermal Vision",
-      "description": "<p>该@ref[actor.name]{生物}通过温度差异精确感知世界，使其能够定位60英尺内的温血生物或其他会散发热量的生物，只要它们未处于完全掩蔽之后，且你未目盲或失能。使用此热视觉探测到的生物，在需要你看见目标的动作中，视为可见。</p>"
+      "description": "<p>该@ref[actor.name]{生物}通过温度差异精确感知世界，使其能够定位体温偏离环境常态的生物。</p><p>只要目标未处于完全掩蔽之后，且该@ref[actor.name]{生物}未陷入@Condition[blinded]或@Condition[incapacitated]状态，它便能探测到 60 英尺内体温为<strong>冰寒</strong>、<strong>凉冷</strong>、<strong>温热</strong>或<strong>沸腾</strong>的生物。以这种方式探测到的生物，在需要视觉的动作中视为可见。</p>"
     },
     "Thrash": {
       "name": "猛击 Thrash",
@@ -515,7 +515,7 @@
       "actions": {
         "thrash": {
           "name": "猛击 Thrash",
-          "description": "<p>该生物对其当前<strong>受缚</strong>的目标造成<strong>致命</strong>伤害。</p>",
+          "description": "<p>该生物对其当前<strong>@Condition[restrained]</strong>的目标造成<strong>致命</strong>伤害。</p>",
           "condition": "目标被该生物受缚。"
         }
       }
@@ -539,7 +539,7 @@
       "actions": {
         "tuskCharge": {
           "name": "獠牙冲锋 Tusk Charge",
-          "description": "<p>沿直线冲锋，距离最长可达你的跨步，并对你遭遇的第一个生物进行一次打击。若成功，目标被击倒为倒地。</p>",
+          "description": "<p>沿直线冲锋，距离最长可达你的跨步，并对你遭遇的第一个生物进行一次打击。若成功，目标被击倒为@Condition[prone]。</p>",
           "effects": [
             {
               "name": "獠牙冲锋 Tusk Charge"
@@ -661,7 +661,7 @@
       "actions": {
         "lightningBurst": {
           "name": "电爆 Lightning Burst",
-          "description": "<p>@ref[actor.name]{该生物}在 15 尺爆破范围内喷发一道闪电冲击，攻击该范围内每个目标的<strong>反射</strong>并造成<strong>电力</strong>伤害。</p><p>造成<strong>暴击</strong>时，此攻击会使目标陷入@Condition[shocked]状态持续<strong>3 轮</strong>。</p>"
+          "description": "<p>@ref[actor.name]{该生物}在 15 尺爆破范围内喷发一道闪电冲击，攻击该范围内每个目标的<strong>反射</strong>并造成<strong>电击</strong>伤害。</p><p>造成<strong>暴击</strong>时，此攻击会使目标陷入@Condition[shocked]状态持续<strong>3 轮</strong>。</p>"
         }
       }
     },

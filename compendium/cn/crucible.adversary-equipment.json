@@ -232,13 +232,13 @@
       }
     },
     "Psychic Bite": {
-      "name": "心灵啃咬 Psychic Bite",
+      "name": "灵能啃咬 Psychic Bite",
       "description": {
         "public": "<p>@ref[actor.name]{该生物}的啃咬伤及心智更甚于肉体。</p>"
       }
     },
     "Psychic Limb": {
-      "name": "心灵肢 Psychic Limb",
+      "name": "灵能肢 Psychic Limb",
       "description": {
         "public": "<p>@ref[actor.name]{该生物}以一条能伤及心智的幻影肢体挥击。</p>"
       }
