@@ -1,8 +1,5 @@
 {
   "label": "分类法\nTaxonomies",
-  "mapping": {
-    "description": "system.description"
-  },
   "folders": {
     "Dragon": "巨龙",
     "Elemental": "元素",
@@ -111,6 +108,22 @@
     "Zombie": {
       "name": "僵尸 Zombie",
       "description": "<p>躁动亡者蹒跚而行的尸体，尚在腐烂的身躯因腐败而肿胀。它们移动时全然不顾自己受到的创伤，只会盲目地吞食。</p>"
+    },
+    "Automaton": {
+      "name": "自动人偶 Automaton",
+      "description": "<p>被设计成类人形态的构装体，用于承担简单的劳作任务。</p>"
+    },
+    "Dust Devil": {
+      "name": "尘卷风 Dust Devil",
+      "description": "<p>由飞旋的尘土与砂砾凝成的元素化身。其中最小的尘埃微粒是所有元素生物中最孱弱的一类；更强大的个体则会成长为尘卷风、旋风，乃至咆哮的沙暴。</p>"
+    },
+    "Mud Elemental": {
+      "name": "泥浆元素 Mud Elemental",
+      "description": "<p>由腐蚀性泥浆与淤沙构成的无形元素生物：柔软、无心智，且具腐蚀性。凡是碾碎不了的，它们便吞没并溶解。</p>"
+    },
+    "Stone Elemental": {
+      "name": "岩石元素 Stone Elemental",
+      "description": "<p>由坚实的活体岩石构成的巍峨元素生物：迟缓、不可撼动、经久不衰。它们借自身庞大的体量，引导大地的原始伟力。</p>"
     }
   }
 }

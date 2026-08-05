@@ -1,8 +1,10 @@
 {
   "label": "System Macros",
-  "mapping": {},
   "folders": {},
   "entries": {
+    "Configure Hazard": {
+      "name": "Configure Hazard"
+    },
     "Configure Group Check": {
       "name": "Configure Group Check"
     },

@@ -1,8 +1,5 @@
 {
   "label": "Archetypes",
-  "mapping": {
-    "description": "system.description"
-  },
   "folders": {
     "Humanoids": "Humanoids",
     "Dragons": "Dragons",
@@ -27,6 +24,14 @@
       "name": "Commonfolk",
       "description": "<p>Ordinary citizens of the world who have no exceptional adventuring skills or abilities.</p>"
     },
+    "Constrictor": {
+      "name": "Constrictor",
+      "description": "<p>Predators that seize prey in coils, tendrils, or jaws, drag it into reach, and crush the life from it while it struggles to break free.</p>"
+    },
+    "Juggernaut": {
+      "name": "Juggernaut",
+      "description": "<p>Relentless brawlers who close the distance, seize their foes in unbreakable holds, and overpower them through sheer brawn and resilience. They fight bare-handed, turning their own bulk into both weapon and shield.</p>"
+    },
     "Scout": {
       "name": "Scout",
       "description": "<p>Individuals trained in reconnaissance and advance exploration of unknown areas.</p>"
@@ -34,6 +39,18 @@
     "Spellblade": {
       "name": "Spellblade",
       "description": "<p>Spellblades are magically empowered warriors who weave spellcraft into their weapon attacks to create devastating strikes.</p>"
+    },
+    "Telekinetic": {
+      "name": "Telekinetic",
+      "description": "<p>Telekinetic mages who weave the Rune of Kinesis to hurl, drag, and crush their foes with raw kinetic force, dominating the battlefield through relentless Push and Pull.</p>"
+    },
+    "Swarm": {
+      "name": "Swarm",
+      "description": "<p>This adversary represents multiple creatures that move as a single swarming entity, overwhelming opposition with sheer numbers.</p>"
+    },
+    "Assassin": {
+      "name": "Assassin",
+      "description": "<p>Merciless characters adept at infiltration and ruthless killing.</p>"
     },
     "Bard": {
       "name": "Bard",
@@ -50,6 +67,10 @@
     "Chomper": {
       "name": "Chomper",
       "description": "<p>Beasts that rely on vicious bites from their oversized mouths.</p>"
+    },
+    "Deep Behemoth": {
+      "name": "Deep Behemoth",
+      "description": "<p>Colossal subterranean apex predators, hulking monstrosities that thunder in the deepest caverns.</p>"
     },
     "Drakeling": {
       "name": "Drakeling",
@@ -99,6 +120,10 @@
       "name": "Lawkeeper",
       "description": "<p>Constables, detectives, investigators, and other officers of the law who are responsible for keeping the peace and hunting down those who break it.</p>"
     },
+    "Lightweaver": {
+      "name": "Lightweaver",
+      "description": "<p>Mages that specialize in the runes of Illumination and Fire.</p>"
+    },
     "Mage": {
       "name": "Mage",
       "description": "A magic user which wields flame and electricity in battle."
@@ -118,6 +143,10 @@
     "Pack Member": {
       "name": "Pack Member",
       "description": "Beasts that hunt in packs."
+    },
+    "Prankster": {
+      "name": "Prankster",
+      "description": "<p>Humanoid creatures who thrive on nuisance, annoyance, trickery, and deception.</p>"
     },
     "Priest": {
       "name": "Priest",

@@ -1,0 +1,331 @@
+{
+  "label": "Adversary Equipment",
+  "folders": {
+    "Creature Parts": "生物部位",
+    "Damage-Typed Bites": "伤害类型啃咬",
+    "Damage-Typed Limbs": "伤害类型肢体",
+    "Giant Parts": "巨型部位",
+    "Natural Armor": "天生护甲",
+    "Natural Weapons": "天生武器"
+  },
+  "entries": {
+    "Beak": {
+      "name": "喙 Beak",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}长有锐利而善于撕扯的喙。</p>"
+      }
+    },
+    "Bite": {
+      "name": "啃咬 Bite",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}拥有一口利齿，啃咬威力可观。</p>"
+      }
+    },
+    "Burning Bite": {
+      "name": "灼燃啃咬 Burning Bite",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以缠绕炙焰的颚部啃咬。</p>"
+      }
+    },
+    "Burning Limb": {
+      "name": "灼燃肢 Burning Limb",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以凝聚火焰而成的肢体挥击。</p>"
+      }
+    },
+    "Caustic Bite": {
+      "name": "强酸啃咬 Caustic Bite",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}的啃咬滴淌着可溶解万物的强酸。</p>"
+      }
+    },
+    "Caustic Limb": {
+      "name": "强酸肢 Caustic Limb",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以淌着腐蚀性脓液的肢体挥击。</p>"
+      }
+    },
+    "Charged Bite": {
+      "name": "带电啃咬 Charged Bite",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以噼啪迸射风暴能量的颚部啃咬。</p>"
+      }
+    },
+    "Charged Limb": {
+      "name": "带电肢 Charged Limb",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以噼啪作响、充盈风暴能量的肢体挥击。</p>"
+      }
+    },
+    "Claws": {
+      "name": "利爪 Claws",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}长有细长而锐利的爪。</p>"
+      }
+    },
+    "Dense Pelt": {
+      "name": "厚密皮毛 Dense Pelt",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}覆有厚重而层叠的毛皮，可卸去击打之力。</p>"
+      }
+    },
+    "Elemental Armor": {
+      "name": "元素护甲 Elemental Armor",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}被一层坚固的元素甲壳所包裹，形成防御屏障。</p>"
+      }
+    },
+    "Exoskeleton": {
+      "name": "外骨骼 Exoskeleton",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}拥有由硬化甲片构成的分节外骨骼。</p>"
+      }
+    },
+    "Fangs": {
+      "name": "尖牙 Fangs",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}长有细长而善于穿刺的尖牙。</p>"
+      }
+    },
+    "Fists": {
+      "name": "铁拳 Fists",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以硕大的拳头猛砸敌人。</p>"
+      }
+    },
+    "Frigid Bite": {
+      "name": "冰寒啃咬 Frigid Bite",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}的啃咬带着令人麻木的无情寒意。</p>"
+      }
+    },
+    "Frigid Limb": {
+      "name": "冰寒肢 Frigid Limb",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以寒气逼人的水性肢体横扫。</p>"
+      }
+    },
+    "Fused Exoskeleton": {
+      "name": "融合外骨骼 Fused Exoskeleton",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以融接成刚硬整壳的厚重外骨为甲。</p>"
+      }
+    },
+    "Giant Beak": {
+      "name": "巨喙 Giant Beak",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}长有超乎寻常的巨喙，啃咬如剪切般凌厉。</p>"
+      }
+    },
+    "Giant Claws": {
+      "name": "巨爪 Giant Claws",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}长有骇人的巨爪，每一只都有钢刃大小。</p>"
+      }
+    },
+    "Giant Jaws": {
+      "name": "巨颚 Giant Jaws",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}长有洞穴般的巨颚，能吞没并碾碎猎物。</p>"
+      }
+    },
+    "Giant Tail": {
+      "name": "巨尾 Giant Tail",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}长有树干般粗壮的尾巴，可横扫猛砸。</p>"
+      }
+    },
+    "Heavy Carapace": {
+      "name": "重甲壳 Heavy Carapace",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}拥有厚重而分节的甲壳，护其免受伤害。</p>"
+      }
+    },
+    "Heavy Plating": {
+      "name": "重装甲板 Heavy Plating",
+      "description": {
+        "public": "<p>@ref[actor.name]{该构装体}被厚重的装甲板所包覆。</p>"
+      }
+    },
+    "Heavy Scales": {
+      "name": "厚重鳞片 Heavy Scales",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}覆有一层由厚实互扣鳞片构成的粗糙外皮。</p>"
+      }
+    },
+    "Hooves": {
+      "name": "重蹄 Hooves",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}长有沉重的蹄，可踢踏并踩烂脚下的一切。</p>"
+      }
+    },
+    "Horn": {
+      "name": "独角 Horn",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}长有一只粗壮而狰狞的中央独角，可用以顶刺目标。</p>"
+      }
+    },
+    "Kinetic Limb": {
+      "name": "念力肢 Kinetic Limb",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以纯粹动能凝成的无形肢体挥击。</p>"
+      }
+    },
+    "Light Carapace": {
+      "name": "轻甲壳 Light Carapace",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}受一层柔韧的几丁质外壳保护。</p>"
+      }
+    },
+    "Light Hide": {
+      "name": "轻韧兽皮 Light Hide",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}拥有坚韧的表皮，能挡开擦身而过的攻击。</p>"
+      }
+    },
+    "Light Pelt": {
+      "name": "轻薄皮毛 Light Pelt",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}覆有一层短毛，可缓冲冲击。</p>"
+      }
+    },
+    "Light Plating": {
+      "name": "轻装甲板 Light Plating",
+      "description": {
+        "public": "<p>@ref[actor.name]{该构装体}受贴合的装甲板保护。</p>"
+      }
+    },
+    "Light Scales": {
+      "name": "轻质鳞片 Light Scales",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}的表皮覆有轻质鳞片，在提供防护的同时不拖慢其行动。</p>"
+      }
+    },
+    "Thorns": {
+      "name": "荆棘 Thorns",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以覆满尖刺的藤蔓、肢体或触须抽击。</p>"
+      }
+    },
+    "Pestilent Bite": {
+      "name": "疫病啃咬 Pestilent Bite",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}的啃咬携带疫病，令伤口溃烂枯萎。</p>"
+      }
+    },
+    "Pestilent Limb": {
+      "name": "疫病肢 Pestilent Limb",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以腐败渗出病毒的肢体挥击。</p>"
+      }
+    },
+    "Pincers": {
+      "name": "螯钳 Pincers",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}长有可碾碎与剪断的螯钳。</p>"
+      }
+    },
+    "Pseudopod": {
+      "name": "拟足 Pseudopod",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以一条黏液构成的无定形肢体抽击。</p>"
+      }
+    },
+    "Psychic Bite": {
+      "name": "心灵啃咬 Psychic Bite",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}的啃咬伤及心智更甚于肉体。</p>"
+      }
+    },
+    "Psychic Limb": {
+      "name": "心灵肢 Psychic Limb",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以一条能伤及心智的幻影肢体挥击。</p>"
+      }
+    },
+    "Quills": {
+      "name": "棘刺 Quills",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}能从体侧射出一片倒钩棘刺。</p>"
+      }
+    },
+    "Radiant Bite": {
+      "name": "光耀啃咬 Radiant Bite",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以闪耀灼光的颚部啃咬。</p>"
+      }
+    },
+    "Radiant Limb": {
+      "name": "光耀肢 Radiant Limb",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以灼目耀眼的能量肢体挥击。</p>"
+      }
+    },
+    "Shadow Bite": {
+      "name": "暗影啃咬 Shadow Bite",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以吞噬一切的黑暗之颚啃咬。</p>"
+      }
+    },
+    "Shadow Limb": {
+      "name": "暗影肢 Shadow Limb",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以攫取猎物的黑暗肢体挥击。</p>"
+      }
+    },
+    "Stinger": {
+      "name": "毒刺 Stinger",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}长有带倒钩的螫刺，可刺穿血肉并注入毒液。</p>"
+      }
+    },
+    "Stone Skin": {
+      "name": "石肤 Stone Skin",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}拥有嶙峋如岩的皮肤。</p>"
+      }
+    },
+    "Tail": {
+      "name": "尾 Tail",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}能以细长而强健的尾巴抽击。</p>"
+      }
+    },
+    "Talons": {
+      "name": "钩爪 Talons",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}长有弯曲的钩爪，用以攫住并撕裂猎物。</p>"
+      }
+    },
+    "Tentacles": {
+      "name": "触手 Tentacles",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以扭动缠绕的触手发动攻击。</p>"
+      }
+    },
+    "Thick Hide": {
+      "name": "厚实兽皮 Thick Hide",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}拥有厚实如革的兽皮，足以抵御攻击。</p>"
+      }
+    },
+    "Tusks": {
+      "name": "獠牙 Tusks",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}长有外突的獠牙，每次冲撞都能撕开与扯裂。</p>"
+      }
+    },
+    "Venomous Bite": {
+      "name": "剧毒啃咬 Venomous Bite",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}的啃咬会注入强效毒液。</p>"
+      }
+    },
+    "Venomous Limb": {
+      "name": "剧毒肢 Venomous Limb",
+      "description": {
+        "public": "<p>@ref[actor.name]{该生物}以涂满毒素的肢体挥击，凡触及之物皆中毒。</p>"
+      }
+    }
+  }
+}

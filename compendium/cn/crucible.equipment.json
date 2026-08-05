@@ -1,12 +1,5 @@
 {
   "label": "装备\nEquipment",
-  "mapping": {
-    "description": "system.description",
-    "actions": {
-      "path": "system.actions",
-      "converter": "actions_converter"
-    }
-  },
   "folders": {
     "Consumables": "消耗品",
     "Accessories": "配件",
@@ -36,7 +29,9 @@
     "Adventuring Gear": "冒险装备",
     "Shields": "盾牌",
     "Talisman": "护符",
-    "Crafting Kits": "制作工具包"
+    "Crafting Kits": "制作工具包",
+    "Trinket": "小饰物",
+    "Summons": "召唤物"
   },
   "entries": {
     "Blast Flask": {
@@ -93,6 +88,13 @@
       "description": {
         "public": "<blockquote><p>这条色彩鲜艳的项链上挂着一枚石制护符，其上有一道微微迸发电鸣的发光符文。当你持有它时，你会产生一种超现实的感觉，仿佛周围的世界都稍稍慢了下来。</p></blockquote><p>这枚魔法护符会为<strong>反射</strong>防御提供加值。</p>",
         "private": "<p>此物品作为一个带有 @UUID[Compendium.crucible.affixes.ActiveEffect.nimbleness000000]{敏捷} 后缀的优质护符示例展示。</p><p>这个词缀可以应用于任何护甲或饰品，而这枚护符还可以进一步附魔一个第1阶前缀。</p>"
+      },
+      "effects": {
+        "Nimbleness": {
+          "name": "敏捷 Nimbleness",
+          "description": "<p>此后缀每有<strong>1个阶</strong>，便使<strong>反射</strong>防御提高 1。</p>",
+          "adjective": "敏捷"
+        }
       }
     },
     "Antitoxin": {
@@ -221,6 +223,13 @@
       "description": {
         "public": "<blockquote><p>这条挂满护符的项链看起来很朴素，但仔细观察后，你会发现其工艺中蕴含着精巧的技艺。握着它时，你会感到自己的呼吸变得更加深沉，肌肉中的轻微酸痛也逐渐消散。</p></blockquote><p>这件附魔护符会为<strong>坚韧</strong>防御提供加值。</p>",
         "private": "<p>此物品作为一个带有 @UUID[Compendium.crucible.affixes.ActiveEffect.tenacity00000000]{坚韧} 后缀的精良魅惑示例展示。</p><p>此词缀可应用于任何护甲或饰品，而这个魅惑还可以进一步附加一个第1阶前缀。</p>"
+      },
+      "effects": {
+        "Tenacity": {
+          "name": "坚韧 Tenacity",
+          "description": "<p>此后缀每有<strong>1个阶</strong>，便使<strong>坚韧</strong>防御提高 1。</p>",
+          "adjective": "坚韧"
+        }
       }
     },
     "Chirurgeon's Toolkit": {
@@ -268,6 +277,24 @@
       "description": {
         "public": "<blockquote><p>一件毫不起眼的黑色斗篷，看起来几乎能与任何装束相配。</p></blockquote><p>这件附魔斗篷为<strong>外交</strong>技能检定提供附魔加值，并赋予穿戴者伪装出虚幻<strong>和善面容</strong>的能力。</p>",
         "private": "<p>此物品作为一个精制斗篷的示例呈现，带有 @UUID[Compendium.crucible.affixes.ActiveEffect.diplomacySkill00]{外交} 前缀和 @UUID[Compendium.crucible.affixes.ActiveEffect.disguise00000000]{伪装} 后缀。</p>"
+      },
+      "effects": {
+        "Diplomacy": {
+          "name": "外交 Diplomacy",
+          "description": "<p>此前缀每有<strong>1个阶</strong>，便使<strong>外交</strong>技能检定的<strong>附魔加值</strong>提高 1。</p>",
+          "adjective": "折冲"
+        },
+        "Disguise": {
+          "name": "伪装 Disguise",
+          "description": "<p>赋予<strong>伪装</strong>动作，使持有者每次休息可披上一层幻象外貌一次。</p>",
+          "adjective": "伪装",
+          "actions": {
+            "affixDisguise": {
+              "name": "伪装 Disguise",
+              "description": "<p>每次休息一次，你可以披上一层幻象外貌，同时改变你的样貌与衣着。该幻象无法改变你的血统，但可以改变你身体构造的其他方面，包括表面上的性别。物品本身外观不变，且仍然可见。</p><p>该幻象会无限持续，并可随意解除。一经启动，此物品在 24 小时内无法再以此方式制造幻象。</p>"
+            }
+          }
+        }
       }
     },
     "Club": {
@@ -599,6 +626,17 @@
       "name": "提灯 Lantern",
       "description": {
         "public": "<p>一盏燃油或以魔法照明的提灯，可在20英尺半径内提供明亮光照，并在40英尺半径内提供微光。</p>"
+      },
+      "actions": {
+        "lightLantern": {
+          "name": "点亮提灯 Light Lantern",
+          "description": "<p>你点燃@ref[item.name]，在大范围内产生稳定的照明。此动作会消耗你物品栏中一份@UUID[Compendium.crucible.equipment.Item.lanternOil000000]{灯油}；燃烧时长取决于所消耗灯油的品质：</p><ul><li><p><strong>劣质</strong> - 1 小时</p></li><li><p><strong>标准</strong> - 4 小时</p></li><li><p><strong>精良</strong> - 12 小时</p></li><li><p><strong>卓越</strong> - 24 小时</p></li><li><p><strong>大师级</strong> - 48 小时</p></li></ul>",
+          "effects": [
+            {
+              "name": "提灯 Lantern"
+            }
+          ]
+        }
       }
     },
     "Leather Armor": {
@@ -630,6 +668,13 @@
       "description": {
         "public": "<blockquote><p>一枚雕刻精美的金色戒指，环绕着一颗椭圆形、闪耀的橙色宝石。</p></blockquote><p>这枚附魔戒环会为包含<strong>词缀</strong>的<strong>防御</strong><strong>动作</strong>提供惠骰。</p>",
         "private": "<p>此物品作为带有 @UUID[Compendium.crucible.affixes.ActiveEffect.luminary00000000]{辉耀} 前缀的优质戒指示例呈现。</p><p>此词缀可应用于任何饰品，而这枚戒指还可以进一步附魔一个第1阶后缀。</p>"
+      },
+      "effects": {
+        "Luminary": {
+          "name": "辉耀 Luminary",
+          "description": "<p>对包含<strong>屈折</strong>的<strong>构筑</strong>动作获得恩惠骰。获得的恩惠骰数量等于此前缀的<strong>阶</strong>。</p>",
+          "adjective": "辉耀"
+        }
       }
     },
     "Lyre": {
@@ -717,6 +762,13 @@
       "description": {
         "public": "<blockquote><p>一枚嵌有蓝色宝石的优雅银质护符，在你紧握它时，会让你心中充满坚定之感，仿佛已准备好经受任何挑战。</p></blockquote><p>这枚附魔饰品为<strong>意志</strong>防御提供加值。</p>",
         "private": "<p>此物品作为带有 @UUID[Compendium.crucible.affixes.ActiveEffect.determination000]{决心} 后缀的精良护符示例展示。</p><p>这个词缀可以应用于任何护符或饰品，并且这个护符还可以进一步附加一个第1阶前缀。</p>"
+      },
+      "effects": {
+        "Determination": {
+          "name": "决心 Determination",
+          "description": "<p>此后缀每有<strong>1个阶</strong>，便使<strong>意志力</strong>防御提高 1。</p>",
+          "adjective": "决心"
+        }
       }
     },
     "Pickaxe": {
@@ -853,6 +905,13 @@
       "description": {
         "public": "<blockquote><p>这枚饰纹精美的戒指摸起来略微发滑，难以抓牢。拿在手中时，它会几乎难以察觉地轻微震动。</p></blockquote><p>这枚附魔戒指为<strong>闪避</strong>防御提供加值。</p>",
         "private": "<p>此物品作为带有 @UUID[Compendium.crucible.affixes.ActiveEffect.evasion000000000]{闪避} 后缀的精良戒指示例展示。</p><p>这个词缀可以应用于任何护甲或饰品，而这枚戒指还可以进一步附魔一个第1阶前缀。</p>"
+      },
+      "effects": {
+        "Evasion": {
+          "name": "闪避 Evasion",
+          "description": "<p>此后缀每有<strong>1个阶</strong>，便使<strong>闪避</strong>防御提高 1。</p>",
+          "adjective": "闪避"
+        }
       }
     },
     "Ring of Gliding": {
@@ -860,6 +919,19 @@
       "description": {
         "public": "<blockquote><p>一枚优雅的淡蓝色钢制戒指，金属表面带有螺旋纹路，营造出一种幻象，仿佛它在佩戴者的手指上始终缓慢旋转。</p></blockquote><p>这枚附魔戒指赋予佩戴者在坠落时横向滑翔的能力。</p>",
         "private": "<p>该物品作为一个带有 @UUID[Compendium.crucible.affixes.ActiveEffect.gliding000000000]{滑翔} 前缀的精良戒指示例呈现。</p><p>该词缀可应用于任何饰品，而这枚戒指还可以进一步附加一个第1阶后缀。</p>"
+      },
+      "effects": {
+        "Gliding": {
+          "name": "滑翔 Gliding",
+          "description": "<p>赋予<strong>滑翔</strong>动作，使持有者能在坠落过程中横向滑翔。滑翔距离随此前缀的<strong>阶</strong>提升。</p>",
+          "adjective": "滑翔",
+          "actions": {
+            "gliding": {
+              "name": "滑翔 Gliding",
+              "description": "<p>在@Condition[falling]状态下使用时，你可以在滑翔的同时从初始位置横向移动若干格。滑翔距离取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong>每下降 20 英尺可滑翔 <strong>1 英尺</strong>。</p></li><li><p><strong>第2阶：</strong>每下降 20 英尺可滑翔 <strong>2 英尺</strong>。</p></li><li><p><strong>第3阶：</strong>每下降 20 英尺可滑翔 <strong>4 英尺</strong>。</p></li></ul><p>着地时你不受坠落伤害，也不会陷入@Condition[prone]。</p>"
+            }
+          }
+        }
       }
     },
     "Ring of Reinforcement": {
@@ -867,6 +939,13 @@
       "description": {
         "public": "<blockquote><p>这枚钢制戒指摸起来始终冰凉，而且尽管环身很窄，却给人一种比预想更沉的感觉。</p></blockquote><p>这枚附魔戒指为<strong>护甲</strong>防御提供加值。</p>",
         "private": "<p>此物品作为一个带有 @UUID[Compendium.crucible.affixes.ActiveEffect.reinforcement000]{强化} 后缀的精良戒指示例呈现。</p><p>这个词缀可以应用于任何护甲或饰品，而这枚戒指还可以进一步附魔一个第1阶前缀。</p>"
+      },
+      "effects": {
+        "Reinforcement": {
+          "name": "增援 Reinforcement",
+          "description": "<p>此后缀每有<strong>1个阶</strong>，便使<strong>护甲</strong>防御提高 1。</p>",
+          "adjective": "增援"
+        }
       }
     },
     "Rope": {
@@ -1006,6 +1085,19 @@
       "description": {
         "public": "<blockquote><p>这枚戒指由一块不透明的石料制成，经过精心雕琢，呈现出优雅而流畅的层次，唤起一种古老的美感。对于<strong>注入</strong>了它的佩戴者而言，这枚戒指可作为强力的施法专注。</p></blockquote><p>这枚附魔戒指赋予佩戴者在危急时刻汲取额外<strong>专注</strong>储备的能力。</p>",
         "private": "<p>此物品作为一个带有 @UUID[Compendium.crucible.affixes.ActiveEffect.focusing00000000]{保留专注} 前缀的精良戒指示例展示。</p><p>该词缀可应用于任何饰品，而这枚戒指还可以进一步附魔一个第1阶后缀。</p>"
+      },
+      "effects": {
+        "Focusing": {
+          "name": "专注 Focusing",
+          "description": "<p>赋予<strong>补充专注</strong>动作，使持有者能在危急关头恢复<strong>专注</strong>。恢复量随此词缀的<strong>阶</strong>提升。</p>",
+          "adjective": "专注",
+          "actions": {
+            "affixFocusing": {
+              "name": "补充专注 Replenish Focus",
+              "description": "<p>在危急关头，你可以从此物品中抽取一份额外的<strong>专注</strong>储备。恢复的专注量取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong><strong>4点专注</strong></p></li><li><p><strong>第2阶：</strong><strong>6点专注</strong></p></li><li><p><strong>第3阶：</strong><strong>8点专注</strong></p></li></ul>"
+            }
+          }
+        }
       }
     },
     "Spiked Greatclub": {
@@ -1099,6 +1191,17 @@
       "name": "火把 Torch",
       "description": {
         "public": "<p>将浸满油的层状材料固定在骨头或其他不可燃材料制成的杆子末端，构成一种廉价但效率不高的临时光源。每支火把可燃烧一小时，之后便无法再使用。</p>"
+      },
+      "actions": {
+        "lightTorch": {
+          "name": "点燃火把 Light Torch",
+          "description": "<p>你点燃@ref[item.name]，在大范围内产生摇曳的照明，持续一小时。此动作会消耗掉火把，无法再次使用，但其光亮会一直持续到燃尽。</p>",
+          "effects": [
+            {
+              "name": "火把 Torch"
+            }
+          ]
+        }
       }
     },
     "Tower Shield": {
@@ -1155,6 +1258,119 @@
           "effects": [
             {}
           ]
+        }
+      }
+    },
+    "Bo Staff": {
+      "name": "武术棍 Bo Staff",
+      "description": {
+        "public": "<p>一根平衡精良的硬木长棍，为武术家所偏爱，比常见的长棍更轻、出手更快。其均匀的配重能回报手法灵巧的持棍者，在连绵的攻势之间不断织入招架。</p>"
+      }
+    },
+    "Disguise Toolkit": {
+      "name": "伪装工具包 Disguise Toolkit",
+      "description": {
+        "public": "<p>一只皮面木质工具袋，内含手镜、分门别类收好的布料、化妆品、染料、假发、假须、首饰、亲肤黏合剂以及其他妆造用品，用以帮助人遮掩自身样貌。</p>"
+      }
+    },
+    "Electrocharge Ampoule": {
+      "name": "电荷安瓿 Electrocharge Ampoule",
+      "description": {
+        "public": "<p>一支密封的玻璃管，内盛黄色液体，破裂时会炸开并产生一阵骤发的放电。</p>",
+        "private": "<p></p><p>这类炼金容器主要用于在短时间内为小型机电装置供能。它们颇不稳定，内容物一旦接触空气便反应剧烈，因而可充当威力可观却难以预料的临时爆炸物。若以正确方式大量组合，还可用于驱动更重要的装置，并释放出更强的电能。</p>"
+      },
+      "actions": {
+        "electrochargeAmpoule": {
+          "name": "电荷安瓿 Electrocharge Ampoule",
+          "description": "<p>你掷出@ref[item.name]，对放电半径内所有未能躲开攻击的敌人造成减弱的<strong>电力</strong>伤害，并使其短暂@Condition[staggered]。<strong>放电</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>劣质</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>精良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
+        }
+      }
+    },
+    "Focusing Pearl": {
+      "name": "专注珍珠 Focusing Pearl",
+      "description": {
+        "public": "<blockquote><p>一颗小巧而色泽鲜亮的蓝色珍珠，无论环境温度如何，触手总是沁凉宜人。</p></blockquote><p>这颗附魔珍珠赋予持有者<strong>补充专注</strong>动作，提供一份可在危急关头汲取的额外<strong>专注</strong>储备。</p>",
+        "private": "<p>此物品作为带有@UUID[Compendium.crucible.affixes.ActiveEffect.focusing00000000]{专注}前缀的精良珍珠示例呈现。</p><p>该词缀可施加于任何饰品，而这颗珍珠还可进一步附魔一个第1阶后缀。</p>"
+      },
+      "effects": {
+        "Focusing": {
+          "name": "专注 Focusing",
+          "description": "<p>赋予<strong>补充专注</strong>动作，使持有者能在危急关头恢复<strong>专注</strong>。恢复量随此词缀的<strong>阶</strong>提升。</p>",
+          "adjective": "专注",
+          "actions": {
+            "affixFocusing": {
+              "name": "补充专注 Replenish Focus",
+              "description": "<p>在危急关头，你可以从此物品中抽取一份额外的<strong>专注</strong>储备。恢复的专注量取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong><strong>4点专注</strong></p></li><li><p><strong>第2阶：</strong><strong>6点专注</strong></p></li><li><p><strong>第3阶：</strong><strong>8点专注</strong></p></li></ul>"
+            }
+          }
+        }
+      }
+    },
+    "Frostdrop Phial": {
+      "name": "霜滴小瓶 Frostdrop Phial",
+      "description": {
+        "public": "<p>密封玻璃容器内盛着悬浮于蓝色液体中的白色晶体。其内容物一旦接触空气便迅速挥发，形成一小团骤冷的液体爆散，为附近物体覆上一层冰膜。</p>",
+        "private": "<p></p><p>这类炼金小瓶主要用于在高阶锻造中快速冷却冶金化合物；若长时间接触活体组织，可能相当危险。</p>"
+      },
+      "actions": {
+        "frostFlask": {
+          "name": "霜滴小瓶 Frostdrop Phial",
+          "description": "<p>你掷出@ref[item.name]，对爆炸半径内所有未能躲开攻击的敌人造成减弱的<strong>寒冷</strong>伤害，并使其短暂@Condition[slowed]。<strong>爆破</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>劣质</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>精良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
+        }
+      }
+    },
+    "Gem Of Conjured Flame": {
+      "name": "召火宝石 Gem Of Conjured Flame",
+      "description": {
+        "public": "<p>一颗多切面、粗磨的宝石，灌注有元素能量。掷出时此宝石会碎裂，召唤出一个受碎石者控制的元素精魂。其品质决定所召唤元素生物的等级。</p>"
+      },
+      "actions": {
+        "gemOfConjuredFlame": {
+          "name": "召唤火焰元素 Summon Flame Elemental",
+          "description": "<p>@ref[item.name]在一团烈焰中碎裂，原地留下一个炽焰元素生物。由此宝石召唤的元素生物存续 6 轮（1 分钟）。</p><ul><li><p><strong>劣质 - </strong>不召唤任何元素生物</p></li><li><p><strong>标准 </strong>- 微粒</p></li><li><p><strong>精良</strong> - 精灵</p></li><li><p><strong>卓越</strong> - 访客</p></li><li><p><strong>大师级 - </strong>流浪者</p></li></ul>"
+        }
+      }
+    },
+    "Gem of Illumination": {
+      "name": "照明宝石 Gem of Illumination",
+      "description": {
+        "public": "<blockquote><p>这颗切面精细的宝石泛着柔和的暖光，触手温热。</p></blockquote><p>这颗附魔宝石赋予持有者<strong>启动照明</strong>动作，可在大范围内散发超凡之光，直到解除为止。</p>",
+        "private": "<p>此物品作为带有@UUID[Compendium.crucible.affixes.ActiveEffect.luminous00000000]{明光}前缀的精良宝石示例呈现。</p><p>该词缀可施加于任何饰品，而这颗宝石还可进一步附魔一个第1阶后缀。</p>"
+      },
+      "effects": {
+        "Luminous": {
+          "name": "明光 Luminous",
+          "description": "<p>赋予<strong>启动照明</strong>动作，使持有者能散发一种超凡之光。光照半径随此词缀的<strong>阶</strong>提升。</p>",
+          "adjective": "明光",
+          "actions": {
+            "affixLuminous": {
+              "name": "启动照明 Activate Illumination",
+              "description": "<p>你念出命令词，@ref[item.name]{该物品}便燃起稳定的超凡辉光。所散发的明亮光照半径取决于此前缀的<strong>阶</strong>，并在其外延伸出等距的微光区域。</p><ul><li><p><strong>第1阶：</strong>20 英尺明亮光照，40 英尺微光。</p></li><li><p><strong>第2阶：</strong>40 英尺明亮光照，80 英尺微光。</p></li><li><p><strong>第3阶：</strong>60 英尺明亮光照，120 英尺微光。</p></li></ul><p>光照将持续到你解除该效果或卸下物品为止。</p>",
+              "effects": [
+                {
+                  "name": "明光 Luminous"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "Lantern Oil": {
+      "name": "灯油 Lantern Oil",
+      "description": {
+        "public": "<p>一小瓶精炼燃油。点燃一盏@UUID[Compendium.crucible.equipment.Item.lantern000000000]{提灯}需消耗一份灯油；燃烧时长取决于油的品质：</p><ul><li><p><strong>劣质</strong> - 1 小时</p></li><li><p><strong>标准</strong> - 4 小时</p></li><li><p><strong>精良</strong> - 12 小时</p></li><li><p><strong>卓越</strong> - 24 小时</p></li><li><p><strong>大师级</strong> - 48 小时</p></li></ul>"
+      }
+    },
+    "Omniglot Decoction": {
+      "name": "通译药汤 Omniglot Decoction",
+      "description": {
+        "public": "<p>一种出人意料稀薄的液体，尝起来带着泥土与草药的味道。</p>"
+      },
+      "actions": {
+        "omniglotDecoction": {
+          "name": "通译药汤 Omniglot Decoction",
+          "description": "<p>饮下后，此药汤赋予饮用者一种奇妙的能力：读懂、说出并理解各种语言。其品质决定效果持续时间：</p><ul><li><p><strong>劣质</strong> - 10 分钟</p></li><li><p><strong>标准</strong> - 1 小时</p></li><li><p><strong>精良</strong> - 4 小时</p></li><li><p><strong>卓越</strong> - 12 小时</p></li><li><p><strong>大师级</strong> - 24 小时</p></li></ul>"
         }
       }
     }

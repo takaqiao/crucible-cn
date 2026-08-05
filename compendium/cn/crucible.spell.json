@@ -1,12 +1,5 @@
 {
   "label": "标志性法术\nIconic Spells",
-  "mapping": {
-    "description": "system.description",
-    "actions": {
-      "path": "system.actions",
-      "converter": "actions_converter"
-    }
-  },
   "folders": {
     "Gesture: Aura": "手势：灵气",
     "Gesture: Strike": "手势：打击",
