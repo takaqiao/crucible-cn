@@ -1,12 +1,5 @@
 {
   "label": "Iconic Spells",
-  "mapping": {
-    "description": "system.description",
-    "actions": {
-      "path": "system.actions",
-      "converter": "actions_converter"
-    }
-  },
   "folders": {
     "Gesture: Aura": "Gesture: Aura",
     "Gesture: Strike": "Gesture: Strike",

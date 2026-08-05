@@ -1,8 +1,5 @@
 {
   "label": "原型\nArchetypes",
-  "mapping": {
-    "description": "system.description"
-  },
   "folders": {
     "Humanoids": "人型生物",
     "Dragons": "巨龙",
@@ -158,6 +155,38 @@
     "Ultra Drake": {
       "name": "究极龙兽 Ultra Drake",
       "description": "<p>已经成熟、位于其同类食物链顶端的龙兽。</p>"
+    },
+    "Constrictor": {
+      "name": "绞杀者 Constrictor",
+      "description": "<p>以缠绕的躯体、触须或颚部擒住猎物的掠食者，将其拖入攻击范围，在猎物挣扎求脱之际碾碎其生机。</p>"
+    },
+    "Juggernaut": {
+      "name": "碾压者 Juggernaut",
+      "description": "<p>不屈不挠的格斗者，他们拉近距离，以无从挣脱的擒抱锁住敌人，再凭纯粹的蛮力与坚韧将其压制。他们赤手空拳而战，把自身的庞大体魄同时化作武器与护盾。</p>"
+    },
+    "Telekinetic": {
+      "name": "念力者 Telekinetic",
+      "description": "<p>编织念力符文的法师，以原始的动能抛掷、拖曳并碾压敌人，凭借不间断的推与拉主宰战场。</p>"
+    },
+    "Swarm": {
+      "name": "群集 Swarm",
+      "description": "<p>此敌手代表多个生物以单一群集实体的形式行动，以纯粹的数量压倒对手。</p>"
+    },
+    "Assassin": {
+      "name": "刺客 Assassin",
+      "description": "<p>精于渗透与冷酷杀戮的无情角色。</p>"
+    },
+    "Deep Behemoth": {
+      "name": "深层巨兽 Deep Behemoth",
+      "description": "<p>庞然的地底顶级掠食者，在最深邃的洞穴中隆隆而行的巨硕怪物。</p>"
+    },
+    "Lightweaver": {
+      "name": "织光者 Lightweaver",
+      "description": "<p>专精于照明与火焰符文的法师。</p>"
+    },
+    "Prankster": {
+      "name": "恶作剧者 Prankster",
+      "description": "<p>以捣乱、滋扰、戏弄与欺瞒为乐的类人生物。</p>"
     }
   }
 }

@@ -1,35 +1,5 @@
 {
   "label": "预生成英雄\nPregenerated Heroes",
-  "mapping": {
-    "items": {
-      "path": "items",
-      "converter": "adventure_items_converter"
-    },
-    "actions": {
-      "path": "system.actions",
-      "converter": "actions_converter"
-    },
-    "ancestry": {
-      "path": "system.details.ancestry",
-      "converter": "nested_object_converter"
-    },
-    "background": {
-      "path": "system.details.background",
-      "converter": "nested_object_converter"
-    },
-    "biography": {
-      "path": "system.details.biography",
-      "converter": "nested_object_converter"
-    },
-    "archetype": {
-      "path": "system.details.archetype",
-      "converter": "nested_object_converter"
-    },
-    "taxonomy": {
-      "path": "system.details.taxonomy",
-      "converter": "nested_object_converter"
-    }
-  },
   "folders": {
     "Level 6": "6级",
     "Level 1": "1级"
@@ -480,6 +450,16 @@
         "Weak Points": {
           "name": "弱点 Weak Points",
           "description": "<p>你能识别出攻击敌人弱点的时机。当你使用依赖<strong>敏捷</strong>成长的武器攻击处于 @Condition[unaware]、@Condition[flanked] 或 @Condition[exposed] 状态的目标时，你的任何打击获得 +2 伤害。</p>"
+        },
+        "Rune: Storm": {
+          "name": "符文：闪电 Rune: Lightning",
+          "description": "<p>原始电能的混沌之力。闪电符文掌管电荷的积聚与释放之源。</p><p>闪电符文以<strong>智力</strong>进行成长，针对<strong>反射</strong>防御，并对<strong>生命值</strong>造成<strong>闪电</strong>伤害。它与秩序井然的<strong>大地</strong>符文相对立。</p>",
+          "actions": {
+            "energize": {
+              "name": "充能 Energize",
+              "description": "<p>你对闪电符文的掌控使你能够引导气元素与电流的流动，操纵电荷与空气动力，以产生以下效果之一：</p><ul><li><p>为你所触碰的一个不大于一立方英尺的金属物体注入电磁电荷，使其强力吸附于其他金属。在任意时刻，只能有一个物体以这种方式被充能；若你对另一个物体施放此法术，则先前物体会失去其磁性效果。</p></li><li><p>在你当前位置周围六英尺半径内聚集一阵狂风，使其要么作为一股沿单一受控方向吹拂的阵风，要么作为一股向四面八方施加向心力的旋风。周边区域内的空中效果会被驱散，而重量小于 1 的未固定物体会被朝阵风方向抛飞。</p></li><li><p>在你当前所在位置 15 英尺内、你能看见的一个地点制造出雷鸣般的震响。</p></li></ul><p>充能只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+            }
+          }
         }
       }
     },
@@ -634,6 +614,16 @@
                   "name": "破损的护甲 Sundered Armor"
                 }
               ]
+            }
+          }
+        },
+        "Rune: Storm": {
+          "name": "符文：闪电 Rune: Lightning",
+          "description": "<p>原始电能的混沌之力。闪电符文掌管电荷的积聚与释放来源。</p><p>闪电符文以 <strong>智力</strong> 进行成长，目标为 <strong>反射</strong>，造成 <strong>电击</strong> <strong>伤害</strong> 至 <strong>生命值</strong>。它与秩序的 <strong>大地</strong> 符文相对。</p>",
+          "actions": {
+            "energize": {
+              "name": "充能 Energize",
+              "description": "<p>你对闪电符文的命令使你能够引导气元素与电流的流动，操控电荷与空气动力学，从而产生以下效果之一：</p><ul><li><p>为你所触碰的不大于一英尺立方的金属物体注入电磁电荷，使其能够强力附着于其他金属。任意时刻只能以这种方式为一个物体充能；若你对另一个物体施放此法术，则先前物体会失去其磁性效果。</p></li><li><p>以你当前位置为中心，在六码尺半径内聚集一阵狂风，使其要么作为沿单一受控方向吹袭的阵风，要么作为向各个方向施加向心力的旋风。附近区域中的空中效果会被驱散，且重量小于1的未固定物体会被朝阵风方向抛飞。</p></li><li><p>在你当前所在位置15英尺内、你能看见的一个地点，制造出如雷霆炸响般的冲击性声音。</p></li></ul><p>充能只能影响你能够以身体直接接触到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
             }
           }
         }
@@ -1109,6 +1099,16 @@
           "description": {
             "public": "<p>环甲的特点是将金属环缝在有衬垫的底衬上，相较于更厚重的链甲提供较少的保护，以换取更高的机动性。</p>"
           }
+        },
+        "Rune: Storm": {
+          "name": "符文：闪电 Rune: Lightning",
+          "description": "<p>原始电能的混沌之力。闪电符文掌管电荷的积聚与释放之源。</p><p>闪电符文使用<strong>智力</strong>进行成长，目标为<strong>反射</strong>，造成<strong>电击</strong><strong>伤害</strong>至<strong>生命值</strong>。它与秩序井然的<strong>大地</strong>符文相对立。</p>",
+          "actions": {
+            "energize": {
+              "name": "充能 Energize",
+              "description": "<p>你对闪电符文的掌控使你能够引导气流与电流的流动，通过操控电荷与空气动力学来产生以下效果之一：</p><ul><li><p>为你所触碰的一个不大于一立方英尺的金属物体注入电磁电荷，使其强力吸附于其他金属。任意时刻只能以这种方式为一个物体充能；对不同物体施放此法术会使先前物体失去其磁性效果。</p></li><li><p>在你当前位置周围半径6英尺内聚集一阵狂风，使其要么作为一股沿单一受控方向吹出的阵风，要么作为一个向各个方向施加向心力的旋风。附近区域中的空中效果会被驱散，而重量小于1的未固定物体会被沿阵风方向抛飞。</p></li><li><p>在你当前所在位置15英尺内、你能够看见的一个地点制造出如同霹雳炸响般的震荡声音。</p></li></ul><p>充能只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+            }
+          }
         }
       }
     },
@@ -1353,6 +1353,21 @@
           "name": "鳞甲 Scale Mail",
           "description": {
             "public": "<p>缝制或铆接在皮革或布料衬底上的重叠金属片，鳞甲形似巨龙的鳞皮，能很好地防护劈砍和刺击——不过它既吵闹又不够灵活。</p>"
+          }
+        },
+        "Shield Bash": {
+          "name": "盾击 Shield Bash",
+          "description": "<p>你精于持盾作战，用它猛撞敌人并使其失去平衡。</p>",
+          "actions": {
+            "shieldBash": {
+              "name": "盾击 Shield Bash",
+              "description": "<p>在以主手武器发动一次基础打击之后，你以盾牌发动一次<strong>打击</strong>，使目标陷入<strong>踉跄</strong>状态持续一轮。</p>",
+              "effects": [
+                {
+                  "name": "盾击 Shield Bash"
+                }
+              ]
+            }
           }
         }
       }

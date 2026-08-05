@@ -1,16 +1,9 @@
 {
   "label": "Adversary Talents",
-  "mapping": {
-    "description": "system.description",
-    "actions": {
-      "path": "system.actions",
-      "converter": "actions_converter"
-    }
-  },
   "folders": {
     "Ooze": "Ooze",
     "Charge": "Charge",
-    "Passive": "Passive",
+    "Form": "Form",
     "Bites": "Bites",
     "Claws": "Claws",
     "Construct": "Construct",
@@ -77,11 +70,11 @@
     },
     "Aqueous Transmission": {
       "name": "Aqueous Transmission",
-      "description": "<p>The @ref[name] is able to move instantaneously through water.</p>",
+      "description": "<p>The @ref[actor.name]{creature} is able to move instantaneously through water.</p>",
       "actions": {
         "aqueousTransmission": {
           "name": "Aqueous Transmission",
-          "description": "<p>When the @ref[name] is within water, it can instantaneously transport itself to any unoccupied space within the same body of water up to 120 feet away. It does not need to be able to see the destination to make this <strong>Move</strong>.</p>"
+          "description": "<p>When the @ref[actor.name]{creature} is within water, it can instantaneously transport itself to any unoccupied space within the same body of water up to 120 feet away. It does not need to be able to see the destination to make this <strong>Move</strong>.</p>"
         }
       }
     },
@@ -89,13 +82,32 @@
       "name": "Bestial Senses",
       "description": "<p>The @ref[actor.name]{creature} has finely honed senses and is particularly perceptive of their environment, all <strong>Awareness</strong> checks gain <strong>+2 Boons</strong>.</p>"
     },
+    "Blindsight": {
+      "name": "Blindsight",
+      "description": "<p>@ref[actor.name]{This creature} perceives its surroundings without the use of sight, sensing the precise location of creatures and objects within 60 feet. It is unaffected by @Condition[blinded], darkness, or invisibility, and any creature it detects this way is treated as visible to it.</p>"
+    },
     "Blood Sense": {
       "name": "Blood Sense",
       "description": "<p>The @ref[actor.name]{creature} can precisely sense any blooded creature within 20 feet which does not have all its hit points. Any weapon or skill attack against a wounded creature does not suffer <strong>Banes</strong> that would normally apply if the creature were @Condition[blinded].</p>"
     },
+    "Bloodless": {
+      "name": "Bloodless",
+      "description": "<p>The @ref[actor.name]{creature} has no blood, vital organs, or exploitable weak points. It is immune to the @Condition[bleeding] condition, and the critical hit threshold for <strong>Strikes</strong> against it is increased by 2.</p>"
+    },
     "Bonded Mind": {
       "name": "Bonded Mind",
       "description": "<p>The mind of a @ref[actor.name]{creature} with this talent is inextricably bound to other members of its group. It is capable of instantaneous telepathic communication with any other @ref[actor.taxonomy.name]{creature of its taxonomy} within 60 feet.</p>"
+    },
+    "Burnout": {
+      "name": "Burnout",
+      "description": "<p>Steam-powered constructs store dangerous amounts of superheated steam within their bodies that, if not discharged safely, can cause serious injury.</p>",
+      "actions": {
+        "steamVent": {
+          "name": "Burnout",
+          "description": "<p>The @ref[actor.name]{construct} ruptures, spilling forth a blast of flame and smoke, attacking the <strong>Reflex</strong> of each target within the radius and dealing <strong>Fire</strong> damage. Those who take damage from this attack are @Condition[blinded] for 3 turns.</p>",
+          "condition": "The @ref[actor.name]{construct} is Wounded"
+        }
+      }
     },
     "Burrower": {
       "name": "Burrower",
@@ -105,6 +117,10 @@
           "name": "Explosive Emergence",
           "description": "<p>The @ref[actor.name]{creature} emerges from a subterranean position with surprising and sudden force. This action may only be activated immediately the creature leaves the @Condition[burrowing] state.</p><p>The @ref[actor.name]{creature} erupts to <strong>Strike</strong> against all enemies within its weapon range with an <strong>Empowered</strong> attack.</p>",
           "condition": "While burrowing."
+        },
+        "submergingWithdrawal": {
+          "name": "Submerging Withdrawal",
+          "description": "<p>The @ref[actor.name]{creature} retracts beneath the surface using a <strong>Burrow</strong> movement, relocating away from its current position. Ending this movement underground grants the @Condition[burrowing] condition, beneath which it cannot be seen by light-based perception.</p><p>This action cannot be used while @Condition[staggered], @Condition[stunned], @Condition[slowed], or @Condition[paralyzed].</p>"
         }
       }
     },
@@ -114,10 +130,7 @@
       "actions": {
         "droppingStrike": {
           "name": "Dropping Strike",
-          "description": "<p>The @ref[actor.name]{creature} can drop from overhead to <strong>Strike</strong> a creature below it. The target creature suffers an <strong>Empowered</strong> attack which, if successful, knocks them @Condition[prone] in addition to dealing damage.</p><p>The @ref[actor.name]{creature} can suffer falling damage from this attack only if it misses its target.</p>",
-          "effects": [
-            {}
-          ]
+          "description": "<p>The @ref[actor.name]{creature} can drop from overhead to <strong>Strike</strong> a creature below it. The target creature suffers an <strong>Empowered</strong> attack which, if successful, knocks them @Condition[prone] in addition to dealing damage.</p><p>The @ref[actor.name]{creature} can suffer falling damage from this attack only if it misses its target.</p>"
         }
       }
     },
@@ -125,9 +138,49 @@
       "name": "Cold Absorption",
       "description": "<p>The @ref[actor.name]{creature} has an exceptional ability to thrive within frigid environments. Its <strong>Cold</strong> resistance is doubled and if that resistance would reduce an amount of damage below zero, the negative amount is received as <strong>Healing</strong> instead.</p>"
     },
+    "Corrosive Strikes": {
+      "name": "Corrosive Strikes",
+      "description": "<p>The @ref[actor.name]{creature}'s caustic body sears whatever it strikes. When it scores a <strong>Critical Hit</strong> with a melee attack that deals damage to Health, the target becomes @Condition[corroding] for 3 rounds.</p>"
+    },
+    "Corrupting Death Burst": {
+      "name": "Corrupting Death Burst",
+      "description": "<p>When the @ref[actor.name]{creature} dies, it explodes in a volatile burst of corrupting energy.</p>",
+      "actions": {
+        "corruptingDeathBurst": {
+          "name": "Corrupting Death Burst",
+          "description": "<p>When the @ref[actor.name]{creature} becomes @Condition[dead], it explodes in a pulse of spores that deal <strong>Corruption</strong> damage, attacking the <strong>Fortitude</strong> defense of all nearby creatures that fail to resist the effect and upon critical success afflicting them with the @Condition[decaying] condition for <strong>3 rounds</strong>.</p>",
+          "condition": "The creature becomes Dead."
+        }
+      }
+    },
     "Corruption Absorption": {
       "name": "Corruption Absorption",
       "description": "<p>The @ref[actor.name]{creature} has an exceptional ability to shrug off the effects of Death magic. Its <strong>Corruption</strong> resistance is doubled and if that resistance would reduce an amount of damage below zero, the negative amount is received as <strong>Healing</strong> instead.</p>"
+    },
+    "Crushing Leap": {
+      "name": "Crushing Leap",
+      "description": "<p>This creature hurls its bulk into the air and crashes down upon its foes with tremendous, ground-shaking force.</p>",
+      "actions": {
+        "crushingLeap": {
+          "name": "Crushing Leap",
+          "description": "<p>You leap into the air, landing at a point you can see within 30 feet and crashing down with crushing force. All creatures within the area of the resulting <strong>Blast</strong> face an attack against their <strong>Reflex</strong>, suffering <strong>Bludgeoning</strong> damage and are knocked @Condition[prone]. The Blast extends outward from your own footprint, so larger creatures crash down over a wider area. This action scales with your highest ability of <strong>Strength</strong> or <strong>Toughness</strong>.</p>"
+        }
+      }
+    },
+    "Dying Call": {
+      "name": "Dying Call",
+      "description": "<p>When @ref[actor.name]{this creature} is in the throes of death, it emits one last call, alerting others nearby that it has been killed and calling for vengeance.</p>",
+      "actions": {
+        "dyingCall": {
+          "name": "Dying Call",
+          "description": "<p>The @ref[actor.name]{creature} emits a shrill call as a dying act, notifying similar nearby creatures of its death, which are instinctually drawn towards this location.</p>",
+          "condition": "The creature becomes Dead."
+        }
+      }
+    },
+    "Echolocation": {
+      "name": "Echolocation",
+      "description": "<p>@ref[actor.name]{This creature} perceives the world through the emission of sonic pulses that detect shapes with precision, allowing it to locate creatures that are moving or otherwise emitting sound, up to 60 feet away as long as they are not behind total cover. If the creature is @Condition[deafened], this sense may not be used.</p><p>A creature detected using @ref[name] is treated as visible for the purposes of actions which require you to see your target.</p>"
     },
     "Electricity Absorption": {
       "name": "Electricity Absorption",
@@ -136,6 +189,21 @@
     "Elusive Flight": {
       "name": "Elusive Flight",
       "description": "<p>This @ref[actor.name]{creature} is especially elusive while in flight, able to swoop in and out of combat without provoking any <strong>Disengagement</strong>. It can be engaged if it lands upon the ground and Disengagement may apply if it attempts to return to flight.</p>"
+    },
+    "Ensnare": {
+      "name": "Ensnare",
+      "description": "<p>The @ref[actor.name]{creature} lashes out with a grasping tendril, coil, or limb to seize prey at range and drag it into a crushing hold.</p>",
+      "actions": {
+        "ensnare": {
+          "name": "Ensnare",
+          "description": "<p>The @ref[actor.name]{creature} reaches out to seize a single target within range, attacking its <strong>Reflex</strong>. On a success the target is dragged back into reach and becomes @Condition[restrained]. This action may only be used on creatures which are eligible targets for @Action[Compendium.crucible.talent.Item.unarmedCombatTra grapple].</p><p>The hold is maintained until the @ref[actor.name]{creature} releases it, the target escapes, or a different creature is targeted with Ensnare.</p>",
+          "effects": [
+            {
+              "name": "Ensnared"
+            }
+          ]
+        }
+      }
     },
     "Extended Breath": {
       "name": "Extended Breath",
@@ -151,7 +219,13 @@
     },
     "Glider": {
       "name": "Glider",
-      "description": "<p>The @ref[actor.name]{creature} can control its movement while falling and may perform the <strong>Move</strong> action up to a maximum distance of its <strong>Stride</strong> for each 20 feet that it falls.</p><p>If it spends Action to Move in this way, it does not suffer falling damage upon landing.</p>"
+      "description": "<p>The @ref[actor.name]{creature} controls its descent while falling. Unless it is Incapacitated or Restrained, a fall becomes a <strong>Glide</strong>: a downward Fly movement instead of an impact, suffering no falling damage.</p> <p>While gliding the creature's <strong>Stride</strong> is doubled and it is granted a free move, so it can always glide at least a short distance. Its glide must descend, and wherever the movement ends is where it comes to rest; if it ends the glide still aloft it gains the @Condition[flying] condition.</p>",
+      "actions": {
+        "fallGlide": {
+          "name": "Glide",
+          "description": "<p>The @ref[actor.name]{creature} glides rather than falls, flying downward under control. The movement must descend and suffers no falling damage. If the creature ends its glide while still aloft it gains the @Condition[flying] condition.</p>"
+        }
+      }
     },
     "Gloom Sight": {
       "name": "Gloom Sight",
@@ -168,10 +242,7 @@
         "graveMark": {
           "name": "Grave Mark",
           "description": "<p>After achieving a <strong>Critical Hit</strong> with a melee attack, the @ref[actor.name]{creature} attacks the target's <strong>Willpower</strong> defense, leaving a Grave Mark upon a success that inflicts the @Condition[exhausted] condition that persists until the target completes a <strong>Rest</strong>.</p><p>If a humanoid creature bearing a Grave Mark dies while under the effects of the mark, it rises from death on its subsequent Turn as a @UUID[Compendium.crucible.taxonomy.Item.ghoul00000000000]{Ghoul}.</p>",
-          "condition": "When achieving a Critical Hit with a melee attack.",
-          "effects": [
-            {}
-          ]
+          "condition": "When achieving a Critical Hit with a melee attack."
         }
       }
     },
@@ -182,10 +253,7 @@
         "horrificCritical": {
           "name": "Horrific Critical",
           "description": "<p>When the @ref[actor.name]{creature} achieves a <strong>Critical Hit</strong> using a melee attack it may exaggerate the blow in a way that evokes fear within those who behold the strike.</p><p>All the enemies within 30 feet who can see the creature face a <strong>Harmless</strong> attack against their <strong>Willpower</strong> or become @Condition[frightened] for <strong>3 Turns</strong>.</p>",
-          "condition": "Immediately after the creature achieves a Critical Hit with a melee attack.",
-          "effects": [
-            {}
-          ]
+          "condition": "Immediately after the creature achieves a Critical Hit with a melee attack."
         }
       }
     },
@@ -193,16 +261,23 @@
       "name": "Immutable Form",
       "description": "<p>The @ref[actor.name] is immune to any spell or effect which alters its physical form.</p>"
     },
+    "Lightning Burst": {
+      "name": "Lightning Burst",
+      "description": "<p>The @ref[actor.name]{creature} is able to produce and expel powerful voltaic blast.</p>",
+      "actions": {
+        "lightningBurst": {
+          "name": "Lightning Burst",
+          "description": "<p>The @ref[actor.name]{creature} expels a blast of lighting in a 15 foot blast, attacking the <strong>Reflex</strong> of each target within that range and and dealing <strong>Electricity</strong> damage.</p><p>On a <strong>Critical Hit</strong> the attack causes the @Condition[shocked] condition for <strong>3 Turns</strong>.</p>"
+        }
+      }
+    },
     "Lightning Spit": {
       "name": "Lightning Spit",
       "description": "<p>The @ref[actor.name]{creature} is able to produce and expel minor voltaic discharge.</p>",
       "actions": {
         "lightningSpit": {
           "name": "Lightning Spit",
-          "description": "<p>The @ref[actor.name]{creature} spits a small bolt of lightning at a target creature within 20 feet, attacking its <strong>Reflex</strong> and dealing <strong>Electricity</strong> damage.</p><p>On a <strong>Critical Hit</strong> the attack causes the @Condition[shocked] condition for <strong>3 Turns</strong>.</p>",
-          "effects": [
-            {}
-          ]
+          "description": "<p>The @ref[actor.name]{creature} spits a small bolt of lightning at a target creature within 20 feet, attacking its <strong>Reflex</strong> and dealing <strong>Electricity</strong> damage.</p><p>On a <strong>Critical Hit</strong> the attack causes the @Condition[shocked] condition for <strong>3 Turns</strong>.</p>"
         }
       }
     },
@@ -212,10 +287,21 @@
       "actions": {
         "lightningSpray": {
           "name": "Lightning Spray",
-          "description": "<p>The @ref[actor.name]{creature} expels a bolt of lighting in a 30 foot ray that is 4 feet wide, attacking the <strong>Reflex</strong> of each target along that path and dealing <strong>Electricity</strong> damage.</p><p>On a <strong>Critical Hit</strong> the attack causes the @Condition[shocked] condition for <strong>3 Turns</strong>.</p>",
-          "effects": [
-            {}
-          ]
+          "description": "<p>The @ref[actor.name]{creature} expels a bolt of lighting in a 30 foot ray that is 4 feet wide, attacking the <strong>Reflex</strong> of each target along that path and dealing <strong>Electricity</strong> damage.</p><p>On a <strong>Critical Hit</strong> the attack causes the @Condition[shocked] condition for <strong>3 Turns</strong>.</p>"
+        }
+      }
+    },
+    "Living Boulder": {
+      "name": "Living Boulder",
+      "description": "<p>The @ref[actor.name]{creature} channels earth through its own physical mass rather than its mind. Its usage of the <strong>Rune of Earth</strong> scales with <strong>Toughness</strong> instead of <strong>Wisdom</strong>.</p>"
+    },
+    "Maddening Shriek": {
+      "name": "Maddening Shriek",
+      "description": "<p>This @ref[actor.name]{creature} is capable of emitting a piercing screech so shrill that it can cause temporary hearing loss in other creatures who perceive it.</p>",
+      "actions": {
+        "maddeningShriek": {
+          "name": "Maddening Shriek",
+          "description": "<p>The @ref[actor.name]{creature} emits a shrill and piercing screech, attacking the <strong>Morale</strong> of all those contained within and afflicting them with the @Condition[deafened] condition for one round.</p>"
         }
       }
     },
@@ -225,10 +311,7 @@
       "actions": {
         "invisibility": {
           "name": "Natural Invisibility",
-          "description": "<p>You become @Condition[invisible] and cannot be detected using sight-based perception. You cannot be directly targeted by any action. This effect remains active for 10 minutes or until any non-<strong>Movement</strong> action is taken.</p>",
-          "effects": [
-            {}
-          ]
+          "description": "<p>You become @Condition[invisible] and cannot be detected using sight-based perception. You cannot be directly targeted by any action. This effect remains active for 10 minutes or until any non-<strong>Movement</strong> action is taken.</p>"
         }
       }
     },
@@ -238,10 +321,7 @@
       "actions": {
         "necroticBite": {
           "name": "Necrotic Bite",
-          "description": "<p>The @ref[actor.name]{creature} attacks with a pestilent bite that is <strong>Empowered</strong> and deals <strong>Corruption</strong> damage.</p><p>On a <strong>Critical Success</strong> the attack causes the @Condition[decaying] condition for <strong>3 Turns</strong>.</p>",
-          "effects": [
-            {}
-          ]
+          "description": "<p>The @ref[actor.name]{creature} attacks with a pestilent bite that is <strong>Empowered</strong> and deals <strong>Corruption</strong> damage.</p><p>On a <strong>Critical Success</strong> the attack causes the @Condition[decaying] condition for <strong>3 Turns</strong>.</p>"
         }
       }
     },
@@ -251,10 +331,7 @@
       "actions": {
         "noxiousSpit": {
           "name": "Noxious Spit",
-          "description": "<p>The @ref[actor.name]{creature} spits globule of toxin at a target creature within 20 feet, attacking its <strong>Reflex</strong> and dealing <strong>Poison </strong>damage.</p><p>On a <strong>Critical Hit</strong> the attack causes the @Condition[poisoned] condition for <strong>3 Turns</strong>.</p>",
-          "effects": [
-            {}
-          ]
+          "description": "<p>The @ref[actor.name]{creature} spits globule of toxin at a target creature within 20 feet, attacking its <strong>Reflex</strong> and dealing <strong>Poison </strong>damage.</p><p>On a <strong>Critical Hit</strong> the attack causes the @Condition[poisoned] condition for <strong>3 Turns</strong>.</p>"
         }
       }
     },
@@ -264,10 +341,7 @@
       "actions": {
         "noxiousSpray": {
           "name": "Noxious Spray",
-          "description": "<p>The @ref[actor.name]{creature} expels toxic discharge in a 30 foot ray that is 4 feet wide, attacking the <strong>Reflex</strong> of each target along that path and dealing <strong>Poison</strong> damage.</p><p>On a <strong>Critical Hit</strong> the attack causes the @Condition[poisoned] condition for <strong>3 Turns</strong>.</p>",
-          "effects": [
-            {}
-          ]
+          "description": "<p>The @ref[actor.name]{creature} expels toxic discharge in a 30 foot ray that is 4 feet wide, attacking the <strong>Reflex</strong> of each target along that path and dealing <strong>Poison</strong> damage.</p><p>On a <strong>Critical Hit</strong> the attack causes the @Condition[poisoned] condition for <strong>3 Turns</strong>.</p>"
         }
       }
     },
@@ -304,7 +378,11 @@
     },
     "Pack Hunter": {
       "name": "Pack Hunter",
-      "description": "<p>This creature is a pack hunter, relying on its allies to flank and harrass a target to render it exposed to further harm.</p><p>This creature doubles number of Boons awarded from attacking a <strong>Flanked</strong> enemy.</p>"
+      "description": "<p>This creature is a pack hunter, relying on its allies to flank and harrass a target to render it exposed to further harm.</p><p>This creature doubles number of Boons awarded from attacking a @Condition[flanked] enemy.</p>"
+    },
+    "Polybrachial": {
+      "name": "Polybrachial",
+      "description": "<p>The @ref[actor.name]{creature} has a multitude of arms that it can use to perform actions. It always counts as having two free hands for spellcraft or interaction no matter what items it has equipped.</p>"
     },
     "Pouncing Strike": {
       "name": "Pouncing Strike",
@@ -335,7 +413,7 @@
       "actions": {
         "radiantDeathBurst": {
           "name": "Radiant Death Burst",
-          "description": "<p>When the @ref[actor.name]{creature} becomes @Condition[dead], it explodes in a pulse of <strong>Radiant</strong> energy which attacks the <strong>Fortitude</strong> defense of all nearby creatures that fail to resist the effect.</p>",
+          "description": "<p>When the @ref[actor.name]{creature} becomes @Condition[dead], it explodes in a pulse of <strong>Radiant</strong> energy which attacks the <strong>Fortitude</strong> defense of all nearby creatures that fail to resist the effect and upon critical success afflicting them with the @Condition[irradiated] condition for <strong>3 rounds</strong>.</p>",
           "condition": "The creature becomes Dead."
         }
       }
@@ -380,7 +458,7 @@
       "actions": {
         "restrainingChomp": {
           "name": "Restraining Chomp",
-          "description": "<p>The creature chomps down upon its target. If the attack is successful and the target is equal or lesser in <strong>Size</strong>, the target is also <strong>Restrained</strong> until this creature chooses to release it or the restraint is otherwise broken. Only one target may be restrained by this action at a given time.</p>",
+          "description": "<p>The creature chomps down upon its target. If the attack is successful and the target is equal or lesser in <strong>Size</strong>, the target is also @Condition[restrained] until this creature chooses to release it or the restraint is otherwise broken. Only one target may be restrained by this action at a given time.</p>",
           "effects": [
             {
               "name": "Restraining Chomp"
@@ -396,10 +474,7 @@
         "sacrificeSelf": {
           "name": "Sacrifice Self",
           "description": "<p>The @ref[actor.name]{creature} reacts, performing a <strong>Movement</strong> up to their <strong>Stride </strong>to interpose itself between a nearby ally and some source of harm which it can perceive.</p><p>The @ref[actor.name]{creature} becomes @Condition[dead], destroyed in their sacrifice, but the triggering action causes no effects to its original target.</p>",
-          "condition": "A nearby ally is targeted by a hostile action.",
-          "effects": [
-            {}
-          ]
+          "condition": "A nearby ally is targeted by a hostile action."
         }
       }
     },
@@ -439,26 +514,53 @@
       "actions": {
         "slipperyEscape": {
           "name": "Slippery Escape",
-          "description": "<p>The creature uses it slippery form to escape restraints, immediately ending the <strong>Restrained</strong> condition.</p>"
+          "description": "<p>The creature uses it slippery form to escape restraints, immediately ending the @Condition[restrained] condition.</p>"
+        }
+      }
+    },
+    "Steam Vent": {
+      "name": "Steam Vent",
+      "description": "<p>Steam-powered constructs store dangerous amounts of superheated steam within their bodies that, if not discharged safely, can cause serious injury.</p>",
+      "actions": {
+        "steamVent": {
+          "name": "Steam Vent",
+          "description": "<p>Superheated steam bursts forth from inside the steam-powered construct in a burst of searing damage, knocking back those standing too close and leaving them @Condition[prone] .</p>"
         }
       }
     },
     "Sunlight Weakness": {
       "name": "Sunlight Weakness",
-      "description": "<p>While in sunlight, the @ref[actor.name]{creature} suffers <strong>2 Banes</strong> to all actions. </p><p>This mechanic is handled through an <strong>Active Effect</strong> that is easily toggled when applicable.</p>"
+      "description": "<p>While in sunlight, the @ref[actor.name]{creature} suffers <strong>2 Banes</strong> to all actions. </p><p>This mechanic is handled through an <strong>Active Effect</strong> that is easily toggled when applicable.</p>",
+      "effects": {
+        "Sunlight Weakness": {
+          "name": "Sunlight Weakness",
+          "description": "<p>The creature suffers banes to all actions when exposed to sunlight.</p>"
+        }
+      }
     },
     "Swallow": {
       "name": "Swallow",
-      "description": "<p>@Ref[actor.name]{This creature} has the capability of swallowing creatures smaller than them whole, though only one creature may be affected by this action at a time.</p>",
+      "description": "<p>The @ref[actor.name]{creature} can swallow whole a creature whose Size is at least 2 less than its own. Only one creature may be swallowed at a time, unless an additional creature is one-quarter of this creature's Size or less.</p>",
       "actions": {
         "swallow": {
           "name": "Swallow",
-          "description": "<p>You swallow a target enemy, effectively removing that foe from combat. The swallowed target is @Condition[blinded] and @Condition[restrained] until released.</p><p>If you take <strong>Severe</strong> damage, are <strong>Wounded</strong>, or are rendered @Condition[incapacitated] you regurgitate the swallowed creature.</p>",
+          "description": "<p>You swallow a target enemy, effectively removing that foe from combat. The swallowed target is @Condition[blinded] and @Condition[restrained] until released.</p><p>If you become @Condition[stunned], @Condition[incapacitated], or @Condition[weakened], you regurgitate every swallowed creature.</p>",
           "effects": [
-            {}
+            {},
+            {
+              "name": "Swallowing"
+            }
           ]
+        },
+        "regurgitate": {
+          "name": "Regurgitate",
+          "description": "<p>You expel every creature you have swallowed, returning them to the space around you and ending the @Condition[blinded] and @Condition[restrained] conditions imposed by your gullet.</p>"
         }
       }
+    },
+    "Swarm": {
+      "name": "Swarm",
+      "description": "<p>This adversary is a group of many identical creatures that operate as a single swarming throng of foes.</p><ul><li><p>Maximum <strong>Health</strong> is doubled.</p></li><li><p>Against any single-target source of damage, the swarm gains additional <strong>Resistance</strong> equal to its <strong>Toughness</strong>.</p></li><li><p>The swarm's <strong>Size</strong> decreases as its Health is depleted until reaching a minimum Size of 2.</p></li></ul>"
     },
     "Swooping Strike": {
       "name": "Swooping Strike",
@@ -481,16 +583,24 @@
       "actions": {
         "tailSweep": {
           "name": "Tail Sweep",
-          "description": "<p>The @ref[actor.name]{creature} sweeps its heavy tail in a circular arc, striking all creatures within range. On a <strong>Critical Hit</strong>, affected targets become @Condition[staggered] for until the end of their next turn.</p>",
-          "effects": [
-            {}
-          ]
+          "description": "<p>The @ref[actor.name]{creature} sweeps its heavy tail in a circular arc, striking all creatures within range. On a <strong>Critical Hit</strong>, affected targets become @Condition[staggered] for until the end of their next turn.</p>"
+        }
+      }
+    },
+    "Terrifying Presence": {
+      "name": "Terrifying Presence",
+      "description": "<p>Something about the presence of this creature motivates a pure and unbridled fear in those who observe it.</p>",
+      "actions": {
+        "terrifyingPresence": {
+          "name": "Terrifying Presence",
+          "description": "<p>When an enemy moves within 20 feet of the @ref[actor.name]{creature}, it becomes exposed to the dreadful presence, attacking its <strong>Willpower</strong> and inflicting the @Condition[frightened] condition upon success.</p>",
+          "condition": "An enemy moves within 20 feet."
         }
       }
     },
     "Thermal Vision": {
       "name": "Thermal Vision",
-      "description": "<p>The @ref[actor.name]{Creature} perceives the world through differences in temperature with precision, allowing it to locate creatures which are warm-blooded or otherwise emit heat up to 60 feet away as long as they are not behind total cover and you are not Blinded or Incapacitated. A creature detected using this Thermal Vision is treated as visible for the purposes of actions which require you to see your target.</p><p></p>"
+      "description": "<p>The @ref[actor.name]{Creature} perceives the world through differences in temperature with precision, allowing it to locate creatures whose bodily temperature deviates from ambient norms.</p><p>This allows detection of creatures whose body temperatures are <strong>Gelid</strong>, <strong>Cool</strong>, <strong>Warm</strong>, or <strong>Boiling</strong> up to 60 feet away as long as they are not behind total cover and as long as the @ref[actor.name]{creature} is not @Condition[blinded] or @Condition[incapacitated]. A creature detected in this way is treated as visible for the purposes of Actions which require sight.</p>"
     },
     "Thrash": {
       "name": "Thrash",
@@ -498,7 +608,7 @@
       "actions": {
         "thrash": {
           "name": "Thrash",
-          "description": "<p>The creature deals <strong>Deadly</strong> damage to a target that it currently has <strong>Restrained</strong>.</p>",
+          "description": "<p>The creature deals <strong>Deadly</strong> damage to a target that it currently has @Condition[restrained].</p>",
           "condition": "The target is Restrained by this creature."
         }
       }
@@ -509,10 +619,7 @@
       "actions": {
         "tramplingCharge": {
           "name": "Trampling Charge",
-          "description": "<p>The @ref[actor.name]{creature} moves forward up to twice its <strong>Stride</strong>, attacking the <strong>Reflex</strong> defense of all creatures in its path. Targets who are half the creature's size or smaller are @Condition[stunned] until the end of their next turn as they are slammed aside.</p>",
-          "effects": [
-            {}
-          ]
+          "description": "<p>The @ref[actor.name]{creature} moves forward up to twice its <strong>Stride</strong>, attacking the <strong>Reflex</strong> defense of all creatures in its path. Targets who are half the creature's size or smaller are @Condition[stunned] until the end of their next turn as they are slammed aside.</p>"
         }
       }
     },
@@ -522,7 +629,7 @@
       "actions": {
         "tuskCharge": {
           "name": "Tusk Charge",
-          "description": "<p>Charge in a direct line up to your Stride and make a Strike against the first creature you encounter. If successful, the target is knocked Prone.</p>",
+          "description": "<p>Charge in a direct line up to your Stride and make a Strike against the first creature you encounter. If successful, the target is knocked @Condition[prone].</p>",
           "effects": [
             {
               "name": "Tusk Charge"

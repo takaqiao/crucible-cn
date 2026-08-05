@@ -1,12 +1,5 @@
 {
   "label": "对手天赋\nAdversary Talents",
-  "mapping": {
-    "description": "system.description",
-    "actions": {
-      "path": "system.actions",
-      "converter": "actions_converter"
-    }
-  },
   "folders": {
     "Ooze": "软泥怪",
     "Charge": "冲锋",
@@ -26,7 +19,8 @@
     "Death": "死亡",
     "Breath": "呼吸",
     "Senses": "感知",
-    "Tail": "尾巴"
+    "Tail": "尾巴",
+    "Form": "形态"
   },
   "entries": {
     "Acid Absorption": {
@@ -105,6 +99,10 @@
           "name": "爆炸现身",
           "description": "<p>@ref[actor.name]{生物}以惊人而突然的力量从地下位置现身。该动作只能在该生物离开@Condition[burrowing]状态后立即发动。</p><p>@ref[actor.name]{生物}破土而出，对其武器射程内的所有敌人进行一次<strong>强化</strong>的<strong>打击</strong>。</p>",
           "condition": "在掘穴时。"
+        },
+        "submergingWithdrawal": {
+          "name": "潜地撤离 Submerging Withdrawal",
+          "description": "<p>@ref[actor.name]{该生物}以<strong>掘穴</strong>移动缩回地表之下，从当前位置转移他处。若在地下结束此移动，它将获得@Condition[burrowing]状态，在该状态下无法被基于光线的感知手段发现。</p><p>处于@Condition[staggered]、@Condition[stunned]、@Condition[slowed]或@Condition[paralyzed]状态时无法使用此动作。</p>"
         }
       }
     },
@@ -151,7 +149,13 @@
     },
     "Glider": {
       "name": "滑翔者 Glider",
-      "description": "<p>该@ref[actor.name]{生物}在下落时可以控制其移动，并且每下落20英尺，最多可以执行一次距离不超过其<strong>步幅</strong>的<strong>移动</strong>动作。</p><p>如果它以这种方式花费动作来移动，则在落地时不会受到坠落伤害。</p>"
+      "description": "<p>该@ref[actor.name]{生物}在下落时可以控制其移动，并且每下落20英尺，最多可以执行一次距离不超过其<strong>步幅</strong>的<strong>移动</strong>动作。</p><p>如果它以这种方式花费动作来移动，则在落地时不会受到坠落伤害。</p>",
+      "actions": {
+        "fallGlide": {
+          "name": "滑翔 Glide",
+          "description": "<p>@ref[actor.name]{该生物}以滑翔代替坠落，受控地向下飞行。该移动必须为下降，且不受坠落伤害。若该生物在仍处空中时结束滑翔，它将获得@Condition[flying]状态。</p>"
+        }
+      }
     },
     "Gloom Sight": {
       "name": "幽暗视觉 Gloom Sight",
@@ -445,7 +449,13 @@
     },
     "Sunlight Weakness": {
       "name": "阳光弱点 Sunlight Weakness",
-      "description": "<p>当处于阳光下时，@ref[actor.name]{生物} 的所有动作承受<strong>2 个祸骰</strong>。</p><p>此机制通过一个可在适用时轻松切换的<strong>主动 效果</strong>来处理。</p>"
+      "description": "<p>当处于阳光下时，@ref[actor.name]{生物} 的所有动作承受<strong>2 个祸骰</strong>。</p><p>此机制通过一个可在适用时轻松切换的<strong>主动 效果</strong>来处理。</p>",
+      "effects": {
+        "Sunlight Weakness": {
+          "name": "日光弱点 Sunlight Weakness",
+          "description": "<p>该生物暴露于日光下时，所有动作均承受祸骰。</p>"
+        }
+      }
     },
     "Swallow": {
       "name": "吞下 Swallow",
@@ -455,8 +465,15 @@
           "name": "吞下 Swallow",
           "description": "<p>你吞下一个敌方目标，实际上将该敌人移出战斗。被吞下的目标处于 @Condition[blinded] 和 @Condition[restrained] 状态，直到被释放。</p><p>如果你受到<strong>致命</strong>伤害、处于<strong>负伤</strong>状态，或陷入 @Condition[incapacitated]，你会将吞下的生物反刍出来。</p>",
           "effects": [
-            {}
+            {},
+            {
+              "name": "吞噬中 Swallowing"
+            }
           ]
+        },
+        "regurgitate": {
+          "name": "反吐 Regurgitate",
+          "description": "<p>你吐出所有已吞下的生物，将它们送回你周围的空间，并结束你的食道所施加的@Condition[blinded]与@Condition[restrained]状态。</p>"
         }
       }
     },
@@ -561,6 +578,133 @@
         "webSpinner": {
           "name": "织网者 Web Spinner",
           "description": "<p>该生物可以花费10分钟纺出一段新的蛛网，覆盖一个5英尺的区域。</p>"
+        }
+      }
+    },
+    "Blindsight": {
+      "name": "盲视 Blindsight",
+      "description": "<p>@ref[actor.name]{该生物}无需依靠视觉即可感知周遭，能察觉 60 尺内生物与物体的精确位置。它不受@Condition[blinded]、黑暗或隐形影响，凡以此方式察觉到的生物，对它而言均视为可见。</p>"
+    },
+    "Bloodless": {
+      "name": "无血 Bloodless",
+      "description": "<p>@ref[actor.name]{该生物}没有血液、要害器官或可供利用的弱点。它免疫@Condition[bleeding]状态，且针对它的<strong>打击</strong>其暴击阈值提高 2。</p>"
+    },
+    "Burnout": {
+      "name": "熔毁 Burnout",
+      "description": "<p>蒸汽驱动的构装体体内储有大量危险的过热蒸汽，若未能安全排出，可造成严重伤害。</p>",
+      "actions": {
+        "steamVent": {
+          "name": "熔毁 Burnout",
+          "description": "<p>@ref[actor.name]{该构装体}炸裂开来，喷涌出一阵烈焰与浓烟，攻击半径内每个目标的<strong>反射</strong>并造成<strong>火焰</strong>伤害。因此攻击受到伤害者将@Condition[blinded]持续 3 轮。</p>",
+          "condition": "@ref[actor.name]{该构装体}处于负伤状态"
+        }
+      }
+    },
+    "Corrosive Strikes": {
+      "name": "腐蚀打击 Corrosive Strikes",
+      "description": "<p>@ref[actor.name]{该生物}那具腐蚀性的躯体会灼烧它击中的一切。当它以近战攻击造成<strong>暴击</strong>并对生命值造成伤害时，目标将@Condition[corroding]持续 3 轮。</p>"
+    },
+    "Corrupting Death Burst": {
+      "name": "腐化死亡爆发 Corrupting Death Burst",
+      "description": "<p>当@ref[actor.name]{该生物}死亡时，它会炸裂为一团躁动的腐化能量。</p>",
+      "actions": {
+        "corruptingDeathBurst": {
+          "name": "腐化死亡爆发 Corrupting Death Burst",
+          "description": "<p>当@ref[actor.name]{该生物}进入@Condition[dead]状态时，它会爆散出一阵孢子脉冲，造成<strong>腐化</strong>伤害，攻击附近所有生物的<strong>坚韧</strong>防御；未能抵抗者受到伤害，若为大成功则使其陷入@Condition[decaying]状态持续<strong>3 轮</strong>。</p>",
+          "condition": "该生物进入死亡状态。"
+        }
+      }
+    },
+    "Crushing Leap": {
+      "name": "碾压跃击 Crushing Leap",
+      "description": "<p>此生物将庞大的身躯掷向空中，再以撼动地面的巨力砸落于敌人之上。</p>",
+      "actions": {
+        "crushingLeap": {
+          "name": "碾压跃击 Crushing Leap",
+          "description": "<p>你跃入空中，落在 30 尺内你能看见的一点上，以碾压之力轰然砸下。由此产生的<strong>爆破</strong>范围内的所有生物都要面对一次针对其<strong>反射</strong>的攻击，受到<strong>钝击</strong>伤害并被击倒为@Condition[prone]。爆破范围自你自身所占据的区域向外扩展，因此体型越大的生物砸落的范围也越广。此动作以你<strong>力量</strong>或<strong>坚韧</strong>中较高者进行增益。</p>"
+        }
+      }
+    },
+    "Dying Call": {
+      "name": "垂死呼号 Dying Call",
+      "description": "<p>当@ref[actor.name]{此生物}濒临死亡之际，它会发出最后一声呼号，警示附近同类它已被杀，并召唤它们前来复仇。</p>",
+      "actions": {
+        "dyingCall": {
+          "name": "垂死呼号 Dying Call",
+          "description": "<p>@ref[actor.name]{该生物}以垂死之举发出一声尖锐呼号，向附近的同类生物告知自身的死讯，它们会本能地被吸引至此处。</p>",
+          "condition": "该生物进入死亡状态。"
+        }
+      }
+    },
+    "Echolocation": {
+      "name": "回声定位 Echolocation",
+      "description": "<p>@ref[actor.name]{此生物}通过发出声波脉冲来感知世界，能精确探测形体，从而定位 60 尺内正在移动或以其他方式发出声响的生物，只要它们不处于全掩蔽之后即可。若该生物处于@Condition[deafened]状态，则无法使用此感官。</p><p>凡以@ref[name]探测到的生物，在需要看见目标的动作中均视为可见。</p>"
+    },
+    "Ensnare": {
+      "name": "缠捕 Ensnare",
+      "description": "<p>@ref[actor.name]{该生物}以善于攫取的触须、缠绕肢或臂膀远距离擒住猎物，将其拖入紧箍之中。</p>",
+      "actions": {
+        "ensnare": {
+          "name": "缠捕 Ensnare",
+          "description": "<p>@ref[actor.name]{该生物}伸出肢体擒住射程内的单一目标，攻击其<strong>反射</strong>。成功时目标被拖回其攻击范围内并陷入@Condition[restrained]状态。此动作仅可用于符合@Action[Compendium.crucible.talent.Item.unarmedCombatTra grapple]合法目标条件的生物。</p><p>该擒抱将持续到@ref[actor.name]{该生物}主动松开、目标挣脱，或另一个生物成为缠捕目标为止。</p>",
+          "effects": [
+            {
+              "name": "被缠捕 Ensnared"
+            }
+          ]
+        }
+      }
+    },
+    "Lightning Burst": {
+      "name": "电爆 Lightning Burst",
+      "description": "<p>@ref[actor.name]{该生物}能够产生并喷发强力的电能冲击。</p>",
+      "actions": {
+        "lightningBurst": {
+          "name": "电爆 Lightning Burst",
+          "description": "<p>@ref[actor.name]{该生物}在 15 尺爆破范围内喷发一道闪电冲击，攻击该范围内每个目标的<strong>反射</strong>并造成<strong>电力</strong>伤害。</p><p>造成<strong>暴击</strong>时，此攻击会使目标陷入@Condition[shocked]状态持续<strong>3 轮</strong>。</p>"
+        }
+      }
+    },
+    "Living Boulder": {
+      "name": "活体巨岩 Living Boulder",
+      "description": "<p>@ref[actor.name]{该生物}以自身的物理体量而非心智来引导大地之力。它使用<strong>大地符文</strong>时以<strong>坚韧</strong>而非<strong>感知</strong>进行增益。</p>"
+    },
+    "Maddening Shriek": {
+      "name": "致狂尖啸 Maddening Shriek",
+      "description": "<p>@ref[actor.name]{此生物}能发出极其尖利的刺耳嘶鸣，足以让听闻者暂时丧失听觉。</p>",
+      "actions": {
+        "maddeningShriek": {
+          "name": "致狂尖啸 Maddening Shriek",
+          "description": "<p>@ref[actor.name]{该生物}发出尖利刺耳的嘶鸣，攻击范围内所有目标的<strong>士气</strong>，并使其陷入@Condition[deafened]状态持续一轮。</p>"
+        }
+      }
+    },
+    "Polybrachial": {
+      "name": "多臂 Polybrachial",
+      "description": "<p>@ref[actor.name]{该生物}拥有众多可用于执行动作的手臂。无论它装备了什么物品，在施法或互动时始终视为有两只空手。</p>"
+    },
+    "Steam Vent": {
+      "name": "蒸汽喷口 Steam Vent",
+      "description": "<p>蒸汽驱动的构装体体内储有大量危险的过热蒸汽，若未能安全排出，可造成严重伤害。</p>",
+      "actions": {
+        "steamVent": {
+          "name": "蒸汽喷口 Steam Vent",
+          "description": "<p>过热蒸汽自蒸汽构装体内部喷涌而出，形成一阵灼人的爆发伤害，将站得过近者击退并使其@Condition[prone]。</p>"
+        }
+      }
+    },
+    "Swarm": {
+      "name": "群集 Swarm",
+      "description": "<p>此敌手是由众多同类生物组成的一群，作为单一的蜂拥群体行动。</p><ul><li><p>最大<strong>生命值</strong>翻倍。</p></li><li><p>面对任何单体伤害来源时，该群集获得等同于其<strong>坚韧</strong>的额外<strong>抗性</strong>。</p></li><li><p>随着生命值被消耗，群集的<strong>体型</strong>会随之下降，最低降至体型 2。</p></li></ul>"
+    },
+    "Terrifying Presence": {
+      "name": "骇人威压 Terrifying Presence",
+      "description": "<p>此生物的存在本身透着某种气息，能在目睹者心中激起纯粹而无从抑制的恐惧。</p>",
+      "actions": {
+        "terrifyingPresence": {
+          "name": "骇人威压 Terrifying Presence",
+          "description": "<p>当敌人移动至@ref[actor.name]{该生物}20 尺范围内时，它便暴露于这股骇人威压之下，遭受一次针对其<strong>意志力</strong>的攻击，成功时使其陷入@Condition[frightened]状态。</p>",
+          "condition": "敌人移动至 20 尺范围内。"
         }
       }
     }

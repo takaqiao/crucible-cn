@@ -1,12 +1,5 @@
 {
   "label": "天赋\nTalents",
-  "mapping": {
-    "description": "system.description",
-    "actions": {
-      "path": "system.actions",
-      "converter": "actions_converter"
-    }
-  },
   "folders": {
     "Shield": "盾牌",
     "Toolbelt": "工具带",
@@ -605,7 +598,13 @@
     },
     "Evasive Shot": {
       "name": "闪避射击 Evasive Shot",
-      "description": "<p>你是精于使用远程武器装备射击并躲避敌人攻击的专家。进行一次远程武器攻击后，你获得额外的免费移动，距离为你<strong>移动</strong>的一半。</p>"
+      "description": "<p>你是精于使用远程武器装备射击并躲避敌人攻击的专家。进行一次远程武器攻击后，你获得额外的免费移动，距离为你<strong>移动</strong>的一半。</p>",
+      "actions": {
+        "evasiveShot": {
+          "name": "游走射击 Evasive Shot",
+          "description": "<p>在进行一次远程武器攻击之后，你可以免费移动至多相当于你<strong>步幅</strong>一半的距离。</p>"
+        }
+      }
     },
     "Executioner's Strike": {
       "name": "刽子手的打击 Executioner's Strike",
@@ -949,6 +948,10 @@
           "name": "审判官的打击 Inquisitor's Strike",
           "description": "当你可见且位于你交战半径内的一名敌人施放法术时，你可以反应，对该目标进行打击。若你造成重击，则该目标的法术被打断，魔法也随之消散。",
           "condition": "你的目标正在施放一个法术。"
+        },
+        "abjure": {
+          "name": "祛魔 Abjure",
+          "description": "<p>你以受过训练的意志对抗敌意巫术，瓦解其对你及附近盟友的掌控。为你自己以及 12 英尺内每一名正承受敌方施加的魔法状态的盟友，以其所受状态中最低的<strong>移除DC</strong>为目标进行一次<strong>奥术</strong>检定。凡移除DC低于你检定结果的状态，均被移除。</p>"
         }
       }
     },
@@ -1259,7 +1262,13 @@
     },
     "Operator": {
       "name": "操作者 Operator",
-      "description": "<p>你临危不乱，面对压力也能保持冷静。你的身体韧性与精神敏锐让你能在局势最危险、赌注最高时，将处境中的危险化为取得最佳结果的助力。</p><p>当你处于战斗中且未失能时，若你剩余生命值低于最大生命值的 50%，你在所有检定上获得 +1 恩惠。若你剩余生命值低于最大生命值的 25%，你在所有检定上获得 +2 恩惠。</p>"
+      "description": "<p>你临危不乱，面对压力也能保持冷静。你的身体韧性与精神敏锐让你能在局势最危险、赌注最高时，将处境中的危险化为取得最佳结果的助力。</p><p>当你处于战斗中且未失能时，若你剩余生命值低于最大生命值的 50%，你在所有检定上获得 +1 恩惠。若你剩余生命值低于最大生命值的 25%，你在所有检定上获得 +2 恩惠。</p>",
+      "actions": {
+        "coldFocus": {
+          "name": "冷静专注 Cold Focus",
+          "description": "<p>你消耗<strong>英雄气概</strong>，从所处境况中汲取冰冷的清明，恢复 1 点<strong>专注</strong>；你每缺失最大生命值的 25%，便额外恢复 1 点专注，最多 5 点。</p>"
+        }
+      }
     },
     "Opportunist": {
       "name": "机会主义者 Opportunist",
@@ -1277,6 +1286,11 @@
           "name": "扰乱射击 Disrupting Shot",
           "description": "当一名你能看见的敌人施放法术时，你可以用反应对该目标进行打击。这个技巧施展起来很困难，但如果造成暴击，该目标的法术会被打断，魔法也会消散。",
           "condition": "你的目标正在施放法术。"
+        },
+        "coveringFire": {
+          "name": "掩护射击 Covering Fire",
+          "description": "<p>你可以反应发动一次针对该敌人的远程打击。对施法者造成暴击时，法术被打断，魔法随之失效。指向自身且并非法术的动作（例如移动或防御）不会触发此反应；此反应每轮仅可使用一次。</p>",
+          "condition": "你能看见的敌人施放法术，或采取了以自身以外生物为目标的动作。"
         }
       }
     },
@@ -2052,6 +2066,329 @@
           "condition": "你正用一把重型武器对一名处于暴露状态的敌人进行攻击。"
         }
       }
+    },
+    "Storm Proficiency": {
+      "name": "闪电熟练度 Lightning Proficiency",
+      "description": "<p>你熟练于运用闪电符文来编织施法。使用此符文施放的法术可获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>此天赋最终还将为<strong>充能 </strong>动作提供一次强化，扩大其效果或加入新的使用选项。</p>"
+    },
+    "Rune: Storm": {
+      "name": "符文：闪电 Rune: Lightning",
+      "description": "<p>原始能量的混沌之力。闪电符文支配电荷的积聚与释放之源。</p><p>闪电符文使用 <strong>智力</strong> 进行成长，目标为 <strong>反射</strong>，并对 <strong>生命值</strong> 造成 <strong>闪电</strong> 伤害。它与秩序井然的 <strong>大地</strong> 符文相对立。</p>",
+      "actions": {
+        "energize": {
+          "name": "充能 Energize",
+          "description": "<p>你对闪电符文的掌控使你能够引导气元素与电流的流动，通过操纵电荷与空气动力学来产生以下效果之一：</p><ul><li><p>为你所触碰的一个不大于一立方英尺的金属物体注入电磁电荷，使其强力吸附于其他金属。任意时刻只能有一个物体以这种方式被充能；将此法术施加于不同物体时，先前物体会失去其磁性效果。</p></li><li><p>在你当前位置以六英尺半径聚集一阵狂风，使其要么作为一股朝单一受控方向吹袭的阵风，要么作为向各个方向施加向心力的气旋。附近区域中的悬空效果会被驱散，且重量小于1的未固定物体会被抛向阵风吹拂的方向。</p></li><li><p>在你当前所在位置15英尺内、你能看见的一个地点制造出如雷霆炸响般的震荡声音。</p></li></ul><p>充能只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+        }
+      }
+    },
+    "Acrid Earth": {
+      "name": "蚀酸之土 Acrid Earth",
+      "description": "<p>你驾驭大地一如化学家驾驭试剂，其腐蚀性的锋芒回应着锐利而透彻的心智。你使用<strong>大地符文</strong>时以<strong>智力</strong>而非<strong>感知</strong>进行增益。</p>"
+    },
+    "Acrobat": {
+      "name": "杂技家 Acrobat",
+      "description": "<p>你以杂技演员般流畅的优雅作战，把武器既当作兵刃也当作撑竿。持用<strong>平衡双手</strong>武器时，你的移动不会引发脱离攻击。翻飞的武器还能拨开来袭的投射物，使针对你的远程攻击承受<strong>+2 祸骰</strong>。</p>",
+      "actions": {
+        "vaultingSweep": {
+          "name": "撑跃横扫 Vaulting Sweep",
+          "description": "<p>你腾空跃起，落入敌群之中，武器划出令人目眩的弧线。选择你<strong>步幅</strong>范围内的一点并跃至该处，然后对落点处武器攻击范围内的每个生物发动一次<strong>打击</strong>。</p>"
+        }
+      }
+    },
+    "Artificer": {
+      "name": "工匠 Artificer",
+      "description": "<p>你擅长运用<strong>奥术</strong>、<strong>符文编织</strong>与<strong>附魔</strong>技艺，打造兼具巧思与实用的装备。你可以对装备进行临时改造，为其施加词缀附魔，或加深某项附魔的强度。</p>",
+      "actions": {
+        "imbueAffix": {
+          "name": "灌注词缀 Imbue Affix",
+          "description": "<p>在一次@Action[default rest]的过程中，你将奥术能量导入自己的装备，以临时附魔的形式镌刻一个<strong>词缀</strong>。选择一件具备附魔容量的实体物品，为其临时灌注一个你所选的<strong>第1阶</strong>词缀。所灌注的词缀会持续到你再次使用灌注词缀为止。</p><h3 class=\"divider\">试玩测试说明</h3><p>目前你可以灌注所选物品能够承载的任何词缀。在未来的更新中，这将被限制为你能够<strong>附魔</strong>的词缀。</p>"
+        },
+        "amplifyAffix": {
+          "name": "强化词缀 Amplify Affix",
+          "description": "<p>在一次@Action[default rest]的过程中，你加深自己某件物品上<strong>词缀</strong>附魔的效力。选择你所装备的一件实体物品上的一个词缀，将该词缀的阶提升一级，至多不超过其上限。此强化会持续到你再次使用强化词缀为止。</p>"
+        }
+      }
+    },
+    "Bastion": {
+      "name": "堡垒 Bastion",
+      "description": "<p>你已精通防守而立的技艺，化作一堵不可摧折的墙。当你处于@Condition[guarded]状态时，你获得以下增益：</p><ul><li><p>你无法被违背意愿地移动，也不会被击倒为@Condition[prone]。</p></li><li><p>敌人无法穿过你所占据的空间，即便使用通常可穿越生物的能力也不行。</p></li><li><p>你的<strong>交战</strong>值提高 +1，能牵制更多敌人。</p></li><li><p>你的<strong>反射</strong>防御按<strong>护甲</strong>与<strong>格挡</strong>防御之和计算（若更高），因为你是硬扛攻击而非闪避。针对你<strong>反射</strong>且被你抵挡下来的攻击，视为由<strong>格挡</strong>所防御。</p></li></ul>",
+      "actions": {
+        "getBehindMe": {
+          "name": "退到我身后 Get Behind Me",
+          "description": "<p>选择一名与你相邻的盟友，依据你使用此动作时的朝向，将其重新安置到你的正后方，使你自身挡在该盟友与其攻击者之间。</p><p>此移动不会引发脱离的反应，且受保护的盟友获得@Condition[guarded]状态，持续到其下一回合开始。</p>",
+          "effects": [
+            {
+              "name": "戒备 Guarded"
+            }
+          ]
+        }
+      }
+    },
+    "Champion": {
+      "name": "勇冠 Champion",
+      "description": "<p>你享受单挑的快意，立志成为以压倒性威能与不屈意志碾压对手的无双挑战者。你可以发出<strong>挑战</strong>，将一名敌手标记为你的<strong>被挑战</strong>目标，并对其攻击获得额外伤害。</p><p>你的专注如此炽烈，以致无人能逃出你的掌握。即便你处于@Condition[flanked]状态，你仍可对<strong>被挑战</strong>的敌手发动@Action[default reactiveStrike]；且只要你有专注可用，它便仅消耗 <strong>1点专注</strong>而非一个动作。</p>",
+      "actions": {
+        "challenge": {
+          "name": "挑战 Challenge",
+          "description": "<p>你挑出一名值得一战的对手，以纯粹的存在感将其束缚于一场决斗之中。该目标成为你的<strong>被挑战</strong>敌手，直到战斗结束、其被击败，或你挑战了另一名敌人为止。你同时只能有一名被挑战敌手。</p><p>当你的被挑战敌手是唯一与你交战的敌人时，你对这场决斗的沉浸会不断加深：在你每个回合结束时，你对该敌手的近战<strong>打击</strong>获得可叠加的 +1 <strong>额外伤害</strong>，上限等同于你的<strong>存在</strong>。若决斗被打断，此加值归零；打断的情形包括另一名敌人与你交战、你的敌手脱离你的<strong>交战</strong>范围，或你打击了任何其他生物。</p>",
+          "effects": [
+            {
+              "name": "支配 Dominance"
+            }
+          ]
+        }
+      }
+    },
+    "Disarming Riposte": {
+      "name": "缴械还击 Disarming Riposte",
+      "description": "<p>你的还击精准到足以将武器从敌人手中剥离。当你的@UUID[Compendium.crucible.talent.Item.counterriposte00]{反击还刺}造成<strong>暴击</strong>时，目标被缴械，丢下其主手武器。</p>"
+    },
+    "Duelist": {
+      "name": "决斗者 Duelist",
+      "description": "<p>你享受单挑的快意与其中娴熟的技艺，采用一种手持单手武器而副手空置的战斗风格。</p><p>当你以一只手持单手近战武器、另一只手空置时，只要你未处于@Condition[flanked]状态，便获得 <strong>+2</strong> <strong>招架</strong>防御加值。在满足这些条件的情况下，任何对你<strong>护甲</strong>造成<strong>擦过</strong>的攻击将改判为<strong>招架</strong>。</p>",
+      "actions": {
+        "estocade": {
+          "name": "决胜刺 Estocade",
+          "description": "<p>你对已被你逼入劣势的敌人递出一记精准而决定性的突刺。你以主手武器发动一次<strong>强化</strong>且<strong>敏锐</strong>的<strong>打击</strong>。</p><p>你只能对处于@Condition[exposed]、@Condition[prone]、@Condition[slowed]、@Condition[staggered]、@Condition[paralyzed]状态，或主手武器已被缴械的目标使用此攻击。</p>"
+        }
+      }
+    },
+    "Flash Frost": {
+      "name": "瞬霜 Flash Frost",
+      "description": "<p>你以思绪之速冻结万物，寒意在刹那间袭至，而非缓缓蔓延。你使用<strong>霜冻符文</strong>时以<strong>智力</strong>而非<strong>感知</strong>进行增益。</p>"
+    },
+    "Gambit": {
+      "name": "博弈 Gambit",
+      "description": "<p>有人照章法而战，你照胜率而战。每一次交手都是一场赌局：你读出对手的意图，下危险的注诱其过度投入，再把一切押在足以扭转局面的收益上。你信赖自己的直觉、机敏与几分奥术花招来把胜率扳向自己这边，获得以下增益：</p><ul><li><p><em>破绽。</em>你能在一击掷出之前就看穿它。若你的<strong>智力</strong>更高，你的<strong>闪避</strong>防御以<strong>智力</strong>而非<strong>敏捷</strong>计算。</p></li><li><p><em>灌铅骰。</em>命运偏向那些推它一把的人。每轮一次，当你在任何骰子上首次掷出 1 时，该骰重掷，并采用新的结果。</p></li><li><p><em>加注。</em>当你发动@Action[default strike]时，你可以选择向自己押上额外的<strong>祸骰</strong>。若该打击命中敌人，你获得等同于所押祸骰数量的<strong>博弈</strong>筹码。这些筹码会持续累积，直到战斗结束或被花掉为止。</p></li></ul>",
+      "actions": {
+        "gambitAllIn": {
+          "name": "全押 All-In",
+          "description": "<p>你此前下过的每一注都到了兑现之时，一次性全部收回。你本回合接下来的攻击或检定，其骰池中每一颗骰子都掷出最大可能结果。若该动作会进行多次掷骰，则仅第一次取最大值。你可以花费 6 点<strong>博弈</strong>筹码或 1 点<strong>英雄气概</strong>来启动此动作。</p>"
+        }
+      }
+    },
+    "Gathering Storm": {
+      "name": "风暴酝酿 Gathering Storm",
+      "description": "<p>你明白风暴并非骤然而至的混乱，而是一股耐心积蓄、不得不发时方才爆裂的力量。你使用<strong>风暴符文</strong>时以<strong>感知</strong>而非<strong>智力</strong>进行增益。</p>"
+    },
+    "Harrier": {
+      "name": "扰袭者 Harrier",
+      "description": "<p>你紧咬那些宁愿远距离与你交手的敌人。每当与你交战的敌人发动一次未标记为<strong>近战</strong>的攻击时，你可以对其发动一次@Action[default reactiveStrike]。</p>"
+    },
+    "Hulking Physique": {
+      "name": "魁伟体魄 Hulking Physique",
+      "description": "<p>你魁梧的骨架膨胀出原始的体量。你的<strong>体型</strong>提高 1，但庞大的身躯拖慢了你：你的<strong>步幅</strong>与<strong>闪避</strong>防御各降低 2。</p>"
+    },
+    "Juggernaut": {
+      "name": "碾压者 Juggernaut",
+      "description": "<p>你在体魄的较量中如鱼得水，凭借非凡的蛮力与坚毅压制那些体量甚至超越你的生物。当你@Action[Compendium.crucible.talent.Item.unarmedCombatTra grapple]一个生物时，你自身不会陷入@Condition[restrained]状态。你可以擒抱、以及可被其擒抱的生物<strong>体型</strong>提高 +1。</p>",
+      "actions": {
+        "throw": {
+          "name": "投掷 Throw",
+          "description": "<p>你将@Action[Compendium.crucible.talent.Item.unarmedCombatTra grapple]的目标掷向空中，飞往至多相当于你<strong>力量</strong>数值两倍距离的一点。</p><p>你以<strong>运动</strong>技能攻击被擒抱目标的<strong>反射</strong>防御。成功时目标被掷出并陷入@Condition[prone]。若其移动被墙壁或另一生物中途阻断，它会撞上障碍物并因该攻击受到<strong>钝击</strong>伤害。被掷入开阔空间的生物不因投掷本身受到伤害，但可能会@Action[default fall]。</p><p>无论结果如何，作为此动作的一部分，你的擒抱都会解除。</p>",
+          "condition": "你正擒抱着一个生物。",
+          "effects": [
+            {
+              "name": "投掷 Throw"
+            }
+          ]
+        },
+        "overrun": {
+          "name": "冲撞 Overrun",
+          "description": "<p>你压低肩膀直线冲锋，把挡路者尽数撞翻。</p><p>沿直线移动至多相当于你<strong>步幅</strong>两倍的距离，穿过任何你能够@Action[Compendium.crucible.talent.Item.unarmedCombatTra grapple]的生物所占空间。你以<strong>运动</strong>技能攻击每个目标的<strong>反射</strong>防御，成功时造成<strong>钝击</strong>伤害并将该生物击倒为@Condition[prone]。</p><p>你的冲锋会被任何庞大到你无法擒抱的生物所阻止，该生物不受此攻击影响。</p>",
+          "effects": [
+            {
+              "name": "冲撞 Overrun"
+            }
+          ]
+        }
+      }
+    },
+    "Peltast": {
+      "name": "掷兵 Peltast",
+      "description": "<p>对你而言，投掷武器不是脱手，而是导引。离手的武器受一种奥术法度牵引，其轨迹随你心意而弯折，赋予你的投掷以无人徒臂可及的射程与精度。你掷出的武器会分毫不差地回到手中。你获得以下增益：</p><ul><li><p>你可以用任何近战武器或盾牌@Action[default throwWeapon]并发挥完整效力，即使它们本非为投掷而设计。</p></li><li><p>带有<strong>投掷</strong>属性、专为投掷设计的武器在你手中射程增加 10 英尺，可达 20 英尺。</p></li><li><p>你掷出的武器会自动并立即回到你手中。</p></li></ul>",
+      "actions": {
+        "ricochet": {
+          "name": "跳弹 Ricochet",
+          "description": "<p>对射程内的一名敌人发动一次<strong>投掷</strong>武器攻击。在你奥术直觉的导引下，你的武器会继续弹向最近的敌人，最大距离等同于你的<strong>智力</strong>，除非有墙壁阻断其路径。</p><p>该武器会不断在敌人之间弹跳，每名敌人仅命中一次，直到命中的敌人数量达到你<strong>智力</strong>的一半为止。</p><p>对每个被命中的敌人分别结算一次攻击。第一个之后的每个目标，随着投掷动能衰减，累计承受 -1 <strong>伤害</strong>。</p>"
+        }
+      }
+    },
+    "Primalist": {
+      "name": "原初术士 Primalist",
+      "description": "<p>元素符文的效力在你体内流淌。通过采取某种元素<strong>架式</strong>，你将一道符文导入自己的武器打击之中。你可以进入你所知晓的某个元素符文的架式：</p><ul><li><p>@UUID[Compendium.crucible.talent.Item.runeEarth0000000]{符文：大地}</p></li><li><p>@UUID[Compendium.crucible.talent.Item.runeFlame0000000]{符文：火焰}</p></li><li><p>@UUID[Compendium.crucible.talent.Item.runeFrost0000000]{符文：霜冻}</p></li><li><p>@UUID[Compendium.crucible.talent.Item.runeStorm0000000]{符文：风暴}</p></li></ul><p>你每<strong>回合</strong>可进入或更换架式一次，所进入的架式会持续到你更换它或战斗结束为止。处于某个架式中时，凡是为使用该符文的动作施加暴击效果的天赋或特性，同样适用于你的武器打击。</p>",
+      "actions": {
+        "stormStance": {
+          "name": "风暴架式 Storm Stance",
+          "description": "<p>你摆出<strong>风暴架式</strong>，导引风暴符文。处于此架式时，你的<strong>步幅</strong>提高 2。</p>",
+          "condition": "你知晓风暴符文。",
+          "effects": [
+            {
+              "name": "风暴架式 Storm Stance"
+            }
+          ]
+        },
+        "cinderStance": {
+          "name": "余烬架式 Cinder Stance",
+          "description": "<p>你摆出<strong>余烬架式</strong>，导引火焰符文。处于此架式时，你的武器打击额外造成 2 点<strong>火焰</strong>伤害。</p>",
+          "condition": "你知晓火焰符文。",
+          "effects": [
+            {
+              "name": "余烬架式 Cinder Stance"
+            }
+          ]
+        },
+        "waterStance": {
+          "name": "流水架式 Water Stance",
+          "description": "<p>你摆出<strong>流水架式</strong>，导引霜冻符文。处于此架式时，你的<strong>反射</strong>、<strong>坚韧</strong>与<strong>意志力</strong>防御各获得 +1。</p>",
+          "condition": "你知晓霜冻符文。",
+          "effects": [
+            {
+              "name": "流水架式 Water Stance"
+            }
+          ]
+        },
+        "stoneStance": {
+          "name": "磐石架式 Stone Stance",
+          "description": "<p>你摆出<strong>磐石架式</strong>，导引大地符文。处于此架式时，你对钝击、穿刺与挥砍伤害获得 +2 <strong>抗性</strong>。</p>",
+          "condition": "你知晓大地符文。",
+          "effects": [
+            {
+              "name": "磐石架式 Stone Stance"
+            }
+          ]
+        }
+      }
+    },
+    "Sage": {
+      "name": "贤者 Sage",
+      "description": "<p>你博闻强识，学养遍及各个领域。凭借严谨的钻研与灵光乍现的顿悟，你能在关键时刻唤起<strong>知识</strong>来助你一臂之力。</p>",
+      "actions": {
+        "flashBrilliance": {
+          "name": "灵光乍现 Flash of Brilliance",
+          "description": "<p>你消耗<strong>英雄气概</strong>，经历一瞬间彻底通透的绝妙清明。直到你下一回合结束为止，你视为拥有所有形式的<strong>知识</strong>。</p>",
+          "effects": [
+            {
+              "name": "灵光乍现 Flash of Brilliance"
+            }
+          ]
+        },
+        "fieldStudy": {
+          "name": "实地研习 Field Study",
+          "description": "<p>在一次@Action[default rest]的过程中，你专心研习一个选定的<strong>知识</strong>领域。休息结束时，你在接下来的 24 小时内、或直到再次使用此动作为止，获得该项知识。</p>",
+          "effects": [
+            {
+              "name": "实地研习 Field Study"
+            }
+          ]
+        }
+      }
+    },
+    "Sentinel": {
+      "name": "哨卫 Sentinel",
+      "description": "<p>你惩戒那些试图从你防线溜过的敌人。当你以@Action[default reactiveStrike]对敌人造成伤害时，该生物陷入@Condition[slowed]状态，直到其下一回合结束。</p>"
+    },
+    "Spiritbreaker": {
+      "name": "破魂者 Spiritbreaker",
+      "description": "<p>你向心智本身宣战，瓦解敌人的意志。你那些直接攻击<strong>士气</strong>的动作更容易寻得生物意志中的裂隙，使你的<strong>暴击阈值</strong>降低 2。</p><p>当你使目标陷入@Condition[broken]状态时，其心灵所受的冲击会使目标@Condition[stunned]，直到其下一回合结束。</p>"
+    },
+    "Telekinetic": {
+      "name": "念力者 Telekinetic",
+      "description": "<p>你驾驭动能已臻娴熟，可随心弯折物体与生物的行进轨迹。</p><ul><li><p>每回合一次，当你对一个法术施加@UUID[Compendium.crucible.talent.Item.inflectionpush00]{屈折：推挤}或@UUID[Compendium.crucible.talent.Item.inflectionpull00]{屈折：拉拽}时，你无视该屈折的<strong>专注</strong>消耗。</p></li><li><p>你使用@Action[Compendium.crucible.talent.Item.runeKinesis00000 propel]动作进行拉拽、弹拨或悬置时，作用距离翻倍。</p></li><li><p>你解锁<strong>念力飞行</strong>动作，将自身悬于空中以飞行与悬停。</p></li></ul>",
+      "actions": {
+        "telekineticFlight": {
+          "name": "念力飞行 Telekinetic Flight",
+          "description": "<p>你借动能之流将自身悬于空中，获得@Condition[flying]状态以飞行与悬停。你每轮需消耗<strong>专注</strong>维持此效果；若你陷入@Condition[incapacitated]状态，效果即告终止。</p>",
+          "effects": [
+            {
+              "name": "念力飞行 Telekinetic Flight"
+            }
+          ]
+        }
+      }
+    },
+    "Warchanter": {
+      "name": "战吟者 Warchanter",
+      "description": "<p>你是一名战阵歌者，将战争的喧嚣化为力量，吟唱随你自己的挥击节奏而起伏。你知晓六首<strong>战吟</strong>：三首强化盟友的<strong>战歌</strong>，与三首削弱敌人的<strong>挽歌</strong>。你可以将多首战吟交织在一起，谱成不断演进的战阵合唱，但你需要持续以武器命中来为其歌声供能。</p><p>起吟会在你周围形成一圈灵光，在其他生物各自的回合影响它们，并持续一轮。每当你以<strong>近战</strong>攻击成功命中时，你最接近失效的那首战吟便延长一<strong>轮</strong>。</p>",
+      "actions": {
+        "songOfMight": {
+          "name": "泰坦伟力之歌 Song of the Titan's Might",
+          "description": "<p>你唱起献给<strong>泰坦</strong>的雷鸣颂歌——祂的力量曾倾覆巨兽。你与 <strong>15 英尺</strong>内的友方生物获得 <strong>+1 力量</strong>与 <strong>+1 感知</strong>。</p>",
+          "effects": [
+            {
+              "name": "泰坦伟力之歌 Song of the Titan's Might"
+            }
+          ]
+        },
+        "songOfAlacrity": {
+          "name": "猎手迅捷之歌 Song of the Hunter's Alacrity",
+          "description": "<p>你放声唱出献给<strong>猎手</strong>的高扬旋律——祂步履如风、目不虚发。你与 <strong>15 英尺</strong>内的友方生物获得 <strong>+1 敏捷</strong>与 <strong>+1 智力</strong>。</p>",
+          "effects": [
+            {
+              "name": "猎手迅捷之歌 Song of the Hunter's Alacrity"
+            }
+          ]
+        },
+        "songOfEndurance": {
+          "name": "山岳坚忍之歌 Song of the Mountain's Endurance",
+          "description": "<p>你吟诵献给<strong>山岳</strong>的深根圣歌——祂历经万世而不折。你与 <strong>15 英尺</strong>内的友方生物获得 <strong>+1 坚韧</strong>与 <strong>+1 存在</strong>。</p>",
+          "effects": [
+            {
+              "name": "山岳坚忍之歌 Song of the Mountain's Endurance"
+            }
+          ]
+        },
+        "dirgeOfFeebleness": {
+          "name": "蠕虫孱弱之挽歌 Dirge of the Worm's Feebleness",
+          "description": "<p>你哼起一支嘲弄的哀调，把敌人唤作只配匍匐的爬行<strong>蠕虫</strong>。<strong>15 英尺</strong>内的敌方生物对其所有动作承受 <strong>1 点祸骰</strong>。</p>",
+          "effects": [
+            {
+              "name": "蠕虫孱弱之挽歌 Dirge of the Worm's Feebleness"
+            }
+          ]
+        },
+        "dirgeOfLethargy": {
+          "name": "饕餮怠惰之挽歌 Dirge of the Glutton's Lethargy",
+          "description": "<p>你低吟一曲拖沓的安魂曲，献给臃肿慵懒、动弹不得的<strong>饕餮</strong>。<strong>15 英尺</strong>内的敌方生物失去<strong>自由移动</strong>，且<strong>步幅</strong>降低 2。</p>",
+          "effects": [
+            {
+              "name": "饕餮怠惰之挽歌 Dirge of the Glutton's Lethargy"
+            }
+          ]
+        },
+        "dirgeOfFragility": {
+          "name": "空壳脆裂之挽歌 Dirge of the Husk's Fragility",
+          "description": "<p>你为那空洞欲碎的<strong>空壳</strong>唱起一支易折的哀歌。<strong>15 英尺</strong>内的敌方生物对所有伤害类型承受 2 点<strong>易伤</strong>。</p>",
+          "effects": [
+            {
+              "name": "空壳脆裂之挽歌 Dirge of the Husk's Fragility"
+            }
+          ]
+        }
+      }
+    },
+    "Warden": {
+      "name": "守林者 Warden",
+      "description": "<p>你是古老传统的守护人，一名召唤自然先祖魂灵来庇护麾下之人的战斗德鲁伊。</p><p>你使用@Action[Compendium.crucible.talent.Item.warden0000000000 ancestralGrove]召唤出一片自然庇护区域，其源头是先祖守护者的灵体投影。</p><h3 class=\"divider\">试玩测试</h3><p>先祖守护者所散发的被动抗性灵光尚未完全自动化，有待灵光与区域功能的进一步完善。</p>",
+      "actions": {
+        "ancestralGrove": {
+          "name": "先祖树林 Ancestral Grove",
+          "description": "<p>你召唤出一位@UUID[Compendium.crucible.summons.Actor.ancestralGuard00]{先祖守护者}，其显现于 30 英尺内你能看见的一点。该守护者是一个无形魂灵，无法被伤害或移动。生物可以穿过它所占的空间，但在判定敌人是否被@Condition[flanked]时，它计为三个生物。</p><p>该守护者散发出一圈半径 20 英尺的灵光，使盟友对所有伤害类型的<strong>抗性</strong>提高 +2。</p><p>只要守护者尚存，你对此灵光范围内敌人的武器攻击便会引发生命力从敌人向盟友的转移。你的目标额外受到等同于你<strong>感知</strong>一半的<strong>毒素</strong>伤害，该伤害将转化为<strong>生命值</strong>，恢复给你自己或树林内当前生命值最低的一名盟友。</p><p>该守护者会持续到战斗结束，或直到守林者再次使用此动作为止。</p><p></p>",
+          "effects": [
+            {
+              "name": "先祖树林 Ancestral Grove"
+            }
+          ]
+        }
+      }
+    },
+    "Wizard": {
+      "name": "巫师 Wizard",
+      "description": "<p>你是精通奥术的学者，能在施法中保持流畅与势头。每回合一次，当你施放一个<strong>法术</strong>时，你可以将其部分魔力承接下来，使紧接着的下一个法术的<strong>专注</strong>消耗降低 1。</p>"
+    },
+    "Wrestler": {
+      "name": "摔角手 Wrestler",
+      "description": "<p>凭借杠杆与技巧，你能擒住并制住远比自己庞大的生物。你可以@Action[Compendium.crucible.talent.Item.unarmedCombatTra grapple]、以及可被其擒抱的生物体型提高 1。</p>"
     }
   }
 }

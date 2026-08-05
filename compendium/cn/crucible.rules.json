@@ -1,11 +1,5 @@
 {
   "label": "系统规则\nSystem Rules",
-  "mapping": {
-    "categories": {
-      "path": "categories",
-      "converter": "categories_converter"
-    }
-  },
   "folders": {
     "Game Mechanics": "游戏机制",
     "Getting Started": "入门"
@@ -99,6 +93,10 @@
         "Balance and Difficulty": {
           "name": "平衡与难度 Balance and Difficulty",
           "text": "<p>Crucible 的设计目标是提供一种具有挑战性的战斗体验，要求玩家进行战术思考、协同合作，并有效发展角色的能力。Crucible 中遭遇的平衡通过几个基本杠杆来管理。</p><ol><li><p>对手的<strong>等级</strong>与<strong>威胁</strong>评级可方便地进行成长调整，从而相对容易地根据不同队伍的等级或规模来调整难度。</p></li><li><p>英雄角色独有的次级<strong>创伤</strong>与<strong>疯狂</strong>池，它们会累积，并吸收因运气不佳带来的波动。</p></li><li><p><strong>游戏主持人</strong>，其在诠释每个战斗时刻的叙事需求方面扮演着关键角色。</p></li></ol><h2 class=\"divider\">平衡遭遇</h2><p>Crucible 中的遭遇通常会被平衡为：所有敌人的累计<strong>威胁</strong>等于英雄角色加上所有盟友非玩家角色的累计<strong>威胁</strong>。由于可以方便地调整某个 @UUID[Compendium.crucible.rules.JournalEntry.v1dqTT3NI35lFNxM.JournalEntryPage.WH0YSVcYo09aHNZ2]{对手 }的<strong>等级</strong>或<strong>威胁</strong>，因此很容易预先将遭遇调整到这一平衡点。</p><p>以这种方式平衡的遭遇，大约有 50% 的概率对队伍有利，也有 50% 的概率对敌人有利。这并不意味着队伍有一半时间会“失败”或“死亡”，而是说在 50% 的平衡遭遇中，队伍会承受一定数量的<strong>创伤</strong>。</p><h2 class=\"divider\">创伤用于调节运气</h2><p>这些<strong>创伤</strong>的累积，是英雄们必须在多场遭遇或数日过程中管理的内容。由于对手没有<strong>创伤</strong>，只有<strong>生命值</strong>，这是刻意给予英雄角色的一项优势。</p><p>在任何一场单独的平衡遭遇中，如果英雄们运气好或发挥出色，他们将在不承受任何<strong>创伤</strong>的情况下获胜。如果英雄们表现不佳或遭遇坏运气，他们很可能仍然会获胜，但会在过程中承受<strong>创伤</strong>。创伤是一种用于调节运气波动的机制，同时也要求队伍在大多数时候都能成为高效的战斗者。</p><h2 class=\"divider\">游戏主持人的角色</h2><p>最后，<strong>游戏主持人</strong>在确保战斗的乐趣与平衡方面扮演着关键角色。Crucible 中的敌人通常都经过优化，使其在自身主要的战斗风格上能非常高效。这么做是因为我们假定玩家角色在设计与成长过程中，也至少在一定程度上会以战斗效能为考量。</p><p>Crucible 的目标并不是<em>要求</em>每个玩家角色都必须经过最大化优化，也不是要求战斗中的每个决定都必须以胜利最优化为目标，而不是推动当前讲述的故事。因此，游戏主持人应当根据队伍的情况以及当前叙事时刻的需求，校准自己操作的优化程度。</p><p>Crucible 中的对手可以，也应该在其决策上有失误。敌人在战斗中可以，而且往往也应该，将其<strong>动作</strong>和<strong>专注</strong>花在那些能够维持紧张感与利害关系、并优先服务于故事需求的行为上，而不是专门以击败英雄为最优目标的行为。</p>"
+        },
+        "Blocking Movement": {
+          "name": "阻挡移动 Blocking Movement",
+          "text": "<p>生物所占的空间通常无法被另一个生物进入或穿越——普通移动会被挡在路上的任何人截停。某些能力可让生物强行挤过，其判定方式是比较移动方的<strong>移动强度</strong>与挡路者的<strong>阻挡强度</strong>。</p><p>只有当移动强度<em>大于</em>阻挡者的阻挡强度时，该移动才能穿过阻挡者；数值相同时，阻挡者守住位置。普通生物与普通移动的强度均为<strong>无</strong>，因此默认情况下谁也无法穿过谁。强力移动——<strong>猛冲</strong>、<strong>盾牌冲锋</strong>、<strong>冲撞</strong>、<strong>翻滚穿越</strong>之类——带有<strong>强力</strong>强度，可挤过普通生物。少数防御者，尤以处于戒备状态的<strong>堡垒</strong>为甚，会散发<strong>不可阻挡</strong>的阻挡强度，连强力移动也无法通过。</p><p>同样的比较也支配强制位移：只有当移动它的效果强度超过其阻挡强度时，生物才可被推动、拉拽或投掷。因此不可阻挡的生物无法被从原位推开。</p><h2 class=\"divider\">例外</h2><p>有两类移动完全无视阻挡强度，因为它们根本不曾<em>穿过</em>生物：</p><ul><li><p><strong>跳跃。</strong>腾跃的生物会从挡路者头顶越过，永远不会被阻挡。</p></li><li><p><strong>闪现。</strong>传送类移动——例如<strong>踏步</strong>法术手势——直接在目的地重新出现，同样不受阻碍。</p></li></ul>"
         }
       }
     },
@@ -146,30 +144,14 @@
     "Conditions": {
       "name": "状态 Conditions",
       "categories": {
-        "5rP6WfVYTY7yZlqe": {
-          "name": "概览 Overview"
-        },
-        "fO2oboVFGaNDqh8K": {
-          "name": "生命值 Health"
-        },
-        "84aHmNQvMBk7qXMZ": {
-          "name": "士气 Morale"
-        },
-        "BuMJalJaEUNCX29d": {
-          "name": "移动 Movement"
-        },
-        "J59YYFEcyNdGNrGQ": {
-          "name": "动作 Actions"
-        },
-        "SIxXwOOANW4yoN1D": {
-          "name": "防御 Defenses"
-        },
-        "NJl3nJduFtxh3ijV": {
-          "name": "察觉 Perception"
-        },
-        "rpL70eBEekWih461": {
-          "name": "持续伤害 Damage Over Time"
-        }
+        "Overview": "概览 Overview",
+        "Health": "生命值 Health",
+        "Morale": "士气 Morale",
+        "Movement": "移动 Movement",
+        "Actions": "动作 Actions",
+        "Defenses": "防御 Defenses",
+        "Perception": "察觉 Perception",
+        "Damage Over Time": "持续伤害 Damage Over Time"
       },
       "pages": {
         "Blinded": {
@@ -339,18 +321,30 @@
         "Shocked": {
           "name": "电击 Shocked",
           "text": "<p>处于<strong>电击</strong>状态的生物在每个<strong>回合</strong>开始时，其<strong>士气</strong>受到<strong>电击</strong><strong>伤害</strong>。</p>"
+        },
+        "Flying": {
+          "name": "飞行 Flying",
+          "text": "<p>身处空中、脚下没有任何支撑面的生物即为<strong>飞行</strong>状态。飞行中的生物不会坠落，强制移动也无法将其击落；被推动、拉拽或击退的飞行生物会在空中发生位移而不坠落。</p><section class=\"foundryvtt\"><h4>自动化</h4><p>当生物使用<strong>飞行</strong>移动动作结束自身移动时，飞行状态会被自动施加；当该生物之后以任何其他移动动作结束移动时，该状态会被自动移除。</p></section>"
+        },
+        "Limitless": {
+          "name": "无限 Limitless",
+          "text": "<p><strong>无限</strong>生物使用任何动作时都不消耗行动、专注或英雄气概。此状态主要用于系统测试，并非为常规游戏设计。</p>"
+        },
+        "Removing Effects": {
+          "name": "移除效果 Removing Effects",
+          "text": "<p>状态与其他主动效果通常在持续时间结束时终止。不过其中有些可以被提前解除——难度由该效果的<strong>移除DC</strong>决定。</p><h2>移除DC</h2><p>可被移除的效果带有一个数值<strong>移除DC</strong>。要在其持续时间结束前解除它，生物本身或代其行事的盟友需进行相应的技能检定，只有结果<em>超过</em>移除DC时该效果才被移除。没有移除DC的效果无法以此方式摆脱，只能硬扛到它自行结束。</p><p>当效果由某个动作施加时，其移除DC反映施加者的强度：通常为 12 加上该效果背后的相关属性与技能，或 12 加上施加者的等级。由更强大的敌人施加的效果，相应地也更难摆脱。</p><h2>效果属性</h2><p>主动效果可带有一项或多项<strong>属性</strong>，用以描述其本质并决定哪些能力可以作用于它：</p><ul><li><p><strong>魔法。</strong>该效果由魔法维系。所有由法术施加的效果都是魔法效果，且只有反魔法手段——驱散、净化之类——才能通过超越其移除DC来剥除魔法效果。非魔法的效果则免疫反魔法。</p></li></ul><h2>挣脱动作</h2><p>最常见的移除DC，是挣脱束缚时所面对的那一个。处于@Condition[restrained]状态的生物可以采取<strong>挣脱</strong>动作，花费 2 点行动点进行一次<strong>运动</strong>检定，对抗束缚它的诸效果中最低的移除DC。凡移除DC低于该结果的束缚效果均告终止；若某效果除受缚外还带有其他增益，则仅从中剥除受缚状态。</p>"
+        },
+        "Suffocating": {
+          "name": "窒息 Suffocating",
+          "text": "<p><strong>窒息</strong>的生物在每回合开始时对<strong>创伤</strong>与<strong>疯狂</strong>双双受到<strong>虚空</strong>伤害，代表因缺乏可呼吸空气而造成的肺部创伤与惊恐。处于窒息状态时，生物同时处于@Condition[silenced]状态。</p>"
         }
       }
     },
     "Crafting": {
       "name": "制作 Crafting",
       "categories": {
-        "UaoYAtq1fyu6uiPf": {
-          "name": "制作技艺 Tradeskills"
-        },
-        "UbGiQAlGSH8iwZhE": {
-          "name": "制作 Crafting"
-        }
+        "Tradeskills": "制作技艺 Tradeskills",
+        "Crafting": "制作 Crafting"
       },
       "pages": {
         "Tradeskills Overview": {
@@ -504,6 +498,27 @@
         "Archetype": {
           "name": "原型 Archetype",
           "text": "<p><strong>原型</strong>定义了《Crucible》中<strong>对手</strong>的技能与战斗风格。每个原型还会进一步定义一个分类法，以便：</p><ul><li><p>细化 @UUID[Compendium.crucible.rules.JournalEntry.characterMechani.JournalEntryPage.abilityScores000]{能力} 的成长权重（在分类法所定义的基础之上），</p></li><li><p>定义技能成长</p></li><li><p>配置任何自动获得的装备</p></li><li><p>提供一组自动获得的 @UUID[Compendium.crucible.rules.JournalEntry.characterMechani.JournalEntryPage.talents000000000]{天赋}</p></li></ul><section class=\"gameplay\"><h4>示例：战士原型</h4><p>久经磨炼的近战战斗者，擅长使用单手武器装备、盾牌和重型护甲。</p><p>战士原型定义了成长权重，从而强调力量与坚韧的更快成长、存在感与敏捷的普通成长，以及感知与智力的较慢成长。</p><p>此外，战士原型还提供<strong>军械武器 训练</strong>、<strong>壁垒</strong>和<strong>装甲效率</strong>天赋。</p></section><p>许多不同的对手会使用相同的原型。例如，2级<strong>强盗 战士</strong>、4级<strong>大地精 战士</strong>和7级<strong>地狱守卫</strong>都共享战士原型，但它们各自拥有不同的分类法，因此具有不同的属性和天赋，不过由于战士原型，它们都共享某种通用的成长特征。</p>"
+        },
+        "Swarms": {
+          "name": "群集 Swarms",
+          "text": "<p><strong>群集</strong>代表这样一个敌手：它实为大量较小生物协同构成的集群——一团蝙蝠、一地老鼠，或一柱翻涌的虫豸——作为单一实体共同战斗、共同覆灭。</p>\n<p>群集通常通过为其指定专门的@UUID[Compendium.crucible.archetype.Item.archetypeswarm00]{群集}原型，并搭配任何在设定上可以构成群集的基础@UUID[.qSeJNy28eK9axO7C]{分类}来建模。分类提供构成群集的个体生物的生物学特征；群集原型则将该分类重新诠释为蜂拥的群体，并授予@UUID[Compendium.crucible.adversary-talents.Item.swarm00000000000]天赋。</p>\n<p>@Embed[Compendium.crucible.adversary-talents.Item.swarm00000000000 inline]</p>\n<p>作为游戏主持人，投入一个群集会促使玩家调整并转变其战术思路。与其他敌手一样，群集也可拥有不同的<strong>威胁</strong>档位，从由<strong>爪牙</strong>级敌人构成的小型群集，到被视为<strong>首领</strong>级对手的单一巨型群集，可制造出各种类型的挑战。</p>"
+        }
+      }
+    },
+    "Exploration": {
+      "name": "探索 Exploration",
+      "pages": {
+        "Environmental Hazards": {
+          "name": "环境危害 Environmental Hazards",
+          "text": "<p>并非所有环境都宜居，有些会对生存构成实实在在的危险。以下规则用于处理英雄可能遭遇的危害——若长时间暴露其中，很可能危及性命。</p><h2 class=\"divider\">匮乏</h2><p>旅途环境或准备不足会消磨英雄的士气。虽然任何人都能在一段时间内突破身体所需的极限，但每个人都有极限。剥夺身体所需的食物、饮水或睡眠，会带来显著而持久的不良影响。</p><p>通常假定每位英雄在一次休息期间都摄入了足以维持自身的食物与饮水（或其他维生物质）；以下规则适用于这些物质无法获得的情形。</p><h3 class=\"divider\">脱水</h3><p>生物通常可在无水状态下维持 24 小时。此后，它将面对一个不断升级的<strong>严重</strong>危害，危险值等于无水天数的 10 倍，其中包括引发该危害的最初 24 小时。此危害须每日面对一次，具体时机由游戏主持人裁定，直到补足水分为止。首次脱水危害表示为：</p><ul><li><p>[[/hazard 10 fortitude health severe]]{脱水}</p></li></ul><p>每当生物未能抵抗脱水危害时，它还会承受一个次级危害，其危险值同样等于无水天数的 10 倍。</p><ul><li><p>[[/hazard 10 fortitude morale severe]]{致狂干渴}</p></li></ul><h3 class=\"divider\">饥饿</h3><p>饥饿的影响在三天全无营养来源之后开始显现。此后，生物将面对一个不断升级的<strong>严重</strong>危害，危险值等于无食天数，其中包括最初的 72 小时。此危害须每日面对一次，具体时机由游戏主持人裁定，直到摄入足够营养为止。首次饥饿危害表示为：</p><ul><li><p>[[/hazard 3 fortitude health severe]]{饥饿}</p></li></ul><p>每当生物未能抵抗饥饿危害时，它还会承受一个次级危害，其危险值同样等于无食天数。</p><ul><li><p>[[/hazard 3 fortitude morale severe]]{致狂饥渴}</p></li></ul><h3 class=\"divider\">睡眠剥夺</h3><p>生物通常可在无睡眠状态下维持 24 小时的最佳效能。到那时，以及此后每一个未能获得充分休息的日子，它都将面对一个不断升级的危害，危险值等于无眠天数的 2 倍。首次睡眠剥夺危害表示为：</p><ul><li><p>[[/hazard 4 willpower morale]]{睡眠剥夺}</p></li></ul><p>若未能抵抗此危害，它将陷入@Condition[exhausted]状态，直到成功完成一次休息为止。若该生物是被某种生理、心理或魔法效果强行剥夺睡眠，则睡眠剥夺危害改为<strong>严重</strong>，并造成<strong>疯狂</strong>的累积。</p><h2 class=\"divider\">严重危害</h2><p>这些危害规则代表的是：所有技能检定、天赋或其他可缓解处境的手段都未能救下英雄的情形。虽然一般认为某些技能能让会游泳的角色免于溺毙、让经验丰富的攀爬者免于坠落，但一旦所有抵抗危害的机会都告失败，便适用以下伤害规则。</p><h3 class=\"divider\">窒息</h3><p>无论是完全没入水中、笼罩于呛人毒气之中，还是被数吨泥土掩埋，凡长时间彻底丧失呼吸能力的角色都会开始窒息。</p><p>在超过 2 分钟无法接触空气（且无天赋或魔法提供空气）的角色会陷入@Condition[suffocating]状态，对创伤与疯狂双双造成严重伤害，并每轮持续发生，直至其不可避免的死亡。受窒息影响的角色同时处于@Condition[silenced]状态。</p><h3 class=\"divider\">坠落</h3><p>在寻常冒险中攀爬障碍并不罕见，但英雄并不能免于凶险坠落的危害。虽然常有机会以一次恰到好处的运动技能检定来避免难看的摔落，但有时英雄就是无法阻止自己翻下崖边。坠落可视为具有三个严重程度。</p><dl><dt><p>10 英尺及以下</p></dt><dd><p>不面对正式危害，此高度坠落造成的任何伤害或不便都仅为表面性的。</p></dd></dl><dl><dt><p>11 至 30 英尺</p></dt><dd><p>生物面对一个挑战其<strong>反射</strong>防御的危害，对<strong>生命值</strong>造成<strong>钝击</strong>伤害。该危害的危险值等于以英尺计的坠落距离。例如，25 英尺的坠落：</p><p>[[/hazard 25 reflex health bludgeoning]]{轻度坠落}</p><p>除非抵抗成功，否则该生物还会陷入@Condition[prone]状态。</p></dd></dl><dl><dt><p>31 英尺及以上</p></dt><dd><p>生物面对一个针对其<strong>坚韧</strong>防御的<strong>严重</strong>危害，对<strong>创伤</strong>造成<strong>钝击</strong>伤害。该危害的危险值等于以英尺计的坠落距离。例如，60 英尺的坠落：</p><p>[[/hazard 60 fortitude severe]]{重度坠落}</p><p>除非抵抗成功，否则该生物还会陷入@Condition[prone]状态。</p></dd></dl><section class=\"foundryvtt\"><h4>自动化</h4><p>坠落在指示物移动过程中已自动化。若某生物的移动结束于半空且脚下无支撑面，它将获得@Condition[falling]状态，并自动弹出一个<strong>坠落</strong>动作提示。该提示会呈现给游戏主持人，由其作为确认引发坠落之原动作的用户。坠落动作会测量到下方地面的距离，施加相应严重程度的坠落伤害，将该生物落至该地面，并施加@Condition[prone]状态。10 英尺及以下的坠落无害，不造成伤害。</p><p>此自动化既适用于生物自身的移动，也适用于将其带出边缘的强制移动。处于@Condition[flying]或@Condition[burrowing]状态的生物不会坠落。</p></section><h3 class=\"divider\">暴露</h3><p>@Condition[burning]与@Condition[freezing]这类状态适用于剧烈但短暂的极端元素伤害暴露，而暴露危害则适用于更为持久的情形，例如沙漠或极地旅行——环境严酷至极，对角色的资源构成持续的消耗。</p><p>凡在缺乏充分准备或防护装备的情况下面对危险@UUID[.temperature00000]{温度}、恶劣天气或其他严酷环境的角色，在旅行的每一小时都要面对危害，其程度取决于自身常态体温与所探索环境之间的差距。</p><p>计算生物偏好的体温档位与环境温度档位之间相差几档。例如，一个<strong>温暖</strong>体质的生物身处<strong>极寒</strong>环境中，相差 3 档。</p><dl><dt><p>相差不足 3 档</p></dt><dd><p>不面对正式危害，任何不适都属轻微且可克服。</p></dd></dl><dl><dt><p>相差 3 档</p></dt><dd><p>若环境温度与生物偏好体温相差 3 档，它将根据环境性质面对以下危害之一：</p><ul><li><p>[[/hazard 6 fortitude cold morale]]{极端严寒}</p></li><li><p>[[/hazard 6 fortitude fire morale]]{极端酷热}</p></li></ul></dd></dl><dl><dt><p>相差 4 档</p></dt><dd><p>若环境温度与生物偏好体温相差 4 档，它将根据环境性质面对以下危害之一：</p><ul><li><p>[[/hazard 12 fortitude cold health severe]]{致命严寒}</p></li><li><p>[[/hazard 12 fortitude fire health severe]]{致命酷热}</p></li></ul></dd></dl><p>这些危害须在每 24 小时内面对一次，具体时机由游戏主持人选择。</p>"
+        },
+        "Skill Checks": {
+          "name": "技能检定 Skill Checks",
+          "text": "<p>时常会有需要角色验证自身能耐的场合。游戏主持人可以在任何时候要求一次<strong>技能检定</strong>——通过一次简单的掷骰来判定你是否具备足够本领去执行某个动作或回想起某项信息。每项技能都与两项@UUID[Compendium.crucible.rules.JournalEntry.characterMechani.JournalEntryPage.abilityScores000]{属性}相关联。</p><p>角色的技能等级由其受训程度决定，并为该技能的检定提供加值。每项技能有 4 个等级，外加一个「未受训」等级。</p><table><tbody><tr><th data-colwidth=\"50\"><p>加值</p></th><th><p>等级</p></th><th><p>程度</p></th></tr><tr><td data-colwidth=\"50\"><p>-4</p></td><td><p>未受训</p></td><td><p>你在这项技能上的水平，明摆着就跟一个完全没有受过相关教育或专业训练的普通人一样。</p></td></tr><tr><td data-colwidth=\"50\"><p>0</p></td><td><p>新手</p></td><td><p>你已接受过训练，掌握了该技能各个方面通用的基础做法。</p></td></tr><tr><td data-colwidth=\"50\"><p>+1</p></td><td><p>熟手</p></td><td><p>你已达到一定程度的进阶训练，懂得该技能中一些较为少见的原理。</p></td></tr><tr><td data-colwidth=\"50\"><p>+2</p></td><td><p>行家</p></td><td><p>你已超越所有专业训练的边界。关于你的技艺，再没有什么能从他人处学到。剩下的只有把自己的领悟臻于完美。</p></td></tr><tr><td data-colwidth=\"50\"><p>+3</p></td><td><p>大师</p></td><td><p>你已精通此技能。关于它再无可学之处。</p></td></tr></tbody></table><h2 class=\"divider\">单人技能检定</h2><p>技能检定使用与@UUID[Compendium.crucible.rules.JournalEntry.KBDiQbnSfnRYG7mi.JournalEntryPage.WpBewuNfFJp1ZJRt#standard-check]{标准检定}相同的计算公式。与所有标准检定一样，若总值超出 DC 超过 6，技能检定可产生<strong>大成功</strong>；若总值低于 DC 超过 6，则产生<strong>严重失败</strong>。游戏主持人可依据这些极端结果施加额外的后果或增益。</p><section class=\"formula\"><p class=\"value\">技能检定</p><p class=\"equals\">=</p><p class=\"equation\">3d8[恩惠骰,祸骰] + （增益属性之和 / 4）（向上取整） + 技能加值 + 附魔加值</p></section><section class=\"foundryvtt\"><h4>玩家指引</h4><p>你可以随时从角色卡的技能页签发起一次技能检定，只需点击技能名称即可。</p></section><section class=\"gameplay\"><h4>示例：进行一次技能检定</h4><p>阿尔伯特是一位经验丰富的船长，此刻正面临困境。他的船即将陷入风暴之险，船员们指望他把船安全驶出港湾。作为荒野技能的大师，阿尔伯特调动起自己丰富的航海学识。这将是一次困难（DC 24）的检定；阿尔伯特掷出他的技能检定。不巧的是，阿尔伯特的骰子掷出 <strong>6</strong>、<strong>4</strong> 与 <strong>7</strong>，总计 <strong>17</strong>，离所需的 24 相去甚远。不过阿尔伯特的坚韧高达 <strong>8</strong>，感知为 <strong>6</strong>，因此双属性增益技能的复合属性加值为 <strong>+4</strong>。阿尔伯特在荒野技能上的大师等级又带来 <strong>+3</strong> 的技能加值，而他恰好还有一套提供 +2 附魔加值的魔法海图，把掷骰结果推至 <strong>26</strong>，险险成功。</p></section><h2 class=\"divider\">被动技能检定</h2><p>《Crucible》允许游戏主持人自行裁定将任何技能检定视为被动检定。若角色受训的技能等级加上 12 后已足以超过检定的 DC，则该检定视为自动成功，无需掷骰。凡可被动进行的技能检定，若玩家表示希望主动掷骰，也可以主动掷骰进行。</p><section class=\"foundryvtt\"><h4>游戏主持人指引</h4><p>在日志内容中，被动检定的机会通过形如 [[/skillCheck awareness 14 passive]] 的增强语法提供给游戏主持人。</p><p>一般而言，玩家不应知道发生过一次被动检定，除非其结果为成功——在这种情况下，让玩家知道自己通过了某项被动检定是恰当的。</p><p>若多名玩家角色都通过了检定，游戏主持人应决定是把成功归于所有角色，还是选定某一名角色作为当下的叙事焦点。若选择单一角色，除非有更强的叙事理由选择他人，否则优先选取该技能被动值最高的角色。</p></section><h2 class=\"divider\">群体技能检定</h2><p>有时某个情境或挑战会需要一次群体技能检定，由整支队伍共同尝试一项任务。其努力的叙事后果依据集体的成功或集体的失败来决定。在群体技能检定中，每位参与者从一项或多项合格技能中作出选择，对抗由游戏主持人设定的 DC 进行掷骰。</p><section class=\"foundryvtt\"><h4>游戏主持人指引</h4><p>游戏主持人可通过几种方式发起群体技能检定：随时使用<strong>系统宏</strong>合集包中提供的@UUID[Compendium.crucible.macros.Macro.GroupSkillCheck0]{配置群组检定}宏，或点击形如 [[/skillCheck stealth 13 group]] 的群体检定增强标记。</p><p>两种方式都会弹出群体检定对话框，允许游戏主持人配置检定细节、选择参与者可使用哪些技能、为每项技能分别指定 DC、设定适用于所有参与者的集体恩惠骰或祸骰，以及配置哪些角色必须参与该检定。</p><p>点击<strong>请求</strong>会提示其他玩家代其所控制的角色掷骰。点击<strong>掷骰</strong>则代全体玩家进行群体检定。游戏主持人可跳过或重新请求个别参与者的掷骰，也可代那些拥有者不在线的角色掷骰。随着参与者提交掷骰，聊天卡片会实时更新。</p></section><p>群体技能检定的集体结果，通过累计每位参与者的个人掷骰结果来判定。被跳过的参与者不计入得分，也不计入有效参与人数。</p><ul><li><p><strong>个人失败</strong>：0</p></li><li><p><strong>个人成功</strong>：+1</p></li><li><p><strong>个人大成功</strong>：+2</p></li><li><p><strong>个人严重失败</strong>：-1</p></li></ul><p>随后将总得分与计入的参与人数比较，以判定汇总结果：</p><ul><li><p><strong>大成功</strong>：群体总得分大于或等于参与人数。</p></li><li><p><strong>成功</strong>：群体总得分大于参与人数的一半（向下取整）。</p></li><li><p><strong>失败</strong>：群体总得分为正，但低于成功阈值。</p></li><li><p><strong>严重失败</strong>：群体总得分为零或更低。</p></li></ul><section class=\"gameplay\"><h4>示例：群体潜行检定失败</h4><p>四名英雄试图悄无声息地溜过一头沉睡的食人魔，需要一次 DC 18 的潜行检定。两名英雄通过、两名失败，队伍总得分为 <strong>2</strong>。由于群体成功需要 <strong>3</strong> 分，队伍以毫厘之差未能通过检定，惊醒了食人魔。若第三名英雄也掷骰成功，群体便会跨过成功阈值；若四人全部成功，群体将达成大成功，完全不被察觉地溜了过去。</p></section><section class=\"gameplay\"><h4>示例：群体运动检定大成功</h4><p>同样这四名英雄试图攀上一面险峻的崖壁，需要一次 DC 20 的运动检定。两名英雄常规通过，第三名彻底失败，但经验丰富的攀爬者颠茄掷出了大成功。队伍得分为 <strong>1 + 1 + 0 + 2 = 4</strong>，恰好等于该检定的参与人数。颠茄出色的攀登弥补了同伴的失足，群体达成大成功，出乎意料地轻松登顶，并在峰顶取得了战术优势。</p></section>"
+        },
+        "Temperature": {
+          "name": "温度 Temperature",
+          "text": "<p>《Crucible》中的环境可大致划分为五个温度档位，由最冷到最热排列。</p><dl><dt><p>极寒</p></dt><dd><p>冰封酷寒，对任何未专门适应极端低温的生命都不宜居。</p></dd></dl><dl><dt><p>凉爽</p></dt><dd><p>凉爽或寒冷的温度，可能令温血生物不适，但通常无危险。</p></dd></dl><dl><dt><p>适中</p></dt><dd><p>典型的环境温度，一般无甚特别。</p></dd></dl><dl><dt><p>温暖</p></dt><dd><p>温暖或炎热的温度，可能令冷血生物不适，但通常无危险。</p></dd></dl><dl><dt><p>灼热</p></dt><dd><p>炙烤般酷热，对任何未专门适应极端高温的生命都不宜居。</p></dd></dl><p>这些温度档位同样用于描述生物的体温。有些机制取决于环境温度，有些取决于生物温度，还有些涉及两者的相互作用。无论哪种情形，都会使用这些温度关键词。</p>"
         }
       }
     }

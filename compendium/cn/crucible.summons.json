@@ -1,38 +1,9 @@
 {
   "label": "召唤生物\nSummoned Creatures",
-  "mapping": {
-    "items": {
-      "path": "items",
-      "converter": "adventure_items_converter"
-    },
-    "actions": {
-      "path": "system.actions",
-      "converter": "actions_converter"
-    },
-    "ancestry": {
-      "path": "system.details.ancestry",
-      "converter": "nested_object_converter"
-    },
-    "background": {
-      "path": "system.details.background",
-      "converter": "nested_object_converter"
-    },
-    "biography": {
-      "path": "system.details.biography",
-      "converter": "nested_object_converter"
-    },
-    "archetype": {
-      "path": "system.details.archetype",
-      "converter": "nested_object_converter"
-    },
-    "taxonomy": {
-      "path": "system.details.taxonomy",
-      "converter": "nested_object_converter"
-    }
-  },
   "folders": {
     "Gesture: Create": "手势：创造",
-    "Gesture: Conjure": "手势：召唤"
+    "Gesture: Conjure": "手势：召唤",
+    "Talents": "天赋"
   },
   "entries": {
     "Moldy Skeleton": {
@@ -140,6 +111,10 @@
         "Rune: Lightning": {
           "name": "符文：闪电 Rune: Lightning",
           "description": "你学会了闪电符文，使你得以控制不稳定的奥术电涌。"
+        },
+        "Rune: Storm": {
+          "name": "符文：风暴 Rune: Storm",
+          "description": "你习得风暴符文，从而能够操控狂暴不定的电能奥术涌流。"
         }
       }
     },
@@ -212,6 +187,10 @@
         "Rune: Lightning": {
           "name": "符文：闪电 Rune: Lightning",
           "description": "<p>原始电能的混沌力量。闪电符文掌管电能来源与放电现象。它与秩序井然的大地符文相对。</p>\n<p>闪电符文以<strong>智力</strong>进行成长，目标为<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>电击</strong>伤害。</p>"
+        },
+        "Rune: Storm": {
+          "name": "符文：风暴 Rune: Storm",
+          "description": "<p>原始电能所具的混沌之力。风暴符文掌管电能之源与放电现象，与秩序井然的大地符文相互对立。</p>\n<p>风暴符文以<strong>智力</strong>作为增益属性，以<strong>反射</strong>为目标，并对<strong>生命值</strong>造成<strong>电力</strong>伤害。</p>"
         }
       }
     },
@@ -392,6 +371,28 @@
         "Rune: Earth": {
           "name": "符文：大地 Rune: Earth",
           "description": "你学会了大地符文，使你能够控制地壳运动与腐蚀性的力量。"
+        }
+      }
+    },
+    "Ancestral Guardian": {
+      "name": "先祖守护者 Ancestral Guardian",
+      "tokenName": "先祖守护者 Ancestral Guardian",
+      "biography": {
+        "appearance": "<p>一道半透明的身影，由流转的树皮、叶片与根须交织而成，自内里透出柔和的绿光。它没有固定形貌，在依稀记得的先辈剪影之间飘忽变换，既不投下影子，也不给所守护的土地压上分毫重量。</p>",
+        "public": "<p>先祖守护者与其说是一个生物，不如说是一种存在：那是先辈们汇聚而成的魂灵，由@UUID[Compendium.crucible.talent.Item.warden0000000000]{守林者}透过先祖树林召唤至现世。它无法被命令，也无从讲理，更不会开口言语。只要守林者的通灵不断，它便始终守望着生者。</p>"
+      },
+      "archetype": {
+        "name": "先祖庇护 Ancestral Ward",
+        "description": "<p>守望着一片庇护树林的警觉之灵。</p>"
+      },
+      "taxonomy": {
+        "name": "先祖之灵 Ancestral Spirit",
+        "description": "<p>先祖魂灵的无形显现，受召来守望生者。它没有可供伤害的实体，也没有可被击溃的意志。</p>"
+      },
+      "items": {
+        "Ancestral Manifestation": {
+          "name": "先祖显现 Ancestral Manifestation",
+          "description": "<p>先祖守护者是警觉魂灵的无形显现。它无法被伤害、无法被违背意愿地移动，也无法被击溃，其他生物可自由穿过它所占据的空间。它在战场上压倒性的存在感，使其在判定敌人是否被夹击时计为<strong>三个生物</strong>。</p>"
         }
       }
     }

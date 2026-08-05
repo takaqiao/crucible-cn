@@ -1,6 +1,5 @@
 {
   "label": "系统宏\nSystem Macros",
-  "mapping": {},
   "folders": {},
   "entries": {
     "Configure Group Check": {
@@ -14,6 +13,9 @@
     },
     "Rest": {
       "name": "休息 Rest"
+    },
+    "Configure Hazard": {
+      "name": "配置危害 Configure Hazard"
     }
   }
 }

@@ -1,41 +1,5 @@
 {
   "label": "试玩测试\nPlaytest",
-  "mapping": {
-    "actors": {
-      "items": {
-        "path": "items",
-        "converter": "adventure_items_converter"
-      },
-      "actions": {
-        "path": "system.actions",
-        "converter": "actions_converter"
-      },
-      "ancestry": {
-        "path": "system.details.ancestry",
-        "converter": "nested_object_converter"
-      },
-      "background": {
-        "path": "system.details.background",
-        "converter": "nested_object_converter"
-      },
-      "biography": {
-        "path": "system.details.biography",
-        "converter": "nested_object_converter"
-      },
-      "archetype": {
-        "path": "system.details.archetype",
-        "converter": "nested_object_converter"
-      },
-      "taxonomy": {
-        "path": "system.details.taxonomy",
-        "converter": "nested_object_converter"
-      }
-    },
-    "items": {},
-    "journals": {},
-    "scenes": {},
-    "macros": {}
-  },
   "folders": {},
   "entries": {
     "Playtest 1 - The Ring of Valor": {
@@ -475,7 +439,13 @@
             },
             "Evasive Shot": {
               "name": "闪避射击 Evasive Shot",
-              "description": "<p>你擅长在闪避敌人攻击的同时使用远程武器进行射击。在进行一次远程武器攻击后，你获得额外的免费移动，其距离为你<strong>步幅</strong>的一半。</p>"
+              "description": "<p>你擅长在闪避敌人攻击的同时使用远程武器进行射击。在进行一次远程武器攻击后，你获得额外的免费移动，其距离为你<strong>步幅</strong>的一半。</p>",
+              "actions": {
+                "evasiveShot": {
+                  "name": "游走射击 Evasive Shot",
+                  "description": "<p>在进行一次远程武器攻击之后，你可以免费移动至多相当于你<strong>步幅</strong>一半的距离。</p>"
+                }
+              }
             },
             "Projectile Weapon Training": {
               "name": "投射武器训练 Projectile Weapon Training",
@@ -486,6 +456,10 @@
                   "description": "<p>你可以在压力下勉强开出一枪，尽管准确性会降低。你进行一次<strong>打击</strong>，该次<strong>打击</strong>为<strong>困难</strong>，但其动作成本会降低。</p>"
                 }
               }
+            },
+            "Restless Dead": {
+              "name": "不安亡魂 Restless Dead",
+              "description": "<p>@ref[actor.name]{该生物}的存续由死灵魔法或超凡力量所维系。当它本应被视为@Condition[dead]时，改为@Condition[incapacitated]。</p><p>战斗结束后，@ref[actor.name]{该生物}可以开始执行恢复动作，并在恢复完成后重新苏醒。以下任一情形可阻止其如此恢复：</p><ul><li><p>该生物是被其所<strong>易伤</strong>的伤害类型击至失能的。</p></li><li><p>使其化为不死生物的魔法力量被扰乱、抵消或以其他方式驱散。</p></li><li><p>该生物的躯体被破坏到再也无法维持其物理形态的程度。</p></li></ul>"
             }
           }
         },
@@ -540,6 +514,20 @@
                 "lunge": {
                   "name": "突刺 Lunge",
                   "description": "<p>你灵巧地向前突进，以突如其来的迅捷发动一次打击，对单个目标使用一把以<strong>敏捷</strong>进行加值成长的武器进行一次<strong>打击 </strong>，且<strong>射程</strong>增加<strong>+2 英尺</strong>。</p><p>此次<strong>攻击</strong>为<strong>困难</strong>，但你不会从当前位置<strong>移动</strong>，且此次攻击不会引发脱离接战。</p>"
+                }
+              }
+            },
+            "Restless Dead": {
+              "name": "不安亡魂 Restless Dead",
+              "description": "<p>@ref[actor.name]{该生物}的存续由死灵魔法或超凡力量所维系。当它本应被视为@Condition[dead]时，改为@Condition[incapacitated]。</p><p>战斗结束后，@ref[actor.name]{该生物}可以开始执行恢复动作，并在恢复完成后重新苏醒。以下任一情形可阻止其如此恢复：</p><ul><li><p>该生物是被其所<strong>易伤</strong>的伤害类型击至失能的。</p></li><li><p>使其化为不死生物的魔法力量被扰乱、抵消或以其他方式驱散。</p></li><li><p>该生物的躯体被破坏到再也无法维持其物理形态的程度。</p></li></ul>"
+            },
+            "Heavy Weapon Training": {
+              "name": "重武器训练 Heavy Weapon Training",
+              "description": "<p>你懂得如何使用重武器递出摧折性的打击，将全身力量灌注于每一次挥砍。你对<strong>重型</strong>与<strong>平衡</strong>类别的所有武器均为<strong>受训</strong>。</p>",
+              "actions": {
+                "heavyStrike": {
+                  "name": "重击 Heavy Strike",
+                  "description": "<p>你以主手武器发动一次威力强劲的<strong>打击</strong>。该攻击出手较慢，但经<strong>强化</strong>以造成额外伤害。</p>"
                 }
               }
             }
@@ -840,6 +828,21 @@
                   ]
                 }
               }
+            },
+            "Devour Thoughts": {
+              "name": "吞噬思维 Devour Thoughts",
+              "description": "疯狂先驱者专注于单一目标，以多条触须攀附其上。",
+              "actions": {
+                "devourThoughts": {
+                  "name": "吞噬思维 Devour Thoughts",
+                  "description": "<p>以多条触须攀附单一敌人，造成减弱的心灵伤害，成功时使其陷入震慑状态。</p>",
+                  "effects": [
+                    {
+                      "name": "吞噬思维 Devour Thoughts"
+                    }
+                  ]
+                }
+              }
             }
           }
         },
@@ -1076,6 +1079,16 @@
                 "enkindle": {
                   "name": "引燃 Enkindle",
                   "description": "<p>你对火焰符文的掌握让你能够以富有创意的方式操纵火焰与热能，产生以下效果之一：</p><ul><li><p>显现出一个一英寸球体大小的元素火焰爆发，可以点燃蜡烛、火把或其他可燃材料。</p></li><li><p>为你的身体赋予瞬间的热能护盾，使你在紧接着的一个消耗<strong>1 动作</strong>或更少的动作中获得对火焰伤害的免疫。</p></li><li><p>控制一小片区域内火焰的移动，使其闪烁、舞动或变换，呈现出一场光影的动态表演。</p></li></ul><p>引燃只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+                }
+              }
+            },
+            "Rune: Storm": {
+              "name": "符文：闪电 Rune: Lightning",
+              "description": "<p>原始电能的混沌之力。符文：闪电支配电荷的来源与放电。</p><p>符文：闪电以 <strong>智力</strong> 进行成长，目标为 <strong>反射</strong>，并对 <strong>生命值</strong>造成 <strong>闪电</strong>伤害。它与秩序井然的 <strong>大地</strong>符文相对。</p>",
+              "actions": {
+                "energize": {
+                  "name": "充能 Energize",
+                  "description": "<p>你对闪电符文的命令使你能够引导气流与电流的流动，操控电荷与空气动力学，从而产生以下效果之一：</p><ul><li><p>为你所接触的一个不大于一立方英尺的金属物体注入电磁电荷，使其能够强力吸附于其他金属。在任意时刻，只能有一个物体以这种方式被充能；若对不同物体施放此法术，则先前物体会失去其磁性效果。</p></li><li><p>在你当前位置周围六码半径内聚集起一阵狂风，使其要么作为朝单一受控方向吹袭的阵风，要么作为向各个方向施加向心力的气旋。附近区域内的空气传播效果会被驱散，且重量小于1的未固定物体会被朝阵风方向抛飞。</p></li><li><p>在你当前所在位置15英尺内、你能够看见的一个地点，制造出如雷鸣炸响般的震荡声音。</p></li></ul><p>充能只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
                 }
               }
             }
@@ -1771,6 +1784,16 @@
                   "description": "<p>即使在压力下，你也可以射出一击，尽管命中精度会降低。你进行一次<strong>困难</strong>的<strong>打击</strong>，但其动作成本会降低。</p>"
                 }
               }
+            },
+            "Rune: Storm": {
+              "name": "符文：闪电 Rune: Lightning",
+              "description": "<p>原始电能的混沌力量。闪电符文支配电荷的来源与放电。</p><p>闪电符文以 <strong>智力</strong> 进行成长，目标为 <strong>反射</strong>，并对 <strong>生命值</strong> 造成 <strong>电击</strong>伤害。它与秩序井然的 <strong>大地</strong>符文相对立。</p>",
+              "actions": {
+                "energize": {
+                  "name": "充能 Energize",
+                  "description": "<p>你对闪电符文的掌控使你能够引导气流与电流，操纵电荷与空气动力学，从而产生以下效果之一：</p><ul><li><p>为你所触碰的一个不大于 1 立方英尺的金属物体注入电磁电荷，使其强力吸附在其他金属上。同一时间只能以这种方式为一个物体充能；若对不同物体施放此法术，则先前物体会失去其磁性效果。</p></li><li><p>在你当前位置周围 6 英尺半径内聚集一阵狂风，可令其作为一股朝单一受控方向吹袭的阵风，或作为一个向各个方向施加向心力的气旋。附近区域中的空中效果会被驱散，且重量小于 1 的未固定物体会被朝阵风吹袭的方向抛飞。</p></li><li><p>在你当前所在位置 15 英尺内、你能看见的一个地点，制造出一声雷霆炸响般的冲击性声音。</p></li></ul><p>充能只能影响你能够以身体直接触碰到的生物或物体。你也可以尝试进行其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+                }
+              }
             }
           }
         },
@@ -1958,6 +1981,16 @@
               "name": "细剑 Stiletto",
               "description": {
                 "public": "<p>细长、尖细，专为穿刺而制，细剑是杀手的武器——设计用来滑入肋骨之间或护甲的缝隙中，几乎不留痕迹。</p>"
+              }
+            },
+            "Rune: Storm": {
+              "name": "符文：闪电 Rune: Lightning",
+              "description": "<p>原始电能的混沌力量。闪电符文掌管电荷的来源与放电。</p><p>闪电符文以<strong>智力</strong>进行成长，目标为<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>电击</strong>伤害。它与秩序井然的<strong>大地</strong>符文相对。</p>",
+              "actions": {
+                "energize": {
+                  "name": "充能 Energize",
+                  "description": "<p>你对闪电符文的掌控使你能够引导气流与电流，操纵电荷与空气动力学，以产生以下效果之一：</p><ul><li><p>为你触碰到的一个不大于一立方英尺的金属物体注入电磁电荷，使其强力吸附在其他金属上。在任意时刻，只有一个物体能以这种方式被充能；对此法术施加于另一个物体时，先前物体的磁性效果会消失。</p></li><li><p>在你当前位置周围六码半径内聚集一阵狂风，使其要么作为沿单一受控方向吹袭的阵风，要么作为向各个方向施加向心力的气旋。近处区域内的气载效果会被驱散，且重量小于1的未固定物体会被抛向阵风吹袭的方向。</p></li><li><p>在你当前所在位置15尺内一个你能看见的位置制造一声雷鸣般的震荡巨响。</p></li></ul><p>充能只可影响你能够实际触碰到的一个生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+                }
               }
             }
           }
