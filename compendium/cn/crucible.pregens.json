@@ -64,7 +64,7 @@
           "actions": {
             "markForDeath": {
               "name": "标记死亡 Mark For Death",
-              "description": "<p>你花费 1 分钟研究一个生物。对你的目标进行一次知识检定。若成功，你会得知该目标易受哪些伤害类型影响。在战斗第一轮中，你的最低先攻变为比你已标记目标的先攻高 1。</p>",
+              "description": "<p>你花费 1 分钟研究一个生物。对你的目标进行一次知识检定。若成功，你会得知该目标易受哪些伤害类型影响。在战斗第一轮中，你的最低先攻变为比你已标记目标的先攻高 1。</p><h3 class=\"divider\">试玩测试说明</h3><p>此动作尚未实现自动化。</p>",
               "condition": "你未被察觉。"
             }
           }
@@ -79,7 +79,7 @@
           "actions": {
             "backstab": {
               "name": "背刺 Backstab",
-              "description": "<p>你用你的主手武器对一个被@Condition[flanked]的目标进行<strong>打击</strong>，造成<strong>致命</strong><strong>伤害</strong>。</p>",
+              "description": "<p>你用你的主手武器对一个被@Condition[flanked]的目标进行<strong>打击</strong>，造成致命<strong>伤害</strong>。</p>",
               "condition": "你正在攻击一个处于夹击状态的目标。"
             }
           }
@@ -120,7 +120,7 @@
           "actions": {
             "distract": {
               "name": "分散注意力 Distract",
-              "description": "<p>你对30英尺内一个能看见或听见你的目标发动一次基于<strong>欺瞒</strong>的<strong>技能攻击</strong>，对抗其<strong>意志</strong><strong>防御</strong>。若成功，目标失去<strong>1点专注</strong>。</p>"
+              "description": "<p>你对30英尺内一个能看见或听见你的目标发动一次基于欺瞒的<strong>技能攻击</strong>，对抗其<strong>意志</strong><strong>防御</strong>。若成功，目标失去<strong>1点专注</strong>。</p>"
             }
           }
         },
@@ -140,7 +140,7 @@
           "actions": {
             "flashOfSteel": {
               "name": "钢光一闪 Flash of Steel",
-              "description": "<p>你进行一次<strong>投掷</strong>武器攻击，瞄准敌人防御中的弱点。若攻击命中，目标会陷入<strong>@Condition[exposed]</strong>，直到其下个<strong>回合</strong>开始。</p>",
+              "description": "<p>你进行一次<strong>投掷</strong>武器攻击，瞄准敌人防御中的弱点。若攻击命中，目标会陷入@Condition[exposed]，直到其下个回合开始。</p>",
               "effects": [
                 {
                   "name": "钢光一闪 Flash of Steel"
@@ -165,11 +165,11 @@
         },
         "Intercept": {
           "name": "拦截 Intercept",
-          "description": "你保护你的盟友，拦截原本可能指向同伴的攻击。",
+          "description": "<p>你保护你的盟友，拦截原本可能指向同伴的攻击。</p>",
           "actions": {
             "intercept": {
               "name": "拦截 Intercept",
-              "description": "<p>你拦截进入你<strong>交战</strong>半径内的敌人的路径，立即进行最多等同于你<strong>步幅</strong>的移动，插入其间并挡住他们的去路。</p><p>如果敌人在其回合中移出你的交战半径，或攻击任何其他生物，你可以对其进行一次@Action[default reactiveStrike]。</p>",
+              "description": "<p>你拦截进入你<strong>交战</strong>半径内的敌人的路径，立即进行最多等同于你<strong>步幅</strong>的移动，插入其间并挡住他们的去路。</p><p>如果敌人在其回合中移出你的交战半径，或攻击任何其他生物，你可以对其进行一次@Action[default reactiveStrike]。</p><h3 class=\"divider\">试玩测试说明</h3><p>打断敌人移动的效果尚未实现自动化。</p>",
               "condition": "一名敌人移动到你的交战半径内，或穿过你的交战半径。"
             }
           }
@@ -195,13 +195,13 @@
           "actions": {
             "lunge": {
               "name": "突刺 Lunge",
-              "description": "<p>你灵巧地向前猛冲，以突然而出人意料的迅捷发动一次打击，对单个目标使用一把以<strong>敏捷</strong>进行成长的<strong>武器</strong>进行一次<strong>打击</strong>，且<strong>射程</strong>增加<strong>+2 英尺</strong>。</p><p>此次<strong>攻击</strong>是<strong>困难</strong>的，但你不会从当前位置<strong>移动</strong>，且此次攻击也不会引发脱离接战。</p>"
+              "description": "<p>你灵巧地向前猛冲，以突然而出人意料的迅捷发动一次打击，对单个目标使用一把以<strong>敏捷</strong>进行成长的武器进行一次<strong>打击</strong>，且射程增加+2 英尺。</p><p>此次攻击是<strong>困难</strong>的，但你不会从当前位置<strong>移动</strong>，且此次攻击也不会引发脱离接战。</p>"
             }
           }
         },
         "Medicine Novice": {
           "name": "医疗新手 Medicine Novice",
-          "description": "<p>你接受过解剖学、生理学和医疗方面的基础教育。你在<strong>医疗</strong>技能中获得<strong>新手</strong><strong>等级</strong>，并且不再被视为该技能的<strong>未受训</strong>。</p><p>你已经学会了治疗常见创伤和疾病的基础知识，并持续记录已知的炼金与草药化合物清单，这些化合物可用于治疗特定疾病。只要花一点时间研究一名受伤、染病或因其他原因生病的个体，你就能进行基础诊断并据此治疗。</p>"
+          "description": "<p>你接受过解剖学、生理学和医疗方面的基础教育。你在医疗技能中获得<strong>新手</strong><strong>等级</strong>，并且不再被视为该技能的<strong>未受训</strong>。</p><p>你已经学会了治疗常见创伤和疾病的基础知识，并持续记录已知的炼金与草药化合物清单，这些化合物可用于治疗特定疾病。只要花一点时间研究一名受伤、染病或因其他原因生病的个体，你就能进行基础诊断并据此治疗。</p>"
         },
         "Antitoxin": {
           "name": "抗毒剂 Antitoxin",
@@ -227,11 +227,11 @@
         },
         "Skirmisher": {
           "name": "散兵 Skirmisher",
-          "description": "<p>你很擅长进出战团。当你移出敌人的<strong>交战</strong>半径时，该敌人对你进行的任何@Action[default reactiveStrike]都会具有 2 个<strong>祸骰</strong>。</p>"
+          "description": "<p>你很擅长进出战团。当你移出敌人的<strong>交战</strong>半径时，该敌人对你进行的任何@Action[default reactiveStrike]都会具有 2 个祸骰。</p>"
         },
         "Stealth Novice": {
           "name": "潜行新手 Stealth Novice",
-          "description": "<p>你已接受过潜行、渗透与诡计基础方面的训练。你在<strong>潜行</strong>技能上获得<strong>新手</strong><strong>等级</strong>，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你知道如何利用光线与阴影来掩饰自己的踪迹，如何在行走时分配自身重量以便更安静地移动，也学会了一些伪装技巧，好让自己融入人群之中。你能够在他人环绕时显得不惹人怀疑，藏身于昏暗的房间里，并且能够安静无声地移动到足以避开一般人的察觉。</p>"
+          "description": "<p>你已接受过潜行、渗透与诡计基础方面的训练。你在潜行技能上获得<strong>新手</strong><strong>等级</strong>，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你知道如何利用光线与阴影来掩饰自己的踪迹，如何在行走时分配自身重量以便更安静地移动，也学会了一些伪装技巧，好让自己融入人群之中。你能够在他人环绕时显得不惹人怀疑，藏身于昏暗的房间里，并且能够安静无声地移动到足以避开一般人的察觉。</p>"
         },
         "Strike First": {
           "name": "先发制人 Strike First",
@@ -317,13 +317,13 @@
           "actions": {
             "distract": {
               "name": "分散注意力 Distract",
-              "description": "<p>你对30英尺内一个能够看见或听见你的目标发动一次基于<strong>欺瞒</strong>的<strong>技能攻击</strong>，对抗其<strong>意志</strong><strong>防御</strong>。成功时，目标失去<strong>1专注</strong>。</p>"
+              "description": "<p>你对30英尺内一个能够看见或听见你的目标发动一次基于欺瞒的<strong>技能攻击</strong>，对抗其<strong>意志</strong><strong>防御</strong>。成功时，目标失去<strong>1专注</strong>。</p>"
             }
           }
         },
         "Evasive Shot": {
           "name": "闪避射击 Evasive Shot",
-          "description": "<p>你是精于使用远程武器装备射击并同时闪避敌人攻击的专家。进行一次远程武器攻击后，你获得额外的免费移动，其距离等于你<strong>步幅</strong>的一半。</p>"
+          "description": "<p>你是精于使用远程武器装备射击并同时闪避敌人攻击的专家。进行一次远程武器攻击后，你获得额外的免费移动，其距离等于你步幅的一半。</p>"
         },
         "Fan of Arrows": {
           "name": "箭雨扇射 Fan of Arrows",
@@ -345,7 +345,7 @@
         },
         "Gesture: Step": {
           "name": "手势：踏步 Gesture: Step",
-          "description": "<p>你将符文之力注入一个移动之中，穿越物理与空间的边界。</p><p><strong>踏步</strong>手势会随<strong>敏捷</strong>成长，并允许你沿一直线移动最多 20 英尺，其宽度等于你的<strong>体型</strong>。对该直线上的未能抵抗此法术的目标造成<strong>2 基础伤害</strong>。施放此手势不需要任何空闲的手，且其基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋的移动部分尚未自动化，必须作为此法术的结果手动执行。</p>"
+          "description": "<p>你将符文之力注入一个移动之中，穿越物理与空间的边界。</p><p>踏步手势会随<strong>敏捷</strong>成长，并允许你沿一直线移动最多 20 英尺，其宽度等于你的<strong>体型</strong>。对该直线上的未能抵抗此法术的目标造成<strong>2 基础伤害</strong>。施放此手势不需要任何空闲的手，且其基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋的移动部分尚未自动化，必须作为此法术的结果手动执行。</p>"
         },
         "Mark Prey": {
           "name": "标记猎物 Mark Prey",
@@ -353,7 +353,7 @@
           "actions": {
             "markPrey": {
               "name": "标记猎物 Mark Prey",
-              "description": "<p>你使用一次特殊射击进行打击。如果你的攻击成功，目标在接下来的 3 回合中处于<strong>@Condition[exposed]</strong>状态。</p>",
+              "description": "<p>你使用一次特殊射击进行打击。如果你的攻击成功，目标在接下来的 3 回合中处于@Condition[exposed]状态。</p>",
               "effects": [
                 {
                   "name": "已标记 Marked"
@@ -389,7 +389,7 @@
         },
         "Projectile Weapon Proficiency": {
           "name": "投射武器熟练度 Projectile Weapon Proficiency",
-          "description": "<p>你在投射武器装备的运用方面受过娴熟的教育。你获得<strong>熟练工</strong>训练等级，并在<strong>投射</strong><strong>类别</strong>的武器检定上获得<strong>+1技能加值</strong>。</p>"
+          "description": "<p>你在投射武器装备的运用方面受过娴熟的教育。你获得<strong>熟练工</strong>训练等级，并在投射<strong>类别</strong>的武器检定上获得<strong>+1技能加值</strong>。</p>"
         },
         "Projectile Weapon Training": {
           "name": "投射武器训练 Projectile Weapon Training",
@@ -443,7 +443,7 @@
           "actions": {
             "twinnedShot": {
               "name": "双生射击 Twinned Shot",
-              "description": "<p>使用这项<strong>困难</strong>技巧时，你会同时发射两枚投射，对同一目标进行两次<strong>打击</strong>。</p>"
+              "description": "<p>使用这项困难技巧时，你会同时发射两枚投射，对同一目标进行两次<strong>打击</strong>。</p>"
             }
           }
         },
@@ -480,11 +480,11 @@
       "items": {
         "Athletics Journeyman": {
           "name": "运动熟练工 Athletics Journeyman",
-          "description": "<p>你在<strong>运动</strong>技能中获得<strong>熟练工</strong><strong>等级</strong>，获得<strong>+1技能加值</strong>。</p>"
+          "description": "<p>你在<strong>运动</strong>技能中获得<strong>熟练工</strong>等级，获得<strong>+1技能加值</strong>。</p>"
         },
         "Athletics Novice": {
           "name": "运动新手 Athletics Novice",
-          "description": "<p>你已接受基础<strong>运动</strong>训练。你在<strong>运动</strong>技能中获得<strong>新手</strong>等级，并且不再被视为该技能<strong>未受训</strong>。</p><p>你知道某个地表是否能够承受你的重量，知道在攀爬时如何寻找手点，以及在游泳时如何分配你的重量以获得浮力。你知道如何进行长跑，以及如何控制自己的节奏以避免力竭。</p>"
+          "description": "<p>你已接受基础<strong>运动</strong>训练。你在<strong>运动</strong>技能中获得新手等级，并且不再被视为该技能<strong>未受训</strong>。</p><p>你知道某个地表是否能够承受你的重量，知道在攀爬时如何寻找手点，以及在游泳时如何分配你的重量以获得浮力。你知道如何进行长跑，以及如何控制自己的节奏以避免力竭。</p>"
         },
         "Awareness Novice": {
           "name": "察觉新手 Awareness Novice",
@@ -500,7 +500,7 @@
           "actions": {
             "counterRiposte": {
               "name": "反制还击 Counter Riposte",
-              "description": "<p>当你以<strong>招架</strong>对抗一次近战攻击进行<strong>防御</strong>时，你可以作出反应并消耗<strong>专注</strong>，以较低代价进行一次<strong>打击</strong>反击，并从<strong>暴露</strong>状态中受益。</p>",
+              "description": "<p>当你以<strong>招架</strong>对抗一次近战攻击进行防御时，你可以作出反应并消耗<strong>专注</strong>，以较低代价进行一次<strong>打击</strong>反击，并从<strong>暴露</strong>状态中受益。</p>",
               "condition": "你招架一次袭来的近战打击。"
             }
           }
@@ -513,7 +513,7 @@
         },
         "Gesture: Blast": {
           "name": "手势：爆破 Gesture: Blast",
-          "description": "<p>你将一个符文的奥术力量投掷到附近你能看见的一点，引发一场剧烈的能量爆炸。</p><p><strong>爆裂</strong>手势会随<strong>智力</strong>成长，并在施法者60英尺内的一点为中心产生一个半径6英尺的爆炸范围。该爆炸会对未能抵抗此法术的目标造成<strong>8基础伤害</strong>。施放此手势需要<strong>2只手</strong>，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前位于一个<strong>第4阶</strong>节点。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为了测试而提前开放。</p>"
+          "description": "<p>你将一个符文的奥术力量投掷到附近你能看见的一点，引发一场剧烈的能量爆炸。</p><p>爆裂手势会随<strong>智力</strong>成长，并在施法者60英尺内的一点为中心产生一个半径6英尺的爆炸范围。该爆炸会对未能抵抗此法术的目标造成8基础伤害。施放此手势需要<strong>2只手</strong>，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前位于一个<strong>第4阶</strong>节点。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为了测试而提前开放。</p>"
         },
         "Gesture: Arrow": {
           "name": "手势：箭头 Gesture: Arrow",
@@ -561,7 +561,7 @@
         },
         "Pyromancer": {
           "name": "炎术师 Pyromancer",
-          "description": "<p>你极其擅长编织火焰符文。使用该符文的法术在造成暴击时会施加 @Condition[burning]。</p><p><strong>燃烧</strong>效果持续<strong>1 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>同时造成等同于你的<strong>智力</strong>值的<strong>火焰</strong>伤害。</p>"
+          "description": "<p>你极其擅长编织火焰符文。使用该符文的法术在造成暴击时会施加 @Condition[burning]。</p><p>燃烧效果持续<strong>1 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>同时造成等同于你的<strong>智力</strong>值的<strong>火焰</strong>伤害。</p>"
         },
         "Rune: Flame": {
           "name": "符文：火焰 Rune: Flame",
@@ -596,7 +596,7 @@
         },
         "Spellblade": {
           "name": "咒刃 Spellblade",
-          "description": "<p>你是一名奥术战士，能够在战斗中依靠武艺与奥术技巧，将打击与法术编织结合。你的武器装备所施展的物理打击，能够部分替代传统施法中的姿势手势。</p><p>当你以<strong>主手</strong>持用一把<strong>近战</strong>武器时，你使用<strong>手势：打击</strong>施放的法术可获得该武器的伤害加值。</p><p>在你以一把近战武器执行一次<strong>打击</strong>后，你可以立即施放一个其<strong>动作</strong>消耗减少 1 的法术。</p>"
+          "description": "<p>你是一名奥术战士，能够在战斗中依靠武艺与奥术技巧，将打击与法术编织结合。你的武器装备所施展的物理打击，能够部分替代传统施法中的姿势手势。</p><p>当你以主手持用一把<strong>近战</strong>武器时，你使用<strong>手势：打击</strong>施放的法术可获得该武器的伤害加值。</p><p>在你以一把近战武器执行一次<strong>打击</strong>后，你可以立即施放一个其<strong>动作</strong>消耗减少 1 的法术。</p>"
         },
         "Strong Grip": {
           "name": "强力握持 Strong Grip",
@@ -608,7 +608,7 @@
           "actions": {
             "sunderingStrike": {
               "name": "粉碎打击 Sundering Strike",
-              "description": "<p>你用你的<strong>主手</strong>武器进行一次<strong>打击</strong>；若成功，则对目标施加<strong>@Condition[exposed]</strong>状态，持续3轮。此次攻击<strong>困难</strong>施展，且造成的伤害降低。</p>",
+              "description": "<p>你用你的主手武器进行一次<strong>打击</strong>；若成功，则对目标施加@Condition[exposed]状态，持续3轮。此次攻击<strong>困难</strong>施展，且造成的伤害降低。</p>",
               "effects": [
                 {
                   "name": "破损的护甲 Sundered Armor"
@@ -679,7 +679,7 @@
         },
         "Gesture: Pulse": {
           "name": "手势：脉冲 Gesture: Pulse",
-          "description": "<p>将符文的奥术力量驱散为一个以你为中心、随你向外扩展的半径范围。</p><p>脉冲手势按<strong>存在</strong>进行缩放，产生一个10英尺半径的散发区域，对未能抵抗该法术的目标造成<strong>8基础伤害</strong>。该手势施放需要<strong>2只手</strong>，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前放置在一个<strong>第4阶</strong>节点上。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为测试目的而“提前”开放。</p>"
+          "description": "<p>将符文的奥术力量驱散为一个以你为中心、随你向外扩展的半径范围。</p><p>脉冲手势按<strong>存在</strong>进行缩放，产生一个10英尺半径的散发区域，对未能抵抗该法术的目标造成8基础伤害。该手势施放需要<strong>2只手</strong>，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前放置在一个<strong>第4阶</strong>节点上。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为测试目的而“提前”开放。</p>"
         },
         "Gesture: Ray": {
           "name": "手势：射线 Gesture: Ray",
@@ -687,11 +687,11 @@
         },
         "Healer": {
           "name": "治疗者 Healer",
-          "description": "<p>你在操纵生命奥术以治疗伤势方面无人能及。若你尚未习得<strong>符文：生命</strong>，则你学会它。当你使用生命符文为盟友进行<strong>治疗</strong>时，你的掷骰获得<strong>+2恩惠</strong>。</p>",
+          "description": "<p>你在操纵生命奥术以治疗伤势方面无人能及。若你尚未习得<strong>符文：生命</strong>，则你学会它。当你使用生命符文为盟友进行治疗时，你的掷骰获得<strong>+2恩惠</strong>。</p>",
           "actions": {
             "fontOfLife": {
               "name": "生命之泉 Font of Life",
-              "description": "<p>你释放出一道赐予生命的魔法灵气。激活时立即生效，并且在接下来的<strong>3 轮</strong>内，于你的每个<strong>回合</strong>开始时，20 尺内的每名盟友都会恢复等同于你<strong>感知</strong>属性值的生命值。</p><p><strong>开发中：该动作目前被视为一个范围效果，为初始范围内的目标赋予持续治疗效果。当灵气在 Foundry VTT 第 14 版中由系统自动化后，该动作的机制实现将与描述一致。</strong></p>",
+              "description": "<p>你释放出一道赐予生命的魔法灵气。激活时立即生效，并且在接下来的<strong>3 轮</strong>内，于你的每个回合开始时，20 尺内的每名盟友都会恢复等同于你<strong>感知</strong>属性值的生命值。</p><p><strong>开发中：该动作目前被视为一个范围效果，为初始范围内的目标赋予持续治疗效果。当灵气在 Foundry VTT 第 14 版中由系统自动化后，该动作的机制实现将与描述一致。</strong></p>",
               "effects": [
                 {
                   "name": "生命之泉 Font of Life"
@@ -718,7 +718,7 @@
         },
         "Mental Fortress": {
           "name": "心灵堡垒 Mental Fortress",
-          "description": "<p>你坚定的意志使你极难被影响。你的<strong>意志</strong><strong>防御</strong>获得 +1，并获得对<strong>灵能</strong><strong>伤害</strong>的 5 点抗性。</p>"
+          "description": "<p>你坚定的意志使你极难被影响。你的<strong>意志</strong>防御获得 +1，并获得对<strong>灵能</strong>伤害的 5 点抗性。</p>"
         },
         "Rune: Earth": {
           "name": "符文：大地 Rune: Earth",
@@ -742,7 +742,7 @@
         },
         "Rune: Soul": {
           "name": "符文：灵魂 Rune: Soul",
-          "description": "<p>一种有序的创造与精神本质之力。灵魂符文支配着灵魂在生命与死亡间的基本流转，并与知性、人格及心理健康等事务相关。</p><p>灵魂符文以 <strong>存在</strong> 进行成长，能够提供 <strong>恢复</strong> 以恢复<strong>士气</strong>，或造成由 <strong>意志</strong> 抵抗的 <strong>灵能</strong> <strong>伤害</strong>。它与混沌的 <strong>湮灭</strong> 符文相对立。</p>",
+          "description": "<p>一种有序的创造与精神本质之力。灵魂符文支配着灵魂在生命与死亡间的基本流转，并与知性、人格及心理健康等事务相关。</p><p>灵魂符文以 <strong>存在</strong> 进行成长，能够提供 <strong>恢复</strong> 以恢复<strong>士气</strong>，或造成由 <strong>意志</strong> 抵抗的 <strong>灵能</strong> 伤害。它与混沌的 <strong>湮灭</strong> 符文相对立。</p>",
           "actions": {
             "evoke": {
               "name": "引发 Evoke",
@@ -908,11 +908,11 @@
         },
         "Intercept": {
           "name": "拦截 Intercept",
-          "description": "你保护你的盟友，拦截那些原本可能会落向你同伴的攻击。",
+          "description": "<p>你保护你的盟友，拦截那些原本可能会落向你同伴的攻击。</p>",
           "actions": {
             "intercept": {
               "name": "拦截 Intercept",
-              "description": "<p>你拦截进入你<strong>交战</strong>半径内的敌人的路径，立即进行最多等同于你<strong>跨步</strong>距离的移动，插入其间并阻挡他们的去路。</p><p>如果敌人在其回合中移出你的交战半径，或攻击任何其他生物，你可以对其进行一次@Action[default reactiveStrike]。</p>",
+              "description": "<p>你拦截进入你<strong>交战</strong>半径内的敌人的路径，立即进行最多等同于你<strong>跨步</strong>距离的移动，插入其间并阻挡他们的去路。</p><p>如果敌人在其回合中移出你的交战半径，或攻击任何其他生物，你可以对其进行一次@Action[default reactiveStrike]。</p><h3 class=\"divider\">试玩测试说明</h3><p>打断敌人移动的效果尚未实现自动化。</p>",
               "condition": "一名敌人移入或穿过你的交战范围。"
             }
           }
@@ -972,7 +972,7 @@
           "actions": {
             "sunderingStrike": {
               "name": "粉碎打击 Sundering Strike",
-              "description": "<p>你用你的主手武器进行一次<strong>打击</strong>；若成功，则会对目标施加持续 3 轮的<strong>@Condition[exposed]</strong>状态。此次攻击<strong>难以</strong>施展，且造成的伤害会减少。</p>",
+              "description": "<p>你用你的主手武器进行一次<strong>打击</strong>；若成功，则会对目标施加持续 3 轮的@Condition[exposed]状态。此次攻击<strong>难以</strong>施展，且造成的伤害会减少。</p>",
               "effects": [
                 {
                   "name": "破损的护甲 Sundered Armor"
@@ -1147,15 +1147,15 @@
         },
         "Armored Shell": {
           "name": "装甲壳体 Armored Shell",
-          "description": "<p>你精通将护甲与盾牌配合使用，构筑出防御性的外壳。</p><p>当你处于<strong>@Condition[guarded]</strong>状态且已装备<strong>重型盾牌</strong>时，你的基础<strong>护甲</strong>防御减半，但你的<strong>格挡</strong>防御会相应增加同等数值。</p>"
+          "description": "<p>你精通将护甲与盾牌配合使用，构筑出防御性的外壳。</p><p>当你处于@Condition[guarded]状态且已装备<strong>重型盾牌</strong>时，你的基础<strong>护甲</strong>防御减半，但你的<strong>格挡</strong>防御会相应增加同等数值。</p>"
         },
         "Athletics Novice": {
           "name": "运动新手 Athletics Novice",
-          "description": "<p>你已接受基础<strong>运动</strong>训练。你在<strong>运动</strong>技能中获得<strong>新手</strong><strong>等级</strong>，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你知道某个<strong>地表</strong>是否能支撑你的<strong>重量</strong>，知道在攀爬时如何寻找抓手，以及在游泳时如何分配你的<strong>重量</strong>以获得浮力。你知道如何进行长跑，以及如何调整节奏以避免<strong>力竭</strong>。</p>"
+          "description": "<p>你已接受基础<strong>运动</strong>训练。你在<strong>运动</strong>技能中获得新手等级，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你知道某个地表是否能支撑你的重量，知道在攀爬时如何寻找抓手，以及在游泳时如何分配你的重量以获得浮力。你知道如何进行长跑，以及如何调整节奏以避免力竭。</p>"
         },
         "Awareness Novice": {
           "name": "察觉新手 Awareness Novice",
-          "description": "<p>你已接受过情境察觉的基础训练，能够注意到环境中的重要细节。你获得<strong>察觉</strong>技能的<strong>新手</strong><strong>等级</strong>，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你知道进入房间时要检查出口，也知道如何寻找隐藏的武器、隐蔽的陷阱，以及其他威胁。你知道如何发现自己何时被跟踪，也知道如何搜查常见的藏身之处。</p>"
+          "description": "<p>你已接受过情境察觉的基础训练，能够注意到环境中的重要细节。你获得<strong>察觉</strong>技能的<strong>新手</strong>等级，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你知道进入房间时要检查出口，也知道如何寻找隐藏的武器、隐蔽的陷阱，以及其他威胁。你知道如何发现自己何时被跟踪，也知道如何搜查常见的藏身之处。</p>"
         },
         "Body Block": {
           "name": "躯体格挡 Body Block",
@@ -1170,7 +1170,7 @@
         },
         "Bulwark": {
           "name": "壁垒 Bulwark",
-          "description": "<p>你精通使用<strong>盾牌</strong>来保护自己和他人。</p><p>每回合一次，当你已装备盾牌时，你可以以降低后的1动作点消耗使用<strong>@Action[default defend]</strong>动作。</p>"
+          "description": "<p>你精通使用<strong>盾牌</strong>来保护自己和他人。</p><p>每回合一次，当你已装备盾牌时，你可以以降低后的1动作点消耗使用@Action[default defend]动作。</p>"
         },
         "Counter Strike": {
           "name": "反击 Counter Strike",
@@ -1178,7 +1178,7 @@
           "actions": {
             "counterStrike": {
               "name": "反击 Counter Strike",
-              "description": "<p>当你以<strong>格挡</strong>对抗一次近战攻击进行<strong>防御</strong>时，你可以消耗<strong>专注</strong>，使用你的<strong>主手</strong>武器以降低后的代价进行一次<strong>打击</strong>反击。</p>",
+              "description": "<p>当你以<strong>格挡</strong>对抗一次近战攻击进行防御时，你可以消耗<strong>专注</strong>，使用你的主手武器以降低后的代价进行一次<strong>打击</strong>反击。</p>",
               "condition": "你格挡了一次来袭的近战打击。"
             }
           }
@@ -1206,7 +1206,7 @@
         },
         "Gesture: Ward": {
           "name": "手势：防护 Gesture: Ward",
-          "description": "<p>你将符文中的奥术力量塑造成一道保护屏障，用以护卫自己免受伤害。</p><p>守护手势按<strong>坚韧</strong>进行缩放，并使你针对该法术所用符文的<strong>伤害类型</strong>获得<strong>+6 抗性</strong>。该抗性持续<strong>1 轮</strong>，且你同一时间只能拥有一个守护。施放另一个使用守护手势的法术会替换你先前的守护。此手势需要<strong>1 只手</strong>来施放，基础消耗为<strong>2 动作</strong>和<strong>1 专注</strong>。</p>"
+          "description": "<p>你将符文中的奥术力量塑造成一道保护屏障，用以护卫自己免受伤害。</p><p>守护手势按<strong>坚韧</strong>进行缩放，并使你针对该法术所用符文的伤害类型获得<strong>+6 抗性</strong>。该抗性持续<strong>1 轮</strong>，且你同一时间只能拥有一个守护。施放另一个使用守护手势的法术会替换你先前的守护。此手势需要<strong>1 只手</strong>来施放，基础消耗为<strong>2 动作</strong>和<strong>1 专注</strong>。</p>"
         },
         "Heavy Weapon Training": {
           "name": "重型武器训练 Heavy Weapon Training",
@@ -1214,7 +1214,7 @@
           "actions": {
             "heavyStrike": {
               "name": "强力打击 Heavy Strike",
-              "description": "<p>你用你的<strong>主手</strong>武器发动一次<strong>强力</strong><strong>打击</strong>。这次攻击施展起来较为缓慢，但经过<strong>强化</strong>，会造成额外<strong>伤害</strong>。</p>"
+              "description": "<p>你用你的主手武器发动一次强力<strong>打击</strong>。这次攻击施展起来较为缓慢，但经过<strong>强化</strong>，会造成额外伤害。</p>"
             }
           }
         },
@@ -1224,11 +1224,11 @@
         },
         "Intercept": {
           "name": "拦截 Intercept",
-          "description": "你保护盟友，拦截那些原本可能会打向同伴的攻击。",
+          "description": "<p>你保护盟友，拦截那些原本可能会打向同伴的攻击。</p>",
           "actions": {
             "intercept": {
               "name": "拦截 Intercept",
-              "description": "<p>你拦截进入你<strong>交战</strong>半径内的敌人的路径，立刻移动最多相当于你的<strong>步幅</strong>，插入其间并阻挡他们的去路。</p><p>如果敌人在其回合中移出你的交战半径，或攻击任何其他生物，你可以对其进行一次@Action[default reactiveStrike]。</p>",
+              "description": "<p>你拦截进入你<strong>交战</strong>半径内的敌人的路径，立刻移动最多相当于你的<strong>步幅</strong>，插入其间并阻挡他们的去路。</p><p>如果敌人在其回合中移出你的交战半径，或攻击任何其他生物，你可以对其进行一次@Action[default reactiveStrike]。</p><h3 class=\"divider\">试玩测试说明</h3><p>打断敌人移动的效果尚未实现自动化。</p>",
               "condition": "一个敌人移动到你的交战半径内或穿过该半径。"
             }
           }
@@ -1267,7 +1267,7 @@
         },
         "Rallying Cry": {
           "name": "振奋战吼 Rallying Cry",
-          "description": "你是一名战场领袖，运用你的魅力与声音来坚定盟友的决心。",
+          "description": "<p>你是一名战场领袖，运用你的魅力与声音来坚定盟友的决心。</p>",
           "actions": {
             "rallyingCry": {
               "name": "振奋战吼 Rallying Cry",
@@ -1306,11 +1306,11 @@
         },
         "Shield Combat Proficiency": {
           "name": "盾牌战斗熟练度 Shield Combat Proficiency",
-          "description": "<p>你在战斗中使用盾牌方面受过娴熟的训练。你获得<strong>熟练工</strong>训练等级，以及在<strong>盾牌</strong><strong>武器</strong>类别上的<strong>+1技能加值</strong>。</p>"
+          "description": "<p>你在战斗中使用盾牌方面受过娴熟的训练。你获得<strong>熟练工</strong>训练等级，以及在<strong>盾牌</strong>武器类别上的<strong>+1技能加值</strong>。</p>"
         },
         "Shield Combat Training": {
           "name": "盾牌战斗训练 Shield Combat Training",
-          "description": "<p>你熟练运用盾牌作战，借此猛击并打乱敌人的平衡。你在<strong>盾牌</strong><strong>类别</strong>的武器上达到<strong>受训</strong>熟练度。</p>",
+          "description": "<p>你熟练运用盾牌作战，借此猛击并打乱敌人的平衡。你在<strong>盾牌</strong>类别的武器上达到<strong>受训</strong>熟练度。</p>",
           "actions": {
             "shieldBash": {
               "name": "盾牌猛击 Shield Bash",
@@ -1329,11 +1329,11 @@
         },
         "Testudo": {
           "name": "泰斯图多 Testudo",
-          "description": "你极其擅长运用盾牌来采取防御姿态。持用盾牌时，你在对抗<strong>武器攻击</strong>时，从<strong>@Condition[guarded]</strong>状态中获得的收益加倍。"
+          "description": "你极其擅长运用盾牌来采取防御姿态。持用盾牌时，你在对抗武器攻击时，从<strong>@Condition[guarded]</strong>状态中获得的收益加倍。"
         },
         "Unarmed Combat Training": {
           "name": "徒手战斗训练 Unarmed Combat Training",
-          "description": "<p>你熟悉基础武术和徒手战斗。你知道如何运用自身的体力来制服或束缚对手。你在<strong>徒手</strong><strong>武器</strong>类别上的熟练等级为<strong>受训</strong>。</p>",
+          "description": "<p>你熟悉基础武术和徒手战斗。你知道如何运用自身的体力来制服或束缚对手。你在徒手<strong>武器</strong>类别上的熟练等级为<strong>受训</strong>。</p>",
           "actions": {
             "grapple": {
               "name": "擒抱 Grapple",
@@ -1413,7 +1413,7 @@
           "actions": {
             "inspireHeroism": {
               "name": "激励英勇 Inspire Heroism",
-              "description": "<p>每个盟友（不包括你自己）在<strong>10 英尺</strong>内，进行的<strong>动作</strong>直到其下个<strong>回合</strong>结束前获得<strong>+1 惠骰</strong>。</p>",
+              "description": "<p>每个盟友（不包括你自己）在10 英尺内，进行的动作直到其下个<strong>回合</strong>结束前获得<strong>+1 惠骰</strong>。</p>",
               "effects": [
                 {
                   "name": "激励英勇 Inspire Heroism"
@@ -1428,13 +1428,13 @@
           "actions": {
             "lunge": {
               "name": "突刺 Lunge",
-              "description": "<p>你敏捷地向前窜出，以突如其来的迅捷发动一次打击，使用一件以<strong>敏捷</strong>进行成长的<strong>武器</strong>对单个<strong>目标</strong>进行一次<strong>打击</strong>，且<strong>射程</strong><strong>+2 英尺</strong>。</p><p>此次<strong>攻击</strong>为<strong>困难</strong>，但你不会从当前位置<strong>移动</strong>，且此次攻击不会引发脱离接战。</p>"
+              "description": "<p>你敏捷地向前窜出，以突如其来的迅捷发动一次打击，使用一件以<strong>敏捷</strong>进行成长的武器对单个目标进行一次<strong>打击</strong>，且射程+2 英尺。</p><p>此次攻击为<strong>困难</strong>，但你不会从当前位置<strong>移动</strong>，且此次攻击不会引发脱离接战。</p>"
             }
           }
         },
         "Rune: Flame": {
           "name": "符文：火焰 Rune: Flame",
-          "description": "<p>元素性热能的混沌力量。火焰符文支配火焰与高温。</p><p>火焰符文以<strong>智力</strong>进行成长，目标为<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>火焰</strong><strong>伤害</strong>。它与秩序的<strong>霜冻</strong>符文相对立。</p>",
+          "description": "<p>元素性热能的混沌力量。火焰符文支配火焰与高温。</p><p>火焰符文以<strong>智力</strong>进行成长，目标为<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>火焰</strong>伤害。它与秩序的<strong>霜冻</strong>符文相对立。</p>",
           "actions": {
             "enkindle": {
               "name": "引燃 Enkindle",
@@ -1444,7 +1444,7 @@
         },
         "Rune: Oblivion": {
           "name": "符文：湮灭 Rune: Oblivion",
-          "description": "<p>一种混乱的、毁灭并湮灭存在的力量。湮灭符文掌管物质的消解或精神的溃散。</p><p>湮灭符文以<strong>智力</strong>进行成长，目标为<strong>意志</strong>，并对<strong>士气</strong>造成<strong>虚空</strong><strong>伤害</strong>。它与有序的<strong>灵魂</strong>符文相对立。</p>",
+          "description": "<p>一种混乱的、毁灭并湮灭存在的力量。湮灭符文掌管物质的消解或精神的溃散。</p><p>湮灭符文以<strong>智力</strong>进行成长，目标为<strong>意志</strong>，并对<strong>士气</strong>造成<strong>虚空</strong>伤害。它与有序的<strong>灵魂</strong>符文相对立。</p>",
           "actions": {
             "erase": {
               "name": "擦除 Erase",
