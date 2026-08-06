@@ -171,7 +171,7 @@
       "actions": {
         "graveMark": {
           "name": "墓之印记 Grave Mark",
-          "description": "<p>在以一次近战攻击取得<strong>暴击</strong>后，@ref[actor.name]{生物}会攻击目标的<strong>意志</strong>防御；若成功，则会施加一个墓之印记，并使目标陷入@Condition[exhausted]状态，且该状态会持续，直到目标完成一次<strong>休息</strong>。</p><p>如果一个带有墓之印记的人型生物在印记效果持续期间死亡，它会在其后的下一个<strong>回合</strong>自死亡中复起，成为一只@UUID[Compendium.crucible.taxonomy.Item.ghoul00000000000]{食尸鬼}。</p>",
+          "description": "<p>在以一次近战攻击取得<strong>暴击</strong>后，@ref[actor.name]{生物}会攻击目标的<strong>意志</strong>防御；若成功，则会施加一个墓之印记，并使目标陷入@Condition[exhausted]状态，且该状态会持续，直到目标完成一次休息。</p><p>如果一个带有墓之印记的人型生物在印记效果持续期间死亡，它会在其后的下一个<strong>回合</strong>自死亡中复起，成为一只@UUID[Compendium.crucible.taxonomy.Item.ghoul00000000000]{食尸鬼}。</p>",
           "condition": "当以近战攻击造成暴击时。",
           "effects": [
             {}
@@ -302,7 +302,7 @@
       "actions": {
         "oozeSubdivide": {
           "name": "细分 Subdivide",
-          "description": "<p>软泥怪的细胞迅速分裂，这个生物一分为二！原本的生物与其复制体平分其剩余的<strong>生命值</strong>。每个结果生物的<strong>体型</strong>减少 1。</p><p>如果处于战斗中，新生物作为一个<strong>召唤物</strong>行动，并以<strong>先攻</strong> 1 加入。此<strong>动作</strong>仅可在该生物的体型大于 2 时使用。被创造出的软泥怪的等级绝不会高于<strong>普通</strong>。</p>"
+          "description": "<p>软泥怪的细胞迅速分裂，这个生物一分为二！原本的生物与其复制体平分其剩余的<strong>生命值</strong>。每个结果生物的<strong>体型</strong>减少 1。</p><p>如果处于战斗中，新生物作为一个召唤物行动，并以<strong>先攻</strong> 1 加入。此<strong>动作</strong>仅可在该生物的体型大于 2 时使用。被创造出的软泥怪的等级绝不会高于<strong>普通</strong>。</p>"
         }
       }
     },
@@ -316,7 +316,7 @@
       "actions": {
         "pouncingStrike": {
           "name": "猛扑打击 Pouncing Strike",
-          "description": "<p>此次攻击可在一次<strong>移动</strong>后使用，前提是@ref[actor.name]因这次移动而至少接近其目标10英尺。若该生物原本位于目标上方，则此次攻击在该次移动中每下降10英尺<strong>高度</strong>，便获得<strong>+1 惠骰</strong>。</p><p>若此次攻击为<strong>暴击</strong>，则该攻击的目标会立即陷入@Condition[prone]。</p>",
+          "description": "<p>此次攻击可在一次<strong>移动</strong>后使用，前提是@ref[actor.name]因这次移动而至少接近其目标10英尺。若该生物原本位于目标上方，则此次攻击在该次移动中每下降10英尺高度，便获得<strong>+1 惠骰</strong>。</p><p>若此次攻击为<strong>暴击</strong>，则该攻击的目标会立即陷入@Condition[prone]。</p>",
           "effects": [
             {
               "name": "猛扑打击 Pouncing Strike"
@@ -384,7 +384,7 @@
       "actions": {
         "restrainingChomp": {
           "name": "束缚啃咬 Restraining Chomp",
-          "description": "<p>该生物一口咬住其目标。若此次攻击成功，且目标的<strong>体型</strong>等于或小于该生物，则目标还会陷入<strong>@Condition[restrained]</strong>状态，直到该生物选择将其释放，或该束缚以其他方式被打破。在任意时刻，此动作只能束缚一个目标。</p>",
+          "description": "<p>该生物一口咬住其目标。若此次攻击成功，且目标的<strong>体型</strong>等于或小于该生物，则目标还会陷入@Condition[restrained]状态，直到该生物选择将其释放，或该束缚以其他方式被打破。在任意时刻，此动作只能束缚一个目标。</p>",
           "effects": [
             {
               "name": "束缚啃咬 Restraining Chomp"
@@ -443,7 +443,7 @@
       "actions": {
         "slipperyEscape": {
           "name": "滑溜脱逃 Slippery Escape",
-          "description": "<p>该生物利用其滑溜形态挣脱束缚，立即结束<strong>@Condition[restrained]</strong>状态。</p>"
+          "description": "<p>该生物利用其滑溜形态挣脱束缚，立即结束@Condition[restrained]状态。</p>"
         }
       }
     },
@@ -515,7 +515,7 @@
       "actions": {
         "thrash": {
           "name": "猛击 Thrash",
-          "description": "<p>该生物对其当前<strong>@Condition[restrained]</strong>的目标造成<strong>致命</strong>伤害。</p>",
+          "description": "<p>该生物对其当前@Condition[restrained]的目标造成<strong>致命</strong>伤害。</p>",
           "condition": "目标被该生物受缚。"
         }
       }
