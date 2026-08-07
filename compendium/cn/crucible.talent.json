@@ -557,7 +557,7 @@
       "actions": {
         "formidablePresence": {
           "name": "威严气场 Formidable Presence",
-          "description": "<p>你对12英尺内的敌人的意志防御进行一次威吓技能攻击，对其士气造成虚空伤害；若你超过其防御，则使其陷入恐慌状态，持续1轮。</p>",
+          "description": "<p>你对12英尺内的敌人的意志力防御进行一次威吓技能攻击，对其士气造成虚空伤害；若你超过其防御，则使其陷入恐慌状态，持续1轮。</p>",
           "effects": [
             {
               "name": "威严气场 Formidable Presence"
@@ -773,7 +773,7 @@
     },
     "Gesture: Aspect": {
       "name": "手势：化相 Gesture: Aspect",
-      "description": "<p>你将一个符文的精华灌注入自身，强化你的肉体形态或心灵。</p><p>当你采取某种形相时，你会与法术中所用符文的伤害类型更加协调。你对该伤害类型获得<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p><p>你的形相持续<strong>6 轮</strong>。你同时只能拥有一个生效中的形相，施放另一个使用形相手势的法术会替代之前的效果。此手势施放时需要<strong>1 只手</strong>，基础消耗为<strong>2 动作</strong>和<strong>1 专注</strong>。</p>"
+      "description": "<p>你将一个符文的精华灌注入自身，强化你的肉体形态或心灵。</p><p>当你采取某种化相时，你会与法术中所用符文的伤害类型更加协调。你对该伤害类型获得<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p><p>你的化相持续<strong>6 轮</strong>。你同时只能拥有一个生效中的化相，施放另一个使用化相手势的法术会替代之前的效果。此手势施放时需要<strong>1 只手</strong>，基础消耗为<strong>2 动作</strong>和<strong>1 专注</strong>。</p>"
     },
     "Gesture: Create": {
       "name": "手势：创造 Gesture: Create",
@@ -816,7 +816,7 @@
       "description": "<p>你在符文科学方面拥有专业程度的经验，并且在有充足时间的情况下，能够完成一些更高级的符文编织过程。</p><p>大多数常见符文及其短语的基本属性，你无需参考资料也能轻松记住，但对于稀有表意符号及其组成部分，你仍然需要书籍。</p>"
     },
     "Glyphweaving Novice": {
-      "name": "符纹编织新手 Glyphweaving Novice",
+      "name": "符文编织新手 Glyphweaving Novice",
       "description": "<p>你已接受符文编织基础方面的训练，能够处理大多数常见的符文与铭刻。</p><p>你仍需要查阅配方和书籍，来鉴定特定符文及其属性。</p>"
     },
     "Hamstring": {
@@ -1215,7 +1215,7 @@
     },
     "Monk": {
       "name": "武僧 Monk",
-      "description": "<p>你将僧侣式的修行纪律与武术专长融为一体，在和谐中平衡进攻与防御。</p><p>当你处于无甲状态时，你的反射和意志防御获得+2加值。</p><p>当你处于徒手状态时，你可以使用双拳连击动作。</p>",
+      "description": "<p>你将僧侣式的修行纪律与武术专长融为一体，在和谐中平衡进攻与防御。</p><p>当你处于无甲状态时，你的反射和意志力防御获得+2加值。</p><p>当你处于徒手状态时，你可以使用双拳连击动作。</p>",
       "actions": {
         "doublePunch": {
           "name": "双拳连击 Double Punch",
