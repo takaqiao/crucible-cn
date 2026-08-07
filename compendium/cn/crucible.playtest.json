@@ -1419,7 +1419,7 @@
               "actions": {
                 "formidablePresence": {
                   "name": "威严气场 Formidable Presence",
-                  "description": "<p>你对12英尺内的敌人进行一次针对意志防御的威吓技能攻击，对其士气造成虚空伤害，并使其中防御被你压制的目标陷入恐慌状态，持续1轮。</p>",
+                  "description": "<p>你对12英尺内的敌人进行一次针对意志力防御的威吓技能攻击，对其士气造成虚空伤害，并使其中防御被你压制的目标陷入恐慌状态，持续1轮。</p>",
                   "effects": [
                     {
                       "name": "威严气场 Formidable Presence"
