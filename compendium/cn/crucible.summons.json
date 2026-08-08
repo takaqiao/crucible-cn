@@ -91,7 +91,7 @@
         },
         "Electricity Absorption": {
           "name": "电击吸收 Electricity Absorption",
-          "description": "<p>该@ref[actor.name]{生物}拥有非凡的能力，能从容承受闪电冲击。其<strong>电击</strong>抗性翻倍，且如果该抗性会将伤害量降低至零以下，则该负值改为作为<strong>治疗</strong>获得。</p>"
+          "description": "<p>该@ref[actor.name]{生物}拥有非凡的能力，能从容承受电击冲击。其<strong>电击</strong>抗性翻倍，且如果该抗性会将伤害量降低至零以下，则该负值改为作为<strong>治疗</strong>获得。</p>"
         },
         "False Appearance": {
           "name": "伪装外表 False Appearance",
@@ -171,7 +171,7 @@
         },
         "Electricity Absorption": {
           "name": "电击吸收 Electricity Absorption",
-          "description": "<p>该@ref[actor.name]{生物}具备非凡的能力，能够从容承受闪电冲击。其<strong>电击</strong>抗性加倍，且如果该抗性会将伤害量降低到零以下，则该负数值改为作为<strong>治疗</strong>承受。</p>"
+          "description": "<p>该@ref[actor.name]{生物}具备非凡的能力，能够从容承受电击冲击。其<strong>电击</strong>抗性加倍，且如果该抗性会将伤害量降低到零以下，则该负数值改为作为<strong>治疗</strong>承受。</p>"
         },
         "Voltaic Claw": {
           "name": "电爪 Voltaic Claw"
