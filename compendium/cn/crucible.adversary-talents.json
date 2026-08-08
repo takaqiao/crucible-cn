@@ -129,7 +129,7 @@
     },
     "Electricity Absorption": {
       "name": "电击吸收 Electricity Absorption",
-      "description": "<p>该@ref[actor.name]{生物}具有出众的能力，能够从容承受闪电冲击。其<strong>电击</strong>抗性翻倍；如果该抗性会使伤害量降到零以下，则超出的负数部分改为作为<strong>治疗</strong>承受。</p>"
+      "description": "<p>该@ref[actor.name]{生物}具有出众的能力，能够从容承受电击冲击。其<strong>电击</strong>抗性翻倍；如果该抗性会使伤害量降到零以下，则超出的负数部分改为作为<strong>治疗</strong>承受。</p>"
     },
     "Elusive Flight": {
       "name": "飘忽飞行 Elusive Flight",
@@ -203,7 +203,7 @@
       "actions": {
         "lightningSpit": {
           "name": "闪电喷吐 Lightning Spit",
-          "description": "<p>该@ref[actor.name]{生物}向20尺内的一个目标生物吐出一道小型闪电箭，攻击其<strong>反射</strong>，并造成<strong>电击</strong>伤害。</p><p>在<strong>重击</strong>时，此次攻击会施加@Condition[shocked]状态，持续<strong>3回合</strong>。</p>",
+          "description": "<p>该@ref[actor.name]{生物}向20尺内的一个目标生物吐出一道小型电击箭，攻击其<strong>反射</strong>，并造成<strong>电击</strong>伤害。</p><p>在<strong>重击</strong>时，此次攻击会施加@Condition[shocked]状态，持续<strong>3回合</strong>。</p>",
           "effects": [
             {}
           ]
@@ -216,7 +216,7 @@
       "actions": {
         "lightningSpray": {
           "name": "闪电喷射 Lightning Spray",
-          "description": "<p>该@ref[actor.name]{生物}喷吐出一道30英尺长、4英尺宽的闪电射线，攻击沿途每个目标的<strong>反射</strong>，并造成<strong>电击</strong>伤害。</p><p>若<strong>暴击</strong>，此次攻击会施加@Condition[shocked]状态，持续<strong>3回合</strong>。</p>",
+          "description": "<p>该@ref[actor.name]{生物}喷吐出一道30英尺长、4英尺宽的电击射线，攻击沿途每个目标的<strong>反射</strong>，并造成<strong>电击</strong>伤害。</p><p>若<strong>暴击</strong>，此次攻击会施加@Condition[shocked]状态，持续<strong>3回合</strong>。</p>",
           "effects": [
             {}
           ]
@@ -661,7 +661,7 @@
       "actions": {
         "lightningBurst": {
           "name": "电爆 Lightning Burst",
-          "description": "<p>@ref[actor.name]{该生物}在 15 尺爆破范围内喷发一道闪电冲击，攻击该范围内每个目标的<strong>反射</strong>并造成<strong>电击</strong>伤害。</p><p>造成<strong>暴击</strong>时，此攻击会使目标陷入@Condition[shocked]状态持续<strong>3 轮</strong>。</p>"
+          "description": "<p>@ref[actor.name]{该生物}在 15 尺爆破范围内喷发一道电击冲击，攻击该范围内每个目标的<strong>反射</strong>并造成<strong>电击</strong>伤害。</p><p>造成<strong>暴击</strong>时，此攻击会使目标陷入@Condition[shocked]状态持续<strong>3 轮</strong>。</p>"
         }
       }
     },
