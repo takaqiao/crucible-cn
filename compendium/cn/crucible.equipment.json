@@ -38,7 +38,7 @@
       "name": "爆炸瓶 Blast Flask",
       "description": {
         "public": "<p>一个装满红色液体的烧瓶在破裂时会爆炸，产生一小团爆炸性的火焰，并迅速消散。</p>",
-        "private": "<p>这些炼金瓶子主要用于击碎大块矿石，蕴含着高度集中的重拳般威力。若组合的数量足够多，它们还可用于引发锁链式反应，从而造成更大的爆炸。</p>"
+        "private": "<p></p><p>这些炼金瓶子主要用于击碎大块矿石，蕴含着高度集中的重拳般威力。若组合的数量足够多，它们还可用于引发锁链式反应，从而造成更大的爆炸。</p>"
       },
       "actions": {
         "blastFlask": {
@@ -55,7 +55,7 @@
       "actions": {
         "alchemistsFire": {
           "name": "炼金火焰 Alchemist's Fire",
-          "description": "<p>你掷出@ref[item.name]，造成@Rule[action.weakened]的即时伤害，并使所有位于 4 尺半径<strong>爆发</strong>范围内且未能避开此次攻击的敌人陷入@Condition[burning]状态。</p><p>燃烧伤害的数值及其持续时间取决于@ref[item.name]的品质：</p><ul><li><p><strong>粗制</strong> - 2 伤害，持续 2 轮</p></li><li><p><strong>标准</strong> - 3 伤害，持续 3 轮</p></li><li><p><strong>精良</strong> - 4 伤害，持续 4 轮</p></li><li><p><strong>优异</strong> - 6 伤害，持续 5 轮</p></li><li><p><strong>大师级</strong> - 8 伤害，持续 6 轮</p></li></ul>",
+          "description": "<p>你掷出@ref[item.name]，造成@Rule[action.weakened]的即时<strong>火焰</strong>伤害，并使所有位于 4 英尺半径<strong>爆破</strong>范围内且未能避开此次攻击的敌人陷入@Condition[burning]状态。</p><p>燃烧伤害的数值及其持续时间取决于@ref[item.name]的品质：</p><ul><li><p><strong>粗糙</strong> - 2 伤害，持续 2 轮</p></li><li><p><strong>标准</strong> - 3 伤害，持续 3 轮</p></li><li><p><strong>精良</strong> - 4 伤害，持续 4 轮</p></li><li><p><strong>卓越</strong> - 6 伤害，持续 5 轮</p></li><li><p><strong>大师级</strong> - 8 伤害，持续 6 轮</p></li></ul>",
           "effects": [
             {
               "name": "炼金火焰 Alchemist's Fire"
@@ -185,7 +185,7 @@
       "actions": {
         "causticPhial": {
           "name": "腐蚀瓶 Caustic Phial",
-          "description": "<p>你掷出@ref[item.name]，造成@Rule[action.weakened]的即时伤害，并使所有未能避开此次攻击、位于 4 尺半径内<strong>爆破</strong>范围的敌人陷入@Condition[corroding]状态。</p><p>腐蚀伤害的数值及其持续时间取决于@ref[item.name]的品质：</p><ul><li><p><strong>粗制</strong> - 2 伤害，持续 2 轮</p></li><li><p><strong>标准</strong> - 3 伤害，持续 3 轮</p></li><li><p><strong>精制</strong> - 4 伤害，持续 4 轮</p></li><li><p><strong>优制</strong> - 6 伤害，持续 5 轮</p></li><li><p><strong>大师工艺</strong> - 8 伤害，持续 6 轮</p></li></ul>",
+          "description": "<p>你掷出@ref[item.name]，造成@Rule[action.weakened]的即时<strong>强酸</strong>伤害，并使所有未能避开此次攻击、位于 4 英尺半径内<strong>爆破</strong>范围的敌人陷入@Condition[corroding]状态。</p><p>腐蚀伤害的数值及其持续时间取决于@ref[item.name]的品质：</p><ul><li><p><strong>粗糙</strong> - 2 伤害，持续 2 轮</p></li><li><p><strong>标准</strong> - 3 伤害，持续 3 轮</p></li><li><p><strong>精良</strong> - 4 伤害，持续 4 轮</p></li><li><p><strong>卓越</strong> - 6 伤害，持续 5 轮</p></li><li><p><strong>大师级</strong> - 8 伤害，持续 6 轮</p></li></ul>",
           "effects": [
             {
               "name": "腐蚀瓶 Caustic Phial"
@@ -589,7 +589,7 @@
     "Javelin": {
       "name": "标枪 Javelin",
       "description": {
-        "public": "<p>标枪顶部装有锋利的金属枪头，安装在长杆之上，既足够轻，便于投掷，又足够结实，在近距离作战中依然实用。</p>"
+        "public": "<p>标枪顶部装有锋利的金属枪头，安装在长杆之上，既足够轻，便于投掷，又足够结实，在近距离作战中依然实用。其配重利于飞行，用于投掷攻击时最远可掷出 <strong>60 英尺</strong>。</p>"
       }
     },
     "Jeweler's Portable Workbench": {
@@ -1136,7 +1136,7 @@
         },
         "steelJawTrigger": {
           "name": "触发钢颚陷阱 Trigger Steel-Jaw Trap",
-          "description": "<p>当被触发时，设置陷阱的生物对触发陷阱的单一目标进行一次荒野技能攻击，对抗其<strong>反射</strong><strong>防御</strong>。若未被抵抗，则造成穿刺伤害并施加 @Condition[restrained] 状态。陷阱造成的基础伤害根据陷阱的品质而变化。</p><ul><li><p><strong>粗制</strong> - 1 伤害</p></li><li><p><strong>标准</strong> - 2 伤害</p></li><li><p><strong>精制</strong> - 4 伤害</p></li><li><p><strong>优质</strong> - 8 伤害</p></li><li><p><strong>大师级</strong> - 16 伤害</p></li></ul>",
+          "description": "<p>当被触发时，设置陷阱的生物对触发陷阱的单一目标进行一次<strong>荒野</strong>技能攻击，对抗其<strong>反射</strong>防御。若未被抵抗，则造成穿刺伤害并施加 @Condition[restrained] 状态。陷阱造成的基础伤害根据陷阱的品质而变化。</p><ul><li><p><strong>粗糙</strong> - 1 伤害</p></li><li><p><strong>标准</strong> - 2 伤害</p></li><li><p><strong>精良</strong> - 4 伤害</p></li><li><p><strong>卓越</strong> - 8 伤害</p></li><li><p><strong>大师级</strong> - 16 伤害</p></li></ul><p></p>",
           "effects": [
             {
               "name": "钢颚陷阱 Steel-Jaw Trap"

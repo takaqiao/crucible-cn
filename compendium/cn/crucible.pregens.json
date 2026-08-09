@@ -60,7 +60,7 @@
         },
         "Assassin": {
           "name": "刺客 Assassin",
-          "description": "<p>你擅长为毫无防备者带去死亡。任何针对@Condition[unaware]目标的<strong>打击</strong>或<strong>法术</strong>攻击都会变为<strong>致命</strong>。</p><p>被你攻击命中的未察觉生物，在战斗中直到其自己的回合前，都无法向其盟友发出警报。</p>",
+          "description": "<p>你擅长为毫无防备者带去死亡。任何针对@Condition[unaware]目标的<strong>打击</strong>或<strong>法术</strong>攻击都会变为<strong>致命</strong>。</p><p>被你攻击命中的<strong>未察觉</strong>生物，在<strong>战斗</strong>中直到其自己的回合前，都无法向其盟友发出警报。</p>",
           "actions": {
             "markForDeath": {
               "name": "标记死亡 Mark For Death",
@@ -282,7 +282,7 @@
           "name": "爆炸瓶 Blast Flask",
           "description": {
             "public": "<p>一个装满红色液体的瓶子在破裂时会爆炸，产生一团小型的爆炸性火焰，并迅速消散。</p>",
-            "private": "<p>这些炼金瓶子主要用于击碎大块矿石，威力十足。若将足够数量的它们组合在一起，也可用来制造连锁反应，从而引发更大的爆炸。</p>"
+            "private": "<p></p><p>这些炼金瓶子主要用于击碎大块矿石，威力十足。若将足够数量的它们组合在一起，也可用来制造连锁反应，从而引发更大的爆炸。</p>"
           },
           "actions": {
             "blastFlask": {
@@ -337,7 +337,7 @@
         },
         "Focused Anticipation": {
           "name": "专注预判 Focused Anticipation",
-          "description": "预判带来果断行动。当你在一轮战斗中拥有最高的<strong>先攻</strong>值时，你获得<strong>+1 专注</strong>。"
+          "description": "预判带来果断行动。当你在一轮战斗中拥有最高的<strong>先攻</strong>值时，你获得<strong>+1 专注</strong>。<p></p>"
         },
         "Gesture: Arrow": {
           "name": "手势：箭头 Gesture: Arrow",
@@ -397,7 +397,7 @@
           "actions": {
             "quickDraw": {
               "name": "快速拔取 Quick Draw",
-              "description": "<p>你可以在压力下射出一击，不过精确度会降低。你进行一次<strong>打击</strong>，该次<strong>打击</strong>为<strong>困难</strong>，但其动作成本会降低。</p>"
+              "description": "<p>你可以在压力下射出一击，不过精确度会降低。你进行一次<strong>打击</strong>，该次打击为<strong>困难</strong>，但其动作成本会降低。</p>"
             }
           }
         },
@@ -431,7 +431,7 @@
         },
         "Subtle Extrication": {
           "name": "巧妙脱身 Subtle Extrication",
-          "description": "<p>你明白如何在远离对手时不让自己暴露于对方最凶狠的反击之下。任何针对你的@Action[default reactiveStrike]在进行时，都不会获得通常适用于此类攻击的2个恩惠。</p>"
+          "description": "<p>你明白如何在远离对手时不让自己暴露于对方最凶狠的反击之下。任何针对你的@Action[default reactiveStrike]在进行时，都承受<strong>+1 祸骰</strong>。</p>"
         },
         "Surgeweaver": {
           "name": "激涌编织者 Surgeweaver",
@@ -589,7 +589,7 @@
           "actions": {
             "ruthlessMomentum": {
               "name": "无情动量 Ruthless Momentum",
-              "description": "<p>击败一名敌人后，你可以移动，最多达你的<strong>步幅</strong>，并攻击另一名处于近战范围内的敌人。</p>",
+              "description": "<p>击败一名敌人后，你可以移动，最多达你的<strong>步幅</strong>，并<strong>打击</strong>另一名处于近战范围内的敌人。</p>",
               "condition": "你用一次近战攻击使一名敌人失能。"
             }
           }
@@ -600,7 +600,7 @@
         },
         "Strong Grip": {
           "name": "强力握持 Strong Grip",
-          "description": "你对自己武器装备的掌握稳固而坚定不移。你可以在持用双手近战武器时，执行需要空出一只手的动作。试图缴械你时，要额外承受+2祸骰。"
+          "description": "<p>你对武器的掌握稳固而坚定。在持用一把以力量成长的双手武器时，你仍可施放需要双手的法术；试图对你进行缴械的尝试会承受 +2 祸骰。 </p><p>此外，你可以用副手持用一把单手的重型武器。</p>"
         },
         "Sundering Strike": {
           "name": "粉碎打击 Sundering Strike",
@@ -663,7 +663,7 @@
         },
         "Conserve Effort": {
           "name": "节省精力 Conserve Effort",
-          "description": "<p>你会在战斗中节省精力时找到平静与专注。当你在回合结束时仍有未消耗的动作，你获得<strong>+1 专注</strong>。</p>"
+          "description": "<p>你会在战斗中节省精力时找到平静与专注。当你在<strong>回合</strong>结束时仍有未消耗的动作，你获得<strong>+1 专注</strong>。</p>"
         },
         "Dustbinder": {
           "name": "缚尘者 Dustbinder",
@@ -882,7 +882,7 @@
           "actions": {
             "executionersStrike": {
               "name": "刽子手的打击 Executioner's Strike",
-              "description": "<p>你用一把双手持用重型武器施展一次致命打击。若你的攻击成功，你的对手还会陷入持续 3 轮的@Condition[bleeding]状态，每轮受到等同于你力量值的额外伤害。</p>",
+              "description": "<p>你用一把双手武器施展一次打击。若你的攻击成功，且你的对手当前<strong>生命值</strong>低于其最大值的一半，则该次打击为<strong>致命</strong>，你的对手还会陷入持续 3 轮的@Condition[bleeding]状态，每轮受到等同于你力量值的额外伤害。</p>",
               "condition": "你的目标处于浴血状态。",
               "effects": [
                 {
@@ -958,7 +958,7 @@
           "actions": {
             "secondWind": {
               "name": "二次振作 Second Wind",
-              "description": "<p>你集中精力，恢复等同于你坚韧值的生命值。</p>"
+              "description": "<p>你集中精力，恢复等同于你<strong>坚韧</strong>值的<strong>生命值</strong>。</p>"
             }
           }
         },
@@ -1013,7 +1013,7 @@
           "actions": {
             "uppercut": {
               "name": "上勾拳 Uppercut",
-              "description": "<p>在一次未严重失误的基础打击之后，你以较低的动作消耗用武器的回摆再次<strong>打击</strong>同一目标。</p>"
+              "description": "<p>在一次未严重失误的基础打击之后，你以较低的<strong>动作</strong>消耗用武器的回摆再次<strong>打击</strong>同一目标。</p>"
             }
           }
         }
@@ -1271,7 +1271,7 @@
           "actions": {
             "rallyingCry": {
               "name": "振奋战吼 Rallying Cry",
-              "description": "<p>你发出一声勇敢的怒吼，激励你12英尺内的盟友在危险面前保持坚定。你对盟友的疯狂阈值进行一次<strong>威吓</strong>技能检定。若成功，受影响的盟友获得@Condition[resolute]，持续一轮。</p>",
+              "description": "<p>你发出一声勇敢的怒吼，激励你12英尺内的盟友在危险面前保持坚定。范围内的所有盟友立即恢复等同于你<strong>存在</strong>值的<strong>士气</strong>，并获得@Condition[resolute]，持续 3 轮。</p>",
               "effects": [
                 {
                   "name": "振奋战吼 Rallying Cry"
@@ -1300,7 +1300,7 @@
           "actions": {
             "secondWind": {
               "name": "二次振作 Second Wind",
-              "description": "<p>你集中精力，恢复等同于你坚韧值的生命值。</p>"
+              "description": "<p>你集中精力，恢复等同于你<strong>坚韧</strong>值的<strong>生命值</strong>。</p>"
             }
           }
         },
