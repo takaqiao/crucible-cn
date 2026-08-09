@@ -28,7 +28,7 @@
     },
     "Acid Damage": {
       "name": "强酸伤害 Acid Damage",
-      "description": "<p>为使用此武器进行的打击附加强酸伤害。额外伤害等于该后缀每<strong>阶</strong> 2点。</p><h3 class=\"divider\">试玩测试说明</h3><p>该加值当前以此武器现有伤害类型的平直额外伤害形式生效。在未来的更新中，这将改为造成<strong>强酸</strong>伤害，并单独检定目标的<strong>强酸</strong>抗性。</p>",
+      "description": "<p>为使用此武器进行的打击附加<strong>强酸</strong>伤害。额外伤害等于该后缀每<strong>阶</strong> 2点。</p><h3 class=\"divider\">试玩测试说明</h3><p>该加值当前以此武器现有伤害类型的平直额外伤害形式生效。在未来的更新中，这将改为造成<strong>强酸</strong>伤害，并单独检定目标的<strong>强酸</strong>抗性。</p>",
       "adjective": "腐蚀"
     },
     "Acid Resistance": {

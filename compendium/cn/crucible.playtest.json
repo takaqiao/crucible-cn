@@ -171,7 +171,7 @@
             },
             "Strong Grip": {
               "name": "强力握持 Strong Grip",
-              "description": "你对自己武器装备的掌控稳固而坚定。你在持用双手近战武器时，仍可执行需要空出一只手的动作。试图缴械你时，攻击者的检定获得+2祸骰。"
+              "description": "<p>你对自己武器装备的掌控稳固而坚定。你在持用一把以力量成长的双手武器时，仍可施放需要双手的法术。试图缴械你时，攻击者的检定获得+2祸骰。</p><p>此外，你可以用副手持用一把单手的重型武器。</p>"
             },
             "Hammer Toss": {
               "name": "锤子投掷 Hammer Toss",
@@ -248,7 +248,7 @@
               "actions": {
                 "flurry": {
                   "name": "连击 Flurry",
-                  "description": "<p>你用每把武器各<strong>打击</strong>两次，但每次<strong>打击</strong>都很<strong>困难</strong>。</p>"
+                  "description": "<p>你用每把武器各<strong>打击</strong>两次，但每次打击都很<strong>困难</strong>。</p>"
                 }
               }
             },
@@ -341,7 +341,7 @@
             },
             "Inflection: Push": {
               "name": "屈折：推开 Inflection: Push",
-              "description": "<p>强化一个法术，使其将受影响的生物从施法者身边击退。受到具有 推开 屈折的法术影响的生物会向远离施法者的方向移动 4 英尺，前提是该目的地未被占据。</p>"
+              "description": "<p>强化一个法术，使其将受影响的生物从施法者身边击退。受到具有 <strong>推开</strong> 屈折的法术影响的生物会向远离施法者的方向被强制移动一段距离，距离等于该法术所适用的能力加值，途中可能撞上墙壁或其他阻挡移动的障碍。</p>"
             },
             "Talisman Weapon Training": {
               "name": "护符武器训练 Talisman Weapon Training",
@@ -453,7 +453,7 @@
               "actions": {
                 "quickDraw": {
                   "name": "快速拔取 Quick Draw",
-                  "description": "<p>你可以在压力下勉强开出一枪，尽管准确性会降低。你进行一次<strong>打击</strong>，该次<strong>打击</strong>为<strong>困难</strong>，但其动作成本会降低。</p>"
+                  "description": "<p>你可以在压力下勉强开出一枪，尽管准确性会降低。你进行一次<strong>打击</strong>，该次打击为<strong>困难</strong>，但其动作成本会降低。</p>"
                 }
               }
             },
@@ -598,7 +598,7 @@
               "actions": {
                 "ferociousLeap": {
                   "name": "凶猛飞跃 Ferocious Leap",
-                  "description": "<p>你跃击至多10英尺，并对你落地位置近战范围内的一名敌人进行一次打击。你的移动无视困难地形，且不会被敌方生物阻挡。</p>"
+                  "description": "<p>你<strong>跳跃</strong>至多10英尺，并对你落地位置近战范围内的一名敌人进行一次<strong>打击</strong>。你的移动无视困难地形，且不会被敌方生物阻挡。</p>"
                 }
               }
             },
@@ -890,7 +890,7 @@
             },
             "Gesture: Influence": {
               "name": "手势：影响 Gesture: Influence",
-              "description": "<p>你将一个符文的奥术力量强化为一种集中的直接接触，这通常是基础触碰的更强力进阶形式。</p><p>手势：影响手势以<strong>存在</strong>进行成长，并以一个相邻的单个生物为目标。它对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。该手势施放时需要<strong>1 只手</strong>，其基础消耗为<strong>3 动作</strong>和<stro<strong>1 专注</strong>。</p>"
+              "description": "<p>你将一个符文的奥术力量强化为一种集中的直接接触，这通常是基础触碰的更强力进阶形式。</p><p>手势：影响手势以<strong>存在</strong>进行成长，并以一个相邻的单个生物为目标。它对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。该手势施放时需要<strong>1 只手</strong>，其基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
             },
             "Light Weapon Training": {
               "name": "轻型武器训练 Light Weapon Training",
@@ -990,7 +990,7 @@
               "actions": {
                 "ruthlessMomentum": {
                   "name": "无情动量 Ruthless Momentum",
-                  "description": "<p>击败一名敌人后，你可以移动，最多到你的<strong>步幅</strong>，并攻击另一名处于近战范围内的敌人。</p>",
+                  "description": "<p>击败一名敌人后，你可以移动，最多到你的<strong>步幅</strong>，并<strong>打击</strong>另一名处于近战范围内的敌人。</p>",
                   "condition": "你用一次近战攻击使一名敌人失去行动能力。"
                 }
               }
@@ -1295,7 +1295,7 @@
             },
             "Assassin": {
               "name": "刺客 Assassin",
-              "description": "<p>你专精于为毫无防备者带来死亡。任何针对@Condition[unaware]目标的<strong>打击</strong>或<strong>法术</strong>攻击都会变为<strong>致命</strong>。</p><p>被你攻击命中的未察觉生物，在战斗中直到其自己的回合之前，都无法提醒其盟友。</p>",
+              "description": "<p>你专精于为毫无防备者带来死亡。任何针对@Condition[unaware]目标的<strong>打击</strong>或<strong>法术</strong>攻击都会变为<strong>致命</strong>。</p><p>被你攻击命中的<strong>未察觉</strong>生物，在<strong>战斗</strong>中直到其自己的回合之前，都无法提醒其盟友。</p>",
               "actions": {
                 "markForDeath": {
                   "name": "标记死亡 Mark For Death",
@@ -1383,7 +1383,7 @@
               "actions": {
                 "secondWind": {
                   "name": "二次振作 Second Wind",
-                  "description": "<p>你集中精力，恢复等同于你坚韧值的生命值。</p>"
+                  "description": "<p>你集中精力，恢复等同于你<strong>坚韧</strong>值的<strong>生命值</strong>。</p>"
                 }
               }
             },
@@ -1434,7 +1434,7 @@
               "actions": {
                 "rallyingCry": {
                   "name": "振奋战吼 Rallying Cry",
-                  "description": "<p>你发出一声充满勇气的怒吼，激励你12英尺内的盟友在危险面前保持坚强。你对盟友的疯狂阈值进行一次<strong>威吓</strong>技能检定。成功时，受影响的盟友获得 @Condition[resolute] ，持续一轮。</p>",
+                  "description": "<p>你发出一声充满勇气的怒吼，激励你12英尺内的盟友在危险面前保持坚强。范围内的所有盟友立即恢复等同于你的<strong>存在</strong>数值的<strong>士气</strong>，并成为 @Condition[resolute] ，持续 3 轮。</p>",
                   "effects": [
                     {
                       "name": "振奋战吼 Rallying Cry"
@@ -1746,17 +1746,17 @@
             },
             "Subtle Extrication": {
               "name": "巧妙脱身 Subtle Extrication",
-              "description": "<p>你知道如何在远离对手时，不让自己暴露于对方最凶狠的反击之下。任何针对你的@Action[default reactiveStrike]在进行时，都不会获得原本通常会适用于此类攻击的2个惠骰。</p>"
+              "description": "<p>你知道如何在远离对手时，不让自己暴露于对方最凶狠的反击之下。任何针对你的@Action[default reactiveStrike]在进行时都承受<strong>+1 祸骰</strong>。</p>"
             },
             "Focused Anticipation": {
               "name": "专注预判 Focused Anticipation",
-              "description": "预判带来果断行动。当你在一轮战斗中拥有最高的<strong>先攻</strong>值时，你获得<strong>+1 专注</strong>。"
+              "description": "预判带来果断行动。当你在一轮战斗中拥有最高的<strong>先攻</strong>值时，你获得<strong>+1 专注</strong>。<p></p>"
             },
             "Blast Flask": {
               "name": "爆炸瓶 Blast Flask",
               "description": {
                 "public": "<p>一个装满红色液体的烧瓶在打破时会爆炸，产生一团很快消散的小型爆炸火焰。</p>",
-                "private": "<p>这些炼金瓶子主要用于击碎大块矿石，威力十足。如果组合的数量足够多，它们也可用于引发锁链反应，从而造成更大的爆炸。</p>"
+                "private": "<p></p><p>这些炼金瓶子主要用于击碎大块矿石，威力十足。如果组合的数量足够多，它们也可用于引发锁链反应，从而造成更大的爆炸。</p>"
               },
               "actions": {
                 "blastFlask": {
@@ -2251,7 +2251,7 @@
               "actions": {
                 "executionersStrike": {
                   "name": "刽子手的打击 Executioner's Strike",
-                  "description": "<p>你使用双手持用的重型武器发动一次致命打击。若你的攻击成功，你的对手还会陷入持续 3 轮的@Condition[bleeding]状态，并在每一轮受到等同于你力量值的额外伤害。</p>",
+                  "description": "<p>你使用双手持用的武器发动一次打击。若你的攻击成功，且你的对手的<strong>生命值</strong>低于其最大值的一半，则该次打击为<strong>致命</strong>，你的对手还会陷入持续 3 轮的@Condition[bleeding]状态，并在每一轮受到等同于你力量值的额外伤害。</p>",
                   "condition": "你的目标处于受伤状态。",
                   "effects": [
                     {
@@ -2263,7 +2263,7 @@
             },
             "Unshakeable Stance": {
               "name": "不动如山姿态 Unshakeable Stance",
-              "description": "除非是由敌人掷出的严重成功，或是由你自己掷出的严重失败，否则你不会被任何动作非自愿地移动或击倒至@Condition[prone]状态。<h3 class=\"divider\">试玩测试说明</h3><p>此天赋尚未实现自动化。</p>"
+              "description": "<p>除非是由敌人掷出的严重成功，或是由你自己掷出的严重失败，否则你不会被任何动作非自愿地移动或击倒至@Condition[prone]状态。</p><h3 class=\"divider\">试玩测试说明</h3><p>此天赋尚未实现自动化。</p>"
             },
             "Ruthless Momentum": {
               "name": "无情动量 Ruthless Momentum",
@@ -2271,7 +2271,7 @@
               "actions": {
                 "ruthlessMomentum": {
                   "name": "无情动量 Ruthless Momentum",
-                  "description": "<p>击败一名敌人后，你可以移动，距离最多等同于你的<strong>步幅</strong>，并攻击另一名位于近战范围内的敌人。</p>",
+                  "description": "<p>击败一名敌人后，你可以移动，距离最多等同于你的<strong>步幅</strong>，并<strong>打击</strong>另一名位于近战范围内的敌人。</p>",
                   "condition": "你用一次近战攻击使一名敌人失去行动能力。"
                 }
               }
@@ -2282,7 +2282,7 @@
               "actions": {
                 "secondWind": {
                   "name": "二次振作 Second Wind",
-                  "description": "<p>你集中精力，恢复等同于你坚韧值的生命值。</p>"
+                  "description": "<p>你集中精力，恢复等同于你<strong>坚韧</strong>值的<strong>生命值</strong>。</p>"
                 }
               }
             },
