@@ -45,6 +45,9 @@ jobs:
 
       - name: Build module.zip
         run: |
+          # zip 对已存在的同名档案是**追加更新**、不是重建。仓库里若留着上一版的
+          # module.zip，旧内容会原样活到新包里（ember 侧 1.1.0 就这么发出去过）。先删干净。
+          rm -f module.zip
           zip -r module.zip . \
             -x ".git/*" \
             -x ".github/*" \
