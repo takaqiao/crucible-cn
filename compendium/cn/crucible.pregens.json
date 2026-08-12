@@ -216,7 +216,7 @@
           }
         },
         "Stiletto": {
-          "name": "细剑 Stiletto",
+          "name": "锥刺匕首 Stiletto",
           "description": {
             "public": "<p>细长、渐尖，专为穿刺而制，细剑是杀手的武器——旨在从肋骨之间或护甲缝隙中滑入，几乎不留下痕迹。</p>"
           }
@@ -320,7 +320,7 @@
           "description": "<p>你是精于使用远程武器装备射击并躲避敌人攻击的专家。</p>",
           "actions": {
             "evasiveShot": {
-              "name": "游走射击 Evasive Shot",
+              "name": "闪避射击 Evasive Shot",
               "description": "<p>在进行一次远程武器攻击之后，你可以免费移动至多相当于你<strong>步幅</strong>一半的距离。</p>"
             }
           }
@@ -820,7 +820,7 @@
           }
         },
         "Stiletto": {
-          "name": "细剑 Stiletto",
+          "name": "锥刺匕首 Stiletto",
           "description": {
             "public": "<p>细长、渐尖且专为穿刺而造，细剑是杀手的武器——旨在滑入肋骨之间或护甲的缝隙中，几乎不留痕迹。</p>"
           }
@@ -1098,7 +1098,7 @@
           }
         },
         "Stiletto": {
-          "name": "细剑 Stiletto",
+          "name": "锥刺匕首 Stiletto",
           "description": {
             "public": "<p>细长、渐尖，专为穿刺而制，细剑是杀手的武器——旨在从肋骨之间或护甲缝隙中滑入，几乎不留下痕迹。</p>"
           }
@@ -1280,9 +1280,9 @@
           }
         },
         "Heater Shield": {
-          "name": "鸢形盾 Heater Shield",
+          "name": "熨斗盾 Heater Shield",
           "description": {
-            "public": "<p>鸢形盾因其铁制外形类似熨斗底部而得名，在防护范围与机动性之间提供了良好的平衡。</p>"
+            "public": "<p>熨斗盾因其铁制外形类似熨斗底部而得名，在防护范围与机动性之间提供了良好的平衡。</p>"
           }
         },
         "Gesture: Ward": {
@@ -1437,15 +1437,15 @@
           }
         },
         "Shield Bash": {
-          "name": "盾击 Shield Bash",
+          "name": "盾牌猛击 Shield Bash",
           "description": "<p>你精于持盾作战，用它猛撞敌人并使其失去平衡。</p>",
           "actions": {
             "shieldBash": {
-              "name": "盾击 Shield Bash",
+              "name": "盾牌猛击 Shield Bash",
               "description": "<p>在以主手武器发动一次基础打击之后，你以盾牌发动一次<strong>打击</strong>，使目标陷入<strong>踉跄</strong>状态持续一轮。</p>",
               "effects": [
                 {
-                  "name": "盾击 Shield Bash"
+                  "name": "盾牌猛击 Shield Bash"
                 }
               ]
             }

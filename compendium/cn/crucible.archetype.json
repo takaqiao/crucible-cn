@@ -89,8 +89,8 @@
       "description": "<p>牛、役畜，以及其他会群居成群的猎物动物。</p>"
     },
     "Justiciar": {
-      "name": "审判官 Justiciar",
-      "description": "<p>审判官是神圣的勇士，他们将神力的愤怒与审判带给邪恶或不配之人。</p>"
+      "name": "执法官 Justiciar",
+      "description": "<p>执法官是神圣的勇士，他们将神力的愤怒与审判带给邪恶或不配之人。</p>"
     },
     "Lawkeeper": {
       "name": "律法守卫 Lawkeeper",
@@ -145,7 +145,7 @@
       "description": "<p>擅长潜入他们不该进入的区域，并拿走他们不该拥有之物的流氓式角色。</p>"
     },
     "Trader": {
-      "name": "商人 Trader",
+      "name": "贸易商 Trader",
       "description": "<p>你的专长在于游历世界，并促成货物的交换。</p>"
     },
     "Tusker": {

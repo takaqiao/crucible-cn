@@ -451,7 +451,7 @@
       "description": "<p>当处于阳光下时，@ref[actor.name]{生物} 的所有动作承受<strong>2 个祸骰</strong>。</p><p>此机制通过一个可在适用时轻松切换的<strong>主动 效果</strong>来处理。</p>",
       "effects": {
         "Sunlight Weakness": {
-          "name": "日光弱点 Sunlight Weakness",
+          "name": "阳光弱点 Sunlight Weakness",
           "description": "<p>该生物暴露于日光下时，所有动作均承受祸骰。</p>"
         }
       }
@@ -552,15 +552,15 @@
       "description": "<p>该@ref[actor.name]{生物}拥有异界视觉，使其对危险或机遇格外察觉。它在任何<strong>察觉</strong>检定上获得+2<strong>恩惠骰</strong>，并且能够看见@Condition[invisible]的生物。</p>"
     },
     "Venomous Bite": {
-      "name": "剧毒噬咬 Venomous Bite",
+      "name": "剧毒啃咬 Venomous Bite",
       "description": "<p>该@ref[actor.name]{生物}通过其啃咬注入毒素。</p>",
       "actions": {
         "venomousBite": {
-          "name": "剧毒噬咬 Venomous Bite",
+          "name": "剧毒啃咬 Venomous Bite",
           "description": "<p>该@ref[actor.name]{生物}进行攻击，并注入毒素；若成功，则会施加@Condition[poisoned]状态，持续<strong>6回合</strong>。</p>",
           "effects": [
             {
-              "name": "剧毒噬咬 Venomous Bite"
+              "name": "剧毒啃咬 Venomous Bite"
             }
           ]
         }
