@@ -7,7 +7,20 @@
       "description": "<p><em>英勇之戒</em>是对《Crucible》中角色成长与战斗机制的引导式引言，让玩家扮演一支英雄队伍，面对一连串不断升级的挑战。</p>",
       "scenes": {
         "Arena of Valor": {
-          "name": "英勇竞技场 Arena of Valor"
+          "name": "英勇竞技场 Arena of Valor",
+          "tokens": {
+            "Duurath": "杜拉斯",
+            "Kagura": "神乐",
+            "Agnath": "阿格纳斯",
+            "Fizzit": "菲兹特",
+            "Ulfen": "乌尔芬",
+            "Zarajah": "扎拉贾",
+            "Eliorwen": "艾利奥文",
+            "Belladonna": "颠茄"
+          },
+          "levels": {
+            "Arena of Valor": "英勇竞技场"
+          }
         }
       },
       "folders": {

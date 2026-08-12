@@ -229,5 +229,16 @@ export const DOCUMENT_MAPPINGS = {
       "path": "system.actions",
       "converter": "crucibleActions"
     }
+  },
+  "Scene": {
+    "levels": {
+      "path": "levels",
+      "converter": "nameCollection"
+    },
+    "tokens": {
+      "path": "tokens",
+      "converter": "nameCollection"
+    },
+    "navName": "navName"
   }
 };
