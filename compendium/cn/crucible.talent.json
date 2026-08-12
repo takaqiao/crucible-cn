@@ -112,7 +112,7 @@
     },
     "Arcana Novice": {
       "name": "奥术新手 Arcana Novice",
-      "description": "<p>你所受的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知、被神化与被妖魔化的崇拜对象。你获得<strong>奥术</strong>技能的<strong>新手</strong>等级，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪种低阶符文，以及所用的手势（但未必能分辨词缀）。你能够判断某个存在是更受混沌还是秩序影响，也能辨认常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有所了解，因此能够与崇拜特定灵体或神祇的人交流，而不至于让自己出丑。</p>"
+      "description": "<p>你所受的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知、被神化与被妖魔化的崇拜对象。你获得<strong>奥术</strong>技能的<strong>新手</strong>等级，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪种低阶符文，以及所用的手势（但未必能分辨屈折）。你能够判断某个存在是更受混沌还是秩序影响，也能辨认常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有所了解，因此能够与崇拜特定灵体或神祇的人交流，而不至于让自己出丑。</p>"
     },
     "Arcane Archer": {
       "name": "奥术弓手 Arcane Archer",
@@ -578,7 +578,7 @@
     },
     "Dustbinder": {
       "name": "缚尘者 Dustbinder",
-      "description": "<p>你极其擅长编织大地符文。使用该符文的法术在造成暴击时会施加 @Condition[corroding] 状态。</p><p>该腐蚀效果持续<strong>3 轮</strong>，并且每轮会造成等同于你感知属性值的<strong>酸液</strong><strong>伤害</strong>，作用于<strong>生命值</strong>。</p>"
+      "description": "<p>你极其擅长编织大地符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[corroding] 状态。</p><p>该腐蚀效果持续<strong>3 轮</strong>，并且每轮对<strong>生命值</strong>造成相当于你<strong>感知</strong>属性值一半的<strong>强酸</strong>伤害。</p>"
     },
     "Earth Proficiency": {
       "name": "大地熟练度 Earth Proficiency",
@@ -719,7 +719,7 @@
       "actions": {
         "flyingKick": {
           "name": "飞踢 Flying Kick",
-          "description": "<p><strong>移动</strong>向前 3 至 6 英尺，沿直线前进，并以一次强化<strong>打击</strong>踢向一名敌人。</p>"
+          "description": "<p>沿直线向前<strong>移动</strong>至少 3 英尺、至多不超过你的步幅，并以一次强化<strong>打击</strong>踢向一名敌人。</p>"
         }
       }
     },
@@ -760,7 +760,7 @@
     },
     "Gesture: Sense": {
       "name": "手势：感知 Gesture: Sense",
-      "description": "<p>你将心神与一种符文的奥术力量同调，以感知附近的能量源。</p><p>感知手势会随<strong>存在</strong>成长，产生一个半径 30 尺、位置始终以施法者为中心的扩散区域。此手势施放时需要<strong>1 只手</strong>，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。你也可以选择<strong>维持</strong>它，但此后每个后续轮次都需额外消耗<strong>1 专注</strong>。</p><p>此法术允许施法者侦测与本法术所融入的同一符文相关的施法存在。该感知也会短暂侦测到生物的存在，具体取决于其类型。</p><ul><li><p><strong>控制</strong>：邪魔</p></li><li><p><strong>死亡</strong>：不死生物</p></li><li><p><strong>大地</strong>：软泥怪和土元素</p></li><li><p><strong>火焰</strong>：巨龙和火焰</p></li><li><p><strong>霜冻</strong>：巨人和冰霜元素</p></li><li><p><strong>照明</strong>：天界生物</p></li><li><p><strong>幻象</strong>：妖精</p></li><li><p><strong>念力</strong>：怪物</p></li><li><p><strong>生命</strong>：植物和野兽</p></li><li><p><strong>风暴</strong>：构装体和风暴元素</p></li><li><p><strong>湮灭</strong>：外来者</p></li><li><p><strong>灵魂</strong>：人型生物</p></li></ul>"
+      "description": "<p>你将心神与一种符文的奥术力量同调，以感知附近的能量源。</p><p>感知手势会随<strong>存在</strong>成长，产生一个半径 30 尺、位置始终以施法者为中心的扩散区域。此手势施放时需要<strong>1 只手</strong>，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。你也可以选择<strong>维持</strong>它，但此后每个后续轮次都需额外消耗<strong>1 专注</strong>。</p><p>此法术允许施法者侦测与本法术所融入的同一符文相关的施法存在。该感知也会短暂侦测到生物的存在，具体取决于其类型。</p><ul><li><p><strong>控制</strong>：邪魔</p></li><li><p><strong>死亡</strong>：不死生物</p></li><li><p><strong>大地</strong>：软泥怪和土元素</p></li><li><p><strong>火焰</strong>：巨龙和火元素</p></li><li><p><strong>霜冻</strong>：巨人和冰霜元素</p></li><li><p><strong>照明</strong>：天界生物</p></li><li><p><strong>幻象</strong>：妖精</p></li><li><p><strong>念力</strong>：怪物</p></li><li><p><strong>生命</strong>：植物和野兽</p></li><li><p><strong>风暴</strong>：构装体和风暴元素</p></li><li><p><strong>湮灭</strong>：外来者</p></li><li><p><strong>灵魂</strong>：人型生物</p></li></ul>"
     },
     "Gesture: Surge": {
       "name": "手势：涌动 Gesture: Surge",
@@ -901,7 +901,7 @@
     },
     "Inflection: React": {
       "name": "屈折：反应 Inflection: React",
-      "description": "<p>本能地将一个法术构筑为一个<strong>反应</strong>，以回应你所观察到的其他动作。词缀：反应会使法术的<strong>专注</strong>消耗增加2。</p>"
+      "description": "<p>本能地将一个法术构筑为一个<strong>反应</strong>，以回应你所观察到的其他动作。屈折：反应会使法术的<strong>专注</strong>消耗增加2。</p>"
     },
     "Inflection: Reshape": {
       "name": "屈折：重塑 Inflection: Reshape",
@@ -909,7 +909,7 @@
     },
     "Inflection: Compose": {
       "name": "屈折：编构 Inflection: Compose",
-      "description": "<p>通过在法术成形时投入额外时间来强化法术，以减少其他资源消耗作为交换。组合 词缀使法术的<strong>专注</strong>消耗减少 1，作为交换，其<strong>动作</strong>消耗增加 1。</p>"
+      "description": "<p>通过在法术成形时投入额外时间来强化法术，以减少其他资源消耗作为交换。编构 屈折使法术的<strong>专注</strong>消耗减少 1，作为交换，其<strong>动作</strong>消耗增加 1。</p>"
     },
     "Inflection: Determine": {
       "name": "屈折：限定 Inflection: Determine",
@@ -921,11 +921,11 @@
     },
     "Inflection: Extend": {
       "name": "屈折：延展 Inflection: Extend",
-      "description": "<p>增强一个法术的持续时间，延长其效果的持续时间。对于瞬时生效的法术，它们所造成的任何相应状态的持续时间都会增加。</p><section class=\"construction\"><p>由 延展 词缀带来的效果持续时间增加在试玩测试 1 中尚未自动化。此词缀被纳入作为施法系统预期方向的一个示例。</p></section>"
+      "description": "<p>增强一个法术的持续时间，延长其效果的持续时间。对于瞬时生效的法术，它们所造成的任何相应状态的持续时间都会增加。</p><section class=\"construction\"><p>由 延展 屈折带来的效果持续时间增加在试玩测试 1 中尚未自动化。此屈折被纳入作为施法系统预期方向的一个示例。</p></section>"
     },
     "Inflection: Negate": {
       "name": "屈折：否定 Inflection: Negate",
-      "description": "<p>反转一个法术的效果。一个通常会治疗目标的反转生命之触法术，改为造成毒素伤害。一个反转死亡防护法术会对邻近的一名敌人施加对腐化伤害的易伤。</p><section class=\"construction\"><p>否定 词缀的效果在试玩测试 1 中尚未自动化。此词缀作为施法系统预期方向的示例而被收录。</p></section>"
+      "description": "<p>反转一个法术的效果。一个通常会治疗目标的反转生命之触法术，改为造成毒素伤害。一个反转死亡防护法术会对邻近的一名敌人施加对腐化伤害的易伤。</p><section class=\"construction\"><p>否定 屈折的效果在试玩测试 1 中尚未自动化。此屈折作为施法系统预期方向的示例而被收录。</p></section>"
     },
     "Inflection: Pull": {
       "name": "屈折：拉拽 Inflection: Pull",
@@ -937,7 +937,7 @@
     },
     "Inflection: Quicken": {
       "name": "屈折：迅捷 Inflection: Quicken",
-      "description": "<p>通过加快法术施放的速度来强化一个法术，但代价是需要消耗更多的专注。词缀：迅捷化使一个法术的<strong>动作</strong>消耗减少1，而作为交换，其<strong>专注</strong>消耗增加1。</p>"
+      "description": "<p>通过加快法术施放的速度来强化一个法术，但代价是需要消耗更多的专注。屈折：迅捷使一个法术的<strong>动作</strong>消耗减少1，而作为交换，其<strong>专注</strong>消耗增加1。</p>"
     },
     "Inquisitor": {
       "name": "审判官 Inquisitor",
@@ -1183,7 +1183,7 @@
     },
     "Mender": {
       "name": "修补匠 Mender",
-      "description": "<p>你极其擅长编织生命符文。使用此符文的法术在造成暴击时会施加 @Condition[mending] 状态。</p><p>修补效果持续 <strong>1 轮</strong>，并将你的 <strong>感知</strong> 数值作为额外的 <strong>恢复</strong> 施加到 <strong>生命值</strong> 上。</p>"
+      "description": "<p>你极其擅长编织生命符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你恢复生命值的暴击会施加 @Condition[mending] 状态。</p><p>修补效果持续 <strong>1 轮</strong>，并将你的 <strong>感知</strong> 数值作为额外的 <strong>恢复</strong> 施加到 <strong>生命值</strong> 上。</p>"
     },
     "Mental Fortress": {
       "name": "心灵堡垒 Mental Fortress",
@@ -1191,7 +1191,7 @@
     },
     "Mesmer": {
       "name": "迷魅师 Mesmer",
-      "description": "<p>你极其擅长编织幻象符文。使用该符文的法术在暴击时会造成 @Condition[confused]。</p><p>混乱效果持续<strong>1 轮</strong>，对<strong>士气</strong>造成相当于你<strong>智力</strong>属性一半的<strong>灵能</strong>伤害，并施加 @Condition[disoriented] 状态。</p>"
+      "description": "<p>你极其擅长编织幻象符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[confused] 状态。</p><p>混乱效果持续<strong>1 轮</strong>，对<strong>士气</strong>造成相当于你<strong>智力</strong>属性一半的<strong>灵能</strong>伤害，并施加 @Condition[disoriented] 状态。</p>"
     },
     "Mnemonic Realization": {
       "name": "记忆实现 Mnemonic Realization",
@@ -1229,7 +1229,7 @@
     },
     "Necromancer": {
       "name": "死灵法师 Necromancer",
-      "description": "<p>你非常擅长编织死亡符文。使用该符文的法术在造成暴击时会施加 @Condition[decaying] 状态。</p><p>腐坏效果持续<strong>3 轮</strong>，并且每轮对<strong>生命值</strong>造成等同于你的<strong>智力</strong>属性值的<strong>腐化</strong>伤害。</p>"
+      "description": "<p>你非常擅长编织死亡符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[decaying] 状态。</p><p>腐坏效果持续<strong>3 轮</strong>，并且每轮对<strong>生命值</strong>造成相当于你<strong>存在</strong>属性值一半的<strong>腐化</strong>伤害。</p>"
     },
     "Never Yield": {
       "name": "永不屈服 Never Yield",
@@ -1461,7 +1461,7 @@
     },
     "Rimecaller": {
       "name": "霜唤者 Rimecaller",
-      "description": "<p>你极其擅长编织霜冻符文。使用此符文的法术在造成暴击时会施加 @Condition[freezing] 状态。</p><p>冰冻效果持续<strong>1 轮</strong>，对<strong>生命值</strong>造成你<strong>感知</strong>属性值一半的<strong>霜冻</strong>伤害，并施加 @Condition[slowed] 状态。</p>"
+      "description": "<p>你极其擅长编织霜冻符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[freezing] 状态。</p><p>冰冻效果持续<strong>1 轮</strong>，对<strong>生命值</strong>造成你<strong>感知</strong>属性值一半的<strong>霜冻</strong>伤害，并施加 @Condition[slowed] 状态。</p>"
     },
     "Rune: Control": {
       "name": "符文：控制 Rune: Control",
@@ -1733,7 +1733,7 @@
     },
     "Sorcerer": {
       "name": "术士 Sorcerer",
-      "description": "<p>你的魔法深深植根于本能，而你的施法实践有悖于传统学院派的理解。</p><p>你无法施放<strong>标志性法术</strong>，但当你使用<strong>词缀</strong>施放法术时，你每拥有一个标志性法术法术位，该法术便额外造成<strong>+1伤害</strong>。</p>"
+      "description": "<p>你的魔法深深植根于本能，而你的施法实践有悖于传统学院派的理解。</p><p>你无法施放<strong>标志性法术</strong>，但当你使用<strong>屈折</strong>施放法术时，你每拥有一个标志性法术法术位，该法术便额外造成<strong>+1伤害</strong>。</p>"
     },
     "Soul Proficiency": {
       "name": "灵魂熟练度 Soul Proficiency",
@@ -1830,7 +1830,7 @@
     },
     "Surgeweaver": {
       "name": "激涌编织者 Surgeweaver",
-      "description": "<p>你极其擅长编织风暴符文。使用该符文的法术在造成暴击时会施加 @Condition[shocked] 状态。</p><p>感电效果会持续 <strong>3 轮</strong>，对<strong>士气</strong>造成相当于你<strong>智力</strong>数值一半的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
+      "description": "<p>你极其擅长编织风暴符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[shocked] 状态。</p><p>感电效果会持续 <strong>3 轮</strong>，对<strong>士气</strong>造成相当于你<strong>智力</strong>数值一半的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
     },
     "Swashbuckler": {
       "name": "侠客 Swashbuckler",
@@ -1874,7 +1874,7 @@
       "actions": {
         "refocus": {
           "name": "重新聚焦 Refocus",
-          "description": "<p>你使用你已装备的护符，尝试恢复一些<strong>专注</strong>。你对自己的振奋阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>成功时，若使用的是单手护符，则你<strong>恢复 +1 专注</strong>；若使用的是<strong>双手持用</strong>护符，则你<strong>恢复 +2 专注</strong>。若大成功，则恢复的专注量额外增加 +1。</p>"
+          "description": "<p>你使用你已装备的护符，尝试恢复一些<strong>专注</strong>。你对自己的集结阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>成功时，若使用的是单手护符，则你<strong>恢复 +1 专注</strong>；若使用的是<strong>双手持用</strong>护符，则你<strong>恢复 +2 专注</strong>。若大成功，则恢复的专注量额外增加 +1。</p>"
         }
       }
     },
@@ -1980,7 +1980,7 @@
     },
     "Voidcaller": {
       "name": "虚空呼唤者 Voidcaller",
-      "description": "<p>你在编织湮灭符文方面技艺高超。使用该符文的法术在造成暴击时会施加@Condition[entropy]状态。</p><p>熵蚀效果持续<strong>1 轮</strong>，造成相当于你<strong>存在</strong>属性一半的<strong>虚空</strong><strong>士气</strong>伤害，并施加@Condition[frightened]状态。</p>"
+      "description": "<p>你在编织湮灭符文方面技艺高超。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加@Condition[entropy]状态。</p><p>熵蚀效果持续<strong>1 轮</strong>，对<strong>生命值</strong>造成相当于你<strong>智力</strong>属性一半的<strong>虚空</strong>伤害，并施加@Condition[frightened]状态。</p>"
     },
     "Vow of Animus": {
       "name": "敌意誓约 Vow of Animus",

@@ -42,8 +42,8 @@
       "adjective": "启动",
       "actions": {
         "affixActivating": {
-          "name": "补充行动 Replenish Action",
-          "description": "<p>在危急关头，你可以从此物品中汲取一份额外的<strong>行动</strong>储备。恢复的行动量取决于此词缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong><strong>1点行动</strong></p></li><li><p><strong>第2阶：</strong><strong>2点行动</strong></p></li><li><p><strong>第3阶：</strong><strong>3点行动</strong></p></li></ul>"
+          "name": "补充动作 Replenish Action",
+          "description": "<p>在危急关头，你可以从此物品中汲取一份额外的<strong>动作</strong>储备。恢复的动作量取决于此词缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong><strong>1点动作</strong></p></li><li><p><strong>第2阶：</strong><strong>2点动作</strong></p></li><li><p><strong>第3阶：</strong><strong>3点动作</strong></p></li></ul>"
         }
       }
     },
@@ -53,9 +53,9 @@
       "adjective": "奥术"
     },
     "Arrow Spellcraft": {
-      "name": "箭形施法 Arrow Spellcraft",
-      "description": "<p>此物品被注入了<strong>箭形</strong>施法的精华。持用时，持有者会本能地获得关于<strong>箭形</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构成法术。</p>",
-      "adjective": "箭形"
+      "name": "箭矢施法 Arrow Spellcraft",
+      "description": "<p>此物品被注入了<strong>箭矢</strong>施法的精华。持用时，持有者会本能地获得关于<strong>箭矢</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构成法术。</p>",
+      "adjective": "箭矢"
     },
     "Aspect Spellcraft": {
       "name": "化相施法 Aspect Spellcraft",
@@ -229,7 +229,7 @@
       "adjective": "闪电"
     },
     "Electricity Resistance": {
-      "name": "电抗性 Electricity Resistance",
+      "name": "电击抗性 Electricity Resistance",
       "description": "<p>此前缀的每<strong>阶</strong>使<strong>电击</strong>抗性提高 3。</p>",
       "adjective": "抗电"
     },
@@ -392,7 +392,7 @@
     },
     "Luminary": {
       "name": "辉耀者 Luminary",
-      "description": "<p>包含<strong>词缀</strong>的沉着<strong>动作</strong>获得恩惠骰。获得的恩惠骰数量等于此前缀的<strong>阶</strong>。只有一个词缀可以提供此增益。</p>",
+      "description": "<p>包含<strong>屈折</strong>的沉着<strong>动作</strong>获得恩惠骰。获得的恩惠骰数量等于此前缀的<strong>阶</strong>。只有一个词缀可以提供此增益。</p>",
       "adjective": "辉耀"
     },
     "Medicine": {

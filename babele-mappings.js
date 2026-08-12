@@ -222,5 +222,12 @@ export const DOCUMENT_MAPPINGS = {
       "documentType": "ActiveEffect",
       "cardinality": "many"
     }
+  },
+  "ActiveEffect": {
+    "adjective": "system.adjective",
+    "actions": {
+      "path": "system.actions",
+      "converter": "crucibleActions"
+    }
   }
 };

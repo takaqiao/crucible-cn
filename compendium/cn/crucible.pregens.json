@@ -17,7 +17,7 @@
         "description": "<p>很少有人像你那样学会生存。你所受的是一场在不信任中进行的残酷教育。你学会了观察他人，寻找危险或不忠的明显迹象，避开他人的注意，在某片蔓延无际的城市街道翻找残羹冷炙。</p>"
       },
       "biography": {
-        "public": "<p>颠茄是一名狡黠的游荡者，使用两把匕首战斗，对毫无防备的目标迅速连续发动攻击。颠茄渴望获得<strong>下毒者</strong>签名天赋。</p>"
+        "public": "<p>颠茄是一名狡黠的游荡者，使用两把匕首战斗，对毫无防备的目标迅速连续发动攻击。颠茄渴望获得<strong>下毒者</strong>招牌天赋。</p>"
       },
       "items": {
         "Poison Vial": {
@@ -28,7 +28,7 @@
           "actions": {
             "poisonIngest": {
               "name": "摄入毒药 Ingest Poison",
-              "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它最初是<strong>无害</strong>的，但目标必须针对其<strong>强韧</strong>进行一次攻击防御，否则会变为@Condition[poisoned]。</p><p>毒素造成的伤害量及其持续时间取决于@ref[item.name]的品质：</p><ul><li><p><strong>粗劣</strong> - 4轮内受到2点伤害</p></li><li><p><strong>标准</strong> - 6轮内受到4点伤害</p></li><li><p><strong>精良</strong> - 8轮内受到6点伤害</p></li><li><p><strong>优异</strong> - 10轮内受到8点伤害</p></li><li><p><strong>大师级</strong> - 12轮内受到10点伤害</p></li></ul><p><em>应在毒药被摄入时使用此动作，而非在其首次被涂抹时使用。</em></p>",
+              "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它最初是<strong>无害</strong>的，但目标必须针对其<strong>强韧</strong>进行一次攻击防御，否则会变为@Condition[poisoned]。</p><p>毒素造成的伤害量及其持续时间取决于@ref[item.name]的品质：</p><ul><li><p><strong>粗糙</strong> - 4轮内受到2点伤害</p></li><li><p><strong>标准</strong> - 6轮内受到4点伤害</p></li><li><p><strong>精良</strong> - 8轮内受到6点伤害</p></li><li><p><strong>卓越</strong> - 10轮内受到8点伤害</p></li><li><p><strong>大师级</strong> - 12轮内受到10点伤害</p></li></ul><p><em>应在毒药被摄入时使用此动作，而非在其首次被涂抹时使用。</em></p>",
               "effects": [
                 {
                   "name": "中毒 Poisoned"
@@ -211,7 +211,7 @@
           "actions": {
             "antitoxin": {
               "name": "抗毒剂 Antitoxin",
-              "description": "<p>服用此@ref[item.name]能够中和影响目标的任何@Condition[poisoned]状态。更强的毒药需要更强的抗毒剂才能中和。</p><p>此@ref[item.name]可抵消的毒药类别取决于其品质：</p><ul><li><p><strong>粗制</strong> - 每轮造成3点伤害或以下的毒药</p></li><li><p><strong>标准</strong> - 每轮造成5点伤害或以下的毒药</p></li><li><p><strong>精制</strong> - 每轮造成7点伤害或以下的毒药</p></li><li><p><strong>优质</strong> - 每轮造成9点伤害或以下的毒药</p></li><li><p><strong>大师工艺</strong> - 每轮造成11点伤害或以下的毒药</p></li></ul>"
+              "description": "<p>服用此@ref[item.name]能够中和影响目标的任何@Condition[poisoned]状态。更强的毒药需要更强的抗毒剂才能中和。</p><p>此@ref[item.name]可抵消的毒药类别取决于其品质：</p><ul><li><p><strong>粗糙</strong> - 每轮造成3点伤害或以下的毒药</p></li><li><p><strong>标准</strong> - 每轮造成5点伤害或以下的毒药</p></li><li><p><strong>精良</strong> - 每轮造成7点伤害或以下的毒药</p></li><li><p><strong>卓越</strong> - 每轮造成9点伤害或以下的毒药</p></li><li><p><strong>大师级</strong> - 每轮造成11点伤害或以下的毒药</p></li></ul>"
             }
           }
         },
@@ -251,7 +251,7 @@
           "actions": {
             "healingElixir": {
               "name": "治疗灵药 Healing Elixir",
-              "description": "<p>立即恢复一定数量的<strong>生命值</strong>，具体数值取决于该灵药的品质。</p><ul><li><p><strong>粗制</strong> - 立即恢复 6 点<strong>生命值</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>生命值</strong>。</p></li><li><p><strong>精良</strong> - 立即恢复 24 点<strong>生命值</strong>。</p></li><li><p><strong>优异</strong> - 立即恢复 48 点<strong>生命值</strong>。</p></li><li><p><strong>大师工艺</strong> - 立即恢复 96 点<strong>生命值</strong>。</p></li></ul>"
+              "description": "<p>立即恢复一定数量的<strong>生命值</strong>，具体数值取决于该灵药的品质。</p><ul><li><p><strong>粗糙</strong> - 立即恢复 6 点<strong>生命值</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>生命值</strong>。</p></li><li><p><strong>精良</strong> - 立即恢复 24 点<strong>生命值</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>生命值</strong>。</p></li><li><p><strong>大师级</strong> - 立即恢复 96 点<strong>生命值</strong>。</p></li></ul>"
             }
           }
         }
@@ -261,7 +261,7 @@
       "name": "艾利奥文 Eliorwen",
       "tokenName": "艾利奥文",
       "ancestry": {
-        "name": "精灵语 Elvish",
+        "name": "精灵 Elvish",
         "description": "<p>你的移动优雅，思维敏捷；你生来便是寿命悠长的精灵。你轻盈灵巧的身形与雕琢般的五官，都是一个将优雅视为生活方式的族群所传承下来的特质。你倾向于迅速思考与精确的移动，这些都是数百年传统演化而来的结果。</p>"
       },
       "background": {
@@ -269,7 +269,7 @@
         "description": "<p>你过着漂泊不定的生活。你最享受的，莫过于感受车驾或坐骑在你身下前行，看着异乡的天空在头顶缓缓掠过。你学会了仔细留意周围的环境及其需求，照料你所依赖的生物，并就地取材、随遇而安。</p>"
       },
       "biography": {
-        "public": "<p>艾利奥文是一名敏捷的散兵，运用箭术与施法从极远的距离压制并消灭敌人。艾利奥文立志获得<strong>奥术弓手</strong>签名天赋。</p>"
+        "public": "<p>艾利奥文是一名敏捷的散兵，运用箭术与施法从极远的距离压制并消灭敌人。艾利奥文立志获得<strong>奥术弓手</strong>招牌天赋。</p>"
       },
       "items": {
         "Studded Leather Armor": {
@@ -287,7 +287,7 @@
           "actions": {
             "blastFlask": {
               "name": "爆炸瓶 Blast Flask",
-              "description": "<p>你点燃并投掷@ref[item.name]，对爆炸半径内的所有敌人造成<strong>火焰</strong>伤害。<strong>爆炸</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>粗劣</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>优良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
+              "description": "<p>你点燃并投掷@ref[item.name]，对爆炸半径内的所有敌人造成<strong>火焰</strong>伤害。<strong>爆炸</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>粗糙</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>卓越</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
             }
           }
         },
@@ -425,7 +425,7 @@
         },
         "Surgeweaver": {
           "name": "激涌编织者 Surgeweaver",
-          "description": "<p>你极其擅长编织风暴符文。使用此符文的法术在造成暴击时会施加 @Condition[shocked] 状态。</p><p>感电效果持续<strong>3 轮</strong>，对<strong>士气</strong>造成你<strong>智力</strong>属性一半数值的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
+          "description": "<p>你极其擅长编织风暴符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[shocked] 状态。</p><p>感电效果持续<strong>3 轮</strong>，对<strong>士气</strong>造成你<strong>智力</strong>属性一半数值的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
         },
         "Twinned Shot": {
           "name": "双生射击 Twinned Shot",
@@ -473,7 +473,7 @@
       "name": "阿格纳斯 Agnath",
       "tokenName": "阿格纳斯",
       "ancestry": {
-        "name": "兽人语血统 Orcish",
+        "name": "兽人 Orcish",
         "description": "<p>你的出生被群星与一个自豪而坚韧民族的传统所铭刻。你高大且匀称的身体，以及天生倾向于坚韧强健的体质，起源于一个暴露在严酷北方气候无情磨炼中的民族。你的族人首先以他们的力量与坚毅闻名。</p>"
       },
       "background": {
@@ -481,7 +481,7 @@
         "description": "<p>你曾是某类军事组织中的一名普通成员。纪律让你得以生存，并强调了向他人展现力量与支配地位的重要性，而多年骑马或行军的经历也教会了你如何应对各种地形。</p>"
       },
       "biography": {
-        "public": "<p>阿格纳斯是一名挥舞剑的死灵法师，能将死亡魔法注入其重型打击之中。阿格纳斯渴望获得<strong>咒刃</strong>签名天赋。</p>"
+        "public": "<p>阿格纳斯是一名挥舞剑的死灵法师，能将死亡魔法注入其重型打击之中。阿格纳斯渴望获得<strong>咒刃</strong>招牌天赋。</p>"
       },
       "items": {
         "Athletics Journeyman": {
@@ -643,7 +643,7 @@
         "description": "<p>你曾是某种类型的治疗者或医疗专业人士。你一生中有一段时间都在学习医学与科学，并且你很擅长察觉他人的病症。你知道如何治疗创伤、疾病，以及如何鉴定它们的来源。</p>"
       },
       "biography": {
-        "public": "<p>神乐是一位坚毅的治疗者，在狂乱的战斗中增强盟友的生命与士气。神乐渴望获得<strong>治疗者</strong>签名天赋。</p>"
+        "public": "<p>神乐是一位坚毅的治疗者，在狂乱的战斗中增强盟友的生命与士气。神乐渴望获得<strong>治疗者</strong>招牌天赋。</p>"
       },
       "items": {
         "Healing Elixir Formula": {
@@ -661,7 +661,7 @@
         },
         "Arcana Novice": {
           "name": "奥术新手 Arcana Novice",
-          "description": "<p>你的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知的被神化与被妖魔化的崇拜对象。你在<strong>奥术</strong>技能中获得<strong>新手</strong>等级，并且不再被视为该技能<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪一种低阶符文，以及所用的手势（但无法辨别词缀）。你能够判断一个存在更受混沌还是秩序影响，也能识别常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有足够了解，能够在与崇拜某位灵体或神祇的人交流时不至于让自己出丑。</p>"
+          "description": "<p>你的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知的被神化与被妖魔化的崇拜对象。你在<strong>奥术</strong>技能中获得<strong>新手</strong>等级，并且不再被视为该技能<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪一种低阶符文，以及所用的手势（但无法辨别屈折）。你能够判断一个存在更受混沌还是秩序影响，也能识别常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有足够了解，能够在与崇拜某位灵体或神祇的人交流时不至于让自己出丑。</p>"
         },
         "Conserve Effort": {
           "name": "节省精力 Conserve Effort",
@@ -669,7 +669,7 @@
         },
         "Dustbinder": {
           "name": "缚尘者 Dustbinder",
-          "description": "<p>你极其擅长编织大地符文。使用该符文的法术在造成暴击时会施加@Condition[corroding]状态。</p><p>腐蚀效果持续<strong>3 轮</strong>，并且每轮都会造成等同于你<strong>感知</strong>属性值的<strong>强酸</strong>伤害到<strong>生命值</strong>。</p>"
+          "description": "<p>你极其擅长编织大地符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加@Condition[corroding]状态。</p><p>腐蚀效果持续<strong>3 轮</strong>，并且每轮对<strong>生命值</strong>造成相当于你<strong>感知</strong>属性值一半的<strong>强酸</strong>伤害。</p>"
         },
         "Eye of the Storm": {
           "name": "风暴之眼 Eye of the Storm",
@@ -703,8 +703,8 @@
           }
         },
         "Inflection: Compose": {
-          "name": "屈折：作曲 Inflection: Compose",
-          "description": "<p>通过在法术成形过程中花费额外时间来强化法术，以此换取降低其他资源消耗。组合词缀会使法术的<strong>专注</strong>消耗减少 1，作为交换，其<strong>动作</strong>消耗增加 1。</p>"
+          "name": "屈折：编构 Inflection: Compose",
+          "description": "<p>通过在法术成形过程中花费额外时间来强化法术，以此换取降低其他资源消耗。编构屈折会使法术的<strong>专注</strong>消耗减少 1，作为交换，其<strong>动作</strong>消耗增加 1。</p>"
         },
         "Inspirator": {
           "name": "鼓舞者 Inspirator",
@@ -716,7 +716,7 @@
         },
         "Mender": {
           "name": "修补匠 Mender",
-          "description": "<p>你极其擅长编织生命符文。使用该符文的法术在造成暴击时会施加 @Condition[mending] 状态。</p><p>修补效果持续<strong>1 轮</strong>，并额外对<strong>生命值</strong>施加等同于你的<strong>感知</strong>属性值的<strong>恢复</strong>。</p>"
+          "description": "<p>你极其擅长编织生命符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你恢复生命值的暴击会施加 @Condition[mending] 状态。</p><p>修补效果持续<strong>1 轮</strong>，并额外对<strong>生命值</strong>施加等同于你的<strong>感知</strong>属性值的<strong>恢复</strong>。</p>"
         },
         "Mental Fortress": {
           "name": "心灵堡垒 Mental Fortress",
@@ -772,7 +772,7 @@
           "actions": {
             "refocus": {
               "name": "重新聚焦 Refocus",
-              "description": "<p>你使用已装备的护符，尝试重新获得一些<strong>专注</strong>。你对自己的<strong>激励</strong>阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>若成功，使用单手护符时你<strong>恢复 +1 专注</strong>，使用双手持用护符时你<strong>恢复 +2 专注</strong>。若大成功，恢复的专注量额外增加 +1。</p>"
+              "description": "<p>你使用已装备的护符，尝试重新获得一些<strong>专注</strong>。你对自己的<strong>集结</strong>阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>若成功，使用单手护符时你<strong>恢复 +1 专注</strong>，使用双手持用护符时你<strong>恢复 +2 专注</strong>。若大成功，恢复的专注量额外增加 +1。</p>"
             }
           }
         },
@@ -810,7 +810,7 @@
         "description": "<p>你曾是某个执法组织的一员。你学会了如何对周围环境保持警觉，在复杂的社交结构中行事，并展现出令人畏惧的魅力。</p>"
       },
       "biography": {
-        "public": "<p>乌尔芬是一名凶猛的战士，使用双手持用巨斧作战，偏好能造成大量伤害或打击多个目标的重型劈砍。乌尔芬渴望获得<strong>狂战士</strong>的签名天赋。</p>"
+        "public": "<p>乌尔芬是一名凶猛的战士，使用双手持用巨斧作战，偏好能造成大量伤害或打击多个目标的重型劈砍。乌尔芬渴望获得<strong>狂战士</strong>的招牌天赋。</p>"
       },
       "items": {
         "Scale Mail": {
@@ -1028,7 +1028,7 @@
         "description": "<p>你总是在图书馆或教室里最感自在。你的学习专注于揭开你周围世界的奥秘，而你几乎已经熟悉所有理论性学科。</p>"
       },
       "biography": {
-        "public": "<p>Fizzit 是一位聪明的法术工匠和学者，能从远处施放法术，并试图驾驭元素之力为其所用。Fizzit 渴望获得<strong>召唤师</strong>签名天赋。</p>"
+        "public": "<p>菲兹特是一位聪明的法术工匠和学者，能从远处施放法术，并试图驾驭元素之力为其所用。菲兹特渴望获得<strong>召唤师</strong>招牌天赋。</p>"
       },
       "items": {
         "Gesture: Arrow": {
@@ -1113,7 +1113,7 @@
           "actions": {
             "counterspell": {
               "name": "反制法术 Counterspell",
-              "description": "<p>你将奥术能量塑造成一道对抗性的施法，目标为你在30英尺内可见的一名施法者。</p><p>指定一个你已知的<strong>符文</strong>和<strong>手势</strong>，以尝试反制该法术。若你选择的符文与该法术所用的某个符文相对立，你的此次尝试获得<strong>+2恩惠</strong>。若你选择的手势与正在施放的手势完全相同，你的此次尝试也获得<strong>+2恩惠</strong>。</p><p>对你的目标的<strong>意志</strong>防御进行一次无害的法术攻击。若你的掷骰结果超过其防御，该法术即被反制，其魔法被消除，不产生任何效果。</p>",
+              "description": "<p>你将奥术能量塑造成一道对抗性的施法，目标为你在30英尺内可见的一名施法者。</p><p>指定一个你已知的<strong>符文</strong>和<strong>手势</strong>，以尝试反制该法术。若你选择的符文与该法术所用的某个符文相对立，你的此次尝试获得<strong>+2恩惠骰</strong>。若你选择的手势与正在施放的手势完全相同，你的此次尝试也获得<strong>+2恩惠骰</strong>。</p><p>对你的目标的<strong>意志</strong>防御进行一次无害的法术攻击。若你的掷骰结果超过其防御，该法术即被反制，其魔法被消除，不产生任何效果。</p>",
               "condition": "另一个你能看见的生物正在施放法术。"
             }
           }
@@ -1123,8 +1123,8 @@
           "description": "<p>你将奥术力量凝聚成更高阶的形态，显现出一个<strong>访客</strong>，其出现在 30 英尺内，并以<strong>先攻</strong> 1 加入战斗。你的访客是一个与你自身等级相同的仆从。</p><p>召唤手势随<strong>感知</strong>成长，且该访客会存续<strong>12 轮</strong>。你同时只能拥有一个生效中的访客。使用召唤手势施放另一个法术会替换你先前的访客。此手势需要<strong>2 只手</strong>来施放，基础消耗为<strong>5 动作</strong>和<strong>2 专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前位于一个<strong>第 4 阶</strong>节点。它最终将只能在更高等级时获得（可能需要 6 级）。目前为了测试而“提前”开放。</p><p>并非所有符文都已定义访客角色。尚未定义召唤物的符文——目前——会显现一个@UUID[Compendium.crucible.summons.Actor.AlwoqQKoL1BnnZjd]。</p>"
         },
         "Inflection: Compose": {
-          "name": "屈折：作曲 Inflection: Compose",
-          "description": "<p>通过在法术成形过程中花费额外时间来强化法术，以此换取降低其他资源消耗。组合词缀会使法术的<strong>专注</strong>消耗减少 1，作为交换，其<strong>动作</strong>消耗增加 1。</p>"
+          "name": "屈折：编构 Inflection: Compose",
+          "description": "<p>通过在法术成形过程中花费额外时间来强化法术，以此换取降低其他资源消耗。编构屈折会使法术的<strong>专注</strong>消耗减少 1，作为交换，其<strong>动作</strong>消耗增加 1。</p>"
         },
         "Intuit Weakness": {
           "name": "洞悉弱点 Intuit Weakness",
@@ -1138,7 +1138,7 @@
         },
         "Mesmer": {
           "name": "迷魅师 Mesmer",
-          "description": "<p>你极其擅长编织幻象符文。使用该符文的法术在暴击时会造成@Condition[confused]。</p><p>混乱效果持续<strong>1 轮</strong>，对<strong>士气</strong>造成你<strong>智力</strong>数值一半的<strong>灵能</strong>伤害，并施加@Condition[disoriented]状态。</p>"
+          "description": "<p>你极其擅长编织幻象符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加@Condition[confused]状态。</p><p>混乱效果持续<strong>1 轮</strong>，对<strong>士气</strong>造成你<strong>智力</strong>数值一半的<strong>灵能</strong>伤害，并施加@Condition[disoriented]状态。</p>"
         },
         "Recognize Spellcraft": {
           "name": "识别施法 Recognize Spellcraft",
@@ -1146,7 +1146,7 @@
         },
         "Rimecaller": {
           "name": "霜唤者 Rimecaller",
-          "description": "<p>你极其擅长编织霜冻符文。使用此符文的法术在暴击时会造成@Condition[freezing]状态。</p><p>冰冻效果持续<strong>1轮</strong>，对<strong>生命值</strong>造成相当于你<strong>感知</strong>属性一半的<strong>霜冻</strong>伤害，并施加@Condition[slowed]状态。</p>"
+          "description": "<p>你极其擅长编织霜冻符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加@Condition[freezing]状态。</p><p>冰冻效果持续<strong>1轮</strong>，对<strong>生命值</strong>造成相当于你<strong>感知</strong>属性一半的<strong>霜冻</strong>伤害，并施加@Condition[slowed]状态。</p>"
         },
         "Rune: Illusion": {
           "name": "符文：幻象 Rune: Illusion",
@@ -1160,7 +1160,7 @@
         },
         "Surgeweaver": {
           "name": "激涌编织者 Surgeweaver",
-          "description": "<p>你极其擅长编织风暴符文。使用此符文的法术在造成暴击时会施加 @Condition[shocked] 状态。</p><p>感电效果持续<strong>3 轮</strong>，对<strong>士气</strong>造成你<strong>智力</strong>属性一半数值的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
+          "description": "<p>你极其擅长编织风暴符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[shocked] 状态。</p><p>感电效果持续<strong>3 轮</strong>，对<strong>士气</strong>造成你<strong>智力</strong>属性一半数值的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
         },
         "Tactician": {
           "name": "战术家 Tactician",
@@ -1178,7 +1178,7 @@
           "actions": {
             "refocus": {
               "name": "重新聚焦 Refocus",
-              "description": "<p>你使用已装备的护符，尝试重新获得一些<strong>专注</strong>。你对自己的<strong>激励</strong>阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>若成功，使用单手护符时你<strong>恢复 +1 专注</strong>，使用双手持用护符时你<strong>恢复 +2 专注</strong>。若大成功，恢复的专注量额外增加 +1。</p>"
+              "description": "<p>你使用已装备的护符，尝试重新获得一些<strong>专注</strong>。你对自己的<strong>集结</strong>阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>若成功，使用单手护符时你<strong>恢复 +1 专注</strong>，使用双手持用护符时你<strong>恢复 +2 专注</strong>。若大成功，恢复的专注量额外增加 +1。</p>"
             }
           }
         },
@@ -1216,7 +1216,7 @@
         "description": "<p>你曾是执法机构的一员。你学会了如何对周围环境保持警觉，在复杂的社交结构中开展工作，并展现出令人敬畏的魅力。</p>"
       },
       "biography": {
-        "public": "<p>Duurath 是一名强壮的矮人防御者，使用锤和盾牌来保护盟友，并通过削弱敌人的士气来惩戒他们。Duurath 渴望获得 <strong>符文守卫</strong>签名天赋。</p>"
+        "public": "<p>杜拉斯是一名强壮的矮人防御者，使用锤和盾牌来保护盟友，并通过削弱敌人的士气来惩戒他们。杜拉斯渴望获得 <strong>符文守卫</strong>招牌天赋。</p>"
       },
       "items": {
         "Crowbar": {
@@ -1342,7 +1342,7 @@
           "actions": {
             "healingElixir": {
               "name": "治疗灵药 Healing Elixir",
-              "description": "<p>立即恢复相当于该灵药品质对应数值的<strong>生命值</strong>。</p><ul><li><p><strong>粗劣</strong> - 立即恢复 6 点<strong>生命值</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>生命值</strong>。</p></li><li><p><strong>精良</strong> - 立即恢复 24 点<strong>生命值</strong>。</p></li><li><p><strong>优异</strong> - 立即恢复 48 点<strong>生命值</strong>。</p></li><li><p><strong>大师工艺</strong> - 立即恢复 96 点<strong>生命值</strong>。</p></li></ul>"
+              "description": "<p>立即恢复相当于该灵药品质对应数值的<strong>生命值</strong>。</p><ul><li><p><strong>粗糙</strong> - 立即恢复 6 点<strong>生命值</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>生命值</strong>。</p></li><li><p><strong>精良</strong> - 立即恢复 24 点<strong>生命值</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>生命值</strong>。</p></li><li><p><strong>大师级</strong> - 立即恢复 96 点<strong>生命值</strong>。</p></li></ul>"
             }
           }
         },
@@ -1469,7 +1469,7 @@
         "description": "你曾是一名巡回艺人。你学会了自在地出席各种社交场合，懂得如何迎合观众，通过润饰表演细节来引发特定的情绪反应。"
       },
       "biography": {
-        "public": "<p>扎拉贾是一位充满活力的魔裔，尤其擅长火焰魔法，能够编织危险与防护性的法术来控制战场。扎拉贾立志获得<strong>战斗法师</strong>签名天赋。</p>"
+        "public": "<p>扎拉贾是一位充满活力的魔裔，尤其擅长火焰魔法，能够编织危险与防护性的法术来控制战场。扎拉贾立志获得<strong>战斗法师</strong>招牌天赋。</p>"
       },
       "items": {
         "Flame Staff": {
@@ -1539,7 +1539,7 @@
         },
         "Arcana Novice": {
           "name": "奥术新手 Arcana Novice",
-          "description": "<p>你的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知的被神化与被妖魔化的崇拜对象。你在<strong>奥术</strong>技能中获得<strong>新手</strong>等级，并且不再被视为该技能<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪一种低阶符文，以及所用的手势（但无法辨别词缀）。你能够判断一个存在更受混沌还是秩序影响，也能识别常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有足够了解，能够在与崇拜某位灵体或神祇的人交流时不至于让自己出丑。</p>"
+          "description": "<p>你的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知的被神化与被妖魔化的崇拜对象。你在<strong>奥术</strong>技能中获得<strong>新手</strong>等级，并且不再被视为该技能<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪一种低阶符文，以及所用的手势（但无法辨别屈折）。你能够判断一个存在更受混沌还是秩序影响，也能识别常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有足够了解，能够在与崇拜某位灵体或神祇的人交流时不至于让自己出丑。</p>"
         },
         "Awareness Novice": {
           "name": "察觉新手 Awareness Novice",
@@ -1551,7 +1551,7 @@
           "actions": {
             "counterspell": {
               "name": "反制法术 Counterspell",
-              "description": "<p>你将奥术能量塑造成一道对抗性的施法，目标为你在30英尺内可见的一名施法者。</p><p>指定一个你已知的<strong>符文</strong>和<strong>手势</strong>，以尝试反制该法术。若你选择的符文与该法术所用的某个符文相对立，你的此次尝试获得<strong>+2恩惠</strong>。若你选择的手势与正在施放的手势完全相同，你的此次尝试也获得<strong>+2恩惠</strong>。</p><p>对你的目标的<strong>意志</strong>防御进行一次无害的法术攻击。若你的掷骰结果超过其防御，该法术即被反制，其魔法被消除，不产生任何效果。</p>",
+              "description": "<p>你将奥术能量塑造成一道对抗性的施法，目标为你在30英尺内可见的一名施法者。</p><p>指定一个你已知的<strong>符文</strong>和<strong>手势</strong>，以尝试反制该法术。若你选择的符文与该法术所用的某个符文相对立，你的此次尝试获得<strong>+2恩惠骰</strong>。若你选择的手势与正在施放的手势完全相同，你的此次尝试也获得<strong>+2恩惠骰</strong>。</p><p>对你的目标的<strong>意志</strong>防御进行一次无害的法术攻击。若你的掷骰结果超过其防御，该法术即被反制，其魔法被消除，不产生任何效果。</p>",
               "condition": "另一个你能看见的生物正在施放法术。"
             }
           }

@@ -24,7 +24,7 @@
   "entries": {
     "Acid Absorption": {
       "name": "酸液吸收 Acid Absorption",
-      "description": "<p>该@ref[actor.name]{生物}拥有在酸液环境中茁壮生存的非凡能力。其<strong>酸液</strong>抗性加倍；若该抗性会将伤害量降至零以下，则负数部分改为作为<strong>治疗</strong>获得。</p>"
+      "description": "<p>该@ref[actor.name]{生物}拥有在酸液环境中茁壮生存的非凡能力。其<strong>强酸</strong>抗性加倍；若该抗性会将伤害量降至零以下，则负数部分改为作为<strong>治疗</strong>获得。</p>"
     },
     "Acid Spit": {
       "name": "酸液喷吐 Acid Spit",
@@ -412,7 +412,7 @@
       "actions": {
         "selfRepair": {
           "name": "自我修复 Self-Repair",
-          "description": "<p>该构装体恢复等同于其<strong>韧性</strong>值的<strong>生命值</strong>，并立即结束一个当前正影响其自身、由其选择的状态。</p>"
+          "description": "<p>该构装体恢复等同于其<strong>坚韧</strong>值的<strong>生命值</strong>，并立即结束一个当前正影响其自身、由其选择的状态。</p>"
         }
       }
     },

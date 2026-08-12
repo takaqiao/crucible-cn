@@ -43,10 +43,29 @@ jobs:
           fi
           echo "download URL ok: $DOWNLOAD"
 
+      # changelog 没有这道闸的时候，它在 0.9.0 上原地不动地漂了两个版本：
+      # version 与 download 每次发版都被逐字校验，changelog 谁都没看，于是静默过期。
+      - name: Verify changelog URL points to this tag
+        run: |
+          CHANGELOG=$(jq -r .changelog module.json)
+          EXPECTED="https://github.com/${{ github.repository }}/releases/tag/${{ steps.version.outputs.tag }}"
+          if [ "$CHANGELOG" != "$EXPECTED" ]; then
+            echo "::error::module.json changelog ($CHANGELOG) != expected ($EXPECTED)"
+            exit 1
+          fi
+          echo "changelog URL ok: $CHANGELOG"
+
       - name: Build module.zip
         run: |
           # zip 对已存在的同名档案是**追加更新**、不是重建。仓库里若留着上一版的
           # module.zip，旧内容会原样活到新包里（ember 侧 1.1.0 就这么发出去过）。先删干净。
+          #
+          # 排除清单里两项是**纯死重量**，运行时永远不会被读：
+          #   lang/en.json —— module.json 的 languages 只声明 cn，这份只是
+          #                   lang_gap.py / flatten_lang.py 的英文基准（约 110 KB）。
+          #   scripts/*    —— 仓库侧维护脚本（.py/.mjs，约 63 KB）；esmodules 只有
+          #                   babele-register.js，Foundry 不会加载 scripts/ 下的任何东西。
+          # 两者都**保留在仓库里**（QA 依赖），只是不进发布包。
           rm -f module.zip
           zip -r module.zip . \
             -x ".git/*" \
@@ -55,7 +74,8 @@ jobs:
             -x "release/*" \
             -x "compendium/en/*" \
             -x "lang/lang_keep_english.json" \
-            -x "scripts/__pycache__/*" \
+            -x "lang/en.json" \
+            -x "scripts/*" \
             -x "untranslated-*-report.json" \
             -x "*.zip" \
             -x "*.bak" \

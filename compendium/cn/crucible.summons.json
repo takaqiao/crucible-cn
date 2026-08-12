@@ -238,7 +238,7 @@
     },
     "Frost Sprite": {
       "name": "寒霜精灵 Frost Sprite",
-      "tokenName": "霜冻的创造 创造 of 霜冻",
+      "tokenName": "霜冻造物 Creation of Frost",
       "archetype": {
         "name": "元素精灵 Elemental Sprite",
         "description": "<p>小妖精是较低等的元素生物，是其原初元素的化身，但缺乏其更高等同类所具备的智能。</p>"
