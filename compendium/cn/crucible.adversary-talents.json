@@ -339,7 +339,7 @@
       "actions": {
         "radiantDeathBurst": {
           "name": "耀辉死亡爆发 Radiant Death Burst",
-          "description": "<p>当 @ref[actor.name]{生物}陷入@Condition[dead]时，它会爆炸，释放出一阵<strong>光耀</strong>能量，对附近所有生物的<strong>坚韧</strong>防御发动攻击；未能抵抗该效果的生物会在重大成功时陷入@Condition[irradiated]状态，持续<strong>3 轮</strong>。</p>",
+          "description": "<p>当 @ref[actor.name]{生物}陷入@Condition[dead]时，它会爆炸，释放出一阵<strong>光耀</strong>能量，对附近所有生物的<strong>强韧</strong>防御发动攻击；未能抵抗该效果的生物会在重大成功时陷入@Condition[irradiated]状态，持续<strong>3 轮</strong>。</p>",
           "condition": "该生物变为死亡。"
         }
       }
@@ -610,7 +610,7 @@
       "actions": {
         "corruptingDeathBurst": {
           "name": "腐化死亡爆发 Corrupting Death Burst",
-          "description": "<p>当@ref[actor.name]{该生物}进入@Condition[dead]状态时，它会爆散出一阵孢子脉冲，造成<strong>腐化</strong>伤害，攻击附近所有生物的<strong>坚韧</strong>防御；未能抵抗者受到伤害，若为大成功则使其陷入@Condition[decaying]状态持续<strong>3 轮</strong>。</p>",
+          "description": "<p>当@ref[actor.name]{该生物}进入@Condition[dead]状态时，它会爆散出一阵孢子脉冲，造成<strong>腐化</strong>伤害，攻击附近所有生物的<strong>强韧</strong>防御；未能抵抗者受到伤害，若为大成功则使其陷入@Condition[decaying]状态持续<strong>3 轮</strong>。</p>",
           "condition": "该生物进入死亡状态。"
         }
       }
@@ -703,7 +703,7 @@
       "actions": {
         "terrifyingPresence": {
           "name": "骇人威压 Terrifying Presence",
-          "description": "<p>当敌人移动至@ref[actor.name]{该生物}20 尺范围内时，它便暴露于这股骇人威压之下，遭受一次针对其<strong>意志力</strong>的攻击，成功时使其陷入@Condition[frightened]状态。</p>",
+          "description": "<p>当敌人移动至@ref[actor.name]{该生物}20 尺范围内时，它便暴露于这股骇人威压之下，遭受一次针对其<strong>意志</strong>的攻击，成功时使其陷入@Condition[frightened]状态。</p>",
           "condition": "敌人移动至 20 尺范围内。"
         }
       }

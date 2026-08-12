@@ -98,8 +98,8 @@
           "description": "<p>当其保持静止时，@ref[actor.name]{生物}与某个其他物体或材料无法区分。</p>"
         },
         "Gesture: Arrow": {
-          "name": "手势：箭头 Gesture: Arrow",
-          "description": "<p>你学会了手势：箭头，使你能够朝远处目标投掷一道定向的奥术能量箭。</p><p>手势：箭头会对射程内的单个敌方目标造成与所用符文对应的伤害。</p>"
+          "name": "手势：箭矢 Gesture: Arrow",
+          "description": "<p>你学会了手势：箭矢，使你能够朝远处目标投掷一道定向的奥术能量箭。</p><p>手势：箭矢会对射程内的单个敌方目标造成与所用符文对应的伤害。</p>"
         },
         "Gesture: Fan": {
           "name": "手势：扇形 Gesture: Fan",
@@ -240,7 +240,7 @@
         },
         "Rune: Frost": {
           "name": "符文：霜冻 Rune: Frost",
-          "description": "<p>元素热能的有序力量。霜冻符文支配冰与寒冷的源头。它与混乱的火焰符文相对。</p>\n<p>霜冻符文以 <strong>感知</strong> 为成长属性，以 <strong>坚韧</strong> 为目标，并对 <strong>生命值</strong> 造成 <strong>寒冷</strong>伤害。</p>"
+          "description": "<p>元素热能的有序力量。霜冻符文支配冰与寒冷的源头。它与混乱的火焰符文相对。</p>\n<p>霜冻符文以 <strong>感知</strong> 为成长属性，以 <strong>强韧</strong> 为目标，并对 <strong>生命值</strong> 造成 <strong>寒冷</strong>伤害。</p>"
         }
       }
     },

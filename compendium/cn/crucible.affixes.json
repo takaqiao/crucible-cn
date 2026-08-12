@@ -607,7 +607,7 @@
     },
     "Tenacity": {
       "name": "坚韧 Tenacity",
-      "description": "<p>每有1个该后缀的<strong>阶</strong>，<strong>坚韧</strong>防御便提高1点。</p>",
+      "description": "<p>每有1个该后缀的<strong>阶</strong>，<strong>强韧</strong>防御便提高1点。</p>",
       "adjective": "坚韧"
     },
     "Undead Bane": {
