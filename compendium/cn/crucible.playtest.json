@@ -28,7 +28,7 @@
           "pages": {
             "Introduction": {
               "name": "引言 Introduction",
-              "text": "<p><strong>试玩测试一：英勇之戒</strong>是对 Crucible 中角色晋升与战斗机制的引导式介绍，让玩家扮演一支角斗士队伍，在英勇之戒中面对一连串挑战。</p><p>玩家既可以按照 @UUID[Compendium.crucible.rules.JournalEntry.gszlBVQ5fGh3y0I6]{角色创造} 流程从零开始创建自己的角色（推荐），也可以使用 <strong>预生成英雄</strong> 合集包中提供的 1级预制角色。</p><p>这一挑战是为一支由四名玩家角色组成的队伍设计并平衡的，不过我们也鼓励你用人数更少或更多的队伍进行测试。挑战的难度可以通过调整 @UUID[Compendium.crucible.rules.JournalEntry.v1dqTT3NI35lFNxM]{对手} 的威胁等级来改变。</p><p>英勇之戒由六场战斗组成，每天一场。在此期间，队伍将面对越来越危险的对手，最终迎来与现任冠军的决战——也就是上一支征服这座竞技场的英雄团队。每次遭遇结束后，队伍都会提升等级，然后再面对下一场考验。每场战斗都旨在引入新的游戏机制，并让玩家有机会测试通过升级获得的新能力。</p><h2 class=\"divider\">提供反馈</h2><p>如果你试玩测试了 Crucible 并体验了英勇之戒，请花一点时间在我们的社区 Discord 服务器中的 <strong>#crucible</strong> 频道 @UUID[Compendium.crucible.rules.JournalEntry.5SgXrAKS2EnqVggJ.JournalEntryPage.4Ggutuh9uzhcEXSK]{提供反馈}，帮助我们改进。</p><h2 class=\"divider\">关于失败</h2><p>通常在 Crucible 中——无论是因<strong>疯狂</strong>还是<strong>死亡</strong>而失败——都意味着角色旅程的终结。不过，在这次初始试玩测试中，我们建议你作为游戏主持人采取一种更灵活的处理方式。</p><p>为了测试系统并收集有用的反馈，我们建议允许遭遇失败的队伍反复尝试同一挑战直到成功；或者如果某一天的挑战过于困难、无法克服，也可以允许他们照常进入下一项挑战。</p>"
+              "text": "<p><strong>试玩测试一：英勇之戒</strong>是对 Crucible 中角色晋升与战斗机制的引导式介绍，让玩家扮演一支角斗士队伍，在英勇之戒中面对一连串挑战。</p><p>玩家既可以按照 @UUID[Compendium.crucible.rules.JournalEntry.gszlBVQ5fGh3y0I6]{角色创建} 流程从零开始创建自己的角色（推荐），也可以使用 <strong>预生成英雄</strong> 合集包中提供的 1级预制角色。</p><p>这一挑战是为一支由四名玩家角色组成的队伍设计并平衡的，不过我们也鼓励你用人数更少或更多的队伍进行测试。挑战的难度可以通过调整 @UUID[Compendium.crucible.rules.JournalEntry.v1dqTT3NI35lFNxM]{对手} 的威胁等级来改变。</p><p>英勇之戒由六场战斗组成，每天一场。在此期间，队伍将面对越来越危险的对手，最终迎来与现任冠军的决战——也就是上一支征服这座竞技场的英雄团队。每次遭遇结束后，队伍都会提升等级，然后再面对下一场考验。每场战斗都旨在引入新的游戏机制，并让玩家有机会测试通过升级获得的新能力。</p><h2 class=\"divider\">提供反馈</h2><p>如果你试玩测试了 Crucible 并体验了英勇之戒，请花一点时间在我们的社区 Discord 服务器中的 <strong>#crucible</strong> 频道 @UUID[Compendium.crucible.rules.JournalEntry.5SgXrAKS2EnqVggJ.JournalEntryPage.4Ggutuh9uzhcEXSK]{提供反馈}，帮助我们改进。</p><h2 class=\"divider\">关于失败</h2><p>通常在 Crucible 中——无论是因<strong>疯狂</strong>还是<strong>死亡</strong>而失败——都意味着角色旅程的终结。不过，在这次初始试玩测试中，我们建议你作为游戏主持人采取一种更灵活的处理方式。</p><p>为了测试系统并收集有用的反馈，我们建议允许遭遇失败的队伍反复尝试同一挑战直到成功；或者如果某一天的挑战过于困难、无法克服，也可以允许他们照常进入下一项挑战。</p>"
             },
             "Day One - The Feral Scramble": {
               "name": "第1天——野性争夺战 Day One - The Feral Scramble",
@@ -110,7 +110,7 @@
           },
           "items": {
             "Bite": {
-              "name": "噬咬 Bite"
+              "name": "啃咬 Bite"
             },
             "Fur": {
               "name": "毛皮 Fur"
@@ -462,7 +462,7 @@
               "description": "<p>你是精于使用远程武器装备射击并躲避敌人攻击的专家。</p>",
               "actions": {
                 "evasiveShot": {
-                  "name": "游走射击 Evasive Shot",
+                  "name": "闪避射击 Evasive Shot",
                   "description": "<p>在进行一次远程武器攻击之后，你可以免费移动至多相当于你<strong>步幅</strong>一半的距离。</p>"
                 }
               }
@@ -478,7 +478,7 @@
               }
             },
             "Restless Dead": {
-              "name": "不安亡魂 Restless Dead",
+              "name": "躁动亡者 Restless Dead",
               "description": "<p>@ref[actor.name]{该生物}的存续由死灵魔法或超凡力量所维系。当它本应被视为@Condition[dead]时，改为@Condition[incapacitated]。</p><p>战斗结束后，@ref[actor.name]{该生物}可以开始执行恢复动作，并在恢复完成后重新苏醒。以下任一情形可阻止其如此恢复：</p><ul><li><p>该生物是被其所<strong>易伤</strong>的伤害类型击至失能的。</p></li><li><p>使其化为不死生物的魔法力量被扰乱、抵消或以其他方式驱散。</p></li><li><p>该生物的躯体被破坏到再也无法维持其物理形态的程度。</p></li></ul>"
             }
           }
@@ -538,15 +538,15 @@
               }
             },
             "Restless Dead": {
-              "name": "不安亡魂 Restless Dead",
+              "name": "躁动亡者 Restless Dead",
               "description": "<p>@ref[actor.name]{该生物}的存续由死灵魔法或超凡力量所维系。当它本应被视为@Condition[dead]时，改为@Condition[incapacitated]。</p><p>战斗结束后，@ref[actor.name]{该生物}可以开始执行恢复动作，并在恢复完成后重新苏醒。以下任一情形可阻止其如此恢复：</p><ul><li><p>该生物是被其所<strong>易伤</strong>的伤害类型击至失能的。</p></li><li><p>使其化为不死生物的魔法力量被扰乱、抵消或以其他方式驱散。</p></li><li><p>该生物的躯体被破坏到再也无法维持其物理形态的程度。</p></li></ul>"
             },
             "Heavy Weapon Training": {
-              "name": "重武器训练 Heavy Weapon Training",
+              "name": "重型武器训练 Heavy Weapon Training",
               "description": "<p>你懂得如何使用重武器递出摧折性的打击，将全身力量灌注于每一次挥砍。你对<strong>重型</strong>与<strong>平衡</strong>类别的所有武器均为<strong>受训</strong>。</p>",
               "actions": {
                 "heavyStrike": {
-                  "name": "重击 Heavy Strike",
+                  "name": "强力打击 Heavy Strike",
                   "description": "<p>你以主手武器发动一次威力强劲的<strong>打击</strong>。该攻击出手较慢，但经<strong>强化</strong>以造成额外伤害。</p>"
                 }
               }
@@ -681,7 +681,7 @@
           "name": "疫病先驱 Harbinger of Disease",
           "tokenName": "疫病先驱 Harbinger of Disease",
           "archetype": {
-            "name": "疫病先驱 Plaguebearer",
+            "name": "播疫者 Plaguebearer",
             "description": "<p>带来瘟疫与腐朽的先驱者。</p>"
           },
           "taxonomy": {
@@ -690,7 +690,7 @@
           },
           "items": {
             "Pestilent Tongue": {
-              "name": "疫病鞭笞 Pestilent Tongue"
+              "name": "疫病之舌 Pestilent Tongue"
             },
             "Claws": {
               "name": "爪 Claws"
@@ -1287,7 +1287,7 @@
               "description": "<p>你是个骗子和操纵者，而欺瞒是你一直磨练的技能。你在<strong>欺瞒</strong>技能上获得<strong>新手</strong>等级，并且不再被视为该技能<strong>未受训</strong>。</p><p>你知道如何编造基本的谎言与骗局，也知道那些往往会暴露拙劣骗子的明显迹象。你可以为大多数常见文件制作基础伪造品，但它们经不起任何程度的仔细审查。</p>"
             },
             "Stiletto": {
-              "name": "细剑 Stiletto",
+              "name": "锥刺匕首 Stiletto",
               "description": {
                 "public": "<p>细长、渐尖且专为穿刺而造，细剑是杀手的武器——专门用来从肋骨间或护甲的缝隙中滑入，几乎不留痕迹。</p>"
               }
@@ -1635,9 +1635,9 @@
               "description": "<p>你对奥术的精通使你对元素和精神伤害更加坚韧。对于每一种你已知晓与该伤害类型协调的奥术符文的元素或精神伤害类型，你获得等同于你一半感知的<strong>抗性</strong>加值。</p><p>当你使用<strong>护卫</strong>手势时，你的护卫所提供的抗性也会提高你一半的感知值。</p>"
             },
             "Heater Shield": {
-              "name": "鸢形盾 Heater Shield",
+              "name": "熨斗盾 Heater Shield",
               "description": {
-                "public": "<p>因其铁制外形酷似熨斗底座而得名，鸢形盾在防护范围与机动性之间提供了良好的平衡。</p>"
+                "public": "<p>因其铁制外形酷似熨斗底座而得名，熨斗盾在防护范围与机动性之间提供了良好的平衡。</p>"
               }
             },
             "War Hammer": {
@@ -1743,7 +1743,7 @@
               "description": "<p>你是精于使用远程武器装备射击并躲避敌人攻击的专家。</p>",
               "actions": {
                 "evasiveShot": {
-                  "name": "游走射击 Evasive Shot",
+                  "name": "闪避射击 Evasive Shot",
                   "description": "<p>在进行一次远程武器攻击之后，你可以免费移动至多相当于你<strong>步幅</strong>一半的距离。</p>"
                 }
               }
@@ -2056,7 +2056,7 @@
               "description": "<p>你将奥术力量凝聚为一种更高阶的形态，显现出一个访客，其会出现在30尺内，并以<strong>先攻</strong> 1加入战斗。你的访客是一个与你自身等级相同的仆从。</p><p>召唤手势随<strong>感知</strong>成长，且该访客会存续<strong>12轮</strong>。你同时只能拥有一个生效中的访客。施放另一个使用召唤手势的法术会替代你先前的访客。该手势需要<strong>2只手</strong>来施放，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>这个天赋目前位于一个<strong>第4阶</strong>节点。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。当前为了测试，它被“提前”开放。</p><p>并非所有符文都已定义访客角色。尚未定义召唤物的符文目前都会显现为一个@UUID[Compendium.crucible.summons.Actor.AlwoqQKoL1BnnZjd]。</p>"
             },
             "Stiletto": {
-              "name": "细剑 Stiletto",
+              "name": "锥刺匕首 Stiletto",
               "description": {
                 "public": "<p>细长、尖细，专为穿刺而制，细剑是杀手的武器——设计用来滑入肋骨之间或护甲的缝隙中，几乎不留痕迹。</p>"
               }
@@ -2426,7 +2426,7 @@
               "description": "<p>你受训于穿戴最重型的护甲，同时仍保有机动性。你能够在穿着重型护甲时，每回合使用一次免费的移动。</p>"
             },
             "Stiletto": {
-              "name": "细剑 Stiletto",
+              "name": "锥刺匕首 Stiletto",
               "description": {
                 "public": "<p>细长、尖细，专为穿刺而造，细剑是杀手的武器——设计用来从肋骨之间或护甲的缝隙间滑入，几乎不留痕迹。</p>"
               }

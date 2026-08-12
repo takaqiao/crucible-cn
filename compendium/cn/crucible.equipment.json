@@ -84,16 +84,16 @@
       }
     },
     "Amulet of Nimbleness": {
-      "name": "灵巧护符 Amulet of Nimbleness",
+      "name": "轻捷护符 Amulet of Nimbleness",
       "description": {
         "public": "<blockquote><p>这条色彩鲜艳的项链上挂着一枚石制护符，其上有一道微微迸发电鸣的发光符文。当你持有它时，你会产生一种超现实的感觉，仿佛周围的世界都稍稍慢了下来。</p></blockquote><p>这枚魔法护符会为<strong>反射</strong>防御提供加值。</p>",
         "private": "<p>此物品作为一个带有 @UUID[Compendium.crucible.affixes.ActiveEffect.nimbleness000000]{敏捷} 后缀的优质护符示例展示。</p><p>这个词缀可以应用于任何护甲或饰品，而这枚护符还可以进一步附魔一个第1阶前缀。</p>"
       },
       "effects": {
         "Nimbleness": {
-          "name": "敏捷 Nimbleness",
+          "name": "轻捷 Nimbleness",
           "description": "<p>此后缀每有<strong>1 阶</strong>，便使<strong>反射</strong>防御提高 1。</p>",
-          "adjective": "敏捷"
+          "adjective": "轻捷"
         }
       }
     },
@@ -166,9 +166,9 @@
       }
     },
     "Buckler": {
-      "name": "圆盾 Buckler",
+      "name": "小圆盾 Buckler",
       "description": {
-        "public": "<p>圆盾是一种小型、圆形的金属盾牌，大致有餐盘大小，是决斗者用来格挡刀刃并控制空间的工具，可佩戴在前臂上，或像武器一样握持。</p>"
+        "public": "<p>小圆盾是一种小型、圆形的金属盾牌，大致有餐盘大小，是决斗者用来格挡刀刃并控制空间的工具，可佩戴在前臂上，或像武器一样握持。</p>"
       }
     },
     "Candle": {
@@ -219,16 +219,16 @@
       }
     },
     "Charm of Tenacity": {
-      "name": "坚韧护符 Charm of Tenacity",
+      "name": "顽强护符 Charm of Tenacity",
       "description": {
         "public": "<blockquote><p>这条挂满护符的项链看起来很朴素，但仔细观察后，你会发现其工艺中蕴含着精巧的技艺。握着它时，你会感到自己的呼吸变得更加深沉，肌肉中的轻微酸痛也逐渐消散。</p></blockquote><p>这件附魔护符会为<strong>强韧</strong>防御提供加值。</p>",
         "private": "<p>此物品作为一个带有 @UUID[Compendium.crucible.affixes.ActiveEffect.tenacity00000000]{坚韧} 后缀的精良魅惑示例展示。</p><p>此词缀可应用于任何护甲或饰品，而这个魅惑还可以进一步附加一个第1阶前缀。</p>"
       },
       "effects": {
         "Tenacity": {
-          "name": "坚韧 Tenacity",
+          "name": "顽强 Tenacity",
           "description": "<p>此后缀每有<strong>1 阶</strong>，便使<strong>强韧</strong>防御提高 1。</p>",
-          "adjective": "坚韧"
+          "adjective": "顽强"
         }
       }
     },
@@ -340,7 +340,7 @@
       }
     },
     "Disarming Toolkit": {
-      "name": "解除武装工具包 Disarming Toolkit",
+      "name": "解除陷阱工具包 Disarming Toolkit",
       "description": {
         "public": "<p>一个小皮革小袋，里面装有一套钳子、剪钳、锥子，以及一组可拧接在一起的可折叠金属杆。其设计用途是用于解除或触发圈套、绊线、压力板以及其他常见陷阱。</p>"
       }
@@ -537,9 +537,9 @@
       }
     },
     "Heater Shield": {
-      "name": "鸢形盾 Heater Shield",
+      "name": "熨斗盾 Heater Shield",
       "description": {
-        "public": "<p>鸢形盾因其铁质外形酷似熨斗底板而得名，在防护范围与机动性之间提供了良好的平衡。</p>"
+        "public": "<p>熨斗盾因其铁质外形酷似熨斗底板而得名，在防护范围与机动性之间提供了良好的平衡。</p>"
       }
     },
     "Heavy Crossbow": {
@@ -1146,7 +1146,7 @@
       }
     },
     "Stiletto": {
-      "name": "细剑 Stiletto",
+      "name": "锥刺匕首 Stiletto",
       "description": {
         "public": "<p>细长、尖削，并为穿刺而制，细剑是杀手的武器——专为从肋骨之间或护甲的缝隙中滑入而设计，几乎不留痕迹。</p>"
       }

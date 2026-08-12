@@ -391,7 +391,7 @@
       "adjective": "生命符文"
     },
     "Luminary": {
-      "name": "辉耀者 Luminary",
+      "name": "辉耀 Luminary",
       "description": "<p>包含<strong>屈折</strong>的沉着<strong>动作</strong>获得恩惠骰。获得的恩惠骰数量等于此前缀的<strong>阶</strong>。只有一个词缀可以提供此增益。</p>",
       "adjective": "辉耀"
     },
@@ -411,9 +411,9 @@
       "adjective": "屠畸怪"
     },
     "Nimbleness": {
-      "name": "敏捷 Nimbleness",
+      "name": "轻捷 Nimbleness",
       "description": "<p>此后缀的每<strong>阶</strong>使<strong>反射</strong>防御提高1点。</p>",
-      "adjective": "敏捷"
+      "adjective": "轻捷"
     },
     "Nonchalant": {
       "name": "漠不关心的 Nonchalant",
@@ -606,9 +606,9 @@
       "adjective": "涌动"
     },
     "Tenacity": {
-      "name": "坚韧 Tenacity",
+      "name": "顽强 Tenacity",
       "description": "<p>每有1个该后缀的<strong>阶</strong>，<strong>强韧</strong>防御便提高1点。</p>",
-      "adjective": "坚韧"
+      "adjective": "顽强"
     },
     "Undead Bane": {
       "name": "不死生物祸骰 Undead Bane",

@@ -123,7 +123,7 @@
       "description": "<p>你已精通以如此强大的力量打击身披护甲的对手的技艺，以至于护甲本身都会成为对抗他们的武器。</p>",
       "actions": {
         "armorCrusher": {
-          "name": "护甲粉碎者 Armor Crusher",
+          "name": "碎甲者 Armor Crusher",
           "description": "<p>你对附近的一名敌人进行一次徒手<strong>打击</strong>。如果此次攻击结果为<strong>擦击</strong>，若可以，你消耗<strong>1点专注</strong>，造成等同于你的<strong>坚韧</strong>值的额外伤害。</p>"
         }
       }
@@ -601,7 +601,7 @@
       "description": "<p>你是精于使用远程武器装备射击并躲避敌人攻击的专家。</p>",
       "actions": {
         "evasiveShot": {
-          "name": "游走射击 Evasive Shot",
+          "name": "闪避射击 Evasive Shot",
           "description": "<p>在进行一次远程武器攻击之后，你可以免费移动至多相当于你<strong>步幅</strong>一半的距离。</p>"
         }
       }
@@ -838,7 +838,7 @@
       "description": "<p>你可以用头部发动一次近距离的凶狠打击，令对手猝不及防。</p>",
       "actions": {
         "headbutt": {
-          "name": "头槌攻击 Headbutt",
+          "name": "头槌 Headbutt",
           "description": "<p>对相邻敌人的<strong>强韧</strong>防御进行一次徒手<strong>打击</strong>。如果你的<strong>先攻</strong>高于你的目标，则此次攻击获得<strong>+1 恩惠骰</strong>。</p><p>此次攻击是<strong>困难</strong>的，且只造成@Rule[action.weakened]伤害，但如果成功，则会使其陷入 @Condition[staggered]，持续一轮。</p><p>此行动始终使用徒手武器，即使你的武器槽位已被其他武器占用也是如此。</p>",
           "effects": [
             {}
@@ -1061,7 +1061,7 @@
       "description": "<p>你已接受过珠宝制作基础的训练，并且能够处理大多数常见的镶嵌样式和设计。</p><p>你仍然需要查阅图纸和书籍，来鉴别宝石、华美金属及其特性。</p>"
     },
     "Justiciar": {
-      "name": "审判官 Justiciar",
+      "name": "执法官 Justiciar",
       "description": "<p>你是正义的化身。致命 打击 攻击还会将伤害中的溢出部分也施加给敌方士气。</p>"
     },
     "Kinesis Proficiency": {
@@ -1456,7 +1456,7 @@
       }
     },
     "Resilient": {
-      "name": "坚韧 Resilient",
+      "name": "复原体质 Resilient",
       "description": "<p>你的身体会积极响应治疗，展现出从创伤中恢复的卓越能力。</p>\n<p>你的<strong>治疗阈值</strong>降低 1，使你更容易被治疗。</p>"
     },
     "Rimecaller": {

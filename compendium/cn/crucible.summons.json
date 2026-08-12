@@ -187,7 +187,7 @@
       }
     },
     "Frost Visitor": {
-      "name": "霜访者 Frost Visitor",
+      "name": "寒霜访客 Frost Visitor",
       "tokenName": "寒霜精灵",
       "archetype": {
         "name": "元素访客 Elemental Visitor",
@@ -292,7 +292,7 @@
     },
     "Earth Visitor": {
       "name": "大地访客 Earth Visitor",
-      "tokenName": "土精灵",
+      "tokenName": "大地精灵",
       "archetype": {
         "name": "元素访客 Elemental Visitor",
         "description": "<p>访客是原始元素能量的化身，呈现出大致具有人型生物轮廓的形态。与它们较低等的同类不同，元素访客具备沟通与理解的能力，尽管它们的动机很少与凡人的一致。</p>"
@@ -327,7 +327,7 @@
       }
     },
     "Earth Sprite": {
-      "name": "土精灵 Earth Sprite",
+      "name": "大地精灵 Earth Sprite",
       "tokenName": "大地的创造",
       "archetype": {
         "name": "元素精灵 Elemental Sprite",
