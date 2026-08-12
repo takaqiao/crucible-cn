@@ -15,7 +15,7 @@
   "entries": {
     "Amphibian": {
       "name": "两栖动物 Amphibian",
-      "description": "<p>栖息在水中或水边的野兽。两栖动物通常很灵巧，但有些种类则强力或体型较大。</p><ul><li><p><strong>体型</strong>：可变</p></li><li><p><strong>跨步</strong>：可变</p></li></ul>"
+      "description": "<p>栖息在水中或水边的野兽。两栖动物通常很灵巧，但有些种类则强力或体型较大。</p><ul><li><p><strong>体型</strong>：可变</p></li><li><p><strong>步幅</strong>：可变</p></li></ul>"
     },
     "Apparatus": {
       "name": "器械 Apparatus",

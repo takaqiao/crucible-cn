@@ -754,7 +754,7 @@
         },
         "Runewarden": {
           "name": "符文守卫 Runewarden",
-          "description": "<p>你对奥术的精通使你在面对元素与精神伤害时更加坚韧。对于每一种你已知与该伤害类型调谐的奥术符文所对应的元素或精神伤害类型，你获得等同于你一半感知值的<strong>抗性</strong>加值。</p><p>当你使用<strong>防护</strong>手势时，你的防护所提供的抗性也会提高你一半的感知值。</p>"
+          "description": "<p>你对奥术的精通使你在面对元素与精神伤害时更加坚韧。对于每一种你已知与该伤害类型同调的奥术符文所对应的元素或精神伤害类型，你获得等同于你一半感知值的<strong>抗性</strong>加值。</p><p>当你使用<strong>防护</strong>手势时，你的防护所提供的抗性也会提高你一半的感知值。</p>"
         },
         "Soothe": {
           "name": "抚慰 Soothe",
@@ -909,7 +909,7 @@
           "actions": {
             "intercept": {
               "name": "拦截 Intercept",
-              "description": "<p>你拦截进入你<strong>交战</strong>半径内的敌人的路径，立即进行最多等同于你<strong>跨步</strong>距离的移动，插入其间并阻挡他们的去路。</p><p>如果敌人在其回合中移出你的交战半径，或攻击任何其他生物，你可以对其进行一次@Action[default reactiveStrike]。</p><h3 class=\"divider\">试玩测试说明</h3><p>打断敌人移动的效果尚未实现自动化。</p>",
+              "description": "<p>你拦截进入你<strong>交战</strong>半径内的敌人的路径，立即进行最多等同于你<strong>步幅</strong>距离的移动，插入其间并阻挡他们的去路。</p><p>如果敌人在其回合中移出你的交战半径，或攻击任何其他生物，你可以对其进行一次@Action[default reactiveStrike]。</p><h3 class=\"divider\">试玩测试说明</h3><p>打断敌人移动的效果尚未实现自动化。</p>",
               "condition": "一名敌人移入或穿过你的交战范围。"
             }
           }
@@ -1373,7 +1373,7 @@
         },
         "Runewarden": {
           "name": "符文守卫 Runewarden",
-          "description": "<p>你对奥术的精通使你在面对元素与灵性伤害时更加坚韧。对于每一种你已知与该伤害类型调谐的奥术符文所对应的元素或灵性伤害类型，你获得等同于你一半感知的<strong>抗性</strong>加值。</p><p>当你使用<strong>守护</strong>手势时，你的 守护 所提供的抗性也会提高你一半的感知。</p>"
+          "description": "<p>你对奥术的精通使你在面对元素与灵性伤害时更加坚韧。对于每一种你已知与该伤害类型同调的奥术符文所对应的元素或灵性伤害类型，你获得等同于你一半感知的<strong>抗性</strong>加值。</p><p>当你使用<strong>守护</strong>手势时，你的 守护 所提供的抗性也会提高你一半的感知。</p>"
         },
         "Second Wind": {
           "name": "二次振作 Second Wind",

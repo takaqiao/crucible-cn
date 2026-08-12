@@ -203,7 +203,7 @@
         },
         "Amorphous": {
           "name": "无定形 Amorphous",
-          "description": "<p>该@ref[actor.name]{生物}可以穿过直径窄至 1 英寸的空间，且其<strong>跨步</strong>不会受到任何惩罚。它免疫@Condition[restrained]状态。</p>"
+          "description": "<p>该@ref[actor.name]{生物}可以穿过直径窄至 1 英寸的空间，且其<strong>步幅</strong>不会受到任何惩罚。它免疫@Condition[restrained]状态。</p>"
         },
         "Aqueous Transmission": {
           "name": "水相传导 Aqueous Transmission",
@@ -253,7 +253,7 @@
         },
         "Amorphous": {
           "name": "无定形 Amorphous",
-          "description": "<p>该@ref[actor.name]{生物}可以穿过直径窄至 1 英寸的空间，而其<strong>跨步</strong>不会受到任何减值。它免疫 @Condition[restrained] 状况。</p>"
+          "description": "<p>该@ref[actor.name]{生物}可以穿过直径窄至 1 英寸的空间，而其<strong>步幅</strong>不会受到任何减值。它免疫 @Condition[restrained] 状况。</p>"
         },
         "Aqueous Transmission": {
           "name": "水相传导 Aqueous Transmission",

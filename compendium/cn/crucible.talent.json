@@ -296,7 +296,7 @@
       "actions": {
         "bullrush": {
           "name": "猛撞 Bull Rush",
-          "description": "<p>对一个相邻敌人进行一次<strong>运动</strong>技能攻击，由目标的强韧进行对抗。若成功，你可以移动最多至你的跨步，并直接穿过敌人的空间。你的敌人会被击至<strong>@Condition[prone]</strong>，且不能对你进行任何借机攻击。若失败，你的移动会被阻挡，并且你仍停留在当前位置。</p>",
+          "description": "<p>对一个相邻敌人进行一次<strong>运动</strong>技能攻击，由目标的强韧进行对抗。若成功，你可以移动最多至你的步幅，并直接穿过敌人的空间。你的敌人会被击至<strong>@Condition[prone]</strong>，且不能对你进行任何借机攻击。若失败，你的移动会被阻挡，并且你仍停留在当前位置。</p>",
           "effects": [
             {
               "name": "猛撞 Bull Rush"
@@ -367,7 +367,7 @@
     },
     "Concussive Blows": {
       "name": "震荡重击 Concussive Blows",
-      "description": "<p>你使用造成钝击伤害的近战武器时所展现的肉体力量，能使那些对生命值造成伤害的暴击附加@Condition[staggered]状态。</p><p>@Condition[staggered]状态持续 1 轮，并使你目标的最大动作数减少 2。</p>"
+      "description": "<p>你使用造成钝击伤害的近战武器时所展现的肉体力量，能使那些对生命值造成伤害的暴击附加@Condition[staggered]状态。</p><p>@Condition[staggered]状态持续 1 轮，并使你目标的最大动作减少 2。</p>"
     },
     "Conjurer": {
       "name": "召唤师 Conjurer",
@@ -760,7 +760,7 @@
     },
     "Gesture: Sense": {
       "name": "手势：感知 Gesture: Sense",
-      "description": "<p>你将心神与一种符文的奥术力量调谐，以感知附近的能量源。</p><p>感知手势会随<strong>存在</strong>成长，产生一个半径 30 尺、位置始终以施法者为中心的扩散区域。此手势施放时需要<strong>1 只手</strong>，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。你也可以选择<strong>维持</strong>它，但此后每个后续轮次都需额外消耗<strong>1 专注</strong>。</p><p>此法术允许施法者侦测与本法术所融入的同一符文相关的施法存在。该感知也会短暂侦测到生物的存在，具体取决于其类型。</p><ul><li><p><strong>控制</strong>：邪魔</p></li><li><p><strong>死亡</strong>：不死生物</p></li><li><p><strong>大地</strong>：软泥怪和土元素</p></li><li><p><strong>火焰</strong>：巨龙和火焰</p></li><li><p><strong>霜冻</strong>：巨人和冰霜元素</p></li><li><p><strong>照明</strong>：天界生物</p></li><li><p><strong>幻象</strong>：妖精</p></li><li><p><strong>念力</strong>：怪物</p></li><li><p><strong>生命</strong>：植物和野兽</p></li><li><p><strong>风暴</strong>：构装体和风暴元素</p></li><li><p><strong>湮灭</strong>：外来者</p></li><li><p><strong>灵魂</strong>：人型生物</p></li></ul>"
+      "description": "<p>你将心神与一种符文的奥术力量同调，以感知附近的能量源。</p><p>感知手势会随<strong>存在</strong>成长，产生一个半径 30 尺、位置始终以施法者为中心的扩散区域。此手势施放时需要<strong>1 只手</strong>，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。你也可以选择<strong>维持</strong>它，但此后每个后续轮次都需额外消耗<strong>1 专注</strong>。</p><p>此法术允许施法者侦测与本法术所融入的同一符文相关的施法存在。该感知也会短暂侦测到生物的存在，具体取决于其类型。</p><ul><li><p><strong>控制</strong>：邪魔</p></li><li><p><strong>死亡</strong>：不死生物</p></li><li><p><strong>大地</strong>：软泥怪和土元素</p></li><li><p><strong>火焰</strong>：巨龙和火焰</p></li><li><p><strong>霜冻</strong>：巨人和冰霜元素</p></li><li><p><strong>照明</strong>：天界生物</p></li><li><p><strong>幻象</strong>：妖精</p></li><li><p><strong>念力</strong>：怪物</p></li><li><p><strong>生命</strong>：植物和野兽</p></li><li><p><strong>风暴</strong>：构装体和风暴元素</p></li><li><p><strong>湮灭</strong>：外来者</p></li><li><p><strong>灵魂</strong>：人型生物</p></li></ul>"
     },
     "Gesture: Surge": {
       "name": "手势：涌动 Gesture: Surge",
@@ -1575,7 +1575,7 @@
     },
     "Runewarden": {
       "name": "符文守卫 Runewarden",
-      "description": "<p>你对奥术的精通使你在面对元素与灵性伤害时更加坚韧。对于每一种你已知与该伤害类型调谐的奥术符文所对应的元素或灵性伤害类型，你获得等于你一半感知值的<strong>抗性</strong>加值。</p><p>当你使用<strong>防护</strong>手势时，你的防护所提供的抗性也会额外提高你一半的感知值。</p>"
+      "description": "<p>你对奥术的精通使你在面对元素与灵性伤害时更加坚韧。对于每一种你已知与该伤害类型同调的奥术符文所对应的元素或灵性伤害类型，你获得等于你一半感知值的<strong>抗性</strong>加值。</p><p>当你使用<strong>防护</strong>手势时，你的防护所提供的抗性也会额外提高你一半的感知值。</p>"
     },
     "Ruthless Momentum": {
       "name": "无情动量 Ruthless Momentum",
@@ -1910,7 +1910,7 @@
       "actions": {
         "tumble": {
           "name": "翻滚 Tumble",
-          "description": "<p>对相邻敌人进行一次<strong>运动</strong>技能攻击，与目标的<strong>反射</strong>防御进行对抗。</p><p>成功时，你可以移动至多两倍你的跨步，且可以穿过目标敌人的空间，且不会触发任何<strong>脱离接战</strong><strong>反应</strong>。</p><p>失败时，你的移动被阻挡，并停留在当前位置。</p>"
+          "description": "<p>对相邻敌人进行一次<strong>运动</strong>技能攻击，与目标的<strong>反射</strong>防御进行对抗。</p><p>成功时，你可以移动至多两倍你的步幅，且可以穿过目标敌人的空间，且不会触发任何<strong>脱离接战</strong><strong>反应</strong>。</p><p>失败时，你的移动被阻挡，并停留在当前位置。</p>"
         }
       }
     },
