@@ -531,9 +531,9 @@
       "adjective": "延伸"
     },
     "Reinforcement": {
-      "name": "增援 Reinforcement",
+      "name": "强化 Reinforcement",
       "description": "<p>此后缀的每<strong>阶</strong>使<strong>护甲</strong>防御提高 1。</p>",
-      "adjective": "增援"
+      "adjective": "强化"
     },
     "Reliable": {
       "name": "可靠的 Reliable",
