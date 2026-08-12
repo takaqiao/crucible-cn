@@ -501,7 +501,7 @@
         },
         "Swarms": {
           "name": "群集 Swarms",
-          "text": "<p><strong>群集</strong>代表这样一个敌手：它实为大量较小生物协同构成的集群——一团蝙蝠、一地老鼠，或一柱翻涌的虫豸——作为单一实体共同战斗、共同覆灭。</p>\n<p>群集通常通过为其指定专门的@UUID[Compendium.crucible.archetype.Item.archetypeswarm00]{群集}原型，并搭配任何在设定上可以构成群集的基础@UUID[.qSeJNy28eK9axO7C]{分类}来建模。分类提供构成群集的个体生物的生物学特征；群集原型则将该分类重新诠释为蜂拥的群体，并授予@UUID[Compendium.crucible.adversary-talents.Item.swarm00000000000]天赋。</p>\n<p>@Embed[Compendium.crucible.adversary-talents.Item.swarm00000000000 inline]</p>\n<p>作为游戏主持人，投入一个群集会促使玩家调整并转变其战术思路。与其他敌手一样，群集也可拥有不同的<strong>威胁</strong>档位，从由<strong>爪牙</strong>级敌人构成的小型群集，到被视为<strong>首领</strong>级对手的单一巨型群集，可制造出各种类型的挑战。</p>"
+          "text": "<p><strong>群集</strong>代表这样一个敌手：它实为大量较小生物协同构成的集群——一团蝙蝠、一地老鼠，或一柱翻涌的虫豸——作为单一实体共同战斗、共同覆灭。</p>\n<p>群集通常通过为其指定专门的@UUID[Compendium.crucible.archetype.Item.archetypeswarm00]{群集}原型，并搭配任何在设定上可以构成群集的基础@UUID[.qSeJNy28eK9axO7C]{分类法}来建模。分类法提供构成群集的个体生物的生物学特征；群集原型则将该分类法重新诠释为蜂拥的群体，并授予@UUID[Compendium.crucible.adversary-talents.Item.swarm00000000000]天赋。</p>\n<p>@Embed[Compendium.crucible.adversary-talents.Item.swarm00000000000 inline]</p>\n<p>作为游戏主持人，投入一个群集会促使玩家调整并转变其战术思路。与其他敌手一样，群集也可拥有不同的<strong>威胁</strong>档位，从由<strong>爪牙</strong>级敌人构成的小型群集，到被视为<strong>首领</strong>级对手的单一巨型群集，可制造出各种类型的挑战。</p>"
         }
       }
     },

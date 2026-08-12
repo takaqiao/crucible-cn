@@ -2116,7 +2116,7 @@
     },
     "Disarming Riposte": {
       "name": "缴械还击 Disarming Riposte",
-      "description": "<p>你的还击精准到足以将武器从敌人手中剥离。当你的@UUID[Compendium.crucible.talent.Item.counterriposte00]{反击还刺}造成<strong>暴击</strong>时，目标被缴械，丢下其主手武器。</p>"
+      "description": "<p>你的还击精准到足以将武器从敌人手中剥离。当你的@UUID[Compendium.crucible.talent.Item.counterriposte00]{反制还击}造成<strong>暴击</strong>时，目标被缴械，丢下其主手武器。</p>"
     },
     "Duelist": {
       "name": "决斗者 Duelist",

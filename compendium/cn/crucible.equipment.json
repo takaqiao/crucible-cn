@@ -87,7 +87,7 @@
       "name": "轻捷护符 Amulet of Nimbleness",
       "description": {
         "public": "<blockquote><p>这条色彩鲜艳的项链上挂着一枚石制护符，其上有一道微微迸发电鸣的发光符文。当你持有它时，你会产生一种超现实的感觉，仿佛周围的世界都稍稍慢了下来。</p></blockquote><p>这枚魔法护符会为<strong>反射</strong>防御提供加值。</p>",
-        "private": "<p>此物品作为一个带有 @UUID[Compendium.crucible.affixes.ActiveEffect.nimbleness000000]{敏捷} 后缀的优质护符示例展示。</p><p>这个词缀可以应用于任何护甲或饰品，而这枚护符还可以进一步附魔一个第1阶前缀。</p>"
+        "private": "<p>此物品作为一个带有 @UUID[Compendium.crucible.affixes.ActiveEffect.nimbleness000000]{轻捷} 后缀的优质护符示例展示。</p><p>这个词缀可以应用于任何护甲或饰品，而这枚护符还可以进一步附魔一个第1阶前缀。</p>"
       },
       "effects": {
         "Nimbleness": {
@@ -222,7 +222,7 @@
       "name": "顽强护符 Charm of Tenacity",
       "description": {
         "public": "<blockquote><p>这条挂满护符的项链看起来很朴素，但仔细观察后，你会发现其工艺中蕴含着精巧的技艺。握着它时，你会感到自己的呼吸变得更加深沉，肌肉中的轻微酸痛也逐渐消散。</p></blockquote><p>这件附魔护符会为<strong>强韧</strong>防御提供加值。</p>",
-        "private": "<p>此物品作为一个带有 @UUID[Compendium.crucible.affixes.ActiveEffect.tenacity00000000]{坚韧} 后缀的精良魅惑示例展示。</p><p>此词缀可应用于任何护甲或饰品，而这个魅惑还可以进一步附加一个第1阶前缀。</p>"
+        "private": "<p>此物品作为一个带有 @UUID[Compendium.crucible.affixes.ActiveEffect.tenacity00000000]{顽强} 后缀的精良魅惑示例展示。</p><p>此词缀可应用于任何护甲或饰品，而这个魅惑还可以进一步附加一个第1阶前缀。</p>"
       },
       "effects": {
         "Tenacity": {
@@ -942,9 +942,9 @@
       },
       "effects": {
         "Reinforcement": {
-          "name": "增援 Reinforcement",
+          "name": "强化 Reinforcement",
           "description": "<p>此后缀每有<strong>1 阶</strong>，便使<strong>护甲</strong>防御提高 1。</p>",
-          "adjective": "增援"
+          "adjective": "强化"
         }
       }
     },
@@ -1051,7 +1051,7 @@
       }
     },
     "Spell Scroll (Fine)": {
-      "name": "法术卷轴（精制） Spell Scroll (Fine)",
+      "name": "法术卷轴（精良） Spell Scroll (Fine)",
       "description": {
         "public": "<p>法术卷轴是一种经过特殊处理的犊皮纸或羊皮纸，其上被精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予其阅读者对这些构件的深刻熟悉感，仿佛他们已经了解了这些构件多年。</p><p>一张卷轴能够容纳的施法构件数量取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>卓越</strong>：可包含两个施法构件</p></li><li><p><strong>大师级</strong>：可包含三个施法构件</p></li></ul>"
       },
