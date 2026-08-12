@@ -613,7 +613,6 @@
         "executionersStrike": {
           "name": "刽子手的打击 Executioner's Strike",
           "description": "<p>你用一把双手持用的武器施展一次打击。若你的攻击成功，且你的对手当前<strong>生命值</strong>低于其最大值的一半，则该打击变为<strong>致命</strong>，你的对手还会陷入@Condition[bleeding]状态，持续3轮；在每一轮中，其都会额外受到等同于你力量值的伤害。</p>",
-          "condition": "你的目标已负伤。",
           "effects": [
             {
               "name": "刽子手的打击 Executioner's Strike"
@@ -944,11 +943,6 @@
       "name": "审判官 Inquisitor",
       "description": "<p>你是对抗魔法使用者战斗方面的专家，受训于保存体力、并在精确的时机出手以阻挠咒语。</p><p>你的@Action[default reactiveStrike]消耗额外减少 1 点<strong>动作</strong>，但始终消耗 1 点<strong>专注</strong>。当你为回应敌人施法而对其进行打击时，命中会从该敌人身上抽走<strong>1 点专注</strong>并返还给你；若造成<strong>暴击</strong>，其法术会被打断，魔法就此消散。</p>",
       "actions": {
-        "inquisitorsStrike": {
-          "name": "审判官的打击 Inquisitor's Strike",
-          "description": "当你可见且位于你交战半径内的一名敌人施放法术时，你可以反应，对该目标进行打击。若你造成重击，则该目标的法术被打断，魔法也随之消散。",
-          "condition": "你的目标正在施放一个法术。"
-        },
         "abjure": {
           "name": "祛魔 Abjure",
           "description": "<p>你以受过训练的意志对抗敌意巫术，瓦解其对你及附近盟友的掌控。为你自己以及 12 英尺内每一名正承受敌方施加的魔法状态的盟友，以其所受状态中最低的<strong>移除DC</strong>为目标进行一次<strong>奥术</strong>检定。凡移除DC低于你检定结果的状态，均被移除。</p>"
@@ -1138,10 +1132,6 @@
       "name": "光明使者 Lightbringer",
       "description": "<p>你极其擅长编织照明符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[irradiated] 状态。</p><p>辐照效果会持续<strong>1 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>各造成等同于你的<strong>照明符文</strong>所依据属性值的<strong>光耀</strong>伤害。</p>"
     },
-    "Lightning Proficiency": {
-      "name": "闪电熟练度 Lightning Proficiency",
-      "description": "<p>你熟练于运用闪电符文来编织施法。使用此符文施放的法术可获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>此天赋最终还将为<strong>充能 </strong>动作提供一次强化，扩大其效果或加入新的使用选项。</p>"
-    },
     "Mark Prey": {
       "name": "标记猎物 Mark Prey",
       "description": "<p>你发射一枚特殊的射击，不造成伤害，但会爆裂成发光粉末，清晰地标记你的目标。</p>",
@@ -1282,11 +1272,6 @@
       "name": "瞭望警戒 Overwatch",
       "description": "<p>你将整个战场纳入瞄准线，随时准备惩罚任何在你射界内行动的敌人。在你面前编织魔法的施法者，冒的不只是挨你一击的风险，还有咒语被就此瓦解的风险。</p>",
       "actions": {
-        "disruptingShot": {
-          "name": "扰乱射击 Disrupting Shot",
-          "description": "当一名你能看见的敌人施放法术时，你可以用反应对该目标进行打击。这个技巧施展起来很困难，但如果造成暴击，该目标的法术会被打断，魔法也会消散。",
-          "condition": "你的目标正在施放法术。"
-        },
         "coveringFire": {
           "name": "掩护射击 Covering Fire",
           "description": "<p>你可以反应发动一次针对该敌人的远程打击。对施法者造成暴击时，法术被打断，魔法随之失效。指向自身且并非法术的动作（例如移动或防御）不会触发此反应；此反应每轮仅可使用一次。</p>",
@@ -1565,16 +1550,6 @@
         "bloom": {
           "name": "绽放 Bloom",
           "description": "<p>你对生命符文的命令使你能够刺激生物材料生长并滋养生命，从而产生以下效果之一：</p><ul><li><p>培育1立方英尺的现有植物或真菌，使其快速生长至健康、绽放或可收获的状态。</p></li><li><p>鉴定术一个正在影响生物的负面生理状态，例如 @Condition[diseased]、@Condition[poisoned]、@Condition[bleeding] 或 @Condition[weakened]。</p></li><li><p>确认一份食物或饮料是否未受到细菌、寄生虫或毒物的污染。</p></li></ul><p>绽放只能影响你能够以身体接触到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人决定。</p>"
-        }
-      }
-    },
-    "Rune: Lightning": {
-      "name": "符文：闪电 Rune: Lightning",
-      "description": "<p>原始能量的混沌之力。闪电符文支配电荷的积聚与释放之源。</p><p>闪电符文使用 <strong>智力</strong> 进行成长，目标为 <strong>反射</strong>，并对 <strong>生命值</strong> 造成 <strong>闪电</strong> 伤害。它与秩序井然的 <strong>大地</strong> 符文相对立。</p>",
-      "actions": {
-        "energize": {
-          "name": "充能 Energize",
-          "description": "<p>你对闪电符文的掌控使你能够引导气元素与电流的流动，通过操纵电荷与空气动力学来产生以下效果之一：</p><ul><li><p>为你所触碰的一个不大于一立方英尺的金属物体注入电磁电荷，使其强力吸附于其他金属。任意时刻只能有一个物体以这种方式被充能；将此法术施加于不同物体时，先前物体会失去其磁性效果。</p></li><li><p>在你当前位置以六英尺半径聚集一阵狂风，使其要么作为一股朝单一受控方向吹袭的阵风，要么作为向各个方向施加向心力的气旋。附近区域中的悬空效果会被驱散，且重量小于1的未固定物体会被抛向阵风吹拂的方向。</p></li><li><p>在你当前所在位置15英尺内、你能看见的一个地点制造出如雷霆炸响般的震荡声音。</p></li></ul><p>充能只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
         }
       }
     },

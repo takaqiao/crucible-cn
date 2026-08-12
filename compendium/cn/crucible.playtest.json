@@ -1,6 +1,5 @@
 {
   "label": "试玩测试\nPlaytest",
-  "folders": {},
   "entries": {
     "Playtest 1 - The Ring of Valor": {
       "name": "试玩测试 Playtest 1 - The Ring of Valor",
@@ -821,12 +820,8 @@
               }
             },
             "吞噬思维 Devour Thoughts": {
-              "name": "吞噬思绪 Thoughts",
-              "description": "疯狂先驱者专注于单个目标，用多条触须缠绕他们。",
               "actions": {
                 "devourThoughts": {
-                  "name": "吞噬思绪 Thoughts",
-                  "description": "<p>用多条触须鞭击单个敌人，造成虚弱心灵伤害，并在成功时施加震慑。</p>",
                   "effects": [
                     {
                       "name": "吞噬思绪 Thoughts"
@@ -1156,16 +1151,6 @@
               "name": "手势：爆破 Gesture: Blast",
               "description": "<p>你将一个符文的奥术力量猛掷到附近一个你能看见的点上，引发一场强烈的能量爆破。</p><p>爆破手势随<strong>智力</strong>而成长，并在施法者60英尺内的一个点上制造一次半径6英尺的爆破。若目标未能抵抗该法术，爆破会造成8基础伤害。此手势需要<strong>2只手</strong>施放，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋当前位于一个<strong>第4阶</strong>节点上。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为测试而“提前”开放。</p>"
             },
-            "Rune: Lightning": {
-              "name": "符文：闪电 Rune: Lightning",
-              "description": "<p>原始电能的混沌之力。符文：闪电支配电荷的来源与放电。</p><p>符文：闪电以 <strong>智力</strong> 进行成长，目标为 <strong>反射</strong>，并对 <strong>生命值</strong>造成 <strong>闪电</strong>伤害。它与秩序井然的 <strong>大地</strong>符文相对。</p>",
-              "actions": {
-                "energize": {
-                  "name": "充能 Energize",
-                  "description": "<p>你对闪电符文的命令使你能够引导气流与电流的流动，操控电荷与空气动力学，从而产生以下效果之一：</p><ul><li><p>为你所接触的一个不大于一立方英尺的金属物体注入电磁电荷，使其能够强力吸附于其他金属。在任意时刻，只能有一个物体以这种方式被充能；若对不同物体施放此法术，则先前物体会失去其磁性效果。</p></li><li><p>在你当前位置周围六码半径内聚集起一阵狂风，使其要么作为朝单一受控方向吹袭的阵风，要么作为向各个方向施加向心力的气旋。附近区域内的空气传播效果会被驱散，且重量小于1的未固定物体会被朝阵风方向抛飞。</p></li><li><p>在你当前所在位置15英尺内、你能够看见的一个地点，制造出如雷鸣炸响般的震荡声音。</p></li></ul><p>充能只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
-                }
-              }
-            },
             "Rune: Flame": {
               "name": "符文：火焰 Rune: Flame",
               "description": "<p>元素性热能的混沌力量。符文：火焰掌管火焰与热量。</p><p>符文：火焰以<strong>智力</strong>进行成长，目标为<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>火焰</strong>伤害。它的对立面是有序的<strong>霜冻</strong>符文。</p>",
@@ -1491,17 +1476,6 @@
               "name": "手势：防护 Gesture: Ward",
               "description": "<p>你将符文中的奥术力量塑造成一道保护屏障，用以保护自己免受伤害。</p><p>守护手势以<strong>坚韧</strong>进行倍率计算，并针对该法术中所用符文的伤害类型提供<strong>+6 抗性</strong>。该抗性持续<strong>1 轮</strong>，且你同一时间只能拥有一个守护。使用守护手势施放另一道法术会替代你先前的守护。该手势需要<strong>1 只手</strong>来施放，基础消耗为<strong>2 动作</strong>和<strong>1 专注</strong>。</p>"
             },
-            "Body Block": {
-              "name": "躯体格挡 Body Block",
-              "description": "你顺势承受一次原本由你的护甲防御的攻击，转而将其结果改为格挡。",
-              "actions": {
-                "bodyBlock": {
-                  "name": "躯体格挡 Body Block",
-                  "description": "<p>一次原本由你的护甲防御或仅造成擦击的攻击会被转化为格挡，且不造成伤害。</p>",
-                  "condition": "你以你的护甲进行防御，或视为一次擦击，来抵御一次近战攻击。"
-                }
-              }
-            },
             "Counter Strike": {
               "name": "反击 Counter Strike",
               "description": "<p>你受过训练，能够在用盾牌防御与迅捷反击之间流畅切换。</p>",
@@ -1720,12 +1694,6 @@
             "public": "<p>艾利奥文是一名敏捷的散兵，运用箭术和施法在极远距离压制并消灭敌人。艾利奥文立志获得<strong>奥术弓手</strong>签名天赋。</p>"
           },
           "items": {
-            "Longbow": {
-              "name": "长弓 Longbow",
-              "description": {
-                "public": "<p>长弓是一种高大的单体木弓，往往比拉开它的弓箭手还高；它需要极大的力量和多年的练习才能精通，能将箭矢以致命的力道射过战场。</p>"
-              }
-            },
             "Scimitar": {
               "name": "弯刀 Scimitar",
               "description": {
@@ -1885,16 +1853,6 @@
                 }
               }
             },
-            "Rune: Lightning": {
-              "name": "符文：闪电 Rune: Lightning",
-              "description": "<p>原始电能的混沌力量。闪电符文支配电荷的来源与放电。</p><p>闪电符文以 <strong>智力</strong> 进行成长，目标为 <strong>反射</strong>，并对 <strong>生命值</strong> 造成 <strong>电击</strong>伤害。它与秩序井然的 <strong>大地</strong>符文相对立。</p>",
-              "actions": {
-                "energize": {
-                  "name": "充能 Energize",
-                  "description": "<p>你对闪电符文的掌控使你能够引导气流与电流，操纵电荷与空气动力学，从而产生以下效果之一：</p><ul><li><p>为你所触碰的一个不大于 1 立方英尺的金属物体注入电磁电荷，使其强力吸附在其他金属上。同一时间只能以这种方式为一个物体充能；若对不同物体施放此法术，则先前物体会失去其磁性效果。</p></li><li><p>在你当前位置周围 6 英尺半径内聚集一阵狂风，可令其作为一股朝单一受控方向吹袭的阵风，或作为一个向各个方向施加向心力的气旋。附近区域中的空中效果会被驱散，且重量小于 1 的未固定物体会被朝阵风吹袭的方向抛飞。</p></li><li><p>在你当前所在位置 15 英尺内、你能看见的一个地点，制造出一声雷霆炸响般的冲击性声音。</p></li></ul><p>充能只能影响你能够以身体直接触碰到的生物或物体。你也可以尝试进行其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
-                }
-              }
-            },
             "Projectile Weapon Training": {
               "name": "投射武器训练 Projectile Weapon Training",
               "description": "<p>你接受过箭术和其他投射武器训练的基础教育。对于<strong>投射</strong>类别中的武器，你不再被视为<strong>未受训</strong>。</p>",
@@ -2048,16 +2006,6 @@
             "Mesmer": {
               "name": "迷魅师 Mesmer",
               "description": "<p>你极其擅长编织幻象符文。使用该符文的法术在暴击时会造成@Condition[confused]。</p><p>混乱效果持续<strong>1 轮</strong>，对<strong>士气</strong>造成你<strong>智力</strong>数值一半的<strong>灵能</strong>伤害，并施加@Condition[disoriented]状态。</p>"
-            },
-            "Rune: Lightning": {
-              "name": "符文：闪电 Rune: Lightning",
-              "description": "<p>原始电能的混沌力量。闪电符文掌管电荷的来源与放电。</p><p>闪电符文以<strong>智力</strong>进行成长，目标为<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>电击</strong>伤害。它与秩序井然的<strong>大地</strong>符文相对。</p>",
-              "actions": {
-                "energize": {
-                  "name": "充能 Energize",
-                  "description": "<p>你对闪电符文的掌控使你能够引导气流与电流，操纵电荷与空气动力学，以产生以下效果之一：</p><ul><li><p>为你触碰到的一个不大于一立方英尺的金属物体注入电磁电荷，使其强力吸附在其他金属上。在任意时刻，只有一个物体能以这种方式被充能；对此法术施加于另一个物体时，先前物体的磁性效果会消失。</p></li><li><p>在你当前位置周围六码半径内聚集一阵狂风，使其要么作为沿单一受控方向吹袭的阵风，要么作为向各个方向施加向心力的气旋。近处区域内的气载效果会被驱散，且重量小于1的未固定物体会被抛向阵风吹袭的方向。</p></li><li><p>在你当前所在位置15尺内一个你能看见的位置制造一声雷鸣般的震荡巨响。</p></li></ul><p>充能只可影响你能够实际触碰到的一个生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
-                }
-              }
             },
             "Rune: Kinesis": {
               "name": "符文：念力 Rune: Kinesis",
@@ -2377,10 +2325,6 @@
               "name": "强力握持 Strong Grip",
               "description": "<p>你对武器的掌握稳固而坚定。在持用一把以力量成长的双手武器时，你仍可施放需要双手的法术；试图对你进行缴械的尝试会承受 +2 祸骰。 </p><p>此外，你可以用副手持用一把单手的重型武器。</p>"
             },
-            "Blood Frenzy": {
-              "name": "嗜血狂乱 Blood Frenzy",
-              "description": "<p>你的战斗渴望激励你施展更加高效的动作。当你达成一次对生命值造成伤害的<strong>暴击</strong>时，你立即获得 +1 动作。此收益每轮只会生效一次。</p>"
-            },
             "Executioner's Strike": {
               "name": "刽子手的打击 Executioner's Strike",
               "description": "<p>你对一名受伤的敌人发动一次果断的打击。</p>",
@@ -2388,7 +2332,6 @@
                 "executionersStrike": {
                   "name": "刽子手的打击 Executioner's Strike",
                   "description": "<p>你使用双手持用的武器发动一次打击。若你的攻击成功，且你的对手的<strong>生命值</strong>低于其最大值的一半，则该次打击为<strong>致命</strong>，你的对手还会陷入持续 3 轮的@Condition[bleeding]状态，并在每一轮受到等同于你力量值的额外伤害。</p>",
-                  "condition": "你的目标处于受伤状态。",
                   "effects": [
                     {
                       "name": "刽子手的打击 Executioner's Strike"
@@ -2487,16 +2430,6 @@
             "Armored Efficiency": {
               "name": "装甲效率 Armored Efficiency",
               "description": "<p>你受训于穿戴最重型的护甲，同时仍保有机动性。你能够在穿着重型护甲时，每回合使用一次免费的移动。</p>"
-            },
-            "Penetrating Throw": {
-              "name": "穿透投掷 Penetrating Throw",
-              "description": "<p>你能以如此凶猛的力道掷出武器，使其打击一条直线上的所有目标。</p>",
-              "actions": {
-                "penetratingThrow": {
-                  "name": "穿透投掷 Penetrating Throw",
-                  "description": "<p>你进行一次<strong>投掷</strong>武器打击，贯穿并命中一条直线上的所有敌人。</p>"
-                }
-              }
             },
             "Stiletto": {
               "name": "细剑 Stiletto",

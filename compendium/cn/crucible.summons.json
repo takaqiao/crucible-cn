@@ -108,10 +108,6 @@
         "Elemental Armor": {
           "name": "元素护甲 Elemental Armor"
         },
-        "Rune: Lightning": {
-          "name": "符文：闪电 Rune: Lightning",
-          "description": "你学会了闪电符文，使你得以控制不稳定的奥术电涌。"
-        },
         "Rune: Storm": {
           "name": "符文：风暴 Rune: Storm",
           "description": "你习得风暴符文，从而能够操控狂暴不定的电能奥术涌流。"
@@ -183,10 +179,6 @@
         "Gesture: Fan": {
           "name": "手势：扇形 Gesture: Fan",
           "description": "<p>将符文的精华凝聚成一道横扫或碎裂的弧形，以打击近距离内的多个目标。若与大地配合使用，这可能会抛射出一片弧形的石雨；而与念力配合使用，则可能会在多个敌人身上切出一道裂痕。</p><p>扇形手势基于 <strong>智力</strong> 进行成长，目标为一个120度、6英尺的锥形区域，并在攻击成功时造成6点基础伤害。</p>"
-        },
-        "Rune: Lightning": {
-          "name": "符文：闪电 Rune: Lightning",
-          "description": "<p>原始电能的混沌力量。闪电符文掌管电能来源与放电现象。它与秩序井然的大地符文相对。</p>\n<p>闪电符文以<strong>智力</strong>进行成长，目标为<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>电击</strong>伤害。</p>"
         },
         "Rune: Storm": {
           "name": "符文：风暴 Rune: Storm",
