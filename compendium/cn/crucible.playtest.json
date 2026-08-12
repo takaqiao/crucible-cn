@@ -1637,7 +1637,7 @@
             "Heater Shield": {
               "name": "熨斗盾 Heater Shield",
               "description": {
-                "public": "<p>因其铁制外形酷似熨斗底座而得名，熨斗盾在防护范围与机动性之间提供了良好的平衡。</p>"
+                "public": "<p>熨斗盾因其铁制外形类似熨斗底部而得名，在防护范围与机动性之间提供了良好的平衡。</p>"
               }
             },
             "War Hammer": {
@@ -1661,7 +1661,7 @@
               "description": "<p>你精于持盾作战，用它猛撞敌人并使其失去平衡。</p>",
               "actions": {
                 "shieldBash": {
-                  "name": "盾牌猛击",
+                  "name": "盾牌猛击 Shield Bash",
                   "description": "<p>在以主手武器发动一次基础打击之后，你以盾牌发动一次<strong>打击</strong>，使目标陷入<strong>踉跄</strong>状态持续一轮。</p>",
                   "effects": [
                     {
