@@ -166,7 +166,7 @@
             },
             "Concussive Blows": {
               "name": "震荡重击 Concussive Blows",
-              "description": "<p>你使用造成钝击伤害的近战武器时所展现的肉体力量，能使那些对生命值造成伤害的暴击附加@Condition[staggered]状态。</p><p>@Condition[staggered]状态持续 1 轮，并使你目标的最大动作数减少 2。</p>"
+              "description": "<p>你使用造成钝击伤害的近战武器时所展现的肉体力量，能使那些对生命值造成伤害的暴击附加@Condition[staggered]状态。</p><p>@Condition[staggered]状态持续 1 轮，并使你目标的最大动作减少 2。</p>"
             },
             "Strong Grip": {
               "name": "强力握持 Strong Grip",
@@ -948,7 +948,7 @@
             },
             "Impetus": {
               "name": "动因 Impetus",
-              "description": "<p>你擅长利用他人思考迟缓的弱点。如果你在战斗的一轮中处于先攻顺序的第一位，你获得+1当前和最大动作点数。</p>"
+              "description": "<p>你擅长利用他人思考迟缓的弱点。如果你在战斗的一轮中处于先攻顺序的第一位，你获得+1当前和最大动作。</p>"
             },
             "Opportunistic Spellcraft": {
               "name": "借机施法 Opportunistic Spellcraft",
@@ -1266,7 +1266,7 @@
             },
             "Impetus": {
               "name": "动因 Impetus",
-              "description": "<p>你擅长利用他人思考迟缓的弱点。如果你在战斗的一轮中处于先攻顺序的第一位，你获得+1当前和最大动作点数。</p>"
+              "description": "<p>你擅长利用他人思考迟缓的弱点。如果你在战斗的一轮中处于先攻顺序的第一位，你获得+1当前和最大动作。</p>"
             },
             "Light Weapon Training": {
               "name": "轻型武器训练 Light Weapon Training",
@@ -2157,7 +2157,7 @@
             },
             "Runewarden": {
               "name": "符文守卫 Runewarden",
-              "description": "<p>你对奥术的精通使你对元素与灵性伤害更为坚韧。对于每一种你已知晓与该伤害类型调谐的奥术符文的元素或灵性伤害类型，你获得等同于你一半感知的<strong>抗性</strong>加值。</p><p>当你使用<strong>守护</strong>手势时，你的 守护 所提供的抗性也会提高你一半的感知。</p>"
+              "description": "<p>你对奥术的精通使你对元素与灵性伤害更为坚韧。对于每一种你已知晓与该伤害类型同调的奥术符文的元素或灵性伤害类型，你获得等同于你一半感知的<strong>抗性</strong>加值。</p><p>当你使用<strong>守护</strong>手势时，你的 守护 所提供的抗性也会提高你一半的感知。</p>"
             },
             "Wildspeaker": {
               "name": "荒野言者 Wildspeaker",

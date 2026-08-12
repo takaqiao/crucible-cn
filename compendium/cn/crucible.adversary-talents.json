@@ -58,7 +58,7 @@
     },
     "Amorphous": {
       "name": "无定形 Amorphous",
-      "description": "<p>该@ref[actor.name]{生物}可以穿过直径仅为1英寸的狭窄空间，且其<strong>跨步</strong>不会受到任何惩罚。它获得等同于其<strong>坚韧</strong>属性值一半的<strong>闪避</strong>加值，并免疫@Condition[restrained]状态。</p>"
+      "description": "<p>该@ref[actor.name]{生物}可以穿过直径仅为1英寸的狭窄空间，且其<strong>步幅</strong>不会受到任何惩罚。它获得等同于其<strong>坚韧</strong>属性值一半的<strong>闪避</strong>加值，并免疫@Condition[restrained]状态。</p>"
     },
     "Aquatic Breathing": {
       "name": "水生呼吸 Aquatic Breathing",
@@ -525,7 +525,7 @@
       "actions": {
         "tramplingCharge": {
           "name": "践踏冲锋 Trampling Charge",
-          "description": "<p>该@ref[actor.name]{生物}向前移动，距离最多为其<strong>跨步</strong>的两倍，并攻击其路径上所有生物的<strong>反射</strong>防御。体型为该生物一半或更小的目标会被猛然撞开，并陷入@Condition[stunned]，直到其下个回合结束。</p>",
+          "description": "<p>该@ref[actor.name]{生物}向前移动，距离最多为其<strong>步幅</strong>的两倍，并攻击其路径上所有生物的<strong>反射</strong>防御。体型为该生物一半或更小的目标会被猛然撞开，并陷入@Condition[stunned]，直到其下个回合结束。</p>",
           "effects": [
             {}
           ]
@@ -538,7 +538,7 @@
       "actions": {
         "tuskCharge": {
           "name": "獠牙冲锋 Tusk Charge",
-          "description": "<p>沿直线冲锋，距离最长可达你的跨步，并对你遭遇的第一个生物进行一次打击。若成功，目标被击倒为@Condition[prone]。</p>",
+          "description": "<p>沿直线冲锋，距离最长可达你的步幅，并对你遭遇的第一个生物进行一次打击。若成功，目标被击倒为@Condition[prone]。</p>",
           "effects": [
             {
               "name": "獠牙冲锋 Tusk Charge"
