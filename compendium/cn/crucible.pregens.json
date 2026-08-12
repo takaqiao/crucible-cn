@@ -223,7 +223,7 @@
         },
         "Preternatural Instinct": {
           "name": "超自然直觉 Preternatural Instinct",
-          "description": "你的思维与身体同样敏捷，令人印象深刻。你在所有先攻检定中获得+2恩惠。"
+          "description": "你的思维与身体同样敏捷，令人印象深刻。你在所有先攻检定中获得+2恩惠骰。"
         },
         "Skirmisher": {
           "name": "散兵 Skirmisher",
@@ -235,7 +235,7 @@
         },
         "Strike First": {
           "name": "先发制人 Strike First",
-          "description": "先下手为强，事后再问。对任何先攻值低于你的敌人进行打击或法术攻击时，你获得<strong>+1 恩惠</strong>。"
+          "description": "先下手为强，事后再问。对任何先攻值低于你的敌人进行打击或法术攻击时，你获得<strong>+1 恩惠骰</strong>。"
         },
         "Studded Leather Armor": {
           "name": "镶钉皮甲 Studded Leather Armor",
@@ -498,7 +498,7 @@
         },
         "Cadence": {
           "name": "节奏 Cadence",
-          "description": "<p>你经过严格训练，能够以富有节奏的精准度连续进行多次近战攻击。当你使用单手近战武器连续多次<strong>打击</strong>时，每一次后续攻击都会使你获得可叠加的<strong>+1 恩惠</strong>。</p>"
+          "description": "<p>你经过严格训练，能够以富有节奏的精准度连续进行多次近战攻击。当你使用单手近战武器连续多次<strong>打击</strong>时，每一次后续攻击都会使你获得可叠加的<strong>+1 恩惠骰</strong>。</p>"
         },
         "Counter Riposte": {
           "name": "反制还击 Counter Riposte",
@@ -677,7 +677,7 @@
         },
         "Eye of the Storm": {
           "name": "风暴之眼 Eye of the Storm",
-          "description": "<p>在你延迟你的回合后，若你在该轮中让某个敌人先于你行动，则你对此敌人进行的任何打击或法术攻击获得+2恩惠。</p><p>待办: 需要自动化。目前请手动应用恩惠。</p>"
+          "description": "<p>在你延迟你的回合后，若你在该轮中让某个敌人先于你行动，则你对此敌人进行的任何打击或法术攻击获得+2恩惠骰。</p><p>待办: 需要自动化。目前请手动应用恩惠骰。</p>"
         },
         "Gesture: Influence": {
           "name": "手势：影响 Gesture: Influence",
@@ -693,7 +693,7 @@
         },
         "Healer": {
           "name": "治疗者 Healer",
-          "description": "<p>你在操纵生命奥术以治疗伤势方面无人能及。若你尚未习得<strong>符文：生命</strong>，则你学会它。当你使用生命符文为盟友进行治疗时，你的掷骰获得<strong>+2恩惠</strong>。</p>",
+          "description": "<p>你在操纵生命奥术以治疗伤势方面无人能及。若你尚未习得<strong>符文：生命</strong>，则你学会它。当你使用生命符文为盟友进行治疗时，你的掷骰获得<strong>+2恩惠骰</strong>。</p>",
           "actions": {
             "fontOfLife": {
               "name": "生命之泉 Font of Life",
@@ -835,7 +835,7 @@
           "actions": {
             "adrenalineSurge": {
               "name": "肾上腺素涌动 Adrenaline Surge",
-              "description": "<p>你消耗<strong>英雄气概</strong>，并在 3 轮内对任何以力量进行成长的动作获得<strong>+2 惠骰</strong>。你可以在战斗中于自己的回合之外、进行<strong>反应</strong>前执行此动作。</p>",
+              "description": "<p>你消耗<strong>英雄气概</strong>，并在 3 轮内对任何以力量进行成长的动作获得<strong>+2 恩惠骰</strong>。你可以在战斗中于自己的回合之外、进行<strong>反应</strong>前执行此动作。</p>",
               "effects": [
                 {
                   "name": "肾上腺素涌动 Adrenaline Surge"
@@ -1419,7 +1419,7 @@
           "actions": {
             "inspireHeroism": {
               "name": "激励英勇 Inspire Heroism",
-              "description": "<p>每个盟友（不包括你自己）在10 英尺内，进行的动作直到其下个<strong>回合</strong>结束前获得<strong>+1 惠骰</strong>。</p>",
+              "description": "<p>每个盟友（不包括你自己）在10 英尺内，进行的动作直到其下个<strong>回合</strong>结束前获得<strong>+1 恩惠骰</strong>。</p>",
               "effects": [
                 {
                   "name": "激励英勇 Inspire Heroism"

@@ -666,7 +666,7 @@
     "Luminary Band": {
       "name": "辉耀指环 Luminary Band",
       "description": {
-        "public": "<blockquote><p>一枚雕刻精美的金色戒指，环绕着一颗椭圆形、闪耀的橙色宝石。</p></blockquote><p>这枚附魔戒环会为包含<strong>词缀</strong>的防御<strong>动作</strong>提供惠骰。</p>",
+        "public": "<blockquote><p>一枚雕刻精美的金色戒指，环绕着一颗椭圆形、闪耀的橙色宝石。</p></blockquote><p>这枚附魔戒环会为包含<strong>词缀</strong>的防御<strong>动作</strong>提供恩惠骰。</p>",
         "private": "<p>此物品作为带有 @UUID[Compendium.crucible.affixes.ActiveEffect.luminary00000000]{辉耀} 前缀的优质戒指示例呈现。</p><p>此词缀可应用于任何饰品，而这枚戒指还可以进一步附魔一个第1阶后缀。</p>"
       },
       "effects": {

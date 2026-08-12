@@ -60,7 +60,7 @@
       "actions": {
         "adrenalineSurge": {
           "name": "肾上腺素涌动 Adrenaline Surge",
-          "description": "<p>你消耗<strong>英雄气概</strong>，并在 3 轮内对任何基于力量进行成长的动作获得<strong>+2 恩惠</strong>。你可以在战斗中于自己的回合之外、进行<strong>反应</strong>之前执行此动作。</p>",
+          "description": "<p>你消耗<strong>英雄气概</strong>，并在 3 轮内对任何基于力量进行成长的动作获得<strong>+2 恩惠骰</strong>。你可以在战斗中于自己的回合之外、进行<strong>反应</strong>之前执行此动作。</p>",
           "effects": [
             {
               "name": "肾上腺素涌动 Adrenaline Surge"
@@ -217,7 +217,7 @@
     },
     "Bard": {
       "name": "吟游诗人 Bard",
-      "description": "<p>你钻研以口述与音乐传承英雄叙事的传统，以此激励盟友的勇气、打击敌人的士气，并迅速以非常规方式解决问题。</p><p>如果你尚未习得<strong>符文：灵魂 </strong>，则你习得它。使用灵之符文恢复盟友士气时，你的掷骰获得<strong>+2 恩惠</strong>。</p>",
+      "description": "<p>你钻研以口述与音乐传承英雄叙事的传统，以此激励盟友的勇气、打击敌人的士气，并迅速以非常规方式解决问题。</p><p>如果你尚未习得<strong>符文：灵魂 </strong>，则你习得它。使用灵之符文恢复盟友士气时，你的掷骰获得<strong>+2 恩惠骰</strong>。</p>",
       "actions": {
         "laughingMatter": {
           "name": "笑柄 Laughing Matter",
@@ -311,7 +311,7 @@
     },
     "Cadence": {
       "name": "节奏 Cadence",
-      "description": "<p>你经过严格训练，能够以富有节奏的精准度连续进行一系列近战攻击。当你使用单手近战武器连续多次进行<strong>打击</strong>时，每次后续攻击都会获得可叠加的<strong>+1 恩惠</strong>。</p>"
+      "description": "<p>你经过严格训练，能够以富有节奏的精准度连续进行一系列近战攻击。当你使用单手近战武器连续多次进行<strong>打击</strong>时，每次后续攻击都会获得可叠加的<strong>+1 恩惠骰</strong>。</p>"
     },
     "Carefree": {
       "name": "无忧无虑 Carefree",
@@ -319,7 +319,7 @@
     },
     "Chirurgeon": {
       "name": "外科医 Chirurgeon",
-      "description": "<p>你在战场医疗方面的即兴应变专长可以拯救许多生命。你在战斗期间进行的所有<strong>医疗</strong>检定都获得<strong>+1 恩惠</strong>。</p>",
+      "description": "<p>你在战场医疗方面的即兴应变专长可以拯救许多生命。你在战斗期间进行的所有<strong>医疗</strong>检定都获得<strong>+1 恩惠骰</strong>。</p>",
       "actions": {
         "medicinalCompound": {
           "name": "药用化合物 Medicinal Compound",
@@ -336,7 +336,7 @@
       "actions": {
         "clarifyIntent": {
           "name": "澄清意图 Clarify Intent",
-          "description": "<p>你向 12 尺内的一名盟友说明你的意图。对该盟友的疯狂阈值进行一次<strong>外交</strong>技能攻击。若成功，他们在下一轮内进行的动作获得 +1<strong>专注</strong>和 +1<strong>恩惠</strong>。</p>",
+          "description": "<p>你向 12 尺内的一名盟友说明你的意图。对该盟友的疯狂阈值进行一次<strong>外交</strong>技能攻击。若成功，他们在下一轮内进行的动作获得 +1<strong>专注</strong>和 +1<strong>恩惠骰</strong>。</p>",
           "effects": [
             {
               "name": "澄清意图 Clarify Intent"
@@ -417,7 +417,7 @@
       "actions": {
         "counterspell": {
           "name": "反制法术 Counterspell",
-          "description": "<p>你将奥术能量塑形成一道对抗性的施法，目标为你在30英尺内可见的一名施法者。</p><p>指定一个你知晓的符文和手势，以尝试反制该法术。若你选择的符文与该法术所用的某个符文相对，则你的此次尝试获得<strong>+2恩惠</strong>。若你选择的手势与正在施放的手势完全相同，你的此次尝试也获得<strong>+2恩惠</strong>。</p><p>对目标的<strong>意志</strong><strong>防御</strong>进行一次无害的法术攻击。若你的掷骰结果超过其防御，则该法术被反制，其魔法被消除，不产生任何<strong>效果</strong>。</p>",
+          "description": "<p>你将奥术能量塑形成一道对抗性的施法，目标为你在30英尺内可见的一名施法者。</p><p>指定一个你知晓的符文和手势，以尝试反制该法术。若你选择的符文与该法术所用的某个符文相对，则你的此次尝试获得<strong>+2恩惠骰</strong>。若你选择的手势与正在施放的手势完全相同，你的此次尝试也获得<strong>+2恩惠骰</strong>。</p><p>对目标的<strong>意志</strong><strong>防御</strong>进行一次无害的法术攻击。若你的掷骰结果超过其防御，则该法术被反制，其魔法被消除，不产生任何<strong>效果</strong>。</p>",
           "condition": "另一个你能看见的生物正在施放法术。"
         }
       }
@@ -635,7 +635,7 @@
     },
     "Eye of the Storm": {
       "name": "风暴之眼 Eye of the Storm",
-      "description": "<p>在你延迟自己的回合后，若你对本轮中因你让其先于你行动的敌人进行任何打击或法术攻击，则获得+2惠骰。</p><p>待办: 需要自动化。目前请手动施加惠骰。</p>"
+      "description": "<p>在你延迟自己的回合后，若你对本轮中因你让其先于你行动的敌人进行任何打击或法术攻击，则获得+2恩惠骰。</p><p>待办: 需要自动化。目前请手动施加恩惠骰。</p>"
     },
     "Fan of Arrows": {
       "name": "箭雨扇射 Fan of Arrows",
@@ -653,7 +653,7 @@
       "actions": {
         "feintingStrike": {
           "name": "佯攻打击 Feinting Strike",
-          "description": "<p>你用主手武器佯攻，对目标的<strong>反射</strong>防御进行一次欺瞒攻击。你立即用副手武器进行一次<strong>打击</strong>。</p><p>如果你的<strong>欺瞒</strong>成功，你的<strong>打击</strong>获得<strong>+2 恩惠</strong>，并额外造成<strong>+6 伤害</strong>。</p>"
+          "description": "<p>你用主手武器佯攻，对目标的<strong>反射</strong>防御进行一次欺瞒攻击。你立即用副手武器进行一次<strong>打击</strong>。</p><p>如果你的<strong>欺瞒</strong>成功，你的<strong>打击</strong>获得<strong>+2 恩惠骰</strong>，并额外造成<strong>+6 伤害</strong>。</p>"
         }
       }
     },
@@ -840,7 +840,7 @@
       "actions": {
         "headbutt": {
           "name": "头槌攻击 Headbutt",
-          "description": "<p>对相邻敌人的<strong>坚韧</strong>防御进行一次徒手<strong>打击</strong>。如果你的<strong>先攻</strong>高于你的目标，则此次攻击获得<strong>+1 惠骰</strong>。</p><p>此次攻击是<strong>困难</strong>的，且只造成@Rule[action.weakened]伤害，但如果成功，则会使其陷入 @Condition[staggered]，持续一轮。</p><p>此行动始终使用徒手武器，即使你的武器槽位已被其他武器占用也是如此。</p>",
+          "description": "<p>对相邻敌人的<strong>坚韧</strong>防御进行一次徒手<strong>打击</strong>。如果你的<strong>先攻</strong>高于你的目标，则此次攻击获得<strong>+1 恩惠骰</strong>。</p><p>此次攻击是<strong>困难</strong>的，且只造成@Rule[action.weakened]伤害，但如果成功，则会使其陷入 @Condition[staggered]，持续一轮。</p><p>此行动始终使用徒手武器，即使你的武器槽位已被其他武器占用也是如此。</p>",
           "effects": [
             {}
           ]
@@ -849,7 +849,7 @@
     },
     "Healer": {
       "name": "治疗者 Healer",
-      "description": "<p>你在操纵生命奥术以治疗伤势方面无与伦比。若你尚未习得<strong>符文：生命</strong>，则你学会它。使用生命符文为盟友进行治疗时，你的此次掷骰获得<strong>+2恩惠</strong>。</p>",
+      "description": "<p>你在操纵生命奥术以治疗伤势方面无与伦比。若你尚未习得<strong>符文：生命</strong>，则你学会它。使用生命符文为盟友进行治疗时，你的此次掷骰获得<strong>+2恩惠骰</strong>。</p>",
       "actions": {
         "fontOfLife": {
           "name": "生命之泉 Font of Life",
@@ -965,7 +965,7 @@
       "actions": {
         "inspireHeroism": {
           "name": "激励英勇 Inspire Heroism",
-          "description": "<p>每位盟友（不包括你自己）在<strong>10 英尺</strong>内，在其下个回合结束前进行的动作获得<strong>+1 恩惠</strong>。</p>",
+          "description": "<p>每位盟友（不包括你自己）在<strong>10 英尺</strong>内，在其下个回合结束前进行的动作获得<strong>+1 恩惠骰</strong>。</p>",
           "effects": [
             {
               "name": "激励英勇 Inspire Heroism"
@@ -976,7 +976,7 @@
     },
     "Intellectual Superiority": {
       "name": "智识优越 Intellectual Superiority",
-      "description": "有时候，周围其他人的思考之缓慢简直令人惊叹。对先攻顺序中排在你之后的敌人进行任何打击或法术攻击时，你获得<strong>+1 恩惠</strong>。"
+      "description": "有时候，周围其他人的思考之缓慢简直令人惊叹。对先攻顺序中排在你之后的敌人进行任何打击或法术攻击时，你获得<strong>+1 恩惠骰</strong>。"
     },
     "Intercept": {
       "name": "拦截 Intercept",
@@ -1262,7 +1262,7 @@
     },
     "Operator": {
       "name": "操作者 Operator",
-      "description": "<p>你临危不乱，面对压力也能保持冷静。你的身体韧性与精神敏锐让你能在局势最危险、赌注最高时，将处境中的危险化为取得最佳结果的助力。</p><p>当你处于战斗中且未@Condition[incapacitated]时，若你剩余生命值低于最大生命值的 50%，你在所有检定上获得 +1 恩惠。若你剩余生命值低于最大生命值的 25%，你在所有检定上获得 +2 恩惠。</p>",
+      "description": "<p>你临危不乱，面对压力也能保持冷静。你的身体韧性与精神敏锐让你能在局势最危险、赌注最高时，将处境中的危险化为取得最佳结果的助力。</p><p>当你处于战斗中且未@Condition[incapacitated]时，若你剩余生命值低于最大生命值的 50%，你在所有检定上获得 +1 恩惠骰。若你剩余生命值低于最大生命值的 25%，你在所有检定上获得 +2 恩惠骰。</p>",
       "actions": {
         "coldFocus": {
           "name": "冷静专注 Cold Focus",
@@ -1336,7 +1336,7 @@
     },
     "Perspicacity": {
       "name": "洞察力 Perspicacity",
-      "description": "<p>你对周遭环境的某些方面有更敏锐的洞察。进行任何不依赖视力的<strong>察觉</strong>技能检定时，你获得 +2 恩惠。</p>"
+      "description": "<p>你对周遭环境的某些方面有更敏锐的洞察。进行任何不依赖视力的<strong>察觉</strong>技能检定时，你获得 +2 恩惠骰。</p>"
     },
     "Pinning Shot": {
       "name": "钉射 Pinning Shot",
@@ -1406,7 +1406,7 @@
     },
     "Preternatural Instinct": {
       "name": "超自然直觉 Preternatural Instinct",
-      "description": "你的思维与身体同样敏捷，令人印象深刻。你在所有先攻检定上获得 +2 惠骰。"
+      "description": "你的思维与身体同样敏捷，令人印象深刻。你在所有先攻检定上获得 +2 恩惠骰。"
     },
     "Projectile Weapon Proficiency": {
       "name": "投射武器熟练度 Projectile Weapon Proficiency",
@@ -1615,11 +1615,11 @@
     },
     "Saboteur": {
       "name": "破坏者 Saboteur",
-      "description": "<p>你精通投掷弹药的使用。使用<strong>炸弹</strong>类型的消耗品时，无论使用哪种技能，你都至少视为具有<strong>受训</strong>熟练度，并且你在任何相关检定中获得<strong>+1 惠骰</strong>。</p>"
+      "description": "<p>你精通投掷弹药的使用。使用<strong>炸弹</strong>类型的消耗品时，无论使用哪种技能，你都至少视为具有<strong>受训</strong>熟练度，并且你在任何相关检定中获得<strong>+1 恩惠骰</strong>。</p>"
     },
     "Safecracker": {
       "name": "保险箱窃贼 Safecracker",
-      "description": "<p>你擅长解除陷阱和撬锁的技艺。你在以<strong>潜行</strong>检定来停用装置或打开锁时，获得+1惠骰。</p>"
+      "description": "<p>你擅长解除陷阱和撬锁的技艺。你在以<strong>潜行</strong>检定来停用装置或打开锁时，获得+1恩惠骰。</p>"
     },
     "Science Adept": {
       "name": "科学专家 Science Adept",
@@ -1813,7 +1813,7 @@
     },
     "Strike First": {
       "name": "先发制人 Strike First",
-      "description": "先开枪，后提问。对任何先攻值低于你的敌人进行的打击或法术攻击时，你获得<strong>+1 恩惠</strong>。"
+      "description": "先开枪，后提问。对任何先攻值低于你的敌人进行的打击或法术攻击时，你获得<strong>+1 恩惠骰</strong>。"
     },
     "Strong Grip": {
       "name": "强力握持 Strong Grip",
@@ -1877,7 +1877,7 @@
       "actions": {
         "tacticalPlan": {
           "name": "战术计划 Tactical Plan",
-          "description": "用不超过10个字向一名在先攻顺序中后于你行动的盟友描述一个行动方案。若该盟友在同一轮中稍后执行了你描述的计划，则其与该计划相关的任何掷骰获得+2恩惠。游戏主持人可以裁定该计划是否被遵循。"
+          "description": "用不超过10个字向一名在先攻顺序中后于你行动的盟友描述一个行动方案。若该盟友在同一轮中稍后执行了你描述的计划，则其与该计划相关的任何掷骰获得+2恩惠骰。游戏主持人可以裁定该计划是否被遵循。"
         }
       }
     },
@@ -2009,7 +2009,7 @@
     },
     "Vow of Animus": {
       "name": "敌意誓约 Vow of Animus",
-      "description": "你发誓立下誓约，要毁灭一个特定角色或生物。对你誓约的对象进行打击或法术攻击时，你获得 +2 恩惠。你一次只能对一个敌人立下此类誓约。立下新的誓约会放弃你先前的誓约。",
+      "description": "你发誓立下誓约，要毁灭一个特定角色或生物。对你誓约的对象进行打击或法术攻击时，你获得 +2 恩惠骰。你一次只能对一个敌人立下此类誓约。立下新的誓约会放弃你先前的誓约。",
       "actions": {
         "vowOfAnimus": {
           "name": "敌意誓约 Vow of Animus",
@@ -2024,7 +2024,7 @@
     },
     "War Mage": {
       "name": "战斗法师 War Mage",
-      "description": "<p>你的施法被磨炼成战场上的武器，用以挫败其他法师的咒语。你可以询问游戏主持人，自己是否知晓一种能够反制敌方法术的<strong>符文</strong>，即使你并不认识正在施放的法术。你在任何@Action[Compendium.crucible.talent.Item.counterspell0000 counterspell]中获得 +2 惠骰。</p>"
+      "description": "<p>你的施法被磨炼成战场上的武器，用以挫败其他法师的咒语。你可以询问游戏主持人，自己是否知晓一种能够反制敌方法术的<strong>符文</strong>，即使你并不认识正在施放的法术。你在任何@Action[Compendium.crucible.talent.Item.counterspell0000 counterspell]中获得 +2 恩惠骰。</p>"
     },
     "Weak Points": {
       "name": "弱点 Weak Points",

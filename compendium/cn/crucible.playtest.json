@@ -118,7 +118,7 @@
             },
             "Pack Hunter": {
               "name": "群猎者 Pack Hunter",
-              "description": "<p>这种生物是群猎者，会依靠盟友对目标进行夹击和骚扰，使其暴露在进一步的伤害之下。</p><p>这种生物在攻击@Condition[flanked]的敌人时，获得的恩惠数量翻倍。</p>"
+              "description": "<p>这种生物是群猎者，会依靠盟友对目标进行夹击和骚扰，使其暴露在进一步的伤害之下。</p><p>这种生物在攻击@Condition[flanked]的敌人时，获得的恩惠骰数量翻倍。</p>"
             }
           }
         },
@@ -636,7 +636,7 @@
               "actions": {
                 "pouncingStrike": {
                   "name": "猛扑打击 Pouncing Strike",
-                  "description": "<p>此次攻击可在一次<strong>移动</strong>后使用，前提是该次移动使 @ref[actor.name]{生物} 至少接近其目标 10 英尺。若该生物原本位于目标上方，则此次攻击每因该次移动下降 10 英尺高度，便获得 <strong>+1 惠骰</strong>。</p><p>如果此次攻击为<strong>暴击</strong>，则攻击目标会立即击至 @Condition[prone]。</p>",
+                  "description": "<p>此次攻击可在一次<strong>移动</strong>后使用，前提是该次移动使 @ref[actor.name]{生物} 至少接近其目标 10 英尺。若该生物原本位于目标上方，则此次攻击每因该次移动下降 10 英尺高度，便获得 <strong>+1 恩惠骰</strong>。</p><p>如果此次攻击为<strong>暴击</strong>，则攻击目标会立即击至 @Condition[prone]。</p>",
                   "effects": [
                     {
                       "name": "猛扑打击 Pouncing Strike"
@@ -879,7 +879,7 @@
               "actions": {
                 "inspireHeroism": {
                   "name": "激励英勇 Inspire Heroism",
-                  "description": "<p>每位盟友（不包括你自己）在10 格内，在其下个回合结束前进行的<strong>动作</strong>获得<strong>+1 惠骰</strong>。</p>",
+                  "description": "<p>每位盟友（不包括你自己）在10 格内，在其下个回合结束前进行的<strong>动作</strong>获得<strong>+1 恩惠骰</strong>。</p>",
                   "effects": [
                     {
                       "name": "激励英勇 Inspire Heroism"
@@ -951,7 +951,7 @@
             },
             "Cadence": {
               "name": "节奏 Cadence",
-              "description": "<p>你经过训练，能够以富有节奏的精准度连续发动近战攻击。当你使用单手近战武器连续多次进行<strong>打击</strong>时，每一次后续攻击都会使你获得可叠加的<strong>+1 惠骰</strong>。</p>"
+              "description": "<p>你经过训练，能够以富有节奏的精准度连续发动近战攻击。当你使用单手近战武器连续多次进行<strong>打击</strong>时，每一次后续攻击都会使你获得可叠加的<strong>+1 恩惠骰</strong>。</p>"
             },
             "Gesture: Arrow": {
               "name": "手势：箭头 Gesture: Arrow",
@@ -1158,11 +1158,11 @@
             },
             "Strike First": {
               "name": "先发制人 Strike First",
-              "description": "先开枪，后提问。对任何先攻值低于你的敌人进行的任何打击或法术攻击，你都获得<strong>+1 恩惠</strong>。"
+              "description": "先开枪，后提问。对任何先攻值低于你的敌人进行的任何打击或法术攻击，你都获得<strong>+1 恩惠骰</strong>。"
             },
             "Preternatural Instinct": {
               "name": "超自然直觉 Preternatural Instinct",
-              "description": "你的思维与身体同样敏捷，令人印象深刻。你在所有先攻检定上获得 +2 惠骰。"
+              "description": "你的思维与身体同样敏捷，令人印象深刻。你在所有先攻检定上获得 +2 恩惠骰。"
             },
             "Defensive Roll": {
               "name": "防御翻滚 Defensive Roll",
@@ -1870,7 +1870,7 @@
               "actions": {
                 "counterspell": {
                   "name": "反制法术 Counterspell",
-                  "description": "<p>你将奥术能量塑造成一道对抗性的施法，目标为你在30尺内可见的一名施法者。</p><p>指定一个你已知的符文和手势，以尝试反制该法术。若你选择的符文与该法术所使用的某个符文相对立，则你的此次尝试获得<strong>+2恩惠</strong>。若你选择的手势与正在施放的手势完全相同，你的此次尝试也获得<strong>+2恩惠</strong>。</p><p>对你的目标的<strong>意志</strong><strong>防御</strong>进行一次无害的法术攻击。若你的掷骰结果超过其防御，则该法术被反制，其魔法被消除，不产生任何<strong>效果</strong>。</p>",
+                  "description": "<p>你将奥术能量塑造成一道对抗性的施法，目标为你在30尺内可见的一名施法者。</p><p>指定一个你已知的符文和手势，以尝试反制该法术。若你选择的符文与该法术所使用的某个符文相对立，则你的此次尝试获得<strong>+2恩惠骰</strong>。若你选择的手势与正在施放的手势完全相同，你的此次尝试也获得<strong>+2恩惠骰</strong>。</p><p>对你的目标的<strong>意志</strong><strong>防御</strong>进行一次无害的法术攻击。若你的掷骰结果超过其防御，则该法术被反制，其魔法被消除，不产生任何<strong>效果</strong>。</p>",
                   "condition": "另一个你能看见的生物正在施放一个法术。"
                 }
               }
@@ -1881,7 +1881,7 @@
               "actions": {
                 "tacticalPlan": {
                   "name": "战术计划 Tactical Plan",
-                  "description": "用不超过10个词，向一名在先攻顺序中于你之后行动的盟友描述一项行动方案。若该盟友在同一轮稍后执行了你所描述的计划，则其与该计划相关的任何掷骰获得+2恩惠。游戏主持人可以裁定该计划是否被遵循。"
+                  "description": "用不超过10个词，向一名在先攻顺序中于你之后行动的盟友描述一项行动方案。若该盟友在同一轮稍后执行了你所描述的计划，则其与该计划相关的任何掷骰获得+2恩惠骰。游戏主持人可以裁定该计划是否被遵循。"
                 }
               }
             },
@@ -2036,7 +2036,7 @@
             },
             "Healer": {
               "name": "治疗者 Healer",
-              "description": "<p>你在操控生命奥术以治疗伤势方面无与伦比。若你尚未习得<strong>符文：生命</strong>，则你学会它。使用生命符文治疗盟友时，你的掷骰获得<strong>+2惠骰</strong>。</p>",
+              "description": "<p>你在操控生命奥术以治疗伤势方面无与伦比。若你尚未习得<strong>符文：生命</strong>，则你学会它。使用生命符文治疗盟友时，你的掷骰获得<strong>+2恩惠骰</strong>。</p>",
               "actions": {
                 "fontOfLife": {
                   "name": "生命之泉 Font of Life",
@@ -2138,7 +2138,7 @@
             },
             "Eye of the Storm": {
               "name": "风暴之眼 Eye of the Storm",
-              "description": "<p>在你延迟你的回合后，若你对本轮中因你而得以先于你行动的敌人进行任何打击或法术攻击，获得 +2 恩惠。</p><p>待办: 需要自动化。暂时请手动应用恩惠。</p>"
+              "description": "<p>在你延迟你的回合后，若你对本轮中因你而得以先于你行动的敌人进行任何打击或法术攻击，获得 +2 恩惠骰。</p><p>待办: 需要自动化。暂时请手动应用恩惠骰。</p>"
             },
             "Rune: Earth": {
               "name": "符文：大地 Rune: Earth",
@@ -2374,7 +2374,7 @@
               "actions": {
                 "adrenalineSurge": {
                   "name": "肾上腺素涌动 Adrenaline Surge",
-                  "description": "<p>你消耗<strong>英雄气概</strong>，并在 3 轮内，任何使用力量进行缩放的动作获得<strong>+2 惠骰</strong>。在战斗中，于进行一次<strong>反应</strong>之前，你可以在自己的回合外执行此动作。</p>",
+                  "description": "<p>你消耗<strong>英雄气概</strong>，并在 3 轮内，任何使用力量进行缩放的动作获得<strong>+2 恩惠骰</strong>。在战斗中，于进行一次<strong>反应</strong>之前，你可以在自己的回合外执行此动作。</p>",
                   "effects": [
                     {
                       "name": "肾上腺素涌动 Adrenaline Surge"
