@@ -459,7 +459,7 @@
     },
     "Swallow": {
       "name": "吞下 Swallow",
-      "description": "<p>@ref[actor.name]{该生物}能够将比自己更小的生物整个吞下，但同一时间只有一个生物会受到此行动的影响。</p>",
+      "description": "<p>@ref[actor.name]{该生物}能够将体型比自身至少低 2 的生物整个吞下。同一时间只能吞下一个生物，除非额外吞下的生物体型为该生物自身体型的四分之一或更小。</p>",
       "actions": {
         "swallow": {
           "name": "吞下 Swallow",
