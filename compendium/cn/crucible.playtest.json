@@ -167,7 +167,7 @@
             },
             "Concussive Blows": {
               "name": "震荡重击 Concussive Blows",
-              "description": "<p>你使用造成钝击伤害的近战武器进行的物理攻击，在对生命值造成伤害的暴击时，可以施加@Condition[staggered]状态。</p>\n<p>@Condition[staggered]效果持续 1 轮，并使目标的最大动作减少 1。</p>"
+              "description": "<p>你挥舞造成钝击伤害的近战武器时，凭借你的体能力量，可在对生命值造成伤害的暴击时使目标陷入@Condition[staggered]状态。</p>\n<p>@Condition[staggered]效果持续 1 轮，并使目标的最大动作减少 2。</p>"
             },
             "Strong Grip": {
               "name": "强力握持 Strong Grip",
@@ -380,7 +380,7 @@
             },
             "Rune: Soul": {
               "name": "符文：灵魂 Rune: Soul",
-              "description": "<p>一种有序的创造与灵魂本质之力。灵魂符文掌管灵魂在生命与死亡中的基本流转，并与感知力、人格和心理健康相关。</p><p>灵魂符文使用 <strong>存在</strong> 进行成长，能够提供 <strong>恢复</strong> 以恢复 <strong>士气</strong>，或造成由 <strong>意志</strong> 抵抗的 <strong>灵能</strong> 伤害。它与混沌的 <strong>湮灭</strong> 符文相对立。</p>",
+              "description": "<p>一种有序的创造与精神本质之力。灵魂符文掌管灵魂在生命与死亡中的基本流转，并与知性、人格和心理健康相关。</p><p>灵魂符文使用 <strong>存在</strong> 进行成长，能够提供 <strong>恢复</strong> 以恢复 <strong>士气</strong>。在特殊情况下，它也可被用于造成由 <strong>意志</strong> 抵抗的 <strong>灵能</strong> 伤害。它与混沌的 <strong>湮灭</strong> 符文相对立。</p>",
               "actions": {
                 "evoke": {
                   "name": "引发 Evoke",
@@ -439,7 +439,7 @@
             },
             "Evasive Shot": {
               "name": "闪避射击 Evasive Shot",
-              "description": "<p>你擅长在闪避敌人攻击的同时使用远程武器进行射击。在进行一次远程武器攻击后，你获得额外的免费移动，其距离为你步幅的一半。</p>",
+              "description": "<p>你擅长在闪避敌人攻击的同时使用远程武器进行射击。</p>",
               "actions": {
                 "evasiveShot": {
                   "name": "游走射击 Evasive Shot",
@@ -590,7 +590,7 @@
             },
             "Bloodletter": {
               "name": "放血者 Bloodletter",
-              "description": "<p>你使用造成挥砍或穿刺伤害的武器时，若以暴击对生命值造成伤害，你的精准打击会导致@Condition[bleeding]状态。</p><p>@Condition[bleeding]效果持续 1 轮，并额外对生命值造成等同于你敏捷属性值的伤害。</p>"
+              "description": "<p>你使用造成挥砍或穿刺伤害的武器时，凭借你的精准度，可在对生命值造成伤害的暴击时使目标陷入@Condition[bleeding]状态。</p><p>@Condition[bleeding]效果持续 3 轮，并额外对生命值造成等同于你敏捷属性值的伤害。</p>"
             },
             "Ferocious Leap": {
               "name": "凶猛飞跃 Ferocious Leap",
@@ -979,7 +979,7 @@
               "actions": {
                 "counterRiposte": {
                   "name": "反制还击 Counter Riposte",
-                  "description": "<p>当你以<strong>招架</strong>来防御一次近战攻击时，你可以进行反应并消耗<strong>专注</strong>，以较低代价进行一次<strong>打击</strong>反击，并从<strong>暴露</strong>状态中获益。</p>",
+                  "description": "<p>当你以<strong>招架</strong>来防御一次近战攻击时，你可以进行反应并消耗<strong>专注</strong>，以较低代价进行一次<strong>精准</strong>的<strong>打击</strong>反击。</p>",
                   "condition": "你招架一次来袭的近战打击。"
                 }
               }
@@ -1056,7 +1056,7 @@
             },
             "Pyromancer": {
               "name": "炎术师 Pyromancer",
-              "description": "<p>你极其擅长编织火焰符文。使用该符文的法术在暴击时会造成 @Condition[burning]。</p><p>燃烧效果持续 <strong>1 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>造成等同于你的<strong>智力</strong>数值的<strong>火焰</strong>伤害。</p>"
+              "description": "<p>你极其擅长编织火焰符文。当你施放涉及该符文的法术、或使用涉及该符文的动作时，你造成伤害的暴击会施加 @Condition[burning] 状态。</p><p>燃烧效果持续 <strong>3 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>造成等同于你<strong>火焰符文</strong>所依据的属性值一半的<strong>火焰</strong>伤害。</p>"
             },
             "Gesture: Blast": {
               "name": "手势：爆破 Gesture: Blast",
@@ -1143,7 +1143,7 @@
             },
             "Bloodletter": {
               "name": "放血者 Bloodletter",
-              "description": "<p>你使用造成挥砍或穿刺伤害的武器时，若以暴击对生命值造成伤害，凭借你的精准可使目标陷入@Condition[bleeding]状态。</p><p>@Condition[bleeding]效果持续 1 轮，并额外对生命值造成等同于你敏捷属性值的伤害。</p>"
+              "description": "<p>你使用造成挥砍或穿刺伤害的武器时，凭借你的精准度，可在对生命值造成伤害的暴击时使目标陷入@Condition[bleeding]状态。</p><p>@Condition[bleeding]效果持续 3 轮，并额外对生命值造成等同于你敏捷属性值的伤害。</p>"
             },
             "Counter Evade": {
               "name": "反制闪避 Counter Evade",
@@ -1434,7 +1434,7 @@
               "actions": {
                 "rallyingCry": {
                   "name": "振奋战吼 Rallying Cry",
-                  "description": "<p>你发出一声充满勇气的怒吼，激励你12英尺内的盟友在危险面前保持坚强。范围内的所有盟友立即恢复等同于你的<strong>存在</strong>数值的<strong>士气</strong>，并成为 @Condition[resolute] ，持续 3 轮。</p>",
+                  "description": "<p>你发出一声充满勇气的怒吼，激励你12英尺内的盟友在危险面前保持坚强。范围内的所有盟友立即恢复等同于你的<strong>存在</strong>数值的<strong>士气</strong>，并获得 @Condition[resolute] 状态，持续 3 轮。</p>",
                   "effects": [
                     {
                       "name": "振奋战吼 Rallying Cry"
@@ -1664,7 +1664,7 @@
             },
             "Evasive Shot": {
               "name": "闪避射击 Evasive Shot",
-              "description": "<p>你擅长在闪避敌人攻击的同时使用远程武器射击。进行一次远程武器攻击后，你获得相当于你跨步一半的额外免费移动。</p>"
+              "description": "<p>你擅长在闪避敌人攻击的同时使用远程武器进行射击。</p>"
             },
             "Gesture: Arrow": {
               "name": "手势：箭头 Gesture: Arrow",
@@ -1700,7 +1700,7 @@
               "actions": {
                 "twinnedShot": {
                   "name": "双生射击 Twinned Shot",
-                  "description": "<p>运用这项困难技巧，你会同时发射两枚投射，对同一目标进行两次<strong>打击</strong>攻击。</p>"
+                  "description": "<p>你凝神屏气，一次搭上两枚投射物，对同一个目标同时进行两次<strong>打击</strong>攻击。</p>"
                 }
               }
             },
@@ -2112,7 +2112,7 @@
             },
             "Inspirator": {
               "name": "鼓舞者 Inspirator",
-              "description": "<p>你极其擅长编织灵魂符文。使用该符文的法术在造成暴击时会施加 @Condition[inspired] 状态。</p><p>鼓舞效果持续<strong>1 轮</strong>，并额外对<strong>士气</strong>造成等同于你<strong>魅力</strong>数值的<strong>恢复</strong>。</p>"
+              "description": "<p>你极其擅长编织灵魂符文。当你施放涉及该符文的法术、或使用涉及该符文的动作时，你恢复士气的暴击会施加 @Condition[inspired] 状态。</p><p>鼓舞效果持续<strong>1 轮</strong>，并额外对<strong>士气</strong>造成等同于你<strong>灵魂符文</strong>所依据的属性值的<strong>恢复</strong>。</p>"
             },
             "Mender": {
               "name": "修补匠 Mender",
@@ -2124,7 +2124,7 @@
             },
             "Rune: Soul": {
               "name": "符文：灵魂 Rune: Soul",
-              "description": "<p>一种有序的创造与精神本质之力。灵魂符文支配着灵魂在生命与死亡之间的根本流转，并与智能、人格和心理健康等事务相关。</p><p>灵魂符文以 <strong>存在</strong> 进行成长，能够提供<strong>士气</strong>的<strong>恢复</strong>，或造成由<strong>意志</strong>对抗的<strong>灵能</strong>伤害。它与混沌的<strong>湮灭</strong>符文相对。</p>",
+              "description": "<p>一种有序的创造与精神本质之力。灵魂符文支配着灵魂在生命与死亡之间的根本流转，并与知性、人格和心理健康等事务相关。</p><p>灵魂符文以 <strong>存在</strong> 进行成长，能够提供<strong>士气</strong>的<strong>恢复</strong>。在特殊情况下，它也可被用于造成由<strong>意志</strong>对抗的<strong>灵能</strong>伤害。它与混沌的<strong>湮灭</strong>符文相对。</p>",
               "actions": {
                 "evoke": {
                   "name": "引发 Evoke",

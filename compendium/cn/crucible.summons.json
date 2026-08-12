@@ -330,7 +330,7 @@
         },
         "Rune: Earth": {
           "name": "符文：大地 Rune: Earth",
-          "description": "<p>元素大地的有序之力，负责构成物质实体。大地符文掌管生命值以及与生物材料生长有关的事务。它与混乱的风暴符文相对立。</p>\n<p>大地符文以<strong>感知</strong>作为成长属性，目标是<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>强酸</strong>伤害。</p>"
+          "description": "<p>元素大地的有序之力，负责构成物质实体。大地符文掌管生命值以及与生物生长相关的事务。它与混乱的风暴符文相对立。</p>\n<p>大地符文以<strong>感知</strong>作为成长属性，目标是<strong>反射</strong>，并对<strong>生命值</strong>造成<strong>强酸</strong>伤害。</p>"
         }
       }
     },
