@@ -86,7 +86,7 @@
         },
         "Bloodletter": {
           "name": "放血者 Bloodletter",
-          "description": "<p>你使用造成挥砍或穿刺伤害的武器时，凭借你的精准，可在对生命值造成伤害的暴击时使目标陷入@Condition[bleeding]状态。</p><p>@Condition[bleeding]效果持续 3 轮，并额外对生命值造成等同于你敏捷属性值的伤害。</p>"
+          "description": "<p>你对造成挥砍或穿刺伤害的武器运用精准，在对生命值造成伤害的暴击时可施加@Condition[bleeding]状态。</p><p>@Condition[bleeding]效果持续 3 轮，并额外对生命值造成等同于你敏捷属性值的伤害。</p>"
         },
         "Counter Evade": {
           "name": "反制闪避 Counter Evade",
@@ -323,7 +323,7 @@
         },
         "Evasive Shot": {
           "name": "闪避射击 Evasive Shot",
-          "description": "<p>你是精于使用远程武器装备射击并同时闪避敌人攻击的专家。</p>",
+          "description": "<p>你是精于使用远程武器装备射击并躲避敌人攻击的专家。</p>",
           "actions": {
             "evasiveShot": {
               "name": "游走射击 Evasive Shot",
@@ -437,7 +437,7 @@
         },
         "Subtle Extrication": {
           "name": "巧妙脱身 Subtle Extrication",
-          "description": "<p>你明白如何在远离对手时不让自己暴露于对方最凶狠的反击之下。任何针对你的@Action[default reactiveStrike]在执行时都承受<strong>+1 祸骰</strong>。</p>"
+          "description": "<p>你知道如何在远离对手时不让自己暴露于对方最猛烈的反击之下。任何针对你的@Action[default reactiveStrike]，在进行时都带有<strong>+1 祸骰</strong>。</p>"
         },
         "Surgeweaver": {
           "name": "激涌编织者 Surgeweaver",
@@ -449,7 +449,7 @@
           "actions": {
             "twinnedShot": {
               "name": "双生射击 Twinned Shot",
-              "description": "<p>你凝神聚力，一次搭上两枚投射物，对同一个单一目标同时进行两次<strong>打击</strong>攻击。</p>"
+              "description": "<p>你凝神一次搭上两枚投射物，对同一个目标同时进行两次<strong>打击</strong>攻击。</p>"
             }
           }
         },
@@ -506,7 +506,7 @@
           "actions": {
             "counterRiposte": {
               "name": "反制还击 Counter Riposte",
-              "description": "<p>当你以<strong>招架</strong>对抗一次近战攻击进行防御时，你可以作出反应并消耗<strong>专注</strong>，以较低代价进行一次<strong>打击</strong>反击，该次打击是<strong>精准</strong>的。</p>",
+              "description": "<p>当你以<strong>招架</strong>对抗一次近战攻击进行防御时，你可以作出反应并消耗<strong>专注</strong>，以较低代价进行一次<strong>精确</strong>的<strong>打击</strong>反击。</p>",
               "condition": "你招架一次袭来的近战打击。"
             }
           }
@@ -567,7 +567,7 @@
         },
         "Pyromancer": {
           "name": "炎术师 Pyromancer",
-          "description": "<p>你极其擅长编织火焰符文。当你施放涉及该符文的法术或使用涉及该符文的动作时，你造成伤害的暴击会施加 @Condition[burning] 状态。</p><p>燃烧效果持续<strong>3 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>同时造成等同于你<strong>火焰符文</strong>成长所依据属性值一半的<strong>火焰</strong>伤害。</p>"
+          "description": "<p>你极其擅长编织火焰符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[burning] 状态。</p><p>燃烧效果持续<strong>3 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>各造成等同于你的<strong>火焰符文</strong>所依据属性值一半的<strong>火焰</strong>伤害。</p>"
         },
         "Rune: Flame": {
           "name": "符文：火焰 Rune: Flame",
@@ -712,7 +712,7 @@
         },
         "Inspirator": {
           "name": "鼓舞者 Inspirator",
-          "description": "<p>你极其擅长编织灵魂符文。当你施放涉及此符文的法术或使用涉及此符文的动作时，你恢复士气的暴击会施加 @Condition[inspired] 状态。</p><p>鼓舞效果持续<strong>1 轮</strong>，并额外对<strong>士气</strong>造成等同于你<strong>灵魂符文</strong>成长所依据属性值的<strong>恢复</strong>。</p>"
+          "description": "<p>你极其擅长编织灵魂符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你恢复士气的暴击会施加 @Condition[inspired] 状态。</p><p>鼓舞效果持续<strong>1 轮</strong>，并额外对<strong>士气</strong>施加等同于你<strong>灵魂符文</strong>所依据属性值的<strong>恢复</strong>。</p>"
         },
         "Irrepressible Spirit": {
           "name": "不屈灵魂 Irrepressible Spirit",
@@ -738,7 +738,7 @@
         },
         "Rune: Life": {
           "name": "符文：生命 Rune: Life",
-          "description": "<p>一种混沌的创造之力，负责活体物质。生命符文支配生命值以及与生物生长相关的事务。</p><p>生命符文以<strong>感知</strong>进行成长，并提供<strong>恢复</strong>以恢复<strong>生命值</strong>。特殊情况下，它也可用于造成由<strong>坚韧</strong>对抗的<strong>毒素</strong>伤害。它与秩序的<strong>死亡</strong>符文相对立。</p>",
+          "description": "<p>一种混乱的创造之力，负责生物材料。生命符文掌管生命值以及与生物生长相关的事物。</p><p>生命符文以<strong>感知</strong>进行成长，并提供<strong>生命值</strong>的<strong>恢复</strong>。在特殊情况下，它可被用于造成由<strong>坚韧防御</strong>对抗的<strong>毒素</strong>伤害。它与秩序的<strong>死亡</strong>符文相对。</p>",
           "actions": {
             "bloom": {
               "name": "绽放 Bloom",
