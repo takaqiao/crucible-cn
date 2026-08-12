@@ -53,7 +53,7 @@
             },
             "Day Six - Mirror Match": {
               "name": "第6天 Day Six - Mirror Match",
-              "text": "<p>在这场最终挑战中，4名6级英雄将与一支由4名6级英雄组成的敌对冒险队伍正面对决。</p><ul><li><p>@UUID[Actor.iLUfMcYjAbZFY4CJ]{Duurath}（6级）</p></li><li><p>@UUID[Actor.0crVYYsPvV9KDEJ2]{Belladonna}（6级）</p></li><li><p>@UUID[Actor.2lvTCCOj4dnBI774]{艾利奥文}（6级）</p></li><li><p>@UUID[Actor.Il4NDaNBdHNcjJ9d]{Kagura}（6级）</p></li></ul><p><strong>主角威胁</strong>：4 × 6 = 24</p><p><strong>对手威胁</strong>：4 × 6 = 24</p><p><strong>遭遇难度</strong>：致命</p><h2 class=\"divider\">引言</h2><blockquote><p>“好，好……你们的勇士已经证明了自己，击败了这座竞技场所能提供的所有强大对手，所以现在，是时候让他们与往届赛事中那些声名显赫的老将与冠军一较高下了。准备迎接一场冠军之战吧！”</p></blockquote><p>这是一项尤其困难的挑战，因为对方的四名英雄都经过了单独优化，并且作为团队配合得极好。</p><h2 class=\"divider\">战术</h2><p>本挑战中的每个对手都作为一名英雄式主角运作，拥有各自的一系列天赋、动作和装备。</p><h4>Duurath</h4><p><strong>Duurath </strong>是一名危险的近战战斗者，拥有很高的<strong>交战</strong>、强大的物理防御，以及能够打击敌人士气并令其恐惧的恐惧领主签名天赋。Duurath会使用<strong>盾牌冲锋</strong>逼近敌方战斗者，并利用<strong>节奏</strong>打出高额伤害，或在格挡来袭攻击时使用<strong>反击</strong>进行报复。防御方面，Duurath可以使用<strong>动能守护 Kinetic Ward</strong>来保护自己，免受所选类型的物理伤害。</p><h4>Belladonna</h4><p><strong>Belladonna</strong>是一名狡猾而难以捉摸的近战战斗者，拥有<strong>下毒者</strong>天赋。战斗开始时，她会启动<strong>毒刃</strong>。她会对敌方法术施放者使用<strong>分散注意力</strong>来消耗其<strong>专注</strong>，并使用<strong>战斗医疗</strong>恢复盟友的生命值。Belladonna会寻找更脆弱的敌方战斗者，必要时使用<strong>翻滚</strong>接近至近战范围，并以<strong>连击</strong>迅速施加伤害和中毒状态。</p><h4>艾利奥文</h4><p><strong>艾利奥文</strong>是一名致命的弓箭手，凭借她的<strong>奥术弓手</strong>天赋，将闪电法术灌注到她的长弓射击之中。艾利奥文会识别出一个危险的敌人，并以<strong>标记猎物</strong>锁定对方，降低其对她自己及其盟友的防御。她会使用<strong>精准射击</strong>配合降低消耗的<strong>电能箭头 Voltaic Arrow</strong>，从远距离稳定地持续输出伤害。</p><h4>Kagura</h4><p><strong>Kagura</strong>是一名多用的支援角色，能够治疗盟友的身心。她会使用<strong>生命</strong>符文，并通过<strong>影响</strong>、<strong>脉冲</strong>或<strong>射线</strong>手势之一来触发其<strong>修补匠</strong>天赋带来的额外治疗。Kagura还可以通过谨慎运用<strong>组合</strong>词缀以及<strong>节省精力</strong>，几乎无限期地维持治疗。Kagura会避免直接对抗，而是脱离战斗并寻求盟友的保护。</p><h2 class=\"divider\">晋升</h2><p>当四名对手全部被击败时，这场战斗即告结束。观众会为队伍的表演激动不已，并将他们欢庆为英勇之戒的永恒冠军。目前英勇之戒暂无更多预定活动，但如果你希望继续测试，为队伍即兴设计新的挑战，请参见 @UUID[.aNlzMnfUkwpLrSox]{Further Challenges}。</p>"
+              "text": "<p>在这场最终挑战中，4名6级英雄将与一支由4名6级英雄组成的敌对冒险队伍正面对决。</p><ul><li><p>@UUID[Actor.iLUfMcYjAbZFY4CJ]{Duurath}（6级）</p></li><li><p>@UUID[Actor.0crVYYsPvV9KDEJ2]{Belladonna}（6级）</p></li><li><p>@UUID[Actor.2lvTCCOj4dnBI774]{艾利奥文}（6级）</p></li><li><p>@UUID[Actor.Il4NDaNBdHNcjJ9d]{Kagura}（6级）</p></li></ul><p><strong>主角威胁</strong>：4 × 6 = 24</p><p><strong>对手威胁</strong>：4 × 6 = 24</p><p><strong>遭遇难度</strong>：致命</p><h2 class=\"divider\">引言</h2><blockquote><p>“好，好……你们的勇士已经证明了自己，击败了这座竞技场所能提供的所有强大对手，所以现在，是时候让他们与往届赛事中那些声名显赫的老将与冠军一较高下了。准备迎接一场冠军之战吧！”</p></blockquote><p>这是一项尤其困难的挑战，因为对方的四名英雄都经过了单独优化，并且作为团队配合得极好。</p><h2 class=\"divider\">战术</h2><p>本挑战中的每个对手都作为一名英雄式主角运作，拥有各自的一系列天赋、动作和装备。</p><h4>Duurath</h4><p><strong>Duurath </strong>是一名危险的近战战斗者，拥有很高的<strong>交战</strong>、强大的物理防御，以及能够打击敌人士气并令其恐惧的恐惧领主签名天赋。Duurath会使用<strong>盾牌冲锋</strong>逼近敌方战斗者，并利用<strong>节奏</strong>打出高额伤害，或在格挡来袭攻击时使用<strong>反击</strong>进行报复。防御方面，Duurath可以使用<strong>动能守护 Kinetic Ward</strong>来保护自己，免受所选类型的物理伤害。</p><h4>Belladonna</h4><p><strong>Belladonna</strong>是一名狡猾而难以捉摸的近战战斗者，拥有<strong>下毒者</strong>天赋。战斗开始时，她会启动<strong>毒刃</strong>。她会对敌方法术施放者使用<strong>分散注意力</strong>来消耗其<strong>专注</strong>，并使用<strong>战斗医疗</strong>恢复盟友的生命值。Belladonna会寻找更脆弱的敌方战斗者，必要时使用<strong>翻滚</strong>接近至近战范围，并以<strong>连击</strong>迅速施加伤害和中毒状态。</p><h4>艾利奥文</h4><p><strong>艾利奥文</strong>是一名致命的弓箭手，凭借她的<strong>奥术弓手</strong>天赋，将闪电法术灌注到她的长弓射击之中。艾利奥文会识别出一个危险的敌人，并以<strong>标记猎物</strong>锁定对方，降低其对她自己及其盟友的防御。她会使用<strong>精准射击</strong>配合降低消耗的<strong>电能箭矢 Voltaic Arrow</strong>，从远距离稳定地持续输出伤害。</p><h4>Kagura</h4><p><strong>Kagura</strong>是一名多用的支援角色，能够治疗盟友的身心。她会使用<strong>生命</strong>符文，并通过<strong>影响</strong>、<strong>脉冲</strong>或<strong>射线</strong>手势之一来触发其<strong>修补匠</strong>天赋带来的额外治疗。Kagura还可以通过谨慎运用<strong>组合</strong>词缀以及<strong>节省精力</strong>，几乎无限期地维持治疗。Kagura会避免直接对抗，而是脱离战斗并寻求盟友的保护。</p><h2 class=\"divider\">晋升</h2><p>当四名对手全部被击败时，这场战斗即告结束。观众会为队伍的表演激动不已，并将他们欢庆为英勇之戒的永恒冠军。目前英勇之戒暂无更多预定活动，但如果你希望继续测试，为队伍即兴设计新的挑战，请参见 @UUID[.aNlzMnfUkwpLrSox]{Further Challenges}。</p>"
             },
             "Further Challenges": {
               "name": "进一步的挑战 Further Challenges",
@@ -332,8 +332,8 @@
               "description": "<p>你将奥术力量凝聚为有形之物，显现出一个<strong>精灵</strong>，它会出现在10英尺内并以先攻 1 加入战斗。你的精灵是一个等于你自身等级一半的<strong>仆从</strong>。</p><p>创造手势会随<strong>感知</strong>而成长，且该精灵会存活<strong>6轮</strong>。你同时只能拥有一个生效中的精灵，若施放另一个使用创造手势的法术，则会替换掉你之前的精灵。此手势施放时需要<strong>2只手</strong>，基础消耗为<strong>4动作</strong>和<strong>1专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>并非所有符文都已定义精灵执行体。尚未定义创造效果的符文——目前——会显现为一个@UUID[Compendium.crucible.summons.Actor.RuNh1bFGiHKdHeKI]。</p>"
             },
             "Gesture: Arrow": {
-              "name": "手势：箭头 Gesture: Arrow",
-              "description": "<p>你将一枚注入了符文魔法力量的投射物掷向远处的目标。</p><p>箭头手势基于<strong>智力</strong>进行成长，并以60英尺内的单个生物为目标，对未能抵抗该法术的目标造成<strong>8基础伤害</strong>。施放该手势需要<strong>1只手</strong>，其基础消耗为<strong>3动作</strong>和<strong>1专注</strong>。</p>"
+              "name": "手势：箭矢 Gesture: Arrow",
+              "description": "<p>你将一枚注入了符文魔法力量的投射物掷向远处的目标。</p><p>箭矢手势基于<strong>智力</strong>进行成长，并以60英尺内的单个生物为目标，对未能抵抗该法术的目标造成<strong>8基础伤害</strong>。施放该手势需要<strong>1只手</strong>，其基础消耗为<strong>3动作</strong>和<strong>1专注</strong>。</p>"
             },
             "Conjurer": {
               "name": "召唤师 Conjurer",
@@ -390,7 +390,7 @@
             },
             "Rune: Death": {
               "name": "符文：死亡 Rune: Death",
-              "description": "<p>毁灭的有序力量，负责腐化所有生物材料。死亡符文掌管衰败与毁灭。</p><p>死亡符文以 <strong>存在</strong> 进行成长，目标为 <strong>坚韧</strong>，对 <strong>生命值</strong> 造成 <strong>腐化</strong> 伤害。它的对立面是混乱的 <strong>生命</strong> 符文。</p>",
+              "description": "<p>毁灭的有序力量，负责腐化所有生物材料。死亡符文掌管衰败与毁灭。</p><p>死亡符文以 <strong>存在</strong> 进行成长，目标为 <strong>强韧</strong>，对 <strong>生命值</strong> 造成 <strong>腐化</strong> 伤害。它的对立面是混乱的 <strong>生命</strong> 符文。</p>",
               "actions": {
                 "ennervate": {
                   "name": "失神术 Ennervate",
@@ -720,7 +720,7 @@
             },
             "Rune: Death": {
               "name": "符文：死亡 Rune: Death",
-              "description": "<p>有序的毁灭之力，负责腐化所有生物材料。死亡符文掌管腐朽与毁灭。</p><p>死亡符文基于 <strong>存在</strong> 进行成长，以 <strong>坚韧</strong> 为目标，并对 <strong>生命值</strong> 造成 <strong>腐化</strong> 伤害。它与混沌的 <strong>生命</strong> 符文相对。</p>",
+              "description": "<p>有序的毁灭之力，负责腐化所有生物材料。死亡符文掌管腐朽与毁灭。</p><p>死亡符文基于 <strong>存在</strong> 进行成长，以 <strong>强韧</strong> 为目标，并对 <strong>生命值</strong> 造成 <strong>腐化</strong> 伤害。它与混沌的 <strong>生命</strong> 符文相对。</p>",
               "actions": {
                 "ennervate": {
                   "name": "失神术 Ennervate",
@@ -923,8 +923,8 @@
               }
             },
             "Gesture: Arrow": {
-              "name": "手势：箭头 Gesture: Arrow",
-              "description": "<p>你向远处的目标投出一枚灌注了符文魔力的投射物。</p><p>箭头手势以<strong>智力</strong>进行成长，并以60英尺内的单个生物为目标；未能抵抗该法术的目标会受到<strong>8 基础伤害</strong>。施放该手势需要<strong>1 只手</strong>，其基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
+              "name": "手势：箭矢 Gesture: Arrow",
+              "description": "<p>你向远处的目标投出一枚灌注了符文魔力的投射物。</p><p>箭矢手势以<strong>智力</strong>进行成长，并以60英尺内的单个生物为目标；未能抵抗该法术的目标会受到<strong>8 基础伤害</strong>。施放该手势需要<strong>1 只手</strong>，其基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
             }
           }
         },
@@ -954,7 +954,7 @@
               "description": "<p>你经过训练，能够以富有节奏的精准度连续发动近战攻击。当你使用单手近战武器连续多次进行<strong>打击</strong>时，每一次后续攻击都会使你获得可叠加的<strong>+1 恩惠骰</strong>。</p>"
             },
             "Gesture: Arrow": {
-              "name": "手势：箭头 Gesture: Arrow",
+              "name": "手势：箭矢 Gesture: Arrow",
               "description": "<p>你将一枚灌注了符文魔法力量的投射物掷向远处的目标。</p><p>箭矢手势以<strong>智力</strong>进行成长，并以60英尺内的单个生物为目标，对未能抵抗该法术的目标造成<strong>8 基础伤害</strong>。该手势需要<strong>1 只手</strong>施放，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
             },
             "Spellblade": {
@@ -979,7 +979,7 @@
               "actions": {
                 "counterRiposte": {
                   "name": "反制还击 Counter Riposte",
-                  "description": "<p>当你以<strong>招架</strong>对抗一次近战攻击进行防御时，你可以作出反应并消耗<strong>专注</strong>，以较低代价进行一次<strong>精确</strong>的<strong>打击</strong>反击。</p>",
+                  "description": "<p>当你以<strong>招架</strong>对抗一次近战攻击进行防御时，你可以作出反应并消耗<strong>专注</strong>，以较低代价进行一次<strong>精准</strong>的<strong>打击</strong>反击。</p>",
                   "condition": "你招架一次来袭的近战打击。"
                 }
               }
@@ -1250,7 +1250,7 @@
               "actions": {
                 "poisonIngest": {
                   "name": "摄入毒药 Ingest Poison",
-                  "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它起初是<strong>无害</strong>的，但目标必须针对其<strong>坚韧</strong>进行一次攻击防御，否则便会成为 @Condition[poisoned]。</p><p>毒素造成的伤害量及其持续时间取决于 @ref[item.name] 的品质：</p><ul><li><p><strong>粗劣</strong> - 4轮内造成2伤害</p></li><li><p><strong>标准</strong> - 6轮内造成4伤害</p></li><li><p><strong>精良</strong> - 8轮内造成6伤害</p></li><li><p><strong>优异</strong> - 10轮内造成8伤害</p></li><li><p><strong>大师级</strong> - 12轮内造成10伤害</p></li></ul><p><em>应在毒药被摄入时使用此动作，而不是在首次涂抹时使用。</em></p>",
+                  "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它起初是<strong>无害</strong>的，但目标必须针对其<strong>强韧</strong>进行一次攻击防御，否则便会成为 @Condition[poisoned]。</p><p>毒素造成的伤害量及其持续时间取决于 @ref[item.name] 的品质：</p><ul><li><p><strong>粗劣</strong> - 4轮内造成2伤害</p></li><li><p><strong>标准</strong> - 6轮内造成4伤害</p></li><li><p><strong>精良</strong> - 8轮内造成6伤害</p></li><li><p><strong>优异</strong> - 10轮内造成8伤害</p></li><li><p><strong>大师级</strong> - 12轮内造成10伤害</p></li></ul><p><em>应在毒药被摄入时使用此动作，而不是在首次涂抹时使用。</em></p>",
                   "effects": [
                     {
                       "name": "中毒 Poisoned"
@@ -1419,7 +1419,7 @@
               "actions": {
                 "formidablePresence": {
                   "name": "威严气场 Formidable Presence",
-                  "description": "<p>你对12英尺内的敌人进行一次针对意志力防御的威吓技能攻击，对其士气造成虚空伤害，并使其中防御被你压制的目标陷入恐慌状态，持续1轮。</p>",
+                  "description": "<p>你对12英尺内的敌人进行一次针对意志防御的威吓技能攻击，对其士气造成虚空伤害，并使其中防御被你压制的目标陷入恐慌状态，持续1轮。</p>",
                   "effects": [
                     {
                       "name": "威严气场 Formidable Presence"
@@ -1641,7 +1641,7 @@
             },
             "Arcane Archer": {
               "name": "奥术弓手 Arcane Archer",
-              "description": "<p>你在箭术上的技巧能够塑造你的施法，部分替代传统施法中的姿势手势。</p><p>当你将<strong>投射</strong>武器作为主手武器使用时，你无视施放带有<strong>箭头</strong>手势的法术所需的空手要求，且这些法术的射程变为你的武器射程。</p><p>在以投射武器进行一次<strong>打击</strong>后，你可以立即施放一个法术，其<strong>动作</strong>消耗减少 1。</p>"
+              "description": "<p>你在箭术上的技巧能够塑造你的施法，部分替代传统施法中的姿势手势。</p><p>当你将<strong>投射</strong>武器作为主手武器使用时，你无视施放带有<strong>箭矢</strong>手势的法术所需的空手要求，且这些法术的射程变为你的武器射程。</p><p>在以投射武器进行一次<strong>打击</strong>后，你可以立即施放一个法术，其<strong>动作</strong>消耗减少 1。</p>"
             },
             "Weak Points": {
               "name": "弱点 Weak Points",
@@ -1667,8 +1667,8 @@
               "description": "<p>你是精于使用远程武器装备射击并躲避敌人攻击的专家。</p>"
             },
             "Gesture: Arrow": {
-              "name": "手势：箭头 Gesture: Arrow",
-              "description": "<p>你将一枚注入了符文魔法力量的投射物掷向远处的目标。</p><p>箭头 手势基于<strong>智力</strong>进行成长，并以单个距离至多 60 英尺的生物为目标，对未能抵抗该法术的目标造成<strong>8 基础伤害</strong>。施放此手势需要<strong>1 只手</strong>，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
+              "name": "手势：箭矢 Gesture: Arrow",
+              "description": "<p>你将一枚注入了符文魔法力量的投射物掷向远处的目标。</p><p>箭矢 手势基于<strong>智力</strong>进行成长，并以单个距离至多 60 英尺的生物为目标，对未能抵抗该法术的目标造成<strong>8 基础伤害</strong>。施放此手势需要<strong>1 只手</strong>，基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
             },
             "Precision Shot": {
               "name": "精准射击 Precision Shot",
@@ -1841,8 +1841,8 @@
               }
             },
             "Gesture: Arrow": {
-              "name": "手势：箭头 Gesture: Arrow",
-              "description": "<p>你向远处的目标投掷一枚灌注了符文魔法力量的投射物。</p><p>箭头手势基于<strong>智力</strong>进行成长，并以至多60英尺内的单个生物为目标；未能抵抗该法术的目标会受到<strong>8基础伤害</strong>。此手势需要<strong>1只手</strong>来施放，基础消耗为<strong>3动作</strong>和<strong>1专注</strong>。</p>"
+              "name": "手势：箭矢 Gesture: Arrow",
+              "description": "<p>你向远处的目标投掷一枚灌注了符文魔法力量的投射物。</p><p>箭矢手势基于<strong>智力</strong>进行成长，并以至多60英尺内的单个生物为目标；未能抵抗该法术的目标会受到<strong>8基础伤害</strong>。此手势需要<strong>1只手</strong>来施放，基础消耗为<strong>3动作</strong>和<strong>1专注</strong>。</p>"
             },
             "Gesture: Create": {
               "name": "手势：创造 Gesture: Create",
@@ -1935,7 +1935,7 @@
             },
             "Rune: Frost": {
               "name": "符文：霜冻 Rune: Frost",
-              "description": "<p>水与寒冷的秩序之力。霜冻符文掌管水或其他流体的创造，以及它们在液态与冻结状态之间的转变。</p><p>霜冻符文以<strong>感知</strong>进行成长，目标为<strong>坚韧</strong>，造成<strong>寒冷</strong>伤害至<strong>生命值</strong>。它与混沌的<strong>火焰</strong>符文相对立。</p>",
+              "description": "<p>水与寒冷的秩序之力。霜冻符文掌管水或其他流体的创造，以及它们在液态与冻结状态之间的转变。</p><p>霜冻符文以<strong>感知</strong>进行成长，目标为<strong>强韧</strong>，造成<strong>寒冷</strong>伤害至<strong>生命值</strong>。它与混沌的<strong>火焰</strong>符文相对立。</p>",
               "actions": {
                 "condense": {
                   "name": "凝结 Condense",
@@ -2152,7 +2152,7 @@
             },
             "Rune: Life": {
               "name": "符文：生命 Rune: Life",
-              "description": "<p>一种混乱的创造之力，负责生物材料。生命符文掌管生命值以及与生物生长相关的事物。</p><p>生命符文以<strong>感知</strong>进行成长，并提供<strong>生命值</strong>的<strong>恢复</strong>。在特殊情况下，它可被用于造成由<strong>坚韧防御</strong>对抗的<strong>毒素</strong>伤害。它与秩序的<strong>死亡</strong>符文相对。</p>",
+              "description": "<p>一种混乱的创造之力，负责生物材料。生命符文掌管生命值以及与生物生长相关的事物。</p><p>生命符文以<strong>感知</strong>进行成长，并提供<strong>生命值</strong>的<strong>恢复</strong>。在特殊情况下，它可被用于造成由<strong>强韧</strong>对抗的<strong>毒素</strong>伤害。它与秩序的<strong>死亡</strong>符文相对。</p>",
               "actions": {
                 "bloom": {
                   "name": "绽放 Bloom",
