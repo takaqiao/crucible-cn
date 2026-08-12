@@ -59,7 +59,20 @@
       },
       "scenes": {
         "Arena of Valor": {
-          "name": "Arena of Valor"
+          "name": "Arena of Valor",
+          "levels": {
+            "Arena of Valor": "Arena of Valor"
+          },
+          "tokens": {
+            "Duurath": "Duurath",
+            "Kagura": "Kagura",
+            "Agnath": "Agnath",
+            "Fizzit": "Fizzit",
+            "Ulfen": "Ulfen",
+            "Zarajah": "Zarajah",
+            "Eliorwen": "Eliorwen",
+            "Belladonna": "Belladonna"
+          }
         }
       },
       "actors": {
