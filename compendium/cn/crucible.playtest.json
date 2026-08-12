@@ -32,7 +32,7 @@
             },
             "Day One - The Feral Scramble": {
               "name": "第1天——野性争夺战 Day One - The Feral Scramble",
-              "text": "<p>在第1天的挑战中，4名1级英雄将对上一群狂暴的野兽：</p><ul><li><p>4x @UUID[Actor.tqLT327VnrBXrLtj]{惠安娜}（½级仆从）</p></li><li><p>4x @UUID[Actor.owg68yqumk7KxV9B]{Baizaz}（½级仆从）</p></li></ul><p><strong>主角威胁</strong>：1 × 4 = 4</p><p><strong>对手威胁</strong>：⅓ × 8 = 2.66</p><p><strong>遭遇难度</strong>：困难</p><h2 class=\"divider\">引言</h2><p>队伍踏上沙地，发现自己置身于一座巨大的竞技场中，四周看台上坐满了欢呼的人群。一名解说员在俯瞰沙地的包厢中观战，竞技场的主人也坐在那里。解说员的声音经由魔法放大，传遍整座竞技场。</p><blockquote><p>这里是英勇之戒盛大展演的第一天，观众们已经彻底沸腾了！今天的第一场比赛即将开始，而当这些新人第一次踏上沙地时，观众显然都迫不及待想看看他们会有怎样的表现。混战一向是观众最喜爱的项目之一——这些新人能否在这些饥肠辘辘的野兽面前活下来并取得胜利呢？！</p></blockquote><p>队伍被指示前进并站到竞技场中央。惠安娜和 Baizas 分成两组，各4只，分别部署在竞技场两侧。等队伍抵达竞技场中央后，先留出片刻时间营造紧张气氛，然后野兽从地图东侧和西侧的隧道中现身。将所有人加入一个<strong>战斗</strong>遭遇，并开始战斗，为<strong>第1轮</strong>投掷<strong>先攻</strong>。</p><h2 class=\"divider\">战术</h2><p><strong>惠安娜</strong>是群猎者，依赖夹击战术包围并袭扰单个主角，从而受益于它们的<strong>群猎者</strong>特性。这个挑战也可作为对@UUID[Compendium.crucible.rules.JournalEntry.QhZgmBrdLAGwYy5c.JournalEntryPage.KGXiKFUWrPgb7wsx]{移动与夹击}机制的介绍。</p><p><strong>白萨兹 Baisaz</strong>在冲锋时具有惊人的冲势与力量。Baisaz 会使用它们的<strong>獠牙冲锋</strong>冲向目标，同时利用它们的移动或任何剩余动作来重新拉开与目标的距离，以便再次冲锋。</p><p><strong>惠安娜</strong>和 <strong>白萨兹 Baisaz</strong> 都容易受到其@UUID[Compendium.crucible.rules.JournalEntry.gszlBVQ5fGh3y0I6.JournalEntryPage.FmmADsI9qo1uIIT3]{士气}伤害的影响。当这些野兽变为破碎时，它们就会逃离竞技场，沿最近的隧道撤回下方的地下墓穴。这场初始挑战也可以作为一次学习体验，让玩家明白打击敌人士气是通向胜利的有效途径。</p><h2 class=\"divider\">晋升</h2><p>当八只野兽全部被击败时，战斗结束。观众对队伍的表现很满意，解说员宣布队伍将在明天回来参加另一场比赛。</p><p>准备继续时，每名角色都应使用<strong>恢复</strong>动作来找回失去的资源，并且所有角色都应提升1级，晋升至2级，以迎战 @UUID[.eQdArtcrGi4wobap]{第2天 - 锤子与铁砧}。</p>"
+              "text": "<p>在第1天的挑战中，4名1级英雄将对上一群狂暴的野兽：</p><ul><li><p>4x @UUID[Actor.tqLT327VnrBXrLtj]{惠安娜}（½级仆从）</p></li><li><p>4x @UUID[Actor.owg68yqumk7KxV9B]{拜扎兹}（½级仆从）</p></li></ul><p><strong>主角威胁</strong>：1 × 4 = 4</p><p><strong>对手威胁</strong>：⅓ × 8 = 2.66</p><p><strong>遭遇难度</strong>：困难</p><h2 class=\"divider\">引言</h2><p>队伍踏上沙地，发现自己置身于一座巨大的竞技场中，四周看台上坐满了欢呼的人群。一名解说员在俯瞰沙地的包厢中观战，竞技场的主人也坐在那里。解说员的声音经由魔法放大，传遍整座竞技场。</p><blockquote><p>这里是英勇之戒盛大展演的第一天，观众们已经彻底沸腾了！今天的第一场比赛即将开始，而当这些新人第一次踏上沙地时，观众显然都迫不及待想看看他们会有怎样的表现。混战一向是观众最喜爱的项目之一——这些新人能否在这些饥肠辘辘的野兽面前活下来并取得胜利呢？！</p></blockquote><p>队伍被指示前进并站到竞技场中央。惠安娜和 Baizas 分成两组，各4只，分别部署在竞技场两侧。等队伍抵达竞技场中央后，先留出片刻时间营造紧张气氛，然后野兽从地图东侧和西侧的隧道中现身。将所有人加入一个<strong>战斗</strong>遭遇，并开始战斗，为<strong>第1轮</strong>投掷<strong>先攻</strong>。</p><h2 class=\"divider\">战术</h2><p><strong>惠安娜</strong>是群猎者，依赖夹击战术包围并袭扰单个主角，从而受益于它们的<strong>群猎者</strong>特性。这个挑战也可作为对@UUID[Compendium.crucible.rules.JournalEntry.QhZgmBrdLAGwYy5c.JournalEntryPage.KGXiKFUWrPgb7wsx]{移动与夹击}机制的介绍。</p><p><strong>白萨兹 Baisaz</strong>在冲锋时具有惊人的冲势与力量。Baisaz 会使用它们的<strong>獠牙冲锋</strong>冲向目标，同时利用它们的移动或任何剩余动作来重新拉开与目标的距离，以便再次冲锋。</p><p><strong>惠安娜</strong>和 <strong>白萨兹 Baisaz</strong> 都容易受到其@UUID[Compendium.crucible.rules.JournalEntry.gszlBVQ5fGh3y0I6.JournalEntryPage.FmmADsI9qo1uIIT3]{士气}伤害的影响。当这些野兽变为破碎时，它们就会逃离竞技场，沿最近的隧道撤回下方的地下墓穴。这场初始挑战也可以作为一次学习体验，让玩家明白打击敌人士气是通向胜利的有效途径。</p><h2 class=\"divider\">晋升</h2><p>当八只野兽全部被击败时，战斗结束。观众对队伍的表现很满意，解说员宣布队伍将在明天回来参加另一场比赛。</p><p>准备继续时，每名角色都应使用<strong>恢复</strong>动作来找回失去的资源，并且所有角色都应提升1级，晋升至2级，以迎战 @UUID[.eQdArtcrGi4wobap]{第2天 - 锤子与铁砧}。</p>"
             },
             "Day Two - Hammer and Anvil": {
               "name": "第2天——锤与铁砧 Day Two - Hammer and Anvil",
@@ -40,7 +40,7 @@
             },
             "Day Three - The Skeletal Army": {
               "name": "第3天——骷髅军团 Day Three - The Skeletal Army",
-              "text": "<p>在第三场挑战中，4名3级英雄将与死灵法师奥里维奇及其骷髅大军展开对决！</p><ul><li><p>@UUID[Actor.JuobjWohGACVeoyn]{奥里维奇}（3级 Boss）</p><ul><li><p>召唤了 @UUID[Compendium.crucible.summons.Actor.56puGK932Qc0cowe]{死亡造物}（1级 仆从）</p></li></ul></li><li><p>6x @UUID[Actor.aQkmEcwfImmdUINF]{骷髅枪兵}（1级 仆从）</p></li><li><p>6x @UUID[Actor.7jL3UmgXbqxXKClM]{骷髅弓箭手}（1级 仆从）</p></li></ul><p><strong>主角威胁</strong>：3 × 4 = 12</p><p><strong>对手威胁</strong>：6 + (½ × 6) + (½ × 6) = 12</p><p><strong>遭遇难度</strong>：致命</p><h2 class=\"divider\">引言</h2><p>在这场挑战中，队伍被要求背靠竞技场北侧的悬崖列队。</p><blockquote><p>“欢迎各位再次来到英勇之戒，迎接我们这场扣人心弦的试炼在第3天的赛事！今天，我们将重现历史上的一场著名战役。这几位勇敢的斗士，背临湮灭深渊的边缘，迎战可怖的死灵法师奥里维奇和他的骷髅军团！”</p><p>人群发出兴奋的吼声，热切期待着奥里维奇和他的骷髅爪牙从南侧台阶现身，进入竞技场。</p></blockquote><p>奥里维奇和骷髅们从南侧入口出现，并在遭遇开始前摆出战斗阵型！</p><h2 class=\"divider\">战术</h2><p>奥里维奇会采取防御性的打法，依靠他的骷髅军团制服敌人。作为 Boss 敌人，奥里维奇每轮拥有<strong>10 动作</strong>，并且会在大多数法术上使用<strong>组合</strong>词缀以节省<strong>专注</strong>，并将剩余的动作用于<strong>恢复专注</strong>。</p><p>奥里维奇的战术核心是使用<strong>创造</strong>手势来召唤更多的 @UUID[Compendium.crucible.summons.Actor.56puGK932Qc0cowe]{死亡造物} 爪牙。由于拥有<strong>召唤师</strong>天赋，奥里维奇最多可同时维持3个这样的爪牙。若直接受到威胁，他会使用<strong>推开 </strong>词缀强行将敌人向后推开。</p><p>骷髅弓箭手会用<strong>打击</strong>集中火力攻击奥里维奇指定的目标，并使用<strong>闪避射击</strong>来调整位置。骷髅枪兵则会冲上前去牵制敌方战士并阻挡他们的去路，试图用<strong>扫腿</strong>将其绊倒。</p><h2 class=\"divider\">晋升</h2><p>当奥里维奇被击败时，战斗结束。死灵法师倒下时，他的骷髅爪牙也会随他一同化为尘土。观众对队伍的表现十分满意，解说员宣布队伍将在明天返回参加另一场比赛。</p><p>队伍将获得一次休息的机会，使用恢复动作，并提升1级晋升至4级。所有英雄还可以将其已装备武器的品质提升至<strong>精良</strong>。休息后，试炼将继续进行，进入 @UUID[.hEpGF7rbNFVUMm86]{第4天 - Koy Rent}。</p>"
+              "text": "<p>在第三场挑战中，4名3级英雄将与死灵法师奥里维奇及其骷髅大军展开对决！</p><ul><li><p>@UUID[Actor.JuobjWohGACVeoyn]{奥里维奇}（3级 Boss）</p><ul><li><p>召唤了 @UUID[Compendium.crucible.summons.Actor.56puGK932Qc0cowe]{死亡造物}（1级 仆从）</p></li></ul></li><li><p>6x @UUID[Actor.aQkmEcwfImmdUINF]{骷髅枪兵}（1级 仆从）</p></li><li><p>6x @UUID[Actor.7jL3UmgXbqxXKClM]{骷髅弓箭手}（1级 仆从）</p></li></ul><p><strong>主角威胁</strong>：3 × 4 = 12</p><p><strong>对手威胁</strong>：6 + (½ × 6) + (½ × 6) = 12</p><p><strong>遭遇难度</strong>：致命</p><h2 class=\"divider\">引言</h2><p>在这场挑战中，队伍被要求背靠竞技场北侧的悬崖列队。</p><blockquote><p>“欢迎各位再次来到英勇之戒，迎接我们这场扣人心弦的试炼在第3天的赛事！今天，我们将重现历史上的一场著名战役。这几位勇敢的斗士，背临湮灭深渊的边缘，迎战可怖的死灵法师奥里维奇和他的骷髅军团！”</p><p>人群发出兴奋的吼声，热切期待着奥里维奇和他的骷髅爪牙从南侧台阶现身，进入竞技场。</p></blockquote><p>奥里维奇和骷髅们从南侧入口出现，并在遭遇开始前摆出战斗阵型！</p><h2 class=\"divider\">战术</h2><p>奥里维奇会采取防御性的打法，依靠他的骷髅军团制服敌人。作为 Boss 敌人，奥里维奇每轮拥有<strong>10 动作</strong>，并且会在大多数法术上使用<strong>编构</strong>屈折以节省<strong>专注</strong>，并将剩余的动作用于<strong>恢复专注</strong>。</p><p>奥里维奇的战术核心是使用<strong>创造</strong>手势来召唤更多的 @UUID[Compendium.crucible.summons.Actor.56puGK932Qc0cowe]{死亡造物} 爪牙。由于拥有<strong>召唤师</strong>天赋，奥里维奇最多可同时维持3个这样的爪牙。若直接受到威胁，他会使用<strong>推开 </strong>屈折强行将敌人向后推开。</p><p>骷髅弓箭手会用<strong>打击</strong>集中火力攻击奥里维奇指定的目标，并使用<strong>闪避射击</strong>来调整位置。骷髅枪兵则会冲上前去牵制敌方战士并阻挡他们的去路，试图用<strong>扫腿</strong>将其绊倒。</p><h2 class=\"divider\">晋升</h2><p>当奥里维奇被击败时，战斗结束。死灵法师倒下时，他的骷髅爪牙也会随他一同化为尘土。观众对队伍的表现十分满意，解说员宣布队伍将在明天返回参加另一场比赛。</p><p>队伍将获得一次休息的机会，使用恢复动作，并提升1级晋升至4级。所有英雄还可以将其已装备武器的品质提升至<strong>精良</strong>。休息后，试炼将继续进行，进入 @UUID[.hEpGF7rbNFVUMm86]{第4天 - Koy Rent}。</p>"
             },
             "Day Four - Koy Rent": {
               "name": "第4天 Day Four - Koy Rent",
@@ -52,7 +52,7 @@
             },
             "Day Six - Mirror Match": {
               "name": "第6天 Day Six - Mirror Match",
-              "text": "<p>在这场最终挑战中，4名6级英雄将与一支由4名6级英雄组成的敌对冒险队伍正面对决。</p><ul><li><p>@UUID[Actor.iLUfMcYjAbZFY4CJ]{Duurath}（6级）</p></li><li><p>@UUID[Actor.0crVYYsPvV9KDEJ2]{Belladonna}（6级）</p></li><li><p>@UUID[Actor.2lvTCCOj4dnBI774]{艾利奥文}（6级）</p></li><li><p>@UUID[Actor.Il4NDaNBdHNcjJ9d]{Kagura}（6级）</p></li></ul><p><strong>主角威胁</strong>：4 × 6 = 24</p><p><strong>对手威胁</strong>：4 × 6 = 24</p><p><strong>遭遇难度</strong>：致命</p><h2 class=\"divider\">引言</h2><blockquote><p>“好，好……你们的勇士已经证明了自己，击败了这座竞技场所能提供的所有强大对手，所以现在，是时候让他们与往届赛事中那些声名显赫的老将与冠军一较高下了。准备迎接一场冠军之战吧！”</p></blockquote><p>这是一项尤其困难的挑战，因为对方的四名英雄都经过了单独优化，并且作为团队配合得极好。</p><h2 class=\"divider\">战术</h2><p>本挑战中的每个对手都作为一名英雄式主角运作，拥有各自的一系列天赋、动作和装备。</p><h4>Duurath</h4><p><strong>Duurath </strong>是一名危险的近战战斗者，拥有很高的<strong>交战</strong>、强大的物理防御，以及能够打击敌人士气并令其恐惧的恐惧领主签名天赋。Duurath会使用<strong>盾牌冲锋</strong>逼近敌方战斗者，并利用<strong>节奏</strong>打出高额伤害，或在格挡来袭攻击时使用<strong>反击</strong>进行报复。防御方面，Duurath可以使用<strong>动能守护 Kinetic Ward</strong>来保护自己，免受所选类型的物理伤害。</p><h4>Belladonna</h4><p><strong>Belladonna</strong>是一名狡猾而难以捉摸的近战战斗者，拥有<strong>下毒者</strong>天赋。战斗开始时，她会启动<strong>毒刃</strong>。她会对敌方法术施放者使用<strong>分散注意力</strong>来消耗其<strong>专注</strong>，并使用<strong>战斗医疗</strong>恢复盟友的生命值。Belladonna会寻找更脆弱的敌方战斗者，必要时使用<strong>翻滚</strong>接近至近战范围，并以<strong>连击</strong>迅速施加伤害和中毒状态。</p><h4>艾利奥文</h4><p><strong>艾利奥文</strong>是一名致命的弓箭手，凭借她的<strong>奥术弓手</strong>天赋，将闪电法术灌注到她的长弓射击之中。艾利奥文会识别出一个危险的敌人，并以<strong>标记猎物</strong>锁定对方，降低其对她自己及其盟友的防御。她会使用<strong>精准射击</strong>配合降低消耗的<strong>电能箭矢 Voltaic Arrow</strong>，从远距离稳定地持续输出伤害。</p><h4>Kagura</h4><p><strong>Kagura</strong>是一名多用的支援角色，能够治疗盟友的身心。她会使用<strong>生命</strong>符文，并通过<strong>影响</strong>、<strong>脉冲</strong>或<strong>射线</strong>手势之一来触发其<strong>修补匠</strong>天赋带来的额外治疗。Kagura还可以通过谨慎运用<strong>组合</strong>词缀以及<strong>节省精力</strong>，几乎无限期地维持治疗。Kagura会避免直接对抗，而是脱离战斗并寻求盟友的保护。</p><h2 class=\"divider\">晋升</h2><p>当四名对手全部被击败时，这场战斗即告结束。观众会为队伍的表演激动不已，并将他们欢庆为英勇之戒的永恒冠军。目前英勇之戒暂无更多预定活动，但如果你希望继续测试，为队伍即兴设计新的挑战，请参见 @UUID[.aNlzMnfUkwpLrSox]{Further Challenges}。</p>"
+              "text": "<p>在这场最终挑战中，4名6级英雄将与一支由4名6级英雄组成的敌对冒险队伍正面对决。</p><ul><li><p>@UUID[Actor.iLUfMcYjAbZFY4CJ]{杜拉斯}（6级）</p></li><li><p>@UUID[Actor.0crVYYsPvV9KDEJ2]{颠茄}（6级）</p></li><li><p>@UUID[Actor.2lvTCCOj4dnBI774]{艾利奥文}（6级）</p></li><li><p>@UUID[Actor.Il4NDaNBdHNcjJ9d]{神乐}（6级）</p></li></ul><p><strong>主角威胁</strong>：4 × 6 = 24</p><p><strong>对手威胁</strong>：4 × 6 = 24</p><p><strong>遭遇难度</strong>：致命</p><h2 class=\"divider\">引言</h2><blockquote><p>“好，好……你们的勇士已经证明了自己，击败了这座竞技场所能提供的所有强大对手，所以现在，是时候让他们与往届赛事中那些声名显赫的老将与冠军一较高下了。准备迎接一场冠军之战吧！”</p></blockquote><p>这是一项尤其困难的挑战，因为对方的四名英雄都经过了单独优化，并且作为团队配合得极好。</p><h2 class=\"divider\">战术</h2><p>本挑战中的每个对手都作为一名英雄式主角运作，拥有各自的一系列天赋、动作和装备。</p><h4>杜拉斯</h4><p><strong>杜拉斯</strong>是一名危险的近战战斗者，拥有很高的<strong>交战</strong>、强大的物理防御，以及能够打击敌人士气并令其恐惧的恐惧领主招牌天赋。杜拉斯会使用<strong>盾牌冲锋</strong>逼近敌方战斗者，并利用<strong>节奏</strong>打出高额伤害，或在格挡来袭攻击时使用<strong>反击</strong>进行报复。防御方面，杜拉斯可以使用<strong>动能守护 Kinetic Ward</strong>来保护自己，免受所选类型的物理伤害。</p><h4>颠茄</h4><p><strong>颠茄</strong>是一名狡猾而难以捉摸的近战战斗者，拥有<strong>下毒者</strong>天赋。战斗开始时，她会启动<strong>毒刃</strong>。她会对敌方法术施放者使用<strong>分散注意力</strong>来消耗其<strong>专注</strong>，并使用<strong>战斗医疗</strong>恢复盟友的生命值。颠茄会寻找更脆弱的敌方战斗者，必要时使用<strong>翻滚</strong>接近至近战范围，并以<strong>连击</strong>迅速施加伤害和中毒状态。</p><h4>艾利奥文</h4><p><strong>艾利奥文</strong>是一名致命的弓箭手，凭借她的<strong>奥术弓手</strong>天赋，将闪电法术灌注到她的长弓射击之中。艾利奥文会识别出一个危险的敌人，并以<strong>标记猎物</strong>锁定对方，降低其对她自己及其盟友的防御。她会使用<strong>精准射击</strong>配合降低消耗的<strong>电能箭矢 Voltaic Arrow</strong>，从远距离稳定地持续输出伤害。</p><h4>神乐</h4><p><strong>神乐</strong>是一名多用的支援角色，能够治疗盟友的身心。她会使用<strong>生命</strong>符文，并通过<strong>影响</strong>、<strong>脉冲</strong>或<strong>射线</strong>手势之一来触发其<strong>修补匠</strong>天赋带来的额外治疗。神乐还可以通过谨慎运用<strong>编构</strong>屈折以及<strong>节省精力</strong>，几乎无限期地维持治疗。神乐会避免直接对抗，而是脱离战斗并寻求盟友的保护。</p><h2 class=\"divider\">晋升</h2><p>当四名对手全部被击败时，这场战斗即告结束。观众会为队伍的表演激动不已，并将他们欢庆为英勇之戒的永恒冠军。目前英勇之戒暂无更多预定活动，但如果你希望继续测试，为队伍即兴设计新的挑战，请参见 @UUID[.aNlzMnfUkwpLrSox]{Further Challenges}。</p>"
             },
             "Further Challenges": {
               "name": "进一步的挑战 Further Challenges",
@@ -99,7 +99,7 @@
         },
         "Huiana": {
           "name": "惠安娜 Huiana",
-          "tokenName": "惠安娜 惠安娜",
+          "tokenName": "惠安娜 Huiana",
           "archetype": {
             "name": "群体成员 Pack Member",
             "description": "成群结队狩猎的野兽。"
@@ -123,7 +123,7 @@
         },
         "Anvil": {
           "name": "铁砧 Anvil",
-          "tokenName": "铁砧 铁砧",
+          "tokenName": "铁砧 Anvil",
           "archetype": {
             "name": "擒抱者 Grappler",
             "description": "擅长以身体压制对手，并使其更易受到后续攻击的战士。"
@@ -221,7 +221,7 @@
             "description": "一名无情而坚定的近战战士，运用敏捷与力量的结合来制服敌人。"
           },
           "taxonomy": {
-            "name": "兽人语 Orcish",
+            "name": "兽人 Orcish",
             "description": "<p>你的出生被一支自豪而坚韧不拔的民族的星象与传统所铭刻。你高大而结实匀称的身躯，以及天生坚韧的倾向，起源于一个暴露在严酷北方气候无情磨砺之下的民族。你的族人首先以力量与韧性闻名于世。</p>"
           },
           "items": {
@@ -298,7 +298,7 @@
               "actions": {
                 "lunge": {
                   "name": "突刺",
-                  "description": "<p>你灵巧地向前突进，以突然而出其不意的迅捷进行一次打击，使用一把具有灵巧属性的武器对单个目标发动一次<strong>打击</strong>，其射程增加<strong>+2 feet</strong>。</p><p>此次攻击为<strong>困难</strong>，但你不会从当前位置<strong>移动</strong>，且此次攻击不会引发脱离接战。</p>"
+                  "description": "<p>你灵巧地向前突进，以突然而出其不意的迅捷进行一次打击，使用一把具有灵巧属性的武器对单个目标发动一次<strong>打击</strong>，其射程增加<strong>+2 英尺</strong>。</p><p>此次攻击为<strong>困难</strong>，但你不会从当前位置<strong>移动</strong>，且此次攻击不会引发脱离接战。</p>"
                 }
               }
             },
@@ -317,7 +317,7 @@
         },
         "Orivech": {
           "name": "奥里维奇 Orivech",
-          "tokenName": "奥里维奇 奥里维奇",
+          "tokenName": "奥里维奇 Orivech",
           "archetype": {
             "name": "秘学家 Occultist",
             "description": "运用异界与诡秘力量进行施法的魔法使用者。"
@@ -344,8 +344,8 @@
               "description": "<p>你将一个符文中的奥术力量强化为一种集中的直接接触，这通常是基础触碰手势的更强力进阶形式。</p><p>影响手势以<strong>存在</strong>进行成长，并以一个相邻的单个生物为目标。它对未能抵抗该法术的目标造成<strong>10 基础伤害</strong>。施放该手势需要<strong>1 只手</strong>，其基础消耗为<strong>3 动作</strong>和<strong>1 专注</strong>。</p>"
             },
             "Inflection: Compose": {
-              "name": "屈折：作曲 Inflection: Compose",
-              "description": "<p>通过在塑造法术时投入额外时间来强化法术，并以此换取降低其他资源消耗。组合 词缀会使法术的<strong>专注</strong>消耗降低 1，作为交换，其<strong>动作</strong>消耗提高 1。</p>"
+              "name": "屈折：编构 Inflection: Compose",
+              "description": "<p>通过在塑造法术时投入额外时间来强化法术，并以此换取降低其他资源消耗。编构 屈折会使法术的<strong>专注</strong>消耗降低 1，作为交换，其<strong>动作</strong>消耗提高 1。</p>"
             },
             "Gesture: Create": {
               "name": "手势：创造 Gesture: Create",
@@ -360,8 +360,8 @@
               "description": "<p>你是召唤学派和创造手势的大师，能够将奥术能量显化为实体形态。你可以同时维持至多 3 个这样的造物，而不再仅限于一个。</p>"
             },
             "Inflection: Push": {
-              "name": "屈折：推开 Inflection: Push",
-              "description": "<p>强化一个法术，使其将受影响的生物从施法者身边击退。受到具有 <strong>推开</strong> 屈折的法术影响的生物会向远离施法者的方向被强制移动一段距离，距离等于该法术所适用的能力加值，途中可能撞上墙壁或其他阻挡移动的障碍。</p>"
+              "name": "屈折：推挤 Inflection: Push",
+              "description": "<p>强化一个法术，使其将受影响的生物从施法者身边击退。受到具有 <strong>推挤</strong> 屈折的法术影响的生物会向远离施法者的方向被强制移动一段距离，距离等于该法术所适用的能力加值，途中可能撞上墙壁或其他阻挡移动的障碍。</p>"
             },
             "Talisman Weapon Training": {
               "name": "护符武器训练 Talisman Weapon Training",
@@ -369,7 +369,7 @@
               "actions": {
                 "refocus": {
                   "name": "重新聚焦 Refocus",
-                  "description": "<p>你使用自己已装备的护符，尝试重新获得一些<strong>专注</strong>。你对自己的<strong>激励</strong>阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>成功时，若使用单手护符，则<strong>恢复 +1 专注</strong>；若使用双手持用护符，则<strong>恢复 +2 专注</strong>。若大成功，恢复的专注量额外增加 +1。</p>"
+                  "description": "<p>你使用自己已装备的护符，尝试重新获得一些<strong>专注</strong>。你对自己的<strong>集结</strong>阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>成功时，若使用单手护符，则<strong>恢复 +1 专注</strong>；若使用双手持用护符，则<strong>恢复 +2 专注</strong>。若大成功，恢复的专注量额外增加 +1。</p>"
                 }
               }
             },
@@ -679,7 +679,7 @@
         },
         "Harbinger of Disease": {
           "name": "疫病先驱 Harbinger of Disease",
-          "tokenName": "疫病先驱 疫病先驱",
+          "tokenName": "疫病先驱 Harbinger of Disease",
           "archetype": {
             "name": "疫病先驱 Plaguebearer",
             "description": "<p>带来瘟疫与腐朽的先驱者。</p>"
@@ -799,8 +799,8 @@
           }
         },
         "Harbinger of Madness": {
-          "name": "疯狂先驱者 Harbinger of Madness",
-          "tokenName": "疯狂先驱者 先驱者 of 疯狂",
+          "name": "疯狂先驱 Harbinger of Madness",
+          "tokenName": "疯狂先驱 Harbinger of Madness",
           "archetype": {
             "name": "心灵扭曲者 Mindwarper",
             "description": "一种庞大的生物，会摧毁目睹它的人类理智。"
@@ -817,17 +817,6 @@
               "name": "虚空几丁质 Void Chitin",
               "description": {
                 "public": "<p>一些虚空几丁质的描述。</p>"
-              }
-            },
-            "吞噬思维 Devour Thoughts": {
-              "actions": {
-                "devourThoughts": {
-                  "effects": [
-                    {
-                      "name": "吞噬思绪 Thoughts"
-                    }
-                  ]
-                }
               }
             },
             "Mind Flay": {
@@ -874,7 +863,7 @@
             "description": "你曾是一名巡回表演者。你学会了从容地出席各种社交场合，懂得如何迎合观众，在表演中润饰细节，以引发特定的情绪反应。"
           },
           "biography": {
-            "public": "<p>扎拉贾是一名性情活泼的魔裔，热衷于火焰魔法，能够编织危险与防护性的法术来控制战场。扎拉贾渴望获得<strong>战斗法师</strong>签名天赋。</p>"
+            "public": "<p>扎拉贾是一名性情活泼的魔裔，热衷于火焰魔法，能够编织危险与防护性的法术来控制战场。扎拉贾渴望获得<strong>战斗法师</strong>招牌天赋。</p>"
           },
           "items": {
             "Flame Staff": {
@@ -944,7 +933,7 @@
             },
             "War Mage": {
               "name": "战斗法师 War Mage",
-              "description": "<p>你的施法被磨炼成战争武器，用以挫败其他法师的咒语。你可以询问游戏主持人自己是否知晓某个能够反制敌方法术的<strong>符文</strong>，即使你并不认得正在施放的法术。你在任何@Action[Compendium.crucible.talent.Item.counterspell0000 counterspell]中获得 +2 恩惠。</p>"
+              "description": "<p>你的施法被磨炼成战争武器，用以挫败其他法师的咒语。你可以询问游戏主持人自己是否知晓某个能够反制敌方法术的<strong>符文</strong>，即使你并不认得正在施放的法术。你在任何@Action[Compendium.crucible.talent.Item.counterspell0000 counterspell]中获得 +2 恩惠骰。</p>"
             },
             "Impetus": {
               "name": "动因 Impetus",
@@ -964,7 +953,7 @@
             },
             "Arcana Novice": {
               "name": "奥术新手 Arcana Novice",
-              "description": "<p>你的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体的粗浅介绍，其中包括最广为人知的被神化与被妖魔化的崇拜对象。你获得<strong>奥术</strong>技能的<strong>新手</strong>等级，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以让你鉴别一个法术或仪式可能使用的是哪一种低阶符文，以及所使用的手势（即便无法判断其词缀）。你能够辨认一个个体更受混沌还是秩序的影响，也能看出常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗了解得足够多，因此在与崇拜某位灵体或神祇的人交流时，不至于让自己出丑。</p>"
+              "description": "<p>你的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体的粗浅介绍，其中包括最广为人知的被神化与被妖魔化的崇拜对象。你获得<strong>奥术</strong>技能的<strong>新手</strong>等级，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以让你鉴别一个法术或仪式可能使用的是哪一种低阶符文，以及所使用的手势（即便无法判断其屈折）。你能够辨认一个个体更受混沌还是秩序的影响，也能看出常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗了解得足够多，因此在与崇拜某位灵体或神祇的人交流时，不至于让自己出丑。</p>"
             },
             "Strategic Repositioning": {
               "name": "战略性重新部署 Strategic Repositioning",
@@ -972,7 +961,7 @@
             },
             "Lightbringer": {
               "name": "光明使者 Lightbringer",
-              "description": "<p>你极其擅长编织照明符文。使用此符文的法术在造成暴击时会施加 @Condition[irradiated] 状态。</p><p>辐照效果持续<strong>1 Round</strong>，并对<strong>生命值</strong>和<strong>士气</strong>造成等同于你<strong>Presence</strong>数值的<strong>Radiant</strong>伤害。</p>"
+              "description": "<p>你极其擅长编织照明符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[irradiated] 状态。</p><p>辐照效果会持续<strong>1 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>各造成等同于你的<strong>照明符文</strong>所依据属性值的<strong>光耀</strong>伤害。</p>"
             },
             "Awareness Novice": {
               "name": "察觉新手 Awareness Novice",
@@ -992,7 +981,7 @@
               "actions": {
                 "counterspell": {
                   "name": "反制法术 Counterspell",
-                  "description": "<p>你将奥术能量塑造成一道对抗性的施法，目标为你在30英尺内可见的一名施法者。</p><p>指定一个你已知的<strong>符文</strong>和<strong>手势</strong>，以尝试反制该法术。若你选择的符文与该法术所用的某个符文相对立，你的此次尝试获得<strong>+2恩惠</strong>。若你选择的手势与正在施放的手势完全相同，你的此次尝试也获得<strong>+2恩惠</strong>。</p><p>对你的目标的<strong>意志</strong>防御进行一次无害的法术攻击。若你的掷骰结果超过其防御，该法术即被反制，其魔法被消除，不产生任何效果。</p>",
+                  "description": "<p>你将奥术能量塑造成一道对抗性的施法，目标为你在30英尺内可见的一名施法者。</p><p>指定一个你已知的<strong>符文</strong>和<strong>手势</strong>，以尝试反制该法术。若你选择的符文与该法术所用的某个符文相对立，你的此次尝试获得<strong>+2恩惠骰</strong>。若你选择的手势与正在施放的手势完全相同，你的此次尝试也获得<strong>+2恩惠骰</strong>。</p><p>对你的目标的<strong>意志</strong>防御进行一次无害的法术攻击。若你的掷骰结果超过其防御，该法术即被反制，其魔法被消除，不产生任何效果。</p>",
                   "condition": "另一个你能看见的生物正在施放法术。"
                 }
               }
@@ -1007,7 +996,7 @@
               "actions": {
                 "propel": {
                   "name": "推进",
-                  "description": "<p>你对Kinesis符文的掌控使你能够对局部重力施加控制，以执行基础的念力操作，产生以下效果之一：</p><ul><li><p>将15尺内一个未固定且重量不大于1的物体拉向你，并接住它。一个由生物已装备或持有的物体，除非该生物愿意放手，否则绝不会被视为未固定。</p></li><li><p>将一个你手持且重量不大于1的物体弹向一个最远30尺外的目标。该物体会以适中的速度沿笔直的直线准确无误地飞向该目标。物体径上的任何生物都可以作出反应来接住它，只要他们有一只空着的手即可。</p></li><li><p>使一个你触碰到的物体或自愿生物悬浮于半空中，其重量小于或等于你<strong>气场</strong>的10倍，并可将其位置从原本所在处朝任意方向改变最多20尺。只要你不再采取进一步动作，且未处于@Condition[incapacitated]，你就可以无限期地维持这种悬浮状态。</p></li></ul><p>除非另有说明，Propel只能影响你能够以物理方式触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+                  "description": "<p>你对Kinesis符文的掌控使你能够对局部重力施加控制，以执行基础的念力操作，产生以下效果之一：</p><ul><li><p>将15尺内一个未固定且重量不大于1的物体拉向你，并接住它。一个由生物已装备或持有的物体，除非该生物愿意放手，否则绝不会被视为未固定。</p></li><li><p>将一个你手持且重量不大于1的物体弹向一个最远30尺外的目标。该物体会以适中的速度沿笔直的直线准确无误地飞向该目标。物体径上的任何生物都可以作出反应来接住它，只要他们有一只空着的手即可。</p></li><li><p>使一个你触碰到的物体或自愿生物悬浮于半空中，其重量小于或等于你<strong>存在</strong>的10倍，并可将其位置从原本所在处朝任意方向改变最多20尺。只要你不再采取进一步动作，且未处于@Condition[incapacitated]，你就可以无限期地维持这种悬浮状态。</p></li></ul><p>除非另有说明，Propel只能影响你能够以物理方式触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
                 }
               }
             },
@@ -1021,7 +1010,7 @@
           "name": "阿格纳斯 Agnath",
           "tokenName": "阿格纳斯",
           "ancestry": {
-            "name": "兽人语 Orcish",
+            "name": "兽人 Orcish",
             "description": "<p>你的出生承载着一个骄傲而坚韧民族的星辰与传统印记。你高大而匀称的身躯，以及与生俱来的坚韧禀赋，起源于一个暴露在严酷北方气候无情磨炼之下的民族。你的族人最为人所知的，首先便是他们的力量与韧性。</p>"
           },
           "background": {
@@ -1029,7 +1018,7 @@
             "description": "<p>你曾是某种军事组织中的一名普通成员。纪律让你得以生存，也强调了向他人展现力量与支配力的重要性，而多年骑马或行军的经历教会了你如何应对各种地形。</p>"
           },
           "biography": {
-            "public": "<p>阿格纳斯是一名挥舞长剑的死灵法师，能将死亡魔法灌注进其沉重的打击中。阿格纳斯渴望获得<strong>咒刃</strong>签名天赋。</p>"
+            "public": "<p>阿格纳斯是一名挥舞长剑的死灵法师，能将死亡魔法灌注进其沉重的打击中。阿格纳斯渴望获得<strong>咒刃</strong>招牌天赋。</p>"
           },
           "items": {
             "Splint Mail": {
@@ -1191,7 +1180,7 @@
             "description": "<p>很少有人能像你那样学会生存。你所受的，是一场关于不信任的残酷教育。你学会了观察他人，从那些预示危险或不忠的迹象中察觉端倪；学会了避开他人的注意，在某片城市蔓延的街头捡拾残羹冷炙。</p>"
           },
           "biography": {
-            "public": "<p>贝拉多娜是一名狡猾的游荡者，使用两把匕首战斗，对毫无防备的目标发动一连串迅猛的攻击。贝拉多娜渴望获得<strong>下毒者</strong>签名天赋。</p>"
+            "public": "<p>颠茄是一名狡猾的游荡者，使用两把匕首战斗，对毫无防备的目标发动一连串迅猛的攻击。颠茄渴望获得<strong>下毒者</strong>招牌天赋。</p>"
           },
           "items": {
             "Dagger": {
@@ -1311,7 +1300,7 @@
               "actions": {
                 "healingElixir": {
                   "name": "治疗灵药 Healing Elixir",
-                  "description": "<p>立即恢复等同于该灵药品质所对应数值的<strong>生命值</strong>。</p><ul><li><p><strong>粗制</strong> - 立即恢复 6 点<strong>生命值</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>生命值</strong>。</p></li><li><p><strong>精制</strong> - 立即恢复 24 点<strong>生命值</strong>。</p></li><li><p><strong>优异</strong> - 立即恢复 48 点<strong>生命值</strong>。</p></li><li><p><strong>大师级</strong> - 立即恢复 96 点<strong>生命值</strong>。</p></li></ul>"
+                  "description": "<p>立即恢复等同于该灵药品质所对应数值的<strong>生命值</strong>。</p><ul><li><p><strong>粗糙</strong> - 立即恢复 6 点<strong>生命值</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>生命值</strong>。</p></li><li><p><strong>精良</strong> - 立即恢复 24 点<strong>生命值</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>生命值</strong>。</p></li><li><p><strong>大师级</strong> - 立即恢复 96 点<strong>生命值</strong>。</p></li></ul>"
                 }
               }
             },
@@ -1323,7 +1312,7 @@
               "actions": {
                 "antitoxin": {
                   "name": "抗毒剂 Antitoxin",
-                  "description": "<p>服用此@ref[item.name]能够中和影响目标的任何@Condition[poisoned]状态。更强的毒药需要更强的抗毒剂才能中和。</p><p>此@ref[item.name]可抵消的毒药类别取决于其品质：</p><ul><li><p><strong>粗制滥造</strong> - 每轮造成 3 点伤害或更少的毒药</p></li><li><p><strong>标准</strong> - 每轮造成 5 点伤害或更少的毒药</p></li><li><p><strong>精制</strong> - 每轮造成 7 点伤害或更少的毒药</p></li><li><p><strong>优异</strong> - 每轮造成 9 点伤害或更少的毒药</p></li><li><p><strong>大师工艺</strong> - 每轮造成 11 点伤害或更少的毒药</p></li></ul>"
+                  "description": "<p>服用此@ref[item.name]能够中和影响目标的任何@Condition[poisoned]状态。更强的毒药需要更强的抗毒剂才能中和。</p><p>此@ref[item.name]可抵消的毒药类别取决于其品质：</p><ul><li><p><strong>粗糙</strong> - 每轮造成 3 点伤害或更少的毒药</p></li><li><p><strong>标准</strong> - 每轮造成 5 点伤害或更少的毒药</p></li><li><p><strong>精良</strong> - 每轮造成 7 点伤害或更少的毒药</p></li><li><p><strong>卓越</strong> - 每轮造成 9 点伤害或更少的毒药</p></li><li><p><strong>大师级</strong> - 每轮造成 11 点伤害或更少的毒药</p></li></ul>"
                 }
               }
             },
@@ -1335,7 +1324,7 @@
               "actions": {
                 "poisonIngest": {
                   "name": "摄入毒药 Ingest Poison",
-                  "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它起初是<strong>无害</strong>的，但目标必须针对其<strong>强韧</strong>进行一次攻击防御，否则便会成为 @Condition[poisoned]。</p><p>毒素造成的伤害量及其持续时间取决于 @ref[item.name] 的品质：</p><ul><li><p><strong>粗劣</strong> - 4轮内造成2伤害</p></li><li><p><strong>标准</strong> - 6轮内造成4伤害</p></li><li><p><strong>精良</strong> - 8轮内造成6伤害</p></li><li><p><strong>优异</strong> - 10轮内造成8伤害</p></li><li><p><strong>大师级</strong> - 12轮内造成10伤害</p></li></ul><p><em>应在毒药被摄入时使用此动作，而不是在首次涂抹时使用。</em></p>",
+                  "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它起初是<strong>无害</strong>的，但目标必须针对其<strong>强韧</strong>进行一次攻击防御，否则便会成为 @Condition[poisoned]。</p><p>毒素造成的伤害量及其持续时间取决于 @ref[item.name] 的品质：</p><ul><li><p><strong>粗糙</strong> - 4轮内造成2伤害</p></li><li><p><strong>标准</strong> - 6轮内造成4伤害</p></li><li><p><strong>精良</strong> - 8轮内造成6伤害</p></li><li><p><strong>卓越</strong> - 10轮内造成8伤害</p></li><li><p><strong>大师级</strong> - 12轮内造成10伤害</p></li></ul><p><em>应在毒药被摄入时使用此动作，而不是在首次涂抹时使用。</em></p>",
                   "effects": [
                     {
                       "name": "中毒 Poisoned"
@@ -1443,7 +1432,7 @@
             "description": "<p>你曾是一个执法组织的一员。你学会了如何对周围环境保持警觉，在复杂的社交结构中开展工作，并展现出令人望而生畏的魅力。</p>"
           },
           "biography": {
-            "public": "<p>杜拉特是一名强壮的矮人防御者，使用锤和盾牌来保护他的盟友，并通过打击敌人士气来惩罚敌人。杜拉特立志获得<strong>符文守卫</strong>签名天赋。</p>"
+            "public": "<p>杜拉斯是一名强壮的矮人防御者，使用锤和盾牌来保护他的盟友，并通过打击敌人士气来惩罚敌人。杜拉斯立志获得<strong>符文守卫</strong>招牌天赋。</p>"
           },
           "items": {
             "Scale Mail": {
@@ -1621,14 +1610,14 @@
               "actions": {
                 "healingElixir": {
                   "name": "治疗灵药 Healing Elixir",
-                  "description": "<p>立即恢复相当于该灵药品质的<strong>生命值</strong>。</p><ul><li><p><strong>粗制</strong> - 立即恢复 6 点<strong>生命值</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>生命值</strong>。</p></li><li><p><strong>精良</strong> - 立即恢复 24 点<strong>生命值</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>生命值</strong>。</p></li><li><p><strong>大师级</strong> - 立即恢复 96 点<strong>生命值</strong>。</p></li></ul>"
+                  "description": "<p>立即恢复相当于该灵药品质的<strong>生命值</strong>。</p><ul><li><p><strong>粗糙</strong> - 立即恢复 6 点<strong>生命值</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>生命值</strong>。</p></li><li><p><strong>精良</strong> - 立即恢复 24 点<strong>生命值</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>生命值</strong>。</p></li><li><p><strong>大师级</strong> - 立即恢复 96 点<strong>生命值</strong>。</p></li></ul>"
                 }
               }
             },
             "Expanded Toolbelt": {
               "name": "扩展工具腰带 Expanded Toolbelt",
               "description": {
-                "public": "<p>一种扩展工具腰带，可以是效用腰带、弹带，或是缝在你的装备上的一组口袋。</p><p>此物品会根据其品质阶级提供若干额外的工具带栏位：</p><ul><li><p><strong>标准</strong>：+1 工具带栏位</p></li><li><p><strong>精良</strong>：+2 工具带栏位</p></li><li><p><strong>优异</strong>：+3 工具带栏位</p></li><li><p><strong>大师工艺</strong>：+4 工具带栏位</p></li></ul>"
+                "public": "<p>一种扩展工具腰带，可以是效用腰带、弹带，或是缝在你的装备上的一组口袋。</p><p>此物品会根据其品质阶级提供若干额外的工具带栏位：</p><ul><li><p><strong>标准</strong>：+1 工具带栏位</p></li><li><p><strong>精良</strong>：+2 工具带栏位</p></li><li><p><strong>卓越</strong>：+3 工具带栏位</p></li><li><p><strong>大师级</strong>：+4 工具带栏位</p></li></ul>"
               }
             },
             "Rune: Kinesis": {
@@ -1673,7 +1662,12 @@
               "actions": {
                 "shieldBash": {
                   "name": "盾牌猛击",
-                  "description": "<p>在以主手武器发动一次基础打击之后，你以盾牌发动一次<strong>打击</strong>，使目标陷入<strong>踉跄</strong>状态持续一轮。</p>"
+                  "description": "<p>在以主手武器发动一次基础打击之后，你以盾牌发动一次<strong>打击</strong>，使目标陷入<strong>踉跄</strong>状态持续一轮。</p>",
+                  "effects": [
+                    {
+                      "name": "盾牌猛击 Shield Bash"
+                    }
+                  ]
                 }
               }
             }
@@ -1683,7 +1677,7 @@
           "name": "艾利奥文 Eliorwen",
           "tokenName": "艾利奥文",
           "ancestry": {
-            "name": "精灵语 Elvish",
+            "name": "精灵 Elvish",
             "description": "<p>你生来就是长寿的精灵，举止优雅，思维敏捷。你轻盈灵巧的身形与雕琢般的面容，是一个将优雅视为生活方式的族群所传承下来的特质。你天生倾向于快速思考与精确的移动，这是数百年传统演化而来的结果。</p>"
           },
           "background": {
@@ -1691,7 +1685,7 @@
             "description": "<p>你过着四处漂泊的生活。对你而言，没有什么比坐在货车上或骑在坐骑上、看着异乡的天空从头顶缓缓掠过更令人愉悦。你学会了仔细留意周围的环境及其需求，照料那些你所依赖的生物，并善用你所能找到的一切。</p>"
           },
           "biography": {
-            "public": "<p>艾利奥文是一名敏捷的散兵，运用箭术和施法在极远距离压制并消灭敌人。艾利奥文立志获得<strong>奥术弓手</strong>签名天赋。</p>"
+            "public": "<p>艾利奥文是一名敏捷的散兵，运用箭术和施法在极远距离压制并消灭敌人。艾利奥文立志获得<strong>奥术弓手</strong>招牌天赋。</p>"
           },
           "items": {
             "Scimitar": {
@@ -1816,7 +1810,7 @@
             },
             "Surgeweaver": {
               "name": "激涌编织者 Surgeweaver",
-              "description": "<p>你极其擅长编织风暴符文。使用该符文的法术在造成暴击时会施加 @Condition[shocked] 状态。</p><p>感电效果持续<strong>3 轮</strong>，对<strong>士气</strong>造成你<strong>智力</strong>属性一半的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
+              "description": "<p>你极其擅长编织风暴符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[shocked] 状态。</p><p>感电效果持续<strong>3 轮</strong>，对<strong>士气</strong>造成你<strong>智力</strong>属性一半的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
             },
             "Awareness Novice": {
               "name": "察觉新手 Awareness Novice",
@@ -1849,7 +1843,7 @@
               "actions": {
                 "blastFlask": {
                   "name": "爆炸瓶 Blast Flask",
-                  "description": "<p>你点燃并投掷@ref[item.name]，对爆炸半径内的所有敌人造成<strong>火焰</strong>伤害。<strong>爆裂</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>粗制滥造</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>优良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
+                  "description": "<p>你点燃并投掷@ref[item.name]，对爆炸半径内的所有敌人造成<strong>火焰</strong>伤害。<strong>爆裂</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>粗糙</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>卓越</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
                 }
               }
             },
@@ -1887,7 +1881,7 @@
             },
             "Perspicacity": {
               "name": "洞察力 Perspicacity",
-              "description": "<p>你对周遭环境的各个方面有更敏锐的洞察。进行任何不依赖视力的<strong>察觉</strong>技能检定时，你获得+2恩惠。</p>"
+              "description": "<p>你对周遭环境的各个方面有更敏锐的洞察。进行任何不依赖视力的<strong>察觉</strong>技能检定时，你获得+2恩惠骰。</p>"
             }
           }
         },
@@ -1903,7 +1897,7 @@
             "description": "<p>你总是在图书馆或教室里最感自在。你的学习专注于揭开你周围世界的奥秘，而且几乎没有哪门理论学科是你尚不熟悉的。</p>"
           },
           "biography": {
-            "public": "<p>Fizzit是一位聪明的法术匠师和学者，能够在远处施放法术，并试图驾驭元素力量来为自己效劳。Fizzit渴望获得<strong>召唤师</strong>签名天赋。</p>"
+            "public": "<p>菲兹特是一位聪明的法术匠师和学者，能够在远处施放法术，并试图驾驭元素力量来为自己效劳。菲兹特渴望获得<strong>召唤师</strong>招牌天赋。</p>"
           },
           "items": {
             "Ring Mail": {
@@ -1943,8 +1937,8 @@
               "description": "<p>你将奥术之力凝聚为有形之物，显现出一个<strong>精灵</strong>，其出现在10尺内，并以先攻 1 加入战斗。你的精灵是一个<strong>仆从</strong>，等级为你自身等级的一半。</p><p>创造手势基于<strong>感知</strong>进行成长，且该精灵会存续<strong>6轮</strong>。你同时只能拥有一个生效中的精灵；若你施放另一个使用创造手势的法术，则会替换你先前的精灵。此手势需要<strong>2只手</strong>施放，基础消耗为<strong>4动作</strong>和<strong>1专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>并非所有符文都已定义精灵角色。尚未定义创造效果的符文目前会显现为一个@UUID[Compendium.crucible.summons.Actor.RuNh1bFGiHKdHeKI]。</p>"
             },
             "Inflection: Compose": {
-              "name": "屈折：作曲 Inflection: Compose",
-              "description": "<p>通过在法术构建时花费额外时间来强化法术，作为交换减少其他资源消耗。屈折：作曲使法术的<strong>专注</strong>消耗降低 1，但作为交换，其<strong>动作</strong>消耗提高 1。</p>"
+              "name": "屈折：编构 Inflection: Compose",
+              "description": "<p>通过在法术构建时花费额外时间来强化法术，作为交换减少其他资源消耗。屈折：编构使法术的<strong>专注</strong>消耗降低 1，但作为交换，其<strong>动作</strong>消耗提高 1。</p>"
             },
             "Conjurer": {
               "name": "召唤师 Conjurer",
@@ -1952,7 +1946,7 @@
             },
             "Rimecaller": {
               "name": "霜唤者 Rimecaller",
-              "description": "<p>你极其擅长编织霜冻符文。使用此符文的法术在暴击时会造成@Condition[freezing]状态。</p><p>冰冻效果持续<strong>1轮</strong>，对<strong>生命值</strong>造成相当于你<strong>感知</strong>属性一半的<strong>霜冻</strong>伤害，并施加@Condition[slowed]状态。</p>"
+              "description": "<p>你极其擅长编织霜冻符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加@Condition[freezing]状态。</p><p>冰冻效果持续<strong>1轮</strong>，对<strong>生命值</strong>造成相当于你<strong>感知</strong>属性一半的<strong>霜冻</strong>伤害，并施加@Condition[slowed]状态。</p>"
             },
             "Recognize Spellcraft": {
               "name": "识别施法 Recognize Spellcraft",
@@ -2001,11 +1995,11 @@
             },
             "Surgeweaver": {
               "name": "激涌编织者 Surgeweaver",
-              "description": "<p>你极其擅长编织风暴符文。使用此符文的法术在暴击时会造成 @Condition[shocked] 状态。</p><p>感电效果持续<strong>3 轮</strong>，对<strong>士气</strong>造成你<strong>智力</strong>值一半的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
+              "description": "<p>你极其擅长编织风暴符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[shocked] 状态。</p><p>感电效果持续<strong>3 轮</strong>，对<strong>士气</strong>造成你<strong>智力</strong>值一半的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
             },
             "Mesmer": {
               "name": "迷魅师 Mesmer",
-              "description": "<p>你极其擅长编织幻象符文。使用该符文的法术在暴击时会造成@Condition[confused]。</p><p>混乱效果持续<strong>1 轮</strong>，对<strong>士气</strong>造成你<strong>智力</strong>数值一半的<strong>灵能</strong>伤害，并施加@Condition[disoriented]状态。</p>"
+              "description": "<p>你极其擅长编织幻象符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加@Condition[confused]状态。</p><p>混乱效果持续<strong>1 轮</strong>，对<strong>士气</strong>造成你<strong>智力</strong>数值一半的<strong>灵能</strong>伤害，并施加@Condition[disoriented]状态。</p>"
             },
             "Rune: Kinesis": {
               "name": "符文：念力 Rune: Kinesis",
@@ -2033,7 +2027,7 @@
               "actions": {
                 "refocus": {
                   "name": "重新聚焦 Refocus",
-                  "description": "<p>你使用已装备的护符，尝试重新获得一些<strong>专注</strong>。你对自己的<strong>振奋</strong>阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>成功时，若使用单手护符，则恢复<strong>+1 专注</strong>；若使用双手持用护符，则恢复<strong>+2 专注</strong>。若大成功，恢复的专注量额外增加 +1。</p>"
+                  "description": "<p>你使用已装备的护符，尝试重新获得一些<strong>专注</strong>。你对自己的<strong>集结</strong>阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>成功时，若使用单手护符，则恢复<strong>+1 专注</strong>；若使用双手持用护符，则恢复<strong>+2 专注</strong>。若大成功，恢复的专注量额外增加 +1。</p>"
                 }
               }
             },
@@ -2091,7 +2085,7 @@
             "description": "<p>你曾是一名某种意义上的治疗者或医疗专业人士。你一生中有一段时间都在学习医学科学，并且你很善于察觉他人的疾病。你知道如何治疗创伤、疾病，以及如何鉴定它们的来源。</p>"
           },
           "biography": {
-            "public": "<p>神乐是一位坚毅的治疗者，能在激烈的战斗中增强盟友的生命值与士气。神乐立志获得<strong>治疗者</strong>签名天赋。</p>"
+            "public": "<p>神乐是一位坚毅的治疗者，能在激烈的战斗中增强盟友的生命值与士气。神乐立志获得<strong>治疗者</strong>招牌天赋。</p>"
           },
           "items": {
             "Ice Staff": {
@@ -2138,12 +2132,12 @@
               "description": "<p>你坚定的意志让你极难被影响。你的<strong>意志</strong>防御获得 +1，且对<strong>灵能</strong>伤害获得 +5 抗性。</p>"
             },
             "Inflection: Compose": {
-              "name": "屈折：作曲 Inflection: Compose",
-              "description": "<p>通过在法术形成过程中投入额外时间来强化法术，以此换取降低其他资源消耗。屈折：作曲使法术的<strong>专注</strong>消耗减少1，作为交换，其<strong>动作</strong>消耗增加1。</p>"
+              "name": "屈折：编构 Inflection: Compose",
+              "description": "<p>通过在法术形成过程中投入额外时间来强化法术，以此换取降低其他资源消耗。屈折：编构使法术的<strong>专注</strong>消耗减少1，作为交换，其<strong>动作</strong>消耗增加1。</p>"
             },
             "Dustbinder": {
               "name": "缚尘者 Dustbinder",
-              "description": "<p>你非常擅长编织大地符文。使用该符文的法术在暴击时会造成 @Condition[corroding] 状态。</p><p>腐蚀效果会持续<strong>3轮</strong>，并且每轮对<strong>生命</strong>造成等同于你的<strong>感知</strong>属性值的<strong>酸液</strong>伤害。</p>"
+              "description": "<p>你非常擅长编织大地符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[corroding] 状态。</p><p>腐蚀效果会持续<strong>3 轮</strong>，并且每轮对<strong>生命值</strong>造成相当于你<strong>感知</strong>属性值一半的<strong>强酸</strong>伤害。</p>"
             },
             "Talisman Weapon Training": {
               "name": "护符武器训练 Talisman Weapon Training",
@@ -2151,7 +2145,7 @@
               "actions": {
                 "refocus": {
                   "name": "重新聚焦 Refocus",
-                  "description": "<p>你使用已装备的护符，尝试重新获得一些<strong>专注</strong>。你对自己的振奋阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>成功时，若使用的是单手护符，则<strong>恢复 +1 专注</strong>；若使用的是<strong>双手持用</strong>护符，则<strong>恢复 +2 专注</strong>。若大成功，恢复的专注量额外增加 +1。</p>"
+                  "description": "<p>你使用已装备的护符，尝试重新获得一些<strong>专注</strong>。你对自己的集结阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>成功时，若使用的是单手护符，则<strong>恢复 +1 专注</strong>；若使用的是<strong>双手持用</strong>护符，则<strong>恢复 +2 专注</strong>。若大成功，恢复的专注量额外增加 +1。</p>"
                 }
               }
             },
@@ -2200,11 +2194,11 @@
             },
             "Mender": {
               "name": "修补匠 Mender",
-              "description": "<p>你极其擅长编织生命符文。使用此符文的法术在暴击时会施加 @Condition[mending] 状态。</p><p>修补效果持续 <strong>1 轮</strong>，并将你的<strong>感知</strong>属性值作为额外的<strong>恢复</strong>施加到<strong>生命值</strong>上。</p>"
+              "description": "<p>你极其擅长编织生命符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你恢复生命值的暴击会施加 @Condition[mending] 状态。</p><p>修补效果持续 <strong>1 轮</strong>，并将你的<strong>感知</strong>属性值作为额外的<strong>恢复</strong>施加到<strong>生命值</strong>上。</p>"
             },
             "Arcana Novice": {
               "name": "奥术新手 Arcana Novice",
-              "description": "<p>你的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体的粗浅介绍，其中包括最广为人知的被神化与被妖魔化的崇拜对象。你获得<strong>奥术</strong>技能的<strong>新手</strong>等级，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以让你鉴别一个法术或仪式可能使用的是哪一种低阶符文，以及所使用的手势（即便无法判断其词缀）。你能够辨认一个个体更受混沌还是秩序的影响，也能看出常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗了解得足够多，因此在与崇拜某位灵体或神祇的人交流时，不至于让自己出丑。</p>"
+              "description": "<p>你的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体的粗浅介绍，其中包括最广为人知的被神化与被妖魔化的崇拜对象。你获得<strong>奥术</strong>技能的<strong>新手</strong>等级，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以让你鉴别一个法术或仪式可能使用的是哪一种低阶符文，以及所使用的手势（即便无法判断其屈折）。你能够辨认一个个体更受混沌还是秩序的影响，也能看出常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗了解得足够多，因此在与崇拜某位灵体或神祇的人交流时，不至于让自己出丑。</p>"
             },
             "Rune: Soul": {
               "name": "符文：灵魂 Rune: Soul",
@@ -2258,7 +2252,7 @@
             "description": "<p>你曾是某个执法组织的一员。你学会了如何对周遭环境保持警惕，在复杂的社交结构中开展工作，并展现出令人望而生畏的魅力。</p>"
           },
           "biography": {
-            "public": "<p>乌尔芬是一名凶猛的战士，使用一把双手持用巨斧作战，偏好施展重型打击，造成可观的伤害或命中多个目标。乌尔芬渴望获得<strong>狂战士</strong>签名天赋。</p>"
+            "public": "<p>乌尔芬是一名凶猛的战士，使用一把双手持用巨斧作战，偏好施展重型打击，造成可观的伤害或命中多个目标。乌尔芬渴望获得<strong>狂战士</strong>招牌天赋。</p>"
           },
           "items": {
             "Scale Mail": {
@@ -2466,7 +2460,7 @@
         },
         "Party": {
           "name": "队伍 Party",
-          "tokenName": "队伍 队伍"
+          "tokenName": "队伍 Party"
         }
       }
     }

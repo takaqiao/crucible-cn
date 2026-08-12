@@ -25,13 +25,24 @@ https://github.com/takaqiao/crucible-cn/releases/latest/download/module.json
 - `lang/cn.json` — 系统主体 i18n
 - `compendium/cn/*.json` — Babele 翻译的合集包 JSON
 - `babele-register.js` — Babele 注册入口
-- `scripts/` — 翻译稽核与维护脚本（未翻译扫描、双语命名修复、术语漏检等）
+- `scripts/` — 翻译稽核与维护脚本（未翻译扫描、双语命名修复、术语漏检等）。
+  **仅存于仓库，不进发布包** —— 运行时不会加载，打进 zip 只是死重量
+- `lang/en.json` — 英文基准，供 `lang_gap.py` / `flatten_lang.py` 逐键比对用。
+  `module.json` 的 `languages` 只声明 `cn`，故此文件同样**不进发布包**
 
 ## 依赖 / Requires
 
 - Foundry VTT v13 ~ v14
-- Crucible 系统 v0.7.7+
-- [Babele](https://foundryvtt.com/packages/babele) v2.7.5+
+- Crucible 系统 **v0.10.1+**
+- [Babele](https://foundryvtt.com/packages/babele) **v2.9.1+**
+
+> 这三项写在 `module.json` 的 `relationships.requires` 里，由 Foundry 强制校验：
+> 版本低于上述要求时，Foundry 会**直接拒绝启用**本模块，而不是只给个警告。
+> Babele 2.9.1 是硬下限 —— 详见 `babele-register.js` 文件头：注册挂在 Babele 自己的
+> `babele.init` 钩子上，并依赖 2.9.1 原生的 `ActiveEffect` 映射与递归 `document` 转换器。
+>
+> These are enforced by Foundry through `relationships.requires` in `module.json`;
+> older versions are refused, not merely warned about.
 
 ## 维护脚本 / Maintenance scripts
 

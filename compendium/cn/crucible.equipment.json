@@ -43,7 +43,7 @@
       "actions": {
         "blastFlask": {
           "name": "爆炸瓶 Blast Flask",
-          "description": "<p>你点燃并掷出@ref[item.name]，对爆破半径内的所有敌人造成<strong>火焰</strong>伤害。<strong>爆破</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>劣质</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>精良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
+          "description": "<p>你点燃并掷出@ref[item.name]，对爆破半径内的所有敌人造成<strong>火焰</strong>伤害。<strong>爆破</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>粗糙</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>精良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
         }
       }
     },
@@ -105,7 +105,7 @@
       "actions": {
         "antitoxin": {
           "name": "抗毒剂 Antitoxin",
-          "description": "<p>服用此@ref[item.name]能够中和目标身上任何 @Condition[poisoned] 状态。更强的毒药需要更强的抗毒剂才能中和。</p><p>此@ref[item.name]可抵消的毒药类别取决于其品质：</p><ul><li><p><strong>粗制</strong> - 每轮造成 3 点伤害或以下的毒药</p></li><li><p><strong>标准</strong> - 每轮造成 5 点伤害或以下的毒药</p></li><li><p><strong>精制</strong> - 每轮造成 7 点伤害或以下的毒药</p></li><li><p><strong>优质</strong> - 每轮造成 9 点伤害或以下的毒药</p></li><li><p><strong>大师工艺</strong> - 每轮造成 11 点伤害或以下的毒药</p></li></ul>"
+          "description": "<p>服用此@ref[item.name]能够中和目标身上任何 @Condition[poisoned] 状态。更强的毒药需要更强的抗毒剂才能中和。</p><p>此@ref[item.name]可抵消的毒药类别取决于其品质：</p><ul><li><p><strong>粗糙</strong> - 每轮造成 3 点伤害或以下的毒药</p></li><li><p><strong>标准</strong> - 每轮造成 5 点伤害或以下的毒药</p></li><li><p><strong>精良</strong> - 每轮造成 7 点伤害或以下的毒药</p></li><li><p><strong>卓越</strong> - 每轮造成 9 点伤害或以下的毒药</p></li><li><p><strong>大师级</strong> - 每轮造成 11 点伤害或以下的毒药</p></li></ul>"
         }
       }
     },
@@ -246,7 +246,7 @@
       "actions": {
         "chokingAmpoule": {
           "name": "窒息安瓿 Choking Ampoule",
-          "description": "<p>你投掷@ref[item.name]，其即时效果是<strong>无害</strong>的，但会使 8 英尺半径<strong>爆破</strong>范围内所有未能以其<strong>强韧</strong>抗拒此次攻击的敌人陷入@Condition[poisoned]状态。</p><p>该气体会对<strong>士气</strong>造成毒素伤害，数值取决于@ref[item.name]的品质。若获得重大成功，受影响的目标还会在持续时间内同时陷入@Condition[silenced]状态。</p><ul><li><p><strong>粗制</strong> - 3 轮内造成 2 点伤害</p></li><li><p><strong>标准</strong> - 3 轮内造成 6 点伤害</p></li><li><p><strong>精良</strong> - 3 轮内造成 12 点伤害</p></li><li><p><strong>优异</strong> - 3 轮内造成 20 点伤害</p></li><li><p><strong>大师级</strong> - 3 轮内造成 30 点伤害</p></li></ul>",
+          "description": "<p>你投掷@ref[item.name]，其即时效果是<strong>无害</strong>的，但会使 8 英尺半径<strong>爆破</strong>范围内所有未能以其<strong>强韧</strong>抗拒此次攻击的敌人陷入@Condition[poisoned]状态。</p><p>该气体会对<strong>士气</strong>造成毒素伤害，数值取决于@ref[item.name]的品质。若获得重大成功，受影响的目标还会在持续时间内同时陷入@Condition[silenced]状态。</p><ul><li><p><strong>粗糙</strong> - 3 轮内造成 2 点伤害</p></li><li><p><strong>标准</strong> - 3 轮内造成 6 点伤害</p></li><li><p><strong>精良</strong> - 3 轮内造成 12 点伤害</p></li><li><p><strong>卓越</strong> - 3 轮内造成 20 点伤害</p></li><li><p><strong>大师级</strong> - 3 轮内造成 30 点伤害</p></li></ul>",
           "effects": [
             {}
           ]
@@ -366,7 +366,7 @@
     "Expanded Toolbelt": {
       "name": "扩展工具腰带 Expanded Toolbelt",
       "description": {
-        "public": "<p>一种扩展工具带，其形式可以是公用腰带、斜挎弹带，或缝制在你的装备上的一组口袋。</p><p>该物品会根据其品质阶级提供若干额外的工具带槽位：</p><ul><li><p><strong>标准</strong>：+1 工具带槽位</p></li><li><p><strong>精良</strong>：+2 工具带槽位</p></li><li><p><strong>优异</strong>：+3 工工具带槽位</p></li><li><p><strong>大师工艺</strong>：+4 工具带槽位</p></li></ul>"
+        "public": "<p>一种扩展工具带，其形式可以是公用腰带、斜挎弹带，或缝制在你的装备上的一组口袋。</p><p>该物品会根据其品质阶级提供若干额外的工具带槽位：</p><ul><li><p><strong>标准</strong>：+1 工具带槽位</p></li><li><p><strong>精良</strong>：+2 工具带槽位</p></li><li><p><strong>卓越</strong>：+3 工工具带槽位</p></li><li><p><strong>大师级</strong>：+4 工具带槽位</p></li></ul>"
       }
     },
     "Firestarter": {
@@ -515,7 +515,7 @@
       "actions": {
         "healingElixir": {
           "name": "治疗灵药 Healing Elixir",
-          "description": "<p>立即恢复相当于该灵药品质对应数值的<strong>生命值</strong>。</p><ul><li><p><strong>粗劣</strong> - 立即恢复 6 点<strong>生命值</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>生命值</strong>。</p></li><li><p><strong>精良</strong> - 立即恢复 24 点<strong>生命值</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>生命值</strong>。</p></li><li><p><strong>大师级</strong> - 立即恢复 96 点<strong>生命值</strong>。</p></li></ul>"
+          "description": "<p>立即恢复相当于该灵药品质对应数值的<strong>生命值</strong>。</p><ul><li><p><strong>粗糙</strong> - 立即恢复 6 点<strong>生命值</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>生命值</strong>。</p></li><li><p><strong>精良</strong> - 立即恢复 24 点<strong>生命值</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>生命值</strong>。</p></li><li><p><strong>大师级</strong> - 立即恢复 96 点<strong>生命值</strong>。</p></li></ul>"
         }
       }
     },
@@ -527,7 +527,7 @@
       "actions": {
         "healingTonic": {
           "name": "治疗药剂 Healing Tonic",
-          "description": "<p>立即，以及在接下来 5 <strong>轮</strong>中每一轮开始时，根据药剂的品质恢复一定数量的<strong>生命值</strong>。</p><ul><li><p><strong>粗制滥造</strong> - 每轮恢复 2 点<strong>生命值</strong></p></li><li><p><strong>标准</strong> - 每轮恢复 4 点<strong>生命值</strong></p></li><li><p><strong>精良</strong> - 每轮恢复 8 点<strong>生命值</strong></p></li><li><p><strong>卓越</strong> - 每轮恢复 16 点<strong>生命值</strong></p></li><li><p><strong>大师级</strong> - 每轮恢复 32 点<strong>生命值</strong></p></li></ul>",
+          "description": "<p>立即，以及在接下来 5 <strong>轮</strong>中每一轮开始时，根据药剂的品质恢复一定数量的<strong>生命值</strong>。</p><ul><li><p><strong>粗糙</strong> - 每轮恢复 2 点<strong>生命值</strong></p></li><li><p><strong>标准</strong> - 每轮恢复 4 点<strong>生命值</strong></p></li><li><p><strong>精良</strong> - 每轮恢复 8 点<strong>生命值</strong></p></li><li><p><strong>卓越</strong> - 每轮恢复 16 点<strong>生命值</strong></p></li><li><p><strong>大师级</strong> - 每轮恢复 32 点<strong>生命值</strong></p></li></ul>",
           "effects": [
             {
               "name": "治疗药剂 Healing Tonic"
@@ -630,7 +630,7 @@
       "actions": {
         "lightLantern": {
           "name": "点亮提灯 Light Lantern",
-          "description": "<p>你点燃@ref[item.name]，在大范围内产生稳定的照明。此动作会消耗你物品栏中一份@UUID[Compendium.crucible.equipment.Item.lanternOil000000]{灯油}；燃烧时长取决于所消耗灯油的品质：</p><ul><li><p><strong>劣质</strong> - 1 小时</p></li><li><p><strong>标准</strong> - 4 小时</p></li><li><p><strong>精良</strong> - 12 小时</p></li><li><p><strong>卓越</strong> - 24 小时</p></li><li><p><strong>大师级</strong> - 48 小时</p></li></ul>",
+          "description": "<p>你点燃@ref[item.name]，在大范围内产生稳定的照明。此动作会消耗你物品栏中一份@UUID[Compendium.crucible.equipment.Item.lanternOil000000]{灯油}；燃烧时长取决于所消耗灯油的品质：</p><ul><li><p><strong>粗糙</strong> - 1 小时</p></li><li><p><strong>标准</strong> - 4 小时</p></li><li><p><strong>精良</strong> - 12 小时</p></li><li><p><strong>卓越</strong> - 24 小时</p></li><li><p><strong>大师级</strong> - 48 小时</p></li></ul>",
           "effects": [
             {
               "name": "提灯 Lantern"
@@ -666,7 +666,7 @@
     "Luminary Band": {
       "name": "辉耀指环 Luminary Band",
       "description": {
-        "public": "<blockquote><p>一枚雕刻精美的金色戒指，环绕着一颗椭圆形、闪耀的橙色宝石。</p></blockquote><p>这枚附魔戒环会为包含<strong>词缀</strong>的防御<strong>动作</strong>提供恩惠骰。</p>",
+        "public": "<blockquote><p>一枚雕刻精美的金色戒指，环绕着一颗椭圆形、闪耀的橙色宝石。</p></blockquote><p>这枚附魔戒环会为包含<strong>屈折</strong>的防御<strong>动作</strong>提供恩惠骰。</p>",
         "private": "<p>此物品作为带有 @UUID[Compendium.crucible.affixes.ActiveEffect.luminary00000000]{辉耀} 前缀的优质戒指示例呈现。</p><p>此词缀可应用于任何饰品，而这枚戒指还可以进一步附魔一个第1阶后缀。</p>"
       },
       "effects": {
@@ -732,7 +732,7 @@
       "actions": {
         "paralyticIngest": {
           "name": "摄入麻痹毒素 Ingest Paralytic",
-          "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它最初是<strong>无害</strong>的，但目标必须对其<strong>强韧</strong>进行一次攻击的防御，否则会变为@Condition[paralyzed]。</p><p>持续时间取决于@ref[item.name]的品质：</p><ul><li><p><strong>粗劣</strong> - 1 轮</p></li><li><p><strong>标准</strong> - 2 轮</p></li><li><p><strong>优良</strong> - 4 轮</p></li><li><p><strong>卓越</strong> - 8 轮</p></li><li><p><strong>大师工艺</strong> - 无限期</p></li></ul><p><em>此动作应在毒药被摄入时使用，而不是在其首次被涂抹时使用。</em></p>",
+          "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它最初是<strong>无害</strong>的，但目标必须对其<strong>强韧</strong>进行一次攻击的防御，否则会变为@Condition[paralyzed]。</p><p>持续时间取决于@ref[item.name]的品质：</p><ul><li><p><strong>粗糙</strong> - 1 轮</p></li><li><p><strong>标准</strong> - 2 轮</p></li><li><p><strong>卓越</strong> - 4 轮</p></li><li><p><strong>卓越</strong> - 8 轮</p></li><li><p><strong>大师级</strong> - 无限期</p></li></ul><p><em>此动作应在毒药被摄入时使用，而不是在其首次被涂抹时使用。</em></p>",
           "effects": [
             {
               "name": "麻痹毒素 Paralytic Toxin"
@@ -797,7 +797,7 @@
       "actions": {
         "poisonIngest": {
           "name": "摄入毒药 Ingest Poison",
-          "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它起初是<strong>无害</strong>的，但目标必须以其<strong>强韧</strong>进行一次防御攻击，否则会变为@Condition[poisoned]。</p><p>毒素伤害的数值及其持续时间取决于@ref[item.name]的品质：</p><ul><li><p><strong>粗劣</strong> - 2点伤害，持续4轮</p></li><li><p><strong>标准</strong> - 4点伤害，持续6轮</p></li><li><p><strong>精良</strong> - 6点伤害，持续8轮</p></li><li><p><strong>优异</strong> - 8点伤害，持续10轮</p></li><li><p><strong>大师工艺</strong> - 10点伤害，持续12轮</p></li></ul><p><em>应在毒药被摄入时使用此动作，而不是在其最初被施用时使用。</em></p>",
+          "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它起初是<strong>无害</strong>的，但目标必须以其<strong>强韧</strong>进行一次防御攻击，否则会变为@Condition[poisoned]。</p><p>毒素伤害的数值及其持续时间取决于@ref[item.name]的品质：</p><ul><li><p><strong>粗糙</strong> - 2点伤害，持续4轮</p></li><li><p><strong>标准</strong> - 4点伤害，持续6轮</p></li><li><p><strong>精良</strong> - 6点伤害，持续8轮</p></li><li><p><strong>卓越</strong> - 8点伤害，持续10轮</p></li><li><p><strong>大师级</strong> - 10点伤害，持续12轮</p></li></ul><p><em>应在毒药被摄入时使用此动作，而不是在其最初被施用时使用。</em></p>",
           "effects": [
             {
               "name": "中毒 Poisoned"
@@ -836,7 +836,7 @@
       "actions": {
         "rallyingElixir": {
           "name": "振奋灵药 Rallying Elixir",
-          "description": "<p>立即恢复一定数量的<strong>士气</strong>，具体数值取决于该灵药的品质。</p><ul><li><p><strong>粗劣</strong> - 立即恢复 6 点<strong>士气</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>士气</strong>。</p></li><li><p><strong>优良</strong> - 立即恢复 24 点<strong>士气</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>士气</strong>。</p></li><li><p><strong>杰作</strong> - 立即恢复 96 点<strong>士气</strong>。</p></li></ul>"
+          "description": "<p>立即恢复一定数量的<strong>士气</strong>，具体数值取决于该灵药的品质。</p><ul><li><p><strong>粗糙</strong> - 立即恢复 6 点<strong>士气</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>士气</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 24 点<strong>士气</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>士气</strong>。</p></li><li><p><strong>大师级</strong> - 立即恢复 96 点<strong>士气</strong>。</p></li></ul>"
         }
       }
     },
@@ -848,7 +848,7 @@
       "actions": {
         "rallyingTonic": {
           "name": "振奋补剂 Rallying Tonic",
-          "description": "<p>立即，并在接下来 5 <strong>轮</strong>中的每一轮开始时，根据药剂的品质恢复一定量的<strong>士气</strong>。</p><ul><li><p><strong>粗制滥造</strong> - 每轮恢复 2 <strong>士气</strong></p></li><li><p><strong>标准</strong> - 每轮恢复 4 <strong>士气</strong></p></li><li><p><strong>精良 </strong>- 每轮恢复 8 <strong>士气 </strong></p></li><li><p><strong>优异</strong> - 每轮恢复 16 <strong>士气</strong></p></li><li><p><strong>大师之作</strong> - 每轮恢复 32 <strong>士气</strong></p></li></ul>",
+          "description": "<p>立即，并在接下来 5 <strong>轮</strong>中的每一轮开始时，根据药剂的品质恢复一定量的<strong>士气</strong>。</p><ul><li><p><strong>粗糙</strong> - 每轮恢复 2 <strong>士气</strong></p></li><li><p><strong>标准</strong> - 每轮恢复 4 <strong>士气</strong></p></li><li><p><strong>精良</strong>- 每轮恢复 8 <strong>士气 </strong></p></li><li><p><strong>卓越</strong> - 每轮恢复 16 <strong>士气</strong></p></li><li><p><strong>大师级</strong> - 每轮恢复 32 <strong>士气</strong></p></li></ul>",
           "effects": [
             {
               "name": "振奋补剂 Rallying Tonic"
@@ -1053,7 +1053,7 @@
     "Spell Scroll (Fine)": {
       "name": "法术卷轴（精制） Spell Scroll (Fine)",
       "description": {
-        "public": "<p>法术卷轴是一种经过特殊处理的犊皮纸或羊皮纸，其上被精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予其阅读者对这些构件的深刻熟悉感，仿佛他们已经了解了这些构件多年。</p><p>一张卷轴能够容纳的施法构件数量取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>卓越</strong>：可包含两个施法构件</p></li><li><p><strong>杰作</strong>：可包含三个施法构件</p></li></ul>"
+        "public": "<p>法术卷轴是一种经过特殊处理的犊皮纸或羊皮纸，其上被精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予其阅读者对这些构件的深刻熟悉感，仿佛他们已经了解了这些构件多年。</p><p>一张卷轴能够容纳的施法构件数量取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>卓越</strong>：可包含两个施法构件</p></li><li><p><strong>大师级</strong>：可包含三个施法构件</p></li></ul>"
       },
       "actions": {
         "readScroll": {
@@ -1068,7 +1068,7 @@
     "Spell Scroll (Superior)": {
       "name": "法术卷轴（卓越） Spell Scroll (Superior)",
       "description": {
-        "public": "<p>法术卷轴是一种专门制作的犊皮纸或羊皮纸，其上被精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予阅读者对这些构件的深刻熟悉感，仿佛他们已经了解多年。</p><p>一张卷轴能够容纳多少个施法构件，取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>卓越</strong>：可包含两个施法构件</p></li><li><p><strong>精制</strong>：可包含三个施法构件</p></li></ul>"
+        "public": "<p>法术卷轴是一种专门制作的犊皮纸或羊皮纸，其上被精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予阅读者对这些构件的深刻熟悉感，仿佛他们已经了解多年。</p><p>一张卷轴能够容纳多少个施法构件，取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>卓越</strong>：可包含两个施法构件</p></li><li><p><strong>精良</strong>：可包含三个施法构件</p></li></ul>"
       },
       "actions": {
         "readScroll": {
@@ -1249,7 +1249,7 @@
     "Spell Scroll (Masterwork)": {
       "name": "法术卷轴（大师级） Spell Scroll (Masterwork)",
       "description": {
-        "public": "<p>法术卷轴是一种特制的犊皮纸或羊皮纸，其上精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予其阅读者对这些构件的深刻熟悉感，仿佛他们已经了解它们多年。</p><p>一张卷轴能够容纳多少个施法构件，取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>优异</strong>：可包含两个施法构件</p></li><li><p><strong>大师级</strong>：可包含三个施法构件</p></li></ul>"
+        "public": "<p>法术卷轴是一种特制的犊皮纸或羊皮纸，其上精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予其阅读者对这些构件的深刻熟悉感，仿佛他们已经了解它们多年。</p><p>一张卷轴能够容纳多少个施法构件，取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>卓越</strong>：可包含两个施法构件</p></li><li><p><strong>大师级</strong>：可包含三个施法构件</p></li></ul>"
       },
       "actions": {
         "readScroll": {
@@ -1282,7 +1282,7 @@
       "actions": {
         "electrochargeAmpoule": {
           "name": "电荷安瓿 Electrocharge Ampoule",
-          "description": "<p>你掷出@ref[item.name]，对放电半径内所有未能躲开攻击的敌人造成减弱的<strong>电击</strong>伤害，并使其短暂@Condition[staggered]。<strong>放电</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>劣质</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>精良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
+          "description": "<p>你掷出@ref[item.name]，对放电半径内所有未能躲开攻击的敌人造成减弱的<strong>电击</strong>伤害，并使其短暂@Condition[staggered]。<strong>放电</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>粗糙</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>精良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
         }
       }
     },
@@ -1315,7 +1315,7 @@
       "actions": {
         "frostFlask": {
           "name": "霜滴小瓶 Frostdrop Phial",
-          "description": "<p>你掷出@ref[item.name]，对爆炸半径内所有未能躲开攻击的敌人造成减弱的<strong>寒冷</strong>伤害，并使其短暂@Condition[slowed]。<strong>爆破</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>劣质</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>精良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
+          "description": "<p>你掷出@ref[item.name]，对爆炸半径内所有未能躲开攻击的敌人造成减弱的<strong>寒冷</strong>伤害，并使其短暂@Condition[slowed]。<strong>爆破</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>粗糙</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>精良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
         }
       }
     },
@@ -1359,7 +1359,7 @@
     "Lantern Oil": {
       "name": "灯油 Lantern Oil",
       "description": {
-        "public": "<p>一小瓶精炼燃油。点燃一盏@UUID[Compendium.crucible.equipment.Item.lantern000000000]{提灯}需消耗一份灯油；燃烧时长取决于油的品质：</p><ul><li><p><strong>劣质</strong> - 1 小时</p></li><li><p><strong>标准</strong> - 4 小时</p></li><li><p><strong>精良</strong> - 12 小时</p></li><li><p><strong>卓越</strong> - 24 小时</p></li><li><p><strong>大师级</strong> - 48 小时</p></li></ul>"
+        "public": "<p>一小瓶精炼燃油。点燃一盏@UUID[Compendium.crucible.equipment.Item.lantern000000000]{提灯}需消耗一份灯油；燃烧时长取决于油的品质：</p><ul><li><p><strong>粗糙</strong> - 1 小时</p></li><li><p><strong>标准</strong> - 4 小时</p></li><li><p><strong>精良</strong> - 12 小时</p></li><li><p><strong>卓越</strong> - 24 小时</p></li><li><p><strong>大师级</strong> - 48 小时</p></li></ul>"
       }
     },
     "Omniglot Decoction": {
@@ -1370,7 +1370,7 @@
       "actions": {
         "omniglotDecoction": {
           "name": "通译药汤 Omniglot Decoction",
-          "description": "<p>饮下后，此药汤赋予饮用者一种奇妙的能力：读懂、说出并理解各种语言。其品质决定效果持续时间：</p><ul><li><p><strong>劣质</strong> - 10 分钟</p></li><li><p><strong>标准</strong> - 1 小时</p></li><li><p><strong>精良</strong> - 4 小时</p></li><li><p><strong>卓越</strong> - 12 小时</p></li><li><p><strong>大师级</strong> - 24 小时</p></li></ul>"
+          "description": "<p>饮下后，此药汤赋予饮用者一种奇妙的能力：读懂、说出并理解各种语言。其品质决定效果持续时间：</p><ul><li><p><strong>粗糙</strong> - 10 分钟</p></li><li><p><strong>标准</strong> - 1 小时</p></li><li><p><strong>精良</strong> - 4 小时</p></li><li><p><strong>卓越</strong> - 12 小时</p></li><li><p><strong>大师级</strong> - 24 小时</p></li></ul>"
         }
       }
     }
