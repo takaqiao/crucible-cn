@@ -466,6 +466,22 @@
               "description": "<p>你对风暴符文的掌控使你能够引导气元素与电流的流动，操纵电荷与空气动力，以产生以下效果之一：</p><ul><li><p>为你所触碰的一个不大于一立方英尺的金属物体注入电磁电荷，使其强力吸附于其他金属。在任意时刻，只能有一个物体以这种方式被充能；若你对另一个物体施放此法术，则先前物体会失去其磁性效果。</p></li><li><p>在你当前位置周围六英尺半径内聚集一阵狂风，使其要么作为一股沿单一受控方向吹拂的阵风，要么作为一股向四面八方施加向心力的旋风。周边区域内的空中效果会被驱散，而重量小于 1 的未固定物体会被朝阵风方向抛飞。</p></li><li><p>在你当前所在位置 15 英尺内、你能看见的一个地点制造出雷鸣般的震响。</p></li></ul><p>充能只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
             }
           }
+        },
+        "Shortbow": {
+          "name": "短弓 Shortbow",
+          "description": {
+            "public": "<p>短弓紧凑且便于快速拔出，擅长快速的近距离射箭与小规模冲突，深受侦察兵、猎人和行动敏捷的袭击者青睐。</p>"
+          }
+        },
+        "Pistol": {
+          "name": "手枪 Pistol",
+          "description": {
+            "public": "<p>燧发手枪是一种早期的黑火药火器，只能发出一声雷鸣般的射击；它是赌徒偏爱的武器——瞬间便可致命，但在战斗的混乱中装填缓慢。</p>"
+          }
+        },
+        "Perspicacity": {
+          "name": "洞察力 Perspicacity",
+          "description": "<p>你对周遭环境的某些方面有更敏锐的洞察。进行任何不依赖视力的<strong>察觉</strong>技能检定时，你获得 +2 恩惠骰。</p>"
         }
       }
     },
@@ -631,6 +647,12 @@
               "name": "充能 Energize",
               "description": "<p>你对风暴符文的掌控使你能够引导气元素与电流的流动，操控电荷与空气动力学，从而产生以下效果之一：</p><ul><li><p>为你所触碰的不大于一英尺立方的金属物体注入电磁电荷，使其能够强力附着于其他金属。任意时刻只能以这种方式为一个物体充能；若你对另一个物体施放此法术，则先前物体会失去其磁性效果。</p></li><li><p>以你当前位置为中心，在 6 英尺半径内聚集一阵狂风，使其要么作为沿单一受控方向吹袭的阵风，要么作为向各个方向施加向心力的旋风。附近区域中的空中效果会被驱散，且重量小于1的未固定物体会被朝阵风方向抛飞。</p></li><li><p>在你当前所在位置15英尺内、你能看见的一个地点，制造出如雷霆炸响般的冲击性声音。</p></li></ul><p>充能只能影响你能够以身体直接接触到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
             }
+          }
+        },
+        "Greatsword": {
+          "name": "巨剑 Greatsword",
+          "description": {
+            "public": "<p>比标准长剑更长也更重，巨剑是一种双手持用的刀剑，专为强力的大范围挥扫打击而设计，其长度同时带来延伸与威慑感。</p>"
           }
         }
       }
@@ -1022,6 +1044,16 @@
               "description": "<p>在一次未严重失误的基础打击之后，你以较低的<strong>动作</strong>消耗用武器的回摆再次<strong>打击</strong>同一目标。</p>"
             }
           }
+        },
+        "Ferocious Leap": {
+          "name": "凶猛飞跃 Ferocious Leap",
+          "description": "<p>你猛然跃入战斗，用你的主手武器对附近的一名敌人施以沉重一击。</p>",
+          "actions": {
+            "ferociousLeap": {
+              "name": "凶猛飞跃 Ferocious Leap",
+              "description": "<p>你<strong>跃击</strong>至多10英尺，并对你落地点近战范围内的一名敌人进行一次<strong>打击</strong>。你的移动无视困难地形，且不会被敌方生物屏蔽。</p>"
+            }
+          }
         }
       }
     },
@@ -1113,6 +1145,111 @@
             "energize": {
               "name": "充能 Energize",
               "description": "<p>你对风暴符文的掌控使你能够引导气流与电流的流动，通过操控电荷与空气动力学来产生以下效果之一：</p><ul><li><p>为你所触碰的一个不大于一立方英尺的金属物体注入电磁电荷，使其强力吸附于其他金属。任意时刻只能以这种方式为一个物体充能；对不同物体施放此法术会使先前物体失去其磁性效果。</p></li><li><p>在你当前位置周围半径6英尺内聚集一阵狂风，使其要么作为一股沿单一受控方向吹出的阵风，要么作为一个向各个方向施加向心力的旋风。附近区域中的空中效果会被驱散，而重量小于1的未固定物体会被沿阵风方向抛飞。</p></li><li><p>在你当前所在位置15英尺内、你能够看见的一个地点制造出如同霹雳炸响般的震荡声音。</p></li></ul><p>充能只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+            }
+          }
+        },
+        "Stiletto": {
+          "name": "细剑 Stiletto",
+          "description": {
+            "public": "<p>细长、渐尖，专为穿刺而制，细剑是杀手的武器——旨在从肋骨之间或护甲缝隙中滑入，几乎不留下痕迹。</p>"
+          }
+        },
+        "Conjurer": {
+          "name": "召唤师 Conjurer",
+          "description": "<p>你是召唤学派和创造手势的大师，能够将奥术能量显化为实体形态。你可以同时维持至多 3 个这样的造物，而不再仅限于一个。</p>"
+        },
+        "Counterspell": {
+          "name": "反制法术 Counterspell",
+          "description": "<p>你会立刻对正在施放的法术作出反应，并构成一个符文与手势，旨在瓦解并抵消敌方法师的施法。</p><h2 class=\"divider\">试玩测试说明</h2><p>这个动作现在可以在试玩测试中使用，但它尚未<em>完全自动化</em>。反制法术可以执行，但需要由游戏主持人手动撤销先前已施加的法术，并手动扣除其<strong>动作</strong>与<strong>专注</strong>消耗。在后续更新中，反制法术整体流程中的这些步骤<em>将会自动化</em>，这样一来，一次已确认的反制法术也会同时确认被反制的法术，不过其效果会被移除。</p>",
+          "actions": {
+            "counterspell": {
+              "name": "反制法术 Counterspell",
+              "description": "<p>你将奥术能量塑造成一道对抗性的施法，目标为你在30英尺内可见的一名施法者。</p><p>指定一个你已知的<strong>符文</strong>和<strong>手势</strong>，以尝试反制该法术。若你选择的符文与该法术所用的某个符文相对立，你的此次尝试获得<strong>+2恩惠</strong>。若你选择的手势与正在施放的手势完全相同，你的此次尝试也获得<strong>+2恩惠</strong>。</p><p>对你的目标的<strong>意志</strong>防御进行一次无害的法术攻击。若你的掷骰结果超过其防御，该法术即被反制，其魔法被消除，不产生任何效果。</p>",
+              "condition": "另一个你能看见的生物正在施放法术。"
+            }
+          }
+        },
+        "Gesture: Conjure": {
+          "name": "手势：召唤 Gesture: Conjure",
+          "description": "<p>你将奥术力量凝聚成更高阶的形态，显现出一个<strong>访客</strong>，其出现在 30 英尺内，并以<strong>先攻</strong> 1 加入战斗。你的访客是一个与你自身等级相同的仆从。</p><p>召唤手势随<strong>感知</strong>成长，且该访客会存续<strong>12 轮</strong>。你同时只能拥有一个生效中的访客。使用召唤手势施放另一个法术会替换你先前的访客。此手势需要<strong>2 只手</strong>来施放，基础消耗为<strong>5 动作</strong>和<strong>2 专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前位于一个<strong>第 4 阶</strong>节点。它最终将只能在更高等级时获得（可能需要 6 级）。目前为了测试而“提前”开放。</p><p>并非所有符文都已定义访客角色。尚未定义召唤物的符文——目前——会显现一个@UUID[Compendium.crucible.summons.Actor.AlwoqQKoL1BnnZjd]。</p>"
+        },
+        "Inflection: Compose": {
+          "name": "屈折：作曲 Inflection: Compose",
+          "description": "<p>通过在法术成形过程中花费额外时间来强化法术，以此换取降低其他资源消耗。组合词缀会使法术的<strong>专注</strong>消耗减少 1，作为交换，其<strong>动作</strong>消耗增加 1。</p>"
+        },
+        "Intuit Weakness": {
+          "name": "洞悉弱点 Intuit Weakness",
+          "description": "<p>你平静心神，研究敌人的生理结构，寻找其防御中的弱点。</p><p>进行一次<strong>知识检定</strong>，使用由游戏主持人选择的合适技能。若成功，你会得知该生物最易受到哪种伤害类型的伤害（如果有的话）。若大成功，你会得知其最易受到的两种伤害类型。</p>",
+          "actions": {
+            "intuitWeakness": {
+              "name": "洞悉弱点 Intuit Weakness",
+              "description": "<p>你平静心神，研究敌人的生理构造，试图找出其防御中的弱点。</p>"
+            }
+          }
+        },
+        "Mesmer": {
+          "name": "迷魅师 Mesmer",
+          "description": "<p>你极其擅长编织幻象符文。使用该符文的法术在暴击时会造成@Condition[confused]。</p><p>混乱效果持续<strong>1 轮</strong>，对<strong>士气</strong>造成你<strong>智力</strong>数值一半的<strong>灵能</strong>伤害，并施加@Condition[disoriented]状态。</p>"
+        },
+        "Recognize Spellcraft": {
+          "name": "识别施法 Recognize Spellcraft",
+          "description": "<p>你可以解读他人的奥术咒语，以辨明其施法的本质。当你能看见且听见的、40英尺内的一名敌人开始施放法术时，如果你也知晓该符文，你便可以鉴定其符文。</p>"
+        },
+        "Rimecaller": {
+          "name": "霜唤者 Rimecaller",
+          "description": "<p>你极其擅长编织霜冻符文。使用此符文的法术在暴击时会造成@Condition[freezing]状态。</p><p>冰冻效果持续<strong>1轮</strong>，对<strong>生命值</strong>造成相当于你<strong>感知</strong>属性一半的<strong>霜冻</strong>伤害，并施加@Condition[slowed]状态。</p>"
+        },
+        "Rune: Illusion": {
+          "name": "符文：幻象 Rune: Illusion",
+          "description": "<p>诡计与奇想的混沌之力。幻象符文掌管虚假或误导性的魔法显现。</p><p>幻象符文以 <strong>智力</strong> 进行成长，针对 <strong>意志</strong> 防御，并对 <strong>士气</strong> 造成 <strong>灵能</strong> 伤害。它与秩序的 <strong>照明</strong> 符文相对。</p>",
+          "actions": {
+            "seeming": {
+              "name": "表象 Seeming",
+              "description": "<p>你对幻象符文的掌控让你能够以各种简单方式捏造察觉，并操纵阴影与光来制造干扰或娱乐，产生以下效果之一：</p><ul><li><p>修改你自身外貌的单一方面。此类改变可能包括调整你的嗓音、改变你眼睛的颜色、获得幻象 角，或看起来稍微更高或更矮。该改变会持续，直到你休息或施加另一种不同的改变，并且可通过身体检查验证其为幻象。</p></li><li><p>显现一种逼真的短促声音或单一气味的再现，且该声音或气味必须是你能够清晰回忆的。该幻象从你所在的位置发出，并持续10秒。你可以控制声音的音量或气味的浓烈程度，使其能在最远60英尺或更短距离内被察觉到。</p></li><li><p>将你的影子与你的形体分离，并专门控制它的移动，使其独立于你自身。只要你不执行任何其他会消耗<strong>专注</strong>的动作，你就可以维持这一幻象。</p></li></ul><p>表象只能影响你能够以身体接触到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+            }
+          }
+        },
+        "Surgeweaver": {
+          "name": "激涌编织者 Surgeweaver",
+          "description": "<p>你极其擅长编织风暴符文。使用此符文的法术在造成暴击时会施加 @Condition[shocked] 状态。</p><p>感电效果持续<strong>3 轮</strong>，对<strong>士气</strong>造成你<strong>智力</strong>属性一半数值的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
+        },
+        "Tactician": {
+          "name": "战术家 Tactician",
+          "description": "<p>你是一位狡猾的战场战术家，能够组织并指挥你的盟友，使其行动更加有效。</p>",
+          "actions": {
+            "tacticalPlan": {
+              "name": "战术计划 Tactical Plan",
+              "description": "用不超过10个词，向一名在先攻顺序中于你之后行动的盟友描述一项行动方案。若该盟友在同一轮稍后执行了你所描述的计划，则其与该计划相关的任何掷骰获得+2恩惠骰。游戏主持人可以裁定该计划是否被遵循。"
+            }
+          }
+        },
+        "Talisman Weapon Training": {
+          "name": "护符武器训练 Talisman Weapon Training",
+          "description": "<p>你理解如何使用护符、法珠、法器或其他类似的法器来引导魔法或强化施法。你对<strong>护符</strong>类别中的武器拥有<strong>受训</strong>熟练度。</p>",
+          "actions": {
+            "refocus": {
+              "name": "重新聚焦 Refocus",
+              "description": "<p>你使用已装备的护符，尝试重新获得一些<strong>专注</strong>。你对自己的<strong>激励</strong>阈值进行一次<strong>无害</strong>的<strong>打击</strong>。</p><p>若成功，使用单手护符时你<strong>恢复 +1 专注</strong>，使用双手持用护符时你<strong>恢复 +2 专注</strong>。若大成功，恢复的专注量额外增加 +1。</p>"
+            }
+          }
+        },
+        "Unshakeable Poise": {
+          "name": "不动如山的沉着 Unshakeable Poise",
+          "description": "<p>你在压力情境下展现出非凡的沉着；当周围的人失去镇定时，你依然能够保持冷静。</p>",
+          "actions": {
+            "unshakeablePoise": {
+              "name": "不动如山的沉着 Unshakeable Poise",
+              "description": "<p>你消耗<strong>英雄气概</strong>，立即在<strong>专注</strong>中恢复你的<strong>感知</strong>。你可以在战斗中于自己回合之外、进行<strong>反应</strong>之前执行此动作。</p>"
+            }
+          }
+        },
+        "Wildspeaker": {
+          "name": "荒野言者 Wildspeaker",
+          "description": "<p>你天生就擅长与动物交流。通过肢体语言和声音，你能够理解并用荒野的语言进行交流。</p>",
+          "actions": {
+            "wildspeak": {
+              "name": "荒野语 Wildspeak",
+              "description": "<p>如果你成功通过一次 [[/skillCheck wilderness 14]] 检定，你可以向一只能够感知到你的<strong>野兽</strong>提出简单的问题。只要该生物不怀有敌意，它就会在自身知识所限的范围内如实作答。</p><ul><li><p><strong>智力</strong>值为 0 的野兽无法理解你。</p></li><li><p><strong>智力</strong>值为 1 的野兽只能回答“是”或“否”。</p></li><li><p><strong>智力</strong>值大于 1 的野兽可以给出简单的多词回答。</p></li></ul>"
             }
           }
         }
@@ -1375,6 +1512,10 @@
               ]
             }
           }
+        },
+        "Mental Fortress": {
+          "name": "心灵堡垒 Mental Fortress",
+          "description": "<p>你坚定的意志使你极难被影响。你的<strong>意志</strong>防御获得 +1，并获得对<strong>灵能</strong>伤害的 5 点抗性。</p>"
         }
       }
     },
@@ -1457,6 +1598,79 @@
               "description": "<p>你对湮灭符文的命令使你能够在存在的结构中拆解出微小的孔洞，产生以下效果之一：</p><ul><li><p>将你手持的一件小于 6 英寸立方体的非魔法物体解离，粉碎为其构成元素所形成的细微尘埃。</p></li><li><p>麻痹你自己或你所触碰的一名自愿目标感受情绪的能力，使其进入平静、坚忍或淡漠的状态。只要你不再进行进一步的<strong>动作</strong>，此效果便可持续维持。</p></li><li><p>压制一个光源的强度，使其可见半径减少一半；只要你与其保持物理接触，该效果便会持续。任意时刻只能以这种方式削弱一个光源。</p></li></ul><p>擦除只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
             }
           }
+        },
+        "Arcana Novice": {
+          "name": "奥术新手 Arcana Novice",
+          "description": "<p>你的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知的被神化与被妖魔化的崇拜对象。你在<strong>奥术</strong>技能中获得<strong>新手</strong>等级，并且不再被视为该技能<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪一种低阶符文，以及所用的手势（但无法辨别词缀）。你能够判断一个存在更受混沌还是秩序影响，也能识别常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有足够了解，能够在与崇拜某位灵体或神祇的人交流时不至于让自己出丑。</p>"
+        },
+        "Awareness Novice": {
+          "name": "察觉新手 Awareness Novice",
+          "description": "<p>你已接受过情境察觉基础训练，能够注意到周围环境中的重要细节。你在<strong>察觉</strong>技能上获得<strong>新手</strong>等级，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道进入房间时要检查出口，也知道如何寻找隐藏的武器、隐蔽的陷阱以及其他威胁。你知道如何发现自己何时被跟踪，也知道如何搜查常见的藏身处。</p>"
+        },
+        "Counterspell": {
+          "name": "反制法术 Counterspell",
+          "description": "<p>你会立刻对正在施放的法术作出反应，并构成一个符文与手势，旨在瓦解并抵消敌方法师的施法。</p><h2 class=\"divider\">试玩测试说明</h2><p>这个动作现在可以在试玩测试中使用，但它尚未<em>完全自动化</em>。反制法术可以执行，但需要由游戏主持人手动撤销先前已施加的法术，并手动扣除其<strong>动作</strong>与<strong>专注</strong>消耗。在后续更新中，反制法术整体流程中的这些步骤<em>将会自动化</em>，这样一来，一次已确认的反制法术也会同时确认被反制的法术，不过其效果会被移除。</p>",
+          "actions": {
+            "counterspell": {
+              "name": "反制法术 Counterspell",
+              "description": "<p>你将奥术能量塑造成一道对抗性的施法，目标为你在30英尺内可见的一名施法者。</p><p>指定一个你已知的<strong>符文</strong>和<strong>手势</strong>，以尝试反制该法术。若你选择的符文与该法术所用的某个符文相对立，你的此次尝试获得<strong>+2恩惠</strong>。若你选择的手势与正在施放的手势完全相同，你的此次尝试也获得<strong>+2恩惠</strong>。</p><p>对你的目标的<strong>意志</strong>防御进行一次无害的法术攻击。若你的掷骰结果超过其防御，该法术即被反制，其魔法被消除，不产生任何效果。</p>",
+              "condition": "另一个你能看见的生物正在施放法术。"
+            }
+          }
+        },
+        "Flame Proficiency": {
+          "name": "火焰熟练度 Flame Proficiency",
+          "description": "<p>你熟练掌握了运用火焰符文进行施法的技巧。使用该符文施放法术时，你获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为@Action[Compendium.crucible.talent.Item.runeFlame0000000 enkindle]动作提供升级，扩展其效果，或加入新的使用选项。</p>"
+        },
+        "Gesture: Blast": {
+          "name": "手势：爆破 Gesture: Blast",
+          "description": "<p>你将一个符文的奥术力量投掷到附近你能看见的一点，引发一场剧烈的能量爆炸。</p><p>爆裂手势会随<strong>智力</strong>成长，并在施法者60英尺内的一点为中心产生一个半径6英尺的爆炸范围。该爆炸会对未能抵抗此法术的目标造成8基础伤害。施放此手势需要<strong>2只手</strong>，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前位于一个<strong>第4阶</strong>节点。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为了测试而提前开放。</p>"
+        },
+        "Gesture: Pulse": {
+          "name": "手势：脉冲 Gesture: Pulse",
+          "description": "<p>将符文的奥术力量驱散为一个以你为中心、随你向外扩展的半径范围。</p><p>脉冲手势按<strong>存在</strong>进行缩放，产生一个10英尺半径的散发区域，对未能抵抗该法术的目标造成8基础伤害。该手势施放需要<strong>2只手</strong>，基础消耗为<strong>5动作</strong>和<strong>2专注</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋目前放置在一个<strong>第4阶</strong>节点上。它最终将只能在更高等级时获得（可能需要<strong>6级</strong>）。目前为测试目的而“提前”开放。</p>"
+        },
+        "Impetus": {
+          "name": "动因 Impetus",
+          "description": "<p>你很擅长利用他人思考迟缓的弱点。如果在一轮战斗中你位于先攻顺序的第一位，则你获得+1当前和最大动作。</p>"
+        },
+        "Iramancer": {
+          "name": "艾拉曼瑟 Iramancer",
+          "description": "<p>你的奥术技艺由愤怒驱动。处于@Condition[enraged]状态时，你仍可以消耗<strong>专注</strong>，且你的所有法术攻击额外造成 2 点伤害。</p>"
+        },
+        "Lightbringer": {
+          "name": "光明使者 Lightbringer",
+          "description": "<p>你极其擅长编织照明符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[irradiated] 状态。</p><p>辐照效果会持续<strong>1 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>各造成等同于你的<strong>照明符文</strong>所依据属性值的<strong>光耀</strong>伤害。</p>"
+        },
+        "Opportunistic Spellcraft": {
+          "name": "借机施法 Opportunistic Spellcraft",
+          "description": "<p>你的敏捷思维能编织魔法，利用稍纵即逝的机会。你可以使用<strong>触碰</strong>手势来进行一次<strong>脱离攻击</strong>，而不是进行一次近战武器攻击。</p>"
+        },
+        "Pyromancer": {
+          "name": "炎术师 Pyromancer",
+          "description": "<p>你极其擅长编织火焰符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[burning] 状态。</p><p>燃烧效果持续<strong>3 轮</strong>，并对<strong>生命值</strong>和<strong>士气</strong>各造成等同于你的<strong>火焰符文</strong>所依据属性值一半的<strong>火焰</strong>伤害。</p>"
+        },
+        "Rune: Kinesis": {
+          "name": "符文：念力 Rune: Kinesis",
+          "description": "<p>空间与物理运动的混沌之力。念力符文支配着一切与移动行为和物质性相关的事物。</p><p>念力符文依靠<strong>存在</strong>进行成长，目标是<strong>物理</strong>防御，并对<strong>生命值</strong>造成<strong>钝击</strong>、<strong>穿刺</strong>或<strong>挥砍</strong>伤害。它与秩序的<strong>控制</strong>符文相对立。</p>",
+          "actions": {
+            "propel": {
+              "name": "推进 Propel",
+              "description": "<p>你对念力符文的掌控使你能够对重力施加局部控制，以进行基础的念力操控，产生以下效果之一：</p><ul><li><p>将15英尺内一个未固定且重量不大于1的物体拉向你并接住。由生物已装备或持有的物体，除非该生物自愿放手，否则绝不会被视为未固定。</p></li><li><p>将你手持的一个重量不大于1的物体弹向一个最远30英尺外的目标。该物体会以中等速度沿直线准确无误地飞向该目标。物体飞行路径上的任何生物都可以作出反应将其接住，只要他们有一只空闲的手来这么做。</p></li><li><p>使你所接触的一个物体或自愿生物悬浮在半空中，其重量小于或等于你<strong>存在</strong>的10倍，并将其位置从原本所在处向任意方向改变最多20英尺。只要你不再采取进一步的动作，且未处于@Condition[incapacitated]，你就可以无限期维持这种悬浮。</p></li></ul><p>除非另有说明，推进只能影响你能够实际触碰到的生物或物体。你也可以尝试其他与上述类似的用途，其效果由游戏主持人裁定。</p>"
+            }
+          }
+        },
+        "Strategic Repositioning": {
+          "name": "战略性重新部署 Strategic Repositioning",
+          "description": "<p>你总是会提前思考，一旦危险逼近自己该站在什么位置。在战斗遭遇的<strong>第 1 回合</strong>开始前，只要你并非@Condition[unaware]，你便可以立刻朝任意允许的方向移动 4 尺。</p><p>如果有多个战斗者拥有此特性，则重新定位按先攻的逆序进行。</p><h3 class=\"divider\">试玩测试说明</h3><p>此天赋尚未实现自动化。</p>"
+        },
+        "Versatile Translator": {
+          "name": "多才多艺的翻译者 Versatile Translator",
+          "description": "<p>你在语言学方面拥有学术背景，或对语言有一种直觉般的天赋。你的能力使你能够破译用多种语言写成的文本的基本含义。</p><p>你可以将一种你不懂、但使用一套通用字形或字符书写的语言文本，翻译成一种你所懂的语言。进行这样的翻译时，你需要按每个词一分钟的速度，将文本转写成一种你能够理解的语言。</p><p>你的译文较为粗略，且往往缺乏细微之处，但仍包含文本的所有要点。</p>"
+        },
+        "War Mage": {
+          "name": "战斗法师 War Mage",
+          "description": "<p>你的施法被磨炼成战场上的武器，用以挫败其他法师的咒语。你可以询问游戏主持人，自己是否知晓一种能够反制敌方法术的<strong>符文</strong>，即使你并不认识正在施放的法术。你在任何@Action[Compendium.crucible.talent.Item.counterspell0000 counterspell]中获得 +2 恩惠骰。</p>"
         }
       }
     }
