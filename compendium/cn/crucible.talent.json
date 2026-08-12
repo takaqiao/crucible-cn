@@ -1446,7 +1446,7 @@
       "actions": {
         "rallyingCry": {
           "name": "振奋战吼 Rallying Cry",
-          "description": "<p>你发出一声勇敢的怒吼，激励12英尺内的盟友在险境面前保持坚定。范围内的所有盟友立即恢复等同于你的<strong>存在</strong>数值的<strong>士气</strong>，并成为 @Condition[resolute]，持续3轮。</p>",
+          "description": "<p>你发出一声勇敢的怒吼，激励你 12 英尺内的盟友在危险面前保持坚定。范围内的所有盟友立即恢复等同于你<strong>存在</strong>值的<strong>士气</strong>，并获得@Condition[resolute]，持续 3 轮。</p>",
           "effects": [
             {
               "name": "振奋战吼 Rallying Cry"
@@ -1590,7 +1590,7 @@
     },
     "Rune: Soul": {
       "name": "符文：灵魂 Rune: Soul",
-      "description": "<p>一种由创造与精神本质构成的有序力量。灵魂符文支配灵魂在生命与死亡之间的基本流转，并与知性、人格及心理健康等事务相关。</p><p>灵魂符文以 <strong>存在</strong> 进行成长，能够提供 <strong>恢复</strong> 以恢复 <strong>士气</strong>，或造成由 <strong>意志</strong> 对抗的 <strong>灵能</strong> 伤害。它与混沌的 <strong>湮灭</strong> 符文相对立。</p>",
+      "description": "<p>一种有序的创造与精神本质之力。灵魂符文支配着灵魂在生命与死亡间的基本流转，并与知性、人格及心理健康等事务相关。</p><p>灵魂符文以 <strong>存在</strong> 进行成长，能够提供 <strong>恢复</strong> 以恢复<strong>士气</strong>。特殊情况下，它也可用于造成由 <strong>意志</strong> 抵抗的 <strong>灵能</strong> 伤害。它与混沌的 <strong>湮灭</strong> 符文相对立。</p>",
       "actions": {
         "evoke": {
           "name": "引发 Evoke",
