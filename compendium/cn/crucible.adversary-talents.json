@@ -280,7 +280,7 @@
       "actions": {
         "oozeCorrodeWeapon": {
           "name": "腐蚀武器 Corrode Weapon",
-          "description": "<p>当被金属制成的近战武器击中时，软泥怪会试图吞噬该武器本身，并可能将其破坏。</p><p>此次攻击为<strong>无害</strong>，但若成功，用于此次攻击的武器的<strong>品质</strong>会降低一个等级。若获得严重成功，或该武器已是<strong>粗制滥造</strong>，则该武器会完全<strong>破碎</strong>。附魔武器不受此效果影响。</p>",
+          "description": "<p>当被金属制成的近战武器击中时，软泥怪会试图吞噬该武器本身，并可能将其破坏。</p><p>此次攻击为<strong>无害</strong>，但若成功，用于此次攻击的武器的<strong>品质</strong>会降低一个等级。若获得大成功，或该武器已是<strong>粗制滥造</strong>，则该武器会完全<strong>破碎</strong>。附魔武器不受此效果影响。</p>",
           "condition": "被金属制武器近战击中。"
         }
       }
@@ -349,7 +349,7 @@
       "actions": {
         "rakingTalons": {
           "name": "耙掠利爪 Raking Talons",
-          "description": "<p>该@ref[actor.name]{生物}迅速地用双爪发起攻击。</p><p>如果至少有一次攻击获得<strong>严重成功</strong>，则其会施加@Condition[bleeding]状态，持续<strong>2 轮</strong>。</p>",
+          "description": "<p>该@ref[actor.name]{生物}迅速地用双爪发起攻击。</p><p>如果至少有一次攻击获得<strong>大成功</strong>，则其会施加@Condition[bleeding]状态，持续<strong>2 轮</strong>。</p>",
           "effects": [
             {
               "name": "耙掠利爪 Raking Talons"

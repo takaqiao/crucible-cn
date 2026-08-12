@@ -2336,7 +2336,7 @@
             },
             "Unshakeable Stance": {
               "name": "不动如山姿态 Unshakeable Stance",
-              "description": "<p>除非是由敌人掷出的严重成功，或是由你自己掷出的严重失败，否则你不会被任何动作非自愿地移动或击倒至@Condition[prone]状态。</p><h3 class=\"divider\">试玩测试说明</h3><p>此天赋尚未实现自动化。</p>"
+              "description": "<p>除非是由敌人掷出的大成功，或是由你自己掷出的严重失败，否则你不会被任何动作非自愿地移动或击倒至@Condition[prone]状态。</p><h3 class=\"divider\">试玩测试说明</h3><p>此天赋尚未实现自动化。</p>"
             },
             "Ruthless Momentum": {
               "name": "无情动量 Ruthless Momentum",

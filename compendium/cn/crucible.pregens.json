@@ -992,7 +992,7 @@
         },
         "Unshakeable Stance": {
           "name": "不动如山姿态 Unshakeable Stance",
-          "description": "<p>你不会被任何动作非自愿地移动或击倒至@Condition[prone]状态，除非该动作是敌人掷出的重大成功或你自己掷出的重大失败。</p><h3 class=\"divider\">试玩测试说明</h3><p>此天赋尚未实现自动化。</p>"
+          "description": "<p>你不会被任何动作非自愿地移动或击倒至@Condition[prone]状态，除非该动作是敌人掷出的大成功或你自己掷出的重严重失败。</p><h3 class=\"divider\">试玩测试说明</h3><p>此天赋尚未实现自动化。</p>"
         },
         "Uppercut": {
           "name": "上勾拳 Uppercut",
