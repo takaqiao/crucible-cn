@@ -32,12 +32,15 @@ https://github.com/takaqiao/crucible-cn/releases/latest/download/module.json
 
 ## 依赖 / Requires
 
-- Foundry VTT v13 ~ v14
+- Foundry VTT **v14**（Crucible 0.10.1 自身要求核心 ≥ 14.364）
 - Crucible 系统 **v0.10.1+**
 - [Babele](https://foundryvtt.com/packages/babele) **v2.9.1+**
 
-> 这三项写在 `module.json` 的 `relationships.requires` 里，由 Foundry 强制校验：
-> 版本低于上述要求时，Foundry 会**直接拒绝启用**本模块，而不是只给个警告。
+> 三项都由 Foundry 强制校验（版本不满足时**直接拒绝启用**，而不是只给个警告），
+> 但**写在不同字段里**：核心版本看 `module.json` 的 `compatibility`，
+> Babele 看 `relationships.requires`，Crucible 系统看 `relationships.systems`。
+> ⚠ 非 `type: "module"` 的条目放进 `relationships.requires` 是**完全不生效**的 ——
+> Foundry v14 里读它的四条路径全部第一句就 `if (type !== "module") continue`。
 > Babele 2.9.1 是硬下限 —— 详见 `babele-register.js` 文件头：注册挂在 Babele 自己的
 > `babele.init` 钩子上，并依赖 2.9.1 原生的 `ActiveEffect` 映射与递归 `document` 转换器。
 >
@@ -52,7 +55,7 @@ https://github.com/takaqiao/crucible-cn/releases/latest/download/module.json
 |---|---|
 | `scan_untranslated.py` / `scan_untranslated_deep.py` | 扫描合集中残留的未翻译英文 |
 | `find_untranslated_english.py` | 找出疑似纯英文条目 |
-| `repair_bilingual_names.py` | 修正中英混排的实体名 |
+| `repair_bilingual_names.py` | **只读报告**：列出疑似中英混排的实体名。判据是纯形状的，本库实测 652 条建议**没有一条可以直接采用**，所以它不写盘；确认要改的走 `3-常用脚本/qa/apply_translations.py` |
 | `scan_word_leaks.py` / `fix_word_leaks.py` | 词汇泄漏检测与修复 |
 | `audit_all.py` | 一键全量稽核 |
 

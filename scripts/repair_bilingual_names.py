@@ -1,7 +1,28 @@
-"""For every dict node in CN packs that has a `name` field, look up the
-parallel node in EN and ensure CN name follows `{CJK chunk} {EN name}`.
-If current CN name is broken (any English token in it that isn't equal to
-the EN trailing portion), rebuild it.
+"""⚠ 只读报告工具，**不写盘**。原本它是直接改 `compendium/cn` 的，已改掉，原因如下。
+
+它做的事：遍历 CN 包里每一个带 `name` 的节点，跟 EN 侧同路径对照，
+按「双语并列 `中文 英文`」的形状判断这个名字坏没坏，并给出一个重建建议。
+
+为什么不再让它写盘（空跑实测，只读）
+------------------------------------
+判据 (`is_broken`) 与重建 (`rebuild`) 都是**纯形状**的 —— 只看当前字符串里有没有
+拉丁字母、有没有空格、结不结尾于英文名，完全不看这个名字**是什么**。结果：
+
+* 本仓 3 条建议里 1 条丢字：
+  `试玩测试 1 - 英勇之戒 Playtest 1 - The Ring of Valor`
+  -> `试玩测试 Playtest 1 - The Ring of Valor`（中文侧「1 - 英勇之戒」整段没了）。
+* 把同一判据指向 ember_cn：**649 条建议里 403 条重建后比原来短**，即丢字。
+  典型 `补丁 0.4.7 Patch 0.4.7` -> `补丁 Patch 0.4.7`（版本号被吃掉，同型 20 余条）；
+  另有 6 条把英文名拼了第二遍，如 `V'玛尔 V'Mar` -> `V'玛尔 V'Mar V'Mar`
+  （中文名以拉丁字母 V 开头，`first_cjk_chunk` 第一个字符就停）。
+* 把 `rebuild` 换成「保留整段中文头」之后，剩下的 34 条建议**依然全错**：
+  它们只是「中文没有以英文名结尾」，如 `1. 洞悉加值 Insight Bonus` 对英文
+  `1. Insight Bonus`，建议是把整串英文再拼一遍。
+  也就是说 **652 条建议（本仓 3 + ember 侧 649）里真阳性为 0**。
+
+所以它现在只报不改。真要落地的改动一律走
+`3-常用脚本/qa/apply_translations.py`（英文源漂移 / 无中文 / 标记破损三道闸），
+这也是 PROJECT.md 的硬规矩：**任何情况下都不要直接改 `compendium/cn`**。
 """
 import json, os, re
 
@@ -51,9 +72,8 @@ def walk_pair(cn, en, fixed):
     if isinstance(cn, dict) and isinstance(en, dict):
         if 'name' in cn and 'name' in en:
             if is_broken(cn['name'], en['name']):
-                new = rebuild(cn['name'], en['name'])
-                fixed.append((cn['name'], new))
-                cn['name'] = new
+                # 只记录不改写：本脚本是只读报告，见文件头。
+                fixed.append((cn['name'], rebuild(cn['name'], en['name'])))
         for k, v in cn.items():
             if k in en:
                 walk_pair(v, en[k], fixed)
@@ -74,15 +94,16 @@ def main():
         fixed = []
         walk_pair(cn, en, fixed)
         if fixed:
-            with open(cn_p, 'w', encoding='utf-8') as f:
-                json.dump(cn, f, ensure_ascii=False, indent=2)
-            print(f'== {fn}: {len(fixed)} fixed')
+            print(f'== {fn}: {len(fixed)} suspicious')
             for o, n in fixed[:20]:
-                print(f'  {o!r} -> {n!r}')
+                flag = '   <== 建议值比原值短，会丢字' if len(n) < len(o) else ''
+                print(f'  {o!r}\n    建议 {n!r}{flag}')
             if len(fixed) > 20:
                 print(f'  ... +{len(fixed)-20}')
             total += len(fixed)
-    print(f'\nTotal: {total}')
+    print(f'\nTotal: {total} suspicious name(s).')
+    print('本脚本不写盘。判据是纯形状的，误报率极高（见文件头的实测数据）——')
+    print('逐条人看之后，要落地的走 3-常用脚本/qa/apply_translations.py。')
 
 if __name__ == '__main__':
     main()
