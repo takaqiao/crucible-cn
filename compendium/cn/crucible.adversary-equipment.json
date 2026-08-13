@@ -60,7 +60,7 @@
     "Claws": {
       "name": "爪 Claws",
       "description": {
-        "public": "<p>@ref[actor.name]{该生物}长有细长而锐利的爪。</p>"
+        "public": "<p>该@ref[actor.name]{生物}长有细长而锋利的爪。</p>"
       }
     },
     "Dense Pelt": {

@@ -11,7 +11,7 @@
       "tokenName": "死亡的创造",
       "archetype": {
         "name": "元素精灵 Elemental Sprite",
-        "description": "<p>元素精灵是较低等的元素生物，是其原始元素的化身，但缺乏其更高等同类所具备的智慧。</p>"
+        "description": "<p>元素精灵是低等元素生物，是其原始元素的化身，但缺乏其高等同类所具备的智慧。</p>"
       },
       "taxonomy": {
         "name": "骷髅 Skeleton",
@@ -23,7 +23,7 @@
         },
         "False Appearance": {
           "name": "伪装外表 False Appearance",
-          "description": "<p>当其保持静止不动时，该@ref[actor.name]{生物}与某个其他物体或材料无法区分。</p>"
+          "description": "<p>当其保持静止不动时，@ref[actor.name]{生物}与某个其他物体或材料无法区分。</p>"
         },
         "Gesture: Fan": {
           "name": "手势：扇形 Gesture: Fan",
@@ -43,11 +43,11 @@
       "tokenName": "火焰咒术召唤",
       "archetype": {
         "name": "元素访客 Elemental Visitor",
-        "description": "<p>访客是原始元素能量的化身，会呈现出大致具有人型生物轮廓的形态。与其较低等的同类不同，元素访客能够沟通并理解事理，尽管他们的动机很少与凡人一致。</p>"
+        "description": "<p>访客是原始元素能量的具现化，会呈现出大致具有人型生物轮廓的形态。与它们较低阶的同类不同，元素访客具备沟通与理解的能力，尽管它们的动机很少与凡人的动机一致。</p>"
       },
       "taxonomy": {
         "name": "火元素 Fire Elemental",
-        "description": "<p>与火焰对应的元素生物。</p>"
+        "description": "<p>与火焰相对应的元素生物。</p>"
       },
       "items": {
         "Flame Claw": {
@@ -55,15 +55,15 @@
         },
         "Fire Absorption": {
           "name": "火焰吸收 Fire Absorption",
-          "description": "<p>该@ref[actor.name]{生物}拥有在灼热环境中茁壮生存的非凡能力。其<strong>火焰</strong>抗性加倍；如果该抗性会使伤害数值降至零以下，则该负数值改为作为<strong>治疗</strong>获得。</p>"
+          "description": "<p>该@ref[actor.name]{生物}拥有在灼热环境中茁壮生存的卓越能力。其<strong>火焰</strong>抗性加倍，且如果该抗性会使伤害值降低至零以下，则该负值改为作为<strong>治疗</strong>受到。</p>"
         },
         "Gesture: Aspect": {
           "name": "手势：化相 Gesture: Aspect",
-          "description": "<p>将一个符文的精华注入自身，强化你自己的肉体形态或心灵。</p>\n\n<p>当你承载某种面相时，你会与法术中所用符文的伤害类型更加协调。你获得对此伤害类型的<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p>\n\n<p>你的面相持续<strong>6 轮</strong>。你只能拥有一个生效中的面相；施放另一个使用面相手势的法术会替代先前的效果。</p>"
+          "description": "<p>将一个符文的精华注入自身，强化你自己的肉体形态或心灵。</p>\n\n<p>当你承载某种化相时，你会与法术中所用符文的伤害类型更加协调。你获得对此伤害类型的<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p>\n\n<p>你的化相持续<strong>6 轮</strong>。你只能拥有一个生效中的化相；施放另一个使用化相手势的法术会替代先前的效果。</p>"
         },
         "Gesture: Fan": {
           "name": "手势：扇形 Gesture: Fan",
-          "description": "<p>将符文的精华专注为一道横扫或碎裂的弧形打击近距离内的多个目标。若与大地配合使用，这可能会以弧形掷出一片石块喷射；而与念力配合使用时，则可能会在多个敌人身上切开一道裂痕。</p><p>扇形手势依照<strong>智力</strong>成长，目标为一个120度、6英尺的锥形范围，并在攻击成功时造成6点基础伤害。</p>"
+          "description": "<p>将符文的精华凝聚成一道横扫或碎裂的弧形，以打击近距离内的多个目标。若与大地配合使用，这可能会沿弧线掷出一片碎石；而与念力配合使用，则可能会在多个敌人身上切开一道裂痕。</p><p>扇形手势基于<strong>智力</strong>进行成长，目标为一个120度、6英尺的锥形区域，并在攻击成功时造成6点基础伤害。</p>"
         },
         "Elemental Armor": {
           "name": "元素护甲 Elemental Armor"
@@ -79,11 +79,11 @@
       "tokenName": "风暴的创造",
       "archetype": {
         "name": "元素精灵 Elemental Sprite",
-        "description": "<p>元素精灵是次级元素生物，乃其原初元素的化身，但缺乏其更高等同类所具备的智慧。</p>"
+        "description": "<p>元素精灵是低等元素生物，是其原始元素的化身，但缺乏其高等同类所具备的智慧。</p>"
       },
       "taxonomy": {
         "name": "风暴元素 Storm Elemental",
-        "description": "<p>与风暴元素对应的元素生物。</p>"
+        "description": "<p>与风暴元素相对应的元素生物。</p>"
       },
       "items": {
         "Voltaic Claw": {
@@ -91,11 +91,11 @@
         },
         "Electricity Absorption": {
           "name": "电击吸收 Electricity Absorption",
-          "description": "<p>该@ref[actor.name]{生物}拥有非凡的能力，能从容承受电击冲击。其<strong>电击</strong>抗性翻倍，且如果该抗性会将伤害量降低至零以下，则该负值改为作为<strong>治疗</strong>获得。</p>"
+          "description": "<p>该@ref[actor.name]{生物}拥有非凡的能力，能从容承受闪电冲击。其<strong>电击</strong>抗性翻倍，且如果该抗性会将伤害量降低至零以下，则该负值改为作为<strong>治疗</strong>获得。</p>"
         },
         "False Appearance": {
           "name": "伪装外表 False Appearance",
-          "description": "<p>当其保持静止时，@ref[actor.name]{生物}与某个其他物体或材料无法区分。</p>"
+          "description": "<p>当其保持静止不动时，@ref[actor.name]{生物}与某个其他物体或材料无法区分。</p>"
         },
         "Gesture: Arrow": {
           "name": "手势：箭矢 Gesture: Arrow",
@@ -103,7 +103,7 @@
         },
         "Gesture: Fan": {
           "name": "手势：扇形 Gesture: Fan",
-          "description": "<p>将符文的精华凝聚成一道横扫或迸裂的弧形，以打击近距离内的多个目标。若与大地配合使用，这可能会呈扇形掷出一片碎石；而与念力配合使用时，则可能会在多个敌人身上切出一道裂痕。</p><p>手势：扇形使用 <strong>智力</strong> 进行成长，目标为一个 120 度、6 英尺的锥形区域，并在攻击成功时造成 6 点基础伤害。</p>"
+          "description": "<p>将符文的精华凝聚成一道横扫或碎裂的弧形，以打击近距离内的多个目标。若与大地配合使用，这可能会沿弧线掷出一片碎石；而与念力配合使用，则可能会在多个敌人身上切开一道裂痕。</p><p>扇形手势基于<strong>智力</strong>进行成长，目标为一个120度、6英尺的锥形区域，并在攻击成功时造成6点基础伤害。</p>"
         },
         "Elemental Armor": {
           "name": "元素护甲 Elemental Armor"
@@ -119,24 +119,24 @@
       "tokenName": "火焰的创造",
       "archetype": {
         "name": "元素精灵 Elemental Sprite",
-        "description": "<p>小妖精是较低等的元素生物，乃其原始元素的化身，但缺乏其更高等同类所具备的智慧。</p>"
+        "description": "<p>元素精灵是低等元素生物，是其原始元素的化身，但缺乏其高等同类所具备的智慧。</p>"
       },
       "taxonomy": {
         "name": "火元素 Fire Elemental",
-        "description": "<p>与火焰对应的元素生物。</p>"
+        "description": "<p>与火焰相对应的元素生物。</p>"
       },
       "items": {
         "False Appearance": {
           "name": "伪装外表 False Appearance",
-          "description": "<p>当其保持静止不动时，该@ref[actor.name]{生物}与其他某种物体或材料无法区分。</p>"
+          "description": "<p>当其保持静止不动时，@ref[actor.name]{生物}与某个其他物体或材料无法区分。</p>"
         },
         "Fire Absorption": {
           "name": "火焰吸收 Fire Absorption",
-          "description": "<p>该@ref[actor.name]{生物}拥有在灼热环境中茁壮生存的非凡能力。其<strong>火焰</strong>抗性翻倍，且如果该抗性会将伤害量降低至零以下，则该负数值改为作为<strong>治疗</strong>获得。</p>"
+          "description": "<p>该@ref[actor.name]{生物}拥有在灼热环境中茁壮生存的卓越能力。其<strong>火焰</strong>抗性加倍，且如果该抗性会使伤害值降低至零以下，则该负值改为作为<strong>治疗</strong>受到。</p>"
         },
         "Gesture: Fan": {
           "name": "手势：扇形 Gesture: Fan",
-          "description": "你学会了扇形手势，使你能够在有限的弧形范围内施展奥术之力。"
+          "description": "你学会了手势：扇形，使你能够在有限的弧形范围内施放奥术力量。"
         },
         "Elemental Armor": {
           "name": "元素护甲 Elemental Armor"
@@ -155,11 +155,11 @@
       "tokenName": "风暴精灵",
       "archetype": {
         "name": "元素访客 Elemental Visitor",
-        "description": "<p>访客是纯粹元素能量的化身，会呈现出形态上大致类似人型生物的外形。与它们较弱小的同类不同，元素访客具备沟通与理解的能力，尽管它们的动机很少与凡人一致。</p>"
+        "description": "<p>访客是原始元素能量的具现化，会呈现出大致具有人型生物轮廓的形态。与它们较低阶的同类不同，元素访客具备沟通与理解的能力，尽管它们的动机很少与凡人的动机一致。</p>"
       },
       "taxonomy": {
         "name": "风暴元素 Storm Elemental",
-        "description": "<p>与风暴元素对应的元素生物。</p>"
+        "description": "<p>与风暴元素相对应的元素生物。</p>"
       },
       "items": {
         "Elemental Armor": {
@@ -167,18 +167,18 @@
         },
         "Electricity Absorption": {
           "name": "电击吸收 Electricity Absorption",
-          "description": "<p>该@ref[actor.name]{生物}具备非凡的能力，能够从容承受电击冲击。其<strong>电击</strong>抗性加倍，且如果该抗性会将伤害量降低到零以下，则该负数值改为作为<strong>治疗</strong>承受。</p>"
+          "description": "<p>该@ref[actor.name]{生物}拥有非凡的能力，能从容承受闪电冲击。其<strong>电击</strong>抗性翻倍，且如果该抗性会将伤害量降低至零以下，则该负值改为作为<strong>治疗</strong>获得。</p>"
         },
         "Voltaic Claw": {
           "name": "电爪 Voltaic Claw"
         },
         "Gesture: Aspect": {
           "name": "手势：化相 Gesture: Aspect",
-          "description": "<p>将一个符文的精华注入自身，强化你自己的肉体形态或精神心智。</p>\n\n<p>当你呈现某种形态时，你会与法术中所用符文的伤害类型更加协调。你获得对该伤害类型的<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p>\n\n<p>你的形态持续<strong>6 轮</strong>。你同时只能有一个生效中的形态，使用形态手势施放另一个法术会替代之前的效果。</p>"
+          "description": "<p>将一个符文的精华注入自身，强化你自己的肉体形态或心灵。</p>\n\n<p>当你承载某种化相时，你会与法术中所用符文的伤害类型更加协调。你获得对此伤害类型的<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p>\n\n<p>你的化相持续<strong>6 轮</strong>。你只能拥有一个生效中的化相；施放另一个使用化相手势的法术会替代先前的效果。</p>"
         },
         "Gesture: Fan": {
           "name": "手势：扇形 Gesture: Fan",
-          "description": "<p>将符文的精华凝聚成一道横扫或碎裂的弧形，以打击近距离内的多个目标。若与大地配合使用，这可能会抛射出一片弧形的石雨；而与念力配合使用，则可能会在多个敌人身上切出一道裂痕。</p><p>扇形手势基于 <strong>智力</strong> 进行成长，目标为一个120度、6英尺的锥形区域，并在攻击成功时造成6点基础伤害。</p>"
+          "description": "<p>将符文的精华凝聚成一道横扫或碎裂的弧形，以打击近距离内的多个目标。若与大地配合使用，这可能会沿弧线掷出一片碎石；而与念力配合使用，则可能会在多个敌人身上切开一道裂痕。</p><p>扇形手势基于<strong>智力</strong>进行成长，目标为一个120度、6英尺的锥形区域，并在攻击成功时造成6点基础伤害。</p>"
         },
         "Rune: Storm": {
           "name": "符文：风暴 Rune: Storm",
@@ -191,11 +191,11 @@
       "tokenName": "寒霜精灵",
       "archetype": {
         "name": "元素访客 Elemental Visitor",
-        "description": "<p>访客是原始元素能量的化身，会呈现出大致具有人型生物轮廓的形态。与它们较低等的同类不同，元素访客能够沟通并理解事理，尽管它们的动机很少与凡人一致。</p>"
+        "description": "<p>访客是原始元素能量的具现化，会呈现出大致具有人型生物轮廓的形态。与它们较低阶的同类不同，元素访客具备沟通与理解的能力，尽管它们的动机很少与凡人的动机一致。</p>"
       },
       "taxonomy": {
         "name": "冰霜元素 Frost Elemental",
-        "description": "<p>与霜冻元素对应的生物。</p>"
+        "description": "<p>与霜冻元素相对应的元素生物。</p>"
       },
       "items": {
         "Frost Claw": {
@@ -211,21 +211,21 @@
           "actions": {
             "aqueousTransmission": {
               "name": "水相传导 Aqueous Transmission",
-              "description": "<p>当该@ref[name]位于水元素中时，它可以瞬间将自己传送到同一片水域内120英尺范围内任何未被占据的空间。进行这次<strong>移动</strong>时，它不需要能够看见目的地。</p>"
+              "description": "<p>当@ref[name]位于水中时，它可以瞬间将自身传送到同一片水域中120英尺内任意一个未被占据的空间。它无需能够看见目的地即可进行这次<strong>移动</strong>。</p>"
             }
           }
         },
         "Cold Absorption": {
           "name": "寒冷吸收 Cold Absorption",
-          "description": "<p>该@ref[actor.name]{生物}拥有在寒冷环境中茁壮生存的卓越能力。其<strong>冰寒</strong>抗性加倍，且如果该抗性会将伤害量降至零以下，则该负数值改为作为<strong>治疗</strong>获得。</p>"
+          "description": "<p>该@ref[actor.name]{生物}具备在严寒环境中茁壮生存的非凡能力。其<strong>寒冷</strong>抗性加倍，且如果该抗性会将伤害量降至零以下，则该负值改为作为<strong>治疗</strong>获得。</p>"
         },
         "Gesture: Aspect": {
           "name": "手势：化相 Gesture: Aspect",
-          "description": "<p>将符文的精华注入自身，强化你自身的肉体形态或精神。</p>\n\n<p>当你承载某种相貌时，你会与法术中所用符文的伤害类型更加协调。你获得对此伤害类型的<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p>\n\n<p>你的相貌持续<strong>6 轮</strong>。你同时只能拥有一种生效中的相貌；施放另一个使用相貌手势的法术会替代先前的效果。</p>"
+          "description": "<p>将一个符文的精华注入自身，强化你自己的肉体形态或心灵。</p>\n\n<p>当你承载某种化相时，你会与法术中所用符文的伤害类型更加协调。你获得对此伤害类型的<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p>\n\n<p>你的化相持续<strong>6 轮</strong>。你只能拥有一个生效中的化相；施放另一个使用化相手势的法术会替代先前的效果。</p>"
         },
         "Gesture: Fan": {
           "name": "手势：扇形 Gesture: Fan",
-          "description": "<p>将符文的精华专注为一道横扫或碎裂的弧形，以打击近距离内的多个目标。若与大地结合使用，它可能会沿弧线掷出一片石雨；而与念力结合使用，则可能会在多个敌人身上切开一道斩痕。</p><p>扇形手势基于<strong>智力</strong>进行成长，目标为一个120度、6英尺的锥形区域，并在攻击成功时造成6点基础伤害。</p>"
+          "description": "<p>将符文的精华凝聚成一道横扫或碎裂的弧形，以打击近距离内的多个目标。若与大地配合使用，这可能会沿弧线掷出一片碎石；而与念力配合使用，则可能会在多个敌人身上切开一道裂痕。</p><p>扇形手势基于<strong>智力</strong>进行成长，目标为一个120度、6英尺的锥形区域，并在攻击成功时造成6点基础伤害。</p>"
         },
         "Elemental Armor": {
           "name": "元素护甲 Elemental Armor"
@@ -238,10 +238,10 @@
     },
     "Frost Sprite": {
       "name": "寒霜精灵 Frost Sprite",
-      "tokenName": "霜冻造物 Creation of Frost",
+      "tokenName": "霜冻造物",
       "archetype": {
         "name": "元素精灵 Elemental Sprite",
-        "description": "<p>小妖精是较低等的元素生物，是其原初元素的化身，但缺乏其更高等同类所具备的智能。</p>"
+        "description": "<p>元素精灵是低等元素生物，是其原始元素的化身，但缺乏其高等同类所具备的智慧。</p>"
       },
       "taxonomy": {
         "name": "冰霜元素 Frost Elemental",
@@ -253,7 +253,7 @@
         },
         "Amorphous": {
           "name": "无定形 Amorphous",
-          "description": "<p>该@ref[actor.name]{生物}可以穿过直径窄至 1 英寸的空间，而其<strong>步幅</strong>不会受到任何减值。它免疫 @Condition[restrained] 状况。</p>"
+          "description": "<p>该@ref[actor.name]{生物}可以穿过直径窄至 1 英寸的空间，且其<strong>步幅</strong>不会受到任何惩罚。它免疫@Condition[restrained]状态。</p>"
         },
         "Aqueous Transmission": {
           "name": "水相传导 Aqueous Transmission",
@@ -267,15 +267,15 @@
         },
         "Cold Absorption": {
           "name": "寒冷吸收 Cold Absorption",
-          "description": "<p>该@ref[actor.name]{生物}拥有在严寒环境中茁壮生存的非凡能力。其<strong>寒冷</strong>抗性加倍；如果该抗性会将伤害量降低至零以下，则该负值改为作为<strong>治疗</strong>获得。</p>"
+          "description": "<p>该@ref[actor.name]{生物}具备在严寒环境中茁壮生存的非凡能力。其<strong>寒冷</strong>抗性加倍，且如果该抗性会将伤害量降至零以下，则该负值改为作为<strong>治疗</strong>获得。</p>"
         },
         "False Appearance": {
           "name": "伪装外表 False Appearance",
-          "description": "<p>当它保持静止不动时，该@ref[actor.name]{生物}与某个其他物体或材料无法区分。</p>"
+          "description": "<p>当其保持静止不动时，@ref[actor.name]{生物}与某个其他物体或材料无法区分。</p>"
         },
         "Gesture: Fan": {
           "name": "手势：扇形 Gesture: Fan",
-          "description": "<p>将符文的精华专注为一道横扫或碎裂的弧形打击近距离内的多个目标。若与大地配合使用，这可能会沿弧线掷出一片石块喷射；若与念力配合使用，则可能会在多个敌人身上切开一道裂痕。</p><p>扇形手势基于 <strong>智力</strong> 进行成长，目标为一个120度、6英尺的圆锥区域，并在攻击成功时造成6点基础伤害。</p>"
+          "description": "<p>将符文的精华凝聚成一道横扫或碎裂的弧形，以打击近距离内的多个目标。若与大地配合使用，这可能会沿弧线掷出一片碎石；而与念力配合使用，则可能会在多个敌人身上切开一道裂痕。</p><p>扇形手势基于<strong>智力</strong>进行成长，目标为一个120度、6英尺的锥形区域，并在攻击成功时造成6点基础伤害。</p>"
         },
         "Gesture: Influence": {
           "name": "手势：影响 Gesture: Influence",
@@ -295,11 +295,11 @@
       "tokenName": "大地精灵",
       "archetype": {
         "name": "元素访客 Elemental Visitor",
-        "description": "<p>访客是原始元素能量的化身，呈现出大致具有人型生物轮廓的形态。与它们较低等的同类不同，元素访客具备沟通与理解的能力，尽管它们的动机很少与凡人的一致。</p>"
+        "description": "<p>访客是原始元素能量的具现化，会呈现出大致具有人型生物轮廓的形态。与它们较低阶的同类不同，元素访客具备沟通与理解的能力，尽管它们的动机很少与凡人的动机一致。</p>"
       },
       "taxonomy": {
         "name": "土元素 Earth Elemental",
-        "description": "<p>与大地元素对应的元素生物。</p>"
+        "description": "<p>与大地元素相对应的元素生物。</p>"
       },
       "items": {
         "Elemental Armor": {
@@ -310,15 +310,15 @@
         },
         "Acid Absorption": {
           "name": "酸液吸收 Acid Absorption",
-          "description": "<p>该@ref[actor.name]{生物}拥有在强酸环境中茁壮生存的非凡能力。其<strong>强酸</strong>抗性加倍；如果该抗性会将伤害量降至零以下，则该负值改为作为<strong>治疗</strong>承受。</p>"
+          "description": "<p>该@ref[actor.name]{生物}拥有在酸液环境中茁壮生存的非凡能力。其<strong>强酸</strong>抗性加倍；若该抗性会将伤害量降至零以下，则负数部分改为作为<strong>治疗</strong>获得。</p>"
         },
         "Gesture: Aspect": {
           "name": "手势：化相 Gesture: Aspect",
-          "description": "<p>将符文的精华注入自身，强化你自己的肉体形态或心灵。</p>\n\n<p>当你承受某种面相时，你会与法术中所用符文的伤害类型更加协调。你获得对此伤害类型的<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p>\n\n<p>你的面相持续<strong>6 轮</strong>。你同时只能拥有一种生效中的面相；施放另一个使用面相手势的法术时，会替代先前的效果。</p>"
+          "description": "<p>将一个符文的精华注入自身，强化你自己的肉体形态或心灵。</p>\n\n<p>当你承载某种化相时，你会与法术中所用符文的伤害类型更加协调。你获得对此伤害类型的<strong>+2 抗性</strong>，并且每当造成该类型的伤害时，额外造成<strong>+2 伤害</strong>。</p>\n\n<p>你的化相持续<strong>6 轮</strong>。你只能拥有一个生效中的化相；施放另一个使用化相手势的法术会替代先前的效果。</p>"
         },
         "Gesture: Fan": {
           "name": "手势：扇形 Gesture: Fan",
-          "description": "<p>将符文的精华凝聚成一道横扫或碎裂的弧形，以打击近距离内的多个目标。若与大地配合使用，这可能会沿弧线掷出一片石块飞雨；而与念力配合使用，则可能会在多个敌人身上划出一道切痕。</p><p>扇形手势使用 <strong>智力</strong> 进行成长，目标为一个 120 度、6 英尺的锥形区域，并在攻击成功时造成 6 点基础伤害。</p>"
+          "description": "<p>将符文的精华凝聚成一道横扫或碎裂的弧形，以打击近距离内的多个目标。若与大地配合使用，这可能会沿弧线掷出一片碎石；而与念力配合使用，则可能会在多个敌人身上切开一道裂痕。</p><p>扇形手势基于<strong>智力</strong>进行成长，目标为一个120度、6英尺的锥形区域，并在攻击成功时造成6点基础伤害。</p>"
         },
         "Rune: Earth": {
           "name": "符文：大地 Rune: Earth",
@@ -331,7 +331,7 @@
       "tokenName": "大地的创造",
       "archetype": {
         "name": "元素精灵 Elemental Sprite",
-        "description": "<p>灵体是较低等的元素生物，是其原初元素的化身，但不具备其更高等同族的智慧。</p>"
+        "description": "<p>元素精灵是低等元素生物，是其原始元素的化身，但缺乏其高等同类所具备的智慧。</p>"
       },
       "taxonomy": {
         "name": "土元素 Earth Elemental",
@@ -343,15 +343,15 @@
         },
         "Acid Absorption": {
           "name": "酸液吸收 Acid Absorption",
-          "description": "<p>该@ref[actor.name]{生物}拥有在强酸环境中茁壮生存的非凡能力。它的<strong>强酸</strong>抗性加倍；如果该抗性会使伤害值降至零以下，则超出的负值改为作为<strong>治疗</strong>获得。</p>"
+          "description": "<p>该@ref[actor.name]{生物}拥有在酸液环境中茁壮生存的非凡能力。其<strong>强酸</strong>抗性加倍；若该抗性会将伤害量降至零以下，则负数部分改为作为<strong>治疗</strong>获得。</p>"
         },
         "False Appearance": {
           "name": "伪装外表 False Appearance",
-          "description": "<p>当其保持静止不动时，@ref[actor.name]{生物}与其他某种物体或材料无法区分。</p>"
+          "description": "<p>当其保持静止不动时，@ref[actor.name]{生物}与某个其他物体或材料无法区分。</p>"
         },
         "Gesture: Fan": {
           "name": "手势：扇形 Gesture: Fan",
-          "description": "<p>将符文的精华凝聚成一道横扫或迸裂的弧形，以打击近距离内的多个目标。若与大地结合使用，这可能会抛射出呈弧形散开的石块；而与念力结合使用，则可能会在多个敌人身上切开一道斩痕。</p><p>扇形手势基于 <strong>智力</strong> 成长，目标为一个 120 度、6 尺的锥形区域，并在攻击成功时造成 6 点基础伤害。</p>"
+          "description": "<p>将符文的精华凝聚成一道横扫或碎裂的弧形，以打击近距离内的多个目标。若与大地配合使用，这可能会沿弧线掷出一片碎石；而与念力配合使用，则可能会在多个敌人身上切开一道裂痕。</p><p>扇形手势基于<strong>智力</strong>进行成长，目标为一个120度、6英尺的锥形区域，并在攻击成功时造成6点基础伤害。</p>"
         },
         "Gesture: Ray": {
           "name": "手势：射线 Gesture: Ray",
@@ -368,7 +368,7 @@
     },
     "Ancestral Guardian": {
       "name": "先祖守护者 Ancestral Guardian",
-      "tokenName": "先祖守护者 Ancestral Guardian",
+      "tokenName": "先祖守护者",
       "biography": {
         "appearance": "<p>一道半透明的身影，由流转的树皮、叶片与根须交织而成，自内里透出柔和的绿光。它没有固定形貌，在依稀记得的先辈剪影之间飘忽变换，既不投下影子，也不给所守护的土地压上分毫重量。</p>",
         "public": "<p>先祖守护者与其说是一个生物，不如说是一种存在：那是先辈们汇聚而成的魂灵，由@UUID[Compendium.crucible.talent.Item.warden0000000000]{守林者}透过先祖树林召唤至现世。它无法被命令，也无从讲理，更不会开口言语。只要守林者的通灵不断，它便始终守望着生者。</p>"

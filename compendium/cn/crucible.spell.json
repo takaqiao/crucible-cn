@@ -171,11 +171,11 @@
     },
     "Protective Mirage": {
       "name": "护佑幻影 Protective Mirage",
-      "description": "<p>你让自身<strong>显现</strong>于由不断变幻的<strong>照明</strong>与<strong>阴影</strong>构成的海市蜃楼中，借此掩盖你当前的位置，并使你能够<strong>闪避</strong>来袭的攻击。</p>",
+      "description": "<p>你以变幻的<strong>照明</strong>与<strong>阴影</strong>构筑海市蜃楼般的<strong>化相</strong>，借此掩盖你当前的位置，并使你能够<strong>闪避</strong>袭来的攻击。</p>",
       "actions": {
         "protectiveMirage": {
           "name": "护佑幻影 Protective Mirage",
-          "description": "<p>你会被三个幻象分身环绕，最多持续 10 轮。任何针对你的传入<strong>打击</strong>，都要承受数量等于你剩余分身数量两倍的<strong>祸骰</strong>。每当一次打击未命中你时，你的一个分身就会消失。</p>",
+          "description": "<p>你会被三个幻象分身环绕，持续最多10轮。任何针对你的来袭<strong>打击</strong>都会承受等同于你剩余分身数量两倍的<strong>祸骰</strong>。每当一次打击未命中你时，你的一个分身就会消失。</p>",
           "effects": [
             {
               "name": "幻景 Mirage"
@@ -205,7 +205,7 @@
       "actions": {
         "telecognition": {
           "name": "遥感认知 Telecognition",
-          "description": "<p>你将意识探入一个人型生物或<strong>巨人</strong>生物的心智，试图突破其<strong>意志</strong><strong>防御</strong>，以理解他们的想法与动机。该法术的目标会察觉到这种入侵，即使他们无法感知到你。</p><p>若成功，游戏主持人（当目标为对手时）或玩家（当目标为英雄时）必须用不超过3个词向你描述此刻其思绪最前端的想法或情绪。</p><p>在大成功时，该描述最多可使用10个词，以传达更深层的理解。</p>"
+          "description": "<p>你将触及一个<strong>人型生物</strong>或<strong>巨人</strong>生物的心灵，试图突破其<strong>意志</strong>防御，以理解其想法和动机。该法术的目标会察觉到这种侵入，即使他们无法感知到你。</p><p>如果成功，游戏主持人（当目标是一个对手时）或玩家（当目标是一个英雄时）必须用不超过 3 个词向你描述他们当前时刻思绪最前沿的想法或情绪。</p><p>在大成功时，此描述最多可使用 10 个词，以传达更深层的理解。</p>"
         }
       }
     }

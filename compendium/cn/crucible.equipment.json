@@ -17,7 +17,7 @@
     "Jewelry": "珠宝",
     "Wilderness": "荒野",
     "Ingredients": "材料",
-    "Light": "光",
+    "Light": "轻型",
     "Weapons": "武器",
     "Medium": "中型",
     "Traps": "陷阱",
@@ -38,12 +38,12 @@
       "name": "爆炸瓶 Blast Flask",
       "description": {
         "public": "<p>一个装满红色液体的烧瓶在破裂时会爆炸，产生一小团爆炸性的火焰，并迅速消散。</p>",
-        "private": "<p></p><p>这些炼金瓶子主要用于击碎大块矿石，蕴含着高度集中的重拳般威力。若组合的数量足够多，它们还可用于引发锁链式反应，从而造成更大的爆炸。</p>"
+        "private": "<p></p><p>这些炼金瓶子主要用于击碎大块矿石，威力集中而强劲。若组合的数量足够多，它们还可用于引发连锁反应，从而造成更大的爆炸。</p>"
       },
       "actions": {
         "blastFlask": {
           "name": "爆炸瓶 Blast Flask",
-          "description": "<p>你点燃并掷出@ref[item.name]，对爆破半径内的所有敌人造成<strong>火焰</strong>伤害。<strong>爆破</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>粗糙</strong> - 3英尺</p></li><li><p><strong>标准</strong> - 4英尺</p></li><li><p><strong>精良</strong> - 6英尺</p></li><li><p><strong>卓越</strong> - 8英尺</p></li><li><p><strong>大师级</strong> - 10英尺</p></li></ul>"
+          "description": "<p>你点燃并掷出 @ref[item.name]，对爆炸半径内所有未能躲开攻击的敌人造成<strong>火焰</strong>伤害。<strong>爆破</strong>的半径取决于炸弹的品质：</p><ul><li><p><strong>粗糙</strong> - 3 英尺</p></li><li><p><strong>标准</strong> - 4 英尺</p></li><li><p><strong>精良</strong> - 6 英尺</p></li><li><p><strong>卓越</strong> - 8 英尺</p></li><li><p><strong>大师级</strong> - 10 英尺</p></li></ul>"
         }
       }
     },
@@ -80,7 +80,7 @@
       "name": "护符 Amulet",
       "description": {
         "public": "<p>一枚朴素的护符系在简单的绳索上，等待技艺娴熟的附魔师触碰。</p>",
-        "private": "<p>这是一个基础配饰模板，用于进行品质升级以及通过词缀进行附魔。</p>"
+        "private": "<p>这是一个基础饰品模板，用于品质升级以及通过词缀进行附魔。</p>"
       }
     },
     "Amulet of Nimbleness": {
@@ -92,7 +92,7 @@
       "effects": {
         "Nimbleness": {
           "name": "轻捷 Nimbleness",
-          "description": "<p>此后缀每有<strong>1 阶</strong>，便使<strong>反射</strong>防御提高 1。</p>",
+          "description": "<p>此后缀每有 1 <strong>阶</strong>，<strong>反射</strong>防御便提高 1。</p>",
           "adjective": "轻捷"
         }
       }
@@ -269,24 +269,24 @@
       "name": "斗篷 Cloak",
       "description": {
         "public": "<p>一件用原色羊毛制成的简单旅行斗篷。</p>",
-        "private": "<p>这是一个基础饰品模板，用于进行品质升级以及附魔。</p>"
+        "private": "<p>这是一个基础饰品模板，用于品质升级以及通过词缀进行附魔。</p>"
       }
     },
     "Cloak of Kindly Visage": {
       "name": "慈颜斗篷 Cloak of Kindly Visage",
       "description": {
-        "public": "<blockquote><p>一件毫不起眼的黑色斗篷，看起来几乎能与任何装束相配。</p></blockquote><p>这件附魔斗篷为<strong>外交</strong>技能检定提供附魔加值，并赋予穿戴者伪装出虚幻<strong>和善面容</strong>的能力。</p>",
-        "private": "<p>此物品作为一个精制斗篷的示例呈现，带有 @UUID[Compendium.crucible.affixes.ActiveEffect.diplomacySkill00]{外交} 前缀和 @UUID[Compendium.crucible.affixes.ActiveEffect.disguise00000000]{伪装} 后缀。</p>"
+        "public": "<blockquote><p>一件毫不起眼的黑色斗篷，看起来几乎能与任何装束相配。</p></blockquote><p>这件附魔斗篷为<strong>外交</strong>技能检定提供附魔加值，并赋予使用者呈现虚幻<strong>伪装</strong>的能力。</p>",
+        "private": "<p>此物品作为一个精良斗篷的示例呈现，带有 @UUID[Compendium.crucible.affixes.ActiveEffect.diplomacySkill00]{外交} 前缀和 @UUID[Compendium.crucible.affixes.ActiveEffect.disguise00000000]{伪装} 后缀。</p>"
       },
       "effects": {
         "Diplomacy": {
           "name": "外交 Diplomacy",
-          "description": "<p>此前缀每有<strong>1 阶</strong>，便使<strong>外交</strong>技能检定的<strong>附魔加值</strong>提高 1。</p>",
+          "description": "<p>此前缀每有 1 <strong>阶</strong>，<strong>外交</strong>技能检定的<strong>附魔加值</strong>便提高 1。</p>",
           "adjective": "折冲"
         },
         "Disguise": {
           "name": "伪装 Disguise",
-          "description": "<p>赋予<strong>伪装</strong>动作，使持有者每次休息可披上一层幻象外貌一次。</p>",
+          "description": "<p>赋予<strong>伪装</strong>动作，使持有者每次休息可呈现一次幻象外貌。</p>",
           "adjective": "伪装",
           "actions": {
             "affixDisguise": {
@@ -366,7 +366,7 @@
     "Expanded Toolbelt": {
       "name": "扩展工具腰带 Expanded Toolbelt",
       "description": {
-        "public": "<p>一种扩展工具带，其形式可以是公用腰带、斜挎弹带，或缝制在你的装备上的一组口袋。</p><p>该物品会根据其品质阶级提供若干额外的工具带槽位：</p><ul><li><p><strong>标准</strong>：+1 工具带槽位</p></li><li><p><strong>精良</strong>：+2 工具带槽位</p></li><li><p><strong>卓越</strong>：+3 工工具带槽位</p></li><li><p><strong>大师级</strong>：+4 工具带槽位</p></li></ul>"
+        "public": "<p>一种扩展工具腰带，可以是效用腰带、斜挎弹带，或是缝在你的装备上的一组口袋。</p><p>此物品会根据其品质阶级提供若干额外的工具带栏位：</p><ul><li><p><strong>标准</strong>：+1 工具带栏位</p></li><li><p><strong>精良</strong>：+2 工具带栏位</p></li><li><p><strong>卓越</strong>：+3 工具带栏位</p></li><li><p><strong>大师级</strong>：+4 工具带栏位</p></li></ul>"
       }
     },
     "Firestarter": {
@@ -510,12 +510,12 @@
     "Healing Elixir": {
       "name": "治疗灵药 Healing Elixir",
       "description": {
-        "public": "<p>这瓶灵药含有一种特殊的炼金配方，能够迅速闭合创伤并改善身体生命。</p>"
+        "public": "<p>这瓶药水含有一种专门的炼金配方，能够迅速闭合创伤并改善身体健康。</p>"
       },
       "actions": {
         "healingElixir": {
           "name": "治疗灵药 Healing Elixir",
-          "description": "<p>立即恢复相当于该灵药品质对应数值的<strong>生命值</strong>。</p><ul><li><p><strong>粗糙</strong> - 立即恢复 6 点<strong>生命值</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>生命值</strong>。</p></li><li><p><strong>精良</strong> - 立即恢复 24 点<strong>生命值</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>生命值</strong>。</p></li><li><p><strong>大师级</strong> - 立即恢复 96 点<strong>生命值</strong>。</p></li></ul>"
+          "description": "<p>立即恢复一定数量的<strong>生命值</strong>，具体数值取决于该灵药的品质。</p><ul><li><p><strong>粗糙</strong> - 立即恢复 6 点<strong>生命值</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>生命值</strong>。</p></li><li><p><strong>精良</strong> - 立即恢复 24 点<strong>生命值</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>生命值</strong>。</p></li><li><p><strong>大师级</strong> - 立即恢复 96 点<strong>生命值</strong>。</p></li></ul>"
         }
       }
     },
@@ -558,7 +558,7 @@
       "name": "头盔 Helm",
       "description": {
         "public": "<p>一顶由硬化皮革制成的基础开放式头盔。</p>",
-        "private": "<p>这是一个基础饰品模板，用于进行品质升级和带词缀的附魔。</p>"
+        "private": "<p>这是一个基础饰品模板，用于品质升级以及通过词缀进行附魔。</p>"
       }
     },
     "Holy Symbol": {
@@ -698,7 +698,7 @@
     "Messenger Coin": {
       "name": "信使硬币 Messenger Coin",
       "description": {
-        "public": "<p>一枚小巧的黄铜硬币，上面是一张咧嘴大笑的宽脸，还有两只小小的红色石榴石眼睛。硬币上压印着一组特定的西吉尔，将它与另一枚配对硬币连接起来，使两位持有者能够跨越遥远距离进行交流。</p><p>如果你拿着这枚硬币并对它说话，硬币会立刻连接到与之配对的另一枚，并开始大声说话，转述你所说的话以及对方说回来的内容。该连接最多持续1分钟，之后便会中断。每枚硬币每次长休后可使用一次。</p><p>这枚硬币可使用5次，之后其魔法便会消退，变得几乎一文不值。</p>"
+        "public": "<p>一枚小巧的黄铜硬币，上面是一张咧嘴大笑的宽脸，配着红石榴石的小眼睛。硬币上压印着一组特定的符印序列，将它与另一枚姊妹硬币相连，使两名持有者能够跨越极远的距离通话。</p><p>若你握住硬币并对它说话，硬币会立刻接通它的姊妹硬币并开始大声说话，把你所说的话与对方的回话如实转达。连接在断开前最多维持 1 分钟。每枚硬币每次长休可使用一次。</p><p>这枚硬币可使用 5 次，此后其魔力便会消退，几乎变得一文不值。</p>"
       }
     },
     "Net": {
@@ -732,7 +732,7 @@
       "actions": {
         "paralyticIngest": {
           "name": "摄入麻痹毒素 Ingest Paralytic",
-          "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它最初是<strong>无害</strong>的，但目标必须对其<strong>强韧</strong>进行一次攻击的防御，否则会变为@Condition[paralyzed]。</p><p>持续时间取决于@ref[item.name]的品质：</p><ul><li><p><strong>粗糙</strong> - 1 轮</p></li><li><p><strong>标准</strong> - 2 轮</p></li><li><p><strong>卓越</strong> - 4 轮</p></li><li><p><strong>卓越</strong> - 8 轮</p></li><li><p><strong>大师级</strong> - 无限期</p></li></ul><p><em>此动作应在毒药被摄入时使用，而不是在其首次被涂抹时使用。</em></p>",
+          "description": "<p>当这种毒素被摄入或以其他方式进入某个生物的血液时，它最初是<strong>无害</strong>的，但目标必须对其<strong>强韧</strong>进行一次攻击的防御，否则会变为@Condition[paralyzed]。</p><p>持续时间取决于@ref[item.name]的品质：</p><ul><li><p><strong>粗糙</strong> - 1 轮</p></li><li><p><strong>标准</strong> - 2 轮</p></li><li><p><strong>精良</strong> - 4 轮</p></li><li><p><strong>卓越</strong> - 8 轮</p></li><li><p><strong>大师级</strong> - 无限期</p></li></ul><p><em>此动作应在毒药被摄入时使用，而不是在其首次被涂抹时使用。</em></p>",
           "effects": [
             {
               "name": "麻痹毒素 Paralytic Toxin"
@@ -741,7 +741,7 @@
         },
         "paralyticApply": {
           "name": "施加麻痹毒素 Apply Paralytic",
-          "description": "<p>这瓶药剂中的内容物可以加入食物或饮料中，涂抹在刃类武器上，或与某种其他的传递方式结合使用。</p><p><em>此动作会消耗该毒药的可用次数，应在首次施加时使用。</em></p>"
+          "description": "<p>这只小瓶中的内容物可以加入食物、饮料中，涂抹在带刃武器上，或与某种替代性的传递机制结合使用。</p><p><em>此动作会消耗该毒药的可用次数，应在其首次施用时使用。</em></p>"
         }
       }
     },
@@ -766,7 +766,7 @@
       "effects": {
         "Determination": {
           "name": "决心 Determination",
-          "description": "<p>此后缀每有<strong>1 阶</strong>，便使<strong>意志</strong>防御提高 1。</p>",
+          "description": "<p>此后缀每有<strong>1 阶</strong>，<strong>意志</strong>防御便提高1点。</p>",
           "adjective": "决心"
         }
       }
@@ -806,7 +806,7 @@
         },
         "poisonApply": {
           "name": "施加中毒 Apply Poison",
-          "description": "<p>这瓶小瓶中的内容物可以加入食物、饮料中，涂抹在带刃武器上，或与某种替代性的传递机制结合使用。</p><p><em>此动作会消耗该毒药的可用次数，应在其首次施用时使用。</em></p>"
+          "description": "<p>这只小瓶中的内容物可以加入食物、饮料中，涂抹在带刃武器上，或与某种替代性的传递机制结合使用。</p><p><em>此动作会消耗该毒药的可用次数，应在其首次施用时使用。</em></p>"
         }
       }
     },
@@ -836,7 +836,7 @@
       "actions": {
         "rallyingElixir": {
           "name": "振奋灵药 Rallying Elixir",
-          "description": "<p>立即恢复一定数量的<strong>士气</strong>，具体数值取决于该灵药的品质。</p><ul><li><p><strong>粗糙</strong> - 立即恢复 6 点<strong>士气</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>士气</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 24 点<strong>士气</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>士气</strong>。</p></li><li><p><strong>大师级</strong> - 立即恢复 96 点<strong>士气</strong>。</p></li></ul>"
+          "description": "<p>立即恢复一定数量的<strong>士气</strong>，具体数值取决于该灵药的品质。</p><ul><li><p><strong>粗糙</strong> - 立即恢复 6 点<strong>士气</strong>。</p></li><li><p><strong>标准</strong> - 立即恢复 12 点<strong>士气</strong>。</p></li><li><p><strong>精良</strong> - 立即恢复 24 点<strong>士气</strong>。</p></li><li><p><strong>卓越</strong> - 立即恢复 48 点<strong>士气</strong>。</p></li><li><p><strong>大师级</strong> - 立即恢复 96 点<strong>士气</strong>。</p></li></ul>"
         }
       }
     },
@@ -891,7 +891,7 @@
       "name": "戒指 Ring",
       "description": {
         "public": "<p>一枚由普通金属制成的朴素无饰戒指。</p>",
-        "private": "<p>这是一个基础饰品模板，用于进行品质升级以及附魔词缀。</p>"
+        "private": "<p>这是一个基础饰品模板，用于品质升级以及通过词缀进行附魔。</p>"
       }
     },
     "Ring Mail": {
@@ -909,7 +909,7 @@
       "effects": {
         "Evasion": {
           "name": "闪避 Evasion",
-          "description": "<p>此后缀每有<strong>1 阶</strong>，便使<strong>闪避</strong>防御提高 1。</p>",
+          "description": "<p>此后缀每有 1 <strong>阶</strong>，<strong>闪避</strong>防御便提高 1。</p>",
           "adjective": "闪避"
         }
       }
@@ -923,7 +923,7 @@
       "effects": {
         "Gliding": {
           "name": "滑翔 Gliding",
-          "description": "<p>赋予<strong>滑翔</strong>动作，使持有者能在坠落过程中横向滑翔。滑翔距离随此前缀的<strong>阶</strong>提升。</p>",
+          "description": "<p>赋予<strong>滑翔</strong>动作，使持有者能够在坠落期间横向滑翔。滑翔距离会随此前缀的<strong>阶</strong>提升而增加。</p>",
           "adjective": "滑翔",
           "actions": {
             "gliding": {
@@ -963,7 +963,7 @@
     "Round Shield": {
       "name": "圆盾 Round Shield",
       "description": {
-        "public": "<p>一种直径近两英尺的圆形金属盾牌，是缺乏盾牌战斗训练的步兵的基本防御装备。</p>"
+        "public": "<p>一种直径近两英尺的圆形金属盾牌，是缺乏盾牌战斗专门训练的步兵的基本防御装备。</p>"
       }
     },
     "Sai": {
@@ -1068,12 +1068,12 @@
     "Spell Scroll (Superior)": {
       "name": "法术卷轴（卓越） Spell Scroll (Superior)",
       "description": {
-        "public": "<p>法术卷轴是一种专门制作的犊皮纸或羊皮纸，其上被精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予阅读者对这些构件的深刻熟悉感，仿佛他们已经了解多年。</p><p>一张卷轴能够容纳多少个施法构件，取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>卓越</strong>：可包含两个施法构件</p></li><li><p><strong>精良</strong>：可包含三个施法构件</p></li></ul>"
+        "public": "<p>法术卷轴是一种经过特殊处理的犊皮纸或羊皮纸，其上被精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予其阅读者对这些构件的深刻熟悉感，仿佛他们已经了解了这些构件多年。</p><p>一张卷轴能够容纳的施法构件数量取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>卓越</strong>：可包含两个施法构件</p></li><li><p><strong>大师级</strong>：可包含三个施法构件</p></li></ul>"
       },
       "actions": {
         "readScroll": {
           "name": "阅读卷轴 Read Scroll",
-          "description": "<p>阅读这张法术卷轴，暂时获得其施法构成的知识，持续10分钟。</p><p>你在同一时间只能有一个法术卷轴效果处于主动状态。阅读另一张卷轴会替换当前的任何效果。</p>",
+          "description": "<p>阅读此法术卷轴，暂时获得其施法构成的知识，持续10分钟。</p><p>你在任意时刻只能有一个法术卷轴效果处于主动状态。阅读另一张卷轴会替换当前的任何效果。</p>",
           "effects": [
             {}
           ]
@@ -1115,7 +1115,7 @@
     "Splint Mail": {
       "name": "板条甲 Splint Mail",
       "description": {
-        "public": "<p>一层垂直的金属条铆接在皮革或链甲衬底上，条甲护甲在牺牲一定灵活性的同时，为四肢提供了强大的保护。</p>"
+        "public": "<p>由铆接在皮革或锁子甲衬底上的竖直金属条构成，板条甲在牺牲部分灵活性的同时，提供了强大的四肢保护。</p>"
       }
     },
     "Spyglass": {
@@ -1148,7 +1148,7 @@
     "Stiletto": {
       "name": "锥刺匕首 Stiletto",
       "description": {
-        "public": "<p>细长、尖削，并为穿刺而制，细剑是杀手的武器——专为从肋骨之间或护甲的缝隙中滑入而设计，几乎不留痕迹。</p>"
+        "public": "<p>细长、尖削，并为穿刺而制，锥刺匕首是杀手的武器——专为从肋骨之间或护甲的缝隙中滑入而设计，几乎不留痕迹。</p>"
       }
     },
     "Studded Leather Armor": {
@@ -1249,12 +1249,12 @@
     "Spell Scroll (Masterwork)": {
       "name": "法术卷轴（大师级） Spell Scroll (Masterwork)",
       "description": {
-        "public": "<p>法术卷轴是一种特制的犊皮纸或羊皮纸，其上精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予其阅读者对这些构件的深刻熟悉感，仿佛他们已经了解它们多年。</p><p>一张卷轴能够容纳多少个施法构件，取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>卓越</strong>：可包含两个施法构件</p></li><li><p><strong>大师级</strong>：可包含三个施法构件</p></li></ul>"
+        "public": "<p>法术卷轴是一种经过特殊处理的犊皮纸或羊皮纸，其上被精心嵌入了一个或多个施法构件的符文。激活这张法术卷轴会暂时赋予其阅读者对这些构件的深刻熟悉感，仿佛他们已经了解了这些构件多年。</p><p>一张卷轴能够容纳的施法构件数量取决于其制作的品质。</p><ul><li><p><strong>精良</strong>：可包含一个施法构件</p></li><li><p><strong>卓越</strong>：可包含两个施法构件</p></li><li><p><strong>大师级</strong>：可包含三个施法构件</p></li></ul>"
       },
       "actions": {
         "readScroll": {
           "name": "阅读卷轴 Read Scroll",
-          "description": "<p>阅读此法术卷轴，暂时获得其施法成分的知识，持续10分钟。</p><p>你在任意时刻只能有一个法术卷轴效果处于主动状态。阅读不同的卷轴会替换当前的任何效果。</p>",
+          "description": "<p>阅读此法术卷轴，暂时获得其施法构成的知识，持续10分钟。</p><p>你在任意时刻只能有一个法术卷轴效果处于主动状态。阅读另一张卷轴会替换当前的任何效果。</p>",
           "effects": [
             {}
           ]
@@ -1327,7 +1327,7 @@
       "actions": {
         "gemOfConjuredFlame": {
           "name": "召唤火焰元素 Summon Flame Elemental",
-          "description": "<p>@ref[item.name]在一团烈焰中碎裂，原地留下一个炽焰元素生物。由此宝石召唤的元素生物存续 6 轮（1 分钟）。</p><ul><li><p><strong>劣质 - </strong>不召唤任何元素生物</p></li><li><p><strong>标准 </strong>- 微粒</p></li><li><p><strong>精良</strong> - 精灵</p></li><li><p><strong>卓越</strong> - 访客</p></li><li><p><strong>大师级 - </strong>流浪者</p></li></ul>"
+          "description": "<p>@ref[item.name]在一团烈焰中碎裂，原地留下一个炽焰元素生物。由此宝石召唤的元素生物存续 6 轮（1 分钟）。</p><ul><li><p><strong>粗糙 - </strong>不召唤任何元素生物</p></li><li><p><strong>标准 </strong>- 微粒</p></li><li><p><strong>精良</strong> - 精灵</p></li><li><p><strong>卓越</strong> - 访客</p></li><li><p><strong>大师级 - </strong>流浪者</p></li></ul>"
         }
       }
     },
