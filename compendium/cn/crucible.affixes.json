@@ -3,7 +3,7 @@
   "folders": {
     "Suffixes": "后缀",
     "Defenses": "防御",
-    "Potency": "效能",
+    "Potency": "效力",
     "Weapons": "武器",
     "Spellcraft": "施法",
     "Movement": "移动",
@@ -33,7 +33,7 @@
     },
     "Acid Resistance": {
       "name": "强酸抗性 Acid Resistance",
-      "description": "<p>该前缀每有1个<strong>阶</strong>，<strong>强酸</strong>抗性便提高3点。</p>",
+      "description": "<p>此前缀每有 1 <strong>阶</strong>，<strong>强酸</strong>抗性便提高 3 点。</p>",
       "adjective": "抗酸"
     },
     "Activating": {
@@ -59,7 +59,7 @@
     },
     "Aspect Spellcraft": {
       "name": "化相施法 Aspect Spellcraft",
-      "description": "<p>该物品被注入了化相施法的精华。持用时，持有者会本能地获得<strong>化相</strong><strong>手势</strong>的知识，使其即使未通过天赋习得该手势，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>化相</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>化相</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构筑法术。</p>",
       "adjective": "化相"
     },
     "Athletics": {
@@ -94,7 +94,7 @@
     },
     "Bludgeoning Resistance": {
       "name": "钝击抗性 Bludgeoning Resistance",
-      "description": "<p>每有此前缀的<strong>1 阶</strong>，<strong>钝击</strong>抗性提高3点。</p>",
+      "description": "<p>此前缀每有 1 <strong>阶</strong>，<strong>钝击</strong>抗性便提高 3 点。</p>",
       "adjective": "抗钝击"
     },
     "Celestial Bane": {
@@ -104,8 +104,8 @@
     },
     "Cold Conversion": {
       "name": "冷能转换 Cold Conversion",
-      "description": "<p>使用此武器进行打击所造成的部分伤害会转化为<strong>冰寒</strong>伤害。转化的比例取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong> 33% 的伤害被转化</p></li><li><p><strong>第2阶：</strong> 66% 的伤害被转化</p></li><li><p><strong>等级 3:</strong> 100% 的伤害被转化</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多个不同类型伤害组成部分的基础架构尚不存在。在此功能实现之前，此词缀的所有阶都会将该武器 100% 的伤害转化为<strong>冰寒</strong>。一旦支持多类型伤害，较低阶将只转化总伤害的一部分，其余部分则保留为该武器的原始类型。</p>",
-      "adjective": "冰封"
+      "description": "<p>使用此武器进行打击所造成的部分伤害会转化为<strong>寒冷</strong>伤害。转化的比例取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong> 33% 的伤害被转化</p></li><li><p><strong>第2阶：</strong> 66% 的伤害被转化</p></li><li><p><strong>第3阶：</strong> 100% 的伤害被转化</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多个不同类型伤害组成部分的基础架构尚不存在。在此功能实现之前，此词缀的所有阶都会将该武器 100% 的伤害转化为<strong>寒冷</strong>。一旦支持多类型伤害，较低阶将只转化总伤害的一部分，其余部分则保留为该武器的原始类型。</p>",
+      "adjective": "冰冻"
     },
     "Cold Damage": {
       "name": "寒冷伤害 Cold Damage",
@@ -144,7 +144,7 @@
     },
     "Corruption Conversion": {
       "name": "腐化转换 Corruption Conversion",
-      "description": "<p>使用此武器进行打击所造成的部分伤害会被转换为<strong>腐化</strong>伤害。转换的比例取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong>转换 33% 的伤害</p></li><li><p><strong>第2阶：</strong>转换 66% 的伤害</p></li><li><p><strong>等级 3:</strong>转换 100% 的伤害</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次单独攻击拆分为多种类型伤害组成部分的基础架构目前尚不存在。在实现之前，此词缀的所有阶都会将该武器 100% 的伤害转换为<strong>腐化</strong>。一旦支持多类型伤害，较低阶将只转换总伤害的一部分，其余部分则保留为该武器的原始类型。</p>",
+      "description": "<p>使用此武器进行打击所造成的部分伤害会被转换为<strong>腐化</strong>伤害。转换的比例取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong>转换 33% 的伤害</p></li><li><p><strong>第2阶：</strong>转换 66% 的伤害</p></li><li><p><strong>第3阶：</strong>转换 100% 的伤害</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次单独攻击拆分为多种类型伤害组成部分的基础架构目前尚不存在。在实现之前，此词缀的所有阶都会将该武器 100% 的伤害转换为<strong>腐化</strong>。一旦支持多类型伤害，较低阶将只转换总伤害的一部分，其余部分则保留为该武器的原始类型。</p>",
       "adjective": "堕化"
     },
     "Corruption Damage": {
@@ -184,17 +184,17 @@
     },
     "Determination": {
       "name": "决心 Determination",
-      "description": "<p>每有1个该后缀的<strong>阶</strong>，<strong>意志</strong>防御便提高1点。</p>",
+      "description": "<p>此后缀每有<strong>1 阶</strong>，<strong>意志</strong>防御便提高1点。</p>",
       "adjective": "决心"
     },
     "Diplomacy": {
       "name": "外交 Diplomacy",
-      "description": "<p>此前缀的每<strong>阶</strong>都会使<strong>外交</strong>技能检定的<strong>附魔加值</strong>提高1。</p>",
+      "description": "<p>此前缀每有 1 <strong>阶</strong>，<strong>外交</strong>技能检定的<strong>附魔加值</strong>便提高 1。</p>",
       "adjective": "折冲"
     },
     "Disguise": {
       "name": "伪装 Disguise",
-      "description": "<p>赋予<strong>伪装</strong>动作，使持有者每次休息可一次呈现出幻象外表。</p>",
+      "description": "<p>赋予<strong>伪装</strong>动作，使持有者每次休息可呈现一次幻象外貌。</p>",
       "adjective": "伪装",
       "actions": {
         "affixDisguise": {
@@ -220,7 +220,7 @@
     },
     "Electricity Conversion": {
       "name": "电击转换 Electricity Conversion",
-      "description": "<p>使用此武器进行打击所造成的伤害中，有一部分会转化为<strong>电击</strong>伤害。转化的比例取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong>33%的伤害被转化</p></li><li><p><strong>第2阶：</strong>66%的伤害被转化</p></li><li><p><strong>等级 3:</strong> 100%的伤害被转化</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多种类型伤害组成部分的机制目前尚不存在。在该机制实装前，此词缀的所有阶都会将武器的100%伤害转化为<strong>电击</strong>。一旦支持多类型伤害，较低阶将只转化总伤害的一部分，其余部分则保留为该武器的原始类型。</p>",
+      "description": "<p>使用此武器进行打击所造成的伤害中，有一部分会转化为<strong>电击</strong>伤害。转化的比例取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong>33%的伤害被转化</p></li><li><p><strong>第2阶：</strong>66%的伤害被转化</p></li><li><p><strong>第3阶：</strong> 100%的伤害被转化</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多种类型伤害组成部分的机制目前尚不存在。在该机制实装前，此词缀的所有阶都会将武器的100%伤害转化为<strong>电击</strong>。一旦支持多类型伤害，较低阶将只转化总伤害的一部分，其余部分则保留为该武器的原始类型。</p>",
       "adjective": "电击"
     },
     "Electricity Damage": {
@@ -230,7 +230,7 @@
     },
     "Electricity Resistance": {
       "name": "电击抗性 Electricity Resistance",
-      "description": "<p>此前缀的每<strong>阶</strong>使<strong>电击</strong>抗性提高 3。</p>",
+      "description": "<p>此前缀每有 1 <strong>阶</strong>，<strong>电击</strong>抗性便提高 3 点。</p>",
       "adjective": "抗电"
     },
     "Earth Elemental Bane": {
@@ -255,7 +255,7 @@
     },
     "Evasion": {
       "name": "闪避 Evasion",
-      "description": "<p>此后缀每有<strong>1 阶</strong>，<strong>闪避</strong>防御便提高1点。</p>",
+      "description": "<p>此后缀每有 1 <strong>阶</strong>，<strong>闪避</strong>防御便提高 1。</p>",
       "adjective": "闪避"
     },
     "Fan Spellcraft": {
@@ -295,7 +295,7 @@
     },
     "Focusing": {
       "name": "专注 Focusing",
-      "description": "<p>赋予<strong>恢复专注</strong>动作，使持有者能够在危急时刻恢复<strong>专注</strong>。恢复的数量会随该词缀的<strong>阶</strong>而提升。</p>",
+      "description": "<p>赋予<strong>补充专注</strong>动作，使持有者能在危急关头恢复<strong>专注</strong>。恢复量随此词缀的<strong>阶</strong>提升。</p>",
       "adjective": "专注",
       "actions": {
         "affixFocusing": {
@@ -326,7 +326,7 @@
       "actions": {
         "gliding": {
           "name": "滑翔 Gliding",
-          "description": "<p>在@Condition[falling]状态下使用时，你可以在滑翔的同时从初始位置横向移动若干格。滑翔距离取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong>每下降 20 尺可滑翔 <strong>1 尺</strong>。</p></li><li><p><strong>第2阶：</strong>每下降 20 尺可滑翔 <strong>2 尺</strong>。</p></li><li><p><strong>第3阶：</strong>每下降 20 尺可滑翔 <strong>4 尺</strong>。</p></li></ul><p>着地时你不受坠落伤害，也不会陷入@Condition[prone]。</p>"
+          "description": "<p>在@Condition[falling]状态下使用时，你可以在滑翔的同时从初始位置横向移动若干格。滑翔距离取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong>每下降 20 英尺可滑翔 <strong>1 英尺</strong>。</p></li><li><p><strong>第2阶：</strong>每下降 20 英尺可滑翔 <strong>2 英尺</strong>。</p></li><li><p><strong>第3阶：</strong>每下降 20 英尺可滑翔 <strong>4 英尺</strong>。</p></li></ul><p>着地时你不受坠落伤害，也不会陷入@Condition[prone]。</p>"
         }
       }
     },
@@ -412,11 +412,11 @@
     },
     "Nimbleness": {
       "name": "轻捷 Nimbleness",
-      "description": "<p>此后缀的每<strong>阶</strong>使<strong>反射</strong>防御提高1点。</p>",
+      "description": "<p>此后缀每有 1 <strong>阶</strong>，<strong>反射</strong>防御便提高 1。</p>",
       "adjective": "轻捷"
     },
     "Nonchalant": {
-      "name": "漠不关心的 Nonchalant",
+      "name": "漠然 Nonchalant",
       "description": "<p>针对你的<strong>士气</strong>的打击需要更高的溢出来造成<strong>暴击</strong>。该前缀每有1个<strong>阶</strong>，暴击阈值就提高1。</p>",
       "adjective": "漠然"
     },
@@ -457,7 +457,7 @@
     },
     "Piercing Resistance": {
       "name": "穿刺抗性 Piercing Resistance",
-      "description": "<p>该前缀每有<strong>1 阶</strong>，<strong>穿刺</strong>抗性提高3。</p>",
+      "description": "<p>此前缀每有 1 <strong>阶</strong>，<strong>穿刺</strong>抗性便提高 3 点。</p>",
       "adjective": "抗穿刺"
     },
     "Plant Bane": {
@@ -477,7 +477,7 @@
     },
     "Poison Resistance": {
       "name": "毒素抗性 Poison Resistance",
-      "description": "<p>此前缀每有<strong>1阶</strong>，<strong>毒素</strong>抗性就提高 3 点。</p>",
+      "description": "<p>此前缀每有 1 <strong>阶</strong>，<strong>毒素</strong>抗性便提高 3 点。</p>",
       "adjective": "抗毒"
     },
     "Psychic Conversion": {
@@ -502,7 +502,7 @@
     },
     "Radiant Conversion": {
       "name": "光耀转化 Radiant Conversion",
-      "description": "<p>用该武器进行打击所造成的部分伤害会转化为<strong>光耀</strong>伤害。转化比例取决于该前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong>33%的伤害被转化</p></li><li><p><strong>第2阶：</strong>66%的伤害被转化</p></li><li><p><strong>等级 3：</strong>100%的伤害被转化</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多种类型伤害组成部分的机制目前尚不存在。在实现之前，该词缀的所有阶都会将武器造成的100%伤害转化为<strong>光耀</strong>。一旦支持多类型伤害，较低阶将只转化总伤害的一部分，其余部分则保留为武器的原始类型。</p>",
+      "description": "<p>用该武器进行打击所造成的部分伤害会转化为<strong>光耀</strong>伤害。转化比例取决于该前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong>33%的伤害被转化</p></li><li><p><strong>第2阶：</strong>66%的伤害被转化</p></li><li><p><strong>第3阶：</strong>100%的伤害被转化</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多种类型伤害组成部分的机制目前尚不存在。在实现之前，该词缀的所有阶都会将武器造成的100%伤害转化为<strong>光耀</strong>。一旦支持多类型伤害，较低阶将只转化总伤害的一部分，其余部分则保留为武器的原始类型。</p>",
       "adjective": "光耀"
     },
     "Radiant Damage": {
@@ -532,11 +532,11 @@
     },
     "Reinforcement": {
       "name": "强化 Reinforcement",
-      "description": "<p>此后缀的每<strong>阶</strong>使<strong>护甲</strong>防御提高 1。</p>",
+      "description": "<p>此后缀每有<strong>1 阶</strong>，便使<strong>护甲</strong>防御提高 1。</p>",
       "adjective": "强化"
     },
     "Reliable": {
-      "name": "可靠的 Reliable",
+      "name": "可靠 Reliable",
       "description": "<p>降低以此武器进行攻击检定时的严重失败阈值。该阈值每<strong>阶</strong>降低<strong>1</strong>。</p>",
       "adjective": "可靠"
     },
@@ -607,7 +607,7 @@
     },
     "Tenacity": {
       "name": "顽强 Tenacity",
-      "description": "<p>每有1个该后缀的<strong>阶</strong>，<strong>强韧</strong>防御便提高1点。</p>",
+      "description": "<p>此后缀每有<strong>1 阶</strong>，便使<strong>强韧</strong>防御提高 1。</p>",
       "adjective": "顽强"
     },
     "Undead Bane": {
@@ -622,7 +622,7 @@
     },
     "Void Conversion": {
       "name": "虚空转换 Void Conversion",
-      "description": "<p>用这件武器进行打击所造成的部分伤害会转换为<strong>虚空</strong>伤害。转换的比例取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong>转换 33% 的伤害</p></li><li><p><strong>第2阶：</strong>转换 66% 的伤害</p></li><li><p><strong>等级 3:</strong>转换 100% 的伤害</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多个不同类型伤害组成部分的基础机制目前尚不存在。在该机制实装之前，此词缀的所有阶都会将该武器 100% 的伤害转换为<strong>虚空</strong>。一旦支持多类型伤害，较低阶将只转换总伤害的一部分，其余部分则保留为该武器的原始类型。</p>",
+      "description": "<p>用这件武器进行打击所造成的部分伤害会转换为<strong>虚空</strong>伤害。转换的比例取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong>转换 33% 的伤害</p></li><li><p><strong>第2阶：</strong>转换 66% 的伤害</p></li><li><p><strong>第3阶：</strong>转换 100% 的伤害</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多个不同类型伤害组成部分的基础机制目前尚不存在。在该机制实装之前，此词缀的所有阶都会将该武器 100% 的伤害转换为<strong>虚空</strong>。一旦支持多类型伤害，较低阶将只转换总伤害的一部分，其余部分则保留为该武器的原始类型。</p>",
       "adjective": "虚空"
     },
     "Void Damage": {
@@ -677,7 +677,7 @@
       "actions": {
         "affixLuminous": {
           "name": "启动照明 Activate Illumination",
-          "description": "<p>你念出命令词，@ref[item.name]{该物品}便燃起稳定的超凡辉光。所散发的明亮光照半径取决于此前缀的<strong>阶</strong>，并在其外延伸出等距的微光区域。</p><ul><li><p><strong>第1阶：</strong>20 尺明亮光照，40 尺微光。</p></li><li><p><strong>第2阶：</strong>40 尺明亮光照，80 尺微光。</p></li><li><p><strong>第3阶：</strong>60 尺明亮光照，120 尺微光。</p></li></ul><p>光照将持续到你解除该效果或卸下物品为止。</p>",
+          "description": "<p>你念出命令词，@ref[item.name]{该物品}便燃起稳定的超凡辉光。所散发的明亮光照半径取决于此前缀的<strong>阶</strong>，并在其外延伸出等距的微光区域。</p><ul><li><p><strong>第1阶：</strong>20 英尺明亮光照，40 英尺微光。</p></li><li><p><strong>第2阶：</strong>40 英尺明亮光照，80 英尺微光。</p></li><li><p><strong>第3阶：</strong>60 英尺明亮光照，120 英尺微光。</p></li></ul><p>光照将持续到你解除该效果或卸下物品为止。</p>",
           "effects": [
             {
               "name": "明光 Luminous"
