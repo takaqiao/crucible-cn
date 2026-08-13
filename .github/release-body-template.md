@@ -8,27 +8,25 @@ https://github.com/takaqiao/crucible-cn/releases/latest/download/module.json
 
 ## 依赖 / Requires
 
-- Foundry VTT v13 ~ v14
+- Foundry VTT **v14**（Crucible 0.10.1 自身要求核心 ≥ 14.364）
 - Crucible 系统 **v0.10.1+**
 - [Babele](https://foundryvtt.com/packages/babele) **v2.9.1+**
 
-> 这三项由 `module.json` 的 `relationships.requires` 强制校验：版本不满足时
-> Foundry 会直接拒绝启用本模块，而不是只给个警告。请先升级系统与 Babele 再装本模块。
-> Enforced by Foundry via `relationships.requires` — older versions are refused, not warned.
+> 这三项都由 Foundry 强制校验，版本不满足时直接拒绝启用，而不是只给个警告：
+> 核心版本看 `module.json` 的 `compatibility`，Babele 看 `relationships.requires`，
+> Crucible 系统看 `relationships.systems`。请先升级系统与 Babele 再装本模块。
+> Enforced by Foundry: core version via `compatibility`, Babele via
+> `relationships.requires`, and the Crucible system via `relationships.systems`.
 
 ## 变更 / Changes
 
-### 0.9.6 重点
+### 0.9.7 重点
 
-第十二轮收口：把所有仍非零的报告清到零或清成有据可查的永久豁免。
-
-- **判据降噪**：全库「同一英文串多种中文」的判据加了双语尾巴归一 ——
-  本库既定约定是 `name` 写「护盾术 Shield」而 `tokenName` 写「护盾术」，
-  原判据把这条约定整个当缺陷报，479 组里 463 组是它。现为 14 组，且全部有据可查。
-- **死键清零**：`_legacyActions` 下 8 条寄存键经核实抢救早已完成（同段内容已在
-  `crucible.equipment` 等三处按 id 建键译好），已删。
-- 术语：`Senses` 分类文件夹由「感知」改为**感官**（「感知」是 `Wisdom` 的定译，也是 Sense 手势名）；
-  `Monstrosities` 统一为**畸怪**。
+- `babele-register.js` 两处修正。
+- `module.json` / README / 发布说明里对依赖强制校验的描述与实际不符，已订正。
+- 若干译文与术语一致性修复。
+- 项目工具链（术语表构建、TM 回填、双语并列修复脚本）修掉数处会**持续制造回归**的缺陷，
+  其中术语表构建的分类器曾把「绝对不能归一的角色约定」判成「可脚本批量归一」。
 
 完整改动请见本次发布对应的提交记录。
 See the commits associated with this tag for the full change list.
