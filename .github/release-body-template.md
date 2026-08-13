@@ -18,22 +18,17 @@ https://github.com/takaqiao/crucible-cn/releases/latest/download/module.json
 
 ## 变更 / Changes
 
-### 0.9.5 重点
+### 0.9.6 重点
 
-本版随 Ember 汉化的第八～十一轮审计一同产出。crucible 侧改动量不大，但都在规则文本上。
+第十二轮收口：把所有仍非零的报告清到零或清成有据可查的永久豁免。
 
-- **规则被悄悄改写的几处已订正**：`scales using Dexterity`（以敏捷成长）被译成「具有灵巧属性」，
-  同一句英文的 16 份副本全都这么错；`Any character who contributed to`（有出力的那些角色）
-  被译成「队伍中的每名角色」，把获得同调的对象整个扩大了。
-- **`Round`（轮）与 `Turn`（回合）互换**的若干处已改回 —— 这两个是不同的时间单位。
-- **泛指句被写死成具体属性**：`the ability score your Rune of Earth scales with`
-  （你的大地符文所依据的那项属性）被写成「感知」，日后符文改按别的属性成长就成了错的规则文本。
-- **同一段英文在库内有多种中文**：全库 1514 组、8308 叶，已压到 479 组 —— 其中
-  「英文正文超过 300 字符」那一档（几乎必是缺陷）由 357 组清零。
-- **术语统一**：`Cold` 伤害统一为「寒冷」（原有「冰寒」混用）、`Presence` 统一为「存在」
-  （原有「风采」「风范」，还有一处写成「感知力」而「感知」是 `Wisdom` 的定译，两个属性被混成了一个）、
-  `Tier` 统一为「阶」。
-- **`Confused` 状态**由「神志混乱」改为**混乱**，与掷骰界面和条件页一致。
+- **判据降噪**：全库「同一英文串多种中文」的判据加了双语尾巴归一 ——
+  本库既定约定是 `name` 写「护盾术 Shield」而 `tokenName` 写「护盾术」，
+  原判据把这条约定整个当缺陷报，479 组里 463 组是它。现为 14 组，且全部有据可查。
+- **死键清零**：`_legacyActions` 下 8 条寄存键经核实抢救早已完成（同段内容已在
+  `crucible.equipment` 等三处按 id 建键译好），已删。
+- 术语：`Senses` 分类文件夹由「感知」改为**感官**（「感知」是 `Wisdom` 的定译，也是 Sense 手势名）；
+  `Monstrosities` 统一为**畸怪**。
 
 完整改动请见本次发布对应的提交记录。
 See the commits associated with this tag for the full change list.
