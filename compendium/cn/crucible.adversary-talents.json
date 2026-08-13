@@ -223,11 +223,11 @@
       }
     },
     "Natural Invisibility": {
-      "name": "天然隐形 Natural Invisibility",
+      "name": "天生隐形 Natural Invisibility",
       "description": "<p>通过其生理结构中的某种有机材料或奥术化相，@ref[actor.name]{此生物]拥有完全隐形的能力。</p>",
       "actions": {
         "invisibility": {
-          "name": "天然隐形 Natural Invisibility",
+          "name": "天生隐形 Natural Invisibility",
           "description": "<p>你变为@Condition[invisible]，且无法通过基于视觉的察觉被发现。你不能成为任何行动的直接目标。该效果持续10分钟，或直到你采取任何非<strong>移动</strong>行动为止。</p>",
           "effects": [
             {}
@@ -655,11 +655,11 @@
       }
     },
     "Lightning Burst": {
-      "name": "电爆 Lightning Burst",
+      "name": "闪电爆发 Lightning Burst",
       "description": "<p>@ref[actor.name]{该生物}能够产生并喷发强力的电能冲击。</p>",
       "actions": {
         "lightningBurst": {
-          "name": "电爆 Lightning Burst",
+          "name": "闪电爆发 Lightning Burst",
           "description": "<p>@ref[actor.name]{该生物}在 15 尺爆破范围内喷发一道电击冲击，攻击该范围内每个目标的<strong>反射</strong>并造成<strong>电击</strong>伤害。</p><p>造成<strong>暴击</strong>时，此攻击会使目标陷入@Condition[shocked]状态持续<strong>3 轮</strong>。</p>"
         }
       }

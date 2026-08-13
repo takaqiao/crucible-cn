@@ -708,7 +708,7 @@
       },
       "actions": {
         "net": {
-          "name": "抛网 Throw Net",
+          "name": "投掷网 Throw Net",
           "description": "<p>被投掷出去的网捕获的目标处于@Condition[restrained]状态，直到其能够脱身。</p>",
           "effects": [
             {

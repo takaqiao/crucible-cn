@@ -226,7 +226,7 @@
       }
     },
     "Pseudopod": {
-      "name": "拟足 Pseudopod",
+      "name": "伪足 Pseudopod",
       "description": {
         "public": "<p>@ref[actor.name]{该生物}以一条黏液构成的无定形肢体抽击。</p>"
       }
@@ -286,15 +286,15 @@
       }
     },
     "Tail": {
-      "name": "尾 Tail",
+      "name": "尾巴 Tail",
       "description": {
         "public": "<p>@ref[actor.name]{该生物}能以细长而强健的尾巴抽击。</p>"
       }
     },
     "Talons": {
-      "name": "钩爪 Talons",
+      "name": "利爪 Talons",
       "description": {
-        "public": "<p>@ref[actor.name]{该生物}长有弯曲的钩爪，用以攫住并撕裂猎物。</p>"
+        "public": "<p>@ref[actor.name]{该生物}长有弯曲的利爪，用以攫住并撕裂猎物。</p>"
       }
     },
     "Tentacles": {
