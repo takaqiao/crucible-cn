@@ -113,12 +113,6 @@ Hooks.once('setup', () => {
 });
 
 /**
- * Foundry's core `Sort` label collides with Crucible's own use of the key.
- *
- * The previous version set the lowercase key to "tri" — French, copy-pasted
- * from the Crucible-FR module and never localised. Fixed here.
- */
-/**
  * 恩惠 / 祸骰明细的 `label` 槽里有 **7 个裸英文串**走 `{{localize}}` 却没有 i18n 键。
  *
  * 写点（crucible 0.10.1，逐行核对过）：
@@ -146,7 +140,7 @@ Hooks.once('setup', () => {
  *
  * 为什么写在这里而不是 `lang/cn.json`：这 7 个是**无点号的顶层键**，塞进 cn.json 会
  * 打破发版前 `flatten_lang.py` 的「拍平前 == 拍平后 == 英文键数」三数相等（现为 1842），
- * 而它们本来就不属于 en.json 的键空间。`Sort` 那两条也是同一理由写在这里的。
+ * 而它们本来就不属于 en.json 的键空间。
  *
  * 越界风险已实测：扫过 Foundry v14 本体 + 本机全部 systems/modules 的 101 个 lang 文件与
  * 3308 个 js/mjs/hbs/html，这 7 个串**既没有任何包把它们当顶层键定义过，也没有任何
@@ -171,13 +165,158 @@ const BOON_BANE_LABELS = {
   'Boss': '首领',
 };
 
-Hooks.once('i18nInit', () => {
-  game.i18n.translations.Sort = 'Sort';
-  game.i18n.translations.sort = '排序';
+/**
+ * 同一通道的第二张表：动作标签组 tooltip、设置窗提交按钮、下拉首行。
+ *
+ * ① 动作标签组 tooltip 的 5 个裸串（crucible 0.10.1，逐行核对）：
+ *      crucible-compiled.mjs:3877  {label: "Spell Tags"}   （module/const/action.mjs:534）
+ *      crucible-compiled.mjs:4093  {label: "Strikes"}      （module/const/action.mjs:750）
+ *      crucible-compiled.mjs:4368  {label: "Reload"}       （module/const/action.mjs:1025）
+ *      crucible-compiled.mjs:4726  {label: "Skill Tags"}   （module/const/action.mjs:1383）
+ *      crucible-compiled.mjs:9920 / :11007 {label: "Weapon Tags"}（module/hooks/action.mjs:1265/:2352）
+ *    这 5 个都汇进 crucible-compiled.mjs:21102
+ *      `tags.context = new ActionTagGroup({…, tooltip: ctx.label || _loc("ACTION.TAGS.Context")})`
+ *    —— **同一行的兜底值用的是正规 i18n 键**（本仓已译「上下文标签」），可见上游本意就是放键，
+ *    只是这 5 个写点漏了。渲染点 templates/dice/partials/action-use-header.hbs:22
+ *      `data-tooltip="{{tags.context.tooltip}}"`
+ *    该 partial 被 action-use-chat / action-use-dialog / spell-cast-dialog / hazard-dialog
+ *    四个模板 include，所以每次动作使用的对话框与聊天卡都带。
+ *    悬浮时 core client/helpers/interaction/tooltip-manager.mjs:263
+ *      `if ( game.i18n.has(text) ) this.tooltip.innerHTML = _loc(text);`
+ *    —— 顶层键存在 has() 即为真，故这条通道确实修得了。
+ *
+ * ② `Save Changes`：crucible-compiled.mjs:14413（源码 module/applications/settings/
+ *    compendium-sources.mjs:58）`context.buttons = [{type:"submit", …, label:"Save Changes"}]`，
+ *    页脚走 core templates/generic/form-footer.hbs 的 `{{localize button.label}}`。
+ *    注意：本机 modules/foundry_chn/cn.json 顶层**已经**有 `"Save Changes": "保存更改"`，
+ *    但 crucible-cn 不依赖 foundry_chn（module.json 的 requires 只有 babele），
+ *    所以这里补一条同值的兜底；装了 foundry_chn 的世界由下面的守卫自动让位。
+ *    同串还出现在 core client/applications/settings/menus/av-config.mjs:156、
+ *    dnd5e.mjs:48521、ember.mjs:51613 与 ember templates/applications/actor-flags.hbs:52，
+ *    译文与 ember 侧 EXACT 表的「保存更改」一致，不会产生分歧。
+ *
+ * ③ `'-- None -- '`：crucible-compiled.mjs:47533 `}, {"": "-- None -- "})` —— crucible 的
+ *    "party" 世界设置用 ForeignDocumentField 的 choices 首行。渲染链
+ *    templates/settings/config-category.hbs 传 `localize=true`
+ *    → client/applications/forms/fields.mjs:313 `if ( config.localize ) label = _loc(label)`。
+ *    **尾随空格必须原样保留**：localize 走 getProperty，
+ *    common/utils/helpers.mjs:824 的 `if ( key in object )` 快路径按整串比对，少一个空格就不命中。
+ *
+ * 越界检查（本轮重跑，不是引用旧结论）：扫本机 Foundry v14 本体 + Data/{modules,systems}
+ * 的 161 个 lang json，这 7 个串里只有 `Save Changes` 被 foundry_chn 定义过（值同为「保存更改」）；
+ * 扫 3212 个 js/mjs/hbs/html 找字面 `localize("…")` / `{{localize "…"}}` / `label: "…"`，
+ * 非 crucible 的命中只有 `Reload` 三处，逐个看过都不经 i18n：
+ *   archive-of-voices-pro v12/v13 avp-settings.js 是 DialogV1 的按钮，
+ *     core templates/hud/dialog.html 写的是 `{{{button.label}}}`（无 localize），
+ *   stylish-shop pf2e/index.js:209 的 label 只进 `.sort()` 比较，从不上屏 i18n。
+ * 即便如此仍走「已存在就不覆盖」的同一条守卫。
+ *
+ * 译名取本仓 lang/cn.json 同概念既有译法：
+ *   Spell/Skill/Weapon Tags ← ACTION.TAGS.Action「动作标签」ACTION.TAGS.Target「目标标签」的构词
+ *   Strikes ← ACTION.DEFAULT_ACTIONS.Strike.Name「打击」
+ *   Reload  ← ACTION.TAG.Reload「装填」
+ */
+const EXTRA_TOPLEVEL_LABELS = {
+  'Spell Tags': '法术标签',
+  'Skill Tags': '技能标签',
+  'Weapon Tags': '武器标签',
+  'Strikes': '打击',
+  'Reload': '装填',
+  'Save Changes': '保存更改',
+  '-- None -- ': '—— 无 ——',
+};
 
-  for (const [key, value] of Object.entries(BOON_BANE_LABELS)) {
-    // 顶层键是全局的：别人已经定义过就让给别人，宁可露英文也不顶掉。
-    if (typeof game.i18n.translations[key] === 'string') continue;
-    game.i18n.translations[key] = value;
+Hooks.once('i18nInit', () => {
+  for (const table of [BOON_BANE_LABELS, EXTRA_TOPLEVEL_LABELS]) {
+    for (const [key, value] of Object.entries(table)) {
+      // 顶层键是全局的：别人已经定义过就让给别人，宁可露英文也不顶掉。
+      if (typeof game.i18n.translations[key] === 'string') continue;
+      game.i18n.translations[key] = value;
+    }
+  }
+});
+
+/**
+ * `CrucibleItem.validateJoint()` 抛的 5 条词缀校验错误是**裸英文**，且必然上屏。
+ *
+ * 写点（crucible 0.10.1 module/documents/item.mjs，编译产物 crucible-compiled.mjs 同串）：
+ *   :129 / :7799  "Unique items cannot be enchanted with affixes."
+ *   :141 / :7811  `Duplicate affix identifier "${affix.identifier}".`
+ *   :145 / :7815  `Affix "${affix.identifier}" cannot be applied to item type "${data.type}".`
+ *   :151 / :7821  `Prefix affixes (cost ${prefixSpent}) exceed the available prefix capacity of ${halfCapacity}.`
+ *   :154 / :7824  `Suffix affixes (cost ${suffixSpent}) exceed the available suffix capacity of ${halfCapacity}.`
+ * 捞起点：module/documents/active-effect.mjs:186 与 :224 都是
+ *   `catch(err) { ui.notifications.warn(err.message); return false; }`
+ * core client/applications/ui/notifications.mjs:121 `message = _loc(message, format);` 无条件走一遍
+ * i18n，但这 5 条谁都没注册键。crucible.affixes.json 已译 135 条词缀，每次拖放失败都会弹。
+ *
+ * 为什么不用上面那张顶层键表：只有第一条是定串，另外 4 条带插值，加键救不了。
+ * 为什么不去包 `ui.notifications.warn`：那是全客户端共享的出口，任何模块的提示都要过我们一手，
+ * 代价远大于收益。这里改为**只包 `CONFIG.Item.documentClass.validateJoint`**——
+ * crucible-compiled.mjs:47343 `CONFIG.Item.documentClass = CrucibleItem;` 与 item.mjs:98 的
+ * `static validateJoint` 是同一个对象，赋值即命中 active-effect.mjs 里 `CrucibleItem.validateJoint(...)`
+ * 那两个调用点，作用面仅限 Crucible 物品校验。
+ *
+ * 保守做法（与上面天赋增强器补丁同款）：
+ *  - 幂等标记 `__crucibleCnAffixMsgWrapped`，重复 setup 不会套娃；
+ *  - 只在消息**整串**匹配这 5 条正则时改写，其余一律 `throw err` 原样透传；
+ *  - 改写出的 Error 挂 `cause` 保留原始对象，方便排错；
+ *  - 整体裹 try/catch，翻译逻辑自身出错也绝不吞掉原始异常。
+ * 注意上游第 4/5 条里「Prefix」首字母大写、后半句「prefix」小写，不能用反向引用 `\1` 去凑。
+ * 译名取本仓 lang/cn.json：affix 词缀（AFFIX.*）、prefix/suffix 前缀/后缀（AFFIX.TypePrefix/TypeSuffix）、
+ * identifier 标识符（AFFIX.FIELDS.identifier.label）、item type 物品类型（AFFIX.FIELDS.itemTypes.label）、
+ * unique 独特（ITEM.PROPERTIES.Unique，且与 ITEM.SHEET.UniqueItemNoAffixes 的措辞对齐）、
+ * capacity 容量（AFFIX.FIELDS.tier.hint「消耗一点前缀或后缀容量」）。
+ */
+const AFFIX_ERROR_RULES = [
+  [/^Unique items cannot be enchanted with affixes\.$/,
+    () => '独特物品无法附加词缀进行附魔。'],
+  [/^Duplicate affix identifier "(.+)"\.$/,
+    (m) => `词缀标识符「${m[1]}」重复。`],
+  [/^Affix "(.+)" cannot be applied to item type "(.+)"\.$/,
+    (m) => `词缀「${m[1]}」无法应用于物品类型「${m[2]}」。`],
+  [/^Prefix affixes \(cost ([\d.]+)\) exceed the available prefix capacity of ([\d.]+)\.$/,
+    (m) => `前缀词缀（消耗 ${m[1]}）超出可用的前缀容量 ${m[2]}。`],
+  [/^Suffix affixes \(cost ([\d.]+)\) exceed the available suffix capacity of ([\d.]+)\.$/,
+    (m) => `后缀词缀（消耗 ${m[1]}）超出可用的后缀容量 ${m[2]}。`],
+];
+
+export function translateAffixError(message) {
+  if (typeof message !== 'string') return null;
+  for (const [pattern, render] of AFFIX_ERROR_RULES) {
+    const m = pattern.exec(message);
+    if (m) return render(m);
+  }
+  return null;
+}
+
+function patchAffixValidationMessages() {
+  const ItemCls = CONFIG.Item?.documentClass;
+  if (!ItemCls || typeof ItemCls.validateJoint !== 'function') return;
+  if (ItemCls.__crucibleCnAffixMsgWrapped) return;
+
+  const original = ItemCls.validateJoint;
+  ItemCls.validateJoint = function wrappedValidateJoint(...args) {
+    try {
+      return original.apply(this, args);
+    } catch (err) {
+      let cn = null;
+      try {
+        cn = translateAffixError(err?.message);
+      } catch (inner) {
+        console.warn('Crucible cn | 词缀校验错误翻译失败：', inner);
+      }
+      if (!cn) throw err;
+      throw new Error(cn, { cause: err });
+    }
+  };
+  ItemCls.__crucibleCnAffixMsgWrapped = true;
+}
+
+Hooks.once('setup', () => {
+  try {
+    patchAffixValidationMessages();
+  } catch (err) {
+    console.warn('Crucible cn | 词缀校验错误翻译补丁未生效：', err);
   }
 });

@@ -25,6 +25,8 @@ https://github.com/takaqiao/crucible-cn/releases/latest/download/module.json
 - `lang/cn.json` — 系统主体 i18n
 - `compendium/cn/*.json` — Babele 翻译的合集包 JSON
 - `babele-register.js` — Babele 注册入口
+- `styles/crucible-cn.css` — 中文字体回退（Crucible 原字体 AwerySmallcaps /
+  Vollkorn / CaslonAntique 实测 CJK 码位为 0，回退链末端只有裸 `serif`）
 - `scripts/` — 翻译稽核与维护脚本（未翻译扫描、双语命名修复、术语漏检等）。
   **仅存于仓库，不进发布包** —— 运行时不会加载，打进 zip 只是死重量
 - `lang/en.json` — 英文基准，供 `lang_gap.py` / `flatten_lang.py` 逐键比对用。
@@ -56,7 +58,7 @@ https://github.com/takaqiao/crucible-cn/releases/latest/download/module.json
 | `scan_untranslated.py` / `scan_untranslated_deep.py` | 扫描合集中残留的未翻译英文 |
 | `find_untranslated_english.py` | 找出疑似纯英文条目 |
 | `repair_bilingual_names.py` | **只读报告**：列出疑似中英混排的实体名。判据是纯形状的，本库实测 652 条建议**没有一条可以直接采用**，所以它不写盘；确认要改的走 `3-常用脚本/qa/apply_translations.py` |
-| `scan_word_leaks.py` / `fix_word_leaks.py` | 词汇泄漏检测与修复 |
+| `scan_word_leaks.py` | **只读报告**：找出中文串里夹着的单个英文词。配套的 `fix_word_leaks.py` 已于 2026-08-14 删除 —— 它按纯形状判据（「这串里有中文」）直接覆盖写 `compendium/cn/*.json` 与 `lang/cn.json`，不看英文原文、无 `--dry-run`、白名单 `ALLOW` 是从未被引用的死代码，词表里还混着 `Tier→等级`（本项目定译是「阶」）、`slug→标识符`、`Critical→致命` 这类普通词。要落地的改动一律走 `3-常用脚本/qa/apply_translations.py`（英文源漂移 / 无中文 / 标记破损三道闸） |
 | `audit_all.py` | 一键全量稽核 |
 
 Issue / PR 欢迎 — 翻译错误、术语建议、兼容性反馈都会处理。

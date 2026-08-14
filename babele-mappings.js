@@ -266,7 +266,6 @@ export const DOCUMENT_MAPPINGS = {
       "path": "system.description",
       "converter": "crucibleDescription"
     },
-    "adjective": "system.adjective",
     "actions": {
       "path": "system.actions",
       "converter": "crucibleActions"
@@ -304,10 +303,6 @@ export const DOCUMENT_MAPPINGS = {
       "path": "system.details.taxonomy",
       "converter": "crucibleNested"
     },
-    "actions": {
-      "path": "system.actions",
-      "converter": "crucibleActions"
-    },
     "items": {
       "path": "items",
       "converter": "document",
@@ -338,6 +333,10 @@ export const DOCUMENT_MAPPINGS = {
       "path": "tokens",
       "converter": "nameCollection"
     },
-    "navName": "navName"
+    "navName": "navName",
+    "sounds": {
+      "path": "sounds",
+      "converter": "nameCollection"
+    }
   }
 };
