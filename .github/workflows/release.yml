@@ -87,7 +87,10 @@ jobs:
           # 体积。ember 侧已有这道断言，crucible 侧一直缺 —— 补齐，正则逐项对应
           # 上面的排除清单。
           echo "--- 确认英文基准/维护脚本没被打进去（应无输出）---"
-          unzip -l module.zip | grep -E "compendium/en/|lang/en\.json|lang_keep_english\.json|scripts/|release/|\.py$|\.zip$" && exit 1 || true
+          # ⚠ 必须用 `unzip -Z1`（只列成员名），不能用 `unzip -l`：后者第一行是
+          # `Archive:  module.zip`，会被 `\.zip$` 这一条**匹配到自己的表头**，断言恒失败。
+          # 0.9.8 第一次构建就是这么挂的。
+          unzip -Z1 module.zip | grep -E "^compendium/en/|^lang/en\.json|lang_keep_english\.json|^scripts/|^release/|\.py$|\.zip$" && exit 1 || true
           unzip -l module.zip | tail -10
 
       - name: Create GitHub Release
