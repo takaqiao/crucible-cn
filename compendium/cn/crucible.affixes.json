@@ -28,7 +28,7 @@
     },
     "Acid Damage": {
       "name": "强酸伤害 Acid Damage",
-      "description": "<p>为使用此武器进行的打击附加<strong>强酸</strong>伤害。额外伤害等于该后缀每<strong>阶</strong> 2点。</p><h3 class=\"divider\">试玩测试说明</h3><p>该加值当前以此武器现有伤害类型的平直额外伤害形式生效。在未来的更新中，这将改为造成<strong>强酸</strong>伤害，并单独检定目标的<strong>强酸</strong>抗性。</p>",
+      "description": "<p>为使用此武器进行的打击附加<strong>强酸</strong>伤害。额外伤害等于该后缀每<strong>阶</strong> 2点。</p><h3 class=\"divider\">试玩测试说明</h3><p>该加值当前以此武器现有伤害类型的固定额外伤害形式生效。在未来的更新中，这将改为造成<strong>强酸</strong>伤害，并单独检定目标的<strong>强酸</strong>抗性。</p>",
       "adjective": "腐蚀"
     },
     "Acid Resistance": {
@@ -54,7 +54,7 @@
     },
     "Arrow Spellcraft": {
       "name": "箭矢施法 Arrow Spellcraft",
-      "description": "<p>此物品被注入了<strong>箭矢</strong>施法的精华。持用时，持有者会本能地获得关于<strong>箭矢</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构成法术。</p>",
+      "description": "<p>此物品被注入了<strong>箭矢</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>箭矢</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构筑法术。</p>",
       "adjective": "箭矢"
     },
     "Aspect Spellcraft": {
@@ -69,7 +69,7 @@
     },
     "Aura Spellcraft": {
       "name": "灵气施法 Aura Spellcraft",
-      "description": "<p>此物品被灌注了<strong>灵气</strong>施法的精华。装备时，持有者会本能地获得关于<strong>灵气</strong>手势的知识，使其即使未通过天赋习得该手势，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>灵气</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>灵气</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构筑法术。</p>",
       "adjective": "灵气"
     },
     "Awareness": {
@@ -84,7 +84,7 @@
     },
     "Blast Spellcraft": {
       "name": "爆破施法 Blast Spellcraft",
-      "description": "<p>此物品被注入了<strong>爆破</strong>施法的精华。装备时，持有者会本能地获得关于<strong>爆破</strong>手势的知识，使其即使未通过天赋习得该手势，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>爆破</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>爆破</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构筑法术。</p>",
       "adjective": "爆破"
     },
     "Bludgeoning Damage": {
@@ -109,7 +109,7 @@
     },
     "Cold Damage": {
       "name": "寒冷伤害 Cold Damage",
-      "description": "<p>为使用此武器进行的打击附加<strong>寒冷</strong>伤害。该额外伤害等于此后缀每<strong>阶</strong>提供的 2 点。</p><h3 class=\"divider\">试玩测试备注</h3><p>此加值目前作为此武器现有伤害类型的平直额外伤害生效。在未来的更新中，这将作为<strong>寒冷</strong>伤害结算，并单独对照目标的<strong>寒冷</strong>抗性进行检定。</p>",
+      "description": "<p>为使用此武器进行的打击附加<strong>寒冷</strong>伤害。该额外伤害等于此后缀每<strong>阶</strong>提供的 2 点。</p><h3 class=\"divider\">试玩测试说明</h3><p>此加值目前作为此武器现有伤害类型的固定额外伤害生效。在未来的更新中，这将作为<strong>寒冷</strong>伤害结算，并单独对照目标的<strong>寒冷</strong>抗性进行检定。</p>",
       "adjective": "霜寒"
     },
     "Cold Resistance": {
@@ -119,12 +119,12 @@
     },
     "Cone Spellcraft": {
       "name": "锥形施法 Cone Spellcraft",
-      "description": "<p>这件物品被灌注了<strong>锥形</strong>施法的精华。装备时，持有者会本能地获得关于<strong>锥形</strong>手势的知识，使其即使未通过天赋学会该手势，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>锥形</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>锥形</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构筑法术。</p>",
       "adjective": "锥形"
     },
     "Conjure Spellcraft": {
       "name": "召唤施法 Conjure Spellcraft",
-      "description": "<p>此物品被灌注了<strong>召唤</strong>施法的精华。佩戴时，持有者会本能地获得关于<strong>召唤</strong>手势的知识，使其即使未通过天赋学会该手势，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>召唤</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>召唤</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构筑法术。</p>",
       "adjective": "召唤"
     },
     "Construct Bane": {
@@ -139,7 +139,7 @@
     },
     "Control Spellcraft": {
       "name": "控制施法 Control Spellcraft",
-      "description": "<p>此物品被灌注了<strong>控制</strong>施法的精华。处于已装备状态时，持有者会本能地获得关于<strong>控制</strong>符文的知识，使其即使未通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>控制</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>控制</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
       "adjective": "控制符文"
     },
     "Corruption Conversion": {
@@ -149,7 +149,7 @@
     },
     "Corruption Damage": {
       "name": "腐化伤害 Corruption Damage",
-      "description": "<p>使用此武器进行的打击会附加<strong>腐化</strong>伤害。该额外伤害等于此后缀每<strong>阶</strong>2点。</p><h3 class=\"divider\">试玩测试说明</h3><p>此加值目前以该武器现有伤害类型的平额额外伤害形式生效。在未来的更新中，该伤害将作为<strong>腐化</strong>伤害结算，并单独对照目标的<strong>腐化</strong>抗性进行判定。</p>",
+      "description": "<p>使用此武器进行的打击会附加<strong>腐化</strong>伤害。该额外伤害等于此后缀每<strong>阶</strong>2点。</p><h3 class=\"divider\">试玩测试说明</h3><p>此加值目前以该武器现有伤害类型的固定额外伤害形式生效。在未来的更新中，该伤害将作为<strong>腐化</strong>伤害结算，并单独对照目标的<strong>腐化</strong>抗性进行判定。</p>",
       "adjective": "腐化"
     },
     "Corruption Resistance": {
@@ -159,7 +159,7 @@
     },
     "Create Spellcraft": {
       "name": "创造施法 Create Spellcraft",
-      "description": "<p>该物品被灌注了<strong>创造</strong>施法的精华。装备时，持有者会本能地获得关于<strong>创造</strong>手势的知识，使其即使没有通过天赋学会该手势，也能在构筑法术时使用它。</p>",
+      "description": "<p>此物品被注入了<strong>创造</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>创造</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构筑法术。</p>",
       "adjective": "创造"
     },
     "Death Potency": {
@@ -169,7 +169,7 @@
     },
     "Death Spellcraft": {
       "name": "死亡施法 Death Spellcraft",
-      "description": "<p>此物品被注入了<strong>死亡</strong>施法的精华。装备时，持有者会本能地获得关于<strong>死亡</strong>符文的知识，使其即使未通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>死亡</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>死亡</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
       "adjective": "死亡符文"
     },
     "Deception": {
@@ -215,7 +215,7 @@
     },
     "Earth Spellcraft": {
       "name": "大地施法 Earth Spellcraft",
-      "description": "<p>该物品被灌注了<strong>大地</strong>施法的精华。处于已装备状态时，持有者会本能地获得关于<strong>大地</strong>符文的知识，使其即使未通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>大地</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>大地</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
       "adjective": "大地符文"
     },
     "Electricity Conversion": {
@@ -225,7 +225,7 @@
     },
     "Electricity Damage": {
       "name": "电击伤害 Electricity Damage",
-      "description": "<p>为使用此武器进行的打击附加<strong>电击</strong>伤害。该额外伤害等于此后缀每<strong>阶</strong>的 2 点。</p><h3 class=\"divider\">试玩测试说明</h3><p>该加值目前以该武器现有伤害类型的平直额外伤害形式生效。在未来的更新中，这将改为造成<strong>电击</strong>伤害，并单独对照目标的<strong>电击</strong>抗性进行检定。</p>",
+      "description": "<p>为使用此武器进行的打击附加<strong>电击</strong>伤害。该额外伤害等于此后缀每<strong>阶</strong>的 2 点。</p><h3 class=\"divider\">试玩测试说明</h3><p>该加值目前以该武器现有伤害类型的固定额外伤害形式生效。在未来的更新中，这将改为造成<strong>电击</strong>伤害，并单独对照目标的<strong>电击</strong>抗性进行检定。</p>",
       "adjective": "闪电"
     },
     "Electricity Resistance": {
@@ -260,7 +260,7 @@
     },
     "Fan Spellcraft": {
       "name": "扇形施法 Fan Spellcraft",
-      "description": "<p>此物品被灌注了<strong>扇形</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>扇形</strong>手势的知识，使其即使未通过天赋习得该手势，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>扇形</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>扇形</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构筑法术。</p>",
       "adjective": "扇形"
     },
     "Fey Bane": {
@@ -270,12 +270,12 @@
     },
     "Fire Conversion": {
       "name": "火焰转换 Fire Conversion",
-      "description": "<p>使用此武器进行打击所造成的部分伤害会转化为<strong>火焰</strong>伤害。转化的比例取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong>33%的伤害被转化</p></li><li><p><strong>第2阶：</strong>66%的伤害被转化</p></li><li><p><strong>第3阶：</strong>100%的伤害被转化</p></li></ul><h3 class=\"divider\">试玩测试备注</h3><p>将一次攻击拆分为多种类型伤害组成部分的机制目前尚不存在。在此之前，该词缀的所有阶都会将武器伤害的100%转化为<strong>火焰</strong>伤害。一旦支持多类型伤害，较低阶将只转化总伤害的一部分，其余部分则保留为武器的原始类型。</p>",
+      "description": "<p>使用此武器进行打击所造成的部分伤害会转化为<strong>火焰</strong>伤害。转化的比例取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong>33%的伤害被转化</p></li><li><p><strong>第2阶：</strong>66%的伤害被转化</p></li><li><p><strong>第3阶：</strong>100%的伤害被转化</p></li></ul><h3 class=\"divider\">试玩测试说明</h3><p>将一次攻击拆分为多种类型伤害组成部分的机制目前尚不存在。在此之前，该词缀的所有阶都会将武器伤害的100%转化为<strong>火焰</strong>伤害。一旦支持多类型伤害，较低阶将只转化总伤害的一部分，其余部分则保留为武器的原始类型。</p>",
       "adjective": "燃焰"
     },
     "Fire Damage": {
       "name": "火焰伤害 Fire Damage",
-      "description": "<p>为使用此武器进行的打击附加<strong>火焰</strong>伤害。额外伤害等于该后缀每<strong>阶</strong>2点。</p><h3 class=\"divider\">试玩测试备注</h3><p>该加值当前作为此武器现有伤害类型的固定额外伤害生效。在未来更新中，这将作为<strong>火焰</strong>造成伤害，并单独对照目标的<strong>火焰</strong>抗性进行检定。</p>",
+      "description": "<p>为使用此武器进行的打击附加<strong>火焰</strong>伤害。额外伤害等于该后缀每<strong>阶</strong>2点。</p><h3 class=\"divider\">试玩测试说明</h3><p>该加值当前作为此武器现有伤害类型的固定额外伤害生效。在未来更新中，这将作为<strong>火焰</strong>造成伤害，并单独对照目标的<strong>火焰</strong>抗性进行检定。</p>",
       "adjective": "火焰"
     },
     "Fire Resistance": {
@@ -290,7 +290,7 @@
     },
     "Flame Spellcraft": {
       "name": "火焰施法 Flame Spellcraft",
-      "description": "<p>这件物品被注入了<strong>火焰</strong>施法的本质。持有者在已装备时会本能地获得关于<strong>火焰</strong>符文的知识，使其即使未通过天赋学会该符文，也能使用它来构成法术。</p>",
+      "description": "<p>此物品被注入了<strong>火焰</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>火焰</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
       "adjective": "火焰符文"
     },
     "Focusing": {
@@ -311,7 +311,7 @@
     },
     "Frost Spellcraft": {
       "name": "霜冻施法 Frost Spellcraft",
-      "description": "<p>该物品被注入了<strong>霜冻</strong>施法的精华。处于已装备状态时，持有者会本能地获得关于<strong>霜冻</strong>符文的知识，使其即使未通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>霜冻</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>霜冻</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
       "adjective": "霜冻符文"
     },
     "Giant Bane": {
@@ -347,7 +347,7 @@
     },
     "Illumination Spellcraft": {
       "name": "照明施法 Illumination Spellcraft",
-      "description": "<p>此物品被灌注了<strong>照明</strong>施法的精华。装备时，持有者会本能地获得关于<strong>照明</strong>符文的知识，使其即使未通过天赋学会该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>照明</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>照明</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
       "adjective": "照明符文"
     },
     "Illusion Potency": {
@@ -357,12 +357,12 @@
     },
     "Illusion Spellcraft": {
       "name": "幻象施法 Illusion Spellcraft",
-      "description": "<p>此物品被灌注了<strong>幻象</strong>施法的精华。装备时，持有者会本能地获得关于<strong>幻象</strong>符文的知识，使其即使未通过天赋习得该符文，也能使用它来编组法术。</p>",
+      "description": "<p>此物品被注入了<strong>幻象</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>幻象</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
       "adjective": "幻象符文"
     },
     "Influence Spellcraft": {
       "name": "影响施法 Influence Spellcraft",
-      "description": "<p>此物品被灌注了<strong>影响</strong>施法的精华。已装备时，持用者会本能地获得关于<strong>影响</strong>手势的知识，使其即使未通过天赋习得该手势，也能使用它来构成法术。</p>",
+      "description": "<p>此物品被注入了<strong>影响</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>影响</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构筑法术。</p>",
       "adjective": "影响"
     },
     "Keen": {
@@ -372,12 +372,12 @@
     },
     "Kinesis Potency": {
       "name": "念力强度 Kinesis Potency",
-      "description": "<p>使使用<strong>念力</strong>符文的法术的<strong>附魔加值</strong>，按此后缀的每<strong>阶</strong>提高 1。</p>",
+      "description": "<p>使用<strong>念力</strong>符文的法术，其<strong>附魔加值</strong>每有该后缀的<strong>1 阶</strong>便提高 1。</p>",
       "adjective": "念力强度"
     },
     "Kinesis Spellcraft": {
       "name": "念力施法 Kinesis Spellcraft",
-      "description": "<p>此物品被注入了<strong>念力</strong>施法的精华。佩戴后，持有者会本能地获得<strong>念力</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构成法术。</p>",
+      "description": "<p>此物品被注入了<strong>念力</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>念力</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
       "adjective": "念力符文"
     },
     "Life Potency": {
@@ -432,7 +432,7 @@
     },
     "Oblivion Spellcraft": {
       "name": "湮灭施法 Oblivion Spellcraft",
-      "description": "<p>该物品被注入了<strong>湮灭</strong>施法的精华。处于已装备状态时，持有者会本能地获得关于<strong>湮灭</strong>符文的知识，使其即使未通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>湮灭</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>湮灭</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
       "adjective": "湮灭符文"
     },
     "Ooze Bane": {
@@ -452,7 +452,7 @@
     },
     "Piercing Damage": {
       "name": "穿刺伤害 Piercing Damage",
-      "description": "<p>为使用此武器进行的打击附加<strong>穿刺</strong>伤害。额外伤害等于该后缀每<strong>阶</strong>的 2 点。</p><h3 class=\"divider\">试玩测试说明</h3><p>此加值当前作为该武器现有伤害类型的平额额外伤害生效。在未来的更新中，这将作为<strong>穿刺</strong>伤害结算，并单独对照目标的<strong>穿刺</strong>抗性进行检定。</p>",
+      "description": "<p>为使用此武器进行的打击附加<strong>穿刺</strong>伤害。额外伤害等于该后缀每<strong>阶</strong>的 2 点。</p><h3 class=\"divider\">试玩测试说明</h3><p>此加值当前作为该武器现有伤害类型的固定额外伤害生效。在未来的更新中，这将作为<strong>穿刺</strong>伤害结算，并单独对照目标的<strong>穿刺</strong>抗性进行检定。</p>",
       "adjective": "穿刺"
     },
     "Piercing Resistance": {
@@ -487,7 +487,7 @@
     },
     "Psychic Damage": {
       "name": "灵能伤害 Psychic Damage",
-      "description": "<p>为使用该武器进行的打击附加<strong>灵能</strong>伤害。该额外伤害等于此后缀每<strong>阶</strong>提供的 2 点。</p><h3 class=\"divider\">试玩测试说明</h3><p>该加值目前以该武器现有伤害类型的平直额外伤害形式生效。在未来的更新中，这将作为<strong>灵能</strong>伤害结算，并单独对照目标的<strong>灵能</strong>抗性进行检定。</p>",
+      "description": "<p>为使用该武器进行的打击附加<strong>灵能</strong>伤害。该额外伤害等于此后缀每<strong>阶</strong>提供的 2 点。</p><h3 class=\"divider\">试玩测试说明</h3><p>该加值目前以该武器现有伤害类型的固定额外伤害形式生效。在未来的更新中，这将作为<strong>灵能</strong>伤害结算，并单独对照目标的<strong>灵能</strong>抗性进行检定。</p>",
       "adjective": "苦痛"
     },
     "Psychic Resistance": {
@@ -497,7 +497,7 @@
     },
     "Pulse Spellcraft": {
       "name": "脉冲施法 Pulse Spellcraft",
-      "description": "<p>该物品被灌注了<strong>脉冲</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>脉冲</strong>手势的知识，使其即使未通过天赋习得该手势，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>脉冲</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>脉冲</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构筑法术。</p>",
       "adjective": "脉冲"
     },
     "Radiant Conversion": {
@@ -507,7 +507,7 @@
     },
     "Radiant Damage": {
       "name": "光耀伤害 Radiant Damage",
-      "description": "<p>使用此武器进行的打击附加<strong>光耀</strong>伤害。额外伤害等于该后缀每<strong>阶</strong>的 2 点。</p><h3 class=\"divider\">试玩测试说明</h3><p>该加值目前以此武器现有伤害类型的平直额外伤害形式生效。在未来的更新中，这将作为<strong>光耀</strong>伤害结算，并单独对照目标的<strong>光耀</strong>抗性进行检定。</p>",
+      "description": "<p>使用此武器进行的打击附加<strong>光耀</strong>伤害。额外伤害等于该后缀每<strong>阶</strong>的 2 点。</p><h3 class=\"divider\">试玩测试说明</h3><p>该加值目前以此武器现有伤害类型的固定额外伤害形式生效。在未来的更新中，这将作为<strong>光耀</strong>伤害结算，并单独对照目标的<strong>光耀</strong>抗性进行检定。</p>",
       "adjective": "辉光"
     },
     "Radiant Resistance": {
@@ -522,7 +522,7 @@
     },
     "Ray Spellcraft": {
       "name": "射线施法 Ray Spellcraft",
-      "description": "<p>此物品被注入了<strong>射线</strong>施法的精华。佩戴并已装备时，持有者会本能地获得关于<strong>射线</strong>手势的知识，使其即使未通过天赋学会该手势，也能使用它来构成法术。</p>",
+      "description": "<p>此物品被注入了<strong>射线</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>射线</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构筑法术。</p>",
       "adjective": "射线"
     },
     "Reach": {
@@ -552,12 +552,12 @@
     },
     "Sense Spellcraft": {
       "name": "感知施法 Sense Spellcraft",
-      "description": "<p>该物品被注入了<strong>感知</strong>施法的精华。处于已装备状态时，持有者会本能地获得关于<strong>感知</strong>手势的知识，使其即使未通过天赋习得该手势，也能使用它来构成法术。</p>",
+      "description": "<p>此物品被注入了<strong>感知</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>感知</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构筑法术。</p>",
       "adjective": "感知"
     },
     "Slashing Damage": {
       "name": "挥砍伤害 Slashing Damage",
-      "description": "<p>为使用此武器进行的打击添加<strong>挥砍</strong>伤害。该额外伤害等于此后缀每<strong>阶</strong>的 2 点。</p><h3 class=\"divider\">试玩测试说明</h3><p>当前，此加值作为该武器现有伤害类型的平直额外伤害生效。未来更新中，这将改为造成<strong>挥砍</strong>伤害，并单独对照目标的<strong>挥砍</strong>抗性进行检定。</p>",
+      "description": "<p>为使用此武器进行的打击添加<strong>挥砍</strong>伤害。该额外伤害等于此后缀每<strong>阶</strong>的 2 点。</p><h3 class=\"divider\">试玩测试说明</h3><p>当前，此加值作为该武器现有伤害类型的固定额外伤害生效。未来更新中，这将改为造成<strong>挥砍</strong>伤害，并单独对照目标的<strong>挥砍</strong>抗性进行检定。</p>",
       "adjective": "撕裂"
     },
     "Slashing Resistance": {
@@ -577,7 +577,7 @@
     },
     "Soul Spellcraft": {
       "name": "灵魂施法 Soul Spellcraft",
-      "description": "<p>该物品被注入了<strong>灵魂</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>灵魂</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>灵魂</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>灵魂</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
       "adjective": "灵魂符文"
     },
     "Spirited": {
@@ -592,7 +592,7 @@
     },
     "Step Spellcraft": {
       "name": "踏步施法 Step Spellcraft",
-      "description": "<p>此物品被注入了<strong>踏步</strong>施法的精华。已装备时，持用者会本能地获得关于<strong>踏步</strong>手势的知识，使其即使未通过天赋习得该手势，也能使用它来构成法术。</p>",
+      "description": "<p>此物品被注入了<strong>踏步</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>踏步</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构筑法术。</p>",
       "adjective": "踏步"
     },
     "Strike Spellcraft": {
@@ -602,7 +602,7 @@
     },
     "Surge Spellcraft": {
       "name": "涌动施法 Surge Spellcraft",
-      "description": "<p>该物品被注入了<strong>涌动</strong>施法的精华。持有者在已装备时会本能地获得关于<strong>涌动</strong>手势的知识，从而即使未通过天赋习得该手势，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>涌动</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>涌动</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构筑法术。</p>",
       "adjective": "涌动"
     },
     "Tenacity": {
@@ -627,7 +627,7 @@
     },
     "Void Damage": {
       "name": "虚空伤害 Void Damage",
-      "description": "<p>为使用此武器进行的打击附加<strong>虚空</strong>伤害。该额外伤害的数值等于此后缀每<strong>阶</strong>提供的 2 点。</p><h3 class=\"divider\">试玩测试说明</h3><p>此加值当前作为该武器现有伤害类型的平直额外伤害生效。在未来更新中，该效果将改为造成<strong>虚空</strong>伤害，并单独对照目标的<strong>虚空</strong>抗性进行判定。</p>",
+      "description": "<p>为使用此武器进行的打击附加<strong>虚空</strong>伤害。该额外伤害的数值等于此后缀每<strong>阶</strong>提供的 2 点。</p><h3 class=\"divider\">试玩测试说明</h3><p>此加值当前作为该武器现有伤害类型的固定额外伤害生效。在未来更新中，该效果将改为造成<strong>虚空</strong>伤害，并单独对照目标的<strong>虚空</strong>抗性进行判定。</p>",
       "adjective": "湮灭"
     },
     "Void Resistance": {
@@ -637,7 +637,7 @@
     },
     "Ward Spellcraft": {
       "name": "防护施法 Ward Spellcraft",
-      "description": "<p>此物品被灌注了<strong>防护</strong>施法的精华。处于已装备状态时，持有者会本能地获得<strong>防护</strong>手势的知识，使其即使未通过天赋习得该手势，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>防护</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>防护</strong>手势的知识，使其即使未曾通过天赋习得该手势，也能使用它来构筑法术。</p>",
       "adjective": "防护"
     },
     "Potency": {
@@ -652,22 +652,22 @@
     },
     "Compose Spellcraft": {
       "name": "编构施法 Compose Spellcraft",
-      "description": "<p>这件物品被灌注了<strong>编构</strong>施法的精华。装备时，持有者会本能地获得关于<strong>编构</strong>屈折的知识，使其即使未通过天赋学会该屈折，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>编构</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>编构</strong>屈折的知识，使其即使未曾通过天赋习得该屈折，也能使用它来构筑法术。</p>",
       "adjective": "编构"
     },
     "Determine Spellcraft": {
       "name": "限定施法 Determine Spellcraft",
-      "description": "<p>这件物品被灌注了<strong>限定</strong>施法的精华。装备时，持有者会本能地获得关于<strong>限定</strong>屈折的知识，使其即使未通过天赋学会该屈折，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>限定</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>限定</strong>屈折的知识，使其即使未曾通过天赋习得该屈折，也能使用它来构筑法术。</p>",
       "adjective": "限定"
     },
     "Elude Spellcraft": {
       "name": "遁避施法 Elude Spellcraft",
-      "description": "<p>这件物品被灌注了<strong>遁避</strong>施法的精华。装备时，持有者会本能地获得关于<strong>遁避</strong>屈折的知识，使其即使未通过天赋学会该屈折，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>遁避</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>遁避</strong>屈折的知识，使其即使未曾通过天赋习得该屈折，也能使用它来构筑法术。</p>",
       "adjective": "遁避"
     },
     "Extend Spellcraft": {
       "name": "延展施法 Extend Spellcraft",
-      "description": "<p>这件物品被灌注了<strong>延展</strong>施法的精华。装备时，持有者会本能地获得关于<strong>延展</strong>屈折的知识，使其即使未通过天赋学会该屈折，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>延展</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>延展</strong>屈折的知识，使其即使未曾通过天赋习得该屈折，也能使用它来构筑法术。</p>",
       "adjective": "延展"
     },
     "Luminous": {
@@ -688,32 +688,32 @@
     },
     "Negate Spellcraft": {
       "name": "否定施法 Negate Spellcraft",
-      "description": "<p>这件物品被灌注了<strong>否定</strong>施法的精华。装备时，持有者会本能地获得关于<strong>否定</strong>屈折的知识，使其即使未通过天赋学会该屈折，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>否定</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>否定</strong>屈折的知识，使其即使未曾通过天赋习得该屈折，也能使用它来构筑法术。</p>",
       "adjective": "否定"
     },
     "Pull Spellcraft": {
       "name": "拉拽施法 Pull Spellcraft",
-      "description": "<p>这件物品被灌注了<strong>拉拽</strong>施法的精华。装备时，持有者会本能地获得关于<strong>拉拽</strong>屈折的知识，使其即使未通过天赋学会该屈折，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>拉拽</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>拉拽</strong>屈折的知识，使其即使未曾通过天赋习得该屈折，也能使用它来构筑法术。</p>",
       "adjective": "拉拽"
     },
     "Push Spellcraft": {
       "name": "推挤施法 Push Spellcraft",
-      "description": "<p>这件物品被灌注了<strong>推挤</strong>施法的精华。装备时，持有者会本能地获得关于<strong>推挤</strong>屈折的知识，使其即使未通过天赋学会该屈折，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>推挤</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>推挤</strong>屈折的知识，使其即使未曾通过天赋习得该屈折，也能使用它来构筑法术。</p>",
       "adjective": "推挤"
     },
     "Quicken Spellcraft": {
       "name": "迅捷施法 Quicken Spellcraft",
-      "description": "<p>这件物品被灌注了<strong>迅捷</strong>施法的精华。装备时，持有者会本能地获得关于<strong>迅捷</strong>屈折的知识，使其即使未通过天赋学会该屈折，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>迅捷</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>迅捷</strong>屈折的知识，使其即使未曾通过天赋习得该屈折，也能使用它来构筑法术。</p>",
       "adjective": "迅捷"
     },
     "React Spellcraft": {
       "name": "反应施法 React Spellcraft",
-      "description": "<p>这件物品被灌注了<strong>反应</strong>施法的精华。装备时，持有者会本能地获得关于<strong>反应</strong>屈折的知识，使其即使未通过天赋学会该屈折，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>反应</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>反应</strong>屈折的知识，使其即使未曾通过天赋习得该屈折，也能使用它来构筑法术。</p>",
       "adjective": "反应"
     },
     "Reshape Spellcraft": {
       "name": "重塑施法 Reshape Spellcraft",
-      "description": "<p>这件物品被灌注了<strong>重塑</strong>施法的精华。装备时，持有者会本能地获得关于<strong>重塑</strong>屈折的知识，使其即使未通过天赋学会该屈折，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>重塑</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>重塑</strong>屈折的知识，使其即使未曾通过天赋习得该屈折，也能使用它来构筑法术。</p>",
       "adjective": "重塑"
     },
     "Storm Potency": {
@@ -723,7 +723,7 @@
     },
     "Storm Spellcraft": {
       "name": "风暴施法 Storm Spellcraft",
-      "description": "<p>这件物品被灌注了<strong>风暴</strong>施法的精华。装备时，持有者会本能地获得关于<strong>风暴</strong>符文的知识，使其即使未通过天赋学会该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>风暴</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>风暴</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
       "adjective": "风暴符文"
     },
     "Vicious": {

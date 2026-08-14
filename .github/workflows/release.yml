@@ -82,6 +82,12 @@ jobs:
             -x ".DS_Store" \
             -x "Thumbs.db"
           ls -la module.zip
+          # 上面那串 -x 是**声明**，不是保证：zip 的追加语义、通配符写错一个字符、
+          # 或者仓库里新冒出一个 .py，都会让排除清单静默失效，而 `ls -la` 只看得见
+          # 体积。ember 侧已有这道断言，crucible 侧一直缺 —— 补齐，正则逐项对应
+          # 上面的排除清单。
+          echo "--- 确认英文基准/维护脚本没被打进去（应无输出）---"
+          unzip -l module.zip | grep -E "compendium/en/|lang/en\.json|lang_keep_english\.json|scripts/|release/|\.py$|\.zip$" && exit 1 || true
           unzip -l module.zip | tail -10
 
       - name: Create GitHub Release

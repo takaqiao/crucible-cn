@@ -1,0 +1,67 @@
+/*
+ * crucible-cn.css —— 中文排版修正
+ *
+ * 问题：Crucible 系统的标题字体是 `AwerySmallcaps`，正文是 `Vollkorn`，
+ * 引用块是 `CaslonAntique`（systems/crucible/styles/crucible.css:48-54，
+ * 定义在 `.crucible` 上）。实测这三个字体文件里**一个中日韩字形都没有**：
+ *   AwerySmallcaps.ttf   304 码位  CJK 0
+ *   CaslonAntique.ttf    258 码位  CJK 0
+ *   Vollkorn-VariableFont_wght.ttf  1242 码位  CJK 0
+ * 而回退链的末端只有一个裸 `serif`，中文会掉到浏览器默认衬线字体上，
+ * 在 Windows 上通常是宋体，字重与行高都和周围的装饰性排版对不上。
+ *
+ * 做法：不替换原字体，只在回退链后面补中文字体。浏览器的字体回退是**逐字形**的，
+ * 所以拉丁字母仍由 AwerySmallcaps / Vollkorn / CaslonAntique 渲染，
+ * 只有中文字符落到后面的中文字体上，Crucible 的视觉风格得以保留。
+ * 字体清单与姊妹仓 ember_cn_unofficial 的 styles/ember-cn.css 保持一致，
+ * 避免同一张桌子上两个包观感割裂。
+ *
+ * 为什么不打包字体文件：一套中文字体动辄 10 MB 以上，会让模块体积翻好几倍；
+ * 为什么不挂 Google Fonts：国内取不到，会静默失败并卡住页面加载。
+ * 因此只用系统已有的字体，按 Windows / macOS / Linux 顺序排列。
+ *
+ * ------------------------------------------------------------------
+ * 级联层（@layer）备忘
+ * ------------------------------------------------------------------
+ * Foundry v14 的层顺序（public/css/foundry2.css:5）里 system 排在 modules 之前。
+ * systems/crucible/system.json 的 styles 是字符串数组，经 base-package.mjs
+ * 的 _migrateStyles 变成 {src}、layer 为 undefined，服务端补默认层 "system"；
+ * crucible.css 自身**没有**任何 @layer 包裹（全文 0 处），所以上游全部落在 system 层。
+ * 本模块 module.json 声明 {"src": …, "layer": "modules"}，落在 modules 层，
+ * 排在 system 之后 —— 同特异性下我们胜出，不需要 !important，也不需要提特异性。
+ */
+
+.crucible {
+  /* 标题（三个 h 变量上游是同一个字体，这里也保持同一条链） */
+  --font-h1: "AwerySmallcaps", "Noto Serif CJK SC", "Source Han Serif SC",
+    "Songti SC", "SimSun", "WenQuanYi Micro Hei", serif;
+  --font-h2: "AwerySmallcaps", "Noto Serif CJK SC", "Source Han Serif SC",
+    "Songti SC", "SimSun", "WenQuanYi Micro Hei", serif;
+  --font-h3: "AwerySmallcaps", "Noto Serif CJK SC", "Source Han Serif SC",
+    "Songti SC", "SimSun", "WenQuanYi Micro Hei", serif;
+
+  /* 正文：优先无衬线，小字号下比宋体清晰得多 */
+  --font-body: "Vollkorn", "Noto Sans CJK SC", "Source Han Sans SC",
+    "PingFang SC", "Microsoft YaHei", "WenQuanYi Micro Hei", serif;
+
+  /* 引用块：跟随衬线链 */
+  --font-quote: "CaslonAntique", "Noto Serif CJK SC", "Source Han Serif SC",
+    "Songti SC", "SimSun", "WenQuanYi Micro Hei", serif;
+
+  --font-sans: "Signika", "Noto Sans CJK SC", "Source Han Sans SC",
+    "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+/*
+ * crucible.css:3056-3059 在**日志正文页这个后代元素自身**上把 --font-h1/h2/h3
+ * 又写回了裸 "AwerySmallcaps", serif。自定义属性的继承取「最近的祖先定义」，
+ * 上面那条 .crucible 的定义到不了这里，必须对同一个元素再写一遍。
+ */
+.crucible.journal-sheet .journal-entry-page {
+  --font-h1: "AwerySmallcaps", "Noto Serif CJK SC", "Source Han Serif SC",
+    "Songti SC", "SimSun", "WenQuanYi Micro Hei", serif;
+  --font-h2: "AwerySmallcaps", "Noto Serif CJK SC", "Source Han Serif SC",
+    "Songti SC", "SimSun", "WenQuanYi Micro Hei", serif;
+  --font-h3: "AwerySmallcaps", "Noto Serif CJK SC", "Source Han Serif SC",
+    "Songti SC", "SimSun", "WenQuanYi Micro Hei", serif;
+}

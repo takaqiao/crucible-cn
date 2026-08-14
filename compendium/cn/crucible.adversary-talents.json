@@ -47,7 +47,7 @@
       "actions": {
         "acidSpray": {
           "name": "酸液喷射 Acid Spray",
-          "description": "<p>该生物喷出一股酸液，形成一个10尺扇形范围。</p><p>在<strong>暴击</strong>时，此攻击会造成 @Condition[corroding] 状态，持续<strong>3回合</strong>。</p>",
+          "description": "<p>该生物喷出一股酸液，形成一个10英尺扇形范围。</p><p>在<strong>暴击</strong>时，此攻击会造成 @Condition[corroding] 状态，持续<strong>3回合</strong>。</p>",
           "effects": [
             {
               "name": "酸液喷射 Acid Spray"
@@ -184,7 +184,7 @@
       "actions": {
         "horrificCritical": {
           "name": "骇人重创 Horrific Critical",
-          "description": "<p>当 @ref[actor.name]{生物} 使用一次近战攻击造成一次<strong>暴击</strong>时，它可以夸大这一击的声势，以一种会在目睹这次打击者心中引发恐惧的方式挥出这一击。</p><p>30尺内所有能够看见该生物的敌人，都必须承受一次针对其<strong>意志</strong>的<strong>无害</strong>攻击，否则将陷入 @Condition[frightened]，持续<strong>3 回合</strong>。</p>",
+          "description": "<p>当 @ref[actor.name]{生物} 使用一次近战攻击造成一次<strong>暴击</strong>时，它可以夸大这一击的声势，以一种会在目睹这次打击者心中引发恐惧的方式挥出这一击。</p><p>30英尺内所有能够看见该生物的敌人，都必须承受一次针对其<strong>意志</strong>的<strong>无害</strong>攻击，否则将陷入 @Condition[frightened]，持续<strong>3 回合</strong>。</p>",
           "condition": "在该生物以一次近战攻击取得暴击后，立即生效。",
           "effects": [
             {}
@@ -582,7 +582,7 @@
     },
     "Blindsight": {
       "name": "盲视 Blindsight",
-      "description": "<p>@ref[actor.name]{该生物}无需依靠视觉即可感知周遭，能察觉 60 尺内生物与物体的精确位置。它不受@Condition[blinded]、黑暗或隐形影响，凡以此方式察觉到的生物，对它而言均视为可见。</p>"
+      "description": "<p>@ref[actor.name]{该生物}无需依靠视觉即可感知周遭，能察觉 60 英尺内生物与物体的精确位置。它不受@Condition[blinded]、黑暗或隐形影响，凡以此方式察觉到的生物，对它而言均视为可见。</p>"
     },
     "Bloodless": {
       "name": "无血 Bloodless",
@@ -702,8 +702,8 @@
       "actions": {
         "terrifyingPresence": {
           "name": "骇人威压 Terrifying Presence",
-          "description": "<p>当敌人移动至@ref[actor.name]{该生物}20 尺范围内时，它便暴露于这股骇人威压之下，遭受一次针对其<strong>意志</strong>的攻击，成功时使其陷入@Condition[frightened]状态。</p>",
-          "condition": "敌人移动至 20 尺范围内。"
+          "description": "<p>当敌人移动至@ref[actor.name]{该生物}20 英尺范围内时，它便暴露于这股骇人威压之下，遭受一次针对其<strong>意志</strong>的攻击，成功时使其陷入@Condition[frightened]状态。</p>",
+          "condition": "敌人移动至 20 英尺范围内。"
         }
       }
     }

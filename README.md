@@ -25,8 +25,10 @@ https://github.com/takaqiao/crucible-cn/releases/latest/download/module.json
 - `lang/cn.json` — 系统主体 i18n
 - `compendium/cn/*.json` — Babele 翻译的合集包 JSON
 - `babele-register.js` — Babele 注册入口
+- `styles/crucible-cn.css` — 中文字体回退（Crucible 原字体 AwerySmallcaps /
+  Vollkorn / CaslonAntique 实测 CJK 码位为 0，回退链末端只有裸 `serif`）
 - `scripts/` — 翻译稽核与维护脚本（未翻译扫描、双语命名修复、术语漏检等）。
-  **仅存于仓库，不进发布包** —— 运行时不会加载，打进 zip 只是死重量
+  仅用于仓库维护，不随发布包分发
 - `lang/en.json` — 英文基准，供 `lang_gap.py` / `flatten_lang.py` 逐键比对用。
   `module.json` 的 `languages` 只声明 `cn`，故此文件同样**不进发布包**
 
@@ -55,8 +57,8 @@ https://github.com/takaqiao/crucible-cn/releases/latest/download/module.json
 |---|---|
 | `scan_untranslated.py` / `scan_untranslated_deep.py` | 扫描合集中残留的未翻译英文 |
 | `find_untranslated_english.py` | 找出疑似纯英文条目 |
-| `repair_bilingual_names.py` | **只读报告**：列出疑似中英混排的实体名。判据是纯形状的，本库实测 652 条建议**没有一条可以直接采用**，所以它不写盘；确认要改的走 `3-常用脚本/qa/apply_translations.py` |
-| `scan_word_leaks.py` / `fix_word_leaks.py` | 词汇泄漏检测与修复 |
+| `repair_bilingual_names.py` | 只读报告：列出疑似中英混排的实体名。结果需要对照原文人工检查，不能直接应用 |
+| `scan_word_leaks.py` | 只读报告：查找中文字符串中残留的英文词。旧版自动修复脚本已删除；修改前须对照原文，并检查术语和标记结构 |
 | `audit_all.py` | 一键全量稽核 |
 
-Issue / PR 欢迎 — 翻译错误、术语建议、兼容性反馈都会处理。
+翻译错误、术语建议和兼容性问题可通过 Issue 或 PR 反馈。

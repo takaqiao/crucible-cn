@@ -720,7 +720,7 @@
               "actions": {
                 "pestilentLash": {
                   "name": "疫病鞭笞 Pestilent Lash",
-                  "description": "<p>以 120 度弧形鞭击<strong>10 尺</strong>内的所有敌人，命中时造成毒素伤害并施加<strong>染病</strong>状态。</p>",
+                  "description": "<p>以 120 度弧形鞭击<strong>10 英尺</strong>内的所有敌人，命中时造成毒素伤害并施加<strong>染病</strong>状态。</p>",
                   "effects": [
                     {
                       "name": "疫病鞭笞 Pestilent Lash"
@@ -970,7 +970,7 @@
             },
             "Strategic Repositioning": {
               "name": "战略性重新部署 Strategic Repositioning",
-              "description": "<p>你总是会提前思考，一旦危险逼近自己该站在什么位置。在战斗遭遇的<strong>第 1 回合</strong>开始前，只要你并非@Condition[unaware]，你便可以立刻朝任意允许的方向移动 4 尺。</p><p>如果有多个战斗者拥有此特性，则重新定位按先攻的逆序进行。</p><h3 class=\"divider\">试玩测试说明</h3><p>此天赋尚未实现自动化。</p>"
+              "description": "<p>你总是会提前思考，一旦危险逼近自己该站在什么位置。在战斗遭遇的<strong>第 1 回合</strong>开始前，只要你并非@Condition[unaware]，你便可以立刻朝任意允许的方向移动 4 英尺。</p><p>如果有多个战斗者拥有此特性，则重新定位按先攻的逆序进行。</p><h3 class=\"divider\">试玩测试说明</h3><p>此天赋尚未实现自动化。</p>"
             },
             "Lightbringer": {
               "name": "光明使者 Lightbringer",
@@ -1001,7 +1001,7 @@
             },
             "Flame Proficiency": {
               "name": "火焰熟练度 Flame Proficiency",
-              "description": "<p>你熟练掌握了运用火焰符文进行施法的技巧。使用该符文施放法术时，你获得<strong>+1技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为@Action[Compendium.crucible.talent.Item.runeFlame0000000 enkindle]动作提供升级，扩展其效果，或加入新的使用选项。</p>"
+              "description": "<p>你精通运用火焰符文编织施法。使用此符文施放的法术获得<strong>+1 技能加值</strong>。</p><h3 class=\"divider\">试玩测试说明</h3><p>该天赋最终还将为@Action[Compendium.crucible.talent.Item.runeFlame0000000 enkindle]动作提供一次升级，扩大其效果或加入新的使用选项。</p>"
             },
             "Rune: Kinesis": {
               "name": "符文：念力 Rune: Kinesis",
@@ -1375,7 +1375,7 @@
               "actions": {
                 "anticipateHarm": {
                   "name": "预判伤害 Anticipate Harm",
-                  "description": "<p>在宣告该攻击的效果区域后，你可以立即移动 4 尺。如果这次移动使你脱离该攻击的区域，则你不受影响。</p>",
+                  "description": "<p>在宣告该攻击的效果区域后，你可以立即移动 4 英尺。如果这次移动使你脱离该攻击的区域，则你不受影响。</p>",
                   "condition": "你成为一次范围效果攻击的目标，且你能看见其来源。"
                 }
               }
