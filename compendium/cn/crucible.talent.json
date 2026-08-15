@@ -100,19 +100,19 @@
     },
     "Arcana Adept": {
       "name": "奥术专家 Arcana Adept",
-      "description": "<p>你获得<strong>奥术</strong>技能的<strong>行家</strong>等级，提供<strong>+2 技能加值</strong>。</p>"
+      "description": "<p>你获得<strong>奥术</strong>技能的<strong>行家</strong>阶位，提供<strong>+2 技能加值</strong>。</p>"
     },
     "Arcana Journeyman": {
       "name": "奥术熟手 Arcana Journeyman",
-      "description": "<p>你获得<strong>奥术</strong>技能的<strong>熟练工</strong>等级，提供<strong>+1 技能加值</strong>。</p>"
+      "description": "<p>你获得<strong>奥术</strong>技能的<strong>熟练工</strong>阶位，提供<strong>+1 技能加值</strong>。</p>"
     },
     "Arcana Master": {
       "name": "奥术大师 Arcana Master",
-      "description": "<p>你获得<strong>奥术</strong>技能的<strong>大师</strong>等级，获得<strong>+3 技能加值</strong>。</p>"
+      "description": "<p>你获得<strong>奥术</strong>技能的<strong>大师</strong>阶位，获得<strong>+3 技能加值</strong>。</p>"
     },
     "Arcana Novice": {
       "name": "奥术新手 Arcana Novice",
-      "description": "<p>你所受的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知、被神化与被妖魔化的崇拜对象。你获得<strong>奥术</strong>技能的<strong>新手</strong>等级，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪种低阶符文，以及所用的手势（但未必能分辨屈折）。你能够判断某个存在是更受混沌还是秩序影响，也能辨认常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有所了解，因此能够与崇拜特定灵体或神祇的人交流，而不至于让自己出丑。</p>"
+      "description": "<p>你所受的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知、被神化与被妖魔化的崇拜对象。你获得<strong>奥术</strong>技能的<strong>新手</strong>阶位，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪种低阶符文，以及所用的手势（但未必能分辨屈折）。你能够判断某个存在是更受混沌还是秩序影响，也能辨认常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有所了解，因此能够与崇拜特定灵体或神祇的人交流，而不至于让自己出丑。</p>"
     },
     "Arcane Archer": {
       "name": "奥术弓手 Arcane Archer",
@@ -174,35 +174,35 @@
     },
     "Athletics Adept": {
       "name": "运动专家 Athletics Adept",
-      "description": "<p>你获得<strong>运动</strong>技能的<strong>行家</strong>等级，获得<strong>+2 技能加值</strong>。</p>"
+      "description": "<p>你获得<strong>运动</strong>技能的<strong>行家</strong>阶位，获得<strong>+2 技能加值</strong>。</p>"
     },
     "Athletics Journeyman": {
       "name": "运动熟练工 Athletics Journeyman",
-      "description": "<p>你在<strong>运动</strong>技能中获得<strong>熟练工</strong>等级，获得<strong>+1 技能加值</strong>。</p>"
+      "description": "<p>你在<strong>运动</strong>技能中获得<strong>熟练工</strong>阶位，获得<strong>+1 技能加值</strong>。</p>"
     },
     "Athletics Master": {
       "name": "运动大师 Athletics Master",
-      "description": "<p>你获得<strong>运动</strong>技能的<strong>大师</strong>等级，获得<strong>+3 技能加值</strong>。</p>"
+      "description": "<p>你获得<strong>运动</strong>技能的<strong>大师</strong>阶位，获得<strong>+3 技能加值</strong>。</p>"
     },
     "Athletics Novice": {
       "name": "运动新手 Athletics Novice",
-      "description": "<p>你已接受基础运动训练。你获得<strong>运动</strong>技能的<strong>新手</strong>等级，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道某个表面能否支撑你的重量，知道在攀爬时如何寻找可抓握处，以及在游泳时如何分配重量以获得浮力。你知道如何进行长跑，以及如何调整节奏以避免力竭。</p>"
+      "description": "<p>你已接受基础运动训练。你获得<strong>运动</strong>技能的<strong>新手</strong>阶位，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道某个表面能否支撑你的重量，知道在攀爬时如何寻找可抓握处，以及在游泳时如何分配重量以获得浮力。你知道如何进行长跑，以及如何调整节奏以避免力竭。</p>"
     },
     "Awareness Adept": {
       "name": "察觉专家 Awareness Adept",
-      "description": "<p>你获得<strong>察觉</strong>技能的<strong>行家</strong>等级，获得<strong>+2 技能加值</strong>。</p>"
+      "description": "<p>你获得<strong>察觉</strong>技能的<strong>行家</strong>阶位，获得<strong>+2 技能加值</strong>。</p>"
     },
     "Awareness Journeyman": {
       "name": "察觉熟练工 Awareness Journeyman",
-      "description": "<p>你在察觉技能中获得<strong>熟练工</strong><strong>等级</strong>，获得<strong>+1技能加值</strong>。</p>"
+      "description": "<p>你在察觉技能中获得<strong>熟练工</strong><strong>阶位</strong>，获得<strong>+1技能加值</strong>。</p>"
     },
     "Awareness Master": {
       "name": "察觉大师 Awareness Master",
-      "description": "<p>你在<strong>察觉</strong>技能上获得<strong>大师</strong>等级，获得<strong>+3 技能加值</strong>。</p>"
+      "description": "<p>你在<strong>察觉</strong>技能上获得<strong>大师</strong>阶位，获得<strong>+3 技能加值</strong>。</p>"
     },
     "Awareness Novice": {
       "name": "察觉新手 Awareness Novice",
-      "description": "<p>你已接受过情境察觉基础训练，能够注意到周围环境中的重要细节。你在<strong>察觉</strong>技能上获得<strong>新手</strong>等级，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道进入房间时要检查出口，也知道如何寻找隐藏的武器、隐蔽的陷阱以及其他威胁。你知道如何发现自己何时被跟踪，也知道如何搜查常见的藏身处。</p>"
+      "description": "<p>你已接受过情境察觉基础训练，能够注意到周围环境中的重要细节。你在<strong>察觉</strong>技能上获得<strong>新手</strong>阶位，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道进入房间时要检查出口，也知道如何寻找隐藏的武器、隐蔽的陷阱以及其他威胁。你知道如何发现自己何时被跟踪，也知道如何搜查常见的藏身处。</p>"
     },
     "Backstab": {
       "name": "背刺 Backstab",
@@ -439,19 +439,19 @@
     },
     "Deception Adept": {
       "name": "欺瞒专家 Deception Adept",
-      "description": "<p>你获得<strong>欺瞒</strong>技能的<strong>行家</strong>等级，获得<strong>+2 技能加值</strong>。</p>"
+      "description": "<p>你获得<strong>欺瞒</strong>技能的<strong>行家</strong>阶位，获得<strong>+2 技能加值</strong>。</p>"
     },
     "Deception Journeyman": {
       "name": "欺瞒熟练工 Deception Journeyman",
-      "description": "<p>你获得<strong>欺瞒</strong>技能的<strong>熟练工</strong>等级，获得<strong>+1 技能加值</strong>。</p>"
+      "description": "<p>你获得<strong>欺瞒</strong>技能的<strong>熟练工</strong>阶位，获得<strong>+1 技能加值</strong>。</p>"
     },
     "Deception Master": {
       "name": "欺瞒大师 Deception Master",
-      "description": "<p>你在<strong>欺瞒</strong>技能中获得<strong>大师</strong>等级，获得<strong>+3 技能加值</strong>。</p>"
+      "description": "<p>你在<strong>欺瞒</strong>技能中获得<strong>大师</strong>阶位，获得<strong>+3 技能加值</strong>。</p>"
     },
     "Deception Novice": {
       "name": "欺瞒新手 Deception Novice",
-      "description": "<p>你是个骗子和操纵者，而欺瞒是你磨练过的一项技能。你获得<strong>欺瞒</strong>技能的<strong>新手</strong>等级，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你知道如何编造基本的谎言和骗局，也知道那些往往会暴露拙劣骗子的明显迹象。你可以为大多数常见文件制作一份基础伪造品，但它们经不起任何程度的仔细审查。</p>"
+      "description": "<p>你是个骗子和操纵者，而欺瞒是你磨练过的一项技能。你获得<strong>欺瞒</strong>技能的<strong>新手</strong>阶位，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你知道如何编造基本的谎言和骗局，也知道那些往往会暴露拙劣骗子的明显迹象。你可以为大多数常见文件制作一份基础伪造品，但它们经不起任何程度的仔细审查。</p>"
     },
     "Decisive Action": {
       "name": "果断行动 Decisive Action",
@@ -498,19 +498,19 @@
     },
     "Diplomacy Adept": {
       "name": "外交老手 Diplomacy Adept",
-      "description": "<p>你获得<strong>外交</strong>技能的<strong>行家</strong>等级，获得<strong>+2技能加值</strong>。</p>"
+      "description": "<p>你获得<strong>外交</strong>技能的<strong>行家</strong>阶位，获得<strong>+2技能加值</strong>。</p>"
     },
     "Diplomacy Journeyman": {
       "name": "外交熟练工 Diplomacy Journeyman",
-      "description": "<p>你在<strong>外交</strong>技能中获得<strong>熟练工</strong>等级，获得<strong>+1 技能加值</strong>。</p>"
+      "description": "<p>你在<strong>外交</strong>技能中获得<strong>熟练工</strong>阶位，获得<strong>+1 技能加值</strong>。</p>"
     },
     "Diplomacy Master": {
       "name": "外交大师 Diplomacy Master",
-      "description": "<p>你在<strong>外交</strong>技能中获得<strong>大师</strong>等级，获得<strong>+3 技能加值</strong>。</p>"
+      "description": "<p>你在<strong>外交</strong>技能中获得<strong>大师</strong>阶位，获得<strong>+3 技能加值</strong>。</p>"
     },
     "Diplomacy Novice": {
       "name": "外交新手 Diplomacy Novice",
-      "description": "<p>你了解辩论的基础，以及如何运用修辞手法让你的论点更有说服力。你在<strong>外交</strong>技能中获得<strong>新手</strong>等级，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道如何在言辞中调动情感，以激励他人或影响他们的看法。你能够提出有说服力的论据，并且通常可以引导他人认同你的观点。</p>"
+      "description": "<p>你了解辩论的基础，以及如何运用修辞手法让你的论点更有说服力。你在<strong>外交</strong>技能中获得<strong>新手</strong>阶位，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道如何在言辞中调动情感，以激励他人或影响他们的看法。你能够提出有说服力的论据，并且通常可以引导他人认同你的观点。</p>"
     },
     "Dirty Tricks": {
       "name": "阴招 Dirty Tricks",
@@ -863,7 +863,7 @@
     },
     "Heavy Weapon Proficiency": {
       "name": "重型武器熟练度 Heavy Weapon Proficiency",
-      "description": "<p>你在军用武器装备的使用方面受过熟练教育。你获得<strong>熟练工</strong>训练等级，并在<strong>简易</strong>、<strong>重型</strong>和<strong>平衡</strong>类别的武器上获得<strong>+1技能加值</strong>。</p>"
+      "description": "<p>你在军用武器装备的使用方面受过熟练教育。你获得<strong>熟练工</strong>训练阶位，并在<strong>简易</strong>、<strong>重型</strong>和<strong>平衡</strong>类别的武器上获得<strong>+1技能加值</strong>。</p>"
     },
     "Heavy Weapon Training": {
       "name": "重型武器训练 Heavy Weapon Training",
@@ -1006,19 +1006,19 @@
     },
     "Intimidation Adept": {
       "name": "威吓专家 Intimidation Adept",
-      "description": "<p>你在威吓技能上获得<strong>行家</strong><strong>等级</strong>，获得<strong>+2技能加值</strong>。</p>"
+      "description": "<p>你在威吓技能上获得<strong>行家</strong><strong>阶位</strong>，获得<strong>+2技能加值</strong>。</p>"
     },
     "Intimidation Journeyman": {
       "name": "威吓熟练工 Intimidation Journeyman",
-      "description": "<p>你在威吓技能中获得<strong>熟练工</strong><strong>等级</strong>，并获得<strong>+1技能加值</strong>。</p>"
+      "description": "<p>你在威吓技能中获得<strong>熟练工</strong><strong>阶位</strong>，并获得<strong>+1技能加值</strong>。</p>"
     },
     "Intimidation Master": {
       "name": "威吓大师 Intimidation Master",
-      "description": "<p>你在威吓技能上获得<strong>大师</strong><strong>等级</strong>，获得<strong>+3 技能加值</strong>。</p>"
+      "description": "<p>你在威吓技能上获得<strong>大师</strong><strong>阶位</strong>，获得<strong>+3 技能加值</strong>。</p>"
     },
     "Intimidation Novice": {
       "name": "威吓新手 Intimidation Novice",
-      "description": "<p>你理解威胁与胁迫如何达成预期结果的基本原理。你在<strong>威吓</strong>技能中获得<strong>新手</strong>等级，并且不再被视为该技能的<strong>未受训</strong>。</p><p>你知道如何通过简单的暴力展示或公开威胁来让他人听从你的引导，但你并不擅长隐晦行事。</p>"
+      "description": "<p>你理解威胁与胁迫如何达成预期结果的基本原理。你在<strong>威吓</strong>技能中获得<strong>新手</strong>阶位，并且不再被视为该技能的<strong>未受训</strong>。</p><p>你知道如何通过简单的暴力展示或公开威胁来让他人听从你的引导，但你并不擅长隐晦行事。</p>"
     },
     "Intimidator": {
       "name": "威吓者 Intimidator",
@@ -1116,7 +1116,7 @@
     },
     "Light Weapon Proficiency": {
       "name": "轻型武器熟练度 Light Weapon Proficiency",
-      "description": "<p>你在军用武器装备的运用方面受过熟练教育。你获得<strong>熟练工</strong>训练等级，并在<strong>轻型</strong>和<strong>平衡</strong>类别的武器上获得<strong>+1技能加值</strong>。</p>"
+      "description": "<p>你在军用武器装备的运用方面受过熟练教育。你获得<strong>熟练工</strong>训练阶位，并在<strong>轻型</strong>和<strong>平衡</strong>类别的武器上获得<strong>+1技能加值</strong>。</p>"
     },
     "Light Weapon Training": {
       "name": "轻型武器训练 Light Weapon Training",
@@ -1153,7 +1153,7 @@
     },
     "Mechanical Weapon Proficiency": {
       "name": "机械武器熟练度 Mechanical Weapon Proficiency",
-      "description": "<p>你在使用弩、火器及其他机械武器方面受过熟练训练。你获得<strong>熟练工</strong>训练等级，以及在机械<strong>类别</strong>武器上的<strong>+1技能加值</strong>。</p>"
+      "description": "<p>你在使用弩、火器及其他机械武器方面受过熟练训练。你获得<strong>熟练工</strong>训练阶位，以及在机械<strong>类别</strong>武器上的<strong>+1技能加值</strong>。</p>"
     },
     "Mechanical Weapon Training": {
       "name": "机械武器训练 Mechanical Weapon Training",
@@ -1167,19 +1167,19 @@
     },
     "Medicine Adept": {
       "name": "医疗专家 Medicine Adept",
-      "description": "<p>你获得<strong>医疗</strong>技能的<strong>行家</strong>等级，获得<strong>+2 技能加值</strong>。</p>"
+      "description": "<p>你获得<strong>医疗</strong>技能的<strong>行家</strong>阶位，获得<strong>+2 技能加值</strong>。</p>"
     },
     "Medicine Journeyman": {
       "name": "医疗熟练工 Medicine Journeyman",
-      "description": "<p>你获得<strong>医疗</strong>技能的<strong>熟练工</strong>等级，获得<strong>+1 技能加值</strong>。</p>"
+      "description": "<p>你获得<strong>医疗</strong>技能的<strong>熟练工</strong>阶位，获得<strong>+1 技能加值</strong>。</p>"
     },
     "Medicine Master": {
       "name": "医疗大师 Medicine Master",
-      "description": "<p>你获得<strong>医疗</strong>技能的<strong>大师</strong>等级，获得<strong>+3 技能加值</strong>。</p>"
+      "description": "<p>你获得<strong>医疗</strong>技能的<strong>大师</strong>阶位，获得<strong>+3 技能加值</strong>。</p>"
     },
     "Medicine Novice": {
       "name": "医疗新手 Medicine Novice",
-      "description": "<p>你接受过解剖学、生理学和医疗方面的基础教育。你获得<strong>医疗</strong>技能的<strong>新手</strong>等级，且不再被视为该技能<strong>未受训</strong>。</p><p>你已经学会了处理常见创伤和疾病的基础方法，并持续记录已知的炼金与草药化合物清单，这些化合物可用于治疗特定疾病。只要花一点时间研究一名受伤、染病或以其他方式患病的个体，你就可以进行基础诊断并据此治疗。</p>"
+      "description": "<p>你接受过解剖学、生理学和医疗方面的基础教育。你获得<strong>医疗</strong>技能的<strong>新手</strong>阶位，且不再被视为该技能<strong>未受训</strong>。</p><p>你已经学会了处理常见创伤和疾病的基础方法，并持续记录已知的炼金与草药化合物清单，这些化合物可用于治疗特定疾病。只要花一点时间研究一名受伤、染病或以其他方式患病的个体，你就可以进行基础诊断并据此治疗。</p>"
     },
     "Mender": {
       "name": "修补匠 Mender",
@@ -1215,7 +1215,7 @@
     },
     "Natural Weapon Proficiency": {
       "name": "天生武器熟练度 Natural Weapon Proficiency",
-      "description": "<p>你对天生武器的使用已相当熟练。你获得<strong>熟练工</strong>训练等级，以及在<strong>天生</strong>类别的武器上获得<strong>+1 技能加值</strong>。</p>"
+      "description": "<p>你对天生武器的使用已相当熟练。你获得<strong>熟练工</strong>训练阶位，以及在<strong>天生</strong>类别的武器上获得<strong>+1 技能加值</strong>。</p>"
     },
     "Natural Weapon Training": {
       "name": "天生武器训练 Natural Weapon Training",
@@ -1305,19 +1305,19 @@
     },
     "Performance Adept": {
       "name": "表演专家 Performance Adept",
-      "description": "<p>你在表演技能上获得<strong>行家</strong><strong>等级</strong>，获得<strong>+2 技能加值</strong>。</p>"
+      "description": "<p>你在表演技能上获得<strong>行家</strong><strong>阶位</strong>，获得<strong>+2 技能加值</strong>。</p>"
     },
     "Performance Journeyman": {
       "name": "演艺熟手 Performance Journeyman",
-      "description": "<p>你获得<strong>表演</strong>技能的<strong>熟练工</strong>等级，获得<strong>+1技能加值</strong>。</p>"
+      "description": "<p>你获得<strong>表演</strong>技能的<strong>熟练工</strong>阶位，获得<strong>+1技能加值</strong>。</p>"
     },
     "Performance Master": {
       "name": "表演大师 Performance Master",
-      "description": "<p>你在<strong>表演</strong>技能上获得<strong>大师</strong>等级，获得<strong>+3 技能加值</strong>。</p>"
+      "description": "<p>你在<strong>表演</strong>技能上获得<strong>大师</strong>阶位，获得<strong>+3 技能加值</strong>。</p>"
     },
     "Performance Novice": {
       "name": "表演新手 Performance Novice",
-      "description": "<p>你已经学会了艺术与娱乐的基本实践。你在表演技能上获得<strong>新手</strong>等级，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你会一些常见的舞蹈，收集了一些广为人知的故事，而且你大概还能唱几首流行歌曲或演奏几首流行曲目。你或许受过一两种乐器的训练，而你使用画笔或<strong>笔</strong>的能力也相当不错，大概足以创作出一件还算过得去的艺术作品。</p>"
+      "description": "<p>你已经学会了艺术与娱乐的基本实践。你在表演技能上获得<strong>新手</strong>阶位，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你会一些常见的舞蹈，收集了一些广为人知的故事，而且你大概还能唱几首流行歌曲或演奏几首流行曲目。你或许受过一两种乐器的训练，而你使用画笔或<strong>笔</strong>的能力也相当不错，大概足以创作出一件还算过得去的艺术作品。</p>"
     },
     "Perspicacity": {
       "name": "洞察力 Perspicacity",
@@ -1395,7 +1395,7 @@
     },
     "Projectile Weapon Proficiency": {
       "name": "投射武器熟练度 Projectile Weapon Proficiency",
-      "description": "<p>你接受过投射武器装备使用方面的熟练教育。你获得<strong>熟练工</strong>训练等级，并在<strong>投射</strong>类别的武器上获得<strong>+1技能加值</strong>。</p>"
+      "description": "<p>你接受过投射武器装备使用方面的熟练教育。你获得<strong>熟练工</strong>训练阶位，并在<strong>投射</strong>类别的武器上获得<strong>+1技能加值</strong>。</p>"
     },
     "Projectile Weapon Training": {
       "name": "投射武器训练 Projectile Weapon Training",
@@ -1461,7 +1461,7 @@
     },
     "Rimecaller": {
       "name": "霜唤者 Rimecaller",
-      "description": "<p>你极其擅长编织霜冻符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[freezing] 状态。</p><p>冰冻效果持续<strong>1 轮</strong>，对<strong>生命值</strong>造成你<strong>感知</strong>属性值一半的<strong>霜冻</strong>伤害，并施加 @Condition[slowed] 状态。</p>"
+      "description": "<p>你极其擅长编织霜冻符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[freezing] 状态。</p><p>冰冻效果持续<strong>1 轮</strong>，对<strong>生命值</strong>造成你的<strong>霜冻符文</strong>所依据属性数值一半的<strong>霜冻</strong>伤害，并施加 @Condition[slowed] 状态。</p>"
     },
     "Rune: Control": {
       "name": "符文：控制 Rune: Control",
@@ -1598,19 +1598,19 @@
     },
     "Science Adept": {
       "name": "科学专家 Science Adept",
-      "description": "<p>你在<strong>科学</strong>技能中获得<strong>行家</strong>等级，获得<strong>+2 技能加值</strong>。</p>"
+      "description": "<p>你在<strong>科学</strong>技能中获得<strong>行家</strong>阶位，获得<strong>+2 技能加值</strong>。</p>"
     },
     "Science Journeyman": {
       "name": "科学熟练工 Science Journeyman",
-      "description": "<p>你在科学技能中获得<strong>熟练工</strong><strong>等级</strong>，获得<strong>+1 技能加值</strong>。</p>"
+      "description": "<p>你在科学技能中获得<strong>熟练工</strong><strong>阶位</strong>，获得<strong>+1 技能加值</strong>。</p>"
     },
     "Science Master": {
       "name": "科学大师 Science Master",
-      "description": "<p>你在<strong>科学</strong>技能中获得<strong>大师</strong>等级，获得<strong>+3 技能加值</strong>。</p>"
+      "description": "<p>你在<strong>科学</strong>技能中获得<strong>大师</strong>阶位，获得<strong>+3 技能加值</strong>。</p>"
     },
     "Science Novice": {
       "name": "科学新手 Science Novice",
-      "description": "<p>你已经学会通过系统化的观察、数学、物理、化学及其他学科来研究你周围的世界。你获得<strong>科学</strong>技能的<strong>新手</strong>等级，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你熟悉数学、物理、化学或其他科学研究的基本原理。你知道如何制造和使用简单机械，以使体力任务更容易完成。你了解一些较为常见、广为人知的科学理论，并且如果有足够的时间研究更复杂的机器，你或许至少能够操作它们。</p>"
+      "description": "<p>你已经学会通过系统化的观察、数学、物理、化学及其他学科来研究你周围的世界。你获得<strong>科学</strong>技能的<strong>新手</strong>阶位，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你熟悉数学、物理、化学或其他科学研究的基本原理。你知道如何制造和使用简单机械，以使体力任务更容易完成。你了解一些较为常见、广为人知的科学理论，并且如果有足够的时间研究更复杂的机器，你或许至少能够操作它们。</p>"
     },
     "Seasoned Veteran": {
       "name": "老练老兵 Seasoned Veteran",
@@ -1647,7 +1647,7 @@
     },
     "Shield Combat Proficiency": {
       "name": "盾牌战斗熟练度 Shield Combat Proficiency",
-      "description": "<p>你熟练掌握了在战斗中使用盾牌的技巧。你获得<strong>熟练工</strong>训练等级，并在<strong>盾牌</strong>武器类别上获得<strong>+1技能加值</strong>。</p>"
+      "description": "<p>你熟练掌握了在战斗中使用盾牌的技巧。你获得<strong>熟练工</strong>训练阶位，并在<strong>盾牌</strong>武器类别上获得<strong>+1技能加值</strong>。</p>"
     },
     "Shield Combat Training": {
       "name": "盾牌战斗训练 Shield Combat Training",
@@ -1707,19 +1707,19 @@
     },
     "Society Adept": {
       "name": "社交老练者 Society Adept",
-      "description": "<p>你在社交技能中获得<strong>行家</strong><strong>等级</strong>，提供<strong>+2 技能加值</strong>。</p>"
+      "description": "<p>你在社交技能中获得<strong>行家</strong><strong>阶位</strong>，提供<strong>+2 技能加值</strong>。</p>"
     },
     "Society Journeyman": {
       "name": "社交熟练工 Society Journeyman",
-      "description": "<p>你在社交技能上获得<strong>熟练工</strong><strong>等级</strong>，获得<strong>+1 技能加值</strong>。</p>"
+      "description": "<p>你在社交技能上获得<strong>熟练工</strong><strong>阶位</strong>，获得<strong>+1 技能加值</strong>。</p>"
     },
     "Society Master": {
       "name": "社交大师 Society Master",
-      "description": "<p>你在<strong>社交</strong>技能上获得<strong>大师</strong>等级，获得<strong>+3 技能加值</strong>。</p>"
+      "description": "<p>你在<strong>社交</strong>技能上获得<strong>大师</strong>阶位，获得<strong>+3 技能加值</strong>。</p>"
     },
     "Society Novice": {
       "name": "社交新手 Society Novice",
-      "description": "<p>你已学会构成社会的基础要素，即那些直接影响文化发展的风俗、信仰、历史与政治。你获得<strong>社会</strong>技能的<strong>新手</strong>等级，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你明白，历史与政治在社会最高层与最底层的决策方式中都起着显著作用，而传统也常常影响社会中的各个子群体，使他们彼此对立。</p>"
+      "description": "<p>你已学会构成社会的基础要素，即那些直接影响文化发展的风俗、信仰、历史与政治。你获得<strong>社会</strong>技能的<strong>新手</strong>阶位，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你明白，历史与政治在社会最高层与最底层的决策方式中都起着显著作用，而传统也常常影响社会中的各个子群体，使他们彼此对立。</p>"
     },
     "Soothe": {
       "name": "抚慰 Soothe",
@@ -1764,19 +1764,19 @@
     },
     "Stealth Adept": {
       "name": "潜行老练者 Stealth Adept",
-      "description": "<p>你获得<strong>潜行</strong>技能的<strong>行家</strong>等级，获得<strong>+2 技能加值</strong>。</p>"
+      "description": "<p>你获得<strong>潜行</strong>技能的<strong>行家</strong>阶位，获得<strong>+2 技能加值</strong>。</p>"
     },
     "Stealth Journeyman": {
       "name": "潜行熟练工 Stealth Journeyman",
-      "description": "<p>你获得<strong>潜行</strong>技能的<strong>熟练工</strong>等级，获得<strong>+1 技能加值</strong>。</p>"
+      "description": "<p>你获得<strong>潜行</strong>技能的<strong>熟练工</strong>阶位，获得<strong>+1 技能加值</strong>。</p>"
     },
     "Stealth Master": {
       "name": "潜行大师 Stealth Master",
-      "description": "<p>你获得<strong>潜行</strong>技能的<strong>大师</strong>等级，获得<strong>+3 技能加值</strong>。</p>"
+      "description": "<p>你获得<strong>潜行</strong>技能的<strong>大师</strong>阶位，获得<strong>+3 技能加值</strong>。</p>"
     },
     "Stealth Novice": {
       "name": "潜行新手 Stealth Novice",
-      "description": "<p>你已接受过潜行、渗透与诡计伪装基础方面的训练。你获得<strong>潜行</strong>技能的<strong>新手</strong>等级，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你知道如何利用光线与阴影来掩饰自己的存在，如何在行走时分配自己的重量以便更安静地移动，也学会了一些伪装的小技巧，以便融入人群之中。当你身处他人周围时，你可以显得不惹人怀疑；可以藏身于昏暗的房间中；也能安静无声地移动到足以避开一般人的察觉。</p>"
+      "description": "<p>你已接受过潜行、渗透与诡计伪装基础方面的训练。你获得<strong>潜行</strong>技能的<strong>新手</strong>阶位，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你知道如何利用光线与阴影来掩饰自己的存在，如何在行走时分配自己的重量以便更安静地移动，也学会了一些伪装的小技巧，以便融入人群之中。当你身处他人周围时，你可以显得不惹人怀疑；可以藏身于昏暗的房间中；也能安静无声地移动到足以避开一般人的察觉。</p>"
     },
     "Still Lake": {
       "name": "静湖 Still Lake",
@@ -1830,7 +1830,7 @@
     },
     "Surgeweaver": {
       "name": "激涌编织者 Surgeweaver",
-      "description": "<p>你极其擅长编织风暴符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[shocked] 状态。</p><p>感电效果会持续 <strong>3 轮</strong>，对<strong>士气</strong>造成相当于你<strong>智力</strong>数值一半的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
+      "description": "<p>你极其擅长编织风暴符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[shocked] 状态。</p><p>感电效果会持续 <strong>3 轮</strong>，对<strong>士气</strong>造成相当于你的<strong>风暴符文</strong>所依据属性数值一半的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
     },
     "Swashbuckler": {
       "name": "侠客 Swashbuckler",
@@ -1866,7 +1866,7 @@
     },
     "Talisman Weapon Proficiency": {
       "name": "护符武器熟练度 Talisman Weapon Proficiency",
-      "description": "<p>你在使用护符、法珠、法器或其他类似武器方面受过熟练的教育。你获得<strong>熟练工</strong>训练等级，以及在<strong>护符</strong>类别武器上的<strong>+1技能加值</strong>。</p>"
+      "description": "<p>你在使用护符、法珠、法器或其他类似武器方面受过熟练的教育。你获得<strong>熟练工</strong>训练阶位，以及在<strong>护符</strong>类别武器上的<strong>+1技能加值</strong>。</p>"
     },
     "Talisman Weapon Training": {
       "name": "护符武器训练 Talisman Weapon Training",
@@ -1926,7 +1926,7 @@
     },
     "Unarmed Combat Proficiency": {
       "name": "徒手战斗熟练度 Unarmed Combat Proficiency",
-      "description": "<p>你在徒手战斗和其他武术方面接受过熟练的训练。你获得<strong>熟练工</strong>训练等级，并在徒手武器<strong>类别</strong>中获得<strong>+1技能加值</strong>。</p>"
+      "description": "<p>你在徒手战斗和其他武术方面接受过熟练的训练。你获得<strong>熟练工</strong>训练阶位，并在徒手武器<strong>类别</strong>中获得<strong>+1技能加值</strong>。</p>"
     },
     "Unarmed Combat Training": {
       "name": "徒手战斗训练 Unarmed Combat Training",
@@ -2007,19 +2007,19 @@
     },
     "Wilderness Adept": {
       "name": "荒野熟练者 Wilderness Adept",
-      "description": "<p>你在<strong>荒野</strong>技能中获得<strong>行家</strong>等级，获得<strong>+2技能加值</strong>。</p>"
+      "description": "<p>你在<strong>荒野</strong>技能中获得<strong>行家</strong>阶位，获得<strong>+2技能加值</strong>。</p>"
     },
     "Wilderness Journeyman": {
       "name": "荒野熟练工 Wilderness Journeyman",
-      "description": "<p>你在荒野技能中获得<strong>熟练工</strong><strong>等级</strong>，获得<strong>+1技能加值</strong>。</p>"
+      "description": "<p>你在荒野技能中获得<strong>熟练工</strong><strong>阶位</strong>，获得<strong>+1技能加值</strong>。</p>"
     },
     "Wilderness Master": {
       "name": "荒野大师 Wilderness Master",
-      "description": "<p>你在<strong>荒野</strong>技能中获得<strong>大师</strong>等级，提供<strong>+3 技能加值</strong>。</p>"
+      "description": "<p>你在<strong>荒野</strong>技能中获得<strong>大师</strong>阶位，提供<strong>+3 技能加值</strong>。</p>"
     },
     "Wilderness Novice": {
       "name": "荒野新手 Wilderness Novice",
-      "description": "<p>你已接受过荒野生存与行进基础的训练。你获得<strong>荒野</strong>技能的<strong>新手</strong>等级，并且不再被视为该技能<strong>未受训</strong>。</p><p>你知道如何寻找并搭建能够遮蔽自然侵袭的安全庇护所，如何生火取暖，以及如何在炎热环境中保持凉爽。你能够在大多数地方找到安全、可饮用的水，也知道如何辨别哪些植物和动物可以作为安全的食物来源。</p>"
+      "description": "<p>你已接受过荒野生存与行进基础的训练。你获得<strong>荒野</strong>技能的<strong>新手</strong>阶位，并且不再被视为该技能<strong>未受训</strong>。</p><p>你知道如何寻找并搭建能够遮蔽自然侵袭的安全庇护所，如何生火取暖，以及如何在炎热环境中保持凉爽。你能够在大多数地方找到安全、可饮用的水，也知道如何辨别哪些植物和动物可以作为安全的食物来源。</p>"
     },
     "Wildspeaker": {
       "name": "荒野言者 Wildspeaker",

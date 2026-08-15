@@ -301,7 +301,7 @@
       "actions": {
         "oozeSubdivide": {
           "name": "细分 Subdivide",
-          "description": "<p>软泥怪的细胞迅速分裂，这个生物一分为二！原本的生物与其复制体平均分配其剩余的<strong>生命值</strong>。每个结果生物的<strong>体型</strong>都减少 1。</p><p>如果处于战斗中，新生物作为一个<strong>召唤物</strong>行动，并在<strong>先攻</strong> 1 加入。此动作仅可在该生物的体型大于 2 时使用。被创造出的软泥怪的等级绝不会高于<strong>普通</strong>。</p>"
+          "description": "<p>软泥怪的细胞迅速分裂，这个生物一分为二！原本的生物与其复制体平均分配其剩余的<strong>生命值</strong>。每个结果生物的<strong>体型</strong>都减少 1。</p><p>如果处于战斗中，新生物作为一个<strong>召唤物</strong>行动，并在<strong>先攻</strong> 1 加入。此动作仅可在该生物的体型大于 2 时使用。被创造出的软泥怪的阶位绝不会高于<strong>普通</strong>。</p>"
         }
       }
     },
