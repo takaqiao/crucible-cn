@@ -637,7 +637,7 @@
             },
             "Natural Weapon Proficiency": {
               "name": "天生武器熟练度 Natural Weapon Proficiency",
-              "description": "<p>你对天生武器的使用已相当熟练。你获得<strong>熟练工</strong>训练等级，以及在<strong>天生</strong>类别的武器上获得<strong>+1 技能加值</strong>。</p>"
+              "description": "<p>你对天生武器的使用已相当熟练。你获得<strong>熟练工</strong>训练阶位，以及在<strong>天生</strong>类别的武器上获得<strong>+1 技能加值</strong>。</p>"
             },
             "Berserker": {
               "name": "狂战士 Berserker",
@@ -966,7 +966,7 @@
             },
             "Arcana Novice": {
               "name": "奥术新手 Arcana Novice",
-              "description": "<p>你所受的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知、被神化与被妖魔化的崇拜对象。你获得<strong>奥术</strong>技能的<strong>新手</strong>等级，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪种低阶符文，以及所用的手势（但未必能分辨屈折）。你能够判断某个存在是更受混沌还是秩序影响，也能辨认常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有所了解，因此能够与崇拜特定灵体或神祇的人交流，而不至于让自己出丑。</p>"
+              "description": "<p>你所受的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知、被神化与被妖魔化的崇拜对象。你获得<strong>奥术</strong>技能的<strong>新手</strong>阶位，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪种低阶符文，以及所用的手势（但未必能分辨屈折）。你能够判断某个存在是更受混沌还是秩序影响，也能辨认常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有所了解，因此能够与崇拜特定灵体或神祇的人交流，而不至于让自己出丑。</p>"
             },
             "Strategic Repositioning": {
               "name": "战略性重新部署 Strategic Repositioning",
@@ -978,7 +978,7 @@
             },
             "Awareness Novice": {
               "name": "察觉新手 Awareness Novice",
-              "description": "<p>你已接受过情境察觉基础训练，能够注意到周围环境中的重要细节。你在<strong>察觉</strong>技能上获得<strong>新手</strong>等级，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道进入房间时要检查出口，也知道如何寻找隐藏的武器、隐蔽的陷阱以及其他威胁。你知道如何发现自己何时被跟踪，也知道如何搜查常见的藏身处。</p>"
+              "description": "<p>你已接受过情境察觉基础训练，能够注意到周围环境中的重要细节。你在<strong>察觉</strong>技能上获得<strong>新手</strong>阶位，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道进入房间时要检查出口，也知道如何寻找隐藏的武器、隐蔽的陷阱以及其他威胁。你知道如何发现自己何时被跟踪，也知道如何搜查常见的藏身处。</p>"
             },
             "Versatile Translator": {
               "name": "多才多艺的翻译者 Versatile Translator",
@@ -1098,11 +1098,11 @@
             },
             "Athletics Novice": {
               "name": "运动新手 Athletics Novice",
-              "description": "<p>你已接受基础运动训练。你获得<strong>运动</strong>技能的<strong>新手</strong>等级，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道某个表面能否支撑你的重量，知道在攀爬时如何寻找可抓握处，以及在游泳时如何分配重量以获得浮力。你知道如何进行长跑，以及如何调整节奏以避免力竭。</p>"
+              "description": "<p>你已接受基础运动训练。你获得<strong>运动</strong>技能的<strong>新手</strong>阶位，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道某个表面能否支撑你的重量，知道在攀爬时如何寻找可抓握处，以及在游泳时如何分配重量以获得浮力。你知道如何进行长跑，以及如何调整节奏以避免力竭。</p>"
             },
             "Intimidation Novice": {
               "name": "威吓新手 Intimidation Novice",
-              "description": "<p>你理解威胁与胁迫如何达成预期结果的基本原理。你在<strong>威吓</strong>技能中获得<strong>新手</strong>等级，并且不再被视为该技能的<strong>未受训</strong>。</p><p>你知道如何通过简单的暴力展示或公开威胁来让他人听从你的引导，但你并不擅长隐晦行事。</p>"
+              "description": "<p>你理解威胁与胁迫如何达成预期结果的基本原理。你在<strong>威吓</strong>技能中获得<strong>新手</strong>阶位，并且不再被视为该技能的<strong>未受训</strong>。</p><p>你知道如何通过简单的暴力展示或公开威胁来让他人听从你的引导，但你并不擅长隐晦行事。</p>"
             },
             "Heavy Weapon Training": {
               "name": "重型武器训练 Heavy Weapon Training",
@@ -1120,15 +1120,15 @@
             },
             "Awareness Novice": {
               "name": "察觉新手 Awareness Novice",
-              "description": "<p>你已接受过情境察觉基础训练，能够注意到周围环境中的重要细节。你在<strong>察觉</strong>技能上获得<strong>新手</strong>等级，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道进入房间时要检查出口，也知道如何寻找隐藏的武器、隐蔽的陷阱以及其他威胁。你知道如何发现自己何时被跟踪，也知道如何搜查常见的藏身处。</p>"
+              "description": "<p>你已接受过情境察觉基础训练，能够注意到周围环境中的重要细节。你在<strong>察觉</strong>技能上获得<strong>新手</strong>阶位，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道进入房间时要检查出口，也知道如何寻找隐藏的武器、隐蔽的陷阱以及其他威胁。你知道如何发现自己何时被跟踪，也知道如何搜查常见的藏身处。</p>"
             },
             "Athletics Journeyman": {
               "name": "运动熟练工 Athletics Journeyman",
-              "description": "<p>你在<strong>运动</strong>技能中获得<strong>熟练工</strong>等级，获得<strong>+1 技能加值</strong>。</p>"
+              "description": "<p>你在<strong>运动</strong>技能中获得<strong>熟练工</strong>阶位，获得<strong>+1 技能加值</strong>。</p>"
             },
             "Heavy Weapon Proficiency": {
               "name": "重型武器熟练度 Heavy Weapon Proficiency",
-              "description": "<p>你在军用武器装备的使用方面受过熟练教育。你获得<strong>熟练工</strong>训练等级，并在<strong>简易</strong>、<strong>重型</strong>和<strong>平衡</strong>类别的武器上获得<strong>+1技能加值</strong>。</p>"
+              "description": "<p>你在军用武器装备的使用方面受过熟练教育。你获得<strong>熟练工</strong>训练阶位，并在<strong>简易</strong>、<strong>重型</strong>和<strong>平衡</strong>类别的武器上获得<strong>+1技能加值</strong>。</p>"
             },
             "Sundering Strike": {
               "name": "粉碎打击 Sundering Strike",
@@ -1293,11 +1293,11 @@
             },
             "Stealth Novice": {
               "name": "潜行新手 Stealth Novice",
-              "description": "<p>你已接受过潜行、渗透与诡计伪装基础方面的训练。你获得<strong>潜行</strong>技能的<strong>新手</strong>等级，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你知道如何利用光线与阴影来掩饰自己的存在，如何在行走时分配自己的重量以便更安静地移动，也学会了一些伪装的小技巧，以便融入人群之中。当你身处他人周围时，你可以显得不惹人怀疑；可以藏身于昏暗的房间中；也能安静无声地移动到足以避开一般人的察觉。</p>"
+              "description": "<p>你已接受过潜行、渗透与诡计伪装基础方面的训练。你获得<strong>潜行</strong>技能的<strong>新手</strong>阶位，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你知道如何利用光线与阴影来掩饰自己的存在，如何在行走时分配自己的重量以便更安静地移动，也学会了一些伪装的小技巧，以便融入人群之中。当你身处他人周围时，你可以显得不惹人怀疑；可以藏身于昏暗的房间中；也能安静无声地移动到足以避开一般人的察觉。</p>"
             },
             "Deception Novice": {
               "name": "欺瞒新手 Deception Novice",
-              "description": "<p>你是个骗子和操纵者，而欺瞒是你磨练过的一项技能。你获得<strong>欺瞒</strong>技能的<strong>新手</strong>等级，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你知道如何编造基本的谎言和骗局，也知道那些往往会暴露拙劣骗子的明显迹象。你可以为大多数常见文件制作一份基础伪造品，但它们经不起任何程度的仔细审查。</p>"
+              "description": "<p>你是个骗子和操纵者，而欺瞒是你磨练过的一项技能。你获得<strong>欺瞒</strong>技能的<strong>新手</strong>阶位，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你知道如何编造基本的谎言和骗局，也知道那些往往会暴露拙劣骗子的明显迹象。你可以为大多数常见文件制作一份基础伪造品，但它们经不起任何程度的仔细审查。</p>"
             },
             "Stiletto": {
               "name": "锥刺匕首 Stiletto",
@@ -1352,7 +1352,7 @@
             },
             "Medicine Novice": {
               "name": "医疗新手 Medicine Novice",
-              "description": "<p>你接受过解剖学、生理学和医疗方面的基础教育。你获得<strong>医疗</strong>技能的<strong>新手</strong>等级，且不再被视为该技能<strong>未受训</strong>。</p><p>你已经学会了处理常见创伤和疾病的基础方法，并持续记录已知的炼金与草药化合物清单，这些化合物可用于治疗特定疾病。只要花一点时间研究一名受伤、染病或以其他方式患病的个体，你就可以进行基础诊断并据此治疗。</p>"
+              "description": "<p>你接受过解剖学、生理学和医疗方面的基础教育。你获得<strong>医疗</strong>技能的<strong>新手</strong>阶位，且不再被视为该技能<strong>未受训</strong>。</p><p>你已经学会了处理常见创伤和疾病的基础方法，并持续记录已知的炼金与草药化合物清单，这些化合物可用于治疗特定疾病。只要花一点时间研究一名受伤、染病或以其他方式患病的个体，你就可以进行基础诊断并据此治疗。</p>"
             },
             "Flash of Steel": {
               "name": "钢光一闪 Flash of Steel",
@@ -1404,11 +1404,11 @@
             },
             "Light Weapon Proficiency": {
               "name": "轻型武器熟练度 Light Weapon Proficiency",
-              "description": "<p>你在军用武器装备的运用方面受过熟练教育。你获得<strong>熟练工</strong>训练等级，并在<strong>轻型</strong>和<strong>平衡</strong>类别的武器上获得<strong>+1技能加值</strong>。</p>"
+              "description": "<p>你在军用武器装备的运用方面受过熟练教育。你获得<strong>熟练工</strong>训练阶位，并在<strong>轻型</strong>和<strong>平衡</strong>类别的武器上获得<strong>+1技能加值</strong>。</p>"
             },
             "Awareness Novice": {
               "name": "察觉新手 Awareness Novice",
-              "description": "<p>你已接受过情境察觉基础训练，能够注意到周围环境中的重要细节。你在<strong>察觉</strong>技能上获得<strong>新手</strong>等级，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道进入房间时要检查出口，也知道如何寻找隐藏的武器、隐蔽的陷阱以及其他威胁。你知道如何发现自己何时被跟踪，也知道如何搜查常见的藏身处。</p>"
+              "description": "<p>你已接受过情境察觉基础训练，能够注意到周围环境中的重要细节。你在<strong>察觉</strong>技能上获得<strong>新手</strong>阶位，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道进入房间时要检查出口，也知道如何寻找隐藏的武器、隐蔽的陷阱以及其他威胁。你知道如何发现自己何时被跟踪，也知道如何搜查常见的藏身处。</p>"
             },
             "Dual Wield": {
               "name": "双持 Dual Wield",
@@ -1533,11 +1533,11 @@
             },
             "Awareness Novice": {
               "name": "察觉新手 Awareness Novice",
-              "description": "<p>你已接受过情境察觉基础训练，能够注意到周围环境中的重要细节。你在<strong>察觉</strong>技能上获得<strong>新手</strong>等级，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道进入房间时要检查出口，也知道如何寻找隐藏的武器、隐蔽的陷阱以及其他威胁。你知道如何发现自己何时被跟踪，也知道如何搜查常见的藏身处。</p>"
+              "description": "<p>你已接受过情境察觉基础训练，能够注意到周围环境中的重要细节。你在<strong>察觉</strong>技能上获得<strong>新手</strong>阶位，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道进入房间时要检查出口，也知道如何寻找隐藏的武器、隐蔽的陷阱以及其他威胁。你知道如何发现自己何时被跟踪，也知道如何搜查常见的藏身处。</p>"
             },
             "Intimidation Novice": {
               "name": "威吓新手 Intimidation Novice",
-              "description": "<p>你理解威胁与胁迫如何达成预期结果的基本原理。你在<strong>威吓</strong>技能中获得<strong>新手</strong>等级，并且不再被视为该技能的<strong>未受训</strong>。</p><p>你知道如何通过简单的暴力展示或公开威胁来让他人听从你的引导，但你并不擅长隐晦行事。</p>"
+              "description": "<p>你理解威胁与胁迫如何达成预期结果的基本原理。你在<strong>威吓</strong>技能中获得<strong>新手</strong>阶位，并且不再被视为该技能的<strong>未受训</strong>。</p><p>你知道如何通过简单的暴力展示或公开威胁来让他人听从你的引导，但你并不擅长隐晦行事。</p>"
             },
             "Unarmed Combat Training": {
               "name": "徒手战斗训练 Unarmed Combat Training",
@@ -1584,7 +1584,7 @@
             },
             "Athletics Novice": {
               "name": "运动新手 Athletics Novice",
-              "description": "<p>你已接受基础运动训练。你获得<strong>运动</strong>技能的<strong>新手</strong>等级，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道某个表面能否支撑你的重量，知道在攀爬时如何寻找可抓握处，以及在游泳时如何分配重量以获得浮力。你知道如何进行长跑，以及如何调整节奏以避免力竭。</p>"
+              "description": "<p>你已接受基础运动训练。你获得<strong>运动</strong>技能的<strong>新手</strong>阶位，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道某个表面能否支撑你的重量，知道在攀爬时如何寻找可抓握处，以及在游泳时如何分配重量以获得浮力。你知道如何进行长跑，以及如何调整节奏以避免力竭。</p>"
             },
             "Armored Shell": {
               "name": "装甲壳体 Armored Shell",
@@ -1607,7 +1607,7 @@
             },
             "Shield Combat Proficiency": {
               "name": "盾牌战斗熟练度 Shield Combat Proficiency",
-              "description": "<p>你熟练掌握了在战斗中使用盾牌的技巧。你获得<strong>熟练工</strong>训练等级，并在<strong>盾牌</strong>武器类别上获得<strong>+1技能加值</strong>。</p>"
+              "description": "<p>你熟练掌握了在战斗中使用盾牌的技巧。你获得<strong>熟练工</strong>训练阶位，并在<strong>盾牌</strong>武器类别上获得<strong>+1技能加值</strong>。</p>"
             },
             "Crowbar": {
               "name": "撬棍 Crowbar",
@@ -1777,7 +1777,7 @@
             },
             "Stealth Novice": {
               "name": "潜行新手 Stealth Novice",
-              "description": "<p>你已接受过潜行、渗透与诡计伪装基础方面的训练。你获得<strong>潜行</strong>技能的<strong>新手</strong>等级，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你知道如何利用光线与阴影来掩饰自己的存在，如何在行走时分配自己的重量以便更安静地移动，也学会了一些伪装的小技巧，以便融入人群之中。当你身处他人周围时，你可以显得不惹人怀疑；可以藏身于昏暗的房间中；也能安静无声地移动到足以避开一般人的察觉。</p>"
+              "description": "<p>你已接受过潜行、渗透与诡计伪装基础方面的训练。你获得<strong>潜行</strong>技能的<strong>新手</strong>阶位，并且在该技能上不再被视为<strong>未受训</strong>。</p><p>你知道如何利用光线与阴影来掩饰自己的存在，如何在行走时分配自己的重量以便更安静地移动，也学会了一些伪装的小技巧，以便融入人群之中。当你身处他人周围时，你可以显得不惹人怀疑；可以藏身于昏暗的房间中；也能安静无声地移动到足以避开一般人的察觉。</p>"
             },
             "Fan of Arrows": {
               "name": "箭雨扇射 Fan of Arrows",
@@ -1801,7 +1801,7 @@
             },
             "Projectile Weapon Proficiency": {
               "name": "投射武器熟练度 Projectile Weapon Proficiency",
-              "description": "<p>你接受过投射武器装备使用方面的熟练教育。你获得<strong>熟练工</strong>训练等级，并在<strong>投射</strong>类别的武器上获得<strong>+1技能加值</strong>。</p>"
+              "description": "<p>你接受过投射武器装备使用方面的熟练教育。你获得<strong>熟练工</strong>训练阶位，并在<strong>投射</strong>类别的武器上获得<strong>+1技能加值</strong>。</p>"
             },
             "Gesture: Step": {
               "name": "手势：踏步 Gesture: Step",
@@ -1823,11 +1823,11 @@
             },
             "Surgeweaver": {
               "name": "激涌编织者 Surgeweaver",
-              "description": "<p>你极其擅长编织风暴符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[shocked] 状态。</p><p>感电效果会持续 <strong>3 轮</strong>，对<strong>士气</strong>造成相当于你<strong>智力</strong>数值一半的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
+              "description": "<p>你极其擅长编织风暴符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[shocked] 状态。</p><p>感电效果会持续 <strong>3 轮</strong>，对<strong>士气</strong>造成相当于你的<strong>风暴符文</strong>所依据属性数值一半的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
             },
             "Awareness Novice": {
               "name": "察觉新手 Awareness Novice",
-              "description": "<p>你已接受过情境察觉基础训练，能够注意到周围环境中的重要细节。你在<strong>察觉</strong>技能上获得<strong>新手</strong>等级，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道进入房间时要检查出口，也知道如何寻找隐藏的武器、隐蔽的陷阱以及其他威胁。你知道如何发现自己何时被跟踪，也知道如何搜查常见的藏身处。</p>"
+              "description": "<p>你已接受过情境察觉基础训练，能够注意到周围环境中的重要细节。你在<strong>察觉</strong>技能上获得<strong>新手</strong>阶位，且不再被视为该技能<strong>未受训</strong>。</p><p>你知道进入房间时要检查出口，也知道如何寻找隐藏的武器、隐蔽的陷阱以及其他威胁。你知道如何发现自己何时被跟踪，也知道如何搜查常见的藏身处。</p>"
             },
             "Rune: Illusion": {
               "name": "符文：幻象 Rune: Illusion",
@@ -1959,7 +1959,7 @@
             },
             "Rimecaller": {
               "name": "霜唤者 Rimecaller",
-              "description": "<p>你极其擅长编织霜冻符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[freezing] 状态。</p><p>冰冻效果持续<strong>1 轮</strong>，对<strong>生命值</strong>造成你<strong>感知</strong>属性值一半的<strong>霜冻</strong>伤害，并施加 @Condition[slowed] 状态。</p>"
+              "description": "<p>你极其擅长编织霜冻符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[freezing] 状态。</p><p>冰冻效果持续<strong>1 轮</strong>，对<strong>生命值</strong>造成你的<strong>霜冻符文</strong>所依据属性数值一半的<strong>霜冻</strong>伤害，并施加 @Condition[slowed] 状态。</p>"
             },
             "Recognize Spellcraft": {
               "name": "识别施法 Recognize Spellcraft",
@@ -2008,7 +2008,7 @@
             },
             "Surgeweaver": {
               "name": "激涌编织者 Surgeweaver",
-              "description": "<p>你极其擅长编织风暴符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[shocked] 状态。</p><p>感电效果会持续 <strong>3 轮</strong>，对<strong>士气</strong>造成相当于你<strong>智力</strong>数值一半的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
+              "description": "<p>你极其擅长编织风暴符文。当你施放一个涉及此符文的法术、或使用一个涉及此符文的动作时，你造成伤害的暴击会施加 @Condition[shocked] 状态。</p><p>感电效果会持续 <strong>3 轮</strong>，对<strong>士气</strong>造成相当于你的<strong>风暴符文</strong>所依据属性数值一半的<strong>电击</strong>伤害，并施加 @Condition[staggered] 状态。</p>"
             },
             "Mesmer": {
               "name": "迷魅师 Mesmer",
@@ -2211,7 +2211,7 @@
             },
             "Arcana Novice": {
               "name": "奥术新手 Arcana Novice",
-              "description": "<p>你所受的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知、被神化与被妖魔化的崇拜对象。你获得<strong>奥术</strong>技能的<strong>新手</strong>等级，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪种低阶符文，以及所用的手势（但未必能分辨屈折）。你能够判断某个存在是更受混沌还是秩序影响，也能辨认常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有所了解，因此能够与崇拜特定灵体或神祇的人交流，而不至于让自己出丑。</p>"
+              "description": "<p>你所受的教育涵盖了形而上学与魔法理论的基础、符文之间的关系、秩序与混沌的对立本质，以及对灵体存在的粗略引言，其中包括最广为人知、被神化与被妖魔化的崇拜对象。你获得<strong>奥术</strong>技能的<strong>新手</strong>阶位，且在该技能上不再被视为<strong>未受训</strong>。</p><p>你对魔法基本语法原则的初步理解，足以鉴别一个法术或仪式可能使用的是哪种低阶符文，以及所用的手势（但未必能分辨屈折）。你能够判断某个存在是更受混沌还是秩序影响，也能辨认常见灵体（无论低阶还是高阶）的迹象。你对宗教习俗也有所了解，因此能够与崇拜特定灵体或神祇的人交流，而不至于让自己出丑。</p>"
             },
             "Rune: Soul": {
               "name": "符文：灵魂 Rune: Soul",
@@ -2428,7 +2428,7 @@
             },
             "Heavy Weapon Proficiency": {
               "name": "重型武器熟练度 Heavy Weapon Proficiency",
-              "description": "<p>你在军用武器装备的使用方面受过熟练教育。你获得<strong>熟练工</strong>训练等级，并在<strong>简易</strong>、<strong>重型</strong>和<strong>平衡</strong>类别的武器上获得<strong>+1技能加值</strong>。</p>"
+              "description": "<p>你在军用武器装备的使用方面受过熟练教育。你获得<strong>熟练工</strong>训练阶位，并在<strong>简易</strong>、<strong>重型</strong>和<strong>平衡</strong>类别的武器上获得<strong>+1技能加值</strong>。</p>"
             },
             "Thick Skin": {
               "name": "厚皮肤 Thick Skin",

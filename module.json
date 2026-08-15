@@ -2,7 +2,7 @@
   "id": "crucible-cn",
   "title": "Crucible - Chinese Translation",
   "description": "Crucible 系统的简体中文翻译：合集内容经 Babele 加载，界面字符串走 Foundry 原生 i18n，并为中文补上字体回退与排版修正。需自行安装 Babele。Simplified Chinese translation for the Crucible system.",
-  "version": "0.9.8",
+  "version": "0.9.9",
   "compatibility": {
     "minimum": "14",
     "verified": "14",
@@ -52,7 +52,7 @@
   ],
   "url": "https://github.com/takaqiao/crucible-cn",
   "manifest": "https://github.com/takaqiao/crucible-cn/releases/latest/download/module.json",
-  "download": "https://github.com/takaqiao/crucible-cn/releases/download/0.9.8/module.zip",
+  "download": "https://github.com/takaqiao/crucible-cn/releases/download/0.9.9/module.zip",
   "bugs": "https://github.com/takaqiao/crucible-cn/issues",
-  "changelog": "https://github.com/takaqiao/crucible-cn/releases/tag/0.9.8"
+  "changelog": "https://github.com/takaqiao/crucible-cn/releases/tag/0.9.9"
 }
