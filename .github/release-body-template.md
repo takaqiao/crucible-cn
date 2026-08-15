@@ -20,6 +20,21 @@ https://github.com/takaqiao/crucible-cn/releases/latest/download/module.json
 
 ## 变更 / Changes
 
+### 0.9.10 — 新增「汉化自检面板」，并订正一处规则说明
+
+**自检面板**：配置设置 → 模块设置 → 打开汉化自检面板。
+当场核一遍译文通道到底有没有生效（Babele 认到了几份译文、合集里的名字是不是中文、
+经过裁决的界面词条值对不对、已废写法有没有回潮…），并可一键复制 Markdown 报告。
+
+> ⚠ 面板会明确区分**「查过了没问题」**与**「无从查起」** —— 前提不满足的项标成后者，
+> 绝不显示成绿色。
+
+**规则订正**：夹击说明里「自动为针对该被夹击生物的攻击检定施加正确数量的恩惠骰」
+漏了 `melee` 这个限定，已补为「**近战**攻击检定」—— 原文会让人以为远程攻击也吃夹击加值。
+
+完整改动请见本次发布对应的提交记录。
+See the commits associated with this tag for the full change list.
+
 ### 0.9.9 重点
 
 **`Rank` 统一为「阶位」。** Crucible 里 `Tier`（阶）、`Rank`（阶位）、`level`（等级）是三样东西，
