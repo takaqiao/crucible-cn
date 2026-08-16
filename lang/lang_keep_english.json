@@ -2,5 +2,6 @@
   "ACTIVE_EFFECT.DURATION.Infinite",
   "DICE.DC",
   "DICE.DCSpecific",
-  "DICE.UnknownScore"
+  "DICE.UnknownScore",
+  "SKILL.TooltipPassive"
 ]

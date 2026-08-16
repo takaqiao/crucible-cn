@@ -7,18 +7,6 @@
   "entries": {
     "Belladonna": {
       "name": "Belladonna",
-      "tokenName": "Belladonna",
-      "biography": {
-        "public": "<p>Belladonna is a cunning rogue who fights with two daggers, dealing a rapid sequence of blows against an unwary target. Belladonna aspires to obtain the <strong>Poisoner</strong> signature talent.</p>"
-      },
-      "ancestry": {
-        "name": "Human",
-        "description": "<p>Found amid countless conditions and far-flung places, you were born an ever-adaptable human. Tall or short, thin, muscular, or rotund, your physical appearance is nothing if not varied. Humans are most known for a genetic predisposition toward determination, with traditions that drive a stubborn will to survive.</p>"
-      },
-      "background": {
-        "name": "Urchin",
-        "description": "<p>Few learn to survive the way you did. Yours was a harsh education in distrust. You learned to watch others for the telltale signs of danger or disloyalty, to avoid the attention of others, scavenging for scraps of food on the streets of some urban sprawl.</p>"
-      },
       "items": {
         "Poison Vial": {
           "name": "Poison Vial",
@@ -255,22 +243,22 @@
             }
           }
         }
+      },
+      "tokenName": "Belladonna",
+      "biography": {
+        "public": "<p>Belladonna is a cunning rogue who fights with two daggers, dealing a rapid sequence of blows against an unwary target. Belladonna aspires to obtain the <strong>Poisoner</strong> signature talent.</p>"
+      },
+      "ancestry": {
+        "name": "Human",
+        "description": "<p>Found amid countless conditions and far-flung places, you were born an ever-adaptable human. Tall or short, thin, muscular, or rotund, your physical appearance is nothing if not varied. Humans are most known for a genetic predisposition toward determination, with traditions that drive a stubborn will to survive.</p>"
+      },
+      "background": {
+        "name": "Urchin",
+        "description": "<p>Few learn to survive the way you did. Yours was a harsh education in distrust. You learned to watch others for the telltale signs of danger or disloyalty, to avoid the attention of others, scavenging for scraps of food on the streets of some urban sprawl.</p>"
       }
     },
     "Eliorwen": {
       "name": "Eliorwen",
-      "tokenName": "Eliorwen",
-      "biography": {
-        "public": "<p>Eliorwen is a nimble skirmisher who uses archery and spellcraft to suppress and eliminates foes from a tremendous distnace. Eliorwen aspires to obtain the <strong>Arcane Archer</strong> signature talent.</p>"
-      },
-      "ancestry": {
-        "name": "Elvish",
-        "description": "<p>Graceful in movement and swift in thought, you were born a long-lived elf. Your slight and nimble frame and sculpted features are the inherited traits of a people for whom elegance is a way of life. Your predisposition toward quick-thinking and precise movement the evolutionary results of hundreds of years of tradition.</p>"
-      },
-      "background": {
-        "name": "Wanderer",
-        "description": "<p>Yours has been an itinerant life. You enjoy nothing more than the feeling of a cart or mount below you, watching some foreign sky slowly pass above you. You learned to pay careful attention to your surroundings and their needs, to tend the creatures on which you rely, and to make do with what you can find.</p>"
-      },
       "items": {
         "Studded Leather Armor": {
           "name": "Studded Leather Armor",
@@ -467,22 +455,22 @@
           "name": "Perspicacity",
           "description": "<p>You have heightened insight into aspects of your surroundings. You gain +2 Boons to any <strong>Awareness</strong> skill test which does not rely upon eyesight.</p>"
         }
+      },
+      "tokenName": "Eliorwen",
+      "biography": {
+        "public": "<p>Eliorwen is a nimble skirmisher who uses archery and spellcraft to suppress and eliminates foes from a tremendous distnace. Eliorwen aspires to obtain the <strong>Arcane Archer</strong> signature talent.</p>"
+      },
+      "ancestry": {
+        "name": "Elvish",
+        "description": "<p>Graceful in movement and swift in thought, you were born a long-lived elf. Your slight and nimble frame and sculpted features are the inherited traits of a people for whom elegance is a way of life. Your predisposition toward quick-thinking and precise movement the evolutionary results of hundreds of years of tradition.</p>"
+      },
+      "background": {
+        "name": "Wanderer",
+        "description": "<p>Yours has been an itinerant life. You enjoy nothing more than the feeling of a cart or mount below you, watching some foreign sky slowly pass above you. You learned to pay careful attention to your surroundings and their needs, to tend the creatures on which you rely, and to make do with what you can find.</p>"
       }
     },
     "Agnath": {
       "name": "Agnath",
-      "tokenName": "Agnath",
-      "biography": {
-        "public": "<p>Agnath is a sword-wielding necromancer who imbues deathly magic into their heavy blows. Agnath aspires to obtain the <strong>Spellblade</strong> signature talent.</p>"
-      },
-      "ancestry": {
-        "name": "Orcish",
-        "description": "<p>Your birth was marked by the stars and traditions of a proud and enduring people. Your tall and well-toned body and natural propensity for toughness has origins amid a people exposed to the relentless struggle of a harsh northern clime. Your people are known for their strength and resilience above all else.</p>"
-      },
-      "background": {
-        "name": "Soldier",
-        "description": "<p>You were a rank-and-file member of a military organization of some variety. Discipline made you a survivor and emphasized the importance of demonstrating strength and dominance over others, and years on horseback or marching taught you how to handle all manner of terrain.</p>"
-      },
       "items": {
         "Athletics Journeyman": {
           "name": "Athletics Journeyman",
@@ -629,22 +617,22 @@
             "public": "<p>Longer and heavier than a standard longsword, the greatsword is a two-handed blade meant for powerful sweeping strikes, its length commanding both reach and awe.</p>"
           }
         }
+      },
+      "tokenName": "Agnath",
+      "biography": {
+        "public": "<p>Agnath is a sword-wielding necromancer who imbues deathly magic into their heavy blows. Agnath aspires to obtain the <strong>Spellblade</strong> signature talent.</p>"
+      },
+      "ancestry": {
+        "name": "Orcish",
+        "description": "<p>Your birth was marked by the stars and traditions of a proud and enduring people. Your tall and well-toned body and natural propensity for toughness has origins amid a people exposed to the relentless struggle of a harsh northern clime. Your people are known for their strength and resilience above all else.</p>"
+      },
+      "background": {
+        "name": "Soldier",
+        "description": "<p>You were a rank-and-file member of a military organization of some variety. Discipline made you a survivor and emphasized the importance of demonstrating strength and dominance over others, and years on horseback or marching taught you how to handle all manner of terrain.</p>"
       }
     },
     "Kagura": {
       "name": "Kagura",
-      "tokenName": "Kagura",
-      "biography": {
-        "public": "<p>Kagura is a stalwart healer who bolsters the health and morale of her allies amidst the frenzy of battle. Kagura aspires to obtain the <strong>Healer</strong> signature Talent.</p>"
-      },
-      "ancestry": {
-        "name": "Giantkin",
-        "description": "<p>Elemental forces presided over your birth, instilling you with supernatural vigor. Your large frame and muscular build often lead others to believe you are an unthinking mass of muscle, but yours is a people known most for their physical resilience and the deep well of their knowledge. You have inherited the strength of mountains.</p>"
-      },
-      "background": {
-        "name": "Physician",
-        "description": "<p>You were a healer or medical professional of some variety. You have spent a portion of your life learning medical science, and you have a propensity for noticing illness in others. You know how to treat wounds, diseases, and how to identify their sources.</p>"
-      },
       "items": {
         "Healing Elixir Formula": {
           "name": "Healing Elixir Formula",
@@ -796,22 +784,22 @@
             }
           }
         }
+      },
+      "tokenName": "Kagura",
+      "biography": {
+        "public": "<p>Kagura is a stalwart healer who bolsters the health and morale of her allies amidst the frenzy of battle. Kagura aspires to obtain the <strong>Healer</strong> signature Talent.</p>"
+      },
+      "ancestry": {
+        "name": "Giantkin",
+        "description": "<p>Elemental forces presided over your birth, instilling you with supernatural vigor. Your large frame and muscular build often lead others to believe you are an unthinking mass of muscle, but yours is a people known most for their physical resilience and the deep well of their knowledge. You have inherited the strength of mountains.</p>"
+      },
+      "background": {
+        "name": "Physician",
+        "description": "<p>You were a healer or medical professional of some variety. You have spent a portion of your life learning medical science, and you have a propensity for noticing illness in others. You know how to treat wounds, diseases, and how to identify their sources.</p>"
       }
     },
     "Ulfen": {
       "name": "Ulfen",
-      "tokenName": "Ulfen",
-      "biography": {
-        "public": "<p>Ulfen is a fierce warrior who fights with a two-handed greataxe, favoring heavy blows that do significant damage or hit multiple targets. Ulfen aspires to obtain the <strong>Berserker </strong>signature talent.</p>"
-      },
-      "ancestry": {
-        "name": "Human",
-        "description": "<p>Found amid countless conditions and far-flung places, you were born an ever-adaptable human. Tall or short, thin, muscular, or rotund, your physical appearance is nothing if not varied. Humans are most known for a genetic predisposition toward determination, with traditions that drive a stubborn will to survive.</p>"
-      },
-      "background": {
-        "name": "Constable",
-        "description": "<p>You were part of a law enforcement organization. You learned how to remain vigilant to your surroundings, work within complex social structures, and affect an imposing presence.</p>"
-      },
       "items": {
         "Scale Mail": {
           "name": "Scale Mail",
@@ -1011,22 +999,22 @@
             }
           }
         }
+      },
+      "tokenName": "Ulfen",
+      "biography": {
+        "public": "<p>Ulfen is a fierce warrior who fights with a two-handed greataxe, favoring heavy blows that do significant damage or hit multiple targets. Ulfen aspires to obtain the <strong>Berserker </strong>signature talent.</p>"
+      },
+      "ancestry": {
+        "name": "Human",
+        "description": "<p>Found amid countless conditions and far-flung places, you were born an ever-adaptable human. Tall or short, thin, muscular, or rotund, your physical appearance is nothing if not varied. Humans are most known for a genetic predisposition toward determination, with traditions that drive a stubborn will to survive.</p>"
+      },
+      "background": {
+        "name": "Constable",
+        "description": "<p>You were part of a law enforcement organization. You learned how to remain vigilant to your surroundings, work within complex social structures, and affect an imposing presence.</p>"
       }
     },
     "Fizzit": {
       "name": "Fizzit",
-      "tokenName": "Fizzit",
-      "biography": {
-        "public": "<p>Fizzit is a clever spellcrafter and scholar who slings spells from a distance and seeks to harness elemental forces to work in their service. Fizzit aspires to obtain the <strong>Conjurer</strong> signature talent.</p>"
-      },
-      "ancestry": {
-        "name": "Gnome",
-        "description": "<p>Yours was a birth of exuberant celebration. Your diminutive body and delicate features are paired with an almost supernatural propensity for discovery. The traditions of your people embrace a lust for life and the importance of quick-thinking and quick-action.</p>"
-      },
-      "background": {
-        "name": "Scholar",
-        "description": "<p>You were always most at home in a library or classroom. Your studies focused on unravelling the mysteries of the world around you, and there are few theoretical subjects with which you are not already familiar.</p>"
-      },
       "items": {
         "Gesture: Arrow": {
           "name": "Gesture: Arrow",
@@ -1106,7 +1094,7 @@
         },
         "Counterspell": {
           "name": "Counterspell",
-          "description": "<p>You immediately react to a spell being cast and compose a rune and gesture designed to unravel and negate the spellcraft of an enemy mage.</p><h2 class=\"divider\">Playtest Notes</h2><p>This action can now be used in playtesting, but it is not yet <em>fully automated</em>. The Counterspell can be performed, but it is up to the Gamemaster to manually reverse a previously applied spell and to manually deduct its <strong>Action</strong> and <strong>Focus</strong> cost. These steps of the overall Counterspell workflow <em>will be automated</em> in a subsequent update such that a confirmed Counterspell will also confirm the spell that was countered, but with its effects removed.</p>",
+          "description": "<p>You immediately react to a spell being cast and compose a rune and gesture designed to unravel and negate the spellcraft of an enemy mage.</p>",
           "actions": {
             "counterspell": {
               "name": "Counterspell",
@@ -1199,22 +1187,22 @@
             }
           }
         }
+      },
+      "tokenName": "Fizzit",
+      "biography": {
+        "public": "<p>Fizzit is a clever spellcrafter and scholar who slings spells from a distance and seeks to harness elemental forces to work in their service. Fizzit aspires to obtain the <strong>Conjurer</strong> signature talent.</p>"
+      },
+      "ancestry": {
+        "name": "Gnome",
+        "description": "<p>Yours was a birth of exuberant celebration. Your diminutive body and delicate features are paired with an almost supernatural propensity for discovery. The traditions of your people embrace a lust for life and the importance of quick-thinking and quick-action.</p>"
+      },
+      "background": {
+        "name": "Scholar",
+        "description": "<p>You were always most at home in a library or classroom. Your studies focused on unravelling the mysteries of the world around you, and there are few theoretical subjects with which you are not already familiar.</p>"
       }
     },
     "Duurath": {
       "name": "Duurath",
-      "tokenName": "Duurath",
-      "biography": {
-        "public": "<p>Duurath is a stout dwarven defender who uses a hammer and shield to protect his allies and punish enemies by sapping their morale. Duurath aspires to obtain the <strong>Runewarden</strong> signature talent.</p>"
-      },
-      "ancestry": {
-        "name": "Dwarven",
-        "description": "<p>Like your parents before you, you were born with the enduring fortitude of the Dwarves. Your stout stature and burly physical appearance are the hallmarks of a people born of earth and stone. A legacy of physical resilience is yours to inherit, for in your breast beats a heart of stone.</p>"
-      },
-      "background": {
-        "name": "Constable",
-        "description": "<p>You were part of a law enforcement organization. You learned how to remain vigilant to your surroundings, work within complex social structures, and affect an imposing presence.</p>"
-      },
       "items": {
         "Crowbar": {
           "name": "Crowbar",
@@ -1452,22 +1440,22 @@
             }
           }
         }
+      },
+      "tokenName": "Duurath",
+      "biography": {
+        "public": "<p>Duurath is a stout dwarven defender who uses a hammer and shield to protect his allies and punish enemies by sapping their morale. Duurath aspires to obtain the <strong>Runewarden</strong> signature talent.</p>"
+      },
+      "ancestry": {
+        "name": "Dwarven",
+        "description": "<p>Like your parents before you, you were born with the enduring fortitude of the Dwarves. Your stout stature and burly physical appearance are the hallmarks of a people born of earth and stone. A legacy of physical resilience is yours to inherit, for in your breast beats a heart of stone.</p>"
+      },
+      "background": {
+        "name": "Constable",
+        "description": "<p>You were part of a law enforcement organization. You learned how to remain vigilant to your surroundings, work within complex social structures, and affect an imposing presence.</p>"
       }
     },
     "Zarajah": {
       "name": "Zarajah",
-      "tokenName": "Zarajah",
-      "biography": {
-        "public": "<p>Zarajah is a spirited Devilkin with a penchant for pyromancy who weaves dangerous and warding spells to control the battlefield. Zarajah aspires to obtain the <strong>War Mage</strong> signature Talent.</p>"
-      },
-      "ancestry": {
-        "name": "Devilkin",
-        "description": "<p>You were born with unexpected magical influence over your creation. Your physical appearance shows tell-tale signs that the superstitious associate with planar beings- crimson flesh, ineffective wings or horns, reptilian eyes. Your dislike of light and preternatural resistance to fire does little to dissuade people from thinking you are an actual devil.</p>"
-      },
-      "background": {
-        "name": "Performer",
-        "description": "You were a travelling entertainer. You learned to be comfortable attending a variety of social functions, how to play to your audience, embellishing details of your performance to evoke particular emotional responses."
-      },
       "items": {
         "Flame Staff": {
           "name": "Flame Staff",
@@ -1544,7 +1532,7 @@
         },
         "Counterspell": {
           "name": "Counterspell",
-          "description": "<p>You immediately react to a spell being cast and compose a rune and gesture designed to unravel and negate the spellcraft of an enemy mage.</p><h2 class=\"divider\">Playtest Notes</h2><p>This action can now be used in playtesting, but it is not yet <em>fully automated</em>. The Counterspell can be performed, but it is up to the Gamemaster to manually reverse a previously applied spell and to manually deduct its <strong>Action</strong> and <strong>Focus</strong> cost. These steps of the overall Counterspell workflow <em>will be automated</em> in a subsequent update such that a confirmed Counterspell will also confirm the spell that was countered, but with its effects removed.</p>",
+          "description": "<p>You immediately react to a spell being cast and compose a rune and gesture designed to unravel and negate the spellcraft of an enemy mage.</p>",
           "actions": {
             "counterspell": {
               "name": "Counterspell",
@@ -1607,6 +1595,18 @@
           "name": "War Mage",
           "description": "<p>Your spellcraft is honed as a weapon of war to thwart the incantations of other magi. You may ask the Gamemaster if you know a <strong>Rune</strong> capable of countering an enemy spell, even if you do not recognize the spell being cast. You gain +2 Boons to any @Action[Compendium.crucible.talent.Item.counterspell0000 counterspell] attempt.</p>"
         }
+      },
+      "tokenName": "Zarajah",
+      "biography": {
+        "public": "<p>Zarajah is a spirited Devilkin with a penchant for pyromancy who weaves dangerous and warding spells to control the battlefield. Zarajah aspires to obtain the <strong>War Mage</strong> signature Talent.</p>"
+      },
+      "ancestry": {
+        "name": "Devilkin",
+        "description": "<p>You were born with unexpected magical influence over your creation. Your physical appearance shows tell-tale signs that the superstitious associate with planar beings- crimson flesh, ineffective wings or horns, reptilian eyes. Your dislike of light and preternatural resistance to fire does little to dissuade people from thinking you are an actual devil.</p>"
+      },
+      "background": {
+        "name": "Performer",
+        "description": "You were a travelling entertainer. You learned to be comfortable attending a variety of social functions, how to play to your audience, embellishing details of your performance to evoke particular emotional responses."
       }
     }
   }

@@ -8,15 +8,6 @@
   "entries": {
     "Moldy Skeleton": {
       "name": "Moldy Skeleton",
-      "tokenName": "Creation of Death",
-      "archetype": {
-        "name": "Elemental Sprite",
-        "description": "<p>Sprites are lesser elementals which are embodiments of their raw element, but lack the sapience of their greater kin.</p>"
-      },
-      "taxonomy": {
-        "name": "Skeleton",
-        "description": "<p>Undeathly denizens fashioned of bone and sinew.</p>"
-      },
       "items": {
         "Bony Claws": {
           "name": "Bony Claws"
@@ -36,19 +27,19 @@
           "name": "Rune: Death",
           "description": "You learn Rune of Death, allowing you to manipulate unholy power."
         }
+      },
+      "tokenName": "Creation of Death",
+      "archetype": {
+        "name": "Elemental Sprite",
+        "description": "<p>Sprites are lesser elementals which are embodiments of their raw element, but lack the sapience of their greater kin.</p>"
+      },
+      "taxonomy": {
+        "name": "Skeleton",
+        "description": "<p>Undeathly denizens fashioned of bone and sinew.</p>"
       }
     },
     "Flame Visitor": {
       "name": "Flame Visitor",
-      "tokenName": "Conjuration of Flame",
-      "archetype": {
-        "name": "Elemental Visitor",
-        "description": "<p>Visitors are embodiments of raw elemental energy that assume forms that are vaguely humanoid in shape. Unlike their lesser kin, Elemental Visitors are are capable of communication and understanding, although their motivations are seldom aligned with those of mortals.</p>"
-      },
-      "taxonomy": {
-        "name": "Fire Elemental",
-        "description": "<p>Elemental creatures corresponding to the element of Fire.</p>"
-      },
       "items": {
         "Flame Claw": {
           "name": "Flame Claw"
@@ -72,19 +63,19 @@
           "name": "Rune: Flame",
           "description": "<p>The chaotic force of elemental, thermal energy. The Flame rune governs fire and heat. It is opposed by the orderly rune of Frost.</p>\n<p>The Flame rune scales using <strong>Intellect</strong>, targets <strong>Reflex</strong>, and deals <strong>Fire</strong> damage to <strong>Health</strong>.</p>"
         }
+      },
+      "tokenName": "Conjuration of Flame",
+      "archetype": {
+        "name": "Elemental Visitor",
+        "description": "<p>Visitors are embodiments of raw elemental energy that assume forms that are vaguely humanoid in shape. Unlike their lesser kin, Elemental Visitors are are capable of communication and understanding, although their motivations are seldom aligned with those of mortals.</p>"
+      },
+      "taxonomy": {
+        "name": "Fire Elemental",
+        "description": "<p>Elemental creatures corresponding to the element of Fire.</p>"
       }
     },
     "Storm Sprite": {
       "name": "Storm Sprite",
-      "tokenName": "Creation of Storm",
-      "archetype": {
-        "name": "Elemental Sprite",
-        "description": "<p>Sprites are lesser elementals which are embodiments of their raw element, but lack the sapience of their greater kin.</p>"
-      },
-      "taxonomy": {
-        "name": "Storm Elemental",
-        "description": "<p>Elemental creatures corresponding to the element of Storm.</p>"
-      },
       "items": {
         "Voltaic Claw": {
           "name": "Voltaic Claw"
@@ -112,19 +103,19 @@
           "name": "Rune: Storm",
           "description": "You learn Rune of Storm, allowing you to control volatile arcane surges of electricity."
         }
-      }
-    },
-    "Flame Sprite": {
-      "name": "Flame Sprite",
-      "tokenName": "Creation of Flame",
+      },
+      "tokenName": "Creation of Storm",
       "archetype": {
         "name": "Elemental Sprite",
         "description": "<p>Sprites are lesser elementals which are embodiments of their raw element, but lack the sapience of their greater kin.</p>"
       },
       "taxonomy": {
-        "name": "Fire Elemental",
-        "description": "<p>Elemental creatures corresponding to the element of Fire.</p>"
-      },
+        "name": "Storm Elemental",
+        "description": "<p>Elemental creatures corresponding to the element of Storm.</p>"
+      }
+    },
+    "Flame Sprite": {
+      "name": "Flame Sprite",
       "items": {
         "False Appearance": {
           "name": "False Appearance",
@@ -148,10 +139,25 @@
         "Flame Claw": {
           "name": "Flame Claw"
         }
+      },
+      "tokenName": "Creation of Flame",
+      "archetype": {
+        "name": "Elemental Sprite",
+        "description": "<p>Sprites are lesser elementals which are embodiments of their raw element, but lack the sapience of their greater kin.</p>"
+      },
+      "taxonomy": {
+        "name": "Fire Elemental",
+        "description": "<p>Elemental creatures corresponding to the element of Fire.</p>"
       }
     },
     "Ancestral Guardian": {
       "name": "Ancestral Guardian",
+      "items": {
+        "Ancestral Manifestation": {
+          "name": "Ancestral Manifestation",
+          "description": "<p>The Ancestral Guardian is an incorporeal manifestation of watchful spirits. It cannot be harmed, moved against its will, or broken, and other creatures may pass freely through its space. Its overwhelming presence on the battlefield causes it to count as <strong>three creatures</strong> when determining whether an enemy is Flanked.</p>"
+        }
+      },
       "tokenName": "Ancestral Guardian",
       "biography": {
         "public": "<p>The Ancestral Guardian is less a creature than a presence: the gathered spirits of those who came before, called into the world by a @UUID[Compendium.crucible.talent.Item.warden0000000000]{Warden} through the Ancestral Grove. It cannot be commanded or reasoned with and offers no speech. It simply keeps watch over the living for as long as the Warden's communion endures.</p>",
@@ -164,25 +170,10 @@
       "taxonomy": {
         "name": "Ancestral Spirit",
         "description": "<p>An incorporeal manifestation of ancestral spirits, summoned to watch over the living. It has no corporeal body to wound and no will to break.</p>"
-      },
-      "items": {
-        "Ancestral Manifestation": {
-          "name": "Ancestral Manifestation",
-          "description": "<p>The Ancestral Guardian is an incorporeal manifestation of watchful spirits. It cannot be harmed, moved against its will, or broken, and other creatures may pass freely through its space. Its overwhelming presence on the battlefield causes it to count as <strong>three creatures</strong> when determining whether an enemy is Flanked.</p>"
-        }
       }
     },
     "Storm Visitor": {
       "name": "Storm Visitor",
-      "tokenName": "Storm Sprite",
-      "archetype": {
-        "name": "Elemental Visitor",
-        "description": "<p>Visitors are embodiments of raw elemental energy that assume forms that are vaguely humanoid in shape. Unlike their lesser kin, Elemental Visitors are are capable of communication and understanding, although their motivations are seldom aligned with those of mortals.</p>"
-      },
-      "taxonomy": {
-        "name": "Storm Elemental",
-        "description": "<p>Elemental creatures corresponding to the element of Storm.</p>"
-      },
       "items": {
         "Elemental Armor": {
           "name": "Elemental Armor"
@@ -206,19 +197,19 @@
           "name": "Rune: Storm",
           "description": "<p>The chaotic force of raw, electrical energy. The Storm rune governs sources of electrical energy and electrical discharge. It is opposed by the orderly rune of Earth.</p>\n<p>The Storm rune scales using <strong>Intellect</strong>, targets <strong>Reflex</strong>, and deals <strong>Electricity</strong> damage to <strong>Health</strong>.</p>"
         }
-      }
-    },
-    "Frost Visitor": {
-      "name": "Frost Visitor",
-      "tokenName": "Frost Sprite",
+      },
+      "tokenName": "Storm Sprite",
       "archetype": {
         "name": "Elemental Visitor",
         "description": "<p>Visitors are embodiments of raw elemental energy that assume forms that are vaguely humanoid in shape. Unlike their lesser kin, Elemental Visitors are are capable of communication and understanding, although their motivations are seldom aligned with those of mortals.</p>"
       },
       "taxonomy": {
-        "name": "Frost Elemental",
-        "description": "<p>Elemental creatures corresponding to the element of Frost.</p>"
-      },
+        "name": "Storm Elemental",
+        "description": "<p>Elemental creatures corresponding to the element of Storm.</p>"
+      }
+    },
+    "Frost Visitor": {
+      "name": "Frost Visitor",
       "items": {
         "Frost Claw": {
           "name": "Frost Claw"
@@ -256,19 +247,19 @@
           "name": "Rune: Frost",
           "description": "<p>The orderly force of elemental, thermal energy. The Frost rune governs sources of ice and cold. It is opposed by the chaotic rune of Flame.</p>\n<p>The Frost rune scales using <strong>Wisdom</strong>, targets <strong>Fortitude</strong>, and deals <strong>Cold</strong> damage to <strong>Health</strong>.</p>"
         }
-      }
-    },
-    "Frost Sprite": {
-      "name": "Frost Sprite",
-      "tokenName": "Creation of Frost",
+      },
+      "tokenName": "Frost Sprite",
       "archetype": {
-        "name": "Elemental Sprite",
-        "description": "<p>Sprites are lesser elementals which are embodiments of their raw element, but lack the sapience of their greater kin.</p>"
+        "name": "Elemental Visitor",
+        "description": "<p>Visitors are embodiments of raw elemental energy that assume forms that are vaguely humanoid in shape. Unlike their lesser kin, Elemental Visitors are are capable of communication and understanding, although their motivations are seldom aligned with those of mortals.</p>"
       },
       "taxonomy": {
         "name": "Frost Elemental",
         "description": "<p>Elemental creatures corresponding to the element of Frost.</p>"
-      },
+      }
+    },
+    "Frost Sprite": {
+      "name": "Frost Sprite",
       "items": {
         "Icy Claw": {
           "name": "Icy Claw"
@@ -310,19 +301,19 @@
           "name": "Rune: Frost",
           "description": "You learn Rune of Frost, allowing you to channel the arcane element of ice."
         }
+      },
+      "tokenName": "Creation of Frost",
+      "archetype": {
+        "name": "Elemental Sprite",
+        "description": "<p>Sprites are lesser elementals which are embodiments of their raw element, but lack the sapience of their greater kin.</p>"
+      },
+      "taxonomy": {
+        "name": "Frost Elemental",
+        "description": "<p>Elemental creatures corresponding to the element of Frost.</p>"
       }
     },
     "Earth Visitor": {
       "name": "Earth Visitor",
-      "tokenName": "Earth Sprite",
-      "archetype": {
-        "name": "Elemental Visitor",
-        "description": "<p>Visitors are embodiments of raw elemental energy that assume forms that are vaguely humanoid in shape. Unlike their lesser kin, Elemental Visitors are are capable of communication and understanding, although their motivations are seldom aligned with those of mortals.</p>"
-      },
-      "taxonomy": {
-        "name": "Earth Elemental",
-        "description": "<p>Elemental creatures corresponding to the element of Earth.</p>"
-      },
       "items": {
         "Elemental Armor": {
           "name": "Elemental Armor"
@@ -346,19 +337,19 @@
           "name": "Rune: Earth",
           "description": "<p>The orderly force of elemental earth, responsible for physical matter. The Earth rune governs health and matters relating to biological growth. It is opposed by the chaotic rune of Storm.</p>\n<p>The Earth rune scales using <strong>Wisdom</strong>, targets <strong>Reflex</strong>, and deals <strong>Acid</strong> damage to <strong>Health</strong>.</p>"
         }
-      }
-    },
-    "Earth Sprite": {
-      "name": "Earth Sprite",
-      "tokenName": "Creation of Earth",
+      },
+      "tokenName": "Earth Sprite",
       "archetype": {
-        "name": "Elemental Sprite",
-        "description": "<p>Sprites are lesser elementals which are embodiments of their raw element, but lack the sapience of their greater kin.</p>"
+        "name": "Elemental Visitor",
+        "description": "<p>Visitors are embodiments of raw elemental energy that assume forms that are vaguely humanoid in shape. Unlike their lesser kin, Elemental Visitors are are capable of communication and understanding, although their motivations are seldom aligned with those of mortals.</p>"
       },
       "taxonomy": {
         "name": "Earth Elemental",
         "description": "<p>Elemental creatures corresponding to the element of Earth.</p>"
-      },
+      }
+    },
+    "Earth Sprite": {
+      "name": "Earth Sprite",
       "items": {
         "Earthen Claw": {
           "name": "Earthen Claw"
@@ -386,6 +377,15 @@
           "name": "Rune: Earth",
           "description": "You learn Rune of Earth, allowing you to control tectonic and corrosive forces."
         }
+      },
+      "tokenName": "Creation of Earth",
+      "archetype": {
+        "name": "Elemental Sprite",
+        "description": "<p>Sprites are lesser elementals which are embodiments of their raw element, but lack the sapience of their greater kin.</p>"
+      },
+      "taxonomy": {
+        "name": "Earth Elemental",
+        "description": "<p>Elemental creatures corresponding to the element of Earth.</p>"
       }
     }
   }
