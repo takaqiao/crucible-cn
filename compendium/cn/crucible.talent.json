@@ -255,7 +255,7 @@
     },
     "Berserker": {
       "name": "狂战士 Berserker",
-      "description": "<p>你陶醉于战斗的刺激之中，不顾一切地投身于混战。</p>",
+      "description": "<p>你陶醉于战斗的刺激之中，不顾一切地投身于混战。</p><p>@Condition[enraged]状态期间，你仍可在任何非法术动作上消耗<strong>专注</strong>。</p>",
       "actions": {
         "berserkerRage": {
           "name": "狂战士狂怒 Berserker Rage",
@@ -413,7 +413,7 @@
     },
     "Counterspell": {
       "name": "反制法术 Counterspell",
-      "description": "<p>你会对正在施放的法术立即作出反应，构筑一个符文并做出手势，以瓦解并抵消敌方法师的施法。</p><h2 class=\"divider\">试玩测试说明</h2><p>这个动作现在可以在试玩测试中使用，但尚未<em>完全自动化</em>。可以执行反制法术，但需要由游戏主持人手动撤销一个先前已应用的法术，并手动扣除其<strong>动作</strong>和<strong>专注</strong>消耗。在后续更新中，整个反制法术流程中的这些步骤<em>将会自动化</em>，这样一来，已确认的反制法术也会确认被反制的法术，但其效果会被移除。</p>",
+      "description": "<p>你会对正在施放的法术立即作出反应，构筑一个符文并做出手势，以瓦解并抵消敌方法师的施法。</p>",
       "actions": {
         "counterspell": {
           "name": "反制法术 Counterspell",
@@ -634,7 +634,7 @@
     },
     "Eye of the Storm": {
       "name": "风暴之眼 Eye of the Storm",
-      "description": "<p>在你延迟自己的回合后，若你对本轮中因你让其先于你行动的敌人进行任何打击或法术攻击，则获得+2恩惠骰。</p><p>待办: 需要自动化。目前请手动施加恩惠骰。</p>"
+      "description": "<p>在你延迟自己的回合后，若你对本轮中因你让其先于你行动的敌人进行任何打击或法术攻击，则获得+2恩惠骰。</p>"
     },
     "Fan of Arrows": {
       "name": "箭雨扇射 Fan of Arrows",
@@ -2120,7 +2120,7 @@
     },
     "Duelist": {
       "name": "决斗者 Duelist",
-      "description": "<p>你享受单挑的快意与其中娴熟的技艺，采用一种手持单手武器而副手空置的战斗风格。</p><p>当你以一只手持单手近战武器、另一只手空置时，只要你未处于@Condition[flanked]状态，便获得 <strong>+2</strong> <strong>招架</strong>防御加值。在满足这些条件的情况下，任何对你<strong>护甲</strong>造成<strong>擦过</strong>的攻击将改判为<strong>招架</strong>。</p>",
+      "description": "<p>你享受单挑的快意与其中娴熟的技艺，采用一种手持单手武器而副手空置的战斗风格。</p><p>当你以一只手持单手近战武器、另一只手空置时，你获得 <strong>+2</strong> <strong>招架</strong>防御加值。在满足这些条件的情况下，任何对你<strong>护甲</strong>造成<strong>擦击</strong>的攻击将改判为<strong>招架</strong>。对于已对你形成@Condition[flanked]的攻击者，这两项好处均不适用。</p>",
       "actions": {
         "estocade": {
           "name": "决胜刺 Estocade",
