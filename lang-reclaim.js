@@ -164,6 +164,42 @@ export function reclaimTranslations(translations, table, getProperty) {
 }
 
 /**
+ * 本次开世界里抢回器**实际发生了什么**，给自检面板读。
+ *
+ * ⚠⚠ 为什么必须留这份账：抢回是**静默**的 —— 成功了屏幕上就是正常中文，
+ *   没被顶掉时同样是正常中文，**两种情况长得一模一样**。而它失败时（比如上游改了
+ *   `getRoute` 的形状、或 XHR 被拦）屏幕上是英文 fallback，**也不报错**。
+ *   面板要能替人区分「没被顶」「顶了但抢回来了」「抢回器根本没跑」这三态，
+ *   就只能由这里如实记账。这正是本项目「0 个问题 ≠ 没查到东西」那条原则的同一形态。
+ *
+ * `phase` 的四个值：
+ *   · `pending`  —— 模块装了，但 `i18nInit` 还没到（面板不该看到这个值）
+ *   · `done`     —— 跑完了，`report` 有效
+ *   · `no-table` —— `module.json` 里找不到自家语言文件声明，没得抢（不算错，但要说出来）
+ *   · `error`    —— 抛了，`error` 里是消息。屏幕上会是英文 fallback
+ * @type {{phase: string, error: string|null, report: object|null, tableSize: number}}
+ */
+const RECLAIM_STATE = { phase: 'pending', error: null, report: null, tableSize: 0 };
+
+/**
+ * 只读快照。返回**拷贝**，免得面板那边不小心改到账本。
+ * @returns {{phase: string, error: string|null, report: object|null, tableSize: number}}
+ */
+export function getReclaimState() {
+  return {
+    phase: RECLAIM_STATE.phase,
+    error: RECLAIM_STATE.error,
+    tableSize: RECLAIM_STATE.tableSize,
+    report: RECLAIM_STATE.report && {
+      reclaimed: [...RECLAIM_STATE.report.reclaimed],
+      alreadyString: [...RECLAIM_STATE.report.alreadyString],
+      skippedObject: [...RECLAIM_STATE.report.skippedObject],
+      skippedBadValue: [...RECLAIM_STATE.report.skippedBadValue],
+    },
+  };
+}
+
+/**
  * 挂钩。放在单独的导出函数里，是为了让本文件在**没有 Foundry 全局**的 Node 里也能被 import
  * （离线复刻器就是这么用的）—— 模块顶层一行副作用都没有。
  */
@@ -171,8 +207,11 @@ export function registerLangReclaim() {
   Hooks.once('i18nInit', () => {
     try {
       const table = loadOwnTranslationsSync();
-      if (!table) return;
+      if (!table) { RECLAIM_STATE.phase = 'no-table'; return; }
+      RECLAIM_STATE.tableSize = Object.keys(table).length;
       const report = reclaimTranslations(game.i18n.translations, table, foundry.utils.getProperty);
+      RECLAIM_STATE.report = report;
+      RECLAIM_STATE.phase = 'done';
       if (report.reclaimed.length) {
         console.warn(
           `Crucible cn | 有 ${report.reclaimed.length} 条自家译文被别的语言包顶掉了，已就地抢回：`,
@@ -186,7 +225,19 @@ export function registerLangReclaim() {
         });
       }
     } catch (err) {
+      RECLAIM_STATE.phase = 'error';
+      RECLAIM_STATE.error = err?.message ?? String(err);
       console.warn('Crucible cn | 译文抢回未生效（汉化其余部分不受影响）：', err);
     }
+    // 账本挂到自家模块的 `api` 上给自检面板读。**不用 globalThis** —— 那是全局命名空间，
+    // 而 `game.modules.get(id).api` 是 Foundry 自己的约定，别的模块想读也知道去哪儿找。
+    // 放在 try 之外：抛了也要挂，不然面板分不清「抢回器出错」与「crucible-cn 没装」。
+    try {
+      const pkg = game.modules.get(MODULE_ID);
+      if (pkg) {
+        pkg.api ??= {};
+        pkg.api.getReclaimState = getReclaimState;
+      }
+    } catch { /* 挂不上就算了，抢回本身已经生效，不值得为记账影响开世界 */ }
   });
 }
