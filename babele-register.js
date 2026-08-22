@@ -31,6 +31,16 @@
  * The mapping layer and converters are generated — see babele-mappings.js.
  */
 import { DOCUMENT_MAPPINGS, PROJECT_CONVERTERS } from './babele-mappings.js';
+import { registerLangReclaim } from './lang-reclaim.js';
+
+/**
+ * 把被第三方核心汉化包（`foundry_chn`）顶掉的自家 i18n 键抢回来。
+ * ⚠ **这是绕过去、不是修好** —— 整套机理、时机、以及「为什么写扁平点号键 + 非枚举」
+ *   全部写在 `lang-reclaim.js` 的文件头，别在这里另写一份会漂的摘要。
+ * 挂钩动作本身放在那边的 `registerLangReclaim()` 里，是为了让那个文件在
+ * **没有 Foundry 全局的 Node**里也能被离线复刻器 import（模块顶层零副作用）。
+ */
+registerLangReclaim();
 
 Hooks.once('babele.init', (babele) => {
   if (!game.modules.get('babele')?.active) return;
@@ -74,7 +84,10 @@ Hooks.once('babele.init', (babele) => {
  *  - 包在 try/catch 里，失败只留一条警告，绝不影响开世界。
  *
  * 时机：`registerEnrichers()` 在 Crucible 自己的 `Hooks.once("init")` 里跑
- * （crucible-compiled.mjs:47439），所以补丁挂 `setup`（i18nInit 早于 init，太早）。
+ * （crucible-compiled.mjs:47439），所以补丁挂 `setup`。
+ * ⚠ 本行原写「i18nInit 早于 init，太早」——**理由是反的**，2026-08-22 实测 v14.366 的真实顺序是
+ *   `init`(game.mjs:652) → `i18nInit`(:663 内) → `setup`(:740) → `ready`(:779)，i18nInit **晚于** init。
+ *   结论（挂 setup）仍然对，坏的只是理由。本项目靠注释传裁决，理由写反比没写更危险。
  * 返回值改成 async 是安全的：Foundry v14
  * `client/applications/ux/text-editor.mjs:267` 就是 `await enricher(match, options)`。
  */
