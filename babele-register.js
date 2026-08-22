@@ -32,6 +32,7 @@
  */
 import { DOCUMENT_MAPPINGS, PROJECT_CONVERTERS } from './babele-mappings.js';
 import { registerLangReclaim } from './lang-reclaim.js';
+import { registerCrucibleHardcoded } from './crucible-hardcoded-cn.mjs';
 
 /**
  * 把被第三方核心汉化包（`foundry_chn`）顶掉的自家 i18n 键抢回来。
@@ -41,6 +42,15 @@ import { registerLangReclaim } from './lang-reclaim.js';
  * **没有 Foundry 全局的 Node**里也能被离线复刻器 import（模块顶层零副作用）。
  */
 registerLangReclaim();
+
+/**
+ * 硬编码串的汉化通道：Babele 只管合集、lang 只管上游声明过的键，两者都够不到的
+ * 那 18 条（掷骰面板的加值/减值来源、动作卡的上下文标签 tooltip、几处 placeholder
+ * 与创建页的加减按钮）走这里。为什么不塞进 lang/cn.json —— 两条理由写在
+ * `crucible-hardcoded-cn.mjs` 的文件头（`R-lang-parity` 钉死键数 + 裸键是全局的）。
+ * 同样把挂钩动作留在那个文件里，保持它顶层零副作用、可离线 import。
+ */
+registerCrucibleHardcoded();
 
 Hooks.once('babele.init', (babele) => {
   if (!game.modules.get('babele')?.active) return;
