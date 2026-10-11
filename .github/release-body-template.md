@@ -1,15 +1,13 @@
-## 变更
+# Crucible 中文翻译 0.9.20
 
-### 0.9.19
+适配 Crucible 0.11.1。需要 Foundry VTT 14.368 或更新版本、Babele 2.9.1 或更新版本。
 
-移除 Foundry 核心版本的 `compatibility.maximum` 限制，公开发布清单保留 minimum 14、verified 14。译文、运行脚本及系统和模块依赖关系保持不变。
+- 补齐新版训练、熟练度、规则、天赋、物品与界面变化，保留未变化译文及既有术语。
+- 新增 effects 合集汉化；按原始文档 ID 核对角色内嵌物品、效果及字段迁移，避免同名内容错配。
+- 同步新版英文基准，清理上游已删除内容。官方空 crafting 包不另建译文。
 
-## 安装
+已在 Foundry 14.368 / Crucible 0.11.1 / Ember 0.6.2 中完成原生合集、效果、界面及战役导入验证。两包合计 250 项界面、15 个效果、58 项合集字段和 56 项有效导入字段通过。
 
-在 Foundry 的「附加模块 → 安装模块」中使用：
+旧版 QA 主闸为 67 通过 / 7 失败；剩余项经逐项复核属于历史数量门槛、旧规则与记录、测试载荷快照及隔离检查路径，不代表全部检查已通过。未降低旧断言门槛。
 
-```text
-https://github.com/takaqiao/crucible-cn/releases/latest/download/module.json
-```
-
-需要 Crucible 0.10.1+ 和 Babele 2.9.1+。Crucible 系统依赖的 verified 仍为 0.10.2。
+安装包只包含汉化运行文件，不包含英文基准或维护脚本。

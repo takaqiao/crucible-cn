@@ -38,18 +38,18 @@
     },
     "Activating": {
       "name": "启动 Activating",
-      "description": "<p>赋予<strong>补充动作</strong>动作，使持有者能够在危急时刻恢复<strong>动作</strong>。恢复的数量会随此前缀的<strong>阶</strong>而变化。</p>",
+      "description": "<p>赋予<strong>补充动作</strong>动作，使持有者能够在危急时刻恢复@Rule[resource.action]。恢复的数量会随此前缀的<strong>阶</strong>而变化。</p>",
       "adjective": "启动",
       "actions": {
         "affixActivating": {
           "name": "补充动作 Replenish Action",
-          "description": "<p>在危急关头，你可以从此物品中汲取一份额外的<strong>动作</strong>储备。恢复的动作量取决于此词缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong><strong>1点动作</strong></p></li><li><p><strong>第2阶：</strong><strong>2点动作</strong></p></li><li><p><strong>第3阶：</strong><strong>3点动作</strong></p></li></ul>"
+          "description": "<p>在危急关头，你可以从此物品中汲取一份额外的@Rule[resource.action]储备。恢复的@Rule[resource.action]量取决于此词缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶</strong>：<strong>1点动作</strong></p></li><li><p><strong>第2阶</strong>：<strong>2点动作</strong></p></li><li><p><strong>第3阶</strong>：<strong>3点动作</strong></p></li></ul>"
         }
       }
     },
     "Arcana": {
       "name": "奥术 Arcana",
-      "description": "<p>此前缀的每<strong>阶</strong>都会使奥术<strong>技能检定</strong>的<strong>附魔加值</strong>提高1。</p>",
+      "description": "<p>此前缀的每<strong>阶</strong>都会使@Rule[skill.arcana]技能检定的<strong>附魔加值</strong>提高1。</p>",
       "adjective": "奥术"
     },
     "Arrow Spellcraft": {
@@ -64,7 +64,7 @@
     },
     "Athletics": {
       "name": "运动 Athletics",
-      "description": "<p>此前缀每有<strong>1 阶</strong>，<strong>运动</strong>技能检定的<strong>附魔加值</strong>便提高1。</p>",
+      "description": "<p>此前缀每有<strong>1 阶</strong>，@Rule[skill.athletics]技能检定的<strong>附魔加值</strong>便提高1。</p>",
       "adjective": "健体"
     },
     "Aura Spellcraft": {
@@ -74,12 +74,12 @@
     },
     "Awareness": {
       "name": "察觉 Awareness",
-      "description": "<p>此前缀的每<strong>阶</strong>都会使察觉<strong>技能检定</strong>的<strong>附魔加值</strong>提高 1。</p>",
+      "description": "<p>此前缀的每<strong>阶</strong>都会使@Rule[skill.awareness]技能检定的<strong>附魔加值</strong>提高 1。</p>",
       "adjective": "明察"
     },
     "Beast Bane": {
       "name": "野兽祸骰 Beast Bane",
-      "description": "<p>这把武器对<strong>野兽</strong>类型的生物特别有效。以该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外<strong>恩惠骰</strong>。</p>",
+      "description": "<p>这把武器对<strong>野兽</strong>类型的生物特别有效。以该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外@Rule[dice.boon]{恩惠骰}。</p>",
       "adjective": "屠兽"
     },
     "Blast Spellcraft": {
@@ -99,7 +99,7 @@
     },
     "Celestial Bane": {
       "name": "天界生物祸骰 Celestial Bane",
-      "description": "<p>这种武器对天界生物尤其有效。对该生物类型的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外<strong>恩惠骰</strong>。</p>",
+      "description": "<p>这种武器对<strong>天界</strong>生物尤其有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外@Rule[dice.boon]{恩惠骰}。</p>",
       "adjective": "屠天界"
     },
     "Cold Conversion": {
@@ -129,7 +129,7 @@
     },
     "Construct Bane": {
       "name": "构装体祸骰 Construct Bane",
-      "description": "<p>这把武器对构装体生物尤为有效。对该生物类型的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外<strong>恩惠骰</strong>。</p>",
+      "description": "<p>这把武器对<strong>构装体</strong>生物尤为有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外@Rule[dice.boon]{恩惠骰}。</p>",
       "adjective": "屠构装"
     },
     "Control Potency": {
@@ -139,7 +139,7 @@
     },
     "Control Spellcraft": {
       "name": "控制施法 Control Spellcraft",
-      "description": "<p>此物品被注入了<strong>控制</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>控制</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>控制</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>控制</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。它还赋予<strong>2</strong>点<strong>动能施法</strong>的@UUID[Compendium.crucible.rules.JournalEntry.characterMechani.JournalEntryPage.proficiencies000]{熟练度}。</p>",
       "adjective": "控制符文"
     },
     "Corruption Conversion": {
@@ -169,27 +169,27 @@
     },
     "Death Spellcraft": {
       "name": "死亡施法 Death Spellcraft",
-      "description": "<p>此物品被注入了<strong>死亡</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>死亡</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>死亡</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>死亡</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。它还赋予<strong>2</strong>点<strong>动能施法</strong>的@UUID[Compendium.crucible.rules.JournalEntry.characterMechani.JournalEntryPage.proficiencies000]{熟练度}。</p>",
       "adjective": "死亡符文"
     },
     "Deception": {
       "name": "欺瞒 Deception",
-      "description": "<p>使欺瞒<strong>技能检定</strong>的<strong>附魔加值</strong>每有该前缀的一个<strong>阶</strong>便提高1。</p>",
+      "description": "<p>使@Rule[skill.deception]技能检定的<strong>附魔加值</strong>每有该前缀的一个<strong>阶</strong>便提高1。</p>",
       "adjective": "欺瞒"
     },
     "Deflection": {
       "name": "偏斜 Deflection",
-      "description": "<p>此后缀每有1阶，<strong>招架</strong><strong>防御</strong>便提高1点。</p>",
+      "description": "<p>此后缀每有1<strong>阶</strong>，@Rule[defense.parry]防御便提高1点。</p>",
       "adjective": "偏斜"
     },
     "Determination": {
       "name": "决心 Determination",
-      "description": "<p>此后缀每有<strong>1 阶</strong>，<strong>意志</strong>防御便提高1点。</p>",
+      "description": "<p>此后缀每有<strong>1 阶</strong>，@Rule[defense.willpower]防御便提高1点。</p>",
       "adjective": "决心"
     },
     "Diplomacy": {
       "name": "外交 Diplomacy",
-      "description": "<p>此前缀每有 1 <strong>阶</strong>，<strong>外交</strong>技能检定的<strong>附魔加值</strong>便提高 1。</p>",
+      "description": "<p>此前缀每有 1 <strong>阶</strong>，@Rule[skill.diplomacy]技能检定的<strong>附魔加值</strong>便提高 1。</p>",
       "adjective": "折冲"
     },
     "Disguise": {
@@ -205,7 +205,7 @@
     },
     "Dragon Bane": {
       "name": "巨龙祸骰 Dragon Bane",
-      "description": "<p>这种武器对巨龙生物尤其有效。对该生物类型的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外<strong>恩惠骰</strong>。</p>",
+      "description": "<p>这种武器对<strong>巨龙</strong>生物尤其有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外@Rule[dice.boon]{恩惠骰}。</p>",
       "adjective": "屠龙"
     },
     "Earth Potency": {
@@ -215,7 +215,7 @@
     },
     "Earth Spellcraft": {
       "name": "大地施法 Earth Spellcraft",
-      "description": "<p>此物品被注入了<strong>大地</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>大地</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>大地</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>大地</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。它还赋予<strong>2</strong>点<strong>元素施法</strong>的@UUID[Compendium.crucible.rules.JournalEntry.characterMechani.JournalEntryPage.proficiencies000]{熟练度}。</p>",
       "adjective": "大地符文"
     },
     "Electricity Conversion": {
@@ -235,27 +235,27 @@
     },
     "Earth Elemental Bane": {
       "name": "土元素祸骰 Earth Elemental Bane",
-      "description": "<p>这种武器对土元素生物尤其有效。当对该生物类型的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外<strong>恩惠骰</strong>。</p>",
+      "description": "<p>这种武器对<strong>土元素</strong>生物尤其有效。当对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外@Rule[dice.boon]{恩惠骰}。</p>",
       "adjective": "屠土元素"
     },
     "Fire Elemental Bane": {
       "name": "火焰祸骰 Fire Elemental Bane",
-      "description": "<p>这种武器对<strong>火焰</strong>生物尤其有效。当对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外<strong>恩惠骰</strong>。</p>",
+      "description": "<p>这种武器对<strong>火元素</strong>生物尤其有效。当对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外@Rule[dice.boon]{恩惠骰}。</p>",
       "adjective": "屠火元素"
     },
     "Frost Elemental Bane": {
       "name": "冰霜元素祸骰 Frost Elemental Bane",
-      "description": "<p>这把武器对冰霜元素生物尤其有效。当对该生物类型的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于该前缀<strong>阶</strong>的额外<strong>恩惠骰</strong>。</p>",
+      "description": "<p>这把武器对<strong>冰霜元素</strong>生物尤其有效。当对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于该前缀<strong>阶</strong>的额外@Rule[dice.boon]{恩惠骰}。</p>",
       "adjective": "屠霜元素"
     },
     "Storm Elemental Bane": {
       "name": "风暴元素祸骰 Storm Elemental Bane",
-      "description": "<p>该武器对风暴元素生物特别有效。当对该生物类型的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外<strong>恩惠骰</strong>。</p>",
+      "description": "<p>该武器对<strong>风暴元素</strong>生物特别有效。当对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外@Rule[dice.boon]{恩惠骰}。</p>",
       "adjective": "屠风暴元素"
     },
     "Evasion": {
       "name": "闪避 Evasion",
-      "description": "<p>此后缀每有 1 <strong>阶</strong>，<strong>闪避</strong>防御便提高 1。</p>",
+      "description": "<p>此后缀每有 1 <strong>阶</strong>，@Rule[defense.dodge]防御便提高 1。</p>",
       "adjective": "闪避"
     },
     "Fan Spellcraft": {
@@ -265,7 +265,7 @@
     },
     "Fey Bane": {
       "name": "妖精祸骰 Fey Bane",
-      "description": "<p>该武器对妖精生物尤为有效。对该生物<strong>类型</strong>的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外<strong>恩惠骰</strong>。</p>",
+      "description": "<p>该武器对<strong>妖精</strong>生物尤为有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外@Rule[dice.boon]{恩惠骰}。</p>",
       "adjective": "屠妖精"
     },
     "Fire Conversion": {
@@ -290,17 +290,17 @@
     },
     "Flame Spellcraft": {
       "name": "火焰施法 Flame Spellcraft",
-      "description": "<p>此物品被注入了<strong>火焰</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>火焰</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>火焰</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>火焰</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。它还赋予<strong>2</strong>点<strong>元素施法</strong>的@UUID[Compendium.crucible.rules.JournalEntry.characterMechani.JournalEntryPage.proficiencies000]{熟练度}。</p>",
       "adjective": "火焰符文"
     },
     "Focusing": {
       "name": "专注 Focusing",
-      "description": "<p>赋予<strong>补充专注</strong>动作，使持有者能在危急关头恢复<strong>专注</strong>。恢复量随此词缀的<strong>阶</strong>提升。</p>",
+      "description": "<p>赋予<strong>补充专注</strong>动作，使持有者能在危急关头恢复@Rule[resource.focus]。恢复量随此词缀的<strong>阶</strong>提升。</p>",
       "adjective": "专注",
       "actions": {
         "affixFocusing": {
           "name": "补充专注 Replenish Focus",
-          "description": "<p>在危急关头，你可以从此物品中抽取一份额外的<strong>专注</strong>储备。恢复的专注量取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong><strong>4点专注</strong></p></li><li><p><strong>第2阶：</strong><strong>6点专注</strong></p></li><li><p><strong>第3阶：</strong><strong>8点专注</strong></p></li></ul>"
+          "description": "<p>在危急关头，你可以从此物品中抽取一份额外的@Rule[resource.focus]储备。恢复的@Rule[resource.focus]量取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶</strong>：<strong>4点专注</strong></p></li><li><p><strong>第2阶</strong>：<strong>6点专注</strong></p></li><li><p><strong>第3阶</strong>：<strong>8点专注</strong></p></li></ul>"
         }
       }
     },
@@ -311,33 +311,33 @@
     },
     "Frost Spellcraft": {
       "name": "霜冻施法 Frost Spellcraft",
-      "description": "<p>此物品被注入了<strong>霜冻</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>霜冻</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>霜冻</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>霜冻</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。它还赋予<strong>2</strong>点<strong>元素施法</strong>的@UUID[Compendium.crucible.rules.JournalEntry.characterMechani.JournalEntryPage.proficiencies000]{熟练度}。</p>",
       "adjective": "霜冻符文"
     },
     "Giant Bane": {
       "name": "巨人祸骰 Giant Bane",
-      "description": "<p>该武器对巨人生物尤为有效。对该类型的生物<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于该前缀<strong>阶</strong>的额外<strong>恩惠骰</strong>。</p>",
+      "description": "<p>该武器对<strong>巨人</strong>生物尤为有效。对该类型的生物目标进行<strong>打击</strong>时，攻击者获得等同于该前缀<strong>阶</strong>的额外@Rule[dice.boon]{恩惠骰}。</p>",
       "adjective": "屠巨人"
     },
     "Gliding": {
       "name": "滑翔 Gliding",
-      "description": "<p>赋予<strong>滑翔</strong>动作，使持有者能够在坠落期间横向滑翔。滑翔距离会随此前缀的<strong>阶</strong>提升而增加。</p>",
+      "description": "<p>赋予持有者@UUID[Compendium.crucible.adversary-talents.Item.glider0000000000]{滑翔者}天赋的效果，视同拥有该特性的生物，将原本的坠落变为受控的<strong>滑翔</strong>。</p>",
       "adjective": "滑翔",
       "actions": {
-        "gliding": {
-          "name": "滑翔 Gliding",
-          "description": "<p>在@Condition[falling]状态下使用时，你可以在滑翔的同时从初始位置横向移动若干格。滑翔距离取决于此前缀的<strong>阶</strong>。</p><ul><li><p><strong>第1阶：</strong>每下降 20 英尺可滑翔 <strong>1 英尺</strong>。</p></li><li><p><strong>第2阶：</strong>每下降 20 英尺可滑翔 <strong>2 英尺</strong>。</p></li><li><p><strong>第3阶：</strong>每下降 20 英尺可滑翔 <strong>4 英尺</strong>。</p></li></ul><p>着地时你不受坠落伤害，也不会陷入@Condition[prone]。</p>"
+        "fallGlide": {
+          "description": "<p>你以滑翔代替坠落，受控地向下飞行。该移动必须为下降，且不受坠落伤害。若你在仍处空中时结束滑翔，你将获得@Condition[flying]状态。</p>",
+          "name": "滑翔 Glide"
         }
       }
     },
     "Guarding": {
       "name": "守护 Guarding",
-      "description": "<p>此后缀的每<strong>阶</strong>使<strong>格挡</strong>防御提高1。</p>",
+      "description": "<p>此后缀的每<strong>阶</strong>使@Rule[defense.block]防御提高1。</p>",
       "adjective": "守护"
     },
     "Hale": {
       "name": "健壮 Hale",
-      "description": "<p>该前缀的每<strong>阶</strong>使最大<strong>生命值</strong>提高 6。</p>",
+      "description": "<p>该前缀的每<strong>阶</strong>使最大@Rule[resource.health]提高 6。</p>",
       "adjective": "健壮"
     },
     "Illumination Potency": {
@@ -347,7 +347,7 @@
     },
     "Illumination Spellcraft": {
       "name": "照明施法 Illumination Spellcraft",
-      "description": "<p>此物品被注入了<strong>照明</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>照明</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>照明</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>照明</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。它还赋予<strong>2</strong>点<strong>灵性施法</strong>的@UUID[Compendium.crucible.rules.JournalEntry.characterMechani.JournalEntryPage.proficiencies000]{熟练度}。</p>",
       "adjective": "照明符文"
     },
     "Illusion Potency": {
@@ -357,7 +357,7 @@
     },
     "Illusion Spellcraft": {
       "name": "幻象施法 Illusion Spellcraft",
-      "description": "<p>此物品被注入了<strong>幻象</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>幻象</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>幻象</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>幻象</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。它还赋予<strong>2</strong>点<strong>灵性施法</strong>的@UUID[Compendium.crucible.rules.JournalEntry.characterMechani.JournalEntryPage.proficiencies000]{熟练度}。</p>",
       "adjective": "幻象符文"
     },
     "Influence Spellcraft": {
@@ -367,7 +367,7 @@
     },
     "Keen": {
       "name": "敏锐 Keen",
-      "description": "<p>降低在成功的打击中造成<strong>暴击</strong>所需的<strong>暴击阈值</strong>。该阈值会随此词缀的每<strong>阶</strong>降低 1。</p>",
+      "description": "<p>降低在成功的<strong>打击</strong>中造成@Rule[dice.criticalSuccess]{暴击}所需的@Rule[dice.criticalSuccessThreshold]。该阈值会随此词缀的每<strong>阶</strong>降低 1。</p>",
       "adjective": "敏锐"
     },
     "Kinesis Potency": {
@@ -377,7 +377,7 @@
     },
     "Kinesis Spellcraft": {
       "name": "念力施法 Kinesis Spellcraft",
-      "description": "<p>此物品被注入了<strong>念力</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>念力</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>念力</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>念力</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。它还赋予<strong>2</strong>点<strong>动能施法</strong>的@UUID[Compendium.crucible.rules.JournalEntry.characterMechani.JournalEntryPage.proficiencies000]{熟练度}。</p>",
       "adjective": "念力符文"
     },
     "Life Potency": {
@@ -387,42 +387,42 @@
     },
     "Life Spellcraft": {
       "name": "生命施法 Life Spellcraft",
-      "description": "<p>此物品被注入了<strong>生命</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>生命</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>生命</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>生命</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。它还赋予<strong>2</strong>点<strong>动能施法</strong>的@UUID[Compendium.crucible.rules.JournalEntry.characterMechani.JournalEntryPage.proficiencies000]{熟练度}。</p>",
       "adjective": "生命符文"
     },
     "Luminary": {
       "name": "辉耀 Luminary",
-      "description": "<p>包含<strong>屈折</strong>的沉着<strong>动作</strong>获得恩惠骰。获得的恩惠骰数量等于此前缀的<strong>阶</strong>。只有一个词缀可以提供此增益。</p>",
+      "description": "<p>包含<strong>屈折</strong>的沉着<strong>动作</strong>获得恩惠骰。获得的恩惠骰数量等于此前缀的<strong>阶</strong>。只有一个<strong>词缀</strong>可以提供此增益。</p>",
       "adjective": "辉耀"
     },
     "Medicine": {
       "name": "医疗 Medicine",
-      "description": "<p>此前缀每有<strong>1 阶</strong>，医疗<strong>技能检定</strong>的<strong>附魔加值</strong>便提高1点。</p>",
+      "description": "<p>此前缀每有<strong>1 阶</strong>，@Rule[skill.medicine]技能检定的<strong>附魔加值</strong>便提高1点。</p>",
       "adjective": "医疗"
     },
     "Mending": {
       "name": "修补 Mending",
-      "description": "<p>每有1个此前缀的<strong>阶</strong>，<strong>创伤</strong>防御阈值便降低1点，使穿戴者更容易从创伤中恢复。</p>",
+      "description": "<p>每有1个此前缀的<strong>阶</strong>，@Rule[defense.wounds]便降低1点，使穿戴者更容易从创伤中恢复。</p>",
       "adjective": "修补"
     },
     "Monstrosity Bane": {
       "name": "畸怪祸骰 Monstrosity Bane",
-      "description": "<p>这种武器对畸怪生物特别有效。对该生物类型的<strong>目标</strong>进行<strong>打击</strong>时，攻击者获得等同于该前缀<strong>阶</strong>的额外<strong>恩惠骰</strong>。</p>",
+      "description": "<p>这种武器对<strong>畸怪</strong>生物特别有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于该前缀<strong>阶</strong>的额外@Rule[dice.boon]{恩惠骰}。</p>",
       "adjective": "屠畸怪"
     },
     "Nimbleness": {
       "name": "轻捷 Nimbleness",
-      "description": "<p>此后缀每有 1 <strong>阶</strong>，<strong>反射</strong>防御便提高 1。</p>",
+      "description": "<p>此后缀每有 1 <strong>阶</strong>，@Rule[defense.reflex]防御便提高 1。</p>",
       "adjective": "轻捷"
     },
     "Nonchalant": {
       "name": "漠然 Nonchalant",
-      "description": "<p>针对你的<strong>士气</strong>的打击需要更高的溢出来造成<strong>暴击</strong>。该前缀每有1个<strong>阶</strong>，暴击阈值就提高1。</p>",
+      "description": "<p>针对你的@Rule[resource.morale]的<strong>打击</strong>需要更高的溢出来造成@Rule[dice.criticalSuccess]{暴击}。该前缀每有1个<strong>阶</strong>，@Rule[dice.criticalSuccessThreshold]就提高1。</p>",
       "adjective": "漠然"
     },
     "Intimidation": {
       "name": "威吓 Intimidation",
-      "description": "<p>此前缀的每<strong>阶</strong>都会使威吓<strong>技能检定</strong>的<strong>附魔加值</strong>提高 1。</p>",
+      "description": "<p>此前缀的每<strong>阶</strong>都会使@Rule[skill.intimidation]技能检定的<strong>附魔加值</strong>提高 1。</p>",
       "adjective": "威吓"
     },
     "Oblivion Potency": {
@@ -432,22 +432,22 @@
     },
     "Oblivion Spellcraft": {
       "name": "湮灭施法 Oblivion Spellcraft",
-      "description": "<p>此物品被注入了<strong>湮灭</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>湮灭</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>湮灭</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>湮灭</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。它还赋予<strong>2</strong>点<strong>灵性施法</strong>的@UUID[Compendium.crucible.rules.JournalEntry.characterMechani.JournalEntryPage.proficiencies000]{熟练度}。</p>",
       "adjective": "湮灭符文"
     },
     "Ooze Bane": {
       "name": "软泥怪祸骰 Ooze Bane",
-      "description": "<p>该武器对<strong>软泥怪</strong>类型的生物尤其有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外<strong>恩惠骰</strong>。</p>",
+      "description": "<p>该武器对<strong>软泥怪</strong>类型的生物尤其有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外@Rule[dice.boon]{恩惠骰}。</p>",
       "adjective": "屠软泥"
     },
     "Outsider Bane": {
       "name": "异界生物祸骰 Outsider Bane",
-      "description": "<p>该武器对<strong>异界生物</strong>尤其有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外<strong>恩惠骰</strong>。</p>",
+      "description": "<p>该武器对<strong>异界生物</strong>尤其有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外@Rule[dice.boon]{恩惠骰}。</p>",
       "adjective": "屠异界"
     },
     "Performance": {
       "name": "表演 Performance",
-      "description": "<p>此前缀的每<strong>阶</strong>都会使表演<strong>技能检定</strong>的<strong>附魔加值</strong>提高1。</p>",
+      "description": "<p>此前缀的每<strong>阶</strong>都会使@Rule[skill.performance]技能检定的<strong>附魔加值</strong>提高1。</p>",
       "adjective": "表演"
     },
     "Piercing Damage": {
@@ -462,7 +462,7 @@
     },
     "Plant Bane": {
       "name": "植物祸骰 Plant Bane",
-      "description": "<p>这种武器对<strong>植物</strong>生物特别有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于该前缀<strong>阶</strong>的额外<strong>恩惠骰</strong>。</p>",
+      "description": "<p>这种武器对<strong>植物</strong>生物特别有效。对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于该前缀<strong>阶</strong>的额外@Rule[dice.boon]{恩惠骰}。</p>",
       "adjective": "屠植物"
     },
     "Poison Conversion": {
@@ -527,17 +527,17 @@
     },
     "Reach": {
       "name": "延伸 Reach",
-      "description": "<p>延展该武器的有效射程。近战武器每阶获得<strong>+1射程</strong>。远程武器每阶获得<strong>+10射程</strong>。</p>",
+      "description": "<p>延展该武器的有效射程。<strong>近战</strong>武器每阶获得<strong>+1射程</strong>。<strong>远程</strong>武器每阶获得<strong>+10射程</strong>。</p>",
       "adjective": "延伸"
     },
     "Reinforcement": {
       "name": "强化 Reinforcement",
-      "description": "<p>此后缀每有<strong>1 阶</strong>，便使<strong>护甲</strong>防御提高 1。</p>",
+      "description": "<p>此后缀每有<strong>1 阶</strong>，便使@Rule[defense.armor]防御提高 1。</p>",
       "adjective": "强化"
     },
     "Reliable": {
       "name": "可靠 Reliable",
-      "description": "<p>降低以此武器进行攻击检定时的严重失败阈值。该阈值每<strong>阶</strong>降低<strong>1</strong>。</p>",
+      "description": "<p>降低以此武器进行攻击检定时的@Rule[dice.criticalFailureThreshold]。该阈值<strong>每阶降低1</strong>。</p>",
       "adjective": "可靠"
     },
     "Returning": {
@@ -547,7 +547,7 @@
     },
     "Science": {
       "name": "科学 Science",
-      "description": "<p>此前缀的每<strong>阶</strong>都会使科学<strong>技能检定</strong>的<strong>附魔加值</strong>提高1。</p>",
+      "description": "<p>此前缀的每<strong>阶</strong>都会使@Rule[skill.science]技能检定的<strong>附魔加值</strong>提高1。</p>",
       "adjective": "科学"
     },
     "Sense Spellcraft": {
@@ -567,7 +567,7 @@
     },
     "Society": {
       "name": "社会 Society",
-      "description": "<p>此前缀的每<strong>阶</strong>都会使社交<strong>技能检定</strong>的<strong>附魔加值</strong>提高 1。</p>",
+      "description": "<p>此前缀的每<strong>阶</strong>都会使@Rule[skill.society]技能检定的<strong>附魔加值</strong>提高 1。</p>",
       "adjective": "交际"
     },
     "Soul Potency": {
@@ -577,17 +577,17 @@
     },
     "Soul Spellcraft": {
       "name": "灵魂施法 Soul Spellcraft",
-      "description": "<p>此物品被注入了<strong>灵魂</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>灵魂</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>灵魂</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>灵魂</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。它还赋予<strong>2</strong>点@UUID[Compendium.crucible.rules.JournalEntry.characterMechani.JournalEntryPage.proficiencies000]{熟练度}，用于<strong>灵性施法</strong>。</p>",
       "adjective": "灵魂符文"
     },
     "Spirited": {
       "name": "精神焕发 Spirited",
-      "description": "<p>此前缀的每<strong>阶</strong>使最大<strong>士气</strong>提高 6。</p>",
+      "description": "<p>此前缀的每<strong>阶</strong>使最大@Rule[resource.morale]提高 6。</p>",
       "adjective": "精神焕发"
     },
     "Stealth": {
       "name": "潜行 Stealth",
-      "description": "<p>此前缀的每<strong>阶</strong>都会使潜行<strong>技能检定</strong>的<strong>附魔加值</strong>提高 1。</p>",
+      "description": "<p>此前缀的每<strong>阶</strong>都会使@Rule[skill.stealth]技能检定的<strong>附魔加值</strong>提高 1。</p>",
       "adjective": "潜行"
     },
     "Step Spellcraft": {
@@ -607,17 +607,17 @@
     },
     "Tenacity": {
       "name": "顽强 Tenacity",
-      "description": "<p>此后缀每有<strong>1 阶</strong>，便使<strong>强韧</strong>防御提高 1。</p>",
+      "description": "<p>此后缀每有<strong>1 阶</strong>，便使@Rule[defense.fortitude]防御提高 1。</p>",
       "adjective": "顽强"
     },
     "Undead Bane": {
       "name": "不死生物祸骰 Undead Bane",
-      "description": "<p>这把武器对<strong>不死生物</strong>尤其有效。当对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外<strong>恩惠骰</strong>。</p>",
+      "description": "<p>这把武器对<strong>不死生物</strong>尤其有效。当对该生物类型的目标进行<strong>打击</strong>时，攻击者获得等同于此前缀<strong>阶</strong>的额外@Rule[dice.boon]{恩惠骰}。</p>",
       "adjective": "屠不死"
     },
     "Unshakeable": {
       "name": "不可动摇 Unshakeable",
-      "description": "<p>针对你的<strong>生命值</strong>的打击需要更高的溢出才能造成<strong>暴击</strong>。该前缀每有1个<strong>阶</strong>，暴击阈值就提高1。</p>",
+      "description": "<p>针对你的@Rule[resource.health]的<strong>打击</strong>需要更高的溢出才能造成@Rule[dice.criticalSuccess]{暴击}。该前缀每有1个<strong>阶</strong>，@Rule[dice.criticalSuccessThreshold]就提高1。</p>",
       "adjective": "不可动摇"
     },
     "Void Conversion": {
@@ -642,12 +642,12 @@
     },
     "Potency": {
       "name": "效力 Potency",
-      "description": "<p>根据该词缀的<strong>阶</strong>，为所有使用此武器进行的打击提供<strong>附魔加值</strong>。</p>",
+      "description": "<p>根据该词缀的<strong>阶</strong>，为所有使用此武器进行的<strong>打击</strong>提供<strong>附魔加值</strong>。</p>",
       "adjective": "效力"
     },
     "Wilderness": {
       "name": "荒野 Wilderness",
-      "description": "<p>每有此前缀的<strong>1 阶</strong>，荒野<strong>技能检定</strong>的<strong>附魔加值</strong>便增加1。</p>",
+      "description": "<p>每有此前缀的<strong>1 阶</strong>，@Rule[skill.wilderness]技能检定的<strong>附魔加值</strong>便增加1。</p>",
       "adjective": "荒野求生"
     },
     "Compose Spellcraft": {
@@ -723,13 +723,18 @@
     },
     "Storm Spellcraft": {
       "name": "风暴施法 Storm Spellcraft",
-      "description": "<p>此物品被注入了<strong>风暴</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>风暴</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。</p>",
+      "description": "<p>此物品被注入了<strong>风暴</strong>施法的精华。已装备时，持有者会本能地获得关于<strong>风暴</strong>符文的知识，使其即使未曾通过天赋习得该符文，也能使用它来构筑法术。它还赋予<strong>2</strong>点@UUID[Compendium.crucible.rules.JournalEntry.characterMechani.JournalEntryPage.proficiencies000]{熟练度}，用于<strong>元素施法</strong>。</p>",
       "adjective": "风暴符文"
     },
     "Vicious": {
       "name": "凶残 Vicious",
-      "description": "<p>使用此武器的打击若造成<strong>暴击</strong>，会残忍地撕扯伤口。</p><ul><li><p>造成<strong>穿刺</strong>或<strong>挥砍</strong>伤害的武器会使目标开始@Condition[bleeding]。</p></li><li><p>造成<strong>钝击</strong>伤害的武器会使目标陷入@Condition[staggered]。</p></li></ul>",
+      "description": "<p>使用此武器的<strong>打击</strong>若造成@Rule[dice.criticalSuccess]{暴击}，会残忍地撕扯伤口。</p><ul><li><p>造成<strong>穿刺</strong>或<strong>挥砍</strong>伤害的武器会使目标开始@Condition[bleeding]。</p></li><li><p>造成<strong>钝击</strong>伤害的武器会使目标陷入@Condition[staggered]。</p></li></ul>",
       "adjective": "凶残"
+    },
+    "Inspection": {
+      "adjective": "察验",
+      "description": "<p>@Action[default search]检定获得@Rule[dice.boon]{+2恩惠骰}。</p>",
+      "name": "察验 Inspection"
     }
   }
 }

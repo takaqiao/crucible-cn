@@ -9,6 +9,12 @@
     "Natural Weapons": "Natural Weapons"
   },
   "entries": {
+    "Antlers": {
+      "name": "Antlers",
+      "description": {
+        "public": "<p>The @ref[actor.name]{creature} has prominent antlers which it uses to defend itself and gore its enemies.</p>"
+      }
+    },
     "Beak": {
       "name": "Beak",
       "description": {

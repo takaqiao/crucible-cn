@@ -2,14 +2,15 @@
   "id": "crucible-cn",
   "title": "Crucible - Chinese Translation",
   "description": "Crucible 系统的简体中文翻译：合集内容经 Babele 加载，界面字符串走 Foundry 原生 i18n，并为中文补上字体回退与排版修正。需自行安装 Babele。Simplified Chinese translation for the Crucible system.",
-  "version": "0.9.19",
+  "version": "0.9.20",
   "compatibility": {
-    "minimum": "14",
-    "verified": "14"
+    "minimum": "14.368",
+    "verified": "14.368"
   },
   "authors": [
     {
-      "name": "Taka"
+      "name": "Taka",
+      "flags": {}
     }
   ],
   "relationships": {
@@ -27,8 +28,8 @@
         "id": "crucible",
         "type": "system",
         "compatibility": {
-          "minimum": "0.10.1",
-          "verified": "0.10.2"
+          "minimum": "0.11.1",
+          "verified": "0.11.1"
         }
       }
     ]
@@ -37,7 +38,8 @@
     {
       "lang": "cn",
       "name": "中文",
-      "path": "lang/cn.json"
+      "path": "lang/cn.json",
+      "flags": {}
     }
   ],
   "esmodules": [
@@ -52,7 +54,8 @@
   ],
   "url": "https://github.com/takaqiao/crucible-cn",
   "manifest": "https://github.com/takaqiao/crucible-cn/releases/latest/download/module.json",
-  "download": "https://github.com/takaqiao/crucible-cn/releases/download/0.9.19/module.zip",
+  "download": "https://github.com/takaqiao/crucible-cn/releases/download/0.9.20/module.zip",
   "bugs": "https://github.com/takaqiao/crucible-cn/issues",
-  "changelog": "https://github.com/takaqiao/crucible-cn/releases/tag/0.9.19"
+  "changelog": "https://github.com/takaqiao/crucible-cn/releases/tag/0.9.20",
+  "flags": {}
 }

@@ -15,7 +15,7 @@
   "entries": {
     "Amphibian": {
       "name": "两栖动物 Amphibian",
-      "description": "<p>栖息在水中或水边的野兽。两栖动物通常很灵巧，但有些种类则强力或体型较大。</p><ul><li><p><strong>体型</strong>：可变</p></li><li><p><strong>步幅</strong>：可变</p></li></ul>"
+      "description": "<p>栖息在水中或水边的野兽。两栖动物通常很灵巧，但有些种类则强力或体型较大。</p><ul><li><p>@Rule[movement.size]：可变</p></li><li><p>@Rule[movement.stride]：可变</p></li></ul>"
     },
     "Apparatus": {
       "name": "器械 Apparatus",
@@ -23,7 +23,7 @@
     },
     "Arachnid": {
       "name": "蛛形类 Arachnid",
-      "description": "<p>来自蛛形类家族的野兽，会吐丝结网来诱捕并捕食小型生物或昆虫。蛛形类通常灵巧且耐心，但某些种类偏好力量或攻击性。</p><ul><li><p><strong>体型</strong>：可变</p></li><li><p><strong>步幅</strong>：可变</p></li></ul>"
+      "description": "<p>来自蛛形类家族的野兽，会吐丝结网来诱捕并捕食小型生物或昆虫。蛛形类通常灵巧且耐心，但某些种类偏好力量或攻击性。</p><ul><li><p>@Rule[movement.size]：可变</p></li><li><p>@Rule[movement.stride]：可变</p></li></ul>"
     },
     "Boar": {
       "name": "野猪 Boar",
@@ -124,6 +124,10 @@
     "Stone Elemental": {
       "name": "岩石元素 Stone Elemental",
       "description": "<p>由坚实的活体岩石构成的巍峨元素生物：迟缓、不可撼动、经久不衰。它们借自身庞大的体量，引导大地的原始伟力。</p>"
+    },
+    "Moose": {
+      "description": "<p>略显憨傻、鼻子弯曲的面容，丝毫无损这种有蹄动物高大魁梧的威势。</p>",
+      "name": "驼鹿 Moose"
     }
   }
 }

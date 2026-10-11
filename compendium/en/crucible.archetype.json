@@ -12,6 +12,10 @@
       "name": "Adult Drake",
       "description": "<p>Fully grown drakes which are dangerous stalkers and pack hunters. </p>"
     },
+    "Gladiator": {
+      "name": "Gladiator",
+      "description": "<p>Formidable warriors who are near peerless in the art of one-on-one combat, using a mixture of honed reflex and toughened grit to outlast and outmatch their opponents.</p>"
+    },
     "Archer": {
       "name": "Archer",
       "description": "Ranged combatants with training is the use of bows."
@@ -63,6 +67,10 @@
     "Burrower": {
       "name": "Burrower",
       "description": "<p>Beasts or beast-like creatures which are expert at burrowing through solid material.</p>"
+    },
+    "Chirurgeon": {
+      "name": "Chirurgeon",
+      "description": "<p>Healers and sawbones, medical professionals and twisted poisoners.</p>"
     },
     "Chomper": {
       "name": "Chomper",
@@ -167,6 +175,10 @@
     "Skirmisher": {
       "name": "Skirmisher",
       "description": "A relentless and determined melee combatant that uses a mix of agility and power to subdue foes."
+    },
+    "Sorcerer": {
+      "name": "Sorcerer",
+      "description": "A magic user which wields flame and electricity in battle."
     },
     "Swashbuckler": {
       "name": "Swashbuckler",

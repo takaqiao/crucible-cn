@@ -4,11 +4,12 @@
 [![Foundry version](https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fversion%3Furl%3Dhttps%3A%2F%2Fgithub.com%2Ftakaqiao%2Fcrucible-cn%2Freleases%2Flatest%2Fdownload%2Fmodule.json&style=flat-square)](https://foundryvtt.com/packages/crucible-cn)
 [![Total downloads](https://img.shields.io/github/downloads/takaqiao/crucible-cn/total?style=flat-square&label=downloads&color=brightgreen)](https://github.com/takaqiao/crucible-cn/releases)
 [![Latest downloads](https://img.shields.io/github/downloads/takaqiao/crucible-cn/latest/total?style=flat-square&label=latest)](https://github.com/takaqiao/crucible-cn/releases/latest)
-[![Foundry VTT](https://img.shields.io/badge/Foundry%20VTT-v13%20%7C%20v14-orange?style=flat-square&logo=foundryvirtualtabletop&logoColor=white)](https://foundryvtt.com/)
+[![Foundry VTT](https://img.shields.io/badge/Foundry%20VTT-v14-orange?style=flat-square&logo=foundryvirtualtabletop&logoColor=white)](https://foundryvtt.com/)
 [![Crucible](https://img.shields.io/badge/system-Crucible-b35c00?style=flat-square)](https://foundryvtt.com/packages/crucible)
 [![Babele](https://img.shields.io/badge/Babele-required-7b3f99?style=flat-square)](https://foundryvtt.com/packages/babele)
 
 为 Foundry VTT 的 **Crucible** 系统及其官方合集提供中文翻译，依赖 Babele 加载。
+**当前版本 0.9.20，对应 Crucible 0.11.1。**
 
 ## 安装 / Install
 
@@ -23,7 +24,8 @@ https://github.com/takaqiao/crucible-cn/releases/latest/download/module.json
 ## 内容 / Contents
 
 - `lang/cn.json` — 系统主体 i18n
-- `compendium/cn/*.json` — Babele 翻译的合集包 JSON
+- `compendium/cn/*.json` — 16 个实际合集包的 Babele 译文及合集文件夹元数据。
+  官方声明的 `crafting` 包为空，未提供包数据，因此不另建译文包
 - `babele-register.js` — Babele 注册入口
 - `styles/crucible-cn.css` — 中文字体回退（Crucible 原字体 AwerySmallcaps /
   Vollkorn / CaslonAntique 实测 CJK 码位为 0，回退链末端只有裸 `serif`）
@@ -34,8 +36,8 @@ https://github.com/takaqiao/crucible-cn/releases/latest/download/module.json
 
 ## 依赖 / Requires
 
-- Foundry VTT **v14**（Crucible 0.10.1 自身要求核心 ≥ 14.364）
-- Crucible 系统 **v0.10.1+**
+- Foundry VTT **v14.368+**（`compatibility`：minimum 14.368 / verified 14.368）
+- Crucible 系统 **v0.11.1+**
 - [Babele](https://foundryvtt.com/packages/babele) **v2.9.1+**
 
 > 三项都由 Foundry 强制校验（版本不满足时**直接拒绝启用**，而不是只给个警告），

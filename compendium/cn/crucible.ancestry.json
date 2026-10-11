@@ -1,18 +1,13 @@
 {
   "label": "血统\nAncestries",
-  "folders": {},
+  "folders": {
+    "Ancestries": "血统",
+    "Ancestry Talents": "血统天赋"
+  },
   "entries": {
     "Devilkin": {
       "name": "魔裔 Devilkin",
       "description": "<p>你生来就对自己的创造具有出乎意料的魔法影响力。你的外表显露出一些明显征兆，迷信的人会将这些征兆与位面生物联系起来——绯红的皮肤、无用的翅膀或角、爬行动物般的眼睛。你对光的厌恶以及对火焰的超自然抗性，更让人难以打消你其实是真正恶魔的想法。</p>"
-    },
-    "Dwarven": {
-      "name": "矮人 Dwarven",
-      "description": "<p>和你的父母一样，你生来便拥有矮人持久的坚韧。你结实的身材与魁梧的体格外貌，正是一个生于大地与岩石的民族的标志。身体坚韧的传承由你继承，因为在你的胸膛中，跳动着一颗石之心。</p>"
-    },
-    "Elvish": {
-      "name": "精灵 Elvish",
-      "description": "<p>你的移动优雅，思维敏捷；你生来便是一名长寿的精灵。你轻盈灵巧的身形与雕琢般的五官，是一个将优雅视为生活方式的族群所传承下来的特质。你天生倾向于快速思考与精确的移动，这是数百年传统演化而来的结果。</p>"
     },
     "Giantkin": {
       "name": "巨人裔 Giantkin",
@@ -30,9 +25,133 @@
       "name": "人类 Human",
       "description": "<p>你出生于无数境况与遥远各地之间，是一名始终善于适应的人类。无论高矮、纤瘦、强壮还是圆胖，你的外貌若说有什么特点，那就是多种多样。人类最为人所知的是其基因中对决心的先天倾向，以及那些推动着顽强求生意志的传统。</p>"
     },
-    "Orcish": {
-      "name": "兽人 Orcish",
-      "description": "<p>你的诞生被一个骄傲而坚韧民族的星象与传统所标记。你高大且匀称的身躯，以及天生坚韧的体质，起源于一个暴露在严酷北方气候无情磨炼之下的民族。你的族人最为人所知的，首先是他们的力量与韧性。</p>"
+    "Devilkin Lineage": {
+      "description": "<p>血脉中的地狱之火在你的皮肤下闷燃，等待随你的攻击一同释放。</p><p><strong>热视觉。</strong>你获得@UUID[Compendium.crucible.adversary-talents.thermalVision000]的益处，半径为30英尺。</p>",
+      "name": "魔裔血统 Devilkin Lineage",
+      "actions": {
+        "hellbrand": {
+          "description": "<p>你消耗@Rule[resource.heroism]，使你的攻击缠绕地狱之火，持续<strong>3轮</strong>。你的每次攻击若对@Rule[resource.health]造成伤害，还会造成等于你@Rule[ability.presence]一半的额外<strong>火焰</strong>伤害。@Rule[dice.criticalSuccess]{暴击}会使目标陷入@Condition[burning]。</p>",
+          "name": "地狱烙印 Hellbrand",
+          "effects": [
+            {
+              "name": "地狱烙印 Hellbrand"
+            }
+          ]
+        }
+      }
+    },
+    "Dwarf Lineage": {
+      "description": "<p>你的族人从不忘记任何怠慢，你对誓敌的怒火如祖先殿堂的岩石般经久不息。</p><p><strong>黑暗视觉。</strong>世代生活在地下，使你的双眼适应了黑暗。你能在最远<strong>30英尺</strong>内将黑暗视作微光，以灰色色调感知周围环境。</p>",
+      "name": "矮人血统 Dwarf Lineage",
+      "actions": {
+        "grudgebearer": {
+          "description": "<p>你消耗@Rule[resource.heroism]，向一名你能看见的敌人立下复仇誓言。你对该敌人的攻击造成等于你@Rule[ability.wisdom]的额外伤害。</p><p>若你在自己的回合中没有攻击该敌人，仇怨会在该回合结束时终止。你同一时间只能怀有一份仇怨；立下新的复仇誓言会终止先前的仇怨。</p>",
+          "name": "记仇者 Grudgebearer",
+          "effects": [
+            {
+              "name": "仇怨 Grudge"
+            }
+          ]
+        }
+      }
+    },
+    "Dwarf": {
+      "description": "<p>和你的父母一样，你生来便拥有矮人持久的坚韧。你结实的身材与魁梧的体格外貌，正是一个生于大地与岩石的民族的标志。身体坚韧的传承由你继承，因为在你的胸膛中，跳动着一颗石之心。</p>",
+      "name": "矮人 Dwarf"
+    },
+    "Elf Lineage": {
+      "description": "<p>数百年的精灵传统磨砺了你的眼力，让你能找出任何防御中的破绽。</p><p><strong>出神。</strong>你以冥想出神代替睡眠，在休息时保持头脑清明。你免疫@Condition[asleep]和@Condition[disoriented]状态。</p>",
+      "name": "精灵血统 Elf Lineage",
+      "actions": {
+        "perfectPrecision": {
+          "description": "<p>你消耗@Rule[resource.heroism]，以无懈可击的精准发动打击。直到你的回合结束，你的@UUID[Compendium.crucible.rules.JournalEntry.QhZgmBrdLAGwYy5c.JournalEntryPage.lZfPVvBSsCEqlte4#critical-hits-and-misses]{重大成功阈值}降低<strong>3</strong>。</p>",
+          "name": "完美精准 Perfect Precision",
+          "effects": [
+            {
+              "name": "完美精准 Perfect Precision"
+            }
+          ]
+        }
+      }
+    },
+    "Elf": {
+      "description": "<p>你的移动优雅，思维敏捷；你生来便是一名长寿的精灵。你轻盈灵巧的身形与雕琢般的五官，是一个将优雅视为生活方式的族群所传承下来的特质。你天生倾向于快速思考与精确的移动，这是数百年传统演化而来的结果。</p>",
+      "name": "精灵 Elf"
+    },
+    "Giantkin Lineage": {
+      "description": "<p>主宰你诞生的元素之力，至今仍会回应你的呼唤。</p><p><strong>强壮体格。</strong>你庞大的身躯能承受足以压垮他人的重担。你的负重能力提高<strong>50%</strong>。</p>",
+      "name": "巨人裔血统 Giantkin Lineage",
+      "actions": {
+        "elementalBirthright": {
+          "description": "<p>你消耗@Rule[resource.heroism]，唤起与生俱来的元素之力。直到你的下个回合开始，你获得等于你@Rule[ability.wisdom]的<strong>强酸</strong>、<strong>寒冷</strong>、<strong>电击</strong>和<strong>火焰</strong>伤害抗性，你造成的任何<strong>强酸</strong>、<strong>寒冷</strong>、<strong>电击</strong>或<strong>火焰</strong>伤害也增加等于你@Rule[ability.wisdom]的数值。</p>",
+          "name": "元素天赋 Elemental Birthright",
+          "effects": [
+            {
+              "name": "元素天赋 Elemental Birthright"
+            }
+          ]
+        }
+      }
+    },
+    "Gnome Lineage": {
+      "description": "<p>侏儒随机应变的天赋，让你能从随身携带的工具和调制品中多榨取一点效用。</p><p><strong>巧匠腰带。</strong>你巧妙地安排装备，将更多物品放在触手可及之处。你的工具带栏位<strong>+1</strong>。</p>",
+      "name": "侏儒血统 Gnome Lineage",
+      "actions": {
+        "tinkersTrick": {
+          "description": "<p>你消耗@Rule[resource.heroism]，准备一个巧妙的把戏。在你的回合结束前，你从工具带中使用的下一件消耗品无需花费@Rule[resource.action]，也不会被消耗。</p>",
+          "name": "巧匠把戏 Tinker's Trick",
+          "effects": [
+            {
+              "name": "巧匠把戏 Tinker's Trick"
+            }
+          ]
+        }
+      }
+    },
+    "Halfling Lineage": {
+      "description": "<p>半身人的勇气远超其身形所显，即使经历最痛苦的考验，你的精神也能迅速恢复。</p><p><strong>小巧灵活。</strong>你轻巧的身形容易避开视线、挣脱抓握。你获得@Rule[dice.boon]{+1个恩惠骰}，适用于使用@Action[default escape]、@Action[default hide]或<strong>潜行</strong>动作时。</p>",
+      "name": "半身人血统 Halfling Lineage",
+      "actions": {
+        "stoutHeart": {
+          "description": "<p>你消耗@Rule[resource.heroism]来坚定决心，立即恢复@Rule[resource.morale]，数值等于你@Rule[ability.presence]的两倍，这可以让你从@Condition[broken]中恢复。你还会结束@Condition[frightened]和@Condition[confused]状态。在<strong>战斗</strong>中，你可以在自己回合之外、执行@Rule[action.reaction]前使用此动作。</p>",
+          "name": "坚毅之心 Stout Heart"
+        }
+      }
+    },
+    "Human Lineage": {
+      "description": "<p>人类以顽强的求生意志著称，即使面对足以令他人止步的艰难，也会继续前进。</p><p><strong>适应力强。</strong>你的族人能迅速学会应对眼下需要的本领。你获得<strong>+2</strong>熟练度点数。</p>",
+      "name": "人类血统 Human Lineage",
+      "actions": {
+        "pushThrough": {
+          "description": "<p>你消耗@Rule[resource.heroism]来冲破逆境。直到你的回合结束，你的攻击和技能检定忽略施加于其上的任何@Rule[dice.bane]{祸骰}。你自愿承受的祸骰不会被忽略。</p>",
+          "name": "突破逆境 Push Through",
+          "effects": [
+            {
+              "name": "突破逆境 Push Through"
+            }
+          ]
+        }
+      }
+    },
+    "Orc Lineage": {
+      "description": "<p>严酷的北方气候锻造了你的族人，让他们越是接近死亡，就越是奋力战斗。</p><p><strong>伤痕之皮。</strong>你的伤势越严重，就越难被击倒。你获得<strong>物理</strong>伤害抗性，数值等于你的@Rule[ability.toughness]乘以已承受创伤占最大@Rule[resource.wounds]的比例，向下取整。</p>",
+      "name": "兽人血统 Orc Lineage",
+      "actions": {
+        "deathlessFury": {
+          "condition": "你的生命值不高于你的创伤时",
+          "description": "<p>当你的@Rule[resource.health]不高于你的@Rule[resource.wounds]时，你可以消耗@Rule[resource.heroism]进入不死狂怒。狂怒持续期间，你忽略@Condition[weakened]的所有减益，且你的@Action[default strike]攻击获得@Rule[dice.boon]{+1个恩惠骰}。</p><p>当你的@Rule[resource.health]高于你的@Rule[resource.wounds]，或<strong>战斗</strong>结束时，狂怒终止。</p>",
+          "name": "不死狂怒 Deathless Fury",
+          "effects": [
+            {
+              "name": "不死狂怒 Deathless Fury"
+            }
+          ]
+        }
+      }
+    },
+    "Orc": {
+      "description": "<p>你的诞生被一个骄傲而坚韧民族的星象与传统所标记。你高大且匀称的身躯，以及天生坚韧的体质，起源于一个暴露在严酷北方气候无情磨炼之下的民族。你的族人最为人所知的，首先是他们的力量与韧性。</p>",
+      "name": "兽人 Orc"
     }
   }
 }

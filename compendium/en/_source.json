@@ -1,59 +1,59 @@
 {
   "packageId": "crucible",
-  "packageVersion": "0.10.2",
+  "packageVersion": "0.11.1",
   "packageType": "system",
   "mappingTarget": "crucible",
-  "extractedAt": "2026-08-16T19:45:03.382Z",
+  "extractedAt": "2026-10-11T10:28:32.006Z",
   "extractedBy": "Ember-Crucible Translation Project / 3-常用脚本/extract/extract_en.mjs",
-  "declaredPacks": 16,
-  "extractedPacks": 15,
+  "declaredPacks": 17,
+  "extractedPacks": 16,
   "skippedPacks": [
     {
       "pack": "crafting",
       "type": "Item",
       "reason": "missing pack directory",
-      "detail": "C:\\Users\\Taka\\AppData\\Local\\FoundryVTT\\Data\\systems\\crucible\\packs\\crafting"
+      "detail": "output\\ember-crucible-update-20261011\\sources\\crucible\\packs\\crafting"
     }
   ],
   "packs": [
     {
       "pack": "adversary-equipment",
       "documentType": "Item",
-      "documents": 53,
+      "documents": 54,
       "mergedDuplicates": 0,
-      "entries": 53,
+      "entries": 54,
       "folders": 6
     },
     {
       "pack": "adversary-talents",
       "documentType": "Item",
-      "documents": 76,
+      "documents": 79,
       "mergedDuplicates": 0,
-      "entries": 76,
-      "folders": 19
+      "entries": 79,
+      "folders": 18
     },
     {
       "pack": "affixes",
       "documentType": "ActiveEffect",
-      "documents": 135,
+      "documents": 136,
       "mergedDuplicates": 0,
-      "entries": 135,
+      "entries": 136,
       "folders": 18
     },
     {
       "pack": "ancestry",
       "documentType": "Item",
-      "documents": 8,
+      "documents": 16,
       "mergedDuplicates": 0,
-      "entries": 8,
-      "folders": 0
+      "entries": 16,
+      "folders": 2
     },
     {
       "pack": "archetype",
       "documentType": "Item",
-      "documents": 45,
+      "documents": 48,
       "mergedDuplicates": 0,
-      "entries": 45,
+      "entries": 48,
       "folders": 5
     },
     {
@@ -67,10 +67,18 @@
     {
       "pack": "equipment",
       "documentType": "Item",
-      "documents": 166,
+      "documents": 180,
       "mergedDuplicates": 0,
-      "entries": 166,
-      "folders": 31
+      "entries": 180,
+      "folders": 32
+    },
+    {
+      "pack": "effects",
+      "documentType": "ActiveEffect",
+      "documents": 15,
+      "mergedDuplicates": 0,
+      "entries": 15,
+      "folders": 2
     },
     {
       "pack": "macros",
@@ -123,17 +131,17 @@
     {
       "pack": "talent",
       "documentType": "Item",
-      "documents": 325,
+      "documents": 291,
       "mergedDuplicates": 0,
-      "entries": 325,
-      "folders": 47
+      "entries": 291,
+      "folders": 68
     },
     {
       "pack": "taxonomy",
       "documentType": "Item",
-      "documents": 28,
+      "documents": 29,
       "mergedDuplicates": 0,
-      "entries": 28,
+      "entries": 29,
       "folders": 10
     }
   ]

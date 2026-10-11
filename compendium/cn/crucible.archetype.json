@@ -187,6 +187,18 @@
     "Prankster": {
       "name": "恶作剧者 Prankster",
       "description": "<p>以捣乱、滋扰、戏弄与欺瞒为乐的类人生物。</p>"
+    },
+    "Chirurgeon": {
+      "description": "<p>治疗者与外科医，专业的医者与扭曲的施毒者。</p>",
+      "name": "外科医 Chirurgeon"
+    },
+    "Gladiator": {
+      "description": "<p>强悍的战士，在单打独斗的技艺上几乎无人能及。他们凭借磨砺的反射与坚毅的意志，比对手更能坚持，也更胜一筹。</p>",
+      "name": "角斗士 Gladiator"
+    },
+    "Sorcerer": {
+      "description": "在战斗中驾驭火焰与闪电的施法者。",
+      "name": "术士 Sorcerer"
     }
   }
 }

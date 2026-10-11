@@ -326,6 +326,12 @@
       "description": {
         "public": "<p>@ref[actor.name]{该生物}以涂满毒素的肢体挥击，凡触及之物皆中毒。</p>"
       }
+    },
+    "Antlers": {
+      "name": "鹿角 Antlers",
+      "description": {
+        "public": "<p>该@ref[actor.name]{生物}长有醒目的鹿角，用以保护自己并刺穿敌人。</p>"
+      }
     }
   }
 }

@@ -3,5 +3,7 @@
   "DICE.DC",
   "DICE.DCSpecific",
   "DICE.UnknownScore",
-  "SKILL.TooltipPassive"
+  "SKILL.TooltipPassive",
+  "ACTOR.TrainingSpecific",
+  "TALENT.TrainingGrant"
 ]

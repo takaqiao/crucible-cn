@@ -1,0 +1,69 @@
+{
+  "label": "系统效果",
+  "folders": {
+    "Damage Over Time": "持续伤害",
+    "Healing Over Time": "持续治疗"
+  },
+  "entries": {
+    "Bleeding (Piercing)": {
+      "description": "<p>处于@Condition[bleeding]（穿刺）的生物，会在其后续回合开始时受到对@Rule[resource.health]的额外<strong>穿刺</strong>伤害。</p>",
+      "name": "流血（穿刺） Bleeding (Piercing)"
+    },
+    "Bleeding (Slashing)": {
+      "description": "<p>处于@Condition[bleeding]的生物，会在其后续回合开始时受到对@Rule[resource.health]的额外<strong>挥砍</strong>伤害。</p>",
+      "name": "流血（挥砍） Bleeding (Slashing)"
+    },
+    "Burning": {
+      "description": "<p>处于@Condition[burning]的生物，会在其后续回合开始时受到同时作用于@Rule[resource.health]和@Rule[resource.morale]的额外<strong>火焰</strong>伤害。</p>",
+      "name": "燃烧 Burning"
+    },
+    "Confused": {
+      "description": "<p>处于@Condition[confused]的生物，会在每个回合开始时受到对@Rule[resource.morale]的<strong>灵能</strong>伤害，并且也视为处于@Condition[disoriented]状态。</p>",
+      "name": "混乱 Confused"
+    },
+    "Corroding": {
+      "description": "<p>处于@Condition[corroding]的生物，会在其后续回合开始时受到对@Rule[resource.health]的额外<strong>强酸</strong>伤害。</p>",
+      "name": "腐蚀 Corroding"
+    },
+    "Decaying": {
+      "description": "<p>处于@Condition[decaying]的生物，会在其后续回合开始时受到对@Rule[resource.health]的额外<strong>腐化</strong>伤害。</p>",
+      "name": "腐坏 Decaying"
+    },
+    "Dominated": {
+      "description": "<p>处于@Condition[dominated]的生物，会在每个回合开始时受到对@Rule[resource.morale]的<strong>灵能</strong>伤害。</p>",
+      "name": "支配 Dominated"
+    },
+    "Entropy": {
+      "description": "<p>陷入@Condition[entropy]的生物，会在每个回合开始时受到对@Rule[resource.health]的<strong>虚空</strong>伤害，并且也视为处于@Condition[frightened]状态。</p>",
+      "name": "熵蚀 Entropy"
+    },
+    "Freezing": {
+      "description": "<p>处于@Condition[freezing]的生物，会在其后续回合开始时受到对@Rule[resource.health]的额外<strong>寒冷</strong>伤害。</p>",
+      "name": "冰冻 Freezing"
+    },
+    "Inspired": {
+      "description": "<p>处于@Condition[inspired]的生物，会在其每个回合开始时逐渐恢复@Rule[resource.morale]。</p>",
+      "name": "鼓舞 Inspired"
+    },
+    "Irradiated": {
+      "description": "<p>处于@Condition[irradiated]的生物，会在其后续回合开始时受到同时作用于@Rule[resource.health]和@Rule[resource.morale]的额外<strong>光耀</strong>伤害。</p>",
+      "name": "辐照 Irradiated"
+    },
+    "Mending": {
+      "description": "<p>处于@Condition[mending]的生物，会在其每个回合开始时逐渐恢复@Rule[resource.health]。</p>",
+      "name": "修补 Mending"
+    },
+    "Poisoned": {
+      "description": "<p>处于@Condition[poisoned]的生物，会在其后续回合开始时受到对@Rule[resource.health]的额外<strong>毒素</strong>伤害。</p>",
+      "name": "中毒 Poisoned"
+    },
+    "Shocked": {
+      "description": "<p>处于@Condition[shocked]的生物，会在每个回合开始时受到对@Rule[resource.morale]的<strong>电击</strong>伤害。</p>",
+      "name": "感电 Shocked"
+    },
+    "Suffocating": {
+      "description": "<p>处于@Condition[suffocating]的生物，会在每个回合开始时受到同时作用于@Rule[resource.wounds]和@Rule[resource.madness]的<strong>虚空</strong>伤害，代表无法呼吸空气引起的肺部创伤和恐慌。窒息期间，该生物同时处于@Condition[silenced]状态。</p>",
+      "name": "窒息 Suffocating"
+    }
+  }
+}
